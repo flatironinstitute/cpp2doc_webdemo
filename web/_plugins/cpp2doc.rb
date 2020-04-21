@@ -17,18 +17,32 @@ module Jekyll
       puts result
       puts "COUCOU "
     end
+
+    def get_brief(name, ns_qname, allbriefs)
+      allbriefs [ns_qname+ '::'+ name]
+    end
   end
 
+
+  
   module Reading
   class Generator < Jekyll::Generator
     def generate(site)
 
-      reading = site.pages.detect {|page| page.name == 'K2.md'}
-      readingKKK = site.pages.detect {|page| page.name == 'KKKK.md'}
+      briefs = {}
+      site.pages.each do |page|
+        if page['layout'] == 'function'
+          briefs[page['qualified_name']] = page['brief']
+        end 
+      end
+      #briefs = site.pages.map{ |page| page.qualified_name
+      #reading = site.pages.detect {|page| page.name == 'K2.md'}
+      #readingKKK = site.pages.detect {|page| page.name == 'KKKK.md'}
       #reading.data['injected'] = "INJECTED DATA: " + readingKKK.data["documentation"]['long']
      
-      site.data["ALLFILES"] =  Dir.glob("_pages/doc/**/*.{md}")
-      puts "GLOBING"
+      site.data["allbriefs"] = briefs 
+      #Dir.glob("_pages/doc/**/*.{md}")
+      puts "Computing briefs"
     end
   end
 end

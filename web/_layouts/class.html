@@ -20,7 +20,6 @@ layout: default
 
  {{page.desc |markdownify}}
 
-
  <!--Description of each overload-->
 <ol style="list-style-type:decimal;">
 {% for entity in page.overloads %}
@@ -57,7 +56,10 @@ layout: default
     <tr>
      <td class="method-name" align="right"> <a href="{{ name }}_.html"> {{name}} </a>  </td>
      <td > <b>-</b> </td>
-     <td class="method-brief"> {{ name | get_brief }} </td>
+     <td class="method-brief"> 
+      <!--FIXME : remove p ?-->
+      {{ name | get_brief : page.qualified_name, site.data.allbriefs | markdownify | remove: '<p>' | remove: '</p>'}} 
+     </td>
     </tr>
  {% endfor %}
 </table>
@@ -66,7 +68,7 @@ layout: default
 
 <h5> Non member functions</h5>
 <h5> Member fields</h5>
-<h5> Member fields</h5>
+<h5> Member types</h5>
 
  <!-- Example FACTORIZE with function -->
 

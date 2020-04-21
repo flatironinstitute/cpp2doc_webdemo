@@ -3,9 +3,14 @@ layout: class
 short_name: A
 qualified_name: A
 namespaces: []
-description: __MISSING__
+desc: |
+  A very *long* and *boring* description of the function A
+  maybe with some equations
+
+  $$ \int f(x) \ dx = 0 $$
+
 includer: file1.hpp
-brief: __MISSING__
+brief: The short description of A
 tparams:
   T: Doc of T
 methods:
