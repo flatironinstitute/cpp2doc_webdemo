@@ -2,7 +2,7 @@
 layout: function
 short_name: m_static
 qualified_name: A::m_static
-namespaces: []
+namespaces: [A]
 includer: file1.hpp
 brief: __MISSING__
 overloads:

@@ -2,7 +2,7 @@
 layout: function
 short_name: operator=
 qualified_name: C1::operator=
-namespaces: []
+namespaces: [C1]
 includer: file1.hpp
 brief: __MISSING__
 overloads:

@@ -1,7 +1,7 @@
 ---
 layout: class
 short_name: A<int>
-qualified_name: A
+qualified_name: A<int>
 namespaces: []
 desc: __MISSING__
 includer: file1.hpp
@@ -16,6 +16,6 @@ example:
   desc: __MISSING__
   code: __MISSING__
 see-also: []
-signature: struct A<int>
+signature: template<> struct A<int>
 source: src/test.hpp
 ...

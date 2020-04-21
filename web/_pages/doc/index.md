@@ -13,8 +13,8 @@ functions:
   - make
 classes:
   - C1
-  - CNested
   - A
-  - "A<int>"
+  - A<int>
   - B
 ...
+

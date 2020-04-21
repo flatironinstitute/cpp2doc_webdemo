@@ -2,7 +2,7 @@
 layout: function
 short_name: g
 qualified_name: A::g
-namespaces: []
+namespaces: [A]
 includer: file1.hpp
 brief: __MISSING__
 overloads:
