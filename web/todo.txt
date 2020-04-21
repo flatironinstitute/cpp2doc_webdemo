@@ -1,0 +1,27 @@
+
+REPLACE end --- by ... (pyaaml )
+
+
+1
+ config file name collide iwth jekyll : 
+config_cpp2doc.yml
+
+2
+config file NOT in docdir : 
+
+
+ config : 
+   sourcepaths : wiht refe
+   docdir: _pages
+   
+
+cpp2doc config_cpp2doc.yml 
+
+3
+add layout in pages.
+
+4- 
+function
+classe
+
+copy adapt hyde pages.

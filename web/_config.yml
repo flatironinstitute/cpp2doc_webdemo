@@ -1,0 +1,16 @@
+# Site Settings
+title: Start Jekyll
+email: oparcollet@flatironinstitute.org
+description: >
+  TEST
+#baseurl: "/startjekyll"
+#url: "http://parcollet.github.io"
+url: "http://localhost:4000"
+#github_username:  parcollet
+# Build Settings
+sass:
+  sass_dir: _sass
+include: ['_pages']
+kramdown:
+  input: GFM
+#theme: minima

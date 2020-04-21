@@ -1,0 +1,95 @@
+---
+layout: default
+---
+
+<br/>
+
+ <!-- Brief description of the class -->
+
+ {{page.brief |markdownify}}
+
+<!--Includer-->
+
+<div> Defined in header <span  class='includer'> &lt;{{page.includer}}&gt; </span>
+
+<!-- Signature  -->
+
+<span class='signature'> {% highlight c++ %}  {{page.signature}} {% endhighlight %}       </span>
+
+ <!-- Description of the class -->
+
+ {{page.desc |markdownify}}
+
+
+ <!--Description of each overload-->
+<ol style="list-style-type:decimal;">
+{% for entity in page.overloads %}
+<li>
+ {%- if entity[1].deprecated -%}[DEPRECATED]{%- endif -%}
+ {{entity[1].description| markdownify}}
+{% endfor %} 
+</ol>
+
+
+ <!-- Template parameters -->
+
+{% if page.tparams %}
+<h5> Template parameters</h5>
+
+<table class='tparam-table' >
+ {% for param in page.tparams%}
+    <tr>
+     <td class="param-name" valign="top" align="right"> {{param[0]}} </td>
+     <td valign="top"> <b>-</b> </td>
+     <td class="param-value"> {{param[1] |markdownify | remove: '<p>' | remove: '</p>'	}} </td>
+    </tr>
+ {% endfor %}
+</table>
+{% endif %}
+
+ <!-- Methods FIXME : regrouping. Write the get_brief Ruby filter-->
+
+{% if page.methods %}
+<h5> Member functions</h5>
+
+<table class='method-table' >
+ {% for name in page.methods%}
+    <tr>
+     <td class="method-name" align="right"> <a href="{{ name }}_.html"> {{name}} </a>  </td>
+     <td > <b>-</b> </td>
+     <td class="method-brief"> {{ name | get_brief }} </td>
+    </tr>
+ {% endfor %}
+</table>
+{% endif %}
+
+
+<h5> Non member functions</h5>
+<h5> Member fields</h5>
+<h5> Member fields</h5>
+
+ <!-- Example FACTORIZE with function -->
+
+ <h5> Example </h5>
+
+{{page.example.desc|markdownify}}
+
+<div>
+    {% highlight cpp %}{{page.example.code|strip}}{% endhighlight %}
+</div>
+
+ <!-- See Also links -->
+
+<h5> See also </h5>
+<table class='table-seealso' >
+ {%- for sa in page.see-also -%}
+    <tr>
+     <td class="" align="right"> <a href="{{sa[0] |replace: "::", "/"}}.html"> {{sa[0]}} </a> </td>
+     <td > <b>-</b> </td>
+     <td class=""> {{sa[1] |markdownify }} </td>
+    </tr>
+ {%- endfor -%}
+</table>
+
+{{ content }}
+

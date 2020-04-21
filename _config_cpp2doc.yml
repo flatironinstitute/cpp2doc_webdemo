@@ -1,0 +1,31 @@
+
+
+# Configuration file. Edit the options below
+
+doc_dir: "doc/_pages" # The directory where to write the doc.
+sources:      # A list of the sources to be parsed
+  - file1.hpp
+
+source_file_only: false # Document only functions/classes/... in the source file, excluding indirect includes
+compile_examples: false # Compile the example to check them.
+
+# source_prefix:  # A prefix to remove from the source files
+
+# white_list: # A list of regex, e.g, ["n1::.*"]
+# black_list: # A list of regex, e.g, ["n1::.*"]
+# namespaces: # REDONDANT ?
+
+# includers:             # regex -> filename
+
+# include_dirs:          # Include dirs ?
+# system_include_dirs:   #  A list of includes
+# cxxflags:              # e.g. "-std=c++17 -DCPP2DOC=1 "
+
+namespaces: []  # Enumerate the namespaces to grab
+white_list: []  # A list of REGEX to accept. 
+black_list: []  # A list of REGEX to reject.
+
+# source_root:  
+# source_remote_prefix: # https://github.com/TRIQS/triqs/blob/2.2.x/
+
+
