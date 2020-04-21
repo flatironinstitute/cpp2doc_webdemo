@@ -14,7 +14,7 @@ layout: default
 <table class='method-table' >
  {% for name in page.functions%}
     <tr>
-     <td class="method-name" align="right"> <a href="{{ name }}_.html"> {{name}} </a>  </td>
+     <td class="method-name" align="right"> <a href="{{ name | escape }}_.html"> {{name}} </a>  </td>
      <td > <b>-</b> </td>
      <td class="method-brief"> 
       {%- if page.qualified_name.blank -%}
@@ -36,7 +36,7 @@ layout: default
 <table class='method-table' >
  {% for name in page.classes%}
     <tr>
-     <td class="method-name" align="right"> <a href="{{ name |escape  }}/index.html"> {{name |escape}} </a>  </td>
+     <td class="method-name" align="right"> <a href="{{ name | escape  }}/index.html"> {{name |escape}} </a>  </td>
      <td > <b>-</b> </td>
      <td class="method-brief"> 
      {%- if page.qualified_name.blank -%}
