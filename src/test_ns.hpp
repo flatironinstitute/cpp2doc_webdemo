@@ -5,6 +5,8 @@
 
 #define NO_INCLUDE
 
+#include "./test.hpp"
+
 namespace N1 {
 
 #include "./test.hpp"

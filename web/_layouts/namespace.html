@@ -8,6 +8,21 @@ layout: default
 
  {{page.brief |markdownify}}
 
+ {% if page.namespaces %}
+<h5> Namespaces</h5>
+
+<table class='method-table' >
+ {% for name in page.namespaces%}
+    <tr>
+     <td class="method-name" align="right"> <a href="{{ name | escape }}_.html"> {{name}} </a>  </td>
+     <td > <b>-</b> </td>
+     </td>
+    </tr> 
+ {% endfor %}
+</table>
+{% endif %}
+
+
 {% if page.functions %}
 <h5> Functions</h5>
 

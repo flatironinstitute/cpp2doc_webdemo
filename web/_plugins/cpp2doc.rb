@@ -12,10 +12,7 @@ module Jekyll
   module MyFilter2
     def get_example(fname, site)
       result = site.pages.find {|item| item["short_name"] == fname}
-      puts site.pages[0]
       result["Example"]
-      puts result
-      puts "COUCOU "
     end
 
     def get_briefv1(name, ns_qname, allbriefs)
@@ -23,8 +20,6 @@ module Jekyll
     end
    
     def get_brief(qname, allbriefs)
-      puts qname
-      puts allbriefs [qname]
       allbriefs [qname]
     end
   end

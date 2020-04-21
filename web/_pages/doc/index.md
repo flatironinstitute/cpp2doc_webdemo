@@ -1,6 +1,6 @@
 ---
 layout: namespace
-qualified_name: ""
+qualified_name: /
 namespaces: []
 functions:
   - f
@@ -17,4 +17,3 @@ classes:
   - A<int>
   - B
 ...
-
