@@ -18,8 +18,12 @@ module Jekyll
       puts "COUCOU "
     end
 
-    def get_brief(name, ns_qname, allbriefs)
+    def get_briefv1(name, ns_qname, allbriefs)
       allbriefs [ns_qname+ '::'+ name]
+    end
+   
+    def get_brief(qname, allbriefs)
+      allbriefs [qname]
     end
   end
 

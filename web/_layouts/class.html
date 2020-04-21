@@ -58,9 +58,11 @@ layout: default
      <td > <b>-</b> </td>
      <td class="method-brief"> 
       <!--FIXME : remove p ?-->
-      {{ name | get_brief : page.qualified_name, site.data.allbriefs | markdownify | remove: '<p>' | remove: '</p>'}} 
+      {% assign qname =  page.qualified_name |append: '::' |append: name %}
+      {{ qname | get_brief: site.data.allbriefs | markdownify | remove: '<p>' | remove: '</p>'}} 
+      <!--{{ name | get_briefv1 : page.qualified_name, site.data.allbriefs | markdownify | remove: '<p>' | remove: '</p>'}} -->
      </td>
-    </tr>
+    </tr> 
  {% endfor %}
 </table>
 {% endif %}
