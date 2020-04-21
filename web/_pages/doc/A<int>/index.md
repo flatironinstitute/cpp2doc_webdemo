@@ -3,7 +3,7 @@ layout: class
 short_name: A<int>
 qualified_name: A
 namespaces: []
-description: __MISSING__
+desc: __MISSING__
 includer: file1.hpp
 brief: __MISSING__
 methods: [f]

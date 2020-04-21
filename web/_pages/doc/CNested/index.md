@@ -3,7 +3,7 @@ layout: class
 short_name: CNested
 qualified_name: C1::CNested
 namespaces: []
-description: __MISSING__
+desc: __MISSING__
 includer: file1.hpp
 brief: __MISSING__
 methods: [f]

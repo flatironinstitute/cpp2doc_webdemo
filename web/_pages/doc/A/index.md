@@ -6,9 +6,8 @@ namespaces: []
 desc: |
   A very *long* and *boring* description of the function A
   maybe with some equations
-
+  
   $$ \int f(x) \ dx = 0 $$
-
 includer: file1.hpp
 brief: The short description of A
 tparams:

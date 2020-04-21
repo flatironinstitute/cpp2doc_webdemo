@@ -4,7 +4,7 @@ short_name: f
 qualified_name: A::f
 namespaces: []
 includer: file1.hpp
-brief: A brief doc of A::f 
+brief: A brief doc of A::f
 overloads:
   void A::f(int u) noexcept const:
     desc: __MISSING__
@@ -15,9 +15,9 @@ overloads:
 desc: __MISSING__
 return_value: __MISSING__
 params:
-  u: Doc of u 
+  u: Doc of u
   w: A **great** doc of w
-  k: 
+  k: ""
 example:
   desc: __MISSING__
   code: __MISSING__

@@ -1,4 +1,6 @@
 ---
+layout: namespace
+qualified_name: ""
 namespaces: []
 functions:
   - f
@@ -13,6 +15,6 @@ classes:
   - C1
   - CNested
   - A
-  - A<int>
+  - "A<int>"
   - B
 ...

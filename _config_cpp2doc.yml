@@ -2,7 +2,7 @@
 
 # Configuration file. Edit the options below
 
-doc_dir: "web/_pages/doc/" # The directory where to write the doc.
+doc_dir: "web/_pages/doc" # The directory where to write the doc.
 sources:      # A list of the sources to be parsed
   - file1.hpp
 

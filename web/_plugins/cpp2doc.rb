@@ -23,6 +23,8 @@ module Jekyll
     end
    
     def get_brief(qname, allbriefs)
+      puts qname
+      puts allbriefs [qname]
       allbriefs [qname]
     end
   end
@@ -35,7 +37,7 @@ module Jekyll
 
       briefs = {}
       site.pages.each do |page|
-        if page['layout'] == 'function'
+        if page['layout'] == 'function'  or page['layout'] == 'class'
           briefs[page['qualified_name']] = page['brief']
         end 
       end
@@ -47,6 +49,7 @@ module Jekyll
       site.data["allbriefs"] = briefs 
       #Dir.glob("_pages/doc/**/*.{md}")
       puts "Computing briefs"
+      puts briefs
     end
   end
 end
