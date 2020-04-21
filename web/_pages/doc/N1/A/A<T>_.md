@@ -1,23 +1,21 @@
 ---
 layout: function
-short_name: f
-qualified_name: A::f
-namespaces: [A]
+short_name: A<T>
+qualified_name: N1::A::A<T>
+namespaces: [N1, A]
 includer: file1.hpp
-brief: A brief doc of A::f
+brief: __MISSING__
 overloads:
-  void A::f(int u) noexcept const:
+  void N1::A::A<T>():
     desc: __MISSING__
     source: src/test.hpp
-  void A::f(double w, int k, _8983_ y,  std::vector<std::vector<int>> && g)  &&:
+  void N1::A::A<T>(int i):
     desc: __MISSING__
     source: src/test.hpp
 desc: __MISSING__
 return_value: __MISSING__
 params:
-  u: Doc of u
-  w: A **great** doc of w
-  k: ""
+  i: ""
 example:
   desc: __MISSING__
   code: __MISSING__

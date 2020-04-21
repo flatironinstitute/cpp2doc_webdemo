@@ -1,23 +1,27 @@
 ---
 layout: function
 short_name: f
-qualified_name: A::f
-namespaces: [A]
+qualified_name: N1::f
+namespaces: [N1]
 includer: file1.hpp
-brief: A brief doc of A::f
+brief: __MISSING__
 overloads:
-  void A::f(int u) noexcept const:
+  void N1::f():
     desc: __MISSING__
     source: src/test.hpp
-  void A::f(double w, int k, _8983_ y,  std::vector<std::vector<int>> && g)  &&:
+  int N1::f(double x):
     desc: __MISSING__
+    source: src/test.hpp
+  int N1::f(int u, double y):
+    desc: __MISSING__
+    deprecated: true
     source: src/test.hpp
 desc: __MISSING__
 return_value: __MISSING__
 params:
+  x: Doc of x
   u: Doc of u
-  w: A **great** doc of w
-  k: ""
+  y: Doc of y
 example:
   desc: __MISSING__
   code: __MISSING__
