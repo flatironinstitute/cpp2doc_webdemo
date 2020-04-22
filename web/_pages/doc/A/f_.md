@@ -9,7 +9,7 @@ overloads:
   void A::f(int u) noexcept const:
     desc: __MISSING__
     source: src/test.hpp
-  void A::f(double w, int k, _8983_ y,  std::vector<std::vector<int>> && g)  &&:
+  void A::f(double w, int k)  &&:
     desc: __MISSING__
     source: src/test.hpp
 desc: __MISSING__

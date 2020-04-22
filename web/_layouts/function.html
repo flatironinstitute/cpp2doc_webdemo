@@ -21,6 +21,12 @@ layout: default
 {% endfor %} 
 </ul>
 
+<ul style="list-style-type:none;">
+{% for entity in page.overloads %}
+<li> <span class='signature'> {{ entity[0] | link_and_highlight: site.data.highlighted_types }}     </span>
+{% endfor %} 
+</ul>
+
  <!-- Description of the function -->
 
  {{page.desc |markdownify}}
@@ -74,10 +80,10 @@ layout: default
 
  <h5> Example </h5>
 
-{{page.example.desc|markdownify}}
+{{page.example.desc | markdownify}}
 
 <div>
-    {% highlight cpp %}{{page.example.code|strip}}{% endhighlight %}
+    {% highlight cpp %}{{page.example.code | strip}}{% endhighlight %}
 </div>
 
  <!-- See Also links -->

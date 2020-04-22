@@ -4,8 +4,7 @@
 #include <vector>
 #endif
 
-
-#ifdef IDIOT
+#ifdef WRONG
  kejfkwejlfj
 #endif
 
@@ -117,3 +116,5 @@ template <> struct A<int> {
 // -------- derived ----------
 
 struct B : A<int> {};
+
+

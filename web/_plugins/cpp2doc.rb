@@ -1,40 +1,59 @@
 module Jekyll
   module MyFilter
-      def op_filter(input, table)
-        p input
-        puts Jekyll.sites.first.data["ALLFILES"]
-        input.gsub(/[:\w]+/) { |w| if table[w] then table[w] else w end}
-    end
-  end
-
-
-
-  module MyFilter2
-    def get_example(fname, site)
-      result = site.pages.find {|item| item["short_name"] == fname}
-      result["Example"]
-    end
-
-    def get_briefv1(name, ns_qname, allbriefs)
-      allbriefs [ns_qname+ '::'+ name]
-    end
    
     def get_brief(qname, allbriefs)
       allbriefs [qname]
     end
+
+    def link_and_highlight(source, highlighted_types)
+   
+      require 'rouge'
+      
+      # Replace all types by _X0001X_, _X0002X, which the highlighter will not cut
+      # Highlight by calling Rouge
+      # Replace back the _X0001X_, _X0002X with the adequate url
+      #
+      (0..highlighted_types.length()-1).each do |n|
+        type = highlighted_types[n]
+        repl = "_X000" + (1+n).to_s + "X_"
+        re_s = '(' + type + ')(?!\w)'
+        re = Regexp.new re_s
+        source = source.gsub(re){ |w| repl}
+      end
+
+      formatter = Rouge::Formatters::HTML.new
+      lexer = Rouge::Lexers::Cpp.new
+      r = formatter.format(lexer.lex(source))
+      r = '<figure class="highlight"><pre><code class="language-c--" data-lang="c++"> ' + r + '</code></pre></figure>'
+      
+      (0..highlighted_types.length()-1).each do |n|
+        type = highlighted_types[n]
+        repl = "_X000" + (1+n).to_s + "X_"
+        url = type.gsub("::","/")
+        type = '<a href="/_pages/doc/' + url + '/index.html">' + type + "</a>" 
+        re_s = '(' + repl + ')(?!\w)'
+        re = Regexp.new re_s
+        r = r.gsub(re){ |w| type}
+      end
+
+      return r
+    end
+
   end
-
-
   
   module Reading
   class Generator < Jekyll::Generator
     def generate(site)
 
       briefs = {}
+      classes = []
       site.pages.each do |page|
         if page['layout'] == 'function'  or page['layout'] == 'class'
           briefs[page['qualified_name']] = page['brief']
         end 
+        if page['layout'] == 'class'
+          classes.append(page['qualified_name'])
+        end
       end
       #briefs = site.pages.map{ |page| page.qualified_name
       #reading = site.pages.detect {|page| page.name == 'K2.md'}
@@ -42,9 +61,13 @@ module Jekyll
       #reading.data['injected'] = "INJECTED DATA: " + readingKKK.data["documentation"]['long']
      
       site.data["allbriefs"] = briefs 
+
+      # Just for the demo
+      site.data["highlighted_types"] = classes
+
       #Dir.glob("_pages/doc/**/*.{md}")
       puts "Computing briefs"
-      puts briefs
+      #puts briefs
     end
   end
 end
@@ -52,4 +75,3 @@ end
 end
 
 Liquid::Template.register_filter(Jekyll::MyFilter)
-Liquid::Template.register_filter(Jekyll::MyFilter2)

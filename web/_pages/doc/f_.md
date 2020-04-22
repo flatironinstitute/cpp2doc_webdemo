@@ -9,7 +9,7 @@ overloads:
   void f():
     desc: __MISSING__
     source: src/test.hpp
-  int f(double x, nda::array_view u, nda::array& const &a):
+  int f(double x):
     desc: __MISSING__
     source: src/test.hpp
   int f(int u, double y):
