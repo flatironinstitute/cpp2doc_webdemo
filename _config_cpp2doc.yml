@@ -4,7 +4,7 @@
 
 doc_dir: "web/_pages/doc" # The directory where to write the doc.
 sources:      # A list of the sources to be parsed
-  - file1.hpp
+  - src/nda.hpp
 
 source_file_only: false # Document only functions/classes/... in the source file, excluding indirect includes
 compile_examples: false # Compile the example to check them.
@@ -15,7 +15,8 @@ compile_examples: false # Compile the example to check them.
 # black_list: # A list of regex, e.g, ["n1::.*"]
 # namespaces: # REDONDANT ?
 
-# includers:             # regex -> filename
+includers:             # regex -> filename
+  ".*": nda/nda.hpp
 
 # include_dirs:          # Include dirs ?
 # system_include_dirs:   #  A list of includes

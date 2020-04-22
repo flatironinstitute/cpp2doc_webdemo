@@ -4,7 +4,7 @@ short_name: array_view
 qualified_name: nda::array_view
 namespaces: [nda]
 desc: __MISSING__
-includer: file1.hpp
+includer: src/nda.hpp
 brief: __MISSING__
 tparams:
   T: ""

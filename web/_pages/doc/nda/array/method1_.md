@@ -1,21 +1,16 @@
 ---
 layout: function
-short_name: A<T>
-qualified_name: A::A<T>
-namespaces: [A]
+short_name: method1
+qualified_name: nda::array::method1
+namespaces: [nda, array]
 includer: src/nda.hpp
 brief: __MISSING__
 overloads:
-  void A::A<T>():
+  void nda::array::method1()  const:
     desc: __MISSING__
-    source: src/test.hpp
-  void A::A<T>(int i):
-    desc: __MISSING__
-    source: src/test.hpp
+    source: src/nda.hpp
 desc: __MISSING__
 return_value: __MISSING__
-params:
-  i: ""
 example:
   desc: __MISSING__
   code: __MISSING__

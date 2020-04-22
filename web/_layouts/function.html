@@ -15,17 +15,21 @@ layout: default
 <!--List of signatures : 
  A simple version. FIXME ruby filter to add link, and put html tags of Rouge -->
 
-<ul style="list-style-type:none;">
-{% for entity in page.overloads %}
-<li> <span class='signature'> {% highlight c++ %}  {{entity[0]}} ({{forloop.index}}) {% endhighlight %}       </span>
-{% endfor %} 
-</ul>
+<!--<ul style="list-style-type:none;">-->
+<!--{% for entity in page.overloads %}-->
+<!--<li> <span class='signature'> {% highlight c++ %}  {{entity[0]}} ({{forloop.index}}) {% endhighlight %}       </span>-->
+<!--{% endfor %} -->
+<!--</ul>-->
 
-<ul style="list-style-type:none;">
+<table class='signature-table' >
 {% for entity in page.overloads %}
-<li> <span class='signature'> {{ entity[0] | link_and_highlight: site.data.highlighted_types }}     </span>
+    <tr>
+     <td> <span class='signature'> {{- entity[0] | link_and_highlight: site.data.highlighted_types, page.namespaces -}} </span> </td> 
+     <td> ({{forloop.index}}) </td>
+     <td> [Source] </td>
+    </tr>
 {% endfor %} 
-</ul>
+</table>
 
  <!-- Description of the function -->
 
@@ -83,7 +87,7 @@ layout: default
 {{page.example.desc | markdownify}}
 
 <div>
-    {% highlight cpp %}{{page.example.code | strip}}{% endhighlight %}
+{{page.example.code | link_and_highlight: site.data.highlighted_types}}
 </div>
 
  <!-- See Also links -->

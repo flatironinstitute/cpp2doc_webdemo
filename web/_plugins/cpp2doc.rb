@@ -5,16 +5,26 @@ module Jekyll
       allbriefs [qname]
     end
 
-    def link_and_highlight(source, highlighted_types)
+    def link_and_highlight(source, highlighted_types, namespace_list= [])
    
       require 'rouge'
-      
+    
+     puts source 
+      current_namespace = namespace_list.join('::')
+      if not current_namespace.empty? then 
+        current_namespace += '::'
+        source = source.gsub(current_namespace, '')
+      end
+ 
       # Replace all types by _X0001X_, _X0002X, which the highlighter will not cut
       # Highlight by calling Rouge
       # Replace back the _X0001X_, _X0002X with the adequate url
       #
       (0..highlighted_types.length()-1).each do |n|
         type = highlighted_types[n]
+        if current_namespace then 
+          type = type.gsub(current_namespace, '')
+        end
         repl = "_X000" + (1+n).to_s + "X_"
         re_s = '(' + type + ')(?!\w)'
         re = Regexp.new re_s
@@ -27,9 +37,12 @@ module Jekyll
       r = '<figure class="highlight"><pre><code class="language-c--" data-lang="c++"> ' + r + '</code></pre></figure>'
       
       (0..highlighted_types.length()-1).each do |n|
-        type = highlighted_types[n]
+        type1 = highlighted_types[n]
+        if current_namespace then 
+          type = type1.gsub(current_namespace, '')
+        end
         repl = "_X000" + (1+n).to_s + "X_"
-        url = type.gsub("::","/")
+        url = type1.gsub("::","/")
         type = '<a href="/_pages/doc/' + url + '/index.html">' + type + "</a>" 
         re_s = '(' + repl + ')(?!\w)'
         re = Regexp.new re_s

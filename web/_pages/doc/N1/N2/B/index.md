@@ -4,7 +4,7 @@ short_name: B
 qualified_name: N1::N2::B
 namespaces: [N1, N2]
 desc: __MISSING__
-includer: file1.hpp
+includer: src/nda.hpp
 brief: __MISSING__
 methods: []
 non member functions: []

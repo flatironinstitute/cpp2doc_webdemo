@@ -3,7 +3,7 @@ layout: function
 short_name: m_static
 qualified_name: N1::N2::A::m_static
 namespaces: [N1, N2, A]
-includer: file1.hpp
+includer: src/nda.hpp
 brief: __MISSING__
 overloads:
   static void N1::N2::A::m_static(int u):

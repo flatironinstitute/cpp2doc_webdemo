@@ -3,7 +3,7 @@ layout: function
 short_name: vec_tpl
 qualified_name: N1::vec_tpl
 namespaces: [N1]
-includer: file1.hpp
+includer: src/nda.hpp
 brief: __MISSING__
 overloads:
   template <typename T, typename U> void N1::vec_tpl(const std::vector<T> & v, U && x):

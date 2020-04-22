@@ -3,7 +3,7 @@ layout: function
 short_name: operator=
 qualified_name: N1::N2::C1::operator=
 namespaces: [N1, N2, C1]
-includer: file1.hpp
+includer: src/nda.hpp
 brief: __MISSING__
 overloads:
   struct N1::N2::C1 & N1::N2::C1::operator=(struct N1::N2::C1 && ):

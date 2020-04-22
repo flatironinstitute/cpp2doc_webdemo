@@ -4,12 +4,12 @@ short_name: array
 qualified_name: nda::array
 namespaces: [nda]
 desc: __MISSING__
-includer: file1.hpp
+includer: src/nda.hpp
 brief: __MISSING__
 tparams:
   T: ""
   R: ""
-methods: []
+methods: [method1]
 non member functions: []
 member_fields:
   {}

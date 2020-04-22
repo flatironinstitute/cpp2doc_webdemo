@@ -4,7 +4,7 @@ namespace nda {
 
  template<typename T, int R> 
  class array { 
-
+   public:
   void method1() const;
  };
 
@@ -16,6 +16,9 @@ namespace nda {
 
 
  template<typename T, int R> 
- array_view<T, R> make_view(array<T, R> const & x);
+ nda::array_view<T, R> make_view(nda::array<T, R> const & x);
+ 
+ template<typename T, int R> 
+ nda::array_view<T, R> make_view(int k, nda::array<T, R> const & x);
 
 }
