@@ -25,17 +25,16 @@ layout: default
 
 {% if page.functions %}
 <h5> Functions</h5>
-
 <table class='method-table' >
  {% for name in page.functions%}
     <tr>
      <td class="method-name" align="right"> <a href="{{ name | escape }}_.html"> {{name}} </a>  </td>
      <td > <b>-</b> </td>
      <td class="method-brief"> 
-      {%- if page.qualified_name.blank -%}
-      {% assign qname =  page.qualified_name |append: '::' |append: name %}
-      {%- else -%}
+     {%- if  page.qualified_name =='/' -%}
       {% assign qname =  name %}
+     {%- else -%}
+      {% assign qname =  page.qualified_name |append: '::' |append: name %}
      {%- endif  -%}
       {{ qname | get_brief: site.data.allbriefs | markdownify | remove: '<p>' | remove: '</p>'}} 
      </td>
@@ -54,10 +53,10 @@ layout: default
      <td class="method-name" align="right"> <a href="{{ name | escape  }}/index.html"> {{name |escape}} </a>  </td>
      <td > <b>-</b> </td>
      <td class="method-brief"> 
-     {%- if page.qualified_name.blank -%}
-      {% assign qname =  page.qualified_name |append: '::' |append: name %}
-      {%- else -%}
+     {%- if  page.qualified_name =='/' -%}
       {% assign qname =  name %}
+     {%- else -%}
+      {% assign qname =  page.qualified_name |append: '::' |append: name %}
      {%- endif  -%}
       {{ qname | get_brief: site.data.allbriefs | markdownify | remove: '<p>' | remove: '</p>'}} 
     </td>

@@ -4,10 +4,6 @@ layout: default
 
 <br/>
 
- <!-- Brief description of the function -->
-
- {{page.brief |markdownify}}
-
 <!--Includer-->
 
 <div> Defined in header <span  class='includer'> &lt;{{page.includer}}&gt; </span>
@@ -33,6 +29,9 @@ layout: default
 
  <!-- Description of the function -->
 
+
+ {{page.brief |markdownify}}
+ 
  {{page.desc |markdownify}}
 
 
