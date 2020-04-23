@@ -8,9 +8,6 @@ layout: default
 
 <div> Defined in header <span  class='includer'> &lt;{{page.includer}}&gt; </span>
 
-<!--List of signatures : 
- A simple version. FIXME ruby filter to add link, and put html tags of Rouge -->
-
 <!--<ul style="list-style-type:none;">-->
 <!--{% for entity in page.overloads %}-->
 <!--<li> <span class='signature'> {% highlight c++ %}  {{entity[0]}} ({{forloop.index}}) {% endhighlight %}       </span>-->
@@ -40,7 +37,7 @@ layout: default
 {% for entity in page.overloads %}
 <li>
  {%- if entity[1].deprecated -%}[DEPRECATED]{%- endif -%}
- {{entity[1].description| markdownify}}
+ {{entity[1].desc| markdownify}}
 {% endfor %} 
 </ol>
 
@@ -77,7 +74,7 @@ layout: default
  <!-- Return -->
 
 <h5> Return value</h5>
-{{page.return}}
+{{page.return_value}}
 
  <!-- Example -->
 

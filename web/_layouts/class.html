@@ -75,7 +75,8 @@ layout: default
 {{page.example.desc|markdownify}}
 
 <div>
-    {% highlight cpp %}{{page.example.code|strip}}{% endhighlight %}
+{{page.example.code | link_and_highlight: site.data.highlighted_types}}
+
 </div>
 
  <!-- See Also links -->
@@ -84,9 +85,9 @@ layout: default
 <table class='table-seealso' >
  {%- for sa in page.see-also -%}
     <tr>
-     <td class="" align="right"> <a href="{{sa[0] |replace: "::", "/"}}.html"> {{sa[0]}} </a> </td>
+     <td class="" align="right"> <a href="{{ sa | get_page_of: site.data}}"> {{sa}} </a> </td>
      <td > <b>-</b> </td>
-     <td class=""> {{sa[1] |markdownify }} </td>
+     <td class=""> {{sa |markdownify }} </td>
     </tr>
  {%- endfor -%}
 </table>

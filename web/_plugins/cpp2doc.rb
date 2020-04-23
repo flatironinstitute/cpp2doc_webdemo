@@ -13,25 +13,42 @@ module Jekyll
     def generate(site)
       briefs = {}
       classes = []
+      urls = {}
       site.pages.each do |page|
-        if page['layout'] == 'function' or page['layout'] == 'class'
-          briefs[page['qualified_name']] = page['brief']
+        qname = page['qualified_name']
+        if page['layout'] == 'function'
+          briefs[qname] = page['brief']
+          urls[qname] = '/_pages/doc/' + qname.gsub('::','/') + "_.html"
         end 
         if page['layout'] == 'class'
+          briefs[qname] = page['brief']
+          urls[qname] = '/_pages/doc/' + qname.gsub('::','/') + "/index.html"
           classes.append(page['qualified_name'])
         end
       end
+      site.data["urls"] = urls 
       site.data["allbriefs"] = briefs 
       site.data["highlighted_types"] = classes
       #puts "Computing briefs"
-      #puts briefs
+      puts briefs
+      puts urls
     end
   end
   end
   
   module CPP2DOC_Filter
    
-    # This filter associates the brief doc to a qualified name using the global table 
+    # This filter get the url of the page of an object 
+    # with qualified name qname
+    def get_page_of(qname, site)
+      urls = site['urls']
+      if urls.key?(qname) then 
+        puts qname, urls[qname]
+        return urls[qname]
+      end
+    end
+
+   # This filter associates the brief doc to a qualified name using the global table 
     # The point is that the data is on *another* page.
     # We must pass the table since a filter does not have the site variable 
     # FIXME : Can this be fixed ? Can I not pass site_allbriefs ? 
