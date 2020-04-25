@@ -46,7 +46,6 @@ layout: default
 
 {% if page.methods %}
 <h5> Member functions</h5>
-
 <table class='method-table' >
  {% for name in page.methods%}
     <tr>
@@ -56,7 +55,38 @@ layout: default
       <!--FIXME : remove p ?-->
       {% assign qname =  page.qualified_name |append: '::' |append: name %}
       {{ qname | get_brief: site.data.allbriefs | markdownify | remove: '<p>' | remove: '</p>'}} 
-      <!--{{ name | get_briefv1 : page.qualified_name, site.data.allbriefs | markdownify | remove: '<p>' | remove: '</p>'}} -->
+     </td>
+    </tr> 
+ {% endfor %}
+</table>
+{% endif %}
+
+<h5> Non member functions</h5>
+
+<h5> Member types</h5>
+{% if page.member_types %}
+<table class='member-type-table' >
+ {% for mt in page.member_types%}
+    <tr>
+     <td class="member-type-name" align="right"> {{mt[0]}}  </td>
+     <td > <b>-</b> </td>
+     <td class="member-type-doc"> 
+      {{mt[1]["desc"]}}
+     </td>
+    </tr> 
+ {% endfor %}
+</table>
+{% endif %}
+
+<h5> Member fields</h5>
+{% if page.member_fields %}
+<table class='member-field-table' >
+ {% for mt in page.member_fields%}
+    <tr>
+     <td class="member-field-name" align="right"> {{mt[0]}}  </td>
+     <td > <b>-</b> </td>
+     <td class="member-field-doc"> 
+      {{mt[1]["desc"]}}
      </td>
     </tr> 
  {% endfor %}
@@ -64,13 +94,9 @@ layout: default
 {% endif %}
 
 
-<h5> Non member functions</h5>
-<h5> Member fields</h5>
-<h5> Member types</h5>
-
  <!-- Example FACTORIZE with function -->
 
- <h5> Example </h5>
+ <h3> Example </h3>
 
 {{page.example.desc|markdownify}}
 
