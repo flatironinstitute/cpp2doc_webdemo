@@ -3,14 +3,16 @@ layout: class
 short_name: array_view
 qualified_name: nda::array_view
 namespaces: [nda]
-desc: __MISSING__
 includer: src/nda.hpp
+desc: __MISSING__
 brief: __MISSING__
 tparams:
   T: T is Value type
   R: Rank
 methods: []
 non member functions: []
+member_types:
+  {}
 member_fields:
   {}
 example:

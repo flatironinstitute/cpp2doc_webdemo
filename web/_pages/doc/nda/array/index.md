@@ -3,20 +3,30 @@ layout: class
 short_name: array
 qualified_name: nda::array
 namespaces: [nda]
-desc: Long description of the array class
 includer: src/nda.hpp
+desc: Long description of the array class
 brief: Brief doc
 tparams:
   T: T is a type
   R: Rank
 methods: [method1]
 non member functions: []
+member_types:
+  value_t:
+    type: T
+    desc: This is value_t
+  arr_t:
+    type: std::vector<T>
+    desc: This is value_t
+  index_t:
+    type: long
+    desc: My index_t
 member_fields:
   x:
     type: double
     desc: Something
 example:
-  desc: The description of the code 
+  desc: The description of the code
   code: |
     #include <nda/nda.hpp>
     int main() {

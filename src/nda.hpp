@@ -8,6 +8,15 @@ namespace nda {
   void method1() const;
 
 
+  /// This is value_t
+  using value_t = T;
+
+  /// This is value_t
+  using arr_t = std::vector<T>;
+
+  /// My index_t
+  using index_t = long;
+
   /// Something
   double x;
 
