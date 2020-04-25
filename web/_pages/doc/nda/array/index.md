@@ -10,7 +10,7 @@ tparams:
   T: T is a type
   R: Rank
 methods: [method1]
-non member functions: []
+non_member_functions: []
 member_types:
   value_t:
     type: T

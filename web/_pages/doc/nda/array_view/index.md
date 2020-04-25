@@ -10,7 +10,7 @@ tparams:
   T: T is Value type
   R: Rank
 methods: []
-non member functions: []
+non_member_functions: []
 member_types:
   {}
 member_fields:
