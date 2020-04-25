@@ -6,6 +6,11 @@ namespace nda {
  class array { 
    public:
   void method1() const;
+
+
+  /// Something
+  double x;
+
  };
 
  template<typename T, int R> 
