@@ -2,95 +2,105 @@
 layout: default
 ---
 
-<br/>
+<br />
 
 <!--Includer-->
 
-<div> Defined in header <span  class='includer'> &lt;{{page.includer}}&gt; </span>
-
-<!-- Signature  -->
-
-<span class='signature'> {% highlight c++ %}  {{page.signature}} {% endhighlight %}       </span>
-
- <!-- Description of the class -->
-
- {{page.desc |markdownify}}
-
- <!--Description of each overload-->
-<ol style="list-style-type:decimal;">
-{% for entity in page.overloads %}
-<li>
- {%- if entity[1].deprecated -%}[DEPRECATED]{%- endif -%}
- {{entity[1].description| markdownify}}
-{% endfor %} 
-</ol>
-
-
- <!-- Template parameters -->
-
-{% if page.tparams %}
-<h5> Template parameters</h5>
-
-<table class='tparam-table' >
- {% for param in page.tparams%}
-    <tr>
-     <td class="param-name" valign="top" align="right"> {{param[0]}} </td>
-     <td valign="top"> <b>-</b> </td>
-     <td class="param-value"> {{param[1] |markdownify | remove: '<p>' | remove: '</p>'	}} </td>
-    </tr>
- {% endfor %}
-</table>
-{% endif %}
-
- <!-- Methods FIXME : regrouping. Write the get_brief Ruby filter-->
-
-{% if page.methods %}
-<h5> Member functions</h5>
-
-<table class='method-table' >
- {% for name in page.methods%}
-    <tr>
-     <td class="method-name" align="right"> <a href="{{ name }}_.html"> {{name}} </a>  </td>
-     <td > <b>-</b> </td>
-     <td class="method-brief"> 
-      <!--FIXME : remove p ?-->
-      {% assign qname =  page.qualified_name |append: '::' |append: name %}
-      {{ qname | get_brief: site.data.allbriefs | markdownify | remove: '<p>' | remove: '</p>'}} 
-      <!--{{ name | get_briefv1 : page.qualified_name, site.data.allbriefs | markdownify | remove: '<p>' | remove: '</p>'}} -->
-     </td>
-    </tr> 
- {% endfor %}
-</table>
-{% endif %}
-
-
-<h5> Non member functions</h5>
-<h5> Member fields</h5>
-<h5> Member types</h5>
-
- <!-- Example FACTORIZE with function -->
-
- <h5> Example </h5>
-
-{{page.example.desc|markdownify}}
-
 <div>
-{{page.example.code | link_and_highlight: site.data.highlighted_types}}
+  Defined in header <span class="includer"> &lt;{{page.includer}}&gt; </span>
 
-</div>
+  <!-- Signature  -->
 
- <!-- See Also links -->
+  <span class="signature">
+    {% highlight c++ %} {{page.signature}} {% endhighlight %}
+  </span>
 
-<h5> See also </h5>
-<table class='table-seealso' >
- {%- for sa in page.see-also -%}
+  <!-- Description of the class -->
+
+  {{page.desc |markdownify}}
+
+  <!--Description of each overload-->
+  <ol style="list-style-type: decimal;">
+    {% for entity in page.overloads %}
+    <li>
+      {%- if entity[1].deprecated -%}[DEPRECATED]{%- endif -%}
+      {{entity[1].description| markdownify}} {% endfor %}
+    </li>
+  </ol>
+
+  <!-- Template parameters -->
+
+  {% if page.tparams %}
+  <h5>Template parameters</h5>
+
+  <table class="tparam-table">
+    {% for param in page.tparams%}
     <tr>
-     <td class="" align="right"> <a href="{{ sa | get_page_of: site.data}}"> {{sa}} </a> </td>
-     <td > <b>-</b> </td>
-     <td class=""> {{sa |markdownify }} </td>
+      <td class="param-name" valign="top" align="right">{{param[0]}}</td>
+      <td valign="top"><b>-</b></td>
+      <td class="param-value">
+        {{param[1] |markdownify | remove: '
+        <p>' | remove: '</p>
+        ' }}
+      </td>
     </tr>
- {%- endfor -%}
-</table>
+    {% endfor %}
+  </table>
+  {% endif %}
 
-{{ content }}
+  <!-- Methods FIXME : regrouping. Write the get_brief Ruby filter-->
 
+  {% if page.methods %}
+  <h5>Member functions</h5>
+
+  <table class="method-table">
+    {% for name in page.methods%}
+    <tr>
+      <td class="method-name" align="right">
+        <a href="{{ name }}_.html"> {{name}} </a>
+      </td>
+      <td><b>-</b></td>
+      <td class="method-brief">
+        <!--FIXME : remove p ?-->
+        {% assign qname = page.qualified_name |append: '::' |append: name %} {{
+        qname | get_brief: site.data.allbriefs | markdownify | remove: '
+        <p>' | remove: '</p>
+        '}}
+        <!--{{ name | get_briefv1 : page.qualified_name, site.data.allbriefs | markdownify | remove: '<p>' | remove: '</p>'}} -->
+      </td>
+    </tr>
+    {% endfor %}
+  </table>
+  {% endif %}
+
+  <h5>Non member functions</h5>
+  <h5>Member fields</h5>
+  <h5>Member types</h5>
+
+  <!-- Example FACTORIZE with function -->
+
+  <h5>Example</h5>
+
+  {{page.example.desc|markdownify}}
+
+  <div>
+    {{page.example.code | link_and_highlight: site.data.highlighted_types}}
+  </div>
+
+  <!-- See Also links -->
+
+  <h5>See also</h5>
+  <table class="table-seealso">
+    {%- for sa in page.see-also -%}
+    <tr>
+      <td class="" align="right">
+        <a href="{{ sa | get_page_of: site.data}}"> {{sa}} </a>
+      </td>
+      <td><b>-</b></td>
+      <td class="">{{sa |markdownify }}</td>
+    </tr>
+    {%- endfor -%}
+  </table>
+
+  {{ content }}
+</div>
