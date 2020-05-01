@@ -28,7 +28,6 @@ By default, all pages will appear as top level pages in the main nav unless a pa
 To specify a page order, use the `nav_order` parameter in your pages' YAML front matter.
 
 #### Example
-
 {: .no_toc }
 
 ```yaml
