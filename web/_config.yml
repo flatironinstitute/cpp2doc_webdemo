@@ -19,7 +19,7 @@ include: ["_pages"]
 kramdown:
   input: GFM
 
-permalink: pretty
+# permalink: pretty
 exclude:
   [
     "node_modules/",
