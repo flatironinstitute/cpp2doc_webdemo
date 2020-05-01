@@ -2,6 +2,25 @@
 
 namespace nda { 
 
+  /**
+   * A brief doc of array
+   *
+   *
+   * A long doc of array 
+   * with multiple lines
+   *
+   *
+   * And several paragraphs
+   * also very long
+   *
+   * private 
+   * 
+   * \note RRRR
+   *
+   * \tparam R rank
+   * 
+   * Another paragraph
+   */
  template<typename T, int R> 
  class array { 
    public:
@@ -9,7 +28,7 @@ namespace nda {
 
 
   /// This is value_t
-  using value_t = T;
+  using storage_t = T;
 
   /// This is value_t
   using arr_t = std::vector<T>;
@@ -20,6 +39,8 @@ namespace nda {
   /// Something
   double x;
 
+  
+storage_t const & storage() const;
  };
 
  template<typename T, int R> 
