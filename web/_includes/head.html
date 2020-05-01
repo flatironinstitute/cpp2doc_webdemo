@@ -1,14 +1,63 @@
 <head>
-	<meta charset="utf-8">
-	<meta http-equiv="x-ua-compatible" content="ie=edge">
-	<meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=Edge" />
 
-	<title>{% if page.title %}{{ page.title }}{% else %}{{ site.title }}{% endif %}</title>
+  {% if site.plugins.jekyll-seo == nil %}
+  <title>{{ page.title }} - {{ site.title }}</title>
 
-	<link rel="stylesheet" href="{{ "/css/main.css" | prepend: site.baseurl }}">
-	<link rel="canonical" href="{{ page.url | replace:'index.html','' | prepend: site.baseurl | prepend: site.url }}">
-	<link href='https://fonts.googleapis.com/css?family=Open+Sans:400,300,700,800,600' rel='stylesheet' type='text/css'>
-	<link href='https://fonts.googleapis.com/css?family=Muli:400,300' rel='stylesheet' type='text/css'>
+  {% if page.description %}
+  <meta name="Description" content="{{ page.description }}" />
+  {% endif %} {% endif %}
 
+  <link
+    rel="shortcut icon"
+    href="{{ 'favicon.ico' | absolute_url }}"
+    type="image/x-icon"
+  />
 
-</head> 
+  <link
+    rel="stylesheet"
+    href="{{ '/assets/css/jek-theme-triqs.css' | absolute_url }}"
+  />
+
+  {% if site.ga_tracking != nil %}
+  <script
+    async
+    src="https://www.googletagmanager.com/gtag/js?id={{ site.ga_tracking }}"
+  ></script>
+  <script>
+    window.dataLayer = window.dataLayer || [];
+    function gtag() {
+      dataLayer.push(arguments);
+    }
+    gtag("js", new Date());
+
+    gtag("config", "{{ site.ga_tracking }}");
+  </script>
+
+  {% endif %} {% if site.search_enabled != false %}
+  <script
+    type="text/javascript"
+    src="{{ '/assets/js/vendor/lunr.min.js' | absolute_url }}"
+  ></script>
+  {% endif %}
+  <script
+    type="text/javascript"
+    src="{{ '/assets/js/jek-theme-triqs.js' | absolute_url }}"
+  ></script>
+
+  <!-- https://docs.mathjax.org/en/latest/configuration.html#local-config-files -->
+  <script type="text/x-mathjax-config">
+    MathJax.Hub.Config({
+      tex2jax: {inlineMath: [['$','$'], ['\\(','\\)']]}
+    });
+  </script>
+  <script
+    type="text/javascript"
+    src="https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.4/latest.js?config=TeX-AMS-MML_HTMLorMML,https://idcrook.github.io/assets/js/MathJaxLocal.js"
+  ></script>
+
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+
+  {% seo %}
+</head>

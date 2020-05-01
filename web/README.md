@@ -1,4 +1,6 @@
-# Start Jekyll
+# TRIQS Jekyll
+
+<!-- TODO: Update this copy -->
 
 A guide to getting started with Jekyll.
 
@@ -13,7 +15,7 @@ A guide to getting started with Jekyll.
 
 ## Author
 
-- [Tania Rascia](https://www.taniarascia.com)
+<!-- - [Olivier etc](https://www.taniarascia.com) -->
 
 ## License
 

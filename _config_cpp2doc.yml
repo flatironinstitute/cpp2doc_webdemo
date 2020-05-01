@@ -1,9 +1,7 @@
-
-
 # Configuration file. Edit the options below
 
 doc_dir: "web/_pages/doc" # The directory where to write the doc.
-sources:      # A list of the sources to be parsed
+sources: # A list of the sources to be parsed
   - src/nda.hpp
 
 source_file_only: false # Document only functions/classes/... in the source file, excluding indirect includes
@@ -13,20 +11,19 @@ compile_examples: false # Compile the example to check them.
 
 # white_list: # A list of regex, e.g, ["n1::.*"]
 # black_list: # A list of regex, e.g, ["n1::.*"]
-# namespaces: # REDONDANT ?
+# namespaces: # REDUNDANT ?
 
-includers:             # regex -> filename
+includers: # regex -> filename
   ".*": nda/nda.hpp
 
 # include_dirs:          # Include dirs ?
 # system_include_dirs:   #  A list of includes
 # cxxflags:              # e.g. "-std=c++17 -DCPP2DOC=1 "
 
-namespaces: []  # Enumerate the namespaces to grab
-white_list: []  # A list of REGEX to accept. 
-black_list: []  # A list of REGEX to reject.
+namespaces: [] # Enumerate the namespaces to grab
+white_list: [] # A list of REGEX to accept.
+black_list: [] # A list of REGEX to reject.
 
-# source_root:  
+# source_root:
 # source_remote_prefix: # https://github.com/TRIQS/triqs/blob/2.2.x/
-
 
