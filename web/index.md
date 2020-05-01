@@ -2,15 +2,14 @@
 layout: default
 title: Home
 nav_order: 1
-description: "Jek Theme TRIQS is a responsive Jekyll theme with built-in search that is easily customizable and hosted on GitHub Pages."
-permalink: /
+description: "Jek Theme TRIQS is a responsive Jekyll theme with built-in search for documenting TRIQS."
+permalink:
 ---
 
 # Focus on writing good documentation
-
 {: .fs-9 }
 
-Jek Theme TRIQS gives your documentation a jumpstart with a responsive Jekyll theme that is easily customizable and hosted on GitHub Pages.
+TRIQS (Toolbox for Research on Interacting Quantum Systems) is a set of C++ and Python libraries for the study of interacting quantum systems.
 {: .fs-6 .fw-300 }
 
 [Get started now](#getting-started){: .btn .btn-primary .fs-5 .mb-4 .mb-md-0 .mr-2 } [View it on GitHub](https://github.com/lizlove/jek-theme-triqs){: .btn .fs-5 .mb-4 .mb-md-0 }
@@ -21,44 +20,50 @@ Jek Theme TRIQS gives your documentation a jumpstart with a responsive Jekyll th
 
 ### Dependencies
 
-Jek Theme TRIQS is built for [Jekyll](https://jekyllrb.com), a static site generator. View the [quick start guide](https://jekyllrb.com/docs/) for more information. Jek Theme TRIQS requires no special plugins and can run on GitHub Pages' standard Jekyll compiler. The [Jekyll SEO Tag plugin](https://github.com/jekyll/jekyll-seo-tag) is included by default (no need to run any special installation) to inject SEO and open graph metadata on docs pages. For information on how to configure SEO and open graph metadata visit the [Jekyll SEO Tag usage guide](https://jekyll.github.io/jekyll-seo-tag/usage/).
+Jek Theme TRIQS is built for [Jekyll](https://jekyllrb.com), a static site generator. View the [quick start guide](https://jekyllrb.com/docs/) for more information. Jek Theme TRIQS requires no special plugins and can run on GitHub Pages' standard Jekyll compiler.
 
-### Quick start: Use as a GitHub Pages remote theme
+TRIQS is composed of libraries in two languages: 1. Python libraries implement the most common many-body objects, like Green’s functions, in user-friendly scripts. 2. C++ libraries enable users to quickly develop high-performance low-level codes
 
-1. Add Jek Theme TRIQS to your Jekyll site's `_config.yml` as a [remote theme](https://blog.github.com/2017-11-29-use-any-theme-with-github-pages/)
+This duality is a real advantage in the development of new many-body tools. Critical parts where performance is essential can be written in C++ (e.g. a quantum impurity solver) while data analysis, preparation of inputs or interface with other programs can be handled in more user-friendly Python scripts.
+
+### Quick start: Code in the browser
+
+Access TRIQS remotely via [Binder](https://blog.github.com/2017-11-29-use-any-theme-with-github-pages/) as a [Jupyter Notebook](https://blog.github.com/2017-11-29-use-any-theme-with-github-pages/).
 
 ```yaml
 remote_theme: lizlove/jek-theme-triqs
 ```
 
-<small>You must have GitHub Pages enabled on your repo, one or more Markdown files, and a `_config.yml` file. [See an example repository](https://github.com/pmarsceill/jtd-remote)</small>
+<small>You must have GitHub Pages enabled on your repo, one or more Markdown files, and a `_config.yml` file. [See an example repository](https://github.com/lizlove/jek-theme-triqs)</small>
 
-### Local installation: Use the gem-based theme
+### Local installation: Use a package installer
 
-1. Install the Ruby Gem
+#### Install with Ubuntu
 
 ```bash
-$ gem install just-the-docs
+$ gem install jek-theme-triqs
 ```
 
 ```yaml
 # .. or add it to your your Jekyll site’s Gemfile
-gem "just-the-docs"
+gem "jek-theme-triqs"
 ```
 
-2. Add Jek Theme TRIQS to your Jekyll site’s `_config.yml`
+#### Install in a Docker container
 
 ```yaml
-theme: "just-the-docs"
+theme: "jek-theme-triqs"
 ```
 
-3. _Optional:_ Initialize search data (creates `search-data.json`)
+#### Install in a Singularity Container
+
+1. Step one of Singularity installation
 
 ```bash
-$ bundle exec just-the-docs rake search:init
+$ bundle exec jek-theme-triqs rake search:init
 ```
 
-3. Run you local Jekyll server
+2. Run you local Jekyll server
 
 ```bash
 $ jekyll serve
@@ -73,7 +78,7 @@ $ bundle exec jekyll serve
 
 If you're hosting your site on GitHub Pages, [set up GitHub Pages and Jekyll locally](https://help.github.com/en/articles/setting-up-your-github-pages-site-locally-with-jekyll) so that you can more easily work in your development environment.
 
-### Configure Jek Theme TRIQS
+### Compile from Source
 
 - [See configuration options]({{ site.baseurl }}{% link docs/configuration.md %})
 

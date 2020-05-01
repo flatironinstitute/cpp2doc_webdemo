@@ -2,7 +2,7 @@
   "_args": [
     [
       "normalize.scss",
-      "/Users/pmarsceill/_projects/just-the-docs"
+      "/Users/elovero/dev/cpp2doc_webdemo"
     ]
   ],
   "_from": "normalize.scss@*",
@@ -32,7 +32,7 @@
   "_shasum": "4a21dc25bd4c019c857785f829b658aba2a8f9ab",
   "_shrinkwrap": null,
   "_spec": "normalize.scss",
-  "_where": "/Users/pmarsceill/_projects/just-the-docs",
+  "_where": "/Users/elovero/_projects/jek-theme-triqs",
   "author": "",
   "bugs": {
     "url": "https://github.com/guerrero/normalize.scss/issues"

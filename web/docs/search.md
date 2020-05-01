@@ -1,17 +1,19 @@
 ---
 layout: default
-title: Search
+title: Community
 nav_order: 7
 ---
 
-# Search
+# Community
+
 {: .no_toc }
 
 ## Table of contents
+
 {: .no_toc .text-delta }
 
 1. TOC
-{:toc}
+   {:toc}
 
 ---
 
@@ -25,15 +27,15 @@ Jek Theme TRIQS uses [lunr.js](http://lunrjs.com) to add a client-side search in
 
 ### Generate search index
 
-Before you can use search, you must initialize the feature by running this `rake` command that comes with `just-the-docs`:
+Before you can use search, you must initialize the feature by running this `rake` command that comes with `jek-theme-triqs`:
 
 ```bash
-$ bundle exec just-the-docs rake search:init
+$ bundle exec jek-theme-triqs rake search:init
 ```
 
 This command creates the `search-data.json` file that Jekyll uses to create your search index. Alternatively, you can create the file manually in the `assets/js/` directory of your Jekyll site with this content:
 
-```liquid
+````liquid
 {% raw %}---
 ---
 {
@@ -46,7 +48,7 @@ This command creates the `search-data.json` file that Jekyll uses to create your
   }{% assign comma = true %}
   {% endif %}{% endfor %}
 }{% endraw %}
-```
+````
 
 _Note: If you don't run this rake command or create this file manually, search will not work (or it will use the search index data from this docs site, not your site's content)._
 
@@ -73,6 +75,7 @@ search_tokenizer_separator: /[\s/]+/
 Sometimes you might have a page that you don't want to be indexed for the search nor to show up in search results, e.g, a 404 page. To exclude a page from search, add the `search_exclude: true` parameter to the page's YAML front matter:
 
 #### Example
+
 {: .no_toc }
 
 ```yaml
@@ -82,4 +85,5 @@ title: Page not found
 nav_exclude: true
 search_exclude: true
 ---
+
 ```

@@ -1,10 +1,10 @@
 ---
 layout: default
-title: Navigation Structure
+title: Python API
 nav_order: 5
 ---
 
-# Navigation Structure
+# Python API
 {: .no_toc }
 
 ## Table of contents

@@ -1,10 +1,10 @@
 ---
 layout: default
-title: Configuration
+title: Main Concepts
 nav_order: 2
 ---
 
-# Configuration
+# Main Concepts
 {: .no_toc }
 
 Jek Theme TRIQS has some specific configuration parameters that can be defined in your Jekyll site's \_config.yml file.
