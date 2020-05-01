@@ -45,6 +45,7 @@ function initNav() {
 // Site search
 
 function initSearch() {
+  console.log("I AM SEARCHING🕵️‍♀️")
   var request = new XMLHttpRequest();
   request.open('GET', '{{ "assets/js/search-data.json" | absolute_url }}', true);
 

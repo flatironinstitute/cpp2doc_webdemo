@@ -9,7 +9,6 @@ show_dir_listing: true
 
 # TODO: WHICH URL?
 url: "https://lizlove.github.io"
-# url: "http://localhost:4000"
 
 # TODO: DO I NEED THESE?
 # Build Settings
@@ -19,7 +18,6 @@ include: ["_pages"]
 kramdown:
   input: GFM
 
-# permalink: pretty
 exclude:
   [
     "node_modules/",
