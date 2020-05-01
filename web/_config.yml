@@ -1,17 +1,75 @@
 # Site Settings
 title: TRIQS
+description: Documentation for the TRIQS library.
 email: oparcollet@flatironinstitute.org
-description: >
-  TEST
-baseurl: ""
-#url: "http://parcollet.github.io"
+baseurl: "/"
+
+# TODO: CAN I REMOVE THIS?
 show_dir_listing: true
-url: "http://localhost:4000"
-#github_username:  parcollet
+
+# TODO: WHICH URL?
+url: "https://lizlove.github.io"
+# url: "http://localhost:4000"
+
+# TODO: DO I NEED THESE?
 # Build Settings
 sass:
   sass_dir: _sass
 include: ["_pages"]
 kramdown:
   input: GFM
-#theme: minima
+
+permalink: pretty
+exclude:
+  [
+    "node_modules/",
+    "*.gemspec",
+    "*.gem",
+    "Gemfile",
+    "Gemfile.lock",
+    "package.json",
+    "package-lock.json",
+    "script/",
+    "LICENSE.txt",
+    "lib/",
+    "bin/",
+    "README.md",
+    "Rakefile",
+  ]
+
+# Set a path/url to a logo that will be displayed instead of the title
+logo: "/assets/images/triqs-logo-v1.jpg"
+
+# Enable or disable the site search
+search_enabled: true
+
+# Set the search token separator for hyphenated-word search:
+search_tokenizer_separator: /[\s/]+/
+
+# Enable or disable heading anchors
+heading_anchors: true
+
+# Aux links for the upper right navigation
+aux_links:
+  "TRIQS on GitHub":
+    - "//github.com/TRIQS/triqs"
+
+# Footer content appears at the bottom of every page's main content
+footer_content: 'Copyright &copy; 2020 Flatiron Institute. Distributed by an <a href="https://github.com/lizlove/jek-theme-triqs/tree/master/LICENSE.txt">MIT license.</a>'
+
+# TODO: ADD GA TRACKING
+# Google Analytics Tracking
+# e.g, UA-1234567-89
+# TODO: Add GA
+# ga_tracking: UA-2709176-10
+
+plugins:
+  - jekyll-seo-tag
+
+compress_html:
+  clippings: all
+  comments: all
+  endings: all
+  startings: []
+  blanklines: false
+  profile: false
