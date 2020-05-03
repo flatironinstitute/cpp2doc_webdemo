@@ -16,17 +16,7 @@ layout: default
 
  {{page.desc |markdownify}}
 
- <!--Description of each overload-->
-<ol style="list-style-type:decimal;">
-{% for entity in page.overloads %}
-<li>
- {%- if entity[1].deprecated -%}[DEPRECATED]{%- endif -%}
- {{entity[1].description| markdownify}}
-{% endfor %} 
-</ol>
-
-
- <!-- Template parameters -->
+<!-- Template parameters -->
 
 {% if page.tparams %}
 <h5> Template parameters</h5>
@@ -45,11 +35,27 @@ layout: default
  <!-- Methods FIXME : regrouping. Write the get_brief Ruby filter-->
 
 {% if page.methods %}
-<h5> Member functions</h5>
-<table class='method-table' >
- {% for name in page.methods%}
+<h5> Member functions </h5>
+<table class='method-table'>
+{% if page.constructor %}
+   <tr>
+     <td class="method-name" align="right"> <a href="{{page.constructor}}_.html"> (constructor) </a>  </td>
+     <td > <b>-</b> </td>
+     <td class="method-brief"> 
+     </td>
+    </tr> 
+{% endif %}
+{% if page.destructor %}
+   <tr>
+     <td class="method-name" align="right"> <a href="destructor_.html"> (destructor) </a>  </td>
+     <td > <b>-</b> </td>
+     <td class="method-brief"> 
+     </td>
+    </tr> 
+{% endif %}
+{% for name in page.methods %}
     <tr>
-     <td class="method-name" align="right"> <a href="{{ name }}_.html"> {{name}} </a>  </td>
+     <td class="method-name" align="right"> <a href="{{name}}_.html"> {{name}} </a>  </td>
      <td > <b>-</b> </td>
      <td class="method-brief"> 
       <!--FIXME : remove p ?-->

@@ -60,6 +60,10 @@ template <typename T> T make(int u);
 struct C1 {
   C1(int i) : x(i) {}
 
+  template<typename U> C1(U);
+  
+  ~C1(); 
+
   void f(int u) const;
   static void hhh(int u);
 
@@ -88,6 +92,8 @@ template <typename T> struct A {
 
   A(int i) : x(i) {}
 
+  template<typename U> A(U);
+
   explicit operator int() const { return 0; }
 
   static void m_static(int u);
@@ -109,6 +115,7 @@ private:
 
 template <> struct A<int> {
 
+  A<int>() = default;
   int xxx;
   void f(int u) const noexcept;
 };
