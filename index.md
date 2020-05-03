@@ -3,7 +3,7 @@ layout: default
 title: Home
 nav_order: 1
 description: "Jek Theme TRIQS is a responsive Jekyll theme with built-in search for documenting TRIQS."
-permalink:
+permalink: "/"
 ---
 
 # Focus on writing good documentation
