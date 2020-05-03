@@ -2,6 +2,7 @@
 layout: default
 title: Python API
 nav_order: 5
+permalink: /navigation
 ---
 
 # Python API
