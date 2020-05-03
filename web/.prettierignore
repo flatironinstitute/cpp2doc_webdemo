@@ -1,9 +1,0 @@
-package.json
-package-lock.json
-_site
-assets/css/jek-theme-triqs.scss
-assets/js/vendor/lunr.min.js
-assets/js/search-data.json
-assets/js/jek-theme-triqs.js
-docs
-index.md
