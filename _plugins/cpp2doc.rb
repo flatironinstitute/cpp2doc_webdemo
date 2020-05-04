@@ -43,12 +43,25 @@ class Kramdown::Parser::ERBKramdown < Kramdown::Parser::GFM
    def parse_berb_tags
     @src.pos += @src.matched_size
     code = @src.matched[2..-3].strip
-    File.open("example.py", "w") {
+    code_hash = code.hash().to_s
+    if code_hash[0] == '-' then code_hash[0] = 'm' end
+    fname_py = "code_snippets/code_" + code_hash + ".py"
+    fname_pdf = "code_snippets/code_" + code_hash + ".pdf"
+    url_pdf = "/code_snippets/code_" + code_hash + ".pdf"
+    
+    system("mkdir -p code_snippets")
+    system("mkdir -p _sites/code_snippets")
+    File.open(fname_py, "w") {
       |f| 
-        f.write( code) # FIXME remove the leading spaces ...
-        f.write( "\nimport matplotlib.pyplot\nmatplotlib.pyplot.savefig('myplot.pdf')") # FIXME check that matplotlib was imported ?
+        f.write(code) # FIXME remove the leading spaces ...
+        f.write( "\nimport matplotlib.pyplot\nmatplotlib.pyplot.savefig('" + fname_pdf + "')") # FIXME check that matplotlib was imported ?
     }
-    s = system("python3 example.py")
+    puts "RUNNING PYTHON ON " + code
+    system("python3 " + fname_py)
+    #system("cp " + fname_pdf +  " _site/code_snippets/")
+    #puts "cp " + fname_pdf +  " _site/code_snippets/"
+    #Jekyll::Site.static_files << Jekyll::StaticFile.new(Jekyll::Site, Jekyll::Site.source, "code_snippets",  code_hash + ".pdf")
+
 
     table = new_block_el(:table, nil, nil, alignment: [], location: @src.current_line_number)
    
@@ -77,7 +90,7 @@ class Kramdown::Parser::ERBKramdown < Kramdown::Parser::GFM
     td1.children << el 
 
     el = new_block_el(:img)
-    el.attr['src'] = "/myplot.pdf"
+    el.attr['src'] = url_pdf
     el.attr['alt'] = "THE PLOT"
     el.attr['title'] = "THE TITLE"
     #@tree.children << el
@@ -104,6 +117,43 @@ end
 module Jekyll
 
   module Reading
+ 
+#   Jekyll::Hooks.register( :site, :post_render) do |post, vars|
+     #puts " SITE POST RENDER"
+     #puts Dir.glob("code_snippets/*.pdf")
+     ##system("cp -rn code_snippets/*.pdf _site/code_snippets/")
+     #puts Dir.glob("_site/code_snippets/*.pdf")
+
+     #puts vars
+     #puts vars.site.static_files
+     #site = vars.site
+     #puts site.to_h
+     #site.static_files << Jekyll::StaticFile.new(site, ".", "code_snippets", "code_m1097616682897781863.pdf")
+     
+     ##puts post.output #= post.output.gsub('foo', 'bar')
+    #end
+ 
+#   Jekyll::Hooks.register([:pages, :posts], :post_render) do |post|
+     #puts " PAGE POST RENDER"
+     #puts Dir.glob("code_snippets/*.pdf")
+     #system("cp -rn code_snippets/*.pdf _site/code_snippets/")
+     #puts Dir.glob("_site/code_snippets/*.pdf")
+
+     ##puts site.static_files
+     ##site.static_files << Jekyll::StaticFile.new(site, site.source, path, filename)
+     
+     ##puts post.output #= post.output.gsub('foo', 'bar')
+    #end
+ 
+   #Jekyll::Hooks.register([:pages, :posts], :pre_render) do |post, pl|
+     #puts " PAGE PRE RENDER"
+     #puts pl.page["title"]
+     #puts pl.page["qualified_name"]
+     #puts Dir.glob("code_snippets/*.pdf")
+
+     ##puts post.output #= post.output.gsub('foo', 'bar')
+    #end
+
 
   # This function is executed before rendering the pages
   # Cf Jekyll help, custom Generators
@@ -138,21 +188,22 @@ module Jekyll
       site.data["urls"] = urls
       site.data["allbriefs"] = briefs
       site.data["highlighted_types"] = classes
-      #puts "Computing briefs"
-      puts briefs
-      puts urls
+      puts "Computing briefs"
+      # puts briefs
+      #puts urls
+      system("pwd")
     end
   end
   end
 
   module CPP2DOC_Filter
 
-    # This filter get the url of the page of an object
+    # This filter get the url of the page of an object 
     # with qualified name qname
     def get_page_of(qname, site)
       urls = site['urls']
-      if urls.key?(qname) then
-        puts qname, urls[qname]
+      if urls.key?(qname) then 
+        #puts qname, urls[qname]
         return urls[qname]
       end
     end
@@ -216,7 +267,35 @@ module Jekyll
     end
 
   end
+ 
+  class RegisterGeneratedImagesTag < Liquid::Tag
+
+    def initialize(tag_name, text, tokens)
+      super
+      @text = text
+    end
+
+    def render(context)
+      "#{@text} #{Time.now}"
+
+     puts " START RENDER TAG"
+     site = context.registers[:site]    
+     puts site
+     puts Dir.glob("code_snippets/*.pdf")
+     puts Dir.glob("_site/code_snippets/*.pdf")
+     Dir.glob("*.pdf", base: "code_snippets").each do |f|
+       puts "FILE IS " + f
+       site.static_files << Jekyll::StaticFile.new(site, Dir.getwd,  "code_snippets", f)
+     end
+
+     puts site.static_files.map{ |f| f.path} 
+     puts " END RENDER TAG"
+     "LINKED FILES" 
+    end
+  end 
 
 end
 
 Liquid::Template.register_filter(Jekyll::CPP2DOC_Filter)
+Liquid::Template.register_tag('register_generated_images', Jekyll::RegisterGeneratedImagesTag)
+
