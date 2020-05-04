@@ -1,3 +1,106 @@
+require 'kramdown/parser/kramdown'
+require 'kramdown/parser/gfm'
+
+class Kramdown::Parser::ERBKramdown < Kramdown::Parser::GFM
+
+   def initialize(source, options)
+     super
+     @span_parsers.unshift(:erb_tags)
+     @block_parsers.unshift(:berb_tags)
+   end
+
+   ERB_TAGS_START = /<%(.*?)%>/m
+   BERB_TAGS_START = /<%(.*?)%>/m
+
+   def parse_erb_tags
+     @src.pos += @src.matched_size
+     puts  @src.matched
+     @tree.children << Element.new(:raw,  '<span style="color:red">' + @src.matched[2..-3] + '</span>'  )
+     @tree.children << Element.new(:text,  "ZOZOZO")
+     s = system("python3 -c'import sys; print (sys.path)'")
+     puts s.class
+     @tree.children << Element.new(:codeblock,  "def f(x):\n  a = [1,2,3]\n  return a", lang: 'python')
+
+     el = new_block_el(:codeblock, "def f(x):\n  a = [1,2,3]\n  return a", nil, location: 0, fenced: true)
+          lang = "python" #@src[3].to_s.strip
+          unless lang.empty?
+            el.options[:lang] = lang
+            el.attr['class'] = "language-python"
+          end
+          @tree.children << el
+
+     el = new_block_el(:codeblock, "template<typename T, int R> struct A", nil, location: 0, fenced: false)
+          lang = "cpp" #@src[3].to_s.strip
+          unless lang.empty?
+            el.options[:lang] = lang
+            el.attr['class'] = "language-c++"
+          end
+          @tree.children << el
+
+   end
+   define_parser(:erb_tags, ERB_TAGS_START, '<%')
+
+   def parse_berb_tags
+    @src.pos += @src.matched_size
+    code = @src.matched[2..-3].strip
+    File.open("example.py", "w") {
+      |f| 
+        f.write( code) # FIXME remove the leading spaces ...
+        f.write( "\nimport matplotlib.pyplot\nmatplotlib.pyplot.savefig('myplot.pdf')") # FIXME check that matplotlib was imported ?
+    }
+    s = system("python3 example.py")
+
+    table = new_block_el(:table, nil, nil, alignment: [], location: @src.current_line_number)
+   
+    thead =  new_block_el(:thead)
+    tr =  new_block_el(:tr)
+    td =  new_block_el(:td)
+    td.children << Element.new(:text,  "Code")
+    tr.children << td
+    td =  new_block_el(:td)
+    td.children << Element.new(:text,  "Result")
+    tr.children << td
+    thead.children << tr
+
+    tbody =  new_block_el(:tbody)
+    tr =  new_block_el(:tr)
+    td1 =  new_block_el(:td)
+    td2 =  new_block_el(:td)
+
+    el = new_block_el(:codeblock, code, nil, location: 0, fenced: true)
+    lang = "python" #@src[3].to_s.strip
+    unless lang.empty?
+      el.options[:lang] = lang
+      el.attr['class'] = "language-python"
+    end
+    #@tree.children << el
+    td1.children << el 
+
+    el = new_block_el(:img)
+    el.attr['src'] = "/myplot.pdf"
+    el.attr['alt'] = "THE PLOT"
+    el.attr['title'] = "THE TITLE"
+    #@tree.children << el
+    td2.children << el 
+
+    tr.children << td1 
+    tr.children << td2
+    tbody.children << tr
+
+    table.children << thead
+    table.children << tbody
+    table.attr['class'] = "table-python-matplotlib"
+
+    @tree.children << table
+    
+    #puts  @src.matched
+    #@tree.children << Element.new(:raw,  '<span style="color:blue">' + @src.matched[2..-3] + '</span>'  )
+   end
+   define_parser(:berb_tags, BERB_TAGS_START)
+
+end
+
+
 module Jekyll
 
   module Reading
@@ -15,6 +118,12 @@ module Jekyll
       classes = []
       urls = {}
       site.pages.each do |page|
+        #puts "****************************"
+        #puts "****************************"
+        #puts page['content']
+        #puts  page.content
+        #puts "****************************"
+        #puts "****************************"
         qname = page['qualified_name']
         if page['layout'] == 'function'
           briefs[qname] = page['brief']

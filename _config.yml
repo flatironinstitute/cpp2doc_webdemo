@@ -16,7 +16,9 @@ sass:
   sass_dir: _sass
 include: ["_pages"]
 kramdown:
-  input: GFM
+  input: ERBKramdown #nFM
+  math_engine: katex
+  math_engine_opts: {}
 
 exclude:
   [
