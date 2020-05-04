@@ -1,11 +1,12 @@
 ---
 layout: default
-title: Python API
-nav_order: 5
+title: Navigation
+parent: Design
+nav_order: 2
 permalink: /navigation
 ---
 
-# Python API
+# Navigation
 {: .no_toc }
 
 ## Table of contents
@@ -47,7 +48,6 @@ nav_order: 4
 For specific pages that you do not wish to include in the main navigation, e.g. a 404 page or a landing page, use the `nav_exclude: true` parameter in the YAML front matter for that page.
 
 #### Example
-
 {: .no_toc }
 
 ```yaml
@@ -208,7 +208,7 @@ This would create the following navigation structure:
 
 ## Auxiliary Navigation
 
-To add a auxiliary navigation item to your site (in the upper right on all pages), add it to the `aux_nav` [configuration option]({{ site.baseurl }}{% link docs/configuration.md %}#aux-nav) in your site's `_config.yml` file.
+To add a auxiliary navigation item to your site (in the upper right on all pages), add it to the `aux_nav` [configuration option]({{ site.baseurl }}{% link docs/design/configuration.md %}#aux-nav) in your site's `_config.yml` file.
 
 #### Example
 

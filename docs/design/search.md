@@ -1,19 +1,19 @@
 ---
 layout: default
-title: Community
-nav_order: 7
+title: Search
+parent: Design
+nav_order: 4
+nav_exclude: true
 ---
 
-# Community
-
+# Search
 {: .no_toc }
 
 ## Table of contents
-
 {: .no_toc .text-delta }
 
 1. TOC
-   {:toc}
+{:toc}
 
 ---
 

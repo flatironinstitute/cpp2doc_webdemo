@@ -2,19 +2,16 @@
 title: TRIQS
 description: Documentation for the TRIQS library.
 email: oparcollet@flatironinstitute.org
-baseurl: ""
 
 # TODO: CAN I REMOVE THIS?
 show_dir_listing: true
 
-# TODO: WHICH URL?
+# TODO: Update with final URL
 url: "https://lizlove.github.io"
 
-# TODO: DO I NEED THESE?
 # Build Settings
 sass:
   sass_dir: _sass
-include: ["_pages"]
 kramdown:
   input: GFM
 
@@ -36,7 +33,7 @@ exclude:
   ]
 
 # Set a path/url to a logo that will be displayed instead of the title
-logo: "/assets/images/triqs-logo-v1.jpg"
+# logo: "/assets/images/triqs-logo-v1.jpg"
 
 # Enable or disable the site search
 search_enabled: true

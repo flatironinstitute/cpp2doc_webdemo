@@ -1,10 +1,11 @@
 ---
 layout: default
-title: Main Concepts
-nav_order: 2
+title: Configuration
+parent: Design
+nav_order: 1
 ---
 
-# Main Concepts
+# Configuration
 {: .no_toc }
 
 Jek Theme TRIQS has some specific configuration parameters that can be defined in your Jekyll site's \_config.yml file.
@@ -63,20 +64,6 @@ heading_anchors: true
 # Footer content appears at the bottom of every page's main content
 footer_content: 'Copyright &copy; 2017-2019 Cool People. Distributed by an <a href="https://github.com/lizlove/jek-theme-triqs/tree/master/LICENSE.txt">MIT license.</a>'
 ```
-
-## Color scheme
-
-```yaml
-# Color scheme currently only supports "dark" or nil (default)
-color_scheme: "dark"
-```
-
-<button class="btn js-toggle-dark-mode">Preview dark color scheme</button>
-
-<!-- TODO: Replace with my own JS -->
-<!-- <script type="text/javascript" src="{{ "/assets/js/dark-mode-preview.js" | absolute_url }}"></script> -->
-
-See [Customization]({{ site.baseurl }}{% link docs/customization.md %}) for more information.
 
 ## Google Analytics
 

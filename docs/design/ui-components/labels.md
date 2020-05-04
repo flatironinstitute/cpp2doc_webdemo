@@ -1,7 +1,8 @@
 ---
 layout: default
 title: Labels
-parent: Applications
+parent: UI Components
+grand-parent: Design
 nav_order: 3
 ---
 

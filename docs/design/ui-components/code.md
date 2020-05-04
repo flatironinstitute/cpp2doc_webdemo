@@ -1,7 +1,8 @@
 ---
 layout: default
 title: Code
-parent: Applications
+parent: UI Components
+grand-parent: Design
 nav_order: 6
 ---
 

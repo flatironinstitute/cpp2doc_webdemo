@@ -1,9 +1,10 @@
 ---
 layout: default
-title: Applications
+title: UI Components
 nav_order: 3
 has_children: true
-permalink: /docs/ui-components
+parent: Design
+permalink: docs/design/ui-components
 ---
 
 # UI Components

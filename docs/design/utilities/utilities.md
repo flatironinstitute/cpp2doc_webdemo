@@ -1,10 +1,10 @@
 ---
 layout: default
 title: Utilities
-nav_exclude: true
-nav_order: 97
+nav_order: 5
 has_children: true
-permalink: docs/utilities
+parent: Design
+permalink: docs/design/utilities
 ---
 
 # Utilities

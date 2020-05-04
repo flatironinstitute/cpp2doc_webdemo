@@ -2,6 +2,7 @@
 layout: default
 title: Color
 parent: Utilities
+grand-parent: Design
 nav_order: 3
 ---
 
