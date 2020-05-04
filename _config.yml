@@ -2,7 +2,7 @@
 title: TRIQS
 description: Documentation for the TRIQS library.
 email: oparcollet@flatironinstitute.org
-baseurl: "/"
+baseurl: ""
 
 # TODO: CAN I REMOVE THIS?
 show_dir_listing: true
