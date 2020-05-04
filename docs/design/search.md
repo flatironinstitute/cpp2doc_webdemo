@@ -3,7 +3,6 @@ layout: default
 title: Search
 parent: Design
 nav_order: 4
-nav_exclude: true
 ---
 
 # Search

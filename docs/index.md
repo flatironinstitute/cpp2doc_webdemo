@@ -86,11 +86,36 @@ If you're hosting your site on GitHub Pages, [set up GitHub Pages and Jekyll loc
 
 ## About the project
 
-Jek Theme TRIQS is &copy; 2017-2019 by [Cool People](http://github.com/TRIQS/triqs).
+The TRIQS library was orginally authored by:
+
+O. Parcollet (IPhT, CEA-Saclay) and M. Ferrero (CPHT, Ecole Polytechique).
+
+It is currently maintained by:
+
+O. Parcollet (Flatiron Institute, CCQ) and N. Wentzell (Flatiron Institute, CCQ).
+
+Other developers include:
+
+Krivenko, T. Ayral, H. Strand, D. Simons, H. Hafermann, L. Messio, P. Seth.
+
+#### TRIQS is supported by ERC under Grant Number 278472.
+
+### Citation
+
+TRIQS is a part of our scientific work and we kindly request that projects using it include a citation to the following paper. In order to help you, we provide a BibTeX entry [1].
+<!-- TODO: ADD BIBTEX -->
+[1]	O. Parcollet, M. Ferrero, T. Ayral, H. Hafermann, I. Krivenko, L. Messio, and P. Seth, Comp. Phys. Comm. 196, 398-415 (2015) (bibtex file)
+
+If you find TRIQS useful, giving proper reference and citation is indeed a simple way to help convincing funding sources that such projects are useful for our community and should be supported.
+
 
 ### License
 
-Jek Theme TRIQS is distributed by an [MIT license](https://github.com/lizlove/jek-theme-triqs/tree/master/LICENSE.txt).
+Jek Theme TRIQS is distributed by an [GNU General Public License, version 3](http://www.gnu.org/licenses/gpl-3.0.html). Note that this _implies_ that applications using TRIQS must also be GPL.
+
+### Disclaimer
+
+As stated by the License, the program is provided as is, i.e. WITHOUT ANY WARRANTY of any kind, as stated in the license. In particular, its authors and contributors will take no responsability for any possible bugs or any improper use of these programs, including those resulting in incorrect scientific publications.
 
 ### Contributing
 
@@ -100,6 +125,7 @@ email, or any other method with the owners of this repository before making a ch
 #### Thank you to the contributors of Jek Theme TRIQS!
 
 <ul class="list-style-none">
+<!-- TODO: link to site colabs or remove? -->
 {% for contributor in site.github.contributors %}
   <li class="d-inline-block mr-1">
      <a href="{{ contributor.html_url }}"><img src="{{ contributor.avatar_url }}" width="32" height="32" alt="{{ contributor.login }}"/></a>
@@ -112,3 +138,30 @@ email, or any other method with the owners of this repository before making a ch
 Jek Theme TRIQS is committed to fostering a welcoming community.
 
 [View our Code of Conduct](https://github.com/lizlove/jek-theme-triqs/tree/master/CODE_OF_CONDUCT.md) on our GitHub repository.
+
+
+Authors & contributors
+The TRIQS library has been orginally authored by:
+
+Parcollet (IPhT, CEA-Saclay) and M. Ferrero (CPHT, Ecole Polytechique).
+It is currently maintained by:
+
+Parcollet (Flatiron Institute, CCQ) and N. Wentzell (Flatiron Institute, CCQ).
+It is supported by ERC under Grant Number 278472.
+
+Other developers include:
+
+Krivenko, T. Ayral, H. Strand, D. Simons, H. Hafermann, L. Messio, P. Seth.
+Citation
+TRIQS is a part of our scientific work and we kindly request that projects using it include a citation to the following paper. In order to help you, we provide a BibTeX entry [1].
+
+[1]	O. Parcollet, M. Ferrero, T. Ayral, H. Hafermann, I. Krivenko, L. Messio, and P. Seth, Comp. Phys. Comm. 196, 398-415 (2015) (bibtex file)
+If you find TRIQS useful, giving proper reference and citation is indeed a simple way to help convincing funding sources that such projects are useful for our community and should be supported.
+
+License
+TRIQS is published under the GNU General Public License, version 3.
+
+Note that it implies that applications using TRIQS must also be GPL.
+
+Disclaimer
+As stated by the License, the program is provided as is, i.e. WITHOUT ANY WARRANTY of any kind, as stated in the license. In particular, its authors and contributors will take no responsability for any possible bugs or any improper use of these programs, including those resulting in incorrect scientific publications.
