@@ -5,7 +5,7 @@ short_name: array_view
 qualified_name: nda::array_view
 namespaces: [nda]
 includer: src/nda.hpp
-desc: **MISSING**
+desc: "**MISSING**"
 brief: **MISSING**
 tparams:
 T: T is Value type
