@@ -1,5 +1,8 @@
 ---
 layout: function
+parent: nda
+grand-parent: C++ API
+permalink: cpp-api/nda/make_view
 short_name: make_view
 qualified_name: nda::make_view
 namespaces: [nda]

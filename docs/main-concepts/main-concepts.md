@@ -3,7 +3,7 @@ layout: default
 title: Main Concepts
 nav_order: 2
 has_children: true
-permalink: /main-concepts
+permalink: main-concepts
 ---
 
 # Main Concepts

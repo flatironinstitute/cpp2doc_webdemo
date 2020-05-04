@@ -3,7 +3,7 @@ layout: default
 title: Home
 nav_order: 1
 description: "TRIQS (Toolbox for Research on Interacting Quantum Systems) is a set of C++ and Python libraries for the study of interacting quantum systems."
-permalink: /
+permalink: /index.html
 ---
 
 # Focus on writing good documentation
@@ -12,7 +12,7 @@ permalink: /
 TRIQS (Toolbox for Research on Interacting Quantum Systems) is a set of C++ and Python libraries for the study of interacting quantum systems.
 {: .fs-6 .fw-300 }
 
-[Get started now](#getting-started){: .btn .btn-primary .fs-5 .mb-4 .mb-md-0 .mr-2 } [View it on GitHub](https://github.com/lizlove/jek-theme-triqs){: .btn .fs-5 .mb-4 .mb-md-0 }
+[Get started now](#getting-started){: .btn .btn-primary .fs-5 .mb-4 .mb-md-0 .mr-2 } [View on GitHub](https://github.com/triqs/triqs){: .btn .fs-5 .mb-4 .mb-md-0 }
 
 ---
 
@@ -34,7 +34,7 @@ Access TRIQS remotely via [Binder](https://blog.github.com/2017-11-29-use-any-th
 remote_theme: lizlove/jek-theme-triqs
 ```
 
-<small>You must have GitHub Pages enabled on your repo, one or more Markdown files, and a `_config.yml` file. [See an example repository](https://github.com/lizlove/jek-theme-triqs)</small>
+<small>You must have GitHub Pages enabled on your repo, one or more Markdown files, and a `_config.yml` file. [See an example repository](https://github.com/triqs/triqs)</small>
 
 ### Local installation: Use a package installer
 
@@ -117,12 +117,7 @@ Jek Theme TRIQS is distributed by an [GNU General Public License, version 3](htt
 
 As stated by the License, the program is provided as is, i.e. WITHOUT ANY WARRANTY of any kind, as stated in the license. In particular, its authors and contributors will take no responsability for any possible bugs or any improper use of these programs, including those resulting in incorrect scientific publications.
 
-### Contributing
-
-When contributing to this repository, please first discuss the change you wish to make via issue,
-email, or any other method with the owners of this repository before making a change. Read more about becoming a contributor in [our GitHub repo](https://github.com/lizlove/jek-theme-triqs#contributing).
-
-#### Thank you to the contributors of Jek Theme TRIQS!
+#### Thank you to the contributors of TRIQS!
 
 <ul class="list-style-none">
 <!-- TODO: link to site colabs or remove? -->
@@ -132,36 +127,3 @@ email, or any other method with the owners of this repository before making a ch
   </li>
 {% endfor %}
 </ul>
-
-### Code of Conduct
-
-Jek Theme TRIQS is committed to fostering a welcoming community.
-
-[View our Code of Conduct](https://github.com/lizlove/jek-theme-triqs/tree/master/CODE_OF_CONDUCT.md) on our GitHub repository.
-
-
-Authors & contributors
-The TRIQS library has been orginally authored by:
-
-Parcollet (IPhT, CEA-Saclay) and M. Ferrero (CPHT, Ecole Polytechique).
-It is currently maintained by:
-
-Parcollet (Flatiron Institute, CCQ) and N. Wentzell (Flatiron Institute, CCQ).
-It is supported by ERC under Grant Number 278472.
-
-Other developers include:
-
-Krivenko, T. Ayral, H. Strand, D. Simons, H. Hafermann, L. Messio, P. Seth.
-Citation
-TRIQS is a part of our scientific work and we kindly request that projects using it include a citation to the following paper. In order to help you, we provide a BibTeX entry [1].
-
-[1]	O. Parcollet, M. Ferrero, T. Ayral, H. Hafermann, I. Krivenko, L. Messio, and P. Seth, Comp. Phys. Comm. 196, 398-415 (2015) (bibtex file)
-If you find TRIQS useful, giving proper reference and citation is indeed a simple way to help convincing funding sources that such projects are useful for our community and should be supported.
-
-License
-TRIQS is published under the GNU General Public License, version 3.
-
-Note that it implies that applications using TRIQS must also be GPL.
-
-Disclaimer
-As stated by the License, the program is provided as is, i.e. WITHOUT ANY WARRANTY of any kind, as stated in the license. In particular, its authors and contributors will take no responsability for any possible bugs or any improper use of these programs, including those resulting in incorrect scientific publications.

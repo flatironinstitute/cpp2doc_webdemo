@@ -19,7 +19,7 @@ Jek Theme TRIQS has some specific configuration parameters that can be defined i
 
 ---
 
-View this site's [\_config.yml](https://github.com/lizlove/jek-theme-triqs/tree/master/_config.yml) file as an example.
+View this site's [\_config.yml](https://github.com/triqs/triqs/tree/master/_config.yml) file as an example.
 
 ## Site logo
 
@@ -62,7 +62,7 @@ heading_anchors: true
 
 ```yaml
 # Footer content appears at the bottom of every page's main content
-footer_content: 'Copyright &copy; 2017-2019 Cool People. Distributed by an <a href="https://github.com/lizlove/jek-theme-triqs/tree/master/LICENSE.txt">MIT license.</a>'
+footer_content: 'Copyright &copy; 2017-2019 Cool People. Distributed by an <a href="https://github.com/triqs/triqs/tree/master/LICENSE.txt">MIT license.</a>'
 ```
 
 ## Google Analytics

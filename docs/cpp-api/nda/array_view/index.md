@@ -1,5 +1,4 @@
 ---
-
 layout: class
 short_name: array_view
 qualified_name: nda::array_view
