@@ -1,0 +1,17 @@
+# Configuration file. Edit the options below
+
+skip_deprecated: true
+source_file_only: false # Document only functions/classes/... in the source file, excluding indirect includes
+compile_examples: false # Compile the example to check them.
+
+includers:     # regex -> filename
+  '.*': nda/nda.hpp
+
+white_list: ['nda::.*']  
+black_list: ['nda::expr.*', '.*_impl'] 
+
+#source_prefix:  /Users/oparcollet/Dropbox (Simons Foundation)/src/demo # A prefix to remove from the source files
+source_prefix:  /Users/oparcollet/Dropbox (Simons Foundation)/src/nda/c++ # A prefix to remove from the source files
+# source_remote_prefix: # https://github.com/TRIQS/triqs/blob/2.2.x/
+
+
