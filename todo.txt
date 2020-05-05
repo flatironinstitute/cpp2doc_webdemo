@@ -1,0 +1,13 @@
+TODO cpp2doc:
+
+1. change destination folder to docs/cpp-api
+
+2. Add the following properties to YAML
+    - `title`
+    - `has-children` (if applicable)
+    - `parent`
+    - `grand_parent` (if applicable)
+
+3. Remove excess underscores at end of file names / urls
+
+4. Maybe add permalinks [Should we remove docs in the url? ex: cpp-api/nda/make-view]
