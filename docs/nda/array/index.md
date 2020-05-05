@@ -33,6 +33,7 @@ example:
       nda::array<int, 1> a{1, 2, 3};
       nda::array_view<int, 1> v = make_view(a);
       std::vector<nda::array> V{{1, 2}, {2, 3}};
+
 see-also: [nda::array_view]
 signature: template <typename T, int R> class array
 source: src/nda.hpp
