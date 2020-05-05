@@ -67,9 +67,9 @@ Please read [CONTRIBUTING.md](https://github.com/???) for details on our code of
 
 ## Authors
 
-<!-- * **Michael Jordan* - *Cpp2doc plugin and initial work* - [Flatiron Institute](https://github.com/flatironinstitute) -->
-<!-- * **Dennis Rodman** - *Jekyll template* - [Flatiron Institute](https://github.com/flatironinstitute) -->
-<!-- * **Scottie Pippin ** - *Branding and design* - [Flatiron Institute](https://github.com/flatironinstitute) -->
+* **Michael Jordan* - *Cpp2doc plugin and initial work* - [Flatiron Institute](https://github.com/flatironinstitute)
+* **Dennis Rodman** - *Jekyll template* - [Flatiron Institute](https://github.com/flatironinstitute)
+* **Scottie Pippin ** - *Branding and design* - [Flatiron Institute](https://github.com/flatironinstitute)
 
 
 ## Acknowledgments
