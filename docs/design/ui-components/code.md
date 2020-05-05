@@ -1,5 +1,4 @@
 ---
-layout: default
 title: Code
 parent: UI Components
 grand-parent: Design

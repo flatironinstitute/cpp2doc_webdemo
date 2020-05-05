@@ -1,5 +1,4 @@
 ---
-layout: default
 title: Applications
 nav_order: 2
 permalink: /applications

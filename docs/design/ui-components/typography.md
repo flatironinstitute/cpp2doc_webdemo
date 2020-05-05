@@ -1,5 +1,4 @@
 ---
-layout: default
 title: Typography
 parent: UI Components
 grand-parent: Design

@@ -1,5 +1,4 @@
 ---
-layout: default
 title: Buttons
 parent: UI Components
 grand-parent: Design

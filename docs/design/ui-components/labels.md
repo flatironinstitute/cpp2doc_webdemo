@@ -1,5 +1,4 @@
 ---
-layout: default
 title: Labels
 parent: UI Components
 grand-parent: Design

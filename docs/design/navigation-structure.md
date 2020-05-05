@@ -1,5 +1,4 @@
 ---
-layout: default
 title: Navigation
 parent: Design
 nav_order: 2
@@ -34,7 +33,6 @@ To specify a page order, use the `nav_order` parameter in your pages' YAML front
 
 ```yaml
 ---
-layout: default
 title: Customization
 nav_order: 4
 ---
@@ -52,7 +50,6 @@ For specific pages that you do not wish to include in the main navigation, e.g. 
 
 ```yaml
 ---
-layout: default
 title: 404
 nav_exclude: true
 ---
@@ -102,7 +99,6 @@ On the parent pages, add this YAML front matter parameter:
 
 ```yaml
 ---
-layout: default
 title: UI Components
 nav_order: 2
 has_children: true
@@ -124,7 +120,6 @@ On child pages, simply set the `parent:` YAML front matter to whatever the paren
 
 ```yaml
 ---
-layout: default
 title: Buttons
 parent: UI Components
 nav_order: 2
@@ -144,7 +139,6 @@ By default, all pages with children will automatically append a Table of Content
 
 ```yaml
 ---
-layout: default
 title: UI Components
 nav_order: 2
 has_children: true
@@ -168,7 +162,6 @@ Child pages can also have children (grandchildren). This is achieved by using a 
 
 ```yaml
 ---
-layout: default
 title: Buttons
 parent: UI Components
 nav_order: 2
@@ -179,7 +172,6 @@ has_children: true
 
 ```yaml
 ---
-layout: default
 title: Buttons Child Page
 parent: Buttons
 grand_parent: UI Components

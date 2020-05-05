@@ -1,5 +1,4 @@
 ---
-layout: default
 title: Markdown kitchen sink
 parent: Design
 nav_order: 7

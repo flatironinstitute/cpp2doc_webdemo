@@ -40,5 +40,4 @@ see-also: []
 title: make_view
 parent: nda
 grand-parent: C++ API
-permalink: cpp-api/nda/make_view
 ...

@@ -1,5 +1,4 @@
 ---
-layout: default
 title: Tables
 parent: UI Components
 grand-parent: Design

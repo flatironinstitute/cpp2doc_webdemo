@@ -1,8 +1,6 @@
 ---
-layout: default
 title: Green's Functions
 parent: Main Concepts
-nav_order: 1
 ---
 
 # Greens Functions

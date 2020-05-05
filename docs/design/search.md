@@ -1,5 +1,4 @@
 ---
-layout: default
 title: Search
 parent: Design
 nav_order: 4
@@ -79,7 +78,6 @@ Sometimes you might have a page that you don't want to be indexed for the search
 
 ```yaml
 ---
-layout: default
 title: Page not found
 nav_exclude: true
 search_exclude: true

@@ -1,5 +1,4 @@
 ---
-layout: default
 title: Python API
 nav_order: 4
 has_children: true

@@ -1,10 +1,5 @@
 ---
-layout: default
 title: C++ API
-qualified_name: ""
-namespaces: [nda]
-functions: []
-classes: []
 permalink: cpp-api
 has_children: true
 nav_order: 3

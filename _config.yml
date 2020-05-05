@@ -60,6 +60,7 @@ footer_content: 'Copyright &copy; 2020 Flatiron Institute. Distributed by an <a 
 
 plugins:
   - jekyll-seo-tag
+  - jekyll-sitemap
 
 compress_html:
   clippings: all
@@ -68,3 +69,11 @@ compress_html:
   startings: []
   blanklines: false
   profile: false
+
+defaults:
+  -
+    scope:
+      path: ""
+      type: "pages"
+    values:
+      layout: "default"

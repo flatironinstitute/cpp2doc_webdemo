@@ -1,5 +1,4 @@
 ---
-layout: default
 title: Lists
 parent: UI Components
 grand-parent: Design

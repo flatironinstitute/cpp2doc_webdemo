@@ -1,5 +1,4 @@
 ---
-layout: default
 title: Configuration
 parent: Design
 nav_order: 1
