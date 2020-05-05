@@ -18,5 +18,4 @@ see-also: []
 title: method1
 parent: array
 grand_parent: nda
-permalink: cpp-api/nda/array/method1
 ...

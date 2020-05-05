@@ -27,4 +27,4 @@ source: src/nda.hpp
 title: array_view
 parent: nda
 grand_parent: C++ API
-...
+---

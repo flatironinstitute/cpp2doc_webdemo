@@ -39,6 +39,5 @@ source: src/nda.hpp
 title: array
 parent: nda
 grand_parent: C++ API
-# permalink: cpp-api/nda/array
 has_children: true
-...
+---

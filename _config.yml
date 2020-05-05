@@ -5,9 +5,8 @@ url: "https://lizlove.github.io" # the base hostname & protocol for your site, e
 
 email: oparcollet@flatironinstitute.org
 
-# TODO: CAN I REMOVE THIS? show_dir_listing: true
-
-# permalink: pretty
+# TODO: REMOVE THESE?
+# show_dir_listing: true
 # Build Settings
 # kramdown:
 #   input: GFM
