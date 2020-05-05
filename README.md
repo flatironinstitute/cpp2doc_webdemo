@@ -20,20 +20,26 @@ For detailed prerequisite install instructions for your operating system, check 
 gem install jekyll bundler
 ```
 
-3. Build the site and make it available on a local server.
+3. Build the site, serve it up, then visit it at http://127.0.0.1:4000. 
 
 ```
 bundle exec jekyll serve
 ```
 
-You only need to run `bundle exec` on installation and when a new gem is added. For routine local development, run
+**Note:** `jeykll serve` builds your site any time a source file changes and serves it locally. You will need to stop and restart if you make a change to the `_config.yml`. 
+
+### Troubleshooting
+Consult the Jekyll [Troubleshooting Guide](https://jekyllrb.com/docs/troubleshooting) for help with common problems.
+
+## Development
+
+Note: you only need to run `bundle exec` on installation or when a new gem is added. 
+
+For routine local development, run
 
 ```
 jekyll serve
 ```
-
-### Troubleshooting
-Consult the Jekyll [Troubleshooting Guide](https://jekyllrb.com/docs/troubleshooting) for help with common problems.
 
 <!-- ## Deployment
 
