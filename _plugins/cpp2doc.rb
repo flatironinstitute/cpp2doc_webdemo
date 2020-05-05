@@ -18,11 +18,11 @@ module Jekyll
         qname = page['qualified_name']
         if page['layout'] == 'function'
           briefs[qname] = page['brief']
-          urls[qname] = '/_pages/doc/' + qname.gsub('::','/') + "_.html"
+          urls[qname] = '/docs/cpp-api/' + qname.gsub('::','/') + ".html"
         end
         if page['layout'] == 'class'
           briefs[qname] = page['brief']
-          urls[qname] = '/_pages/doc/' + qname.gsub('::','/') + "/index.html"
+          urls[qname] = '/docs/cpp-api/' + qname.gsub('::','/') + "/index.html"
           classes.append(page['qualified_name'])
         end
       end
@@ -97,7 +97,7 @@ module Jekyll
         end
         repl = "_X000" + (1+n).to_s + "X_"
         url = type1.gsub("::","/")
-        type = '<a href="/_pages/doc/' + url + '/index.html">' + type + "</a>"
+        type = '<a href="/docs/cpp-api/' + url + '/index.html">' + type + "</a>"
         re_s = '(' + repl + ')(?!\w)'
         re = Regexp.new re_s
         r = r.gsub(re){ |w| type}

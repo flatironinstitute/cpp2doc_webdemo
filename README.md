@@ -1,6 +1,6 @@
 # cpp2doc
 
-Jekyll documentation engine and template for TRIQS.
+Jekyll documentation for [TRIQS](https://github.com/TRIQS/triqs) a Toolbox for Research on Interacting Quantum Systems.
 
 ## Prerequisites
 
@@ -14,7 +14,7 @@ For detailed prerequisite install instructions for your operating system, check 
 
 1. Install a full Ruby development environment. (see Prerequisites above) If you used `brew` to install Ruby, you [may need to modify your `$PATH` variable](https://jekyllrb.com/docs/troubleshooting/#installation-problems).
 
-2. Install Jekyll and [bundler](https://jekyllrb.com/docs/ruby-101/#bundler)[gems](https://jekyllrb.com/docs/ruby-101/#gems)
+2. Install Jekyll and [bundler](https://jekyllrb.com/docs/ruby-101/#bundler) [gems](https://jekyllrb.com/docs/ruby-101/#gems)
 
 ```
 gem install jekyll bundler
