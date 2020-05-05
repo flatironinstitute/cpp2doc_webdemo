@@ -35,7 +35,7 @@ jekyll serve
 ### Troubleshooting
 Consult the Jekyll [Troubleshooting Guide](https://jekyllrb.com/docs/troubleshooting) for help with common problems.
 
-## Deployment
+<!-- ## Deployment
 
 Add additional notes about how to deploy this on a live system
 
@@ -56,5 +56,5 @@ Please read [CONTRIBUTING.md](https://github.com/???) for details on our code of
 
 ## Acknowledgments
 
-* [Just the docs](https://github.com/pmarsceill/just-the-docs)
+* [Just the docs](https://github.com/pmarsceill/just-the-docs) -->
 
