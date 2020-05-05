@@ -7,24 +7,25 @@ includer: src/nda.hpp
 desc: _MISSING_
 brief: _MISSING_
 tparams:
-T: T is Value type
-R: Rank
+  T: T is Value type
+  R: Rank
 methods: []
 non_member_functions: []
 member_types: {}
 member_fields: {}
 example:
-desc: The description of the code
-code: |
-    #include <nda/nda.hpp>
-    int main() {
-    nda::array<int, 1> a{1, 2, 3};
-    nda::array_view<int, 1> v = make_view(a);
-    std::vector<nda::array> V{{1, 2}, {2, 3}};
+  desc: The description of the code
+  code: |
+     #include <nda/nda.hpp>
+     int main() {
+     nda::array<int, 1> a{1, 2, 3};
+     nda::array_view<int, 1> v = make_view(a);
+     std::vector<nda::array> V{{1, 2}, {2, 3}};
+
 see-also: [nda::array, nda::make_view]
 signature: template <typename T, int R> class array_view
 source: src/nda.hpp
 title: array_view
 parent: nda
 grand_parent: C++ API
----
+...
