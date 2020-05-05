@@ -60,8 +60,10 @@ class Kramdown::Parser::ERBKramdown < Kramdown::Parser::GFM
       #puts File.exist?(fname_pdf)
       #puts fname_pdf
       #puts Dir.getwd 
-      puts code
+      #puts code
       system("python3 " + fname_py)
+    else
+      #puts "File " + fname_pdf + "EXISTS"
     end
 
     table = new_block_el(:table, nil, nil, alignment: [], location: @src.current_line_number)
