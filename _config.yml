@@ -1,19 +1,16 @@
-# Site Settings
 title: TRIQS
 description: Documentation for the TRIQS library.
+baseurl: "" # the subpath of your site, e.g. /blog
+url: "https://lizlove.github.io" # the base hostname & protocol for your site, e.g. http://example.com
+
 email: oparcollet@flatironinstitute.org
 
-# TODO: CAN I REMOVE THIS?
-show_dir_listing: true
+# TODO: CAN I REMOVE THIS? show_dir_listing: true
 
-# TODO: Update with final URL
-url: "https://lizlove.github.io"
-
+# permalink: pretty
 # Build Settings
-sass:
-  sass_dir: _sass
-kramdown:
-  input: GFM
+# kramdown:
+#   input: GFM
 
 exclude:
   [
@@ -33,7 +30,7 @@ exclude:
   ]
 
 # Set a path/url to a logo that will be displayed instead of the title
-# logo: "/assets/images/triqs-logo-v1.jpg"
+logo: "/assets/images/triqs-logo-v1.jpg"
 
 # Enable or disable the site search
 search_enabled: true

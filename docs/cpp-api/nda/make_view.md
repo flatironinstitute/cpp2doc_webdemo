@@ -39,5 +39,5 @@ example:
 see-also: []
 title: make_view
 parent: nda
-grand-parent: C++ API
+grand_parent: C++ API
 ...

@@ -1,7 +1,7 @@
 ---
 title: Code
 parent: UI Components
-grand-parent: Design
+grand_parent: Design
 nav_order: 6
 ---
 

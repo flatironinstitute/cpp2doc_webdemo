@@ -1,7 +1,7 @@
 ---
 title: Color
 parent: Utilities
-grand-parent: Design
+grand_parent: Design
 nav_order: 3
 ---
 

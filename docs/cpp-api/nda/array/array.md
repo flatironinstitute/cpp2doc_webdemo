@@ -38,7 +38,7 @@ signature: template <typename T, int R> class array
 source: src/nda.hpp
 title: array
 parent: nda
-grand-parent: C++ API
+grand_parent: C++ API
 # permalink: cpp-api/nda/array
 has_children: true
 ...

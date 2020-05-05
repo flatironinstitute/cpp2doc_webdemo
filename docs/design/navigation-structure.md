@@ -2,7 +2,6 @@
 title: Navigation
 parent: Design
 nav_order: 2
-permalink: /navigation
 ---
 
 # Navigation

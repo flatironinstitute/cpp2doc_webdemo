@@ -3,7 +3,7 @@ title: UI Components
 nav_order: 3
 has_children: true
 parent: Design
-permalink: docs/design/ui-components
+permalink: design/ui-components
 ---
 
 # UI Components

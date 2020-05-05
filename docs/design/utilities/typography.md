@@ -1,7 +1,7 @@
 ---
 title: Typography
 parent: Utilities
-grand-parent: Design
+grand_parent: Design
 nav_order: 4
 ---
 

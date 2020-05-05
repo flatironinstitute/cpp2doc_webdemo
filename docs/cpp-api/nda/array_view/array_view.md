@@ -26,5 +26,5 @@ signature: template <typename T, int R> class array_view
 source: src/nda.hpp
 title: array_view
 parent: nda
-grand-parent: C++ API
+grand_parent: C++ API
 ...
