@@ -61,8 +61,8 @@ struct C1 {
   C1(int i) : x(i) {}
 
   template<typename U> C1(U);
-  
-  ~C1(); 
+
+  ~C1();
 
   void f(int u) const;
   static void hhh(int u);

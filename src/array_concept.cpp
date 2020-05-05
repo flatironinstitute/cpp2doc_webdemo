@@ -24,12 +24,12 @@ template <int R, typename A> concept NdArray2 = requires(A a) {
 
 #else
 
-#define NdArray 
+#define NdArray
 
 #endif
 
 template<bool B> struct ess1 {
-  
+
   void f(int u) requires B { }
 
 };
@@ -46,11 +46,11 @@ template <typename T, int R> struct myarray {
 
 };
 
-template<typename T> 
-NdArray auto maker() { 
+template<typename T>
+NdArray auto maker() {
   return myarray<T, 2>{};}
 
-inline auto maker2() { 
+inline auto maker2() {
   auto b = maker<double>();
 
   return 1;
@@ -83,7 +83,7 @@ int main() {
 // f(non{});
 
  ess1<false> x;
- 
+
  x.f(2);
 }
 

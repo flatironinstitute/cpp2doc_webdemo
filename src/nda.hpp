@@ -1,28 +1,28 @@
 #include <vector>
 
-namespace nda { 
+namespace nda {
 
   /**
    * A brief doc of array
    *
    *
-   * A long doc of array 
+   * A long doc of array
    * with multiple lines
    *
    *
    * And several paragraphs
    * also very long
    *
-   * private 
-   * 
+   * private
+   *
    * \note RRRR
    *
    * \tparam R rank
-   * 
+   *
    * Another paragraph
    */
- template<typename T, int R> 
- class array { 
+ template<typename T, int R>
+ class array {
    public:
   void method1() const;
 
@@ -39,21 +39,21 @@ namespace nda {
   /// Something
   double x;
 
-  
+
 storage_t const & storage() const;
  };
 
- template<typename T, int R> 
- class array_view { 
+ template<typename T, int R>
+ class array_view {
 
   array_view(array<T, R> const &);
  };
 
 
- template<typename T, int R> 
+ template<typename T, int R>
  nda::array_view<T, R> make_view(nda::array<T, R> const & x);
- 
- template<typename T, int R> 
+
+ template<typename T, int R>
  nda::array_view<T, R> make_view(int k, nda::array<T, R> const & x);
 
 }
