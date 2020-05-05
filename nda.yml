@@ -7,7 +7,7 @@ compile_examples: false # Compile the example to check them.
 includers:     # regex -> filename
   '.*': nda/nda.hpp
 
-white_list: ['nda::\w*']  
+white_list: ['nda::.*']  
 black_list: ['nda::expr.*', '.*_impl'] 
 
 #source_prefix:  /Users/oparcollet/Dropbox (Simons Foundation)/src/demo # A prefix to remove from the source files
