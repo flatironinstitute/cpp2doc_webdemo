@@ -29,4 +29,6 @@ TODO cpp2doc:
 - grand-parent (if applicable)
 - permalink [Should ignore the docs folder and use dashes not underscores ex: cpp-api/nda/make-view]
 
+3. Remove all the locations with _ at the end of Urls.
+
 -->

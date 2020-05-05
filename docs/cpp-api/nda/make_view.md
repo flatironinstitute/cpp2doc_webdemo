@@ -1,8 +1,5 @@
 ---
 layout: function
-parent: nda
-grand-parent: C++ API
-permalink: cpp-api/nda/make_view
 short_name: make_view
 qualified_name: nda::make_view
 namespaces: [nda]
@@ -40,4 +37,8 @@ example:
       std::vector<nda::array> V{{1, 2}, {2, 3}};
     }
 see-also: []
+title: make_view
+parent: nda
+grand-parent: C++ API
+permalink: cpp-api/nda/make_view
 ...

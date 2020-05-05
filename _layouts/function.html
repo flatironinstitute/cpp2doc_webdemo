@@ -17,28 +17,28 @@ layout: default
 <table class='signature-table' >
 {% for entity in page.overloads %}
     <tr>
-     <td> <span class='signature'> {{- entity[0] | link_and_highlight: site.data.highlighted_types, page.namespaces -}} </span> </td> 
+     <td> <span class='signature'> {{- entity[0] | link_and_highlight: site.data.highlighted_types, page.namespaces -}} </span> </td>
      <td> ({{forloop.index}}) </td>
      <td> [Source] </td>
     </tr>
-{% endfor %} 
+{% endfor %}
 </table>
 
  <!-- Description of the function -->
 
 
  {{page.brief |markdownify}}
- 
+
  {{page.desc |markdownify}}
 
 
  <!--Description of each overload-->
-<ol style="list-style-type:decimal;">
+<ol>
 {% for entity in page.overloads %}
 <li>
  {%- if entity[1].deprecated -%}[DEPRECATED]{%- endif -%}
  {{entity[1].desc| markdownify}}
-{% endfor %} 
+{% endfor %}
 </ol>
 
  <!-- Template parameters  FIXME : FACTORIZE-->
@@ -49,8 +49,7 @@ layout: default
 <table class='tparam-table' >
  {% for param in page.tparams%}
     <tr>
-     <td class="param-name" valign="top" align="right"> {{param[0]}} </td>
-     <td valign="top"> <b>-</b> </td>
+     <td class="param-name" valign="top" align="left"> {{param[0]}} </td>
      <td class="param-value"> {{param[1] |markdownify | remove: '<p>' | remove: '</p>'	}} </td>
     </tr>
  {% endfor %}
@@ -64,8 +63,7 @@ layout: default
 <table class='param-table' >
  {% for param in page.params%}
     <tr>
-     <td class="param-name" valign="top" align="right"> {{param[0]}} </td>
-     <td valign="top"> <b>-</b> </td>
+     <td class="param-name" valign="top" align="left"> {{param[0]}} </td>
      <td class="param-value"> {{param[1] |markdownify | remove: '<p>' | remove: '</p>'	}} </td>
     </tr>
  {% endfor %}
