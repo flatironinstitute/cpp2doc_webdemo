@@ -1,5 +1,6 @@
 require 'kramdown/parser/kramdown'
 require 'kramdown/parser/gfm'
+require 'digest'
 
 class Kramdown::Parser::ERBKramdown < Kramdown::Parser::GFM
 
@@ -14,10 +15,10 @@ class Kramdown::Parser::ERBKramdown < Kramdown::Parser::GFM
 
    def parse_erb_tags
      @src.pos += @src.matched_size
-     puts @src.matched
+     #puts @src.matched
      @tree.children << Element.new(:raw,  '<span style="color:red">' + @src.matched[2..-3] + '</span>'  )
-     @tree.children << Element.new(:text,  "ZOZOZO")
-     s = system("python3 -c'import sys; print (sys.path)'")
+     #@tree.children << Element.new(:text,  "ZOZOZO")
+     #s = system("python3 -c'import sys; print (sys.path)'")
      @tree.children << Element.new(:codeblock,  "def f(x):\n  a = [1,2,3]\n  return a", lang: 'python')
 
      el = new_block_el(:codeblock, "def f(x):\n  a = [1,2,3]\n  return a", nil, location: 0, fenced: true)
@@ -42,20 +43,24 @@ class Kramdown::Parser::ERBKramdown < Kramdown::Parser::GFM
    def parse_berb_tags
     @src.pos += @src.matched_size
     code = @src.matched[2..-3].strip
-    code_hash = code.hash().to_s
-    if code_hash[0] == '-' then code_hash[0] = 'm' end
+    code_hash = Digest::MD5.hexdigest code
+    
     fname_py = "code_snippets/code_" + code_hash + ".py"
     fname_pdf = "code_snippets/code_" + code_hash + ".pdf"
     url_pdf = "/code_snippets/code_" + code_hash + ".pdf"
    
-    if not Dir.exists?(fname_pdf)
+    if not File.exists?(fname_pdf)
+
       system("mkdir -p code_snippets")
-      File.open(fname_py, "w") {
-        |f| 
+      File.open(fname_py, "w") { |f| 
           f.write(code) # FIXME remove the leading spaces ...
           f.write( "\nimport matplotlib.pyplot\nmatplotlib.pyplot.savefig('" + fname_pdf + "')") # FIXME check that matplotlib was imported ?
       }
-      puts "RUNNING PYTHON ON " + code
+      #puts "RUNNING PYTHON ON " + fname_py
+      #puts File.exist?(fname_pdf)
+      #puts fname_pdf
+      #puts Dir.getwd 
+      puts code
       system("python3 " + fname_py)
     end
 
