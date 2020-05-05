@@ -15,4 +15,8 @@ example:
   desc: __MISSING__
   code: __MISSING__
 see-also: []
+title: method1
+parent: array
+grand-parent: nda
+permalink: cpp-api/nda/array/method1
 ...

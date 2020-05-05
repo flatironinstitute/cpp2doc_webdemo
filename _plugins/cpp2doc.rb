@@ -18,7 +18,7 @@ module Jekyll
         qname = page['qualified_name']
         if page['layout'] == 'function'
           briefs[qname] = page['brief']
-          urls[qname] = '/_pages/doc/' + qname.gsub('::','/') + ".html"
+          urls[qname] = '/_pages/doc/' + qname.gsub('::','/') + "_.html"
         end
         if page['layout'] == 'class'
           briefs[qname] = page['brief']

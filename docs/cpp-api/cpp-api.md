@@ -1,5 +1,4 @@
 ---
-#layout: namespace
 layout: default
 title: C++ API
 qualified_name: ""

@@ -26,4 +26,8 @@ std::vector<nda::array> V{{1, 2}, {2, 3}};
 see-also: [nda::array, nda::make_view]
 signature: template <typename T, int R> class array_view
 source: src/nda.hpp
+title: array_view
+parent: nda
+grand-parent: C++ API
+permalink: cpp-api/nda/array_view/array_view
 ...
