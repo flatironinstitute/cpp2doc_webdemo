@@ -36,6 +36,7 @@ exclude:
     "README.md",
     "Rakefile",
     "code_snippets",
+    ".jekyll-cache"
   ]
 
 # Set a path/url to a logo that will be displayed instead of the title
@@ -66,6 +67,8 @@ footer_content: 'Copyright &copy; 2020 Flatiron Institute. Distributed by an <a 
 
 plugins:
   - jekyll-seo-tag
+  - jekyll-include-cache
+    #- liquid-c
 
 compress_html:
   clippings: all

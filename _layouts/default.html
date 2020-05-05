@@ -5,7 +5,7 @@ layout: table_wrappers
 <!DOCTYPE html>
 
 <html lang="{{ site.lang | default: "en-US" }}">
-{% include head.html %}
+{% include_cached head.html %}
 <body>
   <svg xmlns="http://www.w3.org/2000/svg" style="display: none;">
     <symbol id="link" viewBox="0 0 16 16">
@@ -17,12 +17,12 @@ layout: table_wrappers
   <div class="page-wrap">
     <div class="side-bar">
       <div class="site-header">
-        <a href="{{ site.url }}{{ site.baseurl }}" class="site-title lh-tight">{% include title.html %}</a>
+        <a href="{{ site.url }}{{ site.baseurl }}" class="site-title lh-tight">{% include_cached title.html %}</a>
         <button class="menu-button fs-3 js-main-nav-trigger" data-text-toggle="Hide" type="button">Menu</button>
       </div>
 
       <div class="navigation main-nav js-main-nav">
-        {% include nav.html %}
+        {% include_cached nav.html %}
       </div>
       <footer class="site-footer">
         <p class="text-small text-grey-dk-000 mb-4">A project of the
@@ -67,7 +67,7 @@ layout: table_wrappers
           {% endunless %}
           <div id="main-content" class="page-content" role="main">
             {% if site.heading_anchors != false %}
-              {% include vendor/anchor_headings.html html=content beforeHeading="true" anchorBody="<svg viewBox=\"0 0 16 16\" aria-hidden=\"true\"><use xlink:href=\"#link\"></use></svg>" anchorClass="anchor-heading" %}
+              {% include_cached vendor/anchor_headings.html html=content beforeHeading="true" anchorBody="<svg viewBox=\"0 0 16 16\" aria-hidden=\"true\"><use xlink:href=\"#link\"></use></svg>" anchorClass="anchor-heading" %}
             {% else %}
               {{ content }}
             {% endif %}

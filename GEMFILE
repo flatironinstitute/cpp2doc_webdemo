@@ -4,3 +4,8 @@ source "https://rubygems.org"
 # gemspec
 gem 'jekyll-seo-tag'
 gem 'kramdown-math-katex'
+gem 'jekyll-include-cache'
+
+gem 'liquid-c' #, github: 'Shopify/liquid-c', branch: 'master'
+
+
