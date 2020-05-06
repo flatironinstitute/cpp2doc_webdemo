@@ -1,0 +1,41 @@
+---
+layout: function
+short_name: range
+qualified_name: nda::range::range
+namespaces: [nda, range]
+includer: nda/nda.hpp
+brief: Default constructor.
+overloads:
+  void nda::range::range():
+    desc: Default constructor.
+    source: nda/layout/range.hpp
+  void nda::range::range(long first__, long last__, long step__ = </Users/oparcollet/src/nda/c++/nda/layout/./range.hpp:57:52>) noexcept:
+    desc: ""
+    source: nda/layout/range.hpp
+  explicit void nda::range::range(long i) noexcept:
+    desc: Constructor
+    source: nda/layout/range.hpp
+  void nda::range::range(const class nda::range & ):
+    desc: ""
+    source: nda/layout/range.hpp
+  void nda::range::range(class nda::range && ):
+    desc: ""
+    source: nda/layout/range.hpp
+desc: |
+  Equivalent to all, takes all indices
+  As in Python, range() stands for the whole set of indices in the dimension (like `:` in python) ::  A(range(), 0) // take the first column of A
+params:
+  first__: __MISSING__
+  last__: __MISSING__
+  step__: __MISSING__
+  i: ": last index + 1 (as in Python or STL)."
+  "": __MISSING__
+tparams:
+  {}
+return_value: __MISSING__
+example:
+  desc: __MISSING__
+  code: __MISSING__
+see-also: []
+...
+

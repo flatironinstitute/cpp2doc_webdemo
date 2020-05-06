@@ -1,0 +1,16 @@
+---
+layout: namespace
+qualified_name: nda::blas::f77
+namespaces: []
+classes: []
+functions:
+  - axpy
+  - copy
+  - dot
+  - gemm
+  - gemv
+  - ger
+  - scal
+  - swap
+...
+
