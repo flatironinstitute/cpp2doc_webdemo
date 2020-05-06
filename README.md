@@ -20,13 +20,27 @@ For detailed prerequisite install instructions for your operating system, check 
 gem install jekyll bundler
 ```
 
-3. Build the site, serve it up, then visit it at http://127.0.0.1:4000. 
+3. Install the gems with bundle
+
+```
+bundle install
+```
+
+4. Intialize the search engine.
+
+```
+bundle exec search:init
+```
+
+4. Build the site and serve it up. The first build will be slow, but subsequent builds should be fairly rapid.
 
 ```
 bundle exec jekyll serve
 ```
 
-**Note:** `jeykll serve` rebuilds your site any time a source file changes and serves it locally. You will need to stop and restart if you make changes to the `_config.yml`. 
+View the site at [http://127.0.0.1:4000](http://127.0.0.1:4000).
+
+**Note:** `jeykll serve` includes a watch script that automatically updates any time a source file changes. The one exception is `_config.yml`, you will need to stop and restart `jekyll serve` to see these changes.
 
 ### Troubleshooting
 Consult the Jekyll [Troubleshooting Guide](https://jekyllrb.com/docs/troubleshooting) for help with common problems.
