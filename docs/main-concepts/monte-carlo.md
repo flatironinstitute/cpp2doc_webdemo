@@ -90,7 +90,7 @@ which ends hre
 I want to write<span style="color:red">in read</span>
 
 
-And the ![result](google.com)
+And the ![result](https://www.google.com)
 {:height="36px" width="36px"}
 
 {::mytension}
