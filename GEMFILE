@@ -7,7 +7,6 @@ group :jekyll_plugins do
     gem 'jekyll-sitemap'
     gem 'jekyll-seo-tag'
     gem 'jekyll-katex'
-    # gem 'jekyll-include-cache'
 end
 
 gem 'liquid-c' #, github: 'Shopify/liquid-c', branch: 'master'

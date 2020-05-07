@@ -1,0 +1,77 @@
+
+title: TRIQS
+description: Documentation for the TRIQS library.
+baseurl: "" # the subpath of your site, e.g. /blog
+url: "https://lizlove.github.io" # the base hostname & protocol for your site, e.g. http://example.com
+
+email: oparcollet@flatironinstitute.org
+
+# TODO: REMOVE THESE?
+show_dir_listing: true
+# Build Settings
+# kramdown:
+#   input: ERBKramdown #nFM
+#   math_engine: katex
+#   math_engine_opts: {}
+
+exclude:
+  [
+    "node_modules/",
+    "*.gemspec",
+    "*.gem",
+    "Gemfile",
+    "Gemfile.lock",
+    "package.json",
+    "package-lock.json",
+    "script/",
+    "LICENSE.txt",
+    "lib/",
+    "bin/",
+    "README.md",
+    "Rakefile",
+    "code_snippets",
+    "sandbox",
+    ".jekyll-cache"
+  ]
+
+# Set a path/url to a logo that will be displayed instead of the title
+logo: "/assets/images/triqs-logo-v1.jpg"
+
+# Enable or disable the site search
+search_enabled: true
+
+# Set the search token separator for hyphenated-word search:
+search_tokenizer_separator: /[\s/]+/
+
+# Enable or disable heading anchors
+heading_anchors: true
+
+# Aux links for the upper right navigation
+aux_links:
+  "TRIQS on GitHub":
+    - "//github.com/TRIQS/triqs"
+
+# Footer content appears at the bottom of every page's main content
+footer_content: 'Copyright &copy; 2020 Flatiron Institute. Distributed by an <a href="https://github.com/triqs/triqs/tree/master/LICENSE.txt">GNU GPL license.</a>'
+
+# TODO: ADD GA TRACKING
+# Google Analytics Tracking
+# e.g, UA-1234567-89
+# TODO: Add GA
+# ga_tracking: UA-2709176-10
+
+plugins:
+  - jekyll-seo-tag
+  - jekyll-sitemap
+  # - jekyll-include-cache
+  - jekyll-katex
+
+incremental: true
+
+defaults:
+  -
+    scope:
+      path: ""
+      type: "pages"
+    values:
+      layout: "default"
