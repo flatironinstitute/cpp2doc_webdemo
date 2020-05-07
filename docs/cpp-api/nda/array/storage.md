@@ -1,15 +1,15 @@
 ---
 layout: function
-short_name: method1
-qualified_name: nda::array::method1
+short_name: storage
+qualified_name: nda::array::storage
 namespaces: [nda, array]
-includer: src/nda.hpp
-brief: __MISSING__
+includer: ""
+brief: ""
 overloads:
-  void method1()  const:
+  const nda::array::storage_t & storage()  const:
     desc: ""
     source: /Users/oparcollet/cpp2doc_webdemo/src/nda.hpp
-desc: __MISSING__
+desc: ""
 params:
   {}
 tparams:
@@ -19,6 +19,7 @@ example:
   desc: __MISSING__
   code: __MISSING__
 see-also: []
-title: nda::array::method1
-permalink: /cpp-api/nda/array/method1
+title: nda::array::storage
+permalink: /cpp-api/nda/array/storage
 ...
+

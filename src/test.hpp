@@ -37,7 +37,7 @@ void f(); // no arguments
 
 
 //
-void vec(std::vector<int> const &v);
+void vec(std::vector<int> const &);
 
 // template
 template <typename T, typename U> void vec_tpl(std::vector<T> const &v, U &&x);
