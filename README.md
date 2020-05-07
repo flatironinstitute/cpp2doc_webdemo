@@ -32,7 +32,7 @@ bundle install
 bundle exec search:init
 ```
 
-4. Build the site and serve it up. The first build will be slow, but subsequent builds should be fairly rapid.
+5. Build the site and serve it up. The first build will be slow, but subsequent builds should be fairly rapid.
 
 ```
 bundle exec jekyll serve

@@ -40,4 +40,4 @@ title: array
 parent: nda
 grand_parent: C++ API
 has_children: true
----
+...

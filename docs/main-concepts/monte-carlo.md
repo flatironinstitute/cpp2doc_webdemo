@@ -1,42 +1,52 @@
 ---
-layout: page
 title: MC tools
+parent: Main Concepts
 ...
 
+# Monte Carlo Tools
+{: .no_toc }
 
-SOME TEXT is to be written here, but it is long 
+## Table of contents
+{: .no_toc .text-delta }
+
+1. TOC
+{:toc}
+
+---
+
+SOME TEXT is to be written here, but it is long
 
 <%
 
-import numpy as np
-import matplotlib.pyplot as plt
+  import numpy as np
+  import matplotlib.pyplot as plt
 
-x1 = np.linspace(0.0, 5.0)
-x2 = np.linspace(0.0, 2.0)
+  x1 = np.linspace(0.0, 5.0)
+  x2 = np.linspace(0.0, 2.0)
 
-y1 = np.cos(5 * np.pi * x1) * np.exp(-x1)
-y2 = np.cos(2 * np.pi * x2)
+  y1 = np.cos(0.5 * np.pi * x1) * np.exp(-x1)
+  y2 = np.cos(2 * np.pi * x2)
 
-plt.subplot(2, 1, 1)
-plt.plot(x1, y1, 'o-')
-plt.title('A tale of 2 subplots')
-plt.ylabel('Damped oscillation')
+  plt.subplot(2, 1, 1)
+  plt.plot(x1, y1, 'o-')
+  plt.title('A tale of 2 subplots')
+  plt.ylabel('Damped oscillation')
 
-plt.subplot(2, 1, 2)
-plt.plot(x2, y2, '.-')
-plt.xlabel('time (s)')
-plt.ylabel('Undamped')
+  plt.subplot(2, 1, 2)
+  plt.plot(x2, y2, '.-')
+  plt.xlabel('time (s)')
+  plt.ylabel('Undamped')
 %>
- 
 
-IMAGE IS presnted ABOVE
 
- 
+IMAGE IS presented ABOVE
+
+
 
 ``` c++
 template<typename T, int R> struct A;
 ```
- 
+
 ~~~ c++
 template<typename T, int R> struct A;
 ~~~
@@ -50,7 +60,7 @@ def f(x):
 ~~~
 
 
-Some text <% ineline stuff %>
+Some text <% inline stuff %>
 
 and a block
 
@@ -69,7 +79,7 @@ which ends hre
 # A collapsible section with markdown
 <details>
   <summary>Click to expand!</summary>
-  
+
   ## Heading
   1. A numbered
   2. list
@@ -80,7 +90,7 @@ which ends hre
 I want to write<span style="color:red">in read</span>
 
 
-And the ![result](green_imfreq.pdf)
+And the ![result](google.com)
 {:height="36px" width="36px"}
 
 {::mytension}
@@ -89,7 +99,7 @@ writing someting
 ---
 ee: 1
 ...
-{:/mytension} 
+{:/mytension}
 
 n order to have a first overview of the main features of the
 `mc_generic` class, let's start with a concrete Monte Carlo code. We

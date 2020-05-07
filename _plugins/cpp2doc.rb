@@ -44,22 +44,22 @@ class Kramdown::Parser::ERBKramdown < Kramdown::Parser::GFM
     @src.pos += @src.matched_size
     code = @src.matched[2..-3].strip
     code_hash = Digest::MD5.hexdigest code
-    
+
     fname_py = "code_snippets/code_" + code_hash + ".py"
     fname_pdf = "code_snippets/code_" + code_hash + ".pdf"
     url_pdf = "/code_snippets/code_" + code_hash + ".pdf"
-   
+
     if not File.exists?(fname_pdf)
 
       system("mkdir -p code_snippets")
-      File.open(fname_py, "w") { |f| 
+      File.open(fname_py, "w") { |f|
           f.write(code) # FIXME remove the leading spaces ...
           f.write( "\nimport matplotlib.pyplot\nmatplotlib.pyplot.savefig('" + fname_pdf + "')") # FIXME check that matplotlib was imported ?
       }
       #puts "RUNNING PYTHON ON " + fname_py
       #puts File.exist?(fname_pdf)
       #puts fname_pdf
-      #puts Dir.getwd 
+      #puts Dir.getwd
       #puts code
       system("python3 " + fname_py)
     else
@@ -67,7 +67,7 @@ class Kramdown::Parser::ERBKramdown < Kramdown::Parser::GFM
     end
 
     table = new_block_el(:table, nil, nil, alignment: [], location: @src.current_line_number)
-   
+
     thead =  new_block_el(:thead)
     tr =  new_block_el(:tr)
     td =  new_block_el(:td)
@@ -90,16 +90,16 @@ class Kramdown::Parser::ERBKramdown < Kramdown::Parser::GFM
       el.attr['class'] = "language-python"
     end
     #@tree.children << el
-    td1.children << el 
+    td1.children << el
 
     el = new_block_el(:img)
     el.attr['src'] = url_pdf
     el.attr['alt'] = "THE PLOT"
     el.attr['title'] = "THE TITLE"
     #@tree.children << el
-    td2.children << el 
+    td2.children << el
 
-    tr.children << td1 
+    tr.children << td1
     tr.children << td2
     tbody.children << tr
 
@@ -108,7 +108,7 @@ class Kramdown::Parser::ERBKramdown < Kramdown::Parser::GFM
     table.attr['class'] = "table-python-matplotlib"
 
     @tree.children << table
-    
+
     #puts  @src.matched
     #@tree.children << Element.new(:raw,  '<span style="color:blue">' + @src.matched[2..-3] + '</span>'  )
    end
@@ -120,7 +120,7 @@ end
 module Jekyll
 
   module Reading
- 
+
   # This function is executed before rendering the pages
   # Cf Jekyll help, custom Generators
   # It constructs
@@ -158,11 +158,11 @@ module Jekyll
 
   module CPP2DOC_Filter
 
-    # This filter get the url of the page of an object 
+    # This filter get the url of the page of an object
     # with qualified name qname
     def get_page_of(qname, site)
       urls = site['urls']
-      if urls.key?(qname) then 
+      if urls.key?(qname) then
         #puts qname, urls[qname]
         return urls[qname]
       end
@@ -227,7 +227,7 @@ module Jekyll
     end
 
   end
- 
+
   class RegisterGeneratedImagesTag < Liquid::Tag
 
     def initialize(tag_name, text, tokens)
@@ -237,8 +237,8 @@ module Jekyll
 
     def render(context)
      #puts " START RENDER TAG"
-     site = context.registers[:site]    
-     sfile_names = site.static_files.map{ |f| f.path} 
+     site = context.registers[:site]
+     sfile_names = site.static_files.map{ |f| f.path}
      #puts "-----------"
      #puts sfile_names
      Dir.glob("*.pdf", base: "code_snippets").each do |f|
@@ -248,11 +248,11 @@ module Jekyll
        end
      end
 
-     #puts site.static_files.map{ |f| f.path} 
+     #puts site.static_files.map{ |f| f.path}
      #puts " END RENDER TAG"
      return "" # no rendering, it is just a hook giving us the context
     end
-  end 
+  end
 
 end
 
