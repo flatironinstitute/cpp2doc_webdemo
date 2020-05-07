@@ -4,15 +4,21 @@ short_name: array
 qualified_name: nda::array
 namespaces: [nda]
 includer: src/nda.hpp
-desc: Long description of the array class
-brief: Brief doc
+brief: A brief doc of array
+desc: |
+  A long doc of array with multiple lines
+  And several paragraphs also very long
+  private
+
+
+  Another paragraph
 tparams:
   T: T is a type
   R: Rank
-methods: [method1]
+methods: [method1, storage]
 non_member_functions: []
 member_types:
-  value_t:
+  storage_t:
     type: T
     desc: This is value_t
   arr_t:
@@ -36,8 +42,8 @@ example:
 see-also: [nda::array_view]
 signature: template <typename T, int R> class array
 source: src/nda.hpp
-title: array
-parent: nda
-grand_parent: C++ API
-has_children: true
+title: nda::array
+permalink: /cpp-api/nda/array
+has-children: true
 ...
+
