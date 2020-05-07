@@ -28,7 +28,8 @@ exclude:
     "bin/",
     "README.md",
     "Rakefile",
- #    "code_snippets",
+    "code_snippets",
+    "sandbox",
     ".jekyll-cache"
   ]
 

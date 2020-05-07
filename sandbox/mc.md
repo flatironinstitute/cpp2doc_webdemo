@@ -4,7 +4,7 @@ title: MC tools
 ...
 
 
-SOME TEXT is to be written here, but it is long 
+SOME TEXT is to be written here, but it is long
 
 <%
 
@@ -27,16 +27,16 @@ plt.plot(x2, y2, '.-')
 plt.xlabel('time (s)')
 plt.ylabel('Undamped')
 %>
- 
+
 
 IMAGE IS presnted ABOVE
 
- 
+
 
 ``` c++
 template<typename T, int R> struct A;
 ```
- 
+
 ~~~ c++
 template<typename T, int R> struct A;
 ~~~
@@ -69,7 +69,7 @@ which ends hre
 # A collapsible section with markdown
 <details>
   <summary>Click to expand!</summary>
-  
+
   ## Heading
   1. A numbered
   2. list
@@ -89,7 +89,7 @@ writing someting
 ---
 ee: 1
 ...
-{:/mytension} 
+{:/mytension}
 
 n order to have a first overview of the main features of the
 `mc_generic` class, let's start with a concrete Monte Carlo code. We
