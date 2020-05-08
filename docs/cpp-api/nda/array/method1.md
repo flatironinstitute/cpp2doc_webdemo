@@ -21,4 +21,5 @@ example:
 see-also: []
 title: nda::array::method1
 permalink: /cpp-api/nda/array/method1
+parent: nda::array
 ...

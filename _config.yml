@@ -8,10 +8,6 @@ email: oparcollet@flatironinstitute.org
 # TODO: REMOVE THESE?
 show_dir_listing: true
 # Build Settings
-# kramdown:
-#   input: ERBKramdown #nFM
-#   math_engine: katex
-#   math_engine_opts: {}
 
 exclude:
   [
@@ -62,7 +58,7 @@ footer_content: 'Copyright &copy; 2020 Flatiron Institute. Distributed by an <a 
 plugins:
   - jekyll-seo-tag
   - jekyll-sitemap
-  # - jekyll-include-cache
+  - jekyll-include-cache
   - jekyll-katex
 
 incremental: true

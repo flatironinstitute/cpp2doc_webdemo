@@ -16,9 +16,9 @@ desc: |
   Long description of this function
   Possibly with some **bold text** (markdown),
   or some formula like
-  
+
   $$ \int f(x) dx = 0 $$
-  
+
   $$ \sum_{n=0}^\infty \frac{1}{n^2} = \frac{\pi^2}{6} $$
 params:
   x: Description of x
