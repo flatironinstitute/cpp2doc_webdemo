@@ -144,16 +144,6 @@ module Jekyll
           urls[qname] = '/docs/cpp-api/' + qname.gsub('::','/') + "/index.html"
           classes.append(page['qualified_name'])
         end
-        # EL CODE FOR ADDING HIERARCHY FOR NAVS
-        if page['permalink']
-          nest = page['permalink'].split("/")
-          if nest.count() > 1
-            puts page['permalink']
-          end
-        else
-          puts 'no permalink: '
-          puts page['title']
-        end
       end
       site.data["urls"] = urls
       site.data["allbriefs"] = briefs
