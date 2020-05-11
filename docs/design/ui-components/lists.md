@@ -3,6 +3,7 @@ title: Lists
 parent: UI Components
 grand_parent: Design
 nav_order: 5
+permalink: /design/ui-components/lists
 ---
 
 # Lists

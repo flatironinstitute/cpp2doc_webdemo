@@ -3,6 +3,7 @@ title: Layout
 parent: Utilities
 grand_parent: Design
 nav_order: 2
+permalink: /design/utilities/layout
 ---
 
 # Layout Utilities

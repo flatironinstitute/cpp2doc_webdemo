@@ -3,6 +3,7 @@ title: Tables
 parent: UI Components
 grand_parent: Design
 nav_order: 4
+permalink: /design/ui-components/tables
 ---
 
 # Tables

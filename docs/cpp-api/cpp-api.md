@@ -1,6 +1,6 @@
 ---
 title: C++ API
-permalink: cpp-api
+permalink: /cpp-api
 has_children: true
 nav_order: 3
 ---
