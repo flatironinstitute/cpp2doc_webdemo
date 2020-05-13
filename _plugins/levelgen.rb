@@ -8,9 +8,10 @@ module Leveling
                 if nest.count() > 1
                     nest.reverse.each_with_index do |nested, index|
                         levkey = "level" + index.to_s
-                        # page[levkey] = nested
+                        puts "lev-key #{levkey}, nested #{nested}"
+
                     end
-                    puts page['level0']
+                    puts "fart #{page['level0']}"
                 end
             end
         end
