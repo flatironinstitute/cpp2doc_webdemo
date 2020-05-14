@@ -1,22 +1,32 @@
-module Leveling
+module Jekyll
+
+  module LevelGenerator
     class Generator < Jekyll::Generator
+      safe true
+      priority :lowest
+
       def generate(site)
+        @site = site
+        @pages = @site.pages
+        levels = []
 
-        site.pages.each do |page|
-            if page['permalink']
-                nest = page['permalink'].split("/").slice(1, page['permalink'].size)
-                if nest.count() > 1
-                    nest.reverse.each_with_index do |nested, index|
-                        levkey = "level" + index.to_s
-                        puts "lev-key #{levkey}, nested #{nested}"
+        Jekyll.logger.info "Jekyll Leveler:", "Start generating levels for #{@site}"
 
-                    end
-                    puts "fart #{page['level0']}"
-                end
-            end
+      # Iterate through the site pages and split permalinks into arrays for nav ui
+        @pages.each do |page|
+          perm = page['permalink']
+          if perm
+            nest = page['permalink'].split("/").slice(1, page["permalink"].size)
+            levels << {"id" => perm, "nest" => nest}
+          end
         end
 
+        # Add level hash to data for access on rendering.
+        site.data["levels"] = levels
 
+        Jekyll.logger.info "Jekyll Leveler:", "Done generating #{levels.length} levels"
       end
+
     end
+  end
 end

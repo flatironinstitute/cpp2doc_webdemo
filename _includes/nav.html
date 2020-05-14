@@ -2,6 +2,8 @@
     {%- assign pages_list = site.html_pages | sort:"nav_order" -%}
     {%- for node in pages_list -%}
       {%- unless node.nav_exclude -%}
+        {%- assign node_level_obj = site.data.levels | where: "id", node.permalink -%}
+        <li>{{node_level_obj}}</li>
         {%- if node.parent == nil -%}
           <li class="navigation-list-item{% if page.url == node.url or page.parent == node.title or page.grand_parent == node.title %} active{% endif %}">
             {%- if page.parent == node.title or page.grand_parent == node.title -%}
@@ -9,6 +11,7 @@
             {%- endif -%}
             <a href="{{ node.url | absolute_url }}" class="navigation-list-link{% if page.url == node.url %} active{% endif %}">{{ node.title }}</a>
             {%- if node.has_children -%}
+            <!-- Match parent by permalink -->
               {%- assign children_list = site.html_pages | where: "parent", node.title | sort:"nav_order" -%}
               <ul class="navigation-list-child-list ">
                 {%- for child in children_list -%}
