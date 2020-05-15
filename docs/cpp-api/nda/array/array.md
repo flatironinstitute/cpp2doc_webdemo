@@ -45,5 +45,6 @@ source: src/nda.hpp
 title: nda::array
 permalink: /cpp-api/nda/array
 has-children: true
+parent: nda
 ...
 

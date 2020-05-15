@@ -58,7 +58,7 @@ footer_content: 'Copyright &copy; 2020 Flatiron Institute. Distributed by an <a 
 plugins:
   - jekyll-seo-tag
   - jekyll-sitemap
-  - jekyll-include-cache
+  # - jekyll-include-cache
   - jekyll-katex
 
 incremental: true
@@ -69,8 +69,3 @@ defaults:
       type: "pages"
     values:
       layout: "default"
-      level0: null
-      level1: null
-      level2: null
-      level3: null
-      level4: null

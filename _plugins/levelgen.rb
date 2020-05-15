@@ -8,7 +8,7 @@ module Jekyll
       def generate(site)
         @site = site
         @pages = @site.pages
-        levels = []
+        levels = {}
 
         Jekyll.logger.info "Jekyll Leveler:", "Start generating levels for #{@site}"
 
@@ -17,7 +17,8 @@ module Jekyll
           perm = page['permalink']
           if perm
             nest = page['permalink'].split("/").slice(1, page["permalink"].size)
-            levels << {"id" => perm, "nest" => nest}
+            # levels << {"id" => perm, "nest" => nest}
+            levels[perm] = nest
           end
         end
 
@@ -29,4 +30,22 @@ module Jekyll
 
     end
   end
+
+  module Nav_Filter
+
+    # This filter gets the level array of the page with the permalink
+    def get_level_array_of(perm_id, site_levels)
+      levels = site_levels
+      Jekyll.logger.info "Jekyll Nav Filter:", "Start filtering levels #{levels.key?(perm_id)}"
+
+      if levels.key?(perm_id) then
+        puts perm_id, levels[perm_id]
+        return levels[perm_id]
+      end
+    end
+
+  end
+
 end
+
+Liquid::Template.register_filter(Jekyll::Nav_Filter)

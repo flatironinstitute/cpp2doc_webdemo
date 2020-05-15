@@ -39,4 +39,5 @@ example:
 see-also: []
 title: nda::make_view
 permalink: /cpp-api/nda/make_view
+parent: nda
 ...

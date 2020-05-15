@@ -2,16 +2,13 @@
     {%- assign pages_list = site.html_pages | sort:"nav_order" -%}
     {%- for node in pages_list -%}
       {%- unless node.nav_exclude -%}
-        {%- assign node_level_obj = site.data.levels | where: "id", node.permalink -%}
-        <li>{{node_level_obj}}</li>
-        {%- if node.parent == nil -%}
-          <li class="navigation-list-item{% if page.url == node.url or page.parent == node.title or page.grand_parent == node.title %} active{% endif %}">
-            {%- if page.parent == node.title or page.grand_parent == node.title -%}
-              {%- assign first_level_url = node.url | absolute_url -%}
-            {%- endif -%}
+        {%- assign perm_id =  node.permalink | "/" -%}
+        {%- assign node_level = perm_id | get_level_array_of: site.data.levels -%}
+        {%- if node_level.size == 1 -%}
+          <!-- TODO: Add fix for grandparent level highlighting  -->
+          <li class="navigation-list-item{% if page.url == node.url %} active{% endif %}">
             <a href="{{ node.url | absolute_url }}" class="navigation-list-link{% if page.url == node.url %} active{% endif %}">{{ node.title }}</a>
             {%- if node.has_children -%}
-            <!-- Match parent by permalink -->
               {%- assign children_list = site.html_pages | where: "parent", node.title | sort:"nav_order" -%}
               <ul class="navigation-list-child-list ">
                 {%- for child in children_list -%}
@@ -40,3 +37,11 @@
     {%- endfor -%}
   </ul>
 </nav>
+
+<!-- Before you build, assign every level as an array and attach it to the page.-->
+<!-- Find the pages with a length of 0 -->
+
+<!-- If that page has_children, collect the children of that page by searching for instances where the index1 item in the levels array is equal to the 0 item in the parent level array  -->
+<!-- Add an if/else where you check to see if the length of the child levels array is > 2 if it is store those in a grand-child array -->
+<!-- If the child has_children, loop the grandchild array and so forth, until there are no has-children. -->
+<!-- Potentially add a check for the remnants array? Should we remove things from it? -->

@@ -26,5 +26,6 @@ source: src/nda.hpp
 title: nda::array_view
 permalink: /cpp-api/nda/array_view
 has-children: true
+parent: nda
 ...
 
