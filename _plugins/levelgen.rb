@@ -16,9 +16,9 @@ module Jekyll
         @pages.each do |page|
           perm = page['permalink']
           if perm
+            # Add page properties needed for nav as a hash
             nest = page['permalink'].split("/").slice(1, page["permalink"].size)
-            # levels << {"id" => perm, "nest" => nest}
-            levels[perm] = nest
+            levels[perm] = { 'nest' => nest, 'page' => page }
           end
         end
 
@@ -36,12 +36,26 @@ module Jekyll
     # This filter gets the level array of the page with the permalink
     def get_level_array_of(perm_id, site_levels)
       levels = site_levels
-      Jekyll.logger.info "Jekyll Nav Filter:", "Start filtering levels #{levels.key?(perm_id)}"
-
       if levels.key?(perm_id) then
-        puts perm_id, levels[perm_id]
         return levels[perm_id]
       end
+    end
+
+    def get_children_array_of(parent_level, site_levels)
+      # TODO: Add nesting level to make reproducible
+      Jekyll.logger.info "Jekyll Nav Filter:", "Start children's array"
+      levels = site_levels
+      parent = parent_level.first
+      children = []
+      levels.each do |level|
+        if level[1]['nest'][1] then
+          if level[1]['nest'][0] == parent
+            children.push(level[1])
+          end
+        end
+      end
+      Jekyll.logger.info "Jekyll Nav Filter:", "Get children array of #{parent} with its children"
+      return children
     end
 
   end
