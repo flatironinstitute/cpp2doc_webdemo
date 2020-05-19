@@ -25,7 +25,7 @@ signature: template <typename T, int R> class array_view
 source: src/nda.hpp
 title: nda::array_view
 permalink: /cpp-api/nda/array_view
-has-children: true
+has_children: true
 parent: nda
 ...
 

@@ -41,20 +41,20 @@ module Jekyll
       end
     end
 
-    def get_children_array_of(parent_level, site_levels)
-      # TODO: Add nesting level to make reproducible
-      Jekyll.logger.info "Jekyll Nav Filter:", "Start children's array"
+    def get_children_array_of(parent_level, site_levels, parent_index)
+      child_index = parent_index + 1
       levels = site_levels
-      parent = parent_level.first
+      parent = parent_level[parent_index]
       children = []
       levels.each do |level|
         if level[1]['nest'][1] then
-          if level[1]['nest'][0] == parent
-            children.push(level[1])
+          if level[1]['nest'][parent_index] == parent
+            if level[1]['nest'].length <= (parent_index + 2)
+              children.push(level[1])
+            end
           end
         end
       end
-      Jekyll.logger.info "Jekyll Nav Filter:", "Get children array of #{parent} with its children"
       return children
     end
 

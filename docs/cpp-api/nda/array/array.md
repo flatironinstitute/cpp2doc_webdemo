@@ -44,7 +44,7 @@ signature: template <typename T, int R> class array
 source: src/nda.hpp
 title: nda::array
 permalink: /cpp-api/nda/array
-has-children: true
+has_children: true
 parent: nda
 ...
 
