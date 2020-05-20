@@ -49,7 +49,7 @@ module Jekyll
       levels.each do |level|
         if level[1]['nest'][1] then
           if level[1]['nest'][parent_index] == parent
-            if level[1]['nest'].length <= (parent_index + 2)
+            if level[1]['nest'].length == (parent_index + 2)
               children.push(level[1])
             end
           end
