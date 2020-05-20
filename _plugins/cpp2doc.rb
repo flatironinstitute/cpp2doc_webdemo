@@ -149,8 +149,6 @@ module Jekyll
       site.data["allbriefs"] = briefs
       site.data["highlighted_types"] = classes
       puts "Computing briefs"
-      # puts briefs
-      #puts urls
       system("pwd")
     end
   end

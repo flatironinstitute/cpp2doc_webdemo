@@ -3,6 +3,7 @@ title: Code
 parent: UI Components
 grand_parent: Design
 nav_order: 6
+permalink: /design/ui-components/code
 ---
 
 # Code

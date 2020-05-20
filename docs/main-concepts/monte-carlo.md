@@ -1,6 +1,7 @@
 ---
 title: MC tools
 parent: Main Concepts
+permalink: /main-concepts/monte-carlo
 ...
 
 # Monte Carlo Tools

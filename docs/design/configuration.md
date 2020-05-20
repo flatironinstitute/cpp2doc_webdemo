@@ -2,6 +2,7 @@
 title: Configuration
 parent: Design
 nav_order: 1
+permalink: /design/configuration
 ---
 
 # Configuration

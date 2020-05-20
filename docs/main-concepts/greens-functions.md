@@ -1,6 +1,7 @@
 ---
 title: Green's Functions
 parent: Main Concepts
+permalink: /main-concepts/greens-functions
 ---
 
 # Greens Functions

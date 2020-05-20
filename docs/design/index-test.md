@@ -2,6 +2,7 @@
 title: Markdown kitchen sink
 parent: Design
 nav_order: 7
+permalink: /design/markdown
 ---
 
 Text can be **bold**, _italic_, or ~~strikethrough~~.

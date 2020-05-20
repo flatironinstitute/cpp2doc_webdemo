@@ -2,7 +2,7 @@
 title: Python API
 nav_order: 4
 has_children: true
-permalink: docs/python-api
+permalink: /python-api
 ---
 
 # Python API

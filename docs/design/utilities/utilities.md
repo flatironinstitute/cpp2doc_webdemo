@@ -3,7 +3,7 @@ title: Utilities
 nav_order: 5
 has_children: true
 parent: Design
-permalink: design/utilities
+permalink: /design/utilities
 ---
 
 # Utilities

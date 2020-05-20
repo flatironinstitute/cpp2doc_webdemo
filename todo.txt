@@ -26,8 +26,14 @@ TODO doc generation:
 
 8. Try a test deploy /ci.
 
+9. Fix the index.
+
 Done:
 
 1. change destination folder to docs/cpp-api
 2. Speed: use cache plugin,
 3. Fix YAML spacing errors in array / array_view
+
+
+5/15
+- for breadcrumbs use only the newest term, not the whole string.

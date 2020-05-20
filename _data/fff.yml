@@ -1,21 +1,19 @@
-
 a: 1
-b: Olivier PPP 
+b: Olivier PPP
 lien: A [gf_imfreq\<imfreq\>](zozo "TYPE") .
-
 
 table:
   A: AAA
   std::vector: VECTOR
 
 list: [fff, fff]
-example: 
+example:
   compile: true
   code: |
     ```cpp
 
     #include <vector>
-    int main() { 
+    int main() {
       int i=3;
         auto g = gf<imfreq>{beta,3, shape};
     };
@@ -23,10 +21,7 @@ example:
 
   code2: |
     #include <vector>
-    int main() { 
+    int main() {
       int i=3;
         auto g = gf<imfreq>{beta,3, shape};
     };
-
-
-

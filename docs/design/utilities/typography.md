@@ -3,6 +3,7 @@ title: Typography
 parent: Utilities
 grand_parent: Design
 nav_order: 4
+permalink: /design/utilities/typography
 ---
 
 # Typography Utilities

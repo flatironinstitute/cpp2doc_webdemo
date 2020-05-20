@@ -26,7 +26,7 @@ exclude:
     "Rakefile",
     "code_snippets",
     "sandbox",
-    ".jekyll-cache"
+    ".jekyll-cache",
   ]
 
 # Set a path/url to a logo that will be displayed instead of the title
@@ -58,14 +58,13 @@ footer_content: 'Copyright &copy; 2020 Flatiron Institute. Distributed by an <a 
 plugins:
   - jekyll-seo-tag
   - jekyll-sitemap
-  - jekyll-include-cache
+  # - jekyll-include-cache
   - jekyll-katex
 
 incremental: true
 
 defaults:
-  -
-    scope:
+  - scope:
       path: ""
       type: "pages"
     values:
