@@ -1,8 +1,9 @@
 ---
 layout: class
 short_name: array
-qualified_name: nda::array
-namespaces: [nda]
+qualified_name: 'nda::array'
+namespaces:
+  - nda
 includer: src/nda.hpp
 brief: A brief doc of array
 desc: |
@@ -15,14 +16,16 @@ desc: |
 tparams:
   T: T is a type
   R: Rank
-methods: [method1, storage]
+methods:
+  - method1
+  - storage
 non_member_functions: []
 member_types:
   storage_t:
     type: T
     desc: This is value_t
   arr_t:
-    type: std::vector<T>
+    type: 'std::vector<T>'
     desc: This is value_t
   index_t:
     type: long
@@ -39,12 +42,12 @@ example:
       nda::array<int, 1> a{1, 2, 3};
       nda::array_view<int, 1> v = make_view(a);
       std::vector<nda::array> V{{1, 2}, {2, 3}};
-see-also: [nda::array_view]
-signature: template <typename T, int R> class array
+see-also:
+  - 'nda::array_view'
+signature: 'template <typename T, int R> class array'
 source: src/nda.hpp
-title: nda::array
+title: 'nda::array'
 permalink: /cpp-api/nda/array
 has_children: true
 parent: nda
 ...
-

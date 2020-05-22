@@ -53,13 +53,13 @@
             {% if page.parent %}
               <nav class="breadcrumb-nav">
                 <ol class="breadcrumb-nav-list">
-                  {% if page.grand_parent %}
-                    <li class="breadcrumb-nav-list-item"><a href="{{ first_level_url }}">{{ page.grand_parent }}</a></li>
-                    <li class="breadcrumb-nav-list-item"><a href="{{ second_level_url }}">{{ page.parent }}</a></li>
-                  {% else %}
-                    <li class="breadcrumb-nav-list-item"><a href="{{ first_level_url }}">{{ page.parent }}</a></li>
-                  {% endif %}
-                  <li class="breadcrumb-nav-list-item"><span>{{ page.title }}</span></li>
+                  {%- assign page_data = page.url | get_level_array_of: site.data.levels -%}
+                  {%- assign page_level = page_data.nest-%}
+                  {% for level in page_level %}
+                    {%- assign level_uri = forloop.index | get_uri_from_levels: page_level-%}
+                    <li class="breadcrumb-nav-list-item"><a href="{{ level_uri }}">{{ level }}</a></li>
+                  {% endfor %}
+                  <!-- <li class="breadcrumb-nav-list-item"><span>{{ page.title }}</span></li> -->
                 </ol>
               </nav>
             {% endif %}

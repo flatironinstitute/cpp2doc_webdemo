@@ -10,8 +10,6 @@ module Jekyll
         @pages = @site.pages
         levels = {}
 
-        Jekyll.logger.info "Jekyll Leveler:", "Start generating levels for #{@site}"
-
       # Iterate through the site pages and split permalinks into arrays for nav ui
         @pages.each do |page|
           perm = page['permalink']
@@ -41,21 +39,33 @@ module Jekyll
       end
     end
 
-    def get_children_array_of(parent_level, site_levels, parent_index)
-      child_index = parent_index + 1
-      levels = site_levels
-      parent = parent_level[parent_index]
+    # This filter generates children or grandchildren, etc of a top level page.
+    def get_children_array_of(parent_levels, site_levels, parent_index)
+      sitelevels = site_levels
+      parent = parent_levels[parent_index]
       children = []
-      levels.each do |level|
-        if level[1]['nest'][1] then
-          if level[1]['nest'][parent_index] == parent
-            if level[1]['nest'].length == (parent_index + 2)
-              children.push(level[1])
+      sitelevels.each do |sitelevel|
+        if sitelevel[1]['nest'][1] then
+          if sitelevel[1]['nest'][parent_index] == parent
+            if sitelevel[1]['nest'].length == (parent_levels.length + 1)
+              children.push(sitelevel[1])
             end
           end
         end
       end
       return children
+    end
+
+    # Returns top level uris for breadcrumbs
+    def get_uri_from_levels(index, level_array)
+      uri = "/"
+      index = index - 1
+      i = 0
+      while i <= index do
+        uri.concat(level_array[i])
+        i = i + 1
+      end
+      return uri
     end
 
   end
