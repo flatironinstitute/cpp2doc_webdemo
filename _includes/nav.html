@@ -7,16 +7,17 @@
         {%- assign node_level = node_data.nest-%}
         {%- if node_level.size == 1 -%}
           {%- assign url_page = page.url | slice: 1, page.url.size -%}
-          {%- assign url_page_parent = url_page | split: "/" | first -%}
+          {%- assign url_page_arr = url_page | split: "/"-%}
           {% assign url_node = node.url | slice: 1, node.url.size %}
-          <li class="navigation-list-item {% if page.url == node.url or url_page_parent == url_node %} active {% endif %}">
-            <a href="{{ node.url | baseurl }}" class="navigation-list-link{% if page.url == node.url or url_page_parent == url_node %} active{% endif %}">{{ node.title }}</a>
+          <li class="navigation-list-item {% if page.url == node.url or url_page_arr.first == url_node %}active {% endif %}">
+            <a href="{{ node.url | baseurl }}" class="navigation-list-link{% if page.url == node.url or url_page_arr.first == url_node %} active{% endif %}">{{ node.title }}</a>
             {%- if node.has_children -%}
               {%- assign children_list = node_level | get_children_array_of: site.data.levels, 0 -%}
               <ul class="navigation-list-child-list ">
                 {%- for child in children_list -%}
-                  <li class="navigation-list-item navigation-child-item {% if page.url == child.page.url %} active{% endif %}">
-                    <a href="{{ child.page.url | absolute_url }}" class="navigation-list-link{% if page.url == child.page.url %} active{% endif %}">{{ child.page.title }}</a>
+                {%- assign url_page_isChild = url_page_arr[1] == child.nest[1] -%}
+                  <li class="navigation-list-item navigation-child-item {% if page.url == child.page.url or url_page_isChild %} active{% endif %}">
+                    <a href="{{ child.page.url | absolute_url }}" class="navigation-list-link{% if page.url == child.page.url or url_page_isChild %} active{% endif %}">{{ child.page.title }}</a>
                     {%- if child.page.has_children -%}
                         {%- assign grand_children_list = child.nest | get_children_array_of: site.data.levels, 1 -%}
                         <ul class="navigation-list-grandchild-list">

@@ -59,7 +59,6 @@
                     {%- assign level_uri = forloop.index | get_uri_from_levels: page_level-%}
                     <li class="breadcrumb-nav-list-item"><a href="{{ level_uri }}">{{ level }}</a></li>
                   {% endfor %}
-                  <!-- <li class="breadcrumb-nav-list-item"><span>{{ page.title }}</span></li> -->
                 </ol>
               </nav>
             {% endif %}

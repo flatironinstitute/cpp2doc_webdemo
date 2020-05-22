@@ -62,7 +62,7 @@ module Jekyll
       index = index - 1
       i = 0
       while i <= index do
-        uri.concat(level_array[i])
+        uri.concat(level_array[i] + "/")
         i = i + 1
       end
       return uri
