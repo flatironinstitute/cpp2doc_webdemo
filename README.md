@@ -53,9 +53,10 @@ Consult the Jekyll [Troubleshooting Guide](https://jekyllrb.com/docs/troubleshoo
 jekyll build
 ```
 
-2. TBD setup CI.
+2. Currently deploys to Github pages using the Github Actions pipeline.
+<!-- TODO: Add CI pipeline with project. -->
 
-<!-- ## Built With
+## Built With
 
 * [Jekyll](https://jekyllrb.com/) - The static site generator used.
 
@@ -70,7 +71,7 @@ Please read [CONTRIBUTING.md](https://github.com/???) for details on our code of
 * **Dennis Rodman** - *Jekyll template* - [Flatiron Institute](https://github.com/flatironinstitute)
 
 
-## Acknowledgments
+<!-- ## Acknowledgments
 
 * [Just the docs](https://github.com/pmarsceill/just-the-docs) -->
 
