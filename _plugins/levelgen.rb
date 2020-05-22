@@ -48,8 +48,6 @@ module Jekyll
         if sitelevel[1]['nest'][1] then
           if sitelevel[1]['nest'][parent_index] == parent
             if sitelevel[1]['nest'].length == (parent_levels.length + 1)
-              puts "correct child:  #{sitelevel[1]['nest']} for parent: #{parent_levels}"
-              # puts "level length: #{level[1]['nest'].length}, parent index plus two: #{parent_index + 2}, level contents #{level[1]['nest']}. ***"
               children.push(sitelevel[1])
             end
           end
