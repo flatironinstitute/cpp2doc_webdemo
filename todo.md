@@ -1,32 +1,37 @@
 # TODO Jekyll Docs
 
+_updated 5/22_
+
+## Low Priority
+
+- Investigate other speed optimizations: parallellization, etc.
+- Create folding list functionality (via class)
+
 ## To Do before demo:
 
-1. investigate other speed options: parallellization, etc.
-2. Create folding list functionality (via class)
-3. Fix the index.
-4. Fix Webrick.
-5. Test pipeline/README with a user
-6. Fix page name in browser
-7. Test with new docs
-8. Add function name etc on top of each page in heading.
+- Fix the index / Fix Webrick.
+- Test pipeline/README with a user
+- Fix page name in browser
+- Test with new docs
+- Add function name etc on top of each page in heading.(see cppref - only name no namespace with parent/::)
+- Add :no-toc to class, function, namespace, cpp-concept.
+- Change main-concepts to an alternate name to avoid confusion with new c++ concepts.
+- Vim links / github links
+- Confirm that left nesting highlights are working correctly (see Design dropdown)
+- Update highlighting/link script with correct urls (see array)
 
 ## To Verify:
 
-1. Add the following properties to YAML
+- Verify that constructor method naming / descrutor method naming is correct. See below...
 
-   - `title`
-   - `has-children` (if applicable)
-   - `parent`
-   - `grand_parent` (if applicable)
+Files and permalink structure changes:
 
-2. Files and permalink structure changes:
-   - nda/array/array.md for the index
-   - nda/array/method1.md (no _ for the method : _ leads to troubles
-   - nda/array-constructors.md for constructors (same for desctructors).
-     [array-constructors is renamed (constructors) in the page and title]
-   - Also we use permalinks to have an obsolute URL :
-     /cpp_api/nda/array/xxx, /py_api/gf/…. /ccp_api/triqs/gf/…. independly of where it is on the directory
+- nda/array/array.md for the index
+- nda/array/method1.md (no _ for the method : _ leads to troubles
+- nda/array-constructors.md for constructors (same for desctructors).
+  [array-constructors is renamed (constructors) in the page and title]
+- Also we use permalinks to have an obsolute URL :
+  /cpp_api/nda/array/xxx, /py_api/gf/…. /ccp_api/triqs/gf/…. independly of where it is on the directory
 
 ## Done:
 
@@ -38,3 +43,7 @@
     6. Remove gray on gray code highlighting font color. (blackish)
     7. Try a test deploy /ci. - Github pages
     8. for breadcrumbs use only the newest term, not the whole string.
+    9.  Add the following properties to YAML
+      - `title`
+      - `has-children` (if applicable)
+      -  permalink starts with "/"

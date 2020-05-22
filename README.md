@@ -26,7 +26,7 @@ gem install jekyll bundler
 bundle install
 ```
 
-4. Intialize the search engine.
+4. Initialize the search engine.
 
 ```
 bundle exec search:init
@@ -43,6 +43,7 @@ View the site at [http://127.0.0.1:4000](http://127.0.0.1:4000).
 **Note:** `jeykll serve` includes a watch script that automatically updates any time a source file changes. The one exception is `_config.yml`, you will need to stop and restart `jekyll serve` to see these changes.
 
 ### Troubleshooting
+
 Consult the Jekyll [Troubleshooting Guide](https://jekyllrb.com/docs/troubleshooting) for help with common problems.
 
 ## Deployment
@@ -58,7 +59,7 @@ jekyll build
 
 ## Built With
 
-* [Jekyll](https://jekyllrb.com/) - The static site generator used.
+- [Jekyll](https://jekyllrb.com/) - The static site generator used.
 
 ## Contributing
 
@@ -66,12 +67,10 @@ Please read [CONTRIBUTING.md](https://github.com/???) for details on our code of
 
 ## Authors
 
-* **Michael Jordan** - *Cpp2doc plugin and initial work* - [Flatiron Institute](https://github.com/flatironinstitute)
-* **Scottie Pippin** - *Branding and design* - [Flatiron Institute](https://github.com/flatironinstitute)
-* **Dennis Rodman** - *Jekyll template* - [Flatiron Institute](https://github.com/flatironinstitute)
-
+- **Michael Jordan** - _Cpp2doc plugin and initial work_ - [Flatiron Institute](https://github.com/flatironinstitute)
+- **Scottie Pippin** - _Branding and design_ - [Flatiron Institute](https://github.com/flatironinstitute)
+- **Dennis Rodman** - _Jekyll template_ - [Flatiron Institute](https://github.com/flatironinstitute)
 
 <!-- ## Acknowledgments
 
 * [Just the docs](https://github.com/pmarsceill/just-the-docs) -->
-
