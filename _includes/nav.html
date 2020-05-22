@@ -10,7 +10,7 @@
           {%- assign url_page_parent = url_page | split: "/" | first -%}
           {% assign url_node = node.url | slice: 1, node.url.size %}
           <li class="navigation-list-item {% if page.url == node.url or url_page_parent == url_node %} active {% endif %}">
-            <a href="{{ node.url | baseurl }}" class="navigation-list-link{% if page.url == node.url or url_page_parent == url_node %} active{% endif %}">9:{{ node.title }}</a>
+            <a href="{{ node.url | baseurl }}" class="navigation-list-link{% if page.url == node.url or url_page_parent == url_node %} active{% endif %}">{{ node.title }}</a>
             {%- if node.has_children -%}
               {%- assign children_list = node_level | get_children_array_of: site.data.levels, 0 -%}
               <ul class="navigation-list-child-list ">

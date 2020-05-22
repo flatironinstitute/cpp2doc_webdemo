@@ -26,6 +26,6 @@ see-also:
 signature: 'template <typename T, int R> class array_view'
 source: src/nda.hpp
 title: 'nda::array_view'
-permalink: /cpp-api/nda/array_view.html
+permalink: /cpp-api/nda/array_view
 parent: nda
 ...
