@@ -1,11 +1,130 @@
 ---
 layout: namespace
 qualified_name: nda
-namespaces: []
-classes: [array, array_view]
-functions: [make_view]
+namespaces:
+  - details
+  - permutations
+  - allocators
+  - mem
+  - concept_impl
+  - slice_static
+  - blas
+classes:
+  - C_layout
+  - C_stride_layout
+  - F_layout
+  - F_stride_layout
+  - array_adapter
+  - array_iterator
+  - basic_array
+  - basic_array_view
+  - basic_layout
+  - borrowed
+  - default_accessor
+  - ellipsis
+  - grid_iterator
+  - grid_iterator<1>
+  - heap
+  - heap_custom_alloc
+  - idx_group_t
+  - idx_map
+  - layout_info_t
+  - mapped
+  - no_alias_accessor
+  - range
+  - range_all
+  - range_tag
+  - runtime_error
+  - scalar_array
+  - scalar_matrix
+  - shared
+  - sso
+  - stack
+functions:
+  - <deduction guide for array_adapter>
+  - <deduction guide for basic_array>
+  - abs
+  - abs2
+  - acos
+  - all
+  - any
+  - append
+  - asin
+  - assign_foreach
+  - atan
+  - check_grouping
+  - clef_auto_assign
+  - common_algebra
+  - conj
+  - conj_r
+  - cos
+  - cosh
+  - dagger
+  - decode
+  - dot_product
+  - encode
+  - exp
+  - eye
+  - floor
+  - fold
+  - for_each
+  - for_each_static
+  - front_append
+  - front_mpop
+  - front_pop
+  - get_first_element
+  - group_indices_layout
+  - group_indices_view
+  - imag
+  - inverse
+  - is_degradable
+  - isnan
+  - join
+  - log
+  - make_const_view
+  - make_initialized_array
+  - make_matrix_const_view
+  - make_matrix_view
+  - make_regular
+  - make_std_array
+  - map
+  - map_layout_transform
+  - matmul
+  - matvecmul
+  - max_element
+  - min_element
+  - operator&
+  - operator*
+  - operator+
+  - operator-
+  - operator/
+  - operator<<
+  - operator==
+  - operator|
+  - permuted_indices_view
+  - pop
+  - pow
+  - rank_are_compatible
+  - real
+  - reshape
+  - reshaped_view
+  - resize_or_check_if_view
+  - sin
+  - sinh
+  - sqrt
+  - static_extents
+  - stride_order_of_grouped_idx
+  - sum
+  - tan
+  - tanh
+  - to_vector
+  - trace
+  - transpose
+  - transposed_view
+  - vstack
 permalink: /cpp-api/nda
-has_children: true
+has-children: true
 parent: C++ API
 title: nda
 ...
+
