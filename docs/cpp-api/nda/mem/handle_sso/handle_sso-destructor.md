@@ -6,7 +6,7 @@ namespaces: [nda, mem, handle_sso]
 includer: nda/nda.hpp
 brief: ""
 overloads:
-  void ~handle_sso<T, Size>-destructor() noexcept:
+  void ~handle_sso<T, Size>() noexcept:
     desc: ""
     source: nda/storage/handle.hpp
 desc: ""
@@ -21,5 +21,6 @@ example:
 see-also: []
 title: nda::mem::handle_sso::~handle_sso<T, Size>
 permalink: /cpp-api/nda/mem/handle_sso/~handle_sso<T, Size>-destructor
+parent: nda::mem::handle_sso
 ...
 

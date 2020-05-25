@@ -6,7 +6,7 @@ namespaces: [nda]
 includer: nda/nda.hpp
 brief: ""
 overloads:
-  template <ArrayOfRank<2> M> typename M::value_type trace(const M & m):
+  "template <ArrayOfRank<2> M> \n\ntypename M::value_type trace(const M & m)":
     desc: ""
     source: nda/matrix_functions.hpp
 desc: ""
@@ -21,5 +21,6 @@ example:
 see-also: []
 title: nda::trace
 permalink: /cpp-api/nda/trace
+parent: nda
 ...
 

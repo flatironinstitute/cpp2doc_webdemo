@@ -6,7 +6,7 @@ namespaces: [nda]
 includer: nda/nda.hpp
 brief: ""
 overloads:
-  template <typename L, typename R> bool rank_are_compatible():
+  "template <typename L, typename R> \n\nbool rank_are_compatible()":
     desc: ""
     source: nda/arithmetic.hpp
 desc: ""
@@ -22,5 +22,6 @@ example:
 see-also: []
 title: nda::rank_are_compatible
 permalink: /cpp-api/nda/rank_are_compatible
+parent: nda
 ...
 

@@ -21,5 +21,6 @@ example:
 see-also: []
 title: nda::allocators::segregator::allocate_zero
 permalink: /cpp-api/nda/allocators/segregator/allocate_zero
+parent: nda::allocators::segregator
 ...
 

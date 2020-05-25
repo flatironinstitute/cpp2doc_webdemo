@@ -9,7 +9,7 @@ overloads:
   bool isnan(const std::complex<double> & z):
     desc: ""
     source: nda/mapped_functions.hpp
-  template <typename A> requires (is_ndarray_v<std::decay_t<A>>) auto isnan(A && a):
+  "template <typename A> \nrequires (is_ndarray_v<std::decay_t<A>>) \n\nauto isnan(A && a)":
     desc: Maps isnan onto the array
     source: nda/mapped_functions.hxx
 desc: ""
@@ -25,5 +25,6 @@ example:
 see-also: []
 title: nda::isnan
 permalink: /cpp-api/nda/isnan
+parent: nda
 ...
 

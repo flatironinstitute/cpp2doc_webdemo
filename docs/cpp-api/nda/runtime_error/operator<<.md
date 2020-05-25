@@ -9,7 +9,7 @@ overloads:
   class nda::runtime_error & operator<<(const char * mess):
     desc: ""
     source: nda/exceptions.hpp
-  template <typename T> class nda::runtime_error & operator<<(const T & x):
+  "template <typename T> \n\nclass nda::runtime_error & operator<<(const T & x)":
     desc: ""
     source: nda/exceptions.hpp
 desc: ""
@@ -25,5 +25,6 @@ example:
 see-also: []
 title: nda::runtime_error::operator<<
 permalink: /cpp-api/nda/runtime_error/operator<<
+parent: nda::runtime_error
 ...
 

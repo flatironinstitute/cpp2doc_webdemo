@@ -6,7 +6,7 @@ namespaces: [nda, permutations]
 includer: nda/nda.hpp
 brief: ""
 overloads:
-  template <typename T, auto R> std::array<T, R> apply(const std::array<int, R> & permutation, const std::array<T, R> & a):
+  "template <typename T, auto R> \n\nstd::array<T, R> apply(const std::array<int, R> & permutation, const std::array<T, R> & a)":
     desc: ""
     source: nda/layout/permutation.hpp
 desc: ""
@@ -23,5 +23,6 @@ example:
 see-also: []
 title: nda::permutations::apply
 permalink: /cpp-api/nda/permutations/apply
+parent: nda::permutations
 ...
 

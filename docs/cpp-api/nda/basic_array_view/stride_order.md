@@ -21,5 +21,6 @@ example:
 see-also: []
 title: nda::basic_array_view::stride_order
 permalink: /cpp-api/nda/basic_array_view/stride_order
+parent: nda::basic_array_view
 ...
 

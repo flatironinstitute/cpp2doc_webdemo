@@ -6,7 +6,7 @@ namespaces: [nda]
 includer: nda/nda.hpp
 brief: ""
 overloads:
-  template <typename T, typename U, size_t R> std::array<T, R> make_std_array(const std::array<U, R> & a):
+  "template <typename T, typename U, size_t R> \n\nstd::array<T, R> make_std_array(const std::array<U, R> & a)":
     desc: ""
     source: nda/std_addons/array.hpp
 desc: ""
@@ -23,5 +23,6 @@ example:
 see-also: []
 title: nda::make_std_array
 permalink: /cpp-api/nda/make_std_array
+parent: nda
 ...
 

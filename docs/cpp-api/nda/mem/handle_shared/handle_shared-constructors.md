@@ -6,7 +6,7 @@ namespaces: [nda, mem, handle_shared]
 includer: nda/nda.hpp
 brief: ""
 overloads:
-  handle_shared-constructors():
+  handle_shared():
     desc: ""
     source: nda/storage/handle.hpp
   handle_shared(const handle_shared<T> & ) noexcept:
@@ -37,5 +37,6 @@ example:
 see-also: []
 title: nda::mem::handle_shared::handle_shared<T>
 permalink: /cpp-api/nda/mem/handle_shared/handle_shared-constructors
+parent: nda::mem::handle_shared
 ...
 

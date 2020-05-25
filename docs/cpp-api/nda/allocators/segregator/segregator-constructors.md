@@ -6,7 +6,7 @@ namespaces: [nda, allocators, segregator]
 includer: nda/nda.hpp
 brief: ""
 overloads:
-  segregator-constructors():
+  segregator():
     desc: ""
     source: nda/storage/allocators.hpp
   segregator(const segregator<Threshold, A, B> & ):
@@ -27,5 +27,6 @@ example:
 see-also: []
 title: nda::allocators::segregator::segregator<Threshold, A, B>
 permalink: /cpp-api/nda/allocators/segregator/segregator-constructors
+parent: nda::allocators::segregator
 ...
 

@@ -6,7 +6,7 @@ namespaces: [nda, blas]
 includer: nda/nda.hpp
 brief: Compute c
 overloads:
-  template <MatrixView A, MatrixView B, MatrixView C> requires (have_same_value_type_v<A, B, C> and is_blas_lapack_v<typename A::value_type>) void gemm(typename A::value_type alpha, const A & a, const B & b, typename A::value_type beta, C && c):
+  "template <nda::blas::MatrixView A, nda::blas::MatrixView B, nda::blas::MatrixView C> \nrequires (have_same_value_type_v<A, B, C> and is_blas_lapack_v<typename A::value_type>) \n\nvoid gemm(typename A::value_type alpha, const A & a, const B & b, typename A::value_type beta, C && c)":
     desc: Compute c
     source: nda/blas/gemm.hpp
 desc: |
@@ -32,5 +32,6 @@ example:
 see-also: []
 title: nda::blas::gemm
 permalink: /cpp-api/nda/blas/gemm
+parent: nda::blas
 ...
 

@@ -6,7 +6,7 @@ namespaces: [nda, range_tag]
 includer: nda/nda.hpp
 brief: ""
 overloads:
-  range_tag-constructors():
+  range_tag():
     desc: ""
     source: nda/layout/range.hpp
   range_tag(const struct nda::range_tag & ):
@@ -27,5 +27,6 @@ example:
 see-also: []
 title: nda::range_tag::range_tag
 permalink: /cpp-api/nda/range_tag/range_tag-constructors
+parent: nda::range_tag
 ...
 

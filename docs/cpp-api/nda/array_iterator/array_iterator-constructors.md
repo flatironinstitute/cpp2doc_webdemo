@@ -6,7 +6,7 @@ namespaces: [nda, array_iterator]
 includer: nda/nda.hpp
 brief: ""
 overloads:
-  array_iterator-constructors():
+  array_iterator():
     desc: ""
     source: nda/iterators.hpp
   array_iterator(const array_iterator<Rank, T, Pointer> & ):
@@ -30,5 +30,6 @@ example:
 see-also: []
 title: nda::array_iterator::array_iterator<Rank, T, Pointer>
 permalink: /cpp-api/nda/array_iterator/array_iterator-constructors
+parent: nda::array_iterator
 ...
 

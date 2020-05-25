@@ -37,10 +37,13 @@ example:
   desc: __MISSING__
   code: __MISSING__
 see-also: []
-signature: template <int Rank, uint64_t StaticExtents, uint64_t StrideOrder, enum nda::layout_prop_e LayoutProp> class idx_map
+signature: |
+  template <int Rank, uint64_t StaticExtents, uint64_t StrideOrder, enum nda::layout_prop_e LayoutProp> 
+  class idx_map
 source: nda/layout/idx_map.hpp
 title: nda::idx_map
 permalink: /cpp-api/nda/idx_map
 has-children: true
+parent: nda
 ...
 

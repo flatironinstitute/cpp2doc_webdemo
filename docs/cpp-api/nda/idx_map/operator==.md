@@ -21,5 +21,6 @@ example:
 see-also: []
 title: nda::idx_map::operator==
 permalink: /cpp-api/nda/idx_map/operator==
+parent: nda::idx_map
 ...
 

@@ -21,5 +21,6 @@ example:
 see-also: []
 title: nda::basic_array_view::indexmap
 permalink: /cpp-api/nda/basic_array_view/indexmap
+parent: nda::basic_array_view
 ...
 

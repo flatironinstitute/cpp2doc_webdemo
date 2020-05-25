@@ -21,5 +21,6 @@ example:
 see-also: []
 title: nda::mem::handle_stack::is_null
 permalink: /cpp-api/nda/mem/handle_stack/is_null
+parent: nda::mem::handle_stack
 ...
 

@@ -6,7 +6,7 @@ namespaces: [nda, range_all]
 includer: nda/nda.hpp
 brief: ""
 overloads:
-  void ~range_all-destructor():
+  void ~range_all():
     desc: ""
     source: nda/layout/range.hpp
 desc: ""
@@ -21,5 +21,6 @@ example:
 see-also: []
 title: nda::range_all::~range_all
 permalink: /cpp-api/nda/range_all/~range_all-destructor
+parent: nda::range_all
 ...
 

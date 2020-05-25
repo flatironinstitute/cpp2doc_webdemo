@@ -6,7 +6,7 @@ namespaces: [nda, idx_map]
 includer: nda/nda.hpp
 brief: Default constructor. Strides are not initiliazed.
 overloads:
-  idx_map-constructors():
+  idx_map():
     desc: Default constructor. Strides are not initiliazed.
     source: nda/layout/idx_map.hpp
   idx_map(const idx_map<Rank, StaticExtents, StrideOrder, LayoutProp> & ):
@@ -21,13 +21,13 @@ overloads:
   idx_map(const std::array<long, Rank> & shape) noexcept:
     desc: Construct from the shape. If StaticExtents are present, the corresponding component of the shape must be equal to it.
     source: nda/layout/idx_map.hpp
-  idx_map(const std::array<long, n_dynamic_extents> & shape) noexcept:
+  idx_map(const std::array<long, n_dynamic_extents> & shape) noexcept requires ((n_dynamic_extents != Rank) and (n_dynamic_extents != 0)):
     desc: When StaticExtents are present, constructs from the dynamic extents only
     source: nda/layout/idx_map.hpp
-  template <enum nda::layout_prop_e P>  idx_map(const idx_map<Rank, StaticExtents, StrideOrder, P> & idxm) noexcept:
+  "template <enum nda::layout_prop_e P> \n\nidx_map(const idx_map<Rank, StaticExtents, StrideOrder, P> & idxm) noexcept":
     desc: ""
     source: nda/layout/idx_map.hpp
-  template <uint64_t SE, enum nda::layout_prop_e P>  idx_map(const idx_map<Rank, SE, StrideOrder, P> & idxm) noexcept(false):
+  "template <uint64_t SE, enum nda::layout_prop_e P> \n\nidx_map(const idx_map<Rank, SE, StrideOrder, P> & idxm) noexcept(false)":
     desc: Construct from a compatible static_extents
     source: nda/layout/idx_map.hpp
 desc: ""
@@ -45,5 +45,6 @@ example:
 see-also: []
 title: nda::idx_map::idx_map<Rank, StaticExtents, StrideOrder, LayoutProp>
 permalink: /cpp-api/nda/idx_map/idx_map-constructors
+parent: nda::idx_map
 ...
 

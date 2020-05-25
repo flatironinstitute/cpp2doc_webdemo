@@ -6,7 +6,7 @@ namespaces: [nda]
 includer: nda/nda.hpp
 brief: Returns true iif at least one element of the array is true
 overloads:
-  template <typename A> requires (is_ndarray_v<A>) bool any(const A & a):
+  "template <typename A> \nrequires (is_ndarray_v<A>) \n\nbool any(const A & a)":
     desc: Returns true iif at least one element of the array is true
     source: nda/algorithms.hpp
 desc: ""
@@ -21,5 +21,6 @@ example:
 see-also: []
 title: nda::any
 permalink: /cpp-api/nda/any
+parent: nda
 ...
 

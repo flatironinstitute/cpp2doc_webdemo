@@ -34,5 +34,6 @@ example:
 see-also: []
 title: nda::blas::f77::gemv
 permalink: /cpp-api/nda/blas/f77/gemv
+parent: nda::blas::f77
 ...
 

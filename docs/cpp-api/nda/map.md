@@ -6,7 +6,7 @@ namespaces: [nda]
 includer: nda/nda.hpp
 brief: ""
 overloads:
-  template <class F> mapped<F> map(F f):
+  "template <class F> \n\nmapped<F> map(F f)":
     desc: ""
     source: nda/map.hpp
 desc: |
@@ -25,5 +25,6 @@ example:
 see-also: []
 title: nda::map
 permalink: /cpp-api/nda/map
+parent: nda
 ...
 

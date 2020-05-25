@@ -6,10 +6,10 @@ namespaces: [nda]
 includer: nda/nda.hpp
 brief: --------------- make_const_view------------------------
 overloads:
-  template <typename T, int R, typename L, char Algebra, typename ContainerPolicy> basic_array_view<const T, R, L, Algebra> make_const_view(const basic_array<T, R, L, Algebra, ContainerPolicy> & a):
+  "template <typename T, int R, typename L, char Algebra, typename ContainerPolicy> \n\nbasic_array_view<const T, R, L, Algebra> make_const_view(const basic_array<T, R, L, Algebra, ContainerPolicy> & a)":
     desc: --------------- make_const_view------------------------
     source: nda/basic_functions.hpp
-  template <typename T, int R, typename L, char Algebra, typename AccessorPolicy, typename OwningPolicy> basic_array_view<const T, R, L, Algebra, AccessorPolicy, OwningPolicy> make_const_view(const basic_array_view<T, R, L, Algebra, AccessorPolicy, OwningPolicy> & a):
+  "template <typename T, int R, typename L, char Algebra, typename AccessorPolicy, typename OwningPolicy> \n\nbasic_array_view<const T, R, L, Algebra, AccessorPolicy, OwningPolicy> make_const_view(const basic_array_view<T, R, L, Algebra, AccessorPolicy, OwningPolicy> & a)":
     desc: ""
     source: nda/basic_functions.hpp
 desc: ""
@@ -30,5 +30,6 @@ example:
 see-also: []
 title: nda::make_const_view
 permalink: /cpp-api/nda/make_const_view
+parent: nda
 ...
 

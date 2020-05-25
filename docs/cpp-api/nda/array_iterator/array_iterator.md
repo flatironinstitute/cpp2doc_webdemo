@@ -26,10 +26,13 @@ example:
   desc: __MISSING__
   code: __MISSING__
 see-also: []
-signature: template <int Rank, typename T, typename Pointer> class array_iterator
+signature: |
+  template <int Rank, typename T, typename Pointer> 
+  class array_iterator
 source: nda/iterators.hpp
 title: nda::array_iterator
 permalink: /cpp-api/nda/array_iterator
 has-children: true
+parent: nda
 ...
 

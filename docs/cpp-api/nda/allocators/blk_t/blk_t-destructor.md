@@ -6,7 +6,7 @@ namespaces: [nda, allocators, blk_t]
 includer: nda/nda.hpp
 brief: ""
 overloads:
-  void ~blk_t-destructor():
+  void ~blk_t():
     desc: ""
     source: nda/storage/blk.hpp
 desc: ""
@@ -21,5 +21,6 @@ example:
 see-also: []
 title: nda::allocators::blk_t::~blk_t
 permalink: /cpp-api/nda/allocators/blk_t/~blk_t-destructor
+parent: nda::allocators::blk_t
 ...
 

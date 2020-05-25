@@ -14,10 +14,13 @@ example:
   desc: __MISSING__
   code: __MISSING__
 see-also: []
-signature: template <size_t SSO_Size> struct sso
+signature: |
+  template <size_t SSO_Size> 
+  struct sso
 source: nda/storage/policies.hpp
 title: nda::sso
 permalink: /cpp-api/nda/sso
 has-children: true
+parent: nda
 ...
 

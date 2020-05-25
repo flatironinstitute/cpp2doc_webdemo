@@ -21,5 +21,6 @@ example:
 see-also: []
 title: nda::scalar_array::shape
 permalink: /cpp-api/nda/scalar_array/shape
+parent: nda::scalar_array
 ...
 

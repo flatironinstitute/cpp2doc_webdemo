@@ -25,5 +25,6 @@ example:
 see-also: []
 title: nda::slice_static::get_s
 permalink: /cpp-api/nda/slice_static/get_s
+parent: nda::slice_static
 ...
 

@@ -21,5 +21,6 @@ example:
 see-also: []
 title: nda::idx_map::rank
 permalink: /cpp-api/nda/idx_map/rank
+parent: nda::idx_map
 ...
 

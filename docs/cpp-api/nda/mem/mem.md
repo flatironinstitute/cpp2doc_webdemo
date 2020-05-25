@@ -1,6 +1,10 @@
 ---
 layout: namespace
 qualified_name: nda::mem
+permalink: /cpp-api/nda/mem
+parent: nda
+title: nda::mem
+has-children: true
 namespaces: []
 classes:
   - globals
@@ -16,7 +20,5 @@ classes:
   - handle_shared
   - handle_borrowed
 functions: []
-permalink: /cpp-api/nda::mem/mem
-has-children: true
 ...
 

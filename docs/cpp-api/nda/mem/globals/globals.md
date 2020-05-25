@@ -12,9 +12,11 @@ example:
   desc: __MISSING__
   code: __MISSING__
 see-also: []
+signature: struct globals
 source: nda/storage/rtable.hpp
 title: nda::mem::globals
 permalink: /cpp-api/nda/mem/globals
 has-children: true
+parent: nda::mem
 ...
 

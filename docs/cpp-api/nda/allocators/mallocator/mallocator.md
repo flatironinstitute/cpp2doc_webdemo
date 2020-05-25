@@ -17,9 +17,11 @@ example:
   desc: __MISSING__
   code: __MISSING__
 see-also: []
+signature: class mallocator
 source: nda/storage/allocators.hpp
 title: nda::allocators::mallocator
 permalink: /cpp-api/nda/allocators/mallocator
 has-children: true
+parent: nda::allocators
 ...
 

@@ -6,7 +6,7 @@ namespaces: [nda, allocators, leak_check]
 includer: nda/nda.hpp
 brief: ""
 overloads:
-  void ~leak_check<A>-destructor():
+  void ~leak_check<A>():
     desc: ""
     source: nda/storage/allocators.hpp
 desc: ""
@@ -21,5 +21,6 @@ example:
 see-also: []
 title: nda::allocators::leak_check::~leak_check<A>
 permalink: /cpp-api/nda/allocators/leak_check/~leak_check<A>-destructor
+parent: nda::allocators::leak_check
 ...
 

@@ -6,7 +6,7 @@ namespaces: [nda]
 includer: nda/nda.hpp
 brief: ""
 overloads:
-  template <typename A> requires (is_ndarray_v<A>) auto max_element(const A & a):
+  "template <typename A> \nrequires (is_ndarray_v<A>) \n\nauto max_element(const A & a)":
     desc: ""
     source: nda/algorithms.hpp
 desc: ""
@@ -21,5 +21,6 @@ example:
 see-also: []
 title: nda::max_element
 permalink: /cpp-api/nda/max_element
+parent: nda
 ...
 

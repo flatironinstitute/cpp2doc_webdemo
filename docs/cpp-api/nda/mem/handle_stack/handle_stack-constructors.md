@@ -6,7 +6,7 @@ namespaces: [nda, mem, handle_stack]
 includer: nda/nda.hpp
 brief: ""
 overloads:
-  handle_stack-constructors():
+  handle_stack():
     desc: ""
     source: nda/storage/handle.hpp
   handle_stack(handle_stack<T, Size> && ) noexcept:
@@ -36,5 +36,6 @@ example:
 see-also: []
 title: nda::mem::handle_stack::handle_stack<T, Size>
 permalink: /cpp-api/nda/mem/handle_stack/handle_stack-constructors
+parent: nda::mem::handle_stack
 ...
 

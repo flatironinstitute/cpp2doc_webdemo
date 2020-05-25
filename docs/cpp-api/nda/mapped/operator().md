@@ -6,7 +6,7 @@ namespaces: [nda, mapped]
 includer: nda/nda.hpp
 brief: ""
 overloads:
-  template <typename A0, typename A> expr_call<F, A0, A...> operator()(A0 && a0, A &&... a)  const:
+  "template <typename A0, typename A> \n\nexpr_call<F, A0, A...> operator()(A0 && a0, A &&... a)  const":
     desc: ""
     source: nda/map.hpp
 desc: ""
@@ -23,5 +23,6 @@ example:
 see-also: []
 title: nda::mapped::operator()
 permalink: /cpp-api/nda/mapped/operator()
+parent: nda::mapped
 ...
 

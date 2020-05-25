@@ -6,7 +6,7 @@ namespaces: [nda]
 includer: nda/nda.hpp
 brief: ""
 overloads:
-  template <typename M1, typename M2> matrix<typename M1::value_type> vstack(const M1 & a, const M2 & b):
+  "template <typename M1, typename M2> \n\nmatrix<typename M1::value_type> vstack(const M1 & a, const M2 & b)":
     desc: ""
     source: nda/matrix_functions.hpp
 desc: ""
@@ -23,5 +23,6 @@ example:
 see-also: []
 title: nda::vstack
 permalink: /cpp-api/nda/vstack
+parent: nda
 ...
 

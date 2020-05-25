@@ -21,5 +21,6 @@ example:
 see-also: []
 title: nda::mem::handle_sso::on_heap
 permalink: /cpp-api/nda/mem/handle_sso/on_heap
+parent: nda::mem::handle_sso
 ...
 

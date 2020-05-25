@@ -21,9 +21,11 @@ example:
   desc: __MISSING__
   code: __MISSING__
 see-also: []
+signature: struct layout_info_t
 source: nda/traits.hpp
 title: nda::layout_info_t
 permalink: /cpp-api/nda/layout_info_t
 has-children: true
+parent: nda
 ...
 

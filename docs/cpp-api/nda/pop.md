@@ -6,7 +6,7 @@ namespaces: [nda]
 includer: nda/nda.hpp
 brief: Make a new std::array by removing one element at the end
 overloads:
-  template <typename T, size_t R> std::array<T, R - 1> pop(const std::array<T, R> & a):
+  "template <typename T, size_t R> \n\nstd::array<T, R - 1> pop(const std::array<T, R> & a)":
     desc: Make a new std::array by removing one element at the end
     source: nda/std_addons/array.hpp
 desc: ""
@@ -22,5 +22,6 @@ example:
 see-also: []
 title: nda::pop
 permalink: /cpp-api/nda/pop
+parent: nda
 ...
 

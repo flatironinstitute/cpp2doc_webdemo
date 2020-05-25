@@ -4,9 +4,9 @@ short_name: basic_array
 qualified_name: nda::basic_array::basic_array<ValueType, Rank, Layout, Algebra, ContainerPolicy>
 namespaces: [nda, basic_array]
 includer: nda/nda.hpp
-brief: 
+brief: Empty array
 overloads:
-  basic_array-constructors():
+  basic_array():
     desc: Empty array
     source: nda/basic_array.hpp
   basic_array(const basic_array<ValueType, Rank, Layout, Algebra, ContainerPolicy> & ) noexcept:
@@ -15,26 +15,26 @@ overloads:
   basic_array(basic_array<ValueType, Rank, Layout, Algebra, ContainerPolicy> && ):
     desc: ""
     source: nda/basic_array.hpp
-  explicit  basic_array(const std::array<long, Rank> & shape) noexcept:
+  explicit basic_array(const std::array<long, Rank> & shape) noexcept requires (std::is_default_constructible_v<ValueType>):
     desc: ""
     source: nda/basic_array.hpp
-  basic_array(const std::initializer_list<ValueType> & l) noexcept:
+  basic_array(const std::initializer_list<ValueType> & l) noexcept requires (Rank == 1):
     desc: ""
     source: nda/basic_array.hpp
-  basic_array(const std::initializer_list<std::initializer_list<ValueType> > & l2) noexcept:
+  basic_array(const std::initializer_list<std::initializer_list<ValueType> > & l2) noexcept requires ((Rank == 2)):
     desc: ""
     source: nda/basic_array.hpp
   basic_array(const std::initializer_list<std::initializer_list<std::initializer_list<ValueType> > > & l3) noexcept:
     desc: ""
     source: nda/basic_array.hpp
-  template < Int> explicit  basic_array(Int... is) noexcept:
+  "template <std::integral Int> \n\nexplicit basic_array(Int... is) noexcept":
     desc: ""
     source: nda/basic_array.hpp
-  template <ArrayOfRank<Rank> A>  basic_array(const A & a) noexcept:
+  "template <ArrayOfRank<Rank> A> \n\nbasic_array(const A & a) noexcept":
     desc: ""
     source: nda/basic_array.hpp
-  template <ArrayInitializer Initializer>  basic_array(const Initializer & initializer) noexcept(noexcept(initializer.invoke(*this))):
-    desc: EXPLAIN noexcept
+  "template <nda::ArrayInitializer Initializer> \n\nbasic_array(const Initializer & initializer) noexcept(noexcept(initializer.invoke(*this)))":
+    desc: ""
     source: nda/basic_array.hpp
 desc: ""
 params:
@@ -56,5 +56,6 @@ example:
 see-also: []
 title: nda::basic_array::basic_array<ValueType, Rank, Layout, Algebra, ContainerPolicy>
 permalink: /cpp-api/nda/basic_array/basic_array-constructors
+parent: nda::basic_array
 ...
 

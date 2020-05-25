@@ -6,7 +6,7 @@ namespaces: [nda, details]
 includer: nda/nda.hpp
 brief: ""
 overloads:
-  template <typename Args> void assert_in_bounds(int rank, const long * lengths, const Args &... args):
+  "template <typename Args> \n\nvoid assert_in_bounds(int rank, const long * lengths, const Args &... args)":
     desc: ""
     source: nda/layout/bound_check_worker.hpp
 desc: ""
@@ -23,5 +23,6 @@ example:
 see-also: []
 title: nda::details::assert_in_bounds
 permalink: /cpp-api/nda/details/assert_in_bounds
+parent: nda::details
 ...
 

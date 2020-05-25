@@ -24,10 +24,13 @@ example:
   desc: __MISSING__
   code: __MISSING__
 see-also: []
-signature: template <typename T> struct accessor
+signature: |
+  template <typename T> 
+  struct accessor
 source: nda/accessors.hpp
 title: nda::no_alias_accessor::accessor
 permalink: /cpp-api/nda/no_alias_accessor/accessor
 has-children: true
+parent: nda::no_alias_accessor
 ...
 

@@ -26,10 +26,13 @@ example:
   desc: __MISSING__
   code: __MISSING__
 see-also: []
-signature: template <typename T, typename Allocator> struct handle_heap
+signature: |
+  template <typename T, typename Allocator> 
+  struct handle_heap
 source: nda/storage/handle.hpp
 title: nda::mem::handle_heap
 permalink: /cpp-api/nda/mem/handle_heap
 has-children: true
+parent: nda::mem
 ...
 

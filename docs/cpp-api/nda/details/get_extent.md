@@ -6,7 +6,7 @@ namespaces: [nda, details]
 includer: nda/nda.hpp
 brief: ""
 overloads:
-  template <int I, int R, uint64_t StaticExtents> long get_extent(const std::array<long, R> & l):
+  "template <int I, int R, uint64_t StaticExtents> \n\nlong get_extent(const std::array<long, R> & l)":
     desc: ""
     source: nda/layout/for_each.hpp
 desc: ""
@@ -23,5 +23,6 @@ example:
 see-also: []
 title: nda::details::get_extent
 permalink: /cpp-api/nda/details/get_extent
+parent: nda::details
 ...
 

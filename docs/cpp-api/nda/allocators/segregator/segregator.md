@@ -22,10 +22,13 @@ example:
   desc: __MISSING__
   code: __MISSING__
 see-also: []
-signature: template <size_t Threshold, typename A, typename B> class segregator
+signature: |
+  template <size_t Threshold, typename A, typename B> 
+  class segregator
 source: nda/storage/allocators.hpp
 title: nda::allocators::segregator
 permalink: /cpp-api/nda/allocators/segregator
 has-children: true
+parent: nda::allocators
 ...
 

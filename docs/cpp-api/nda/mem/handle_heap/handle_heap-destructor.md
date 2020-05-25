@@ -6,7 +6,7 @@ namespaces: [nda, mem, handle_heap]
 includer: nda/nda.hpp
 brief: ""
 overloads:
-  void ~handle_heap<T, Allocator>-destructor() noexcept:
+  void ~handle_heap<T, Allocator>() noexcept:
     desc: ""
     source: nda/storage/handle.hpp
 desc: ""
@@ -21,5 +21,6 @@ example:
 see-also: []
 title: nda::mem::handle_heap::~handle_heap<T, Allocator>
 permalink: /cpp-api/nda/mem/handle_heap/~handle_heap<T, Allocator>-destructor
+parent: nda::mem::handle_heap
 ...
 

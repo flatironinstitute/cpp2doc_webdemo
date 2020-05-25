@@ -6,7 +6,7 @@ namespaces: [nda, basic_array_view]
 includer: nda/nda.hpp
 brief: Construct an empty view.
 overloads:
-  basic_array_view-constructors():
+  basic_array_view():
     desc: Construct an empty view.
     source: nda/basic_array_view.hpp
   basic_array_view(basic_array_view<ValueType, Rank, Layout, Algebra, AccessorPolicy, OwningPolicy> && ):
@@ -21,10 +21,10 @@ overloads:
   basic_array_view(const nda::basic_array_view::layout_t & idxm, ValueType * p) noexcept:
     desc: ""
     source: nda/basic_array_view.hpp
-  template <typename T, typename L, char A, typename CP>  basic_array_view(const basic_array<T, Rank, L, A, CP> & a) noexcept:
+  "template <typename T, typename L, char A, typename CP> \n\nbasic_array_view(const basic_array<T, Rank, L, A, CP> & a) noexcept":
     desc: ""
     source: nda/basic_array_view.hpp
-  template <typename T, typename L, char A, typename AP, typename OP>  basic_array_view(const basic_array_view<T, Rank, L, A, AP, OP> & a) noexcept:
+  "template <typename T, typename L, char A, typename AP, typename OP> \n\nbasic_array_view(const basic_array_view<T, Rank, L, A, AP, OP> & a) noexcept":
     desc: ""
     source: nda/basic_array_view.hpp
 desc: ""
@@ -47,5 +47,6 @@ example:
 see-also: []
 title: nda::basic_array_view::basic_array_view<ValueType, Rank, Layout, Algebra, AccessorPolicy, OwningPolicy>
 permalink: /cpp-api/nda/basic_array_view/basic_array_view-constructors
+parent: nda::basic_array_view
 ...
 

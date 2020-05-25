@@ -6,7 +6,7 @@ namespaces: [nda]
 includer: nda/nda.hpp
 brief: Join two arrays
 overloads:
-  template <typename T, size_t R1, size_t R2> std::array<T, R1 + R2> join(const std::array<T, R1> & a1, const std::array<T, R2> & a2):
+  "template <typename T, size_t R1, size_t R2> \n\nstd::array<T, R1 + R2> join(const std::array<T, R1> & a1, const std::array<T, R2> & a2)":
     desc: Join two arrays
     source: nda/std_addons/array.hpp
 desc: ""
@@ -24,5 +24,6 @@ example:
 see-also: []
 title: nda::join
 permalink: /cpp-api/nda/join
+parent: nda
 ...
 

@@ -6,7 +6,7 @@ namespaces: [nda, range_all]
 includer: nda/nda.hpp
 brief: ""
 overloads:
-  range_all-constructors():
+  range_all():
     desc: ""
     source: nda/layout/range.hpp
   range_all(const struct nda::range_all & ):
@@ -27,5 +27,6 @@ example:
 see-also: []
 title: nda::range_all::range_all
 permalink: /cpp-api/nda/range_all/range_all-constructors
+parent: nda::range_all
 ...
 

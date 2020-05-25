@@ -12,13 +12,13 @@ overloads:
   basic_array<ValueType, Rank, Layout, Algebra, ContainerPolicy> & operator=(const basic_array<ValueType, Rank, Layout, Algebra, ContainerPolicy> & X):
     desc: Deep copy (array is a regular type). Invalidates all references to the storage.
     source: nda/basic_array.hpp
-  template <ArrayOfRank<Rank> RHS> basic_array<ValueType, Rank, Layout, Algebra, ContainerPolicy> & operator=(const RHS & rhs) noexcept:
+  "template <ArrayOfRank<Rank> RHS> \n\nbasic_array<ValueType, Rank, Layout, Algebra, ContainerPolicy> & operator=(const RHS & rhs) noexcept":
     desc: ""
     source: nda/basic_array.hpp
-  template <typename RHS> requires (is_scalar_for_v<RHS, basic_array>) basic_array<ValueType, Rank, Layout, Algebra, ContainerPolicy> & operator=(const RHS & rhs) noexcept:
+  "template <typename RHS> \nrequires (is_scalar_for_v<RHS, basic_array>) \n\nbasic_array<ValueType, Rank, Layout, Algebra, ContainerPolicy> & operator=(const RHS & rhs) noexcept":
     desc: ""
     source: nda/basic_array.hpp
-  template <ArrayInitializer Initializer> basic_array<ValueType, Rank, Layout, Algebra, ContainerPolicy> & operator=(const Initializer & initializer) noexcept:
+  "template <nda::ArrayInitializer Initializer> \n\nbasic_array<ValueType, Rank, Layout, Algebra, ContainerPolicy> & operator=(const Initializer & initializer) noexcept":
     desc: ""
     source: nda/basic_array.hpp
 desc: ""
@@ -37,5 +37,6 @@ example:
 see-also: []
 title: nda::basic_array::operator=
 permalink: /cpp-api/nda/basic_array/operator=
+parent: nda::basic_array
 ...
 

@@ -1,6 +1,10 @@
 ---
 layout: namespace
 qualified_name: nda
+permalink: /cpp-api/nda
+parent: C++ API
+title: nda
+has-children: true
 namespaces:
   - details
   - permutations
@@ -10,121 +14,117 @@ namespaces:
   - slice_static
   - blas
 classes:
-  - C_layout
-  - C_stride_layout
-  - F_layout
-  - F_stride_layout
-  - array_adapter
-  - array_iterator
-  - basic_array
-  - basic_array_view
-  - basic_layout
-  - borrowed
-  - default_accessor
-  - ellipsis
-  - grid_iterator
-  - grid_iterator<1>
-  - heap
-  - heap_custom_alloc
-  - idx_group_t
-  - idx_map
   - layout_info_t
-  - mapped
+  - default_accessor
   - no_alias_accessor
+  - runtime_error
+  - range_tag
   - range
   - range_all
-  - range_tag
-  - runtime_error
-  - scalar_array
-  - scalar_matrix
-  - shared
+  - ellipsis
+  - idx_map
+  - C_layout
+  - F_layout
+  - C_stride_layout
+  - F_stride_layout
+  - basic_layout
+  - heap
+  - heap_custom_alloc
   - sso
   - stack
+  - shared
+  - borrowed
+  - grid_iterator<1>
+  - grid_iterator
+  - array_iterator
+  - basic_array_view
+  - basic_array
+  - idx_group_t
+  - array_adapter
+  - scalar_array
+  - scalar_matrix
+  - mapped
 functions:
-  - <deduction guide for array_adapter>
-  - <deduction guide for basic_array>
-  - abs
-  - abs2
-  - acos
-  - all
-  - any
-  - append
-  - asin
-  - assign_foreach
-  - atan
-  - check_grouping
-  - clef_auto_assign
-  - common_algebra
-  - conj
-  - conj_r
-  - cos
-  - cosh
-  - dagger
-  - decode
-  - dot_product
-  - encode
-  - exp
-  - eye
-  - floor
-  - fold
-  - for_each
-  - for_each_static
-  - front_append
-  - front_mpop
-  - front_pop
-  - get_first_element
-  - group_indices_layout
-  - group_indices_view
-  - imag
-  - inverse
-  - is_degradable
-  - isnan
-  - join
-  - log
-  - make_const_view
-  - make_initialized_array
-  - make_matrix_const_view
-  - make_matrix_view
-  - make_regular
   - make_std_array
-  - map
-  - map_layout_transform
-  - matmul
-  - matvecmul
-  - max_element
-  - min_element
-  - operator&
-  - operator*
-  - operator+
-  - operator-
-  - operator/
-  - operator<<
-  - operator==
-  - operator|
-  - permuted_indices_view
+  - make_initialized_array
+  - to_vector
+  - append
+  - front_append
   - pop
-  - pow
-  - rank_are_compatible
-  - real
+  - front_pop
+  - front_mpop
+  - join
+  - dot_product
+  - get_first_element
+  - is_degradable
+  - operator|
+  - operator&
+  - operator<<
+  - decode
+  - encode
+  - for_each_static
+  - for_each
+  - static_extents
+  - <deduction guide for basic_array>
+  - map_layout_transform
+  - make_regular
+  - resize_or_check_if_view
+  - make_const_view
+  - make_matrix_view
+  - make_matrix_const_view
+  - operator==
+  - assign_foreach
+  - clef_auto_assign
+  - check_grouping
+  - stride_order_of_grouped_idx
+  - group_indices_layout
   - reshape
   - reshaped_view
-  - resize_or_check_if_view
-  - sin
-  - sinh
-  - sqrt
-  - static_extents
-  - stride_order_of_grouped_idx
-  - sum
-  - tan
-  - tanh
-  - to_vector
-  - trace
+  - permuted_indices_view
   - transpose
   - transposed_view
+  - group_indices_view
+  - <deduction guide for array_adapter>
+  - eye
+  - trace
+  - dagger
   - vstack
-permalink: /cpp-api/nda
-has-children: true
-parent: C++ API
-title: nda
+  - matmul
+  - matvecmul
+  - rank_are_compatible
+  - common_algebra
+  - operator+
+  - operator-
+  - operator*
+  - operator/
+  - inverse
+  - map
+  - conj_r
+  - abs2
+  - isnan
+  - pow
+  - abs
+  - real
+  - imag
+  - floor
+  - conj
+  - exp
+  - cos
+  - sin
+  - tan
+  - cosh
+  - sinh
+  - tanh
+  - acos
+  - asin
+  - atan
+  - log
+  - sqrt
+  - fold
+  - any
+  - all
+  - max_element
+  - min_element
+  - sum
 ...
 

@@ -21,5 +21,6 @@ example:
 see-also: []
 title: nda::grid_iterator<1>::operator->
 permalink: /cpp-api/nda/grid_iterator/operator->
+parent: nda::grid_iterator
 ...
 

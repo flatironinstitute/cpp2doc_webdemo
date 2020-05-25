@@ -14,10 +14,13 @@ example:
   desc: __MISSING__
   code: __MISSING__
 see-also: []
-signature: template <typename Allocator> struct heap_custom_alloc
+signature: |
+  template <typename Allocator> 
+  struct heap_custom_alloc
 source: nda/storage/policies.hpp
 title: nda::heap_custom_alloc
 permalink: /cpp-api/nda/heap_custom_alloc
 has-children: true
+parent: nda
 ...
 

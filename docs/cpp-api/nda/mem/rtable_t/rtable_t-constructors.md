@@ -6,7 +6,7 @@ namespaces: [nda, mem, rtable_t]
 includer: nda/nda.hpp
 brief: ""
 overloads:
-  rtable_t-constructors(long size = </Users/oparcollet/src/nda/c++/nda/storage/./rtable.hpp:58:26>):
+  rtable_t(long size = </Users/oparcollet/src/nda/c++/nda/storage/./rtable.hpp:58:26>):
     desc: ""
     source: nda/storage/rtable.hpp
   rtable_t(const class nda::mem::rtable_t & ):
@@ -24,5 +24,6 @@ example:
 see-also: []
 title: nda::mem::rtable_t::rtable_t
 permalink: /cpp-api/nda/mem/rtable_t/rtable_t-constructors
+parent: nda::mem::rtable_t
 ...
 

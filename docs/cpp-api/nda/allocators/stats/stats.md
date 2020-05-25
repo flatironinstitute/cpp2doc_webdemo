@@ -22,10 +22,13 @@ example:
   desc: __MISSING__
   code: __MISSING__
 see-also: []
-signature: template <typename A> class stats
+signature: |
+  template <typename A> 
+  class stats
 source: nda/storage/allocators.hpp
 title: nda::allocators::stats
 permalink: /cpp-api/nda/allocators/stats
 has-children: true
+parent: nda::allocators
 ...
 

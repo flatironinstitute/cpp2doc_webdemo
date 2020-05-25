@@ -6,7 +6,7 @@ namespaces: [nda, permutations]
 includer: nda/nda.hpp
 brief: ""
 overloads:
-  template <int Rank> std::array<int, Rank> identity():
+  "template <int Rank> \n\nstd::array<int, Rank> identity()":
     desc: ""
     source: nda/layout/permutation.hpp
 desc: ""
@@ -21,5 +21,6 @@ example:
 see-also: []
 title: nda::permutations::identity
 permalink: /cpp-api/nda/permutations/identity
+parent: nda::permutations
 ...
 

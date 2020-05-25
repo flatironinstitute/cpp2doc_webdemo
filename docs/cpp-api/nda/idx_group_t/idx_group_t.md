@@ -14,10 +14,13 @@ example:
   desc: __MISSING__
   code: __MISSING__
 see-also: []
-signature: template <int Is> struct idx_group_t
+signature: |
+  template <int Is> 
+  struct idx_group_t
 source: nda/group_indices.hpp
 title: nda::idx_group_t
 permalink: /cpp-api/nda/idx_group_t
 has-children: true
+parent: nda
 ...
 

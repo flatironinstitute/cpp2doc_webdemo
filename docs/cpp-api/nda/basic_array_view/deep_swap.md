@@ -22,5 +22,6 @@ example:
 see-also: []
 title: nda::deep_swap
 permalink: /cpp-api/nda/basic_array_view/deep_swap
+parent: nda::basic_array_view
 ...
 

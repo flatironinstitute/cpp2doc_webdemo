@@ -9,7 +9,7 @@ overloads:
   void resize(const std::array<long, Rank> & shape):
     desc: ""
     source: nda/basic_array.hpp
-  template < Int> void resize(const Int &... extent):
+  "template <std::integral Int> \n\nvoid resize(const Int &... extent)":
     desc: ""
     source: nda/basic_array.hpp
 desc: Resizes the array. Invalidates all references to the storage. Content is undefined, makes no copy of previous data.

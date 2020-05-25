@@ -19,10 +19,13 @@ example:
   desc: __MISSING__
   code: __MISSING__
 see-also: []
-signature: template <typename T, int Al> struct aligner
+signature: |
+  template <typename T, int Al> 
+  struct aligner
 source: nda/storage/handle.hpp
 title: nda::mem::aligner
 permalink: /cpp-api/nda/mem/aligner
 has-children: true
+parent: nda::mem
 ...
 

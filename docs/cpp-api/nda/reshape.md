@@ -6,10 +6,10 @@ namespaces: [nda]
 includer: nda/nda.hpp
 brief: ""
 overloads:
-  template <typename T, int R, typename L, char Algebra, typename ContainerPolicy, size_t R2> auto reshape(basic_array<T, R, L, Algebra, ContainerPolicy> && a, const std::array<long, R2> & new_shape):
+  "template <typename T, int R, typename L, char Algebra, typename ContainerPolicy, size_t R2> \n\nauto reshape(basic_array<T, R, L, Algebra, ContainerPolicy> && a, const std::array<long, R2> & new_shape)":
     desc: ""
     source: nda/layout_transforms.hpp
-  template <typename T, int R, typename L, char Algebra, typename ContainerPolicy, size_t R2> auto reshape(basic_array<T, R, L, Algebra, ContainerPolicy> && a, const std::array<int, R2> & new_shape):
+  "template <typename T, int R, typename L, char Algebra, typename ContainerPolicy, size_t R2> \n\nauto reshape(basic_array<T, R, L, Algebra, ContainerPolicy> && a, const std::array<int, R2> & new_shape)":
     desc: ""
     source: nda/layout_transforms.hpp
 desc: ""
@@ -30,5 +30,6 @@ example:
 see-also: []
 title: nda::reshape
 permalink: /cpp-api/nda/reshape
+parent: nda
 ...
 

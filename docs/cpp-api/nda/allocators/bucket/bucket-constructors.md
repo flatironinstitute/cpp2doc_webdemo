@@ -6,7 +6,7 @@ namespaces: [nda, allocators, bucket]
 includer: nda/nda.hpp
 brief: ""
 overloads:
-  bucket-constructors():
+  bucket():
     desc: ""
     source: nda/storage/allocators.hpp
   bucket(const bucket<ChunkSize> & ):
@@ -27,5 +27,6 @@ example:
 see-also: []
 title: nda::allocators::bucket::bucket<ChunkSize>
 permalink: /cpp-api/nda/allocators/bucket/bucket-constructors
+parent: nda::allocators::bucket
 ...
 

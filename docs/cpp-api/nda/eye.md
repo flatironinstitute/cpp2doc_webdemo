@@ -6,7 +6,7 @@ namespaces: [nda]
 includer: nda/nda.hpp
 brief: ""
 overloads:
-  template <typename V> matrix<V> eye(long dim):
+  "template <typename V> \n\nmatrix<V> eye(long dim)":
     desc: ""
     source: nda/matrix_functions.hpp
 desc: ""
@@ -21,5 +21,6 @@ example:
 see-also: []
 title: nda::eye
 permalink: /cpp-api/nda/eye
+parent: nda
 ...
 

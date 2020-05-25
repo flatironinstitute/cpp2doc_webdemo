@@ -15,10 +15,13 @@ example:
   desc: __MISSING__
   code: __MISSING__
 see-also: []
-signature: template <int R, typename F> class array_adapter
+signature: |
+  template <int R, typename F> 
+  class array_adapter
 source: nda/array_adapter.hpp
 title: nda::array_adapter
 permalink: /cpp-api/nda/array_adapter
 has-children: true
+parent: nda
 ...
 

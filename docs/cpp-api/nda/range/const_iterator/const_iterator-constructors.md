@@ -6,7 +6,7 @@ namespaces: [nda, range, const_iterator]
 includer: nda/nda.hpp
 brief: ""
 overloads:
-  const_iterator-constructors(const class nda::range * r, bool atEnd) noexcept:
+  const_iterator(const class nda::range * r, bool atEnd) noexcept:
     desc: ""
     source: nda/layout/range.hpp
   const_iterator(const class nda::range::const_iterator & ):
@@ -28,5 +28,6 @@ example:
 see-also: []
 title: nda::range::const_iterator::const_iterator
 permalink: /cpp-api/nda/range/const_iterator/const_iterator-constructors
+parent: nda::range::const_iterator
 ...
 

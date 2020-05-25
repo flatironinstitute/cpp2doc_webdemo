@@ -6,7 +6,7 @@ namespaces: [nda]
 includer: nda/nda.hpp
 brief: ""
 overloads:
-  template <typename Is> uint64_t static_extents(int i0, Is... is):
+  "template <typename Is> \n\nuint64_t static_extents(int i0, Is... is)":
     desc: ""
     source: nda/declarations.hpp
 desc: ""
@@ -22,5 +22,6 @@ example:
 see-also: []
 title: nda::static_extents
 permalink: /cpp-api/nda/static_extents
+parent: nda
 ...
 

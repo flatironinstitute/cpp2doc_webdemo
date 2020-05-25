@@ -35,9 +35,11 @@ example:
   desc: __MISSING__
   code: __MISSING__
 see-also: []
+signature: class const_iterator
 source: nda/layout/range.hpp
 title: nda::range::const_iterator
 permalink: /cpp-api/nda/range/const_iterator
 has-children: true
+parent: nda::range
 ...
 

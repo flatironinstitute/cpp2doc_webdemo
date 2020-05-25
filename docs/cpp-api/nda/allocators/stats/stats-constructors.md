@@ -6,7 +6,7 @@ namespaces: [nda, allocators, stats]
 includer: nda/nda.hpp
 brief: ""
 overloads:
-  stats-constructors():
+  stats():
     desc: ""
     source: nda/storage/allocators.hpp
   stats(const stats<A> & ):
@@ -27,5 +27,6 @@ example:
 see-also: []
 title: nda::allocators::stats::stats<A>
 permalink: /cpp-api/nda/allocators/stats/stats-constructors
+parent: nda::allocators::stats
 ...
 

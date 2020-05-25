@@ -1,6 +1,10 @@
 ---
 layout: namespace
 qualified_name: nda::slice_static
+permalink: /cpp-api/nda/slice_static
+parent: nda
+title: nda::slice_static
+has-children: true
 namespaces: [impl]
 classes: []
 functions:
@@ -15,7 +19,5 @@ functions:
   - get_l
   - get_s
   - slice_stride_order
-permalink: /cpp-api/nda::slice_static/slice_static
-has-children: true
 ...
 

@@ -6,7 +6,7 @@ namespaces: [nda]
 includer: nda/nda.hpp
 brief: ""
 overloads:
-  template <int I, int J, typename A> requires (is_regular_or_view_v<std::decay_t<A>>) auto transposed_view(A && a):
+  "template <int I, int J, typename A> \nrequires (is_regular_or_view_v<std::decay_t<A>>) \n\nauto transposed_view(A && a)":
     desc: ""
     source: nda/layout_transforms.hpp
 desc: ""
@@ -23,5 +23,6 @@ example:
 see-also: []
 title: nda::transposed_view
 permalink: /cpp-api/nda/transposed_view
+parent: nda
 ...
 

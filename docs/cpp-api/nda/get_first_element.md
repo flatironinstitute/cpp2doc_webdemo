@@ -6,7 +6,7 @@ namespaces: [nda]
 includer: nda/nda.hpp
 brief: Get the first element of the array as a(0,0,0....) (i.e. also work for non
 overloads:
-  template <typename A> auto get_first_element(const A & a):
+  "template <typename A> \n\nauto get_first_element(const A & a)":
     desc: Get the first element of the array as a(0,0,0....) (i.e. also work for non
     source: nda/traits.hpp
 desc: containers, just with the concept !).
@@ -21,5 +21,6 @@ example:
 see-also: []
 title: nda::get_first_element
 permalink: /cpp-api/nda/get_first_element
+parent: nda
 ...
 

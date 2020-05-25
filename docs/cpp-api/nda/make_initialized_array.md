@@ -6,7 +6,7 @@ namespaces: [nda]
 includer: nda/nda.hpp
 brief: ""
 overloads:
-  template <size_t R, typename T> std::array<T, R> make_initialized_array(T v):
+  "template <size_t R, typename T> \n\nstd::array<T, R> make_initialized_array(T v)":
     desc: ""
     source: nda/std_addons/array.hpp
 desc: ""
@@ -22,5 +22,6 @@ example:
 see-also: []
 title: nda::make_initialized_array
 permalink: /cpp-api/nda/make_initialized_array
+parent: nda
 ...
 

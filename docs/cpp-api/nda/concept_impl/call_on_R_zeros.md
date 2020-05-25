@@ -6,7 +6,7 @@ namespaces: [nda, concept_impl]
 includer: nda/nda.hpp
 brief: ""
 overloads:
-  template <int R, typename A> auto call_on_R_zeros(const A & a)-> decltype(call_on_R_zeros_impl(std::make_index_sequence<R>({}), a)):
+  "template <int R, typename A> \n\nauto call_on_R_zeros(const A & a)-> decltype(call_on_R_zeros_impl(std::make_index_sequence<R>({}), a))":
     desc: ""
     source: nda/concepts.hpp
 desc: ""
@@ -22,5 +22,6 @@ example:
 see-also: []
 title: nda::concept_impl::call_on_R_zeros
 permalink: /cpp-api/nda/concept_impl/call_on_R_zeros
+parent: nda::concept_impl
 ...
 

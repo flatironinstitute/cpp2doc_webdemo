@@ -18,10 +18,13 @@ example:
   desc: __MISSING__
   code: __MISSING__
 see-also: []
-signature: template<> class grid_iterator<1>
+signature: |
+  template<> 
+  class grid_iterator<1>
 source: nda/iterators.hpp
 title: nda::grid_iterator<1>
 permalink: /cpp-api/nda/grid_iterator<1>
 has-children: true
+parent: nda
 ...
 

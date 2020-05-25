@@ -24,5 +24,6 @@ example:
 see-also: []
 title: nda::range::const_iterator::operator++
 permalink: /cpp-api/nda/range/const_iterator/operator++
+parent: nda::range::const_iterator
 ...
 

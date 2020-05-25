@@ -6,7 +6,7 @@ namespaces: [nda]
 includer: nda/nda.hpp
 brief: Maps sqrt onto the array
 overloads:
-  template <typename A> requires (is_ndarray_v<std::decay_t<A>> and (get_algebra<std::decay_t<A>> != 'M')) auto sqrt(A && a):
+  "template <typename A> \nrequires (is_ndarray_v<std::decay_t<A>> and (get_algebra<std::decay_t<A>> != 'M')) \n\nauto sqrt(A && a)":
     desc: Maps sqrt onto the array
     source: nda/mapped_functions.hxx
 desc: ""
@@ -21,5 +21,6 @@ example:
 see-also: []
 title: nda::sqrt
 permalink: /cpp-api/nda/sqrt
+parent: nda
 ...
 

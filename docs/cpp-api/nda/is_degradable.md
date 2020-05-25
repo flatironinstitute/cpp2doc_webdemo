@@ -22,5 +22,6 @@ example:
 see-also: []
 title: nda::is_degradable
 permalink: /cpp-api/nda/is_degradable
+parent: nda
 ...
 

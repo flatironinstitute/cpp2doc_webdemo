@@ -27,9 +27,11 @@ example:
   desc: __MISSING__
   code: __MISSING__
 see-also: []
+signature: class rtable_t
 source: nda/storage/rtable.hpp
 title: nda::mem::rtable_t
 permalink: /cpp-api/nda/mem/rtable_t
 has-children: true
+parent: nda::mem
 ...
 

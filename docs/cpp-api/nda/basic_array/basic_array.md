@@ -65,7 +65,9 @@ example:
   desc: __MISSING__
   code: __MISSING__
 see-also: []
-signature: "template <typename ValueType, int Rank, typename Layout, char Algebra, typename ContainerPolicy> \nclass basic_array"
+signature: |
+  template <typename ValueType, int Rank, typename Layout, char Algebra, typename ContainerPolicy> 
+  class basic_array
 source: nda/basic_array.hpp
 title: nda::basic_array
 permalink: /cpp-api/nda/basic_array

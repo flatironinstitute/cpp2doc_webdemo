@@ -21,5 +21,6 @@ example:
 see-also: []
 title: nda::idx_map::is_contiguous
 permalink: /cpp-api/nda/idx_map/is_contiguous
+parent: nda::idx_map
 ...
 

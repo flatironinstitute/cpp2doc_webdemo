@@ -6,13 +6,13 @@ namespaces: [nda]
 includer: nda/nda.hpp
 brief: --------------- Grouping indices------------------------
 overloads:
-  template <typename T, int R, typename L, char Algebra, typename AccessorPolicy, typename OwningPolicy, typename IntSequences> auto group_indices_view(basic_array_view<T, R, L, Algebra, AccessorPolicy, OwningPolicy> a, IntSequences... ):
+  "template <typename T, int R, typename L, char Algebra, typename AccessorPolicy, typename OwningPolicy, typename IntSequences> \n\nauto group_indices_view(basic_array_view<T, R, L, Algebra, AccessorPolicy, OwningPolicy> a, IntSequences... )":
     desc: --------------- Grouping indices------------------------
     source: nda/layout_transforms.hpp
-  template <typename T, int R, typename L, char Algebra, typename ContainerPolicy, typename IntSequences> auto group_indices_view(const basic_array<T, R, L, Algebra, ContainerPolicy> & a, IntSequences... ):
+  "template <typename T, int R, typename L, char Algebra, typename ContainerPolicy, typename IntSequences> \n\nauto group_indices_view(const basic_array<T, R, L, Algebra, ContainerPolicy> & a, IntSequences... )":
     desc: ""
     source: nda/layout_transforms.hpp
-  template <typename T, int R, typename L, char Algebra, typename ContainerPolicy, typename IntSequences> auto group_indices_view(basic_array<T, R, L, Algebra, ContainerPolicy> & a, IntSequences... ):
+  "template <typename T, int R, typename L, char Algebra, typename ContainerPolicy, typename IntSequences> \n\nauto group_indices_view(basic_array<T, R, L, Algebra, ContainerPolicy> & a, IntSequences... )":
     desc: ""
     source: nda/layout_transforms.hpp
 desc: ""
@@ -34,5 +34,6 @@ example:
 see-also: []
 title: nda::group_indices_view
 permalink: /cpp-api/nda/group_indices_view
+parent: nda
 ...
 

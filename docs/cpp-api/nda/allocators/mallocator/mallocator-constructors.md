@@ -6,7 +6,7 @@ namespaces: [nda, allocators, mallocator]
 includer: nda/nda.hpp
 brief: ""
 overloads:
-  mallocator-constructors():
+  mallocator():
     desc: ""
     source: nda/storage/allocators.hpp
   mallocator(const class nda::allocators::mallocator & ):
@@ -27,5 +27,6 @@ example:
 see-also: []
 title: nda::allocators::mallocator::mallocator
 permalink: /cpp-api/nda/allocators/mallocator/mallocator-constructors
+parent: nda::allocators::mallocator
 ...
 

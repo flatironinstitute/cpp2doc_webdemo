@@ -21,5 +21,6 @@ example:
 see-also: []
 title: nda::mem::handle_shared::incref
 permalink: /cpp-api/nda/mem/handle_shared/incref
+parent: nda::mem::handle_shared
 ...
 

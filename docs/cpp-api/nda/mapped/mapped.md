@@ -18,10 +18,13 @@ example:
   desc: __MISSING__
   code: __MISSING__
 see-also: []
-signature: template <class F> struct mapped
+signature: |
+  template <class F> 
+  struct mapped
 source: nda/map.hpp
 title: nda::mapped
 permalink: /cpp-api/nda/mapped
 has-children: true
+parent: nda
 ...
 

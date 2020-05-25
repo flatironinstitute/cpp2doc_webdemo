@@ -6,7 +6,7 @@ namespaces: [nda, range, const_iterator]
 includer: nda/nda.hpp
 brief: ""
 overloads:
-  void ~const_iterator-destructor():
+  void ~const_iterator():
     desc: ""
     source: nda/layout/range.hpp
 desc: ""
@@ -21,5 +21,6 @@ example:
 see-also: []
 title: nda::range::const_iterator::~const_iterator
 permalink: /cpp-api/nda/range/const_iterator/~const_iterator-destructor
+parent: nda::range::const_iterator
 ...
 

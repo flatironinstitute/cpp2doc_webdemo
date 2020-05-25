@@ -9,13 +9,13 @@ overloads:
   basic_array_view<ValueType, Rank, Layout, Algebra, AccessorPolicy, OwningPolicy> & operator=(const basic_array_view<ValueType, Rank, Layout, Algebra, AccessorPolicy, OwningPolicy> & rhs) noexcept:
     desc: Same as the general case
     source: nda/basic_array_view.hpp
-  template <ArrayOfRank<Rank> RHS> basic_array_view<ValueType, Rank, Layout, Algebra, AccessorPolicy, OwningPolicy> & operator=(const RHS & rhs) noexcept:
+  "template <ArrayOfRank<Rank> RHS> \n\nbasic_array_view<ValueType, Rank, Layout, Algebra, AccessorPolicy, OwningPolicy> & operator=(const RHS & rhs) noexcept":
     desc: Copies the content of rhs into the view.
     source: nda/basic_array_view.hpp
-  template <typename RHS> requires (is_scalar_for_v<RHS, basic_array_view>) basic_array_view<ValueType, Rank, Layout, Algebra, AccessorPolicy, OwningPolicy> & operator=(const RHS & rhs) noexcept:
+  "template <typename RHS> \nrequires (is_scalar_for_v<RHS, basic_array_view>) \n\nbasic_array_view<ValueType, Rank, Layout, Algebra, AccessorPolicy, OwningPolicy> & operator=(const RHS & rhs) noexcept":
     desc: Assign to scalar
     source: nda/basic_array_view.hpp
-  template <ArrayInitializer Initializer> basic_array_view<ValueType, Rank, Layout, Algebra, AccessorPolicy, OwningPolicy> & operator=(const Initializer & initializer) noexcept:
+  "template <nda::ArrayInitializer Initializer> \n\nbasic_array_view<ValueType, Rank, Layout, Algebra, AccessorPolicy, OwningPolicy> & operator=(const Initializer & initializer) noexcept":
     desc: ""
     source: nda/basic_array_view.hpp
 desc: "[C++ oddity : this case must be explicitly coded too]"
@@ -32,5 +32,6 @@ example:
 see-also: []
 title: nda::basic_array_view::operator=
 permalink: /cpp-api/nda/basic_array_view/operator=
+parent: nda::basic_array_view
 ...
 

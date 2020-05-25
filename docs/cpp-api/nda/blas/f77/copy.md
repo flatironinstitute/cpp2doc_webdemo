@@ -28,5 +28,6 @@ example:
 see-also: []
 title: nda::blas::f77::copy
 permalink: /cpp-api/nda/blas/f77/copy
+parent: nda::blas::f77
 ...
 

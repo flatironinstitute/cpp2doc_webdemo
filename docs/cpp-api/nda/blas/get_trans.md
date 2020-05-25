@@ -6,7 +6,7 @@ namespaces: [nda, blas]
 includer: nda/nda.hpp
 brief: ""
 overloads:
-  template <typename MatrixType> char get_trans(const MatrixType & A, bool transpose):
+  "template <typename MatrixType> \n\nchar get_trans(const MatrixType & A, bool transpose)":
     desc: ""
     source: nda/blas/tools.hpp
 desc: ""
@@ -22,5 +22,6 @@ example:
 see-also: []
 title: nda::blas::get_trans
 permalink: /cpp-api/nda/blas/get_trans
+parent: nda::blas
 ...
 

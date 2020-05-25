@@ -6,7 +6,7 @@ namespaces: [nda]
 includer: nda/nda.hpp
 brief: Make a new std::array by appending one element at the front
 overloads:
-  template <typename T, typename U, size_t R> std::array<T, R + 1> front_append(const std::array<T, R> & a, const U & x):
+  "template <typename T, typename U, size_t R> \n\nstd::array<T, R + 1> front_append(const std::array<T, R> & a, const U & x)":
     desc: Make a new std::array by appending one element at the front
     source: nda/std_addons/array.hpp
 desc: ""
@@ -24,5 +24,6 @@ example:
 see-also: []
 title: nda::front_append
 permalink: /cpp-api/nda/front_append
+parent: nda
 ...
 

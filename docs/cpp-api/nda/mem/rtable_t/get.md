@@ -21,5 +21,6 @@ example:
 see-also: []
 title: nda::mem::rtable_t::get
 permalink: /cpp-api/nda/mem/rtable_t/get
+parent: nda::mem::rtable_t
 ...
 

@@ -6,7 +6,7 @@ namespaces: [nda]
 includer: nda/nda.hpp
 brief: Dot product of two arrays.
 overloads:
-  template <typename T, typename U, size_t R> auto dot_product(const std::array<T, R> & a1, const std::array<U, R> & a2):
+  "template <typename T, typename U, size_t R> \n\nauto dot_product(const std::array<T, R> & a1, const std::array<U, R> & a2)":
     desc: Dot product of two arrays.
     source: nda/std_addons/array.hpp
 desc: ""
@@ -24,5 +24,6 @@ example:
 see-also: []
 title: nda::dot_product
 permalink: /cpp-api/nda/dot_product
+parent: nda
 ...
 

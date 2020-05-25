@@ -24,5 +24,6 @@ example:
 see-also: []
 title: nda::allocators::multiple_bucket::operator=
 permalink: /cpp-api/nda/allocators/multiple_bucket/operator=
+parent: nda::allocators::multiple_bucket
 ...
 

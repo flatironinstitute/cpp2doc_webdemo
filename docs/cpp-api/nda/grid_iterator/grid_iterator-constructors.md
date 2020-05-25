@@ -6,7 +6,7 @@ namespaces: [nda, grid_iterator]
 includer: nda/nda.hpp
 brief: ""
 overloads:
-  grid_iterator-constructors():
+  grid_iterator():
     desc: ""
     source: nda/iterators.hpp
   grid_iterator(const long * lengths, const long * strides, bool at_end):
@@ -16,9 +16,6 @@ overloads:
     desc: ""
     source: nda/iterators.hpp
   grid_iterator(class nda::grid_iterator<1> && ):
-    desc: ""
-    source: nda/iterators.hpp
-  grid_iterator():
     desc: ""
     source: nda/iterators.hpp
 desc: ""
@@ -35,5 +32,6 @@ example:
 see-also: []
 title: nda::grid_iterator<1>::grid_iterator
 permalink: /cpp-api/nda/grid_iterator/grid_iterator-constructors
+parent: nda::grid_iterator
 ...
 

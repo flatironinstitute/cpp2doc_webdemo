@@ -6,7 +6,7 @@ namespaces: [nda]
 includer: nda/nda.hpp
 brief: ""
 overloads:
-  template <typename L, typename R> char common_algebra():
+  "template <typename L, typename R> \n\nchar common_algebra()":
     desc: ""
     source: nda/arithmetic.hpp
 desc: ""
@@ -22,5 +22,6 @@ example:
 see-also: []
 title: nda::common_algebra
 permalink: /cpp-api/nda/common_algebra
+parent: nda
 ...
 

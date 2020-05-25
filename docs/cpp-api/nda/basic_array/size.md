@@ -21,5 +21,6 @@ example:
 see-also: []
 title: nda::basic_array::size
 permalink: /cpp-api/nda/basic_array/size
+parent: nda::basic_array
 ...
 

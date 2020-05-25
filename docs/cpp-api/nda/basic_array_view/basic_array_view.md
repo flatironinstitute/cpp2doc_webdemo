@@ -60,10 +60,13 @@ example:
   desc: __MISSING__
   code: __MISSING__
 see-also: []
-signature: template <typename ValueType, int Rank, typename Layout, char Algebra, typename AccessorPolicy, typename OwningPolicy> class basic_array_view
+signature: |
+  template <typename ValueType, int Rank, typename Layout, char Algebra, typename AccessorPolicy, typename OwningPolicy> 
+  class basic_array_view
 source: nda/basic_array_view.hpp
 title: nda::basic_array_view
 permalink: /cpp-api/nda/basic_array_view
 has-children: true
+parent: nda
 ...
 

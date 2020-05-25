@@ -24,5 +24,6 @@ example:
 see-also: []
 title: nda::allocators::leak_check::operator=
 permalink: /cpp-api/nda/allocators/leak_check/operator=
+parent: nda::allocators::leak_check
 ...
 

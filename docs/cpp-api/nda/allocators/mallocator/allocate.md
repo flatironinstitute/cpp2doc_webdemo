@@ -21,5 +21,6 @@ example:
 see-also: []
 title: nda::allocators::mallocator::allocate
 permalink: /cpp-api/nda/allocators/mallocator/allocate
+parent: nda::allocators::mallocator
 ...
 

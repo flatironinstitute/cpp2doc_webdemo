@@ -1,6 +1,10 @@
 ---
 layout: namespace
 qualified_name: nda::allocators
+permalink: /cpp-api/nda/allocators
+parent: nda
+title: nda::allocators
+has-children: true
 namespaces: []
 classes:
   - blk_t
@@ -11,7 +15,5 @@ classes:
   - leak_check
   - stats
 functions: [round_to_align]
-permalink: /cpp-api/nda::allocators/allocators
-has-children: true
 ...
 

@@ -12,9 +12,11 @@ example:
   desc: __MISSING__
   code: __MISSING__
 see-also: []
+signature: struct do_not_initialize_t
 source: nda/storage/handle.hpp
 title: nda::mem::do_not_initialize_t
 permalink: /cpp-api/nda/mem/do_not_initialize_t
 has-children: true
+parent: nda::mem
 ...
 

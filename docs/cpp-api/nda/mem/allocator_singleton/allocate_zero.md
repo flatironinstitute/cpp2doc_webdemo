@@ -21,5 +21,6 @@ example:
 see-also: []
 title: nda::mem::allocator_singleton::allocate_zero
 permalink: /cpp-api/nda/mem/allocator_singleton/allocate_zero
+parent: nda::mem::allocator_singleton
 ...
 

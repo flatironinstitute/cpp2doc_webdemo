@@ -6,7 +6,7 @@ namespaces: [nda, allocators, multiple_bucket]
 includer: nda/nda.hpp
 brief: ""
 overloads:
-  multiple_bucket-constructors():
+  multiple_bucket():
     desc: ""
     source: nda/storage/allocators.hpp
   multiple_bucket(const multiple_bucket<ChunkSize> & ):
@@ -27,5 +27,6 @@ example:
 see-also: []
 title: nda::allocators::multiple_bucket::multiple_bucket<ChunkSize>
 permalink: /cpp-api/nda/allocators/multiple_bucket/multiple_bucket-constructors
+parent: nda::allocators::multiple_bucket
 ...
 

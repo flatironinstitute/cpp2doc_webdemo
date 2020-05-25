@@ -6,7 +6,7 @@ namespaces: [nda]
 includer: nda/nda.hpp
 brief: ""
 overloads:
-  template <typename L, typename R> requires (model_ndarray_with_possibly_one_scalar<L, R>) auto operator+(L && l, R && r):
+  "template <typename L, typename R> \nrequires (model_ndarray_with_possibly_one_scalar<L, R>) \n\nauto operator+(L && l, R && r)":
     desc: ""
     source: nda/arithmetic.hpp
 desc: ""
@@ -23,5 +23,6 @@ example:
 see-also: []
 title: nda::operator+
 permalink: /cpp-api/nda/operator+
+parent: nda
 ...
 

@@ -21,9 +21,11 @@ example:
   desc: __MISSING__
   code: __MISSING__
 see-also: []
+signature: struct blk_t
 source: nda/storage/blk.hpp
 title: nda::allocators::blk_t
 permalink: /cpp-api/nda/allocators/blk_t
 has-children: true
+parent: nda::allocators
 ...
 

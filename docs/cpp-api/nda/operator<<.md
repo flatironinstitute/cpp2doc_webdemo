@@ -15,28 +15,28 @@ overloads:
   std::ostream & operator<<(std::ostream & out, enum nda::layout_prop_e p):
     desc: ""
     source: nda/print.hpp
-  template <int Rank, uint64_t StaticExtents, uint64_t StrideOrder, enum nda::layout_prop_e LayoutProp> std::ostream & operator<<(std::ostream & out, const idx_map<Rank, StaticExtents, StrideOrder, LayoutProp> & x):
+  "template <int Rank, uint64_t StaticExtents, uint64_t StrideOrder, enum nda::layout_prop_e LayoutProp> \n\nstd::ostream & operator<<(std::ostream & out, const idx_map<Rank, StaticExtents, StrideOrder, LayoutProp> & x)":
     desc: ""
     source: nda/print.hpp
-  template <typename A> requires (is_regular_or_view_v<A>) std::ostream & operator<<(std::ostream & out, const A & a):
+  "template <typename A> \nrequires (is_regular_or_view_v<A>) \n\nstd::ostream & operator<<(std::ostream & out, const A & a)":
     desc: ""
     source: nda/print.hpp
-  template <int R, typename F> std::ostream & operator<<(std::ostream & sout, const array_adapter<R, F> & x):
+  "template <int R, typename F> \n\nstd::ostream & operator<<(std::ostream & sout, const array_adapter<R, F> & x)":
     desc: ""
     source: nda/print.hpp
-  template <typename S, int Rank> std::ostream & operator<<(std::ostream & sout, const scalar_array<S, Rank> & expr):
+  "template <typename S, int Rank> \n\nstd::ostream & operator<<(std::ostream & sout, const scalar_array<S, Rank> & expr)":
     desc: ""
     source: nda/print.hpp
-  template <typename S> std::ostream & operator<<(std::ostream & sout, const scalar_matrix<S> & expr):
+  "template <typename S> \n\nstd::ostream & operator<<(std::ostream & sout, const scalar_matrix<S> & expr)":
     desc: ""
     source: nda/print.hpp
-  template <char OP, typename L> std::ostream & operator<<(std::ostream & sout, const expr_unary<OP, L> & expr):
+  "template <char OP, typename L> \n\nstd::ostream & operator<<(std::ostream & sout, const expr_unary<OP, L> & expr)":
     desc: ""
     source: nda/print.hpp
-  template <char OP, typename L, typename R> std::ostream & operator<<(std::ostream & sout, const expr<OP, L, R> & expr):
+  "template <char OP, typename L, typename R> \n\nstd::ostream & operator<<(std::ostream & sout, const expr<OP, L, R> & expr)":
     desc: ""
     source: nda/print.hpp
-  template <typename F, typename A> std::ostream & operator<<(std::ostream & out, const expr_call<F, A...> & ):
+  "template <typename F, typename A> \n\nstd::ostream & operator<<(std::ostream & out, const expr_call<F, A...> & )":
     desc: ""
     source: nda/print.hpp
 desc: ""
@@ -66,5 +66,6 @@ example:
 see-also: []
 title: nda::operator<<
 permalink: /cpp-api/nda/operator<<
+parent: nda
 ...
 

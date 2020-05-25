@@ -1,6 +1,10 @@
 ---
 layout: namespace
 qualified_name: nda::blas
+permalink: /cpp-api/nda/blas
+parent: nda
+title: nda::blas
+has-children: true
 namespaces: [f77]
 classes: []
 functions:
@@ -11,7 +15,5 @@ functions:
   - gemm
   - gemv_generic
   - gemv
-permalink: /cpp-api/nda::blas/blas
-has-children: true
 ...
 

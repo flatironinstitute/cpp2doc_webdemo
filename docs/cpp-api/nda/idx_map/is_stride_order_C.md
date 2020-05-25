@@ -21,5 +21,6 @@ example:
 see-also: []
 title: nda::idx_map::is_stride_order_C
 permalink: /cpp-api/nda/idx_map/is_stride_order_C
+parent: nda::idx_map
 ...
 

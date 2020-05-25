@@ -6,7 +6,7 @@ namespaces: [nda]
 includer: nda/nda.hpp
 brief: ""
 overloads:
-  template <typename A> requires (is_ndarray_v<A>) auto min_element(const A & a):
+  "template <typename A> \nrequires (is_ndarray_v<A>) \n\nauto min_element(const A & a)":
     desc: ""
     source: nda/algorithms.hpp
 desc: ""
@@ -21,5 +21,6 @@ example:
 see-also: []
 title: nda::min_element
 permalink: /cpp-api/nda/min_element
+parent: nda
 ...
 

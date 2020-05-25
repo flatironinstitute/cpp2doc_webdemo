@@ -12,9 +12,11 @@ example:
   desc: __MISSING__
   code: __MISSING__
 see-also: []
+signature: struct default_accessor
 source: nda/accessors.hpp
 title: nda::default_accessor
 permalink: /cpp-api/nda/default_accessor
 has-children: true
+parent: nda
 ...
 

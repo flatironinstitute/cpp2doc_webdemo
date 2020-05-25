@@ -22,5 +22,6 @@ example:
 see-also: []
 title: nda::no_alias_accessor::accessor::offset
 permalink: /cpp-api/nda/no_alias_accessor/accessor/offset
+parent: nda::no_alias_accessor::accessor
 ...
 

@@ -21,5 +21,6 @@ example:
 see-also: []
 title: nda::allocators::multiple_bucket::allocate_zero
 permalink: /cpp-api/nda/allocators/multiple_bucket/allocate_zero
+parent: nda::allocators::multiple_bucket
 ...
 

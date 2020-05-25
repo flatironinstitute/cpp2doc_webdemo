@@ -24,5 +24,6 @@ example:
 see-also: []
 title: nda::allocators::segregator::operator=
 permalink: /cpp-api/nda/allocators/segregator/operator=
+parent: nda::allocators::segregator
 ...
 

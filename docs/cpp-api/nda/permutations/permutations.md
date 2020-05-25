@@ -1,6 +1,10 @@
 ---
 layout: namespace
 qualified_name: nda::permutations
+permalink: /cpp-api/nda/permutations
+parent: nda
+title: nda::permutations
+has-children: true
 namespaces: []
 classes: []
 functions:
@@ -9,7 +13,5 @@ functions:
   - apply_inverse
   - apply
   - transposition
-permalink: /cpp-api/nda::permutations/permutations
-has-children: true
 ...
 

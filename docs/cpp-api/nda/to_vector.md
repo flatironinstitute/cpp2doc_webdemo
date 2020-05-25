@@ -6,7 +6,7 @@ namespaces: [nda]
 includer: nda/nda.hpp
 brief: Convert a std::array to a
 overloads:
-  template <typename T, size_t R> std::vector<T> to_vector(const std::array<T, R> & a):
+  "template <typename T, size_t R> \n\nstd::vector<T> to_vector(const std::array<T, R> & a)":
     desc: Convert a std::array to a
     source: nda/std_addons/array.hpp
 desc: ""
@@ -22,5 +22,6 @@ example:
 see-also: []
 title: nda::to_vector
 permalink: /cpp-api/nda/to_vector
+parent: nda
 ...
 

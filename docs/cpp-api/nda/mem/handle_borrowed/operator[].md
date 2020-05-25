@@ -24,5 +24,6 @@ example:
 see-also: []
 title: nda::mem::handle_borrowed::operator[]
 permalink: /cpp-api/nda/mem/handle_borrowed/operator[]
+parent: nda::mem::handle_borrowed
 ...
 

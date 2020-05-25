@@ -6,7 +6,7 @@ namespaces: [nda, mem, handle_shared]
 includer: nda/nda.hpp
 brief: ""
 overloads:
-  void ~handle_shared<T>-destructor() noexcept:
+  void ~handle_shared<T>() noexcept:
     desc: ""
     source: nda/storage/handle.hpp
 desc: ""
@@ -21,5 +21,6 @@ example:
 see-also: []
 title: nda::mem::handle_shared::~handle_shared<T>
 permalink: /cpp-api/nda/mem/handle_shared/~handle_shared<T>-destructor
+parent: nda::mem::handle_shared
 ...
 

@@ -6,7 +6,7 @@ namespaces: [nda, slice_static]
 includer: nda/nda.hpp
 brief: ""
 overloads:
-  template <int N, int P, size_t Q> std::array<int, P> n_of_p_map(const std::array<_Bool, Q> & args_is_range, int e_pos, int e_len):
+  "template <int N, int P, size_t Q> \n\nstd::array<int, P> n_of_p_map(const std::array<_Bool, Q> & args_is_range, int e_pos, int e_len)":
     desc: ""
     source: nda/layout/slice_static.hpp
 desc: ""
@@ -25,5 +25,6 @@ example:
 see-also: []
 title: nda::slice_static::n_of_p_map
 permalink: /cpp-api/nda/slice_static/n_of_p_map
+parent: nda::slice_static
 ...
 

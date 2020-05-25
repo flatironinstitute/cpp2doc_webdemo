@@ -6,7 +6,7 @@ namespaces: [nda, slice_static]
 includer: nda/nda.hpp
 brief: ""
 overloads:
-  template <typename Args> int ellipsis_position():
+  "template <typename Args> \n\nint ellipsis_position()":
     desc: ""
     source: nda/layout/slice_static.hpp
 desc: ""
@@ -21,5 +21,6 @@ example:
 see-also: []
 title: nda::slice_static::ellipsis_position
 permalink: /cpp-api/nda/slice_static/ellipsis_position
+parent: nda::slice_static
 ...
 

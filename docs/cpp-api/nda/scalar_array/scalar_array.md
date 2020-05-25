@@ -22,10 +22,13 @@ example:
   desc: __MISSING__
   code: __MISSING__
 see-also: []
-signature: template <typename S, int Rank> struct scalar_array
+signature: |
+  template <typename S, int Rank> 
+  struct scalar_array
 source: nda/arithmetic.hpp
 title: nda::scalar_array
 permalink: /cpp-api/nda/scalar_array
 has-children: true
+parent: nda
 ...
 

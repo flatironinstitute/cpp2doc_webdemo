@@ -6,7 +6,7 @@ namespaces: [nda, ellipsis]
 includer: nda/nda.hpp
 brief: ""
 overloads:
-  ellipsis-constructors():
+  ellipsis():
     desc: ""
     source: nda/layout/range.hpp
   ellipsis(const struct nda::ellipsis & ):
@@ -27,5 +27,6 @@ example:
 see-also: []
 title: nda::ellipsis::ellipsis
 permalink: /cpp-api/nda/ellipsis/ellipsis-constructors
+parent: nda::ellipsis
 ...
 

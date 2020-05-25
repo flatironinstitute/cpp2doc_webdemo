@@ -6,7 +6,7 @@ namespaces: [nda]
 includer: nda/nda.hpp
 brief: ""
 overloads:
-  template <typename A> requires (is_ndarray_v<A>) auto sum(const A & a):
+  "template <typename A> \nrequires (is_ndarray_v<A>) \n\nauto sum(const A & a)":
     desc: ""
     source: nda/algorithms.hpp
 desc: ""
@@ -21,5 +21,6 @@ example:
 see-also: []
 title: nda::sum
 permalink: /cpp-api/nda/sum
+parent: nda
 ...
 

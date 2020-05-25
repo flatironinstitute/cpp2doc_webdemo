@@ -6,7 +6,7 @@ namespaces: [nda, runtime_error]
 includer: nda/nda.hpp
 brief: ""
 overloads:
-  runtime_error-constructors() noexcept:
+  runtime_error() noexcept:
     desc: ""
     source: nda/exceptions.hpp
   runtime_error(const class nda::runtime_error & ) noexcept:
@@ -24,5 +24,6 @@ example:
 see-also: []
 title: nda::runtime_error::runtime_error
 permalink: /cpp-api/nda/runtime_error/runtime_error-constructors
+parent: nda::runtime_error
 ...
 

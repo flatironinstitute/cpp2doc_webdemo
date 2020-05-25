@@ -6,7 +6,7 @@ namespaces: [nda]
 includer: nda/nda.hpp
 brief: ""
 overloads:
-  template <ArrayOfRank<2> M> Array auto dagger(const M & m):
+  "template <ArrayOfRank<2> M> \n\nArray auto dagger(const M & m)":
     desc: ""
     source: ""
 desc: ""
@@ -21,5 +21,6 @@ example:
 see-also: []
 title: nda::dagger
 permalink: /cpp-api/nda/dagger
+parent: nda
 ...
 

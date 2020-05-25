@@ -6,7 +6,7 @@ namespaces: [nda, range_tag]
 includer: nda/nda.hpp
 brief: ""
 overloads:
-  void ~range_tag-destructor():
+  void ~range_tag():
     desc: ""
     source: nda/layout/range.hpp
 desc: ""
@@ -21,5 +21,6 @@ example:
 see-also: []
 title: nda::range_tag::~range_tag
 permalink: /cpp-api/nda/range_tag/~range_tag-destructor
+parent: nda::range_tag
 ...
 

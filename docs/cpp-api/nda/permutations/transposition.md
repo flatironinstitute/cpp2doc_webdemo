@@ -6,7 +6,7 @@ namespaces: [nda, permutations]
 includer: nda/nda.hpp
 brief: ""
 overloads:
-  template <int Rank> std::array<int, Rank> transposition(int i, int j):
+  "template <int Rank> \n\nstd::array<int, Rank> transposition(int i, int j)":
     desc: ""
     source: nda/layout/permutation.hpp
 desc: ""
@@ -22,5 +22,6 @@ example:
 see-also: []
 title: nda::permutations::transposition
 permalink: /cpp-api/nda/permutations/transposition
+parent: nda::permutations
 ...
 

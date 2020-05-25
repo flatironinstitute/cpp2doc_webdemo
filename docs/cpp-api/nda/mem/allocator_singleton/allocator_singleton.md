@@ -14,10 +14,13 @@ example:
   desc: __MISSING__
   code: __MISSING__
 see-also: []
-signature: template <typename Allocator> struct allocator_singleton
+signature: |
+  template <typename Allocator> 
+  struct allocator_singleton
 source: nda/storage/handle.hpp
 title: nda::mem::allocator_singleton
 permalink: /cpp-api/nda/mem/allocator_singleton
 has-children: true
+parent: nda::mem
 ...
 

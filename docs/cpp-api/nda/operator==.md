@@ -6,7 +6,7 @@ namespaces: [nda]
 includer: nda/nda.hpp
 brief: --------------- operator == ---------------------
 overloads:
-  template <typename A, typename B> requires (is_ndarray_v<A> and is_ndarray_v<B>) bool operator==(const A & a, const B & b):
+  "template <typename A, typename B> \nrequires (is_ndarray_v<A> and is_ndarray_v<B>) \n\nbool operator==(const A & a, const B & b)":
     desc: --------------- operator == ---------------------
     source: nda/basic_functions.hpp
 desc: ""
@@ -23,5 +23,6 @@ example:
 see-also: []
 title: nda::operator==
 permalink: /cpp-api/nda/operator==
+parent: nda
 ...
 

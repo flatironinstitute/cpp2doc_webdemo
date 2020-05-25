@@ -6,10 +6,10 @@ namespaces: [nda]
 includer: nda/nda.hpp
 brief: ""
 overloads:
-  template <typename T, int R, typename L, char Algebra, typename AccessorPolicy, typename OwningPolicy, typename NewLayoutType> auto map_layout_transform(basic_array_view<T, R, L, Algebra, AccessorPolicy, OwningPolicy> a, const NewLayoutType & new_layout):
+  "template <typename T, int R, typename L, char Algebra, typename AccessorPolicy, typename OwningPolicy, typename NewLayoutType> \n\nauto map_layout_transform(basic_array_view<T, R, L, Algebra, AccessorPolicy, OwningPolicy> a, const NewLayoutType & new_layout)":
     desc: ""
     source: nda/layout_transforms.hpp
-  template <typename T, int R, typename L, char Algebra, typename ContainerPolicy, typename NewLayoutType> auto map_layout_transform(basic_array<T, R, L, Algebra, ContainerPolicy> && a, const NewLayoutType & new_layout):
+  "template <typename T, int R, typename L, char Algebra, typename ContainerPolicy, typename NewLayoutType> \n\nauto map_layout_transform(basic_array<T, R, L, Algebra, ContainerPolicy> && a, const NewLayoutType & new_layout)":
     desc: ""
     source: nda/layout_transforms.hpp
 desc: ""
@@ -32,5 +32,6 @@ example:
 see-also: []
 title: nda::map_layout_transform
 permalink: /cpp-api/nda/map_layout_transform
+parent: nda
 ...
 

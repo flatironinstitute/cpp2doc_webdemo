@@ -21,5 +21,6 @@ example:
 see-also: []
 title: nda::range::first
 permalink: /cpp-api/nda/range/first
+parent: nda::range
 ...
 

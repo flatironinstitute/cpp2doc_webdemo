@@ -6,7 +6,7 @@ namespaces: [nda]
 includer: nda/nda.hpp
 brief: Make a new std::array by removing one element at the front
 overloads:
-  template <typename T, size_t R> std::array<T, R - 1> front_pop(const std::array<T, R> & a):
+  "template <typename T, size_t R> \n\nstd::array<T, R - 1> front_pop(const std::array<T, R> & a)":
     desc: Make a new std::array by removing one element at the front
     source: nda/std_addons/array.hpp
 desc: ""
@@ -22,5 +22,6 @@ example:
 see-also: []
 title: nda::front_pop
 permalink: /cpp-api/nda/front_pop
+parent: nda
 ...
 

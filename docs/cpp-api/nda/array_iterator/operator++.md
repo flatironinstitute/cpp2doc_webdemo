@@ -24,5 +24,6 @@ example:
 see-also: []
 title: nda::array_iterator::operator++
 permalink: /cpp-api/nda/array_iterator/operator++
+parent: nda::array_iterator
 ...
 

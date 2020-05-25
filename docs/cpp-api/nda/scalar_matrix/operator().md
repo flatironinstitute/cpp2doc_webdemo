@@ -6,7 +6,7 @@ namespaces: [nda, scalar_matrix]
 includer: nda/nda.hpp
 brief: ""
 overloads:
-  template <typename A1, typename A2> S operator()(const A1 & a1, const A2 & a2)  const:
+  "template <typename A1, typename A2> \n\nS operator()(const A1 & a1, const A2 & a2)  const":
     desc: ""
     source: nda/arithmetic.hpp
 desc: ""
@@ -23,5 +23,6 @@ example:
 see-also: []
 title: nda::scalar_matrix::operator()
 permalink: /cpp-api/nda/scalar_matrix/operator()
+parent: nda::scalar_matrix
 ...
 

@@ -22,9 +22,11 @@ example:
   desc: __MISSING__
   code: __MISSING__
 see-also: []
+signature: class range
 source: nda/layout/range.hpp
 title: nda::range
 permalink: /cpp-api/nda/range
 has-children: true
+parent: nda
 ...
 

@@ -31,5 +31,6 @@ example:
 see-also: []
 title: nda::details::bound_check_worker::g
 permalink: /cpp-api/nda/details/bound_check_worker/g
+parent: nda::details::bound_check_worker
 ...
 

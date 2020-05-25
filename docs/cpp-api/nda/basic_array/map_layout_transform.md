@@ -6,7 +6,7 @@ namespaces: [nda, basic_array]
 includer: nda/nda.hpp
 brief: ""
 overloads:
-  template <typename T, int R, typename L, char A, typename C, typename NewLayoutType> auto map_layout_transform(basic_array<T, R, L, A, C> && a, const NewLayoutType & new_layout):
+  "template <typename T, int R, typename L, char A, typename C, typename NewLayoutType> \n\nauto map_layout_transform(basic_array<T, R, L, A, C> && a, const NewLayoutType & new_layout)":
     desc: ""
     source: nda/basic_array.hpp
 desc: ""
@@ -27,5 +27,6 @@ example:
 see-also: []
 title: nda::map_layout_transform
 permalink: /cpp-api/nda/basic_array/map_layout_transform
+parent: nda::basic_array
 ...
 

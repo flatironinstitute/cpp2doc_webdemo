@@ -6,7 +6,7 @@ namespaces: [nda, array_adapter]
 includer: nda/nda.hpp
 brief: ""
 overloads:
-  template <typename Long> auto operator()(long i, Long... is)  const:
+  "template <typename Long> \n\nauto operator()(long i, Long... is)  const":
     desc: ""
     source: nda/array_adapter.hpp
 desc: ""
@@ -22,5 +22,6 @@ example:
 see-also: []
 title: nda::array_adapter::operator()
 permalink: /cpp-api/nda/array_adapter/operator()
+parent: nda::array_adapter
 ...
 

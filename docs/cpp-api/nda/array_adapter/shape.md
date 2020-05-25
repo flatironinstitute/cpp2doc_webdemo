@@ -21,5 +21,6 @@ example:
 see-also: []
 title: nda::array_adapter::shape
 permalink: /cpp-api/nda/array_adapter/shape
+parent: nda::array_adapter
 ...
 

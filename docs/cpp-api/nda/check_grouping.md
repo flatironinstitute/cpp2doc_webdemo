@@ -6,7 +6,7 @@ namespaces: [nda]
 includer: nda/nda.hpp
 brief: ""
 overloads:
-  template <size_t R, size_t Rs> bool check_grouping(const std::array<int, R> & stride_order, const std::array<int, Rs> &... grps):
+  "template <size_t R, size_t Rs> \n\nbool check_grouping(const std::array<int, R> & stride_order, const std::array<int, Rs> &... grps)":
     desc: ""
     source: nda/group_indices.hpp
 desc: ""
@@ -23,5 +23,6 @@ example:
 see-also: []
 title: nda::check_grouping
 permalink: /cpp-api/nda/check_grouping
+parent: nda
 ...
 

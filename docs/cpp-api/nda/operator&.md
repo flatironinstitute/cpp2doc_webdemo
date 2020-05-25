@@ -22,5 +22,6 @@ example:
 see-also: []
 title: nda::operator&
 permalink: /cpp-api/nda/operator&
+parent: nda
 ...
 
