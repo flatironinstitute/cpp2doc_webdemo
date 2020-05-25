@@ -7,7 +7,20 @@
 #include <tuple>
 #include <type_traits>
 
-namespace concept_sandbox {
+namespace std {
+  template <class From, class To>
+  concept convertible_to = std::is_convertible_v<From, To> and requires(std::add_rvalue_reference_t<From> (&f)()) {
+    static_cast<To>(f());
+  };
+
+  template <class T>
+  concept integral = std::is_integral_v<T>;
+} // namespace std
+
+namespace sandbox {
+
+  template <class T>
+  concept is_integral = std::is_integral_v<T>;
 
   template <typename A>
   constexpr int get_rank = std::tuple_size_v<std::decay_t<decltype(std::declval<A const>().shape())>>;
@@ -57,7 +70,10 @@ template <typename A> concept Array= requires(A const &a) {
   // a(0,0,0,0... R times) returns something, which is value_type by definition
   {impl::get_first_element(a)};
 };
-  // clang-format on
+    // clang-format on
+#define AUTO(X) X auto
+#define CONCEPT(X) X
+#define REQUIRES requires
 
   template <typename A, int R>
   concept ArrayOfRank = Array<A> and (has_rank_v<A, R>);
@@ -79,6 +95,11 @@ template <typename A> concept Array= requires(A const &a) {
     using value_t             = T;
     value_t operator()(int i, ...) const { return 0; }
     std::array<long, R> shape() const { return {}; }
+
+    template <CONCEPT(is_integral)... Int>
+    explicit myarray(Int... is) noexcept {};
+
+    void zozo() const REQUIRES(R == 3) {}
   };
 
   template <typename T, int R>
@@ -99,10 +120,6 @@ template <typename A> concept Array= requires(A const &a) {
 
     {a.execute(myarray<typename A::value_type>{})};
   };
-
-#define AUTO(X) X auto
-#define CONCEPT(X) X
-#define REQUIRES requires
 
   template <typename T>
   AUTO(Array)
@@ -139,6 +156,9 @@ template <typename A> concept Array= requires(A const &a) {
   template <Array A>
   void fgh3b(A const &a) requires(A::rank == 2) {}
 
+  template <CONCEPT(std::integral)... Int>
+  void fPACK(Int... is){};
+
   template <Array A>
   requires(std::decay_t<A>::rank == 2) void fgh4(A &&a) {}
 
@@ -164,8 +184,8 @@ template <typename A> concept Array= requires(A const &a) {
     long shape() const { return {}; }
   };
 
-} // namespace concept_sandbox
-using namespace concept_sandbox;
+} // namespace sandbox
+using namespace sandbox;
 
 int main() {
 
