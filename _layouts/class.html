@@ -56,8 +56,12 @@ layout: default
 {% endif %}
 {% for name in page.methods %}
     <tr>
+{% if name == "(constructors)" %}     
+     <td class="method-name" align="right"> <a href="{{page.short_name}}-constructors.html"> {{name}} </a>  </td>
+{% else %}
      <td class="method-name" align="right"> <a href="{{name}}.html"> {{name}} </a>  </td>
-     <td > <b>-</b> </td>
+{% endif %}
+     <!--<td > <b>-</b> </td>-->
      <td class="method-brief">
       <!--FIXME : remove p ?-->
       {% assign qname =  page.qualified_name |append: '::' |append: name %}

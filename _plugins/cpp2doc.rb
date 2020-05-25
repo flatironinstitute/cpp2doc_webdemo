@@ -206,7 +206,7 @@ module Jekyll
       formatter = Rouge::Formatters::HTML.new
       lexer = Rouge::Lexers::Cpp.new
       r = formatter.format(lexer.lex(source))
-      r = '<figure class="highlight"><pre><code class="language-c--" data-lang="c++"> ' + r + '</code></pre></figure>'
+      r = '<figure class="highlight"><pre><code class="language-c--" data-lang="c++">' + r.strip + '</code></pre></figure>'
 
       (0..highlighted_types.length()-1).each do |n|
         type1 = highlighted_types[n]

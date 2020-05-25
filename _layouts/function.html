@@ -17,9 +17,9 @@ layout: default
 <table class='signature-table' >
 {% for entity in page.overloads %}
     <tr>
-     <td> <span class='signature'> {{- entity[0] | link_and_highlight: site.data.highlighted_types, page.namespaces -}} </span> </td>
-     <td> ({{forloop.index}}) </td>
-     <td> [Source] </td>
+     <td> {{forloop.index}} </td>
+     <td><span class='signature'>{{- entity[0] | link_and_highlight: site.data.highlighted_types, page.namespaces -}}</span></td>
+     <!--<td> [Source] </td>-->
     </tr>
 {% endfor %}
 </table>
@@ -73,8 +73,10 @@ layout: default
 
  <!-- Return -->
 
+{% if page.return_value %}
 <h5> Return value</h5>
 {{page.return_value}}
+{% endif %}
 
  <!-- Example -->
 
