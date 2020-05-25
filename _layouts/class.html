@@ -10,7 +10,7 @@ layout: default
 
 <!-- Signature  -->
 
-<span class='signature'> {% highlight c++ %}  {{page.signature}} {% endhighlight %}       </span>
+<span class='signature'> {% highlight c++ %}{{page.signature}}{% endhighlight %}</span>
 
  <!-- Description of the class -->
 
@@ -23,11 +23,12 @@ layout: default
 
 <table class='tparam-table' >
  {% for param in page.tparams%}
+  {% if param[1] != "__SKIP__" %}
     <tr>
      <td class="param-name" valign="top" align="right"> {{param[0]}} </td>
-     <td valign="top"> <b>-</b> </td>
      <td class="param-value"> {{param[1] |markdownify | remove: '<p>' | remove: '</p>'	}} </td>
     </tr>
+   {% endif %}
  {% endfor %}
 </table>
 {% endif %}

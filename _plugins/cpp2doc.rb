@@ -215,7 +215,7 @@ module Jekyll
         end
         repl = "_X000" + (1+n).to_s + "X_"
         url = type1.gsub("::","/")
-        type = '<a href="/docs/cpp-api/' + url + '/index.html">' + type + "</a>"
+        type = '<a href="/cpp-api/' + url + '">' + type + "</a>"
         re_s = '(' + repl + ')(?!\w)'
         re = Regexp.new re_s
         r = r.gsub(re){ |w| type}
