@@ -1,6 +1,6 @@
 #include <vector>
 
-namespace nda {
+namespace nda1 {
 
   /**
    * A brief doc of array
@@ -51,9 +51,9 @@ storage_t const & storage() const;
 
 
  template<typename T, int R>
- nda::array_view<T, R> make_view(nda::array<T, R> const & x);
+ nda1::array_view<T, R> make_view(nda1::array<T, R> const & x);
 
  template<typename T, int R>
- nda::array_view<T, R> make_view(int k, nda::array<T, R> const & x);
+ nda1::array_view<T, R> make_view(int k, nda1::array<T, R> const & x);
 
 }
