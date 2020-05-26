@@ -6,10 +6,10 @@ namespaces: [nda, runtime_error]
 includer: nda/nda.hpp
 brief: ""
 overloads:
-  "template <typename T>\nclass nda::runtime_error & operator<<(const T & x)":
+  "template <typename T>\nruntime_error & operator<<(const T & x)":
     desc: ""
     source: nda/exceptions.hpp
-  class nda::runtime_error & operator<<(const char * mess):
+  runtime_error & operator<<(const char * mess):
     desc: ""
     source: nda/exceptions.hpp
 desc: ""

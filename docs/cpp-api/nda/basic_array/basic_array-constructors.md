@@ -52,8 +52,7 @@ tparams:
 return_value: __MISSING__
 example:
   desc: __MISSING__
-  code: |
-    auto a = nda::basic_array<long,2>{1,2};
+  code: auto a = nda::basic_array<long, 2>{1, 2};
 see-also: []
 title: nda::basic_array::basic_array<ValueType, Rank, Layout, Algebra, ContainerPolicy>
 permalink: /cpp-api/nda/basic_array/basic_array-constructors

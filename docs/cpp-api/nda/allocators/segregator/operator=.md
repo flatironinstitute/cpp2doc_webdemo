@@ -6,10 +6,10 @@ namespaces: [nda, allocators, segregator]
 includer: nda/nda.hpp
 brief: ""
 overloads:
-  segregator<Threshold, A, B> & operator=(const segregator<Threshold, A, B> & ):
+  segregator & operator=(const segregator<Threshold, A, B> & ):
     desc: ""
     source: nda/storage/allocators.hpp
-  segregator<Threshold, A, B> & operator=(segregator<Threshold, A, B> && ):
+  segregator & operator=(segregator<Threshold, A, B> && ):
     desc: ""
     source: nda/storage/allocators.hpp
 desc: ""

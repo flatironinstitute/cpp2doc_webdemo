@@ -6,10 +6,10 @@ namespaces: [nda, mem, handle_heap]
 includer: nda/nda.hpp
 brief: ""
 overloads:
-  handle_heap<T, Allocator> & operator=(const handle_heap<T, Allocator> & x):
+  handle_heap & operator=(const handle_heap<T, Allocator> & x):
     desc: ""
     source: nda/storage/handle.hpp
-  handle_heap<T, Allocator> & operator=(handle_heap<T, Allocator> && x) noexcept:
+  handle_heap & operator=(handle_heap<T, Allocator> && x) noexcept:
     desc: ""
     source: nda/storage/handle.hpp
 desc: ""

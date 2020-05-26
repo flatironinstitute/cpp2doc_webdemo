@@ -6,10 +6,10 @@ namespaces: [nda, allocators, blk_t]
 includer: nda/nda.hpp
 brief: ""
 overloads:
-  struct nda::allocators::blk_t & operator=(const struct nda::allocators::blk_t & ):
+  blk_t & operator=(const struct nda::allocators::blk_t & ):
     desc: ""
     source: nda/storage/blk.hpp
-  struct nda::allocators::blk_t & operator=(struct nda::allocators::blk_t && ):
+  blk_t & operator=(struct nda::allocators::blk_t && ):
     desc: ""
     source: nda/storage/blk.hpp
 desc: ""

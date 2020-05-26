@@ -6,7 +6,7 @@ namespaces: [nda, runtime_error]
 includer: nda/nda.hpp
 brief: ""
 overloads:
-  class nda::runtime_error & operator=(const class nda::runtime_error & ):
+  runtime_error & operator=(const class nda::runtime_error & ):
     desc: ""
     source: nda/exceptions.hpp
 desc: ""

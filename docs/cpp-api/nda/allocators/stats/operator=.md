@@ -6,10 +6,10 @@ namespaces: [nda, allocators, stats]
 includer: nda/nda.hpp
 brief: ""
 overloads:
-  stats<A> & operator=(const stats<A> & ):
+  stats & operator=(const stats<A> & ):
     desc: ""
     source: nda/storage/allocators.hpp
-  stats<A> & operator=(stats<A> && ):
+  stats & operator=(stats<A> && ):
     desc: ""
     source: nda/storage/allocators.hpp
 desc: ""

@@ -6,10 +6,10 @@ namespaces: [nda, mem, handle_borrowed]
 includer: nda/nda.hpp
 brief: ""
 overloads:
-  handle_borrowed<T> & operator=(const handle_borrowed<T> & ):
+  handle_borrowed & operator=(const handle_borrowed<T> & ):
     desc: ""
     source: nda/storage/handle.hpp
-  handle_borrowed<T> & operator=(handle_borrowed<T> && ):
+  handle_borrowed & operator=(handle_borrowed<T> && ):
     desc: ""
     source: nda/storage/handle.hpp
 desc: ""

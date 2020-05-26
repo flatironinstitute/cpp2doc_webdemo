@@ -6,10 +6,10 @@ namespaces: [nda, mem, handle_shared]
 includer: nda/nda.hpp
 brief: ""
 overloads:
-  handle_shared<T> & operator=(const handle_shared<T> & x) noexcept:
+  handle_shared & operator=(const handle_shared<T> & x) noexcept:
     desc: ""
     source: nda/storage/handle.hpp
-  handle_shared<T> & operator=(handle_shared<T> && x) noexcept:
+  handle_shared & operator=(handle_shared<T> && x) noexcept:
     desc: ""
     source: nda/storage/handle.hpp
 desc: ""

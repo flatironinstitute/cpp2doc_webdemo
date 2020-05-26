@@ -6,10 +6,10 @@ namespaces: [nda, allocators, multiple_bucket]
 includer: nda/nda.hpp
 brief: ""
 overloads:
-  multiple_bucket<ChunkSize> & operator=(const multiple_bucket<ChunkSize> & ):
+  multiple_bucket & operator=(const multiple_bucket<ChunkSize> & ):
     desc: ""
     source: nda/storage/allocators.hpp
-  multiple_bucket<ChunkSize> & operator=(multiple_bucket<ChunkSize> && ):
+  multiple_bucket & operator=(multiple_bucket<ChunkSize> && ):
     desc: ""
     source: nda/storage/allocators.hpp
 desc: ""

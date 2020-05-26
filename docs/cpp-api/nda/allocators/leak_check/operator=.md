@@ -6,10 +6,10 @@ namespaces: [nda, allocators, leak_check]
 includer: nda/nda.hpp
 brief: ""
 overloads:
-  leak_check<A> & operator=(const leak_check<A> & ):
+  leak_check & operator=(const leak_check<A> & ):
     desc: ""
     source: nda/storage/allocators.hpp
-  leak_check<A> & operator=(leak_check<A> && ):
+  leak_check & operator=(leak_check<A> && ):
     desc: ""
     source: nda/storage/allocators.hpp
 desc: ""

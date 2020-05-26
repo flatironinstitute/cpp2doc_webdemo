@@ -6,10 +6,10 @@ namespaces: [nda, idx_map]
 includer: nda/nda.hpp
 brief: ""
 overloads:
-  idx_map<Rank, StaticExtents, StrideOrder, LayoutProp> & operator=(const idx_map<Rank, StaticExtents, StrideOrder, LayoutProp> & ):
+  idx_map & operator=(const idx_map<Rank, StaticExtents, StrideOrder, LayoutProp> & ):
     desc: ""
     source: nda/layout/idx_map.hpp
-  idx_map<Rank, StaticExtents, StrideOrder, LayoutProp> & operator=(idx_map<Rank, StaticExtents, StrideOrder, LayoutProp> && ):
+  idx_map & operator=(idx_map<Rank, StaticExtents, StrideOrder, LayoutProp> && ):
     desc: ""
     source: nda/layout/idx_map.hpp
 desc: ""

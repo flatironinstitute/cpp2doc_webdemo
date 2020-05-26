@@ -6,10 +6,10 @@ namespaces: [nda, mem, handle_stack]
 includer: nda/nda.hpp
 brief: ""
 overloads:
-  handle_stack<T, Size> & operator=(handle_stack<T, Size> && x) noexcept:
+  handle_stack & operator=(handle_stack<T, Size> && x) noexcept:
     desc: ""
     source: nda/storage/handle.hpp
-  handle_stack<T, Size> & operator=(const handle_stack<T, Size> & x):
+  handle_stack & operator=(const handle_stack<T, Size> & x):
     desc: ""
     source: nda/storage/handle.hpp
 desc: ""

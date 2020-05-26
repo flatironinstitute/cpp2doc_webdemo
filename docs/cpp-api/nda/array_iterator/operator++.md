@@ -6,10 +6,10 @@ namespaces: [nda, array_iterator]
 includer: nda/nda.hpp
 brief: ""
 overloads:
-  array_iterator<Rank, T, Pointer> & operator++():
+  array_iterator & operator++():
     desc: ""
     source: nda/iterators.hpp
-  array_iterator<Rank, T, Pointer> operator++(int ):
+  array_iterator operator++(int ):
     desc: ""
     source: nda/iterators.hpp
 desc: ""

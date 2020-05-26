@@ -6,10 +6,10 @@ namespaces: [nda, range, const_iterator]
 includer: nda/nda.hpp
 brief: ""
 overloads:
-  class nda::range::const_iterator & operator++() noexcept:
+  const_iterator & operator++() noexcept:
     desc: ""
     source: nda/layout/range.hpp
-  class nda::range::const_iterator operator++(int ) noexcept:
+  const_iterator operator++(int ) noexcept:
     desc: ""
     source: nda/layout/range.hpp
 desc: ""

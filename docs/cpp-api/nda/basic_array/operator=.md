@@ -6,19 +6,19 @@ namespaces: [nda, basic_array]
 includer: nda/nda.hpp
 brief: ""
 overloads:
-  basic_array<ValueType, Rank, Layout, Algebra, ContainerPolicy> & operator=(basic_array<ValueType, Rank, Layout, Algebra, ContainerPolicy> && x):
+  basic_array & operator=(basic_array<ValueType, Rank, Layout, Algebra, ContainerPolicy> && x):
     desc: ""
     source: nda/basic_array.hpp
-  basic_array<ValueType, Rank, Layout, Algebra, ContainerPolicy> & operator=(const basic_array<ValueType, Rank, Layout, Algebra, ContainerPolicy> & X):
+  basic_array & operator=(const basic_array<ValueType, Rank, Layout, Algebra, ContainerPolicy> & X):
     desc: Deep copy (array is a regular type). Invalidates all references to the storage.
     source: nda/basic_array.hpp
-  "template <ArrayOfRank<Rank> RHS>\nbasic_array<ValueType, Rank, Layout, Algebra, ContainerPolicy> & operator=(const RHS & rhs) noexcept":
+  "template <ArrayOfRank<Rank> RHS>\nbasic_array & operator=(const RHS & rhs) noexcept":
     desc: ""
     source: nda/basic_array.hpp
-  "template <typename RHS>\nrequires (is_scalar_for_v<RHS, basic_array>)\nbasic_array<ValueType, Rank, Layout, Algebra, ContainerPolicy> & operator=(const RHS & rhs) noexcept":
+  "template <typename RHS>\nrequires (is_scalar_for_v<RHS, basic_array>)\nbasic_array & operator=(const RHS & rhs) noexcept":
     desc: ""
     source: nda/basic_array.hpp
-  "template <nda::ArrayInitializer Initializer>\nbasic_array<ValueType, Rank, Layout, Algebra, ContainerPolicy> & operator=(const Initializer & initializer) noexcept":
+  "template <nda::ArrayInitializer Initializer>\nbasic_array & operator=(const Initializer & initializer) noexcept":
     desc: ""
     source: nda/basic_array.hpp
 desc: ""

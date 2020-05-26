@@ -6,16 +6,10 @@ namespaces: [nda, grid_iterator]
 includer: nda/nda.hpp
 brief: ""
 overloads:
-  class nda::grid_iterator<1> & operator++():
+  grid_iterator & operator++():
     desc: ""
     source: nda/iterators.hpp
-  class nda::grid_iterator<1> operator++(int ):
-    desc: ""
-    source: nda/iterators.hpp
-  grid_iterator<Rank> & operator++():
-    desc: ""
-    source: nda/iterators.hpp
-  grid_iterator<Rank> operator++(int ):
+  grid_iterator operator++(int ):
     desc: ""
     source: nda/iterators.hpp
 desc: ""
