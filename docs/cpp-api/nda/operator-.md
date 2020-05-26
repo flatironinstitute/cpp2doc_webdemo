@@ -6,10 +6,10 @@ namespaces: [nda]
 includer: nda/nda.hpp
 brief: ""
 overloads:
-  "template <typename L, typename R> \nrequires (model_ndarray_with_possibly_one_scalar<L, R>) \n\nauto operator-(L && l, R && r)":
+  "template <typename L, typename R>\nrequires (model_ndarray_with_possibly_one_scalar<L, R>)\nauto operator-(L && l, R && r)":
     desc: ""
     source: nda/arithmetic.hpp
-  "template <typename L> \nrequires (is_ndarray_v<std::decay_t<L>>) \n\nexpr_unary<'-', L> operator-(L && l)":
+  "template <typename L>\nrequires (is_ndarray_v<std::decay_t<L>>)\nexpr_unary<'-', L> operator-(L && l)":
     desc: ""
     source: nda/arithmetic.hpp
 desc: ""

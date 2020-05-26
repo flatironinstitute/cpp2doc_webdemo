@@ -6,7 +6,7 @@ namespaces: [nda, blas]
 includer: nda/nda.hpp
 brief: ""
 overloads:
-  "template <typename A, typename B, typename Out> \n\nvoid gemv_generic(typename A::value_type alpha, const A & a, const B & b, typename A::value_type beta, Out & c)":
+  "template <typename A, typename B, typename Out>\nvoid gemv_generic(typename A::value_type alpha, const A & a, const B & b, typename A::value_type beta, Out & c)":
     desc: ""
     source: nda/blas/gemv.hpp
 desc: ""

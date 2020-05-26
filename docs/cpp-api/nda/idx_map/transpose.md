@@ -6,7 +6,7 @@ namespaces: [nda, idx_map]
 includer: nda/nda.hpp
 brief: ""
 overloads:
-  "template <uint64_t Permutation> \n\nauto transpose()  const":
+  "template <uint64_t Permutation>\nauto transpose()  const":
     desc: ""
     source: nda/layout/idx_map.hpp
 desc: ""

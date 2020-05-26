@@ -6,7 +6,7 @@ namespaces: [nda]
 includer: nda/nda.hpp
 brief: Maps imag onto the array
 overloads:
-  "template <typename A> \nrequires (is_ndarray_v<std::decay_t<A>>) \n\nauto imag(A && a)":
+  "template <typename A>\nrequires (is_ndarray_v<std::decay_t<A>>)\nauto imag(A && a)":
     desc: Maps imag onto the array
     source: nda/mapped_functions.hxx
 desc: ""

@@ -15,24 +15,24 @@ overloads:
   basic_array_view(const basic_array_view<ValueType, Rank, Layout, Algebra, AccessorPolicy, OwningPolicy> & ):
     desc: Shallow copy. It copies the *view*, not the data.
     source: nda/basic_array_view.hpp
+  "template <typename T, typename L, char A, typename CP>\nbasic_array_view(const basic_array<T, Rank, L, A, CP> & a) noexcept":
+    desc: ""
+    source: nda/basic_array_view.hpp
+  "template <typename T, typename L, char A, typename AP, typename OP>\nbasic_array_view(const basic_array_view<T, Rank, L, A, AP, OP> & a) noexcept":
+    desc: ""
+    source: nda/basic_array_view.hpp
   basic_array_view(const std::array<long, Rank> & shape, ValueType * p) noexcept:
     desc: ""
     source: nda/basic_array_view.hpp
   basic_array_view(const nda::basic_array_view::layout_t & idxm, ValueType * p) noexcept:
     desc: ""
     source: nda/basic_array_view.hpp
-  "template <typename T, typename L, char A, typename CP> \n\nbasic_array_view(const basic_array<T, Rank, L, A, CP> & a) noexcept":
-    desc: ""
-    source: nda/basic_array_view.hpp
-  "template <typename T, typename L, char A, typename AP, typename OP> \n\nbasic_array_view(const basic_array_view<T, Rank, L, A, AP, OP> & a) noexcept":
-    desc: ""
-    source: nda/basic_array_view.hpp
 desc: ""
 params:
+  a: __MISSING__
   shape: Shape of the view (contiguous)
   p: Pointer to the data
   idxm: Index Map (view can be non contiguous). If the offset is non zero, the view starts at p + idxm.offset()
-  a: __MISSING__
 tparams:
   T: __MISSING__
   L: __MISSING__

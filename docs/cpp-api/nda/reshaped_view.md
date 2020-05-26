@@ -6,22 +6,22 @@ namespaces: [nda]
 includer: nda/nda.hpp
 brief: ""
 overloads:
-  "template <typename T, int R, typename L, char Algebra, typename AccessorPolicy, typename OwningPolicy, size_t R2> \n\nauto reshaped_view(basic_array_view<T, R, L, Algebra, AccessorPolicy, OwningPolicy> a, const std::array<long, R2> & new_shape)":
+  "template <typename T, int R, typename L, char Algebra, typename AccessorPolicy, typename OwningPolicy, size_t R2>\nauto reshaped_view(basic_array_view<T, R, L, Algebra, AccessorPolicy, OwningPolicy> a, const std::array<long, R2> & new_shape)":
     desc: ""
     source: nda/layout_transforms.hpp
-  "template <typename T, int R, typename L, char Algebra, typename AccessorPolicy, typename OwningPolicy, size_t R2> \n\nauto reshaped_view(basic_array_view<T, R, L, Algebra, AccessorPolicy, OwningPolicy> a, const std::array<int, R2> & new_shape)":
+  "template <typename T, int R, typename L, char Algebra, typename AccessorPolicy, typename OwningPolicy, size_t R2>\nauto reshaped_view(basic_array_view<T, R, L, Algebra, AccessorPolicy, OwningPolicy> a, const std::array<int, R2> & new_shape)":
     desc: ""
     source: nda/layout_transforms.hpp
-  "template <typename T, int R, typename L, char Algebra, typename ContainerPolicy, size_t R2> \n\nauto reshaped_view(const basic_array<T, R, L, Algebra, ContainerPolicy> & a, const std::array<long, R2> & new_shape)":
+  "template <typename T, int R, typename L, char Algebra, typename ContainerPolicy, size_t R2>\nauto reshaped_view(const basic_array<T, R, L, Algebra, ContainerPolicy> & a, const std::array<long, R2> & new_shape)":
     desc: ""
     source: nda/layout_transforms.hpp
-  "template <typename T, int R, typename L, char Algebra, typename ContainerPolicy, size_t R2> \n\nauto reshaped_view(basic_array<T, R, L, Algebra, ContainerPolicy> & a, const std::array<long, R2> & new_shape)":
+  "template <typename T, int R, typename L, char Algebra, typename ContainerPolicy, size_t R2>\nauto reshaped_view(basic_array<T, R, L, Algebra, ContainerPolicy> & a, const std::array<long, R2> & new_shape)":
     desc: ""
     source: nda/layout_transforms.hpp
-  "template <typename T, int R, typename L, char Algebra, typename ContainerPolicy, size_t R2> \n\nauto reshaped_view(const basic_array<T, R, L, Algebra, ContainerPolicy> & a, const std::array<int, R2> & new_shape)":
+  "template <typename T, int R, typename L, char Algebra, typename ContainerPolicy, size_t R2>\nauto reshaped_view(const basic_array<T, R, L, Algebra, ContainerPolicy> & a, const std::array<int, R2> & new_shape)":
     desc: ""
     source: nda/layout_transforms.hpp
-  "template <typename T, int R, typename L, char Algebra, typename ContainerPolicy, size_t R2> \n\nauto reshaped_view(basic_array<T, R, L, Algebra, ContainerPolicy> & a, const std::array<int, R2> & new_shape)":
+  "template <typename T, int R, typename L, char Algebra, typename ContainerPolicy, size_t R2>\nauto reshaped_view(basic_array<T, R, L, Algebra, ContainerPolicy> & a, const std::array<int, R2> & new_shape)":
     desc: ""
     source: nda/layout_transforms.hpp
 desc: ""

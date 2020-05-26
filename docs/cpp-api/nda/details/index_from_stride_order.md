@@ -6,7 +6,7 @@ namespaces: [nda, details]
 includer: nda/nda.hpp
 brief: ""
 overloads:
-  "template <int R> \n\nint index_from_stride_order(uint64_t StrideOrder, int i)":
+  "template <int R>\nint index_from_stride_order(uint64_t StrideOrder, int i)":
     desc: ""
     source: nda/layout/for_each.hpp
 desc: ""

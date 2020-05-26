@@ -6,7 +6,7 @@ namespaces: [nda]
 includer: nda/nda.hpp
 brief: A loop in C order
 overloads:
-  "template <typename F, auto R> \n\nvoid for_each(const std::array<long, R> & idx_lengths, F && f)":
+  "template <typename F, auto R>\nvoid for_each(const std::array<long, R> & idx_lengths, F && f)":
     desc: A loop in C order
     source: ""
 desc: ""

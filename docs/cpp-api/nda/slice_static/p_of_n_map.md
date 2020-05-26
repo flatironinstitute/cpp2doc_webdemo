@@ -6,7 +6,7 @@ namespaces: [nda, slice_static]
 includer: nda/nda.hpp
 brief: ""
 overloads:
-  "template <size_t N, size_t P> \n\nstd::array<int, N> p_of_n_map(const std::array<int, P> & n_of_p)":
+  "template <size_t N, size_t P>\nstd::array<int, N> p_of_n_map(const std::array<int, P> & n_of_p)":
     desc: ""
     source: nda/layout/slice_static.hpp
 desc: ""

@@ -6,7 +6,7 @@ namespaces: [nda, slice_static]
 includer: nda/nda.hpp
 brief: ""
 overloads:
-  "template <size_t Q, size_t N> \n\nenum nda::layout_prop_e slice_layout_prop(int P, bool has_only_rangeall_and_long, const std::array<_Bool, Q> & args_is_range_all, const std::array<int, N> & stride_order, enum nda::layout_prop_e layout_prop, int e_pos, int e_len)":
+  "template <size_t Q, size_t N>\nenum nda::layout_prop_e slice_layout_prop(int P, bool has_only_rangeall_and_long, const std::array<_Bool, Q> & args_is_range_all, const std::array<int, N> & stride_order, enum nda::layout_prop_e layout_prop, int e_pos, int e_len)":
     desc: ""
     source: nda/layout/slice_static.hpp
 desc: ""

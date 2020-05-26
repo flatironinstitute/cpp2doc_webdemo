@@ -6,7 +6,7 @@ namespaces: [nda, blas]
 includer: nda/nda.hpp
 brief: Calls gemv on a matrix, matrix_view, array, array_view of rank 2
 overloads:
-  "template <typename A, typename B, typename C> \n\nvoid gemv(typename A::value_type alpha, const A & a, const B & b, typename A::value_type beta, C && c)":
+  "template <typename A, typename B, typename C>\nvoid gemv(typename A::value_type alpha, const A & a, const B & b, typename A::value_type beta, C && c)":
     desc: Calls gemv on a matrix, matrix_view, array, array_view of rank 2
     source: nda/blas/gemv.hpp
 desc: |

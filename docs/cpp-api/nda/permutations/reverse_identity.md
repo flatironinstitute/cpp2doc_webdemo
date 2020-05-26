@@ -6,7 +6,7 @@ namespaces: [nda, permutations]
 includer: nda/nda.hpp
 brief: ""
 overloads:
-  "template <int Rank> \n\nstd::array<int, Rank> reverse_identity()":
+  "template <int Rank>\nstd::array<int, Rank> reverse_identity()":
     desc: ""
     source: nda/layout/permutation.hpp
 desc: ""

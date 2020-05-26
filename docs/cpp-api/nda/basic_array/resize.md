@@ -6,16 +6,16 @@ namespaces: [nda, basic_array]
 includer: nda/nda.hpp
 brief: ""
 overloads:
-  void resize(const std::array<long, Rank> & shape):
+  "template <std::integral Int>\nvoid resize(const Int &... extent)":
     desc: ""
     source: nda/basic_array.hpp
-  "template <std::integral Int> \n\nvoid resize(const Int &... extent)":
+  void resize(const std::array<long, Rank> & shape):
     desc: ""
     source: nda/basic_array.hpp
 desc: Resizes the array. Invalidates all references to the storage. Content is undefined, makes no copy of previous data.
 params:
-  shape: New shape of the array (lengths in each dimension)
   extent: __MISSING__
+  shape: New shape of the array (lengths in each dimension)
 tparams:
   Int: __MISSING__
 return_value: __MISSING__

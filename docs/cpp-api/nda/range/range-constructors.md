@@ -12,7 +12,7 @@ overloads:
   range(long first__, long last__, long step__ = </Users/oparcollet/src/nda/c++/nda/layout/./range.hpp:59:52>) noexcept:
     desc: ""
     source: nda/layout/range.hpp
-  explicit range(long i) noexcept:
+  range(long i) noexcept:
     desc: Constructor
     source: nda/layout/range.hpp
   range(const class nda::range & ):

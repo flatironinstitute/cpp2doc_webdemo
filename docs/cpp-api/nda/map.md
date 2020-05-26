@@ -6,7 +6,7 @@ namespaces: [nda]
 includer: nda/nda.hpp
 brief: ""
 overloads:
-  "template <class F> \n\nmapped<F> map(F f)":
+  "template <class F>\nmapped<F> map(F f)":
     desc: ""
     source: nda/map.hpp
 desc: |

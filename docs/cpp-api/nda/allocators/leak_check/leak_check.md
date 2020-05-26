@@ -24,7 +24,7 @@ example:
   code: __MISSING__
 see-also: []
 signature: |
-  template <typename A> 
+  template <typename A>
   class leak_check
 source: nda/storage/allocators.hpp
 title: nda::allocators::leak_check

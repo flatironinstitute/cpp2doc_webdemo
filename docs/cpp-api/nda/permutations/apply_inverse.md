@@ -6,7 +6,7 @@ namespaces: [nda, permutations]
 includer: nda/nda.hpp
 brief: ""
 overloads:
-  "template <typename T, auto R> \n\nstd::array<T, R> apply_inverse(const std::array<int, R> & permutation, const std::array<T, R> & a)":
+  "template <typename T, auto R>\nstd::array<T, R> apply_inverse(const std::array<int, R> & permutation, const std::array<T, R> & a)":
     desc: ""
     source: nda/layout/permutation.hpp
 desc: ""

@@ -28,7 +28,7 @@ example:
   code: __MISSING__
 see-also: []
 signature: |
-  template <typename T> 
+  template <typename T>
   struct handle_borrowed
 source: nda/storage/handle.hpp
 title: nda::mem::handle_borrowed

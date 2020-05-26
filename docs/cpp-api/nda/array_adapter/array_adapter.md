@@ -16,7 +16,7 @@ example:
   code: __MISSING__
 see-also: []
 signature: |
-  template <int R, typename F> 
+  template <int R, typename F>
   class array_adapter
 source: nda/array_adapter.hpp
 title: nda::array_adapter

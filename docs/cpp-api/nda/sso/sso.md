@@ -15,7 +15,7 @@ example:
   code: __MISSING__
 see-also: []
 signature: |
-  template <size_t SSO_Size> 
+  template <size_t SSO_Size>
   struct sso
 source: nda/storage/policies.hpp
 title: nda::sso

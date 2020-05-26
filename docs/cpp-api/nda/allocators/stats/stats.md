@@ -23,7 +23,7 @@ example:
   code: __MISSING__
 see-also: []
 signature: |
-  template <typename A> 
+  template <typename A>
   class stats
 source: nda/storage/allocators.hpp
 title: nda::allocators::stats

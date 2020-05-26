@@ -17,7 +17,7 @@ example:
   code: __MISSING__
 see-also: []
 signature: |
-  template <uint64_t StaticExtents, uint64_t StrideOrder, enum nda::layout_prop_e LayoutProp> 
+  template <uint64_t StaticExtents, uint64_t StrideOrder, enum nda::layout_prop_e LayoutProp>
   struct basic_layout
 source: nda/layout/policies.hpp
 title: nda::basic_layout

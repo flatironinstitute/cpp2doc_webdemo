@@ -24,7 +24,7 @@ example:
   code: __MISSING__
 see-also: []
 signature: |
-  template <int ChunkSize> 
+  template <int ChunkSize>
   class bucket
 source: nda/storage/allocators.hpp
 title: nda::allocators::bucket

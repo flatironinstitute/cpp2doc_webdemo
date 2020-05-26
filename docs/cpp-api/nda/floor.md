@@ -6,7 +6,7 @@ namespaces: [nda]
 includer: nda/nda.hpp
 brief: Maps floor onto the array
 overloads:
-  "template <typename A> \nrequires (is_ndarray_v<std::decay_t<A>>) \n\nauto floor(A && a)":
+  "template <typename A>\nrequires (is_ndarray_v<std::decay_t<A>>)\nauto floor(A && a)":
     desc: Maps floor onto the array
     source: nda/mapped_functions.hxx
 desc: ""

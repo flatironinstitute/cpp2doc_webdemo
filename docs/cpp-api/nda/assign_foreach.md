@@ -6,7 +6,7 @@ namespaces: [nda]
 includer: nda/nda.hpp
 brief: --------------- ASSIGN FOREACH ------------------------
 overloads:
-  "template <typename T, typename F> \n\nvoid assign_foreach(T & x, F && f)":
+  "template <typename T, typename F>\nvoid assign_foreach(T & x, F && f)":
     desc: --------------- ASSIGN FOREACH ------------------------
     source: nda/basic_functions.hpp
 desc: ""

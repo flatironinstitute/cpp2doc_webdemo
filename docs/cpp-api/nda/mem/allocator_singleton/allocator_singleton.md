@@ -15,7 +15,7 @@ example:
   code: __MISSING__
 see-also: []
 signature: |
-  template <typename Allocator> 
+  template <typename Allocator>
   struct allocator_singleton
 source: nda/storage/handle.hpp
 title: nda::mem::allocator_singleton

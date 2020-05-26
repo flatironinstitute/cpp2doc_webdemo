@@ -6,7 +6,7 @@ namespaces: [nda, slice_static]
 includer: nda/nda.hpp
 brief: ""
 overloads:
-  "template <typename Args> \n\nint ellipsis_position()":
+  "template <typename Args>\nint ellipsis_position()":
     desc: ""
     source: nda/layout/slice_static.hpp
 desc: ""

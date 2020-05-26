@@ -38,12 +38,6 @@ methods:
   - operator/=
 non_member_functions: []
 member_types:
-  self_t:
-    type: basic_array_view<ValueType, Rank, Layout, Algebra, AccessorPolicy, OwningPolicy>
-    desc: __MISSING__
-  storage_t:
-    type: typename OwningPolicy::handle<ValueType>
-    desc: __MISSING__
   value_type:
     type: ValueType
     desc: __MISSING__
@@ -61,7 +55,7 @@ example:
   code: __MISSING__
 see-also: []
 signature: |
-  template <typename ValueType, int Rank, typename Layout, char Algebra, typename AccessorPolicy, typename OwningPolicy> 
+  template <typename ValueType, int Rank, typename Layout, char Algebra, typename AccessorPolicy, typename OwningPolicy>
   class basic_array_view
 source: nda/basic_array_view.hpp
 title: nda::basic_array_view

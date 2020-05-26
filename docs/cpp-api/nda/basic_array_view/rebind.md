@@ -6,7 +6,7 @@ namespaces: [nda, basic_array_view]
 includer: nda/nda.hpp
 brief: ""
 overloads:
-  "template <typename T, int R, typename L, char A, typename AP, typename OP> \n\nvoid rebind(basic_array_view<T, R, L, A, AP, OP> v) noexcept":
+  "template <typename T, int R, typename L, char A, typename AP, typename OP>\nvoid rebind(basic_array_view<T, R, L, A, AP, OP> v) noexcept":
     desc: ""
     source: nda/basic_array_view.hpp
 desc: ""

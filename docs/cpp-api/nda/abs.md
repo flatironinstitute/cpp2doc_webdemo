@@ -6,7 +6,7 @@ namespaces: [nda]
 includer: nda/nda.hpp
 brief: Maps abs onto the array
 overloads:
-  "template <typename A> \nrequires (is_ndarray_v<std::decay_t<A>>) \n\nauto abs(A && a)":
+  "template <typename A>\nrequires (is_ndarray_v<std::decay_t<A>>)\nauto abs(A && a)":
     desc: Maps abs onto the array
     source: nda/mapped_functions.hxx
 desc: ""

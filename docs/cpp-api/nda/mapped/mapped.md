@@ -19,7 +19,7 @@ example:
   code: __MISSING__
 see-also: []
 signature: |
-  template <class F> 
+  template <class F>
   struct mapped
 source: nda/map.hpp
 title: nda::mapped

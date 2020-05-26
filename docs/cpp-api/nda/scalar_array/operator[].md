@@ -6,7 +6,7 @@ namespaces: [nda, scalar_array]
 includer: nda/nda.hpp
 brief: ""
 overloads:
-  "template <typename T> \n\nS operator[](T && )  const":
+  "template <typename T>\nS operator[](T && )  const":
     desc: ""
     source: nda/arithmetic.hpp
 desc: ""

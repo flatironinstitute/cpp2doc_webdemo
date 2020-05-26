@@ -6,7 +6,7 @@ namespaces: [nda]
 includer: nda/nda.hpp
 brief: ""
 overloads:
-  "template <typename L, typename R> \n\nauto matmul(L && l, R && r)":
+  "template <typename L, typename R>\nauto matmul(L && l, R && r)":
     desc: ""
     source: nda/linalg/matmul.hpp
 desc: ""

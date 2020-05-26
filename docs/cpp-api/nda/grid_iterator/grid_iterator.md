@@ -15,7 +15,7 @@ example:
   code: __MISSING__
 see-also: []
 signature: |
-  template <int Rank> 
+  template <int Rank>
   class grid_iterator
 source: nda/iterators.hpp
 title: nda::grid_iterator

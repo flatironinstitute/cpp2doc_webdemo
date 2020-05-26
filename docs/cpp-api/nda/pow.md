@@ -6,10 +6,10 @@ namespaces: [nda]
 includer: nda/nda.hpp
 brief: pow for integer
 overloads:
-  "template <typename T> \nrequires (std::is_integral_v<T>) \n\nT pow(T x, int n)":
+  "template <typename T>\nrequires (std::is_integral_v<T>)\nT pow(T x, int n)":
     desc: pow for integer
     source: nda/mapped_functions.hpp
-  "template <typename A> \nrequires (is_ndarray_v<std::decay_t<A>>) \n\nauto pow(A && a, int n)":
+  "template <typename A>\nrequires (is_ndarray_v<std::decay_t<A>>)\nauto pow(A && a, int n)":
     desc: Map pow on Ndarray
     source: nda/mapped_functions.hpp
 desc: ""

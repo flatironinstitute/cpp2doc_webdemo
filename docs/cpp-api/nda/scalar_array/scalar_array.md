@@ -23,7 +23,7 @@ example:
   code: __MISSING__
 see-also: []
 signature: |
-  template <typename S, int Rank> 
+  template <typename S, int Rank>
   struct scalar_array
 source: nda/arithmetic.hpp
 title: nda::scalar_array

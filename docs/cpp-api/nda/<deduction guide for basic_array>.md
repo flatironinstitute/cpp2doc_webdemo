@@ -6,13 +6,13 @@ namespaces: [nda]
 includer: nda/nda.hpp
 brief: ""
 overloads:
-  "template <typename ValueType, int Rank, typename Layout, char Algebra, typename ContainerPolicy> \n\nauto <deduction guide for basic_array>()-> basic_array<ValueType, Rank, Layout, Algebra, ContainerPolicy>":
+  "template <typename ValueType, int Rank, typename Layout, char Algebra, typename ContainerPolicy>\nauto <deduction guide for basic_array>()-> basic_array<ValueType, Rank, Layout, Algebra, ContainerPolicy>":
     desc: ""
     source: nda/declarations.hpp
-  "template <typename ValueType, int Rank, typename Layout, char Algebra, typename ContainerPolicy> \n\nauto <deduction guide for basic_array>(basic_array<ValueType, Rank, Layout, Algebra, ContainerPolicy> )-> basic_array<ValueType, Rank, Layout, Algebra, ContainerPolicy>":
+  "template <typename ValueType, int Rank, typename Layout, char Algebra, typename ContainerPolicy>\nauto <deduction guide for basic_array>(basic_array<ValueType, Rank, Layout, Algebra, ContainerPolicy> )-> basic_array<ValueType, Rank, Layout, Algebra, ContainerPolicy>":
     desc: ""
     source: nda/declarations.hpp
-  "template <typename T> \n\nauto <deduction guide for basic_array>(T )-> basic_array<get_value_t<std::decay_t<T> >, get_rank<std::decay_t<T> >, struct nda::C_layout, 'A', struct nda::heap>":
+  "template <typename T>\nauto <deduction guide for basic_array>(T )-> basic_array<get_value_t<std::decay_t<T> >, get_rank<std::decay_t<T> >, struct nda::C_layout, 'A', struct nda::heap>":
     desc: Class template argument deduction
     source: nda/basic_array.hpp
 desc: ""

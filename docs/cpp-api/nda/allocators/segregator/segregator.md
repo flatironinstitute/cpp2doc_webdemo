@@ -23,7 +23,7 @@ example:
   code: __MISSING__
 see-also: []
 signature: |
-  template <size_t Threshold, typename A, typename B> 
+  template <size_t Threshold, typename A, typename B>
   class segregator
 source: nda/storage/allocators.hpp
 title: nda::allocators::segregator

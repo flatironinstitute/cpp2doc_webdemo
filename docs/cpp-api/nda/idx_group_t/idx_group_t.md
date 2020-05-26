@@ -15,7 +15,7 @@ example:
   code: __MISSING__
 see-also: []
 signature: |
-  template <int Is> 
+  template <int Is>
   struct idx_group_t
 source: nda/group_indices.hpp
 title: nda::idx_group_t

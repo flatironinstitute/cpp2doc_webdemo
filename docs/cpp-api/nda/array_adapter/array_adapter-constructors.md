@@ -6,7 +6,7 @@ namespaces: [nda, array_adapter]
 includer: nda/nda.hpp
 brief: ""
 overloads:
-  "template <typename Int> \n\narray_adapter(const std::array<Int, R> & shape, F f)":
+  "template <typename Int>\narray_adapter(const std::array<Int, R> & shape, F f)":
     desc: ""
     source: nda/array_adapter.hpp
 desc: ""

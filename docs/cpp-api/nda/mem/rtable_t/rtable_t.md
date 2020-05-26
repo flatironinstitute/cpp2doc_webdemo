@@ -14,10 +14,6 @@ methods:
   - incref
   - decref
 non_member_functions: []
-member_types:
-  int_t:
-    type: uint16_t
-    desc: __MISSING__
 member_fields:
   mtx:
     type: std::mutex

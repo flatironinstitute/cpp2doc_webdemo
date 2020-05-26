@@ -22,7 +22,7 @@ example:
   code: __MISSING__
 see-also: []
 signature: |
-  template <typename S> 
+  template <typename S>
   struct scalar_matrix
 source: nda/arithmetic.hpp
 title: nda::scalar_matrix

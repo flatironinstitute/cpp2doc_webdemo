@@ -37,23 +37,11 @@ methods:
   - operator/=
 non_member_functions: []
 member_types:
-  self_t:
-    type: basic_array<ValueType, Rank, Layout, Algebra, ContainerPolicy>
-    desc: __MISSING__
-  AccessorPolicy:
-    type: struct nda::default_accessor
-    desc: __MISSING__
-  OwningPolicy:
-    type: struct nda::borrowed
-    desc: __MISSING__
   value_type:
     type: ValueType
     desc: ""
   layout_t:
     type: typename Layout::mapping<Rank>
-    desc: __MISSING__
-  storage_t:
-    type: typename ContainerPolicy::handle<ValueType, layout_t::ce_size()>
     desc: __MISSING__
   const_iterator:
     type: array_iterator<iterator_rank, const ValueType, typename AccessorPolicy::template accessor<ValueType>::pointer>
@@ -66,7 +54,7 @@ example:
   code: __MISSING__
 see-also: []
 signature: |
-  template <typename ValueType, int Rank, typename Layout, char Algebra, typename ContainerPolicy> 
+  template <typename ValueType, int Rank, typename Layout, char Algebra, typename ContainerPolicy>
   class basic_array
 source: nda/basic_array.hpp
 title: nda::basic_array

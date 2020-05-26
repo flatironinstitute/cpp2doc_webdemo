@@ -6,7 +6,7 @@ namespaces: [nda]
 includer: nda/nda.hpp
 brief: ""
 overloads:
-  "template <typename A, typename F> \nrequires (is_ndarray_v<std::decay_t<A>>) \n\nvoid clef_auto_assign(A && a, F && f)":
+  "template <typename A, typename F>\nrequires (is_ndarray_v<std::decay_t<A>>)\nvoid clef_auto_assign(A && a, F && f)":
     desc: ""
     source: nda/basic_functions.hpp
 desc: ""

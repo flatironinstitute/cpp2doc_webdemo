@@ -128,3 +128,26 @@ functions:
   - sum
 ...
 
+This is a test
+
+
+* Algorithms
+
+<T table nda Algorithms 3 T>
+<BR>
+
+* A table of function mapping:
+
+<T table nda ArrayFunction 3 T>
+<BR>
+
+* A table of function mapping which do not apply to Matrices:
+
+<T table nda ArrayNoMatrixFunction 3 T>
+<BR>
+
+* Another table 
+
+
+
+

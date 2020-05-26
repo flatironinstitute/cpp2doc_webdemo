@@ -6,7 +6,7 @@ namespaces: [nda]
 includer: nda/nda.hpp
 brief: ""
 overloads:
-  "template <typename A> \nrequires (is_regular_or_view_v<std::decay_t<A>> and (std::decay_t<A>::rank == 2)) \n\nauto transpose(A && a)":
+  "template <typename A>\nrequires (is_regular_or_view_v<std::decay_t<A>> and (std::decay_t<A>::rank == 2))\nauto transpose(A && a)":
     desc: ""
     source: nda/layout_transforms.hpp
 desc: ""

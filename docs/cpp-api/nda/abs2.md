@@ -12,7 +12,7 @@ overloads:
   double abs2(std::complex<double> x):
     desc: ""
     source: nda/mapped_functions.hpp
-  "template <typename A> \nrequires (is_ndarray_v<std::decay_t<A>>) \n\nauto abs2(A && a)":
+  "template <typename A>\nrequires (is_ndarray_v<std::decay_t<A>>)\nauto abs2(A && a)":
     desc: Maps abs2 onto the array
     source: nda/mapped_functions.hxx
 desc: ""

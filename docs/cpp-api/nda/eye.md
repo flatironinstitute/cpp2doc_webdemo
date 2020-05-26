@@ -6,7 +6,7 @@ namespaces: [nda]
 includer: nda/nda.hpp
 brief: ""
 overloads:
-  "template <typename V> \n\nmatrix<V> eye(long dim)":
+  "template <typename V>\nmatrix<V> eye(long dim)":
     desc: ""
     source: nda/matrix_functions.hpp
 desc: ""

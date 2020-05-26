@@ -6,7 +6,7 @@ namespaces: [nda]
 includer: nda/nda.hpp
 brief: ""
 overloads:
-  "template <size_t Rank> \n\nstd::array<int, Rank> decode(uint64_t binary_representation)":
+  "template <size_t Rank>\nstd::array<int, Rank> decode(uint64_t binary_representation)":
     desc: ""
     source: nda/layout/permutation.hpp
 desc: ""

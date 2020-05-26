@@ -6,7 +6,7 @@ namespaces: [nda]
 includer: nda/nda.hpp
 brief: ""
 overloads:
-  "template <typename L, typename R> \n\nchar common_algebra()":
+  "template <typename L, typename R>\nchar common_algebra()":
     desc: ""
     source: nda/arithmetic.hpp
 desc: ""

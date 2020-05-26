@@ -27,7 +27,7 @@ example:
   code: __MISSING__
 see-also: []
 signature: |
-  template <typename T, typename Allocator> 
+  template <typename T, typename Allocator>
   struct handle_heap
 source: nda/storage/handle.hpp
 title: nda::mem::handle_heap

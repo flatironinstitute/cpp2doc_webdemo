@@ -6,7 +6,7 @@ namespaces: [nda, idx_map]
 includer: nda/nda.hpp
 brief: Number of variables must be exactly the rank or are optionally
 overloads:
-  "template <typename Args> \n\nlong operator()(const Args &... args) noexcept(true) const":
+  "template <typename Args>\nlong operator()(const Args &... args) noexcept(true) const":
     desc: Number of variables must be exactly the rank or are optionally
     source: ""
 desc: checked at runtime

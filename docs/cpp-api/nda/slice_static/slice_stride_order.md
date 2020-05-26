@@ -6,7 +6,7 @@ namespaces: [nda, slice_static]
 includer: nda/nda.hpp
 brief: ""
 overloads:
-  "template <typename IdxMap, typename T> \n\ndecltype(auto) slice_stride_order(const IdxMap & idxm, const T &... x)":
+  "template <typename IdxMap, typename T>\ndecltype(auto) slice_stride_order(const IdxMap & idxm, const T &... x)":
     desc: ""
     source: ""
 desc: ""

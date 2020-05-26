@@ -6,7 +6,7 @@ namespaces: [nda]
 includer: nda/nda.hpp
 brief: ""
 overloads:
-  "template <size_t Rank> \n\nuint64_t encode(const std::array<int, Rank> & a)":
+  "template <size_t Rank>\nuint64_t encode(const std::array<int, Rank> & a)":
     desc: ""
     source: nda/layout/permutation.hpp
 desc: ""

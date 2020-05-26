@@ -12,7 +12,7 @@ overloads:
   std::complex<double> conj_r(std::complex<double> x):
     desc: ""
     source: nda/mapped_functions.hpp
-  "template <typename A> \nrequires (is_ndarray_v<std::decay_t<A>>) \n\nauto conj_r(A && a)":
+  "template <typename A>\nrequires (is_ndarray_v<std::decay_t<A>>)\nauto conj_r(A && a)":
     desc: Maps conj_r onto the array
     source: nda/mapped_functions.hxx
 desc: ""

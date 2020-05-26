@@ -15,7 +15,7 @@ example:
   code: __MISSING__
 see-also: []
 signature: |
-  template <typename Allocator> 
+  template <typename Allocator>
   struct heap_custom_alloc
 source: nda/storage/policies.hpp
 title: nda::heap_custom_alloc

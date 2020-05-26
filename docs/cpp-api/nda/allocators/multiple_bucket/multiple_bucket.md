@@ -15,16 +15,12 @@ methods:
   - allocate_zero
   - deallocate
 non_member_functions: []
-member_types:
-  b_t:
-    type: bucket<ChunkSize>
-    desc: __MISSING__
 example:
   desc: __MISSING__
   code: __MISSING__
 see-also: []
 signature: |
-  template <int ChunkSize> 
+  template <int ChunkSize>
   class multiple_bucket
 source: nda/storage/allocators.hpp
 title: nda::allocators::multiple_bucket

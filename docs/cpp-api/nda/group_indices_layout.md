@@ -6,7 +6,7 @@ namespaces: [nda]
 includer: nda/nda.hpp
 brief: Regroup indices for a C array
 overloads:
-  "template <int Rank, uint64_t StaticExtents, uint64_t StrideOrder, enum nda::layout_prop_e LayoutProp, typename IntSequences> \n\nauto group_indices_layout(const idx_map<Rank, StaticExtents, StrideOrder, LayoutProp> & idxm, IntSequences... )":
+  "template <int Rank, uint64_t StaticExtents, uint64_t StrideOrder, enum nda::layout_prop_e LayoutProp, typename IntSequences>\nauto group_indices_layout(const idx_map<Rank, StaticExtents, StrideOrder, LayoutProp> & idxm, IntSequences... )":
     desc: Regroup indices for a C array
     source: nda/group_indices.hpp
 desc: "Usage : group_indices_view(A, std::index_{0,1}, {2,3}) Precondition : - every indices is listed in the {...} exactly once. - the indices in one group are consecutive in memory."

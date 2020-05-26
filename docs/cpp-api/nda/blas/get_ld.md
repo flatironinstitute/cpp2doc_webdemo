@@ -6,7 +6,7 @@ namespaces: [nda, blas]
 includer: nda/nda.hpp
 brief: ""
 overloads:
-  "template <typename MatrixType> \n\nint get_ld(const MatrixType & A)":
+  "template <typename MatrixType>\nint get_ld(const MatrixType & A)":
     desc: ""
     source: nda/blas/tools.hpp
 desc: ""

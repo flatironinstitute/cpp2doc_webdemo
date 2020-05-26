@@ -6,7 +6,7 @@ namespaces: [nda, slice_static]
 includer: nda/nda.hpp
 brief: ""
 overloads:
-  "template <size_t P, size_t N> \n\nstd::array<int, P> sliced_mem_stride_order(const std::array<int, N> & stride_order_in, const std::array<int, P> & n_of_p)":
+  "template <size_t P, size_t N>\nstd::array<int, P> sliced_mem_stride_order(const std::array<int, N> & stride_order_in, const std::array<int, P> & n_of_p)":
     desc: ""
     source: nda/layout/slice_static.hpp
 desc: ""

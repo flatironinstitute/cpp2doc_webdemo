@@ -6,13 +6,13 @@ namespaces: [nda]
 includer: nda/nda.hpp
 brief: ""
 overloads:
-  "template <uint64_t Permutation, typename T, int R, typename L, char Algebra, typename AccessorPolicy, typename OwningPolicy> \n\nauto permuted_indices_view(basic_array_view<T, R, L, Algebra, AccessorPolicy, OwningPolicy> a)":
+  "template <uint64_t Permutation, typename T, int R, typename L, char Algebra, typename AccessorPolicy, typename OwningPolicy>\nauto permuted_indices_view(basic_array_view<T, R, L, Algebra, AccessorPolicy, OwningPolicy> a)":
     desc: ""
     source: nda/layout_transforms.hpp
-  "template <uint64_t Permutation, typename T, int R, typename L, char Algebra, typename ContainerPolicy> \n\nauto permuted_indices_view(const basic_array<T, R, L, Algebra, ContainerPolicy> & a)":
+  "template <uint64_t Permutation, typename T, int R, typename L, char Algebra, typename ContainerPolicy>\nauto permuted_indices_view(const basic_array<T, R, L, Algebra, ContainerPolicy> & a)":
     desc: ""
     source: nda/layout_transforms.hpp
-  "template <uint64_t Permutation, typename T, int R, typename L, char Algebra, typename ContainerPolicy> \n\nauto permuted_indices_view(basic_array<T, R, L, Algebra, ContainerPolicy> & a)":
+  "template <uint64_t Permutation, typename T, int R, typename L, char Algebra, typename ContainerPolicy>\nauto permuted_indices_view(basic_array<T, R, L, Algebra, ContainerPolicy> & a)":
     desc: ""
     source: nda/layout_transforms.hpp
 desc: ""

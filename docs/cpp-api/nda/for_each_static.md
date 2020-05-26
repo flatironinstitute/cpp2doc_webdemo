@@ -6,7 +6,7 @@ namespaces: [nda]
 includer: nda/nda.hpp
 brief: ""
 overloads:
-  "template <uint64_t StaticExtents, uint64_t StrideOrder, typename F, auto R> \n\nvoid for_each_static(const std::array<long, R> & idx_lengths, F && f)":
+  "template <uint64_t StaticExtents, uint64_t StrideOrder, typename F, auto R>\nvoid for_each_static(const std::array<long, R> & idx_lengths, F && f)":
     desc: ""
     source: ""
 desc: ""

@@ -6,7 +6,7 @@ namespaces: [nda]
 includer: nda/nda.hpp
 brief: ""
 overloads:
-  "template <size_t R, size_t Rs> \n\nstd::array<int, sizeof...(Rs)> stride_order_of_grouped_idx(const std::array<int, R> & stride_order, const std::array<int, Rs> &... grps)":
+  "template <size_t R, size_t Rs>\nstd::array<int, sizeof...(Rs)> stride_order_of_grouped_idx(const std::array<int, R> & stride_order, const std::array<int, Rs> &... grps)":
     desc: ""
     source: nda/group_indices.hpp
 desc: ""

@@ -6,7 +6,7 @@ namespaces: [nda, mapped]
 includer: nda/nda.hpp
 brief: ""
 overloads:
-  "template <typename A0, typename A> \n\nexpr_call<F, A0, A...> operator()(A0 && a0, A &&... a)  const":
+  "template <typename A0, typename A>\nexpr_call<F, A0, A...> operator()(A0 && a0, A &&... a)  const":
     desc: ""
     source: nda/map.hpp
 desc: ""

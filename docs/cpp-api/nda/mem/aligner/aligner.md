@@ -20,7 +20,7 @@ example:
   code: __MISSING__
 see-also: []
 signature: |
-  template <typename T, int Al> 
+  template <typename T, int Al>
   struct aligner
 source: nda/storage/handle.hpp
 title: nda::mem::aligner

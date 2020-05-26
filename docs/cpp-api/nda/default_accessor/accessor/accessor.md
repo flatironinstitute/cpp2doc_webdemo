@@ -25,7 +25,7 @@ example:
   code: __MISSING__
 see-also: []
 signature: |
-  template <typename T> 
+  template <typename T>
   struct accessor
 source: nda/accessors.hpp
 title: nda::default_accessor::accessor

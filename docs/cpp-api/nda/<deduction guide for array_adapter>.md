@@ -6,13 +6,13 @@ namespaces: [nda]
 includer: nda/nda.hpp
 brief: ""
 overloads:
-  "template <int R, typename F, typename Int> \n\nauto <deduction guide for array_adapter>(const std::array<type-parameter-0-2, R> & shape, F f)-> array_adapter<R, F>":
+  "template <int R, typename F, typename Int>\nauto <deduction guide for array_adapter>(const std::array<type-parameter-0-2, R> & shape, F f)-> array_adapter<R, F>":
     desc: ""
     source: nda/array_adapter.hpp
-  "template <int R, typename F> \n\nauto <deduction guide for array_adapter>(array_adapter<R, F> )-> array_adapter<R, F>":
+  "template <int R, typename F>\nauto <deduction guide for array_adapter>(array_adapter<R, F> )-> array_adapter<R, F>":
     desc: ""
     source: nda/array_adapter.hpp
-  "template <auto R, typename Int, typename F> \n\nauto <deduction guide for array_adapter>(std::array<Int, R> , F )-> array_adapter<R, F>":
+  "template <auto R, typename Int, typename F>\nauto <deduction guide for array_adapter>(std::array<Int, R> , F )-> array_adapter<R, F>":
     desc: ""
     source: nda/array_adapter.hpp
 desc: ""
