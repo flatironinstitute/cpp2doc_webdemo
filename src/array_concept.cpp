@@ -99,6 +99,12 @@ template <typename A> concept Array= requires(A const &a) {
     template <CONCEPT(is_integral)... Int>
     explicit myarray(Int... is) noexcept {};
 
+    myarray(myarray const &) = default;
+    myarray & operator =( int i) ;
+
+    myarray const & AAA();
+    myarray  BBB();
+
     void zozo() const REQUIRES(R == 3) {}
   };
 
