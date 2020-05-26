@@ -25,7 +25,7 @@ signature: struct blk_t
 source: nda/storage/blk.hpp
 title: nda::allocators::blk_t
 permalink: /cpp-api/nda/allocators/blk_t
-has-children: true
+has_children: true
 parent: nda::allocators
 ...
 

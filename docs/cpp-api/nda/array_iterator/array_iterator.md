@@ -32,7 +32,7 @@ signature: |
 source: nda/iterators.hpp
 title: nda::array_iterator
 permalink: /cpp-api/nda/array_iterator
-has-children: true
+has_children: true
 parent: nda
 ...
 

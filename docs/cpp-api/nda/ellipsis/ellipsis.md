@@ -16,7 +16,7 @@ signature: struct ellipsis
 source: nda/layout/range.hpp
 title: nda::ellipsis
 permalink: /cpp-api/nda/ellipsis
-has-children: true
+has_children: true
 parent: nda
 ...
 

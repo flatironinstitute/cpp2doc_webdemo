@@ -30,7 +30,7 @@ signature: |
 source: nda/accessors.hpp
 title: nda::default_accessor::accessor
 permalink: /cpp-api/nda/default_accessor/accessor
-has-children: true
+has_children: true
 parent: nda::default_accessor
 ...
 

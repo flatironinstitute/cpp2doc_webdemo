@@ -27,7 +27,7 @@ signature: |
 source: nda/arithmetic.hpp
 title: nda::scalar_matrix
 permalink: /cpp-api/nda/scalar_matrix
-has-children: true
+has_children: true
 parent: nda
 ...
 

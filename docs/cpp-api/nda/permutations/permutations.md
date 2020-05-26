@@ -4,7 +4,7 @@ qualified_name: nda::permutations
 permalink: /cpp-api/nda/permutations
 parent: nda
 title: nda::permutations
-has-children: true
+has_children: true
 namespaces: []
 classes: []
 functions:

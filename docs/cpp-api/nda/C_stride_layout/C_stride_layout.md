@@ -16,7 +16,7 @@ signature: struct C_stride_layout
 source: nda/layout/policies.hpp
 title: nda::C_stride_layout
 permalink: /cpp-api/nda/C_stride_layout
-has-children: true
+has_children: true
 parent: nda
 ...
 

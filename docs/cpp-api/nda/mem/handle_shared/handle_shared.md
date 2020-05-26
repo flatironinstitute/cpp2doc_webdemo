@@ -34,7 +34,7 @@ signature: |
 source: nda/storage/handle.hpp
 title: nda::mem::handle_shared
 permalink: /cpp-api/nda/mem/handle_shared
-has-children: true
+has_children: true
 parent: nda::mem
 ...
 

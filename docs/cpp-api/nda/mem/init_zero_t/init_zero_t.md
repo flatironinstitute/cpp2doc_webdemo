@@ -16,7 +16,7 @@ signature: struct init_zero_t
 source: nda/storage/handle.hpp
 title: nda::mem::init_zero_t
 permalink: /cpp-api/nda/mem/init_zero_t
-has-children: true
+has_children: true
 parent: nda::mem
 ...
 

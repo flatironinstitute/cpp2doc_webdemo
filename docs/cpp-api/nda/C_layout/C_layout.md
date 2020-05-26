@@ -16,7 +16,7 @@ signature: struct C_layout
 source: nda/layout/policies.hpp
 title: nda::C_layout
 permalink: /cpp-api/nda/C_layout
-has-children: true
+has_children: true
 parent: nda
 ...
 

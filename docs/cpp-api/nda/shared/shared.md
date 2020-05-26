@@ -16,7 +16,7 @@ signature: struct shared
 source: nda/storage/policies.hpp
 title: nda::shared
 permalink: /cpp-api/nda/shared
-has-children: true
+has_children: true
 parent: nda
 ...
 

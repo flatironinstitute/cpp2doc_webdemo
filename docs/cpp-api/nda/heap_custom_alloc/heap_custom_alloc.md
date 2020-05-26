@@ -20,7 +20,7 @@ signature: |
 source: nda/storage/policies.hpp
 title: nda::heap_custom_alloc
 permalink: /cpp-api/nda/heap_custom_alloc
-has-children: true
+has_children: true
 parent: nda
 ...
 

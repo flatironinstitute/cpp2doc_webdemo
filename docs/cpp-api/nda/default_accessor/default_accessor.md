@@ -16,7 +16,7 @@ signature: struct default_accessor
 source: nda/accessors.hpp
 title: nda::default_accessor
 permalink: /cpp-api/nda/default_accessor
-has-children: true
+has_children: true
 parent: nda
 ...
 

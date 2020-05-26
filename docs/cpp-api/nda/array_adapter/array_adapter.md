@@ -21,7 +21,7 @@ signature: |
 source: nda/array_adapter.hpp
 title: nda::array_adapter
 permalink: /cpp-api/nda/array_adapter
-has-children: true
+has_children: true
 parent: nda
 ...
 

@@ -16,7 +16,7 @@ signature: struct heap
 source: nda/storage/policies.hpp
 title: nda::heap
 permalink: /cpp-api/nda/heap
-has-children: true
+has_children: true
 parent: nda
 ...
 

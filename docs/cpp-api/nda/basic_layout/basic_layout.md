@@ -22,7 +22,7 @@ signature: |
 source: nda/layout/policies.hpp
 title: nda::basic_layout
 permalink: /cpp-api/nda/basic_layout
-has-children: true
+has_children: true
 parent: nda
 ...
 

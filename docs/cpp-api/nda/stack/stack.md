@@ -16,7 +16,7 @@ signature: struct stack
 source: nda/storage/policies.hpp
 title: nda::stack
 permalink: /cpp-api/nda/stack
-has-children: true
+has_children: true
 parent: nda
 ...
 

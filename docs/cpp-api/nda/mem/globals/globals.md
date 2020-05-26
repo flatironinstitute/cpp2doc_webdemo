@@ -16,7 +16,7 @@ signature: struct globals
 source: nda/storage/rtable.hpp
 title: nda::mem::globals
 permalink: /cpp-api/nda/mem/globals
-has-children: true
+has_children: true
 parent: nda::mem
 ...
 

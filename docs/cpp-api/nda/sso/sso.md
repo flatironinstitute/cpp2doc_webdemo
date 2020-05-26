@@ -20,7 +20,7 @@ signature: |
 source: nda/storage/policies.hpp
 title: nda::sso
 permalink: /cpp-api/nda/sso
-has-children: true
+has_children: true
 parent: nda
 ...
 

@@ -20,7 +20,7 @@ signature: |
 source: nda/group_indices.hpp
 title: nda::idx_group_t
 permalink: /cpp-api/nda/idx_group_t
-has-children: true
+has_children: true
 parent: nda
 ...
 

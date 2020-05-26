@@ -43,7 +43,7 @@ signature: |
 source: nda/layout/idx_map.hpp
 title: nda::idx_map
 permalink: /cpp-api/nda/idx_map
-has-children: true
+has_children: true
 parent: nda
 ...
 

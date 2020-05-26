@@ -30,7 +30,7 @@ signature: |
 source: nda/accessors.hpp
 title: nda::no_alias_accessor::accessor
 permalink: /cpp-api/nda/no_alias_accessor/accessor
-has-children: true
+has_children: true
 parent: nda::no_alias_accessor
 ...
 

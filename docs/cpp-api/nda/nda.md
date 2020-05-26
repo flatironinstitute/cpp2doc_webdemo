@@ -4,7 +4,7 @@ qualified_name: nda
 permalink: /cpp-api/nda
 parent: C++ API
 title: nda
-has-children: true
+has_children: true
 namespaces:
   - details
   - permutations

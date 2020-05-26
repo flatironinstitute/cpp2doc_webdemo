@@ -4,7 +4,7 @@ qualified_name: nda::blas
 permalink: /cpp-api/nda/blas
 parent: nda
 title: nda::blas
-has-children: true
+has_children: true
 namespaces: [f77]
 classes: []
 functions:

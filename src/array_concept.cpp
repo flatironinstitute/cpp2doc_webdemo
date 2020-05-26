@@ -185,6 +185,11 @@ template <typename A> concept Array= requires(A const &a) {
   template <typename T, ArrayOfT<T> A>
   void fgh89(T x, A const &a) {}
 
+  /// DOC
+  ///
+  /// \tag(Tag1) Tag2
+  /// 
+  /// \ingroup G1 G2
   struct non {
 
     long shape() const { return {}; }

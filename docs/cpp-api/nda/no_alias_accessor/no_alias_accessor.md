@@ -16,7 +16,7 @@ signature: struct no_alias_accessor
 source: nda/accessors.hpp
 title: nda::no_alias_accessor
 permalink: /cpp-api/nda/no_alias_accessor
-has-children: true
+has_children: true
 parent: nda
 ...
 

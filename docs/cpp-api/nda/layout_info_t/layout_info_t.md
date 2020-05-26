@@ -25,7 +25,7 @@ signature: struct layout_info_t
 source: nda/traits.hpp
 title: nda::layout_info_t
 permalink: /cpp-api/nda/layout_info_t
-has-children: true
+has_children: true
 parent: nda
 ...
 

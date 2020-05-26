@@ -32,7 +32,7 @@ signature: |
 source: nda/storage/handle.hpp
 title: nda::mem::handle_stack
 permalink: /cpp-api/nda/mem/handle_stack
-has-children: true
+has_children: true
 parent: nda::mem
 ...
 

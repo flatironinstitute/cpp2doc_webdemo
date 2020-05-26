@@ -65,7 +65,7 @@ plugins:
   # - jekyll-include-cache
   - jekyll-katex
 
-incremental: true
+    #incremental: true
 
 defaults:
   - scope:

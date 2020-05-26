@@ -25,7 +25,7 @@ signature: |
 source: nda/storage/allocators.hpp
 title: nda::allocators::multiple_bucket
 permalink: /cpp-api/nda/allocators/multiple_bucket
-has-children: true
+has_children: true
 parent: nda::allocators
 ...
 

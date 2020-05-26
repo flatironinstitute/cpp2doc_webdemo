@@ -25,7 +25,7 @@ signature: |
 source: nda/storage/handle.hpp
 title: nda::mem::aligner
 permalink: /cpp-api/nda/mem/aligner
-has-children: true
+has_children: true
 parent: nda::mem
 ...
 

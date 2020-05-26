@@ -21,7 +21,7 @@ signature: class mallocator
 source: nda/storage/allocators.hpp
 title: nda::allocators::mallocator
 permalink: /cpp-api/nda/allocators/mallocator
-has-children: true
+has_children: true
 parent: nda::allocators
 ...
 

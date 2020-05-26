@@ -28,7 +28,7 @@ signature: |
 source: nda/storage/allocators.hpp
 title: nda::allocators::segregator
 permalink: /cpp-api/nda/allocators/segregator
-has-children: true
+has_children: true
 parent: nda::allocators
 ...
 

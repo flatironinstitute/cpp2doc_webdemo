@@ -59,7 +59,7 @@ signature: |
 source: nda/basic_array.hpp
 title: nda::basic_array
 permalink: /cpp-api/nda/basic_array
-has-children: true
+has_children: true
 parent: nda
 ...
 

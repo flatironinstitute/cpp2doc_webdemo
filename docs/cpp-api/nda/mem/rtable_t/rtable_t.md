@@ -27,7 +27,7 @@ signature: class rtable_t
 source: nda/storage/rtable.hpp
 title: nda::mem::rtable_t
 permalink: /cpp-api/nda/mem/rtable_t
-has-children: true
+has_children: true
 parent: nda::mem
 ...
 

@@ -24,7 +24,7 @@ signature: |
 source: nda/map.hpp
 title: nda::mapped
 permalink: /cpp-api/nda/mapped
-has-children: true
+has_children: true
 parent: nda
 ...
 

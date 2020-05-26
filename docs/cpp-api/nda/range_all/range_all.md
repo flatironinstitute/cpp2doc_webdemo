@@ -16,7 +16,7 @@ signature: struct range_all
 source: nda/layout/range.hpp
 title: nda::range_all
 permalink: /cpp-api/nda/range_all
-has-children: true
+has_children: true
 parent: nda
 ...
 

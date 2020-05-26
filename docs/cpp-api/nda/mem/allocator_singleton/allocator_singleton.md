@@ -20,7 +20,7 @@ signature: |
 source: nda/storage/handle.hpp
 title: nda::mem::allocator_singleton
 permalink: /cpp-api/nda/mem/allocator_singleton
-has-children: true
+has_children: true
 parent: nda::mem
 ...
 

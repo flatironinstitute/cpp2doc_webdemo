@@ -24,7 +24,7 @@ signature: |
 source: nda/iterators.hpp
 title: nda::grid_iterator<1>
 permalink: /cpp-api/nda/grid_iterator<1>
-has-children: true
+has_children: true
 parent: nda
 ...
 

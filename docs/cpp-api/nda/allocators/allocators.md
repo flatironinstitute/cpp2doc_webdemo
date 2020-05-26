@@ -4,7 +4,7 @@ qualified_name: nda::allocators
 permalink: /cpp-api/nda/allocators
 parent: nda
 title: nda::allocators
-has-children: true
+has_children: true
 namespaces: []
 classes:
   - blk_t

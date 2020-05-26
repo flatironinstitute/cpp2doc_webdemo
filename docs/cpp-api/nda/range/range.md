@@ -26,7 +26,7 @@ signature: class range
 source: nda/layout/range.hpp
 title: nda::range
 permalink: /cpp-api/nda/range
-has-children: true
+has_children: true
 parent: nda
 ...
 

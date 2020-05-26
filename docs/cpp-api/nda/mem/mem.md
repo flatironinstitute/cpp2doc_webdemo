@@ -4,7 +4,7 @@ qualified_name: nda::mem
 permalink: /cpp-api/nda/mem
 parent: nda
 title: nda::mem
-has-children: true
+has_children: true
 namespaces: []
 classes:
   - globals

@@ -60,7 +60,7 @@ signature: |
 source: nda/basic_array_view.hpp
 title: nda::basic_array_view
 permalink: /cpp-api/nda/basic_array_view
-has-children: true
+has_children: true
 parent: nda
 ...
 

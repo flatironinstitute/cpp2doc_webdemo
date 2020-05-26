@@ -29,7 +29,7 @@ signature: |
 source: nda/storage/allocators.hpp
 title: nda::allocators::leak_check
 permalink: /cpp-api/nda/allocators/leak_check
-has-children: true
+has_children: true
 parent: nda::allocators
 ...
 

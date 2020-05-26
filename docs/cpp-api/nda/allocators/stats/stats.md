@@ -28,7 +28,7 @@ signature: |
 source: nda/storage/allocators.hpp
 title: nda::allocators::stats
 permalink: /cpp-api/nda/allocators/stats
-has-children: true
+has_children: true
 parent: nda::allocators
 ...
 

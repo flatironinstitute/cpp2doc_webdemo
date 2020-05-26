@@ -16,7 +16,7 @@ signature: struct borrowed
 source: nda/storage/policies.hpp
 title: nda::borrowed
 permalink: /cpp-api/nda/borrowed
-has-children: true
+has_children: true
 parent: nda
 ...
 

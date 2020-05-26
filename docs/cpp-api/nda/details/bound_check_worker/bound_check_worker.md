@@ -33,7 +33,7 @@ signature: struct bound_check_worker
 source: nda/layout/bound_check_worker.hpp
 title: nda::details::bound_check_worker
 permalink: /cpp-api/nda/details/bound_check_worker
-has-children: true
+has_children: true
 parent: nda::details
 ...
 

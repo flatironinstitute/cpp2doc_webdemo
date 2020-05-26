@@ -21,7 +21,7 @@ signature: class runtime_error
 source: nda/exceptions.hpp
 title: nda::runtime_error
 permalink: /cpp-api/nda/runtime_error
-has-children: true
+has_children: true
 parent: nda
 ...
 

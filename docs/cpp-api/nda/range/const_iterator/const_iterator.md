@@ -39,7 +39,7 @@ signature: class const_iterator
 source: nda/layout/range.hpp
 title: nda::range::const_iterator
 permalink: /cpp-api/nda/range/const_iterator
-has-children: true
+has_children: true
 parent: nda::range
 ...
 

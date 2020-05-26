@@ -16,7 +16,7 @@ signature: struct range_tag
 source: nda/layout/range.hpp
 title: nda::range_tag
 permalink: /cpp-api/nda/range_tag
-has-children: true
+has_children: true
 parent: nda
 ...
 

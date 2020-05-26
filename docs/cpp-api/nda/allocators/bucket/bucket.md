@@ -29,7 +29,7 @@ signature: |
 source: nda/storage/allocators.hpp
 title: nda::allocators::bucket
 permalink: /cpp-api/nda/allocators/bucket
-has-children: true
+has_children: true
 parent: nda::allocators
 ...
 
