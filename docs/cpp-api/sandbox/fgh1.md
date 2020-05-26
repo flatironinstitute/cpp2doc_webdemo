@@ -6,7 +6,7 @@ namespaces: [sandbox]
 includer: ""
 brief: ""
 overloads:
-  "template <typename A> \nrequires (Array<A> and get_rank<A> == 3) \n\nvoid fgh1(const A & a)":
+  "template <typename A>\nrequires (Array<A> and get_rank<A> == 3)\nvoid fgh1(const A & a)":
     desc: ""
     source: /Users/oparcollet/cpp2doc_webdemo/src/array_concept.cpp
 desc: ""
@@ -23,5 +23,4 @@ title: sandbox::fgh1
 permalink: /cpp-api/sandbox/fgh1
 parent: sandbox
 ...
-
 

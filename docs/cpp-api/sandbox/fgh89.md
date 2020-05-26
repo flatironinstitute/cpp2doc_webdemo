@@ -6,7 +6,7 @@ namespaces: [sandbox]
 includer: ""
 brief: ""
 overloads:
-  "template <typename T, ArrayOfT<T> A> \n\nvoid fgh89(T x, const A & a)":
+  "template <typename T, ArrayOfT<T> A>\nvoid fgh89(T x, const A & a)":
     desc: ""
     source: /Users/oparcollet/cpp2doc_webdemo/src/array_concept.cpp
 desc: ""
@@ -25,5 +25,4 @@ title: sandbox::fgh89
 permalink: /cpp-api/sandbox/fgh89
 parent: sandbox
 ...
-
 

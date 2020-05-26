@@ -24,4 +24,3 @@ permalink: /cpp-api/sandbox/myarray/shape
 parent: sandbox::myarray
 ...
 
-

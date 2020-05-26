@@ -24,4 +24,3 @@ permalink: /cpp-api/sandbox/maker2
 parent: sandbox
 ...
 
-

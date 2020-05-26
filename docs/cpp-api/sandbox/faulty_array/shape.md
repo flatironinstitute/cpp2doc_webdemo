@@ -24,4 +24,3 @@ permalink: /cpp-api/sandbox/faulty_array/shape
 parent: sandbox::faulty_array
 ...
 
-

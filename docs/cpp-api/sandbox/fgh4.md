@@ -6,7 +6,7 @@ namespaces: [sandbox]
 includer: ""
 brief: ""
 overloads:
-  "template <sandbox::Array A> \nrequires (std::decay_t<A>::rank == 2) \n\nvoid fgh4(A && a)":
+  "template <sandbox::Array A>\nrequires (std::decay_t<A>::rank == 2)\nvoid fgh4(A && a)":
     desc: ""
     source: /Users/oparcollet/cpp2doc_webdemo/src/array_concept.cpp
 desc: ""
@@ -23,5 +23,4 @@ title: sandbox::fgh4
 permalink: /cpp-api/sandbox/fgh4
 parent: sandbox
 ...
-
 

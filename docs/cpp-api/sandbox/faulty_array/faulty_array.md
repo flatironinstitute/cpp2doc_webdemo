@@ -20,7 +20,7 @@ example:
   code: __MISSING__
 see-also: []
 signature: |
-  template <typename T, int R> 
+  template <typename T, int R>
   struct faulty_array
 source: /Users/oparcollet/cpp2doc_webdemo/src/array_concept.cpp
 title: sandbox::faulty_array
@@ -28,5 +28,4 @@ permalink: /cpp-api/sandbox/faulty_array
 has-children: true
 parent: sandbox
 ...
-
 

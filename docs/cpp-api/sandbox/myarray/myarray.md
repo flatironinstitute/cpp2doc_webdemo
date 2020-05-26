@@ -14,6 +14,9 @@ methods:
   - operator()
   - shape
   - zozo
+  - operator=
+  - AAA
+  - BBB
 non_member_functions: []
 member_types:
   value_t:
@@ -24,7 +27,7 @@ example:
   code: __MISSING__
 see-also: []
 signature: |
-  template <typename T, int R> 
+  template <typename T, int R>
   struct myarray
 source: /Users/oparcollet/cpp2doc_webdemo/src/array_concept.cpp
 title: sandbox::myarray
@@ -32,5 +35,4 @@ permalink: /cpp-api/sandbox/myarray
 has-children: true
 parent: sandbox
 ...
-
 

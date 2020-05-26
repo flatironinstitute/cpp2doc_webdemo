@@ -6,7 +6,7 @@ namespaces: [sandbox]
 includer: ""
 brief: ""
 overloads:
-  "template <ArrayOfRank<2> A> \n\nvoid fgh5(A && a)":
+  "template <ArrayOfRank<2> A>\nvoid fgh5(A && a)":
     desc: ""
     source: /Users/oparcollet/cpp2doc_webdemo/src/array_concept.cpp
 desc: ""
@@ -23,5 +23,4 @@ title: sandbox::fgh5
 permalink: /cpp-api/sandbox/fgh5
 parent: sandbox
 ...
-
 

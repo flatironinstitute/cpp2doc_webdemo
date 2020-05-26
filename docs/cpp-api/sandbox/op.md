@@ -6,7 +6,7 @@ namespaces: [sandbox]
 includer: ""
 brief: ""
 overloads:
-  "template <typename L, typename R> \nrequires Array<L> and (not Array<R>) \n\nvoid op(const L & , const R & )":
+  "template <typename L, typename R>\nrequires Array<L> and (not Array<R>)\nvoid op(const L & , const R & )":
     desc: ""
     source: /Users/oparcollet/cpp2doc_webdemo/src/array_concept.cpp
 desc: ""
@@ -24,5 +24,4 @@ title: sandbox::op
 permalink: /cpp-api/sandbox/op
 parent: sandbox
 ...
-
 

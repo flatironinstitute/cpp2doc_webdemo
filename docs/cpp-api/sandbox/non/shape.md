@@ -24,4 +24,3 @@ permalink: /cpp-api/sandbox/non/shape
 parent: sandbox::non
 ...
 
-

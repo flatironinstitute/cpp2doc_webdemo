@@ -6,7 +6,7 @@ namespaces: [sandbox]
 includer: ""
 brief: ""
 overloads:
-  "template <std::integral Int> \n\nvoid fPACK(Int... is)":
+  "template <std::integral Int>\nvoid fPACK(Int... is)":
     desc: ""
     source: /Users/oparcollet/cpp2doc_webdemo/src/array_concept.cpp
 desc: ""
@@ -23,5 +23,4 @@ title: sandbox::fPACK
 permalink: /cpp-api/sandbox/fPACK
 parent: sandbox
 ...
-
 

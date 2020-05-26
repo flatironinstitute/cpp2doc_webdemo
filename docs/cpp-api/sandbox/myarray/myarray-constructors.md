@@ -6,7 +6,10 @@ namespaces: [sandbox, myarray]
 includer: ""
 brief: ""
 overloads:
-  "template <sandbox::is_integral Int> \n\nexplicit myarray(Int... is) noexcept":
+  "template <sandbox::is_integral Int>\nmyarray(Int... is) noexcept":
+    desc: ""
+    source: /Users/oparcollet/cpp2doc_webdemo/src/array_concept.cpp
+  myarray(const myarray<T, R> & ):
     desc: ""
     source: /Users/oparcollet/cpp2doc_webdemo/src/array_concept.cpp
 desc: ""
@@ -23,5 +26,4 @@ title: sandbox::myarray::myarray<T, R>
 permalink: /cpp-api/sandbox/myarray/myarray-constructors
 parent: sandbox::myarray
 ...
-
 

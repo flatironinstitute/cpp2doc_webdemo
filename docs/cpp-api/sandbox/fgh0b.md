@@ -6,7 +6,7 @@ namespaces: [sandbox]
 includer: ""
 brief: ""
 overloads:
-  "template <typename A> \nrequires (ArrayOfRank<A, 2>) \n\nvoid fgh0b(const A & a)":
+  "template <typename A>\nrequires (ArrayOfRank<A, 2>)\nvoid fgh0b(const A & a)":
     desc: ""
     source: /Users/oparcollet/cpp2doc_webdemo/src/array_concept.cpp
 desc: ""
@@ -23,5 +23,4 @@ title: sandbox::fgh0b
 permalink: /cpp-api/sandbox/fgh0b
 parent: sandbox
 ...
-
 

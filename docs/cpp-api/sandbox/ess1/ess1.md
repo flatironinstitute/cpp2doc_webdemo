@@ -15,7 +15,7 @@ example:
   code: __MISSING__
 see-also: []
 signature: |
-  template <bool B> 
+  template <bool B>
   struct ess1
 source: /Users/oparcollet/cpp2doc_webdemo/src/array_concept.cpp
 title: sandbox::ess1
@@ -23,5 +23,4 @@ permalink: /cpp-api/sandbox/ess1
 has-children: true
 parent: sandbox
 ...
-
 

@@ -6,7 +6,7 @@ namespaces: [sandbox]
 includer: ""
 brief: ""
 overloads:
-  "template <sandbox::Array A> \n\nvoid fgh3(const A & a)":
+  "template <sandbox::Array A>\nvoid fgh3(const A & a)":
     desc: ""
     source: /Users/oparcollet/cpp2doc_webdemo/src/array_concept.cpp
 desc: ""
@@ -23,5 +23,4 @@ title: sandbox::fgh3
 permalink: /cpp-api/sandbox/fgh3
 parent: sandbox
 ...
-
 

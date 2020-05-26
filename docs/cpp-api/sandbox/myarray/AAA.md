@@ -1,17 +1,17 @@
 ---
 layout: function
-short_name: operator()
-qualified_name: sandbox::myarray::operator()
+short_name: AAA
+qualified_name: sandbox::myarray::AAA
 namespaces: [sandbox, myarray]
 includer: ""
 brief: ""
 overloads:
-  sandbox::myarray::value_t operator()(int i,   = ...)  const:
+  myarray const & AAA():
     desc: ""
     source: /Users/oparcollet/cpp2doc_webdemo/src/array_concept.cpp
 desc: ""
 params:
-  i: __MISSING__
+  {}
 tparams:
   {}
 return_value: __MISSING__
@@ -19,8 +19,8 @@ example:
   desc: __MISSING__
   code: __MISSING__
 see-also: []
-title: sandbox::myarray::operator()
-permalink: /cpp-api/sandbox/myarray/operator()
+title: sandbox::myarray::AAA
+permalink: /cpp-api/sandbox/myarray/AAA
 parent: sandbox::myarray
 ...
 

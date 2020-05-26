@@ -6,7 +6,7 @@ namespaces: [sandbox, impl]
 includer: ""
 brief: Get the first element of the array as a(0,0,0....) (i.e. also work for non
 overloads:
-  "template <typename A> \n\nauto get_first_element(const A & a)-> decltype(_get_first_element_impl(std::make_index_sequence<get_rank<A> >({}), a))":
+  "template <typename A>\nauto get_first_element(const A & a)-> decltype(_get_first_element_impl(std::make_index_sequence<get_rank<A> >({}), a))":
     desc: Get the first element of the array as a(0,0,0....) (i.e. also work for non
     source: /Users/oparcollet/cpp2doc_webdemo/src/array_concept.cpp
 desc: containers, just with the concept !).
@@ -23,5 +23,4 @@ title: sandbox::impl::get_first_element
 permalink: /cpp-api/sandbox/impl/get_first_element
 parent: sandbox::impl
 ...
-
 

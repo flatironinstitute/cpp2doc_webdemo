@@ -6,10 +6,10 @@ namespaces: [sandbox]
 includer: ""
 brief: ""
 overloads:
-  "template <typename A> \nrequires (Array<A>) \n\nvoid fgh0(const A & a)":
+  "template <typename A>\nrequires (Array<A>)\nvoid fgh0(const A & a)":
     desc: ""
     source: /Users/oparcollet/cpp2doc_webdemo/src/array_concept.cpp
-  "template <typename A> \n\nvoid fgh0(const A & a)":
+  "template <typename A>\nvoid fgh0(const A & a)":
     desc: ""
     source: /Users/oparcollet/cpp2doc_webdemo/src/array_concept.cpp
 desc: ""
@@ -26,5 +26,4 @@ title: sandbox::fgh0
 permalink: /cpp-api/sandbox/fgh0
 parent: sandbox
 ...
-
 

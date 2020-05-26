@@ -6,7 +6,7 @@ namespaces: [sandbox]
 includer: ""
 brief: ""
 overloads:
-  "template <typename T> \n\nArray auto maker()":
+  "template <typename T>\nArray auto maker()":
     desc: ""
     source: ""
 desc: ""
@@ -23,5 +23,4 @@ title: sandbox::maker
 permalink: /cpp-api/sandbox/maker
 parent: sandbox
 ...
-
 
