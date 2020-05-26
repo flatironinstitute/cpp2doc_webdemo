@@ -23,5 +23,6 @@ see-also: []
 title: nda::permutations::transposition
 permalink: /cpp-api/nda/permutations/transposition
 parent: nda::permutations
+nav_exclude: true
 ...
 

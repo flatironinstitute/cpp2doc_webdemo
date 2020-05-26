@@ -22,5 +22,6 @@ title: nda::sso
 permalink: /cpp-api/nda/sso
 has_children: true
 parent: nda
+nav_exclude: true
 ...
 

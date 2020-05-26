@@ -22,5 +22,6 @@ see-also: []
 title: nda::runtime_error::what
 permalink: /cpp-api/nda/runtime_error/what
 parent: nda::runtime_error
+nav_exclude: true
 ...
 

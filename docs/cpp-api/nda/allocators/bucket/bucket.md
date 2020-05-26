@@ -31,5 +31,6 @@ title: nda::allocators::bucket
 permalink: /cpp-api/nda/allocators/bucket
 has_children: true
 parent: nda::allocators
+nav_exclude: true
 ...
 

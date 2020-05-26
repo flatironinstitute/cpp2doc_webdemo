@@ -23,5 +23,6 @@ see-also: []
 title: nda::static_extents
 permalink: /cpp-api/nda/static_extents
 parent: nda
+nav_exclude: true
 ...
 

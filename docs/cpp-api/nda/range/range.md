@@ -28,5 +28,6 @@ title: nda::range
 permalink: /cpp-api/nda/range
 has_children: true
 parent: nda
+nav_exclude: true
 ...
 

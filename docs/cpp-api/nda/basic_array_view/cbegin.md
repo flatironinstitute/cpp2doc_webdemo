@@ -22,5 +22,6 @@ see-also: []
 title: nda::basic_array_view::cbegin
 permalink: /cpp-api/nda/basic_array_view/cbegin
 parent: nda::basic_array_view
+nav_exclude: true
 ...
 

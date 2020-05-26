@@ -35,5 +35,6 @@ see-also: []
 title: nda::permuted_indices_view
 permalink: /cpp-api/nda/permuted_indices_view
 parent: nda
+nav_exclude: true
 ...
 

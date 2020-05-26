@@ -29,5 +29,6 @@ see-also: []
 title: nda::slice_static::slice_layout_prop
 permalink: /cpp-api/nda/slice_static/slice_layout_prop
 parent: nda::slice_static
+nav_exclude: true
 ...
 

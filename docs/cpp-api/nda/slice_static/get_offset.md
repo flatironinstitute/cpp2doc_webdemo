@@ -29,5 +29,6 @@ see-also: []
 title: nda::slice_static::get_offset
 permalink: /cpp-api/nda/slice_static/get_offset
 parent: nda::slice_static
+nav_exclude: true
 ...
 

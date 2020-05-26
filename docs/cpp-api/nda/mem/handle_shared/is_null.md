@@ -22,5 +22,6 @@ see-also: []
 title: nda::mem::handle_shared::is_null
 permalink: /cpp-api/nda/mem/handle_shared/is_null
 parent: nda::mem::handle_shared
+nav_exclude: true
 ...
 

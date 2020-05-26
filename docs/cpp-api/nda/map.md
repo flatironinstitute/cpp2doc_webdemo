@@ -26,5 +26,6 @@ see-also: []
 title: nda::map
 permalink: /cpp-api/nda/map
 parent: nda
+nav_exclude: true
 ...
 

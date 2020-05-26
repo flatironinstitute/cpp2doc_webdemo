@@ -22,5 +22,6 @@ see-also: []
 title: nda::any
 permalink: /cpp-api/nda/any
 parent: nda
+nav_exclude: true
 ...
 

@@ -22,5 +22,6 @@ see-also: []
 title: nda::mem::handle_borrowed::parent
 permalink: /cpp-api/nda/mem/handle_borrowed/parent
 parent: nda::mem::handle_borrowed
+nav_exclude: true
 ...
 

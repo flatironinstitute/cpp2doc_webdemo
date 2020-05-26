@@ -22,5 +22,6 @@ see-also: []
 title: nda::allocators::leak_check::allocate_zero
 permalink: /cpp-api/nda/allocators/leak_check/allocate_zero
 parent: nda::allocators::leak_check
+nav_exclude: true
 ...
 

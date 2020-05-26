@@ -23,5 +23,6 @@ see-also: []
 title: nda::details::index_from_stride_order
 permalink: /cpp-api/nda/details/index_from_stride_order
 parent: nda::details
+nav_exclude: true
 ...
 

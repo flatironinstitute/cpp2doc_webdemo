@@ -22,5 +22,6 @@ see-also: []
 title: nda::acos
 permalink: /cpp-api/nda/acos
 parent: nda
+nav_exclude: true
 ...
 

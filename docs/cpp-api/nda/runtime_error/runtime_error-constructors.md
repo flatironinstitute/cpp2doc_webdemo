@@ -25,5 +25,6 @@ see-also: []
 title: nda::runtime_error::runtime_error
 permalink: /cpp-api/nda/runtime_error/runtime_error-constructors
 parent: nda::runtime_error
+nav_exclude: true
 ...
 

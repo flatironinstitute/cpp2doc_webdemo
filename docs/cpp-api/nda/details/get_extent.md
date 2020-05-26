@@ -24,5 +24,6 @@ see-also: []
 title: nda::details::get_extent
 permalink: /cpp-api/nda/details/get_extent
 parent: nda::details
+nav_exclude: true
 ...
 

@@ -62,5 +62,6 @@ title: nda::basic_array_view
 permalink: /cpp-api/nda/basic_array_view
 has_children: true
 parent: nda
+nav_exclude: true
 ...
 

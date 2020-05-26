@@ -22,5 +22,6 @@ see-also: []
 title: nda::mem::handle_sso::is_null
 permalink: /cpp-api/nda/mem/handle_sso/is_null
 parent: nda::mem::handle_sso
+nav_exclude: true
 ...
 

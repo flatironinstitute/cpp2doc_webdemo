@@ -28,5 +28,6 @@ see-also: []
 title: nda::allocators::segregator::segregator<Threshold, A, B>
 permalink: /cpp-api/nda/allocators/segregator/segregator-constructors
 parent: nda::allocators::segregator
+nav_exclude: true
 ...
 

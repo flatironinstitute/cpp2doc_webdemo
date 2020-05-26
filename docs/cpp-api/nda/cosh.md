@@ -22,5 +22,6 @@ see-also: []
 title: nda::cosh
 permalink: /cpp-api/nda/cosh
 parent: nda
+nav_exclude: true
 ...
 

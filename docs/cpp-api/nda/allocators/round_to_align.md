@@ -22,5 +22,6 @@ see-also: []
 title: nda::allocators::round_to_align
 permalink: /cpp-api/nda/allocators/round_to_align
 parent: nda::allocators
+nav_exclude: true
 ...
 

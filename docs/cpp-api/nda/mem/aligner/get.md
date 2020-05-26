@@ -25,5 +25,6 @@ see-also: []
 title: nda::mem::aligner::get
 permalink: /cpp-api/nda/mem/aligner/get
 parent: nda::mem::aligner
+nav_exclude: true
 ...
 

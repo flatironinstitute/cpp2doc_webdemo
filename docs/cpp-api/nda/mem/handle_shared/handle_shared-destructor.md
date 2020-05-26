@@ -22,5 +22,6 @@ see-also: []
 title: nda::mem::handle_shared::~handle_shared<T>
 permalink: /cpp-api/nda/mem/handle_shared/~handle_shared<T>-destructor
 parent: nda::mem::handle_shared
+nav_exclude: true
 ...
 

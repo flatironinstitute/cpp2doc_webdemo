@@ -34,5 +34,6 @@ title: nda::mem::handle_stack
 permalink: /cpp-api/nda/mem/handle_stack
 has_children: true
 parent: nda::mem
+nav_exclude: true
 ...
 

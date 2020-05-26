@@ -35,5 +35,6 @@ title: nda::mem::handle_sso
 permalink: /cpp-api/nda/mem/handle_sso
 has_children: true
 parent: nda::mem
+nav_exclude: true
 ...
 

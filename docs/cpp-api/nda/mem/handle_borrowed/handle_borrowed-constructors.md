@@ -53,5 +53,6 @@ see-also: []
 title: nda::mem::handle_borrowed::handle_borrowed<T>
 permalink: /cpp-api/nda/mem/handle_borrowed/handle_borrowed-constructors
 parent: nda::mem::handle_borrowed
+nav_exclude: true
 ...
 

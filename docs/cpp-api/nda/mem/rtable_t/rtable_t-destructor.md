@@ -22,5 +22,6 @@ see-also: []
 title: nda::mem::rtable_t::~rtable_t
 permalink: /cpp-api/nda/mem/rtable_t/~rtable_t-destructor
 parent: nda::mem::rtable_t
+nav_exclude: true
 ...
 

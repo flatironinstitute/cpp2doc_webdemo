@@ -18,5 +18,6 @@ title: nda::default_accessor
 permalink: /cpp-api/nda/default_accessor
 has_children: true
 parent: nda
+nav_exclude: true
 ...
 

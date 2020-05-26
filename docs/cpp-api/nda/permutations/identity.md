@@ -22,5 +22,6 @@ see-also: []
 title: nda::permutations::identity
 permalink: /cpp-api/nda/permutations/identity
 parent: nda::permutations
+nav_exclude: true
 ...
 

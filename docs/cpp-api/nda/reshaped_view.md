@@ -45,5 +45,6 @@ see-also: []
 title: nda::reshaped_view
 permalink: /cpp-api/nda/reshaped_view
 parent: nda
+nav_exclude: true
 ...
 

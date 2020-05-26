@@ -22,5 +22,6 @@ see-also: []
 title: nda::decode
 permalink: /cpp-api/nda/decode
 parent: nda
+nav_exclude: true
 ...
 

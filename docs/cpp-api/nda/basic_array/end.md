@@ -25,5 +25,6 @@ see-also: []
 title: nda::basic_array::end
 permalink: /cpp-api/nda/basic_array/end
 parent: nda::basic_array
+nav_exclude: true
 ...
 

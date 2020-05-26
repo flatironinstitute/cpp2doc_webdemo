@@ -26,5 +26,6 @@ see-also: []
 title: nda::group_indices_layout
 permalink: /cpp-api/nda/group_indices_layout
 parent: nda
+nav_exclude: true
 ...
 

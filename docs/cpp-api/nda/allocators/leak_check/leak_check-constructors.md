@@ -28,5 +28,6 @@ see-also: []
 title: nda::allocators::leak_check::leak_check<A>
 permalink: /cpp-api/nda/allocators/leak_check/leak_check-constructors
 parent: nda::allocators::leak_check
+nav_exclude: true
 ...
 

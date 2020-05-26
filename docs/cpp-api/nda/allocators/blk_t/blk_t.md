@@ -27,5 +27,6 @@ title: nda::allocators::blk_t
 permalink: /cpp-api/nda/allocators/blk_t
 has_children: true
 parent: nda::allocators
+nav_exclude: true
 ...
 

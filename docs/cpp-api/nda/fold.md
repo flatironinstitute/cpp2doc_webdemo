@@ -26,5 +26,6 @@ see-also: []
 title: nda::fold
 permalink: /cpp-api/nda/fold
 parent: nda
+nav_exclude: true
 ...
 

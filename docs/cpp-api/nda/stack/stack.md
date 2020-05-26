@@ -18,5 +18,6 @@ title: nda::stack
 permalink: /cpp-api/nda/stack
 has_children: true
 parent: nda
+nav_exclude: true
 ...
 

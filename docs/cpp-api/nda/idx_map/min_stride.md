@@ -22,5 +22,6 @@ see-also: []
 title: nda::idx_map::min_stride
 permalink: /cpp-api/nda/idx_map/min_stride
 parent: nda::idx_map
+nav_exclude: true
 ...
 

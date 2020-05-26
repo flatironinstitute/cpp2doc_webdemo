@@ -26,5 +26,6 @@ see-also: []
 title: nda::runtime_error::operator<<
 permalink: /cpp-api/nda/runtime_error/operator<<
 parent: nda::runtime_error
+nav_exclude: true
 ...
 

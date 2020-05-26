@@ -18,5 +18,6 @@ title: nda::mem::globals
 permalink: /cpp-api/nda/mem/globals
 has_children: true
 parent: nda::mem
+nav_exclude: true
 ...
 

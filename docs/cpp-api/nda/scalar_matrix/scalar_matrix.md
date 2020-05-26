@@ -29,5 +29,6 @@ title: nda::scalar_matrix
 permalink: /cpp-api/nda/scalar_matrix
 has_children: true
 parent: nda
+nav_exclude: true
 ...
 

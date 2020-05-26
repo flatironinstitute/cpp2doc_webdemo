@@ -31,5 +31,6 @@ title: nda::allocators::leak_check
 permalink: /cpp-api/nda/allocators/leak_check
 has_children: true
 parent: nda::allocators
+nav_exclude: true
 ...
 

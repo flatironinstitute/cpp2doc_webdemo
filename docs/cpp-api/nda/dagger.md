@@ -22,5 +22,6 @@ see-also: []
 title: nda::dagger
 permalink: /cpp-api/nda/dagger
 parent: nda
+nav_exclude: true
 ...
 

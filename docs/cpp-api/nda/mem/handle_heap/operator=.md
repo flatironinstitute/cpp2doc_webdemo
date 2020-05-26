@@ -25,5 +25,6 @@ see-also: []
 title: nda::mem::handle_heap::operator=
 permalink: /cpp-api/nda/mem/handle_heap/operator=
 parent: nda::mem::handle_heap
+nav_exclude: true
 ...
 

@@ -28,5 +28,6 @@ see-also: []
 title: nda::map_layout_transform
 permalink: /cpp-api/nda/basic_array/map_layout_transform
 parent: nda::basic_array
+nav_exclude: true
 ...
 

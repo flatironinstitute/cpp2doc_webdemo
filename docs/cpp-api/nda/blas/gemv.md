@@ -37,5 +37,6 @@ see-also: []
 title: nda::blas::gemv
 permalink: /cpp-api/nda/blas/gemv
 parent: nda::blas
+nav_exclude: true
 ...
 

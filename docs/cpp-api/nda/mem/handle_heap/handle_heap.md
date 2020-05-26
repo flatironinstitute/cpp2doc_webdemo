@@ -34,5 +34,6 @@ title: nda::mem::handle_heap
 permalink: /cpp-api/nda/mem/handle_heap
 has_children: true
 parent: nda::mem
+nav_exclude: true
 ...
 

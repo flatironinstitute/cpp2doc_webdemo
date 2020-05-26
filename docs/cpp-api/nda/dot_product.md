@@ -25,5 +25,6 @@ see-also: []
 title: nda::dot_product
 permalink: /cpp-api/nda/dot_product
 parent: nda
+nav_exclude: true
 ...
 

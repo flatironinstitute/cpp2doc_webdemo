@@ -18,5 +18,6 @@ title: nda::no_alias_accessor
 permalink: /cpp-api/nda/no_alias_accessor
 has_children: true
 parent: nda
+nav_exclude: true
 ...
 

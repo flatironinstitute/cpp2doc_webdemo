@@ -22,5 +22,6 @@ title: nda::grid_iterator
 permalink: /cpp-api/nda/grid_iterator
 has_children: true
 parent: nda
+nav_exclude: true
 ...
 

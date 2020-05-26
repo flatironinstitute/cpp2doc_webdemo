@@ -22,5 +22,6 @@ see-also: []
 title: nda::exp
 permalink: /cpp-api/nda/exp
 parent: nda
+nav_exclude: true
 ...
 

@@ -31,5 +31,6 @@ see-also: []
 title: nda::make_const_view
 permalink: /cpp-api/nda/make_const_view
 parent: nda
+nav_exclude: true
 ...
 

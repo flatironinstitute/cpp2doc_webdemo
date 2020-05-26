@@ -24,5 +24,6 @@ see-also: []
 title: nda::permutations::apply
 permalink: /cpp-api/nda/permutations/apply
 parent: nda::permutations
+nav_exclude: true
 ...
 

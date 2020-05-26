@@ -18,5 +18,6 @@ title: nda::mem::init_zero_t
 permalink: /cpp-api/nda/mem/init_zero_t
 has_children: true
 parent: nda::mem
+nav_exclude: true
 ...
 

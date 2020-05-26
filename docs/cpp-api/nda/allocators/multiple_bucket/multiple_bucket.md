@@ -27,5 +27,6 @@ title: nda::allocators::multiple_bucket
 permalink: /cpp-api/nda/allocators/multiple_bucket
 has_children: true
 parent: nda::allocators
+nav_exclude: true
 ...
 

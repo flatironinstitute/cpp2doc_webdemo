@@ -24,5 +24,6 @@ see-also: []
 title: nda::front_mpop
 permalink: /cpp-api/nda/front_mpop
 parent: nda
+nav_exclude: true
 ...
 

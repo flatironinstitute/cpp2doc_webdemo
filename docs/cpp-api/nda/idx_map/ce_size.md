@@ -22,5 +22,6 @@ see-also: []
 title: nda::idx_map::ce_size
 permalink: /cpp-api/nda/idx_map/ce_size
 parent: nda::idx_map
+nav_exclude: true
 ...
 

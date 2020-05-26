@@ -22,5 +22,6 @@ see-also: []
 title: nda::range_tag::~range_tag
 permalink: /cpp-api/nda/range_tag/~range_tag-destructor
 parent: nda::range_tag
+nav_exclude: true
 ...
 

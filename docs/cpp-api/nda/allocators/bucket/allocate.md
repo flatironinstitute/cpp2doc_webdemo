@@ -22,5 +22,6 @@ see-also: []
 title: nda::allocators::bucket::allocate
 permalink: /cpp-api/nda/allocators/bucket/allocate
 parent: nda::allocators::bucket
+nav_exclude: true
 ...
 

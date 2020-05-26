@@ -22,5 +22,6 @@ see-also: []
 title: nda::mem::allocator_singleton::deallocate
 permalink: /cpp-api/nda/mem/allocator_singleton/deallocate
 parent: nda::mem::allocator_singleton
+nav_exclude: true
 ...
 

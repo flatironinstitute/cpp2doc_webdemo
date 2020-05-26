@@ -24,5 +24,6 @@ title: nda::basic_layout
 permalink: /cpp-api/nda/basic_layout
 has_children: true
 parent: nda
+nav_exclude: true
 ...
 

@@ -27,5 +27,6 @@ see-also: []
 title: nda::basic_array_view::rebind
 permalink: /cpp-api/nda/basic_array_view/rebind
 parent: nda::basic_array_view
+nav_exclude: true
 ...
 

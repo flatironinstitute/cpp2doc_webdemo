@@ -22,5 +22,6 @@ see-also: []
 title: nda::get_first_element
 permalink: /cpp-api/nda/get_first_element
 parent: nda
+nav_exclude: true
 ...
 

@@ -57,5 +57,6 @@ see-also: []
 title: nda::basic_array::basic_array<ValueType, Rank, Layout, Algebra, ContainerPolicy>
 permalink: /cpp-api/nda/basic_array/basic_array-constructors
 parent: nda::basic_array
+nav_exclude: true
 ...
 

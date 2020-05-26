@@ -28,5 +28,6 @@ see-also: []
 title: nda::pow
 permalink: /cpp-api/nda/pow
 parent: nda
+nav_exclude: true
 ...
 

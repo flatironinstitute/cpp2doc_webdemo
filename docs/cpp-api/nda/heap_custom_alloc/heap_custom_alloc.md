@@ -22,5 +22,6 @@ title: nda::heap_custom_alloc
 permalink: /cpp-api/nda/heap_custom_alloc
 has_children: true
 parent: nda
+nav_exclude: true
 ...
 

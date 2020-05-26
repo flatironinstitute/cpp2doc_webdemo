@@ -24,5 +24,6 @@ see-also: []
 title: nda::slice_static::sliced_mem_stride_order
 permalink: /cpp-api/nda/slice_static/sliced_mem_stride_order
 parent: nda::slice_static
+nav_exclude: true
 ...
 

@@ -22,5 +22,6 @@ see-also: []
 title: nda::floor
 permalink: /cpp-api/nda/floor
 parent: nda
+nav_exclude: true
 ...
 

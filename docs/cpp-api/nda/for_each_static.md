@@ -26,5 +26,6 @@ see-also: []
 title: nda::for_each_static
 permalink: /cpp-api/nda/for_each_static
 parent: nda
+nav_exclude: true
 ...
 

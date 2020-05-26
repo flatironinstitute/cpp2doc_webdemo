@@ -24,5 +24,6 @@ see-also: []
 title: nda::matvecmul
 permalink: /cpp-api/nda/matvecmul
 parent: nda
+nav_exclude: true
 ...
 

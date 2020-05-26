@@ -24,5 +24,6 @@ see-also: []
 title: nda::scalar_matrix::operator()
 permalink: /cpp-api/nda/scalar_matrix/operator()
 parent: nda::scalar_matrix
+nav_exclude: true
 ...
 

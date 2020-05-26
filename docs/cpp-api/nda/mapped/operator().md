@@ -24,5 +24,6 @@ see-also: []
 title: nda::mapped::operator()
 permalink: /cpp-api/nda/mapped/operator()
 parent: nda::mapped
+nav_exclude: true
 ...
 

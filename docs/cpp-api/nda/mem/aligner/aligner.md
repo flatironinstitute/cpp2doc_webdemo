@@ -27,5 +27,6 @@ title: nda::mem::aligner
 permalink: /cpp-api/nda/mem/aligner
 has_children: true
 parent: nda::mem
+nav_exclude: true
 ...
 

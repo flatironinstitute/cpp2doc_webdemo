@@ -24,5 +24,6 @@ see-also: []
 title: nda::matmul
 permalink: /cpp-api/nda/matmul
 parent: nda
+nav_exclude: true
 ...
 

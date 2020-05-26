@@ -28,5 +28,6 @@ see-also: []
 title: nda::blas::f77::scal
 permalink: /cpp-api/nda/blas/f77/scal
 parent: nda::blas::f77
+nav_exclude: true
 ...
 

@@ -22,5 +22,6 @@ see-also: []
 title: nda::allocators::leak_check::deallocate
 permalink: /cpp-api/nda/allocators/leak_check/deallocate
 parent: nda::allocators::leak_check
+nav_exclude: true
 ...
 

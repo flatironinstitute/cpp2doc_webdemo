@@ -33,5 +33,6 @@ see-also: []
 title: nda::grid_iterator<1>::grid_iterator
 permalink: /cpp-api/nda/grid_iterator/grid_iterator-constructors
 parent: nda::grid_iterator
+nav_exclude: true
 ...
 

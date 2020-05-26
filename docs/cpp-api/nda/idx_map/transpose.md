@@ -22,5 +22,6 @@ see-also: []
 title: nda::idx_map::transpose
 permalink: /cpp-api/nda/idx_map/transpose
 parent: nda::idx_map
+nav_exclude: true
 ...
 

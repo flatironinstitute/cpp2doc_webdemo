@@ -22,5 +22,6 @@ see-also: []
 title: nda::cos
 permalink: /cpp-api/nda/cos
 parent: nda
+nav_exclude: true
 ...
 

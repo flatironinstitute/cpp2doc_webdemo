@@ -23,5 +23,6 @@ see-also: []
 title: nda::front_pop
 permalink: /cpp-api/nda/front_pop
 parent: nda
+nav_exclude: true
 ...
 

@@ -23,5 +23,6 @@ title: nda::allocators::mallocator
 permalink: /cpp-api/nda/allocators/mallocator
 has_children: true
 parent: nda::allocators
+nav_exclude: true
 ...
 

@@ -32,5 +32,6 @@ title: nda::default_accessor::accessor
 permalink: /cpp-api/nda/default_accessor/accessor
 has_children: true
 parent: nda::default_accessor
+nav_exclude: true
 ...
 

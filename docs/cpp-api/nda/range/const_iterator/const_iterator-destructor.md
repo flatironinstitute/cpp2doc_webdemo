@@ -22,5 +22,6 @@ see-also: []
 title: nda::range::const_iterator::~const_iterator
 permalink: /cpp-api/nda/range/const_iterator/~const_iterator-destructor
 parent: nda::range::const_iterator
+nav_exclude: true
 ...
 

@@ -22,5 +22,6 @@ see-also: []
 title: nda::allocators::segregator::allocate
 permalink: /cpp-api/nda/allocators/segregator/allocate
 parent: nda::allocators::segregator
+nav_exclude: true
 ...
 

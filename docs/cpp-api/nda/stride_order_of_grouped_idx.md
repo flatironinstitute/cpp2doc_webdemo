@@ -24,5 +24,6 @@ see-also: []
 title: nda::stride_order_of_grouped_idx
 permalink: /cpp-api/nda/stride_order_of_grouped_idx
 parent: nda
+nav_exclude: true
 ...
 

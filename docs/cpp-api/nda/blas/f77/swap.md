@@ -29,5 +29,6 @@ see-also: []
 title: nda::blas::f77::swap
 permalink: /cpp-api/nda/blas/f77/swap
 parent: nda::blas::f77
+nav_exclude: true
 ...
 
