@@ -28,5 +28,6 @@ see-also: []
 title: nda::ellipsis::ellipsis
 permalink: /cpp-api/nda/ellipsis/ellipsis-constructors
 parent: nda::ellipsis
+nav_exclude: true
 ...
 

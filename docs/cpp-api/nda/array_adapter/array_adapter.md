@@ -23,5 +23,6 @@ title: nda::array_adapter
 permalink: /cpp-api/nda/array_adapter
 has_children: true
 parent: nda
+nav_exclude: true
 ...
 

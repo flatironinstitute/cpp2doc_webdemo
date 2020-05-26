@@ -22,5 +22,6 @@ see-also: []
 title: nda::allocators::blk_t::~blk_t
 permalink: /cpp-api/nda/allocators/blk_t/~blk_t-destructor
 parent: nda::allocators::blk_t
+nav_exclude: true
 ...
 

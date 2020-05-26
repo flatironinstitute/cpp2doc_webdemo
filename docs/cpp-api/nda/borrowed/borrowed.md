@@ -18,5 +18,6 @@ title: nda::borrowed
 permalink: /cpp-api/nda/borrowed
 has_children: true
 parent: nda
+nav_exclude: true
 ...
 

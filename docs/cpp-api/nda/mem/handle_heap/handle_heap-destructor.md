@@ -22,5 +22,6 @@ see-also: []
 title: nda::mem::handle_heap::~handle_heap<T, Allocator>
 permalink: /cpp-api/nda/mem/handle_heap/~handle_heap<T, Allocator>-destructor
 parent: nda::mem::handle_heap
+nav_exclude: true
 ...
 

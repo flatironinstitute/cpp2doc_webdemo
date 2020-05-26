@@ -22,5 +22,6 @@ see-also: []
 title: nda::blas::get_ld
 permalink: /cpp-api/nda/blas/get_ld
 parent: nda::blas
+nav_exclude: true
 ...
 

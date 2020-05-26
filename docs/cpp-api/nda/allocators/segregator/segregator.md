@@ -30,5 +30,6 @@ title: nda::allocators::segregator
 permalink: /cpp-api/nda/allocators/segregator
 has_children: true
 parent: nda::allocators
+nav_exclude: true
 ...
 

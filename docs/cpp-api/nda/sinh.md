@@ -22,5 +22,6 @@ see-also: []
 title: nda::sinh
 permalink: /cpp-api/nda/sinh
 parent: nda
+nav_exclude: true
 ...
 

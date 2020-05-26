@@ -26,5 +26,6 @@ see-also: []
 title: nda::basic_array::resize
 permalink: /cpp-api/nda/basic_array/resize
 parent: nda::basic_array
+nav_exclude: true
 ...
 

@@ -23,5 +23,6 @@ see-also: []
 title: nda::array_adapter::operator()
 permalink: /cpp-api/nda/array_adapter/operator()
 parent: nda::array_adapter
+nav_exclude: true
 ...
 

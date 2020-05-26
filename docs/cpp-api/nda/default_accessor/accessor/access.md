@@ -23,5 +23,6 @@ see-also: []
 title: nda::default_accessor::accessor::access
 permalink: /cpp-api/nda/default_accessor/accessor/access
 parent: nda::default_accessor::accessor
+nav_exclude: true
 ...
 

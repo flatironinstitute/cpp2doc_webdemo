@@ -26,5 +26,6 @@ title: nda::mapped
 permalink: /cpp-api/nda/mapped
 has_children: true
 parent: nda
+nav_exclude: true
 ...
 

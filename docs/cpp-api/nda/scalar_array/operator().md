@@ -22,5 +22,6 @@ see-also: []
 title: nda::scalar_array::operator()
 permalink: /cpp-api/nda/scalar_array/operator()
 parent: nda::scalar_array
+nav_exclude: true
 ...
 

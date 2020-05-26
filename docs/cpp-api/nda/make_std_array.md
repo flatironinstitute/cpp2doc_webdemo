@@ -24,5 +24,6 @@ see-also: []
 title: nda::make_std_array
 permalink: /cpp-api/nda/make_std_array
 parent: nda
+nav_exclude: true
 ...
 

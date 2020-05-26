@@ -27,5 +27,6 @@ title: nda::layout_info_t
 permalink: /cpp-api/nda/layout_info_t
 has_children: true
 parent: nda
+nav_exclude: true
 ...
 

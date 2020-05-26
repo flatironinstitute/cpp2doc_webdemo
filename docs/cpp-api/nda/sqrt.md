@@ -22,5 +22,6 @@ see-also: []
 title: nda::sqrt
 permalink: /cpp-api/nda/sqrt
 parent: nda
+nav_exclude: true
 ...
 

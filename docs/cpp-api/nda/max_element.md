@@ -22,5 +22,6 @@ see-also: []
 title: nda::max_element
 permalink: /cpp-api/nda/max_element
 parent: nda
+nav_exclude: true
 ...
 

@@ -35,5 +35,6 @@ title: nda::details::bound_check_worker
 permalink: /cpp-api/nda/details/bound_check_worker
 has_children: true
 parent: nda::details
+nav_exclude: true
 ...
 

@@ -33,5 +33,6 @@ see-also: []
 title: nda::map_layout_transform
 permalink: /cpp-api/nda/map_layout_transform
 parent: nda
+nav_exclude: true
 ...
 

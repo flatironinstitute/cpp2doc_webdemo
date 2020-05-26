@@ -18,5 +18,6 @@ title: nda::heap
 permalink: /cpp-api/nda/heap
 has_children: true
 parent: nda
+nav_exclude: true
 ...
 

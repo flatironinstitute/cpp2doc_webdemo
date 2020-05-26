@@ -22,5 +22,6 @@ see-also: []
 title: nda::encode
 permalink: /cpp-api/nda/encode
 parent: nda
+nav_exclude: true
 ...
 

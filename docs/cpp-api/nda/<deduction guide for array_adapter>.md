@@ -31,5 +31,6 @@ see-also: []
 title: nda::<deduction guide for array_adapter>
 permalink: /cpp-api/nda/<deduction guide for array_adapter>
 parent: nda
+nav_exclude: true
 ...
 

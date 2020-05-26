@@ -25,5 +25,6 @@ see-also: []
 title: nda::join
 permalink: /cpp-api/nda/join
 parent: nda
+nav_exclude: true
 ...
 

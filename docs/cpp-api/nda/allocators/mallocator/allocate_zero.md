@@ -22,5 +22,6 @@ see-also: []
 title: nda::allocators::mallocator::allocate_zero
 permalink: /cpp-api/nda/allocators/mallocator/allocate_zero
 parent: nda::allocators::mallocator
+nav_exclude: true
 ...
 

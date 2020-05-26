@@ -22,5 +22,6 @@ see-also: []
 title: nda::tanh
 permalink: /cpp-api/nda/tanh
 parent: nda
+nav_exclude: true
 ...
 

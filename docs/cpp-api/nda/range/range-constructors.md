@@ -39,5 +39,6 @@ see-also: []
 title: nda::range::range
 permalink: /cpp-api/nda/range/range-constructors
 parent: nda::range
+nav_exclude: true
 ...
 

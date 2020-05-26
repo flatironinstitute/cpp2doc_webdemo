@@ -23,5 +23,6 @@ see-also: []
 title: nda::resize_or_check_if_view
 permalink: /cpp-api/nda/resize_or_check_if_view
 parent: nda
+nav_exclude: true
 ...
 

@@ -22,5 +22,6 @@ see-also: []
 title: nda::mem::handle_heap::data
 permalink: /cpp-api/nda/mem/handle_heap/data
 parent: nda::mem::handle_heap
+nav_exclude: true
 ...
 

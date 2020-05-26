@@ -25,5 +25,6 @@ see-also: []
 title: nda::front_append
 permalink: /cpp-api/nda/front_append
 parent: nda
+nav_exclude: true
 ...
 

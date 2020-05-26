@@ -22,5 +22,6 @@ see-also: []
 title: nda::basic_array::cend
 permalink: /cpp-api/nda/basic_array/cend
 parent: nda::basic_array
+nav_exclude: true
 ...
 

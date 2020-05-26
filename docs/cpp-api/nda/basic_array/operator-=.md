@@ -22,5 +22,6 @@ see-also: []
 title: nda::basic_array::operator-=
 permalink: /cpp-api/nda/basic_array/operator-=
 parent: nda::basic_array
+nav_exclude: true
 ...
 

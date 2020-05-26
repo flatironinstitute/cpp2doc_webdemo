@@ -32,5 +32,6 @@ title: nda::no_alias_accessor::accessor
 permalink: /cpp-api/nda/no_alias_accessor/accessor
 has_children: true
 parent: nda::no_alias_accessor
+nav_exclude: true
 ...
 

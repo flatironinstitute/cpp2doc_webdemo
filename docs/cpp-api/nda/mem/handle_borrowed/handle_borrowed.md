@@ -35,5 +35,6 @@ title: nda::mem::handle_borrowed
 permalink: /cpp-api/nda/mem/handle_borrowed
 has_children: true
 parent: nda::mem
+nav_exclude: true
 ...
 

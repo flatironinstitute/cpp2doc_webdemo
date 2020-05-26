@@ -22,5 +22,6 @@ see-also: []
 title: nda::range::cend
 permalink: /cpp-api/nda/range/cend
 parent: nda::range
+nav_exclude: true
 ...
 

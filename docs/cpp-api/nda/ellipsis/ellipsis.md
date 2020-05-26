@@ -18,5 +18,6 @@ title: nda::ellipsis
 permalink: /cpp-api/nda/ellipsis
 has_children: true
 parent: nda
+nav_exclude: true
 ...
 

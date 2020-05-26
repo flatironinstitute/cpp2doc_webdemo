@@ -23,5 +23,6 @@ title: nda::runtime_error
 permalink: /cpp-api/nda/runtime_error
 has_children: true
 parent: nda
+nav_exclude: true
 ...
 

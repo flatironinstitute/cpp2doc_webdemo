@@ -30,5 +30,6 @@ title: nda::allocators::stats
 permalink: /cpp-api/nda/allocators/stats
 has_children: true
 parent: nda::allocators
+nav_exclude: true
 ...
 

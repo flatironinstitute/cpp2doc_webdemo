@@ -27,5 +27,6 @@ see-also: []
 title: nda::operator-
 permalink: /cpp-api/nda/operator-
 parent: nda
+nav_exclude: true
 ...
 

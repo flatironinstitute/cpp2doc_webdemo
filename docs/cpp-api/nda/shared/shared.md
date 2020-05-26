@@ -18,5 +18,6 @@ title: nda::shared
 permalink: /cpp-api/nda/shared
 has_children: true
 parent: nda
+nav_exclude: true
 ...
 

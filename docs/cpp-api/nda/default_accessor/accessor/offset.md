@@ -23,5 +23,6 @@ see-also: []
 title: nda::default_accessor::accessor::offset
 permalink: /cpp-api/nda/default_accessor/accessor/offset
 parent: nda::default_accessor::accessor
+nav_exclude: true
 ...
 

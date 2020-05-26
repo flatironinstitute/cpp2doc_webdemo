@@ -18,5 +18,6 @@ title: nda::mem::do_not_initialize_t
 permalink: /cpp-api/nda/mem/do_not_initialize_t
 has_children: true
 parent: nda::mem
+nav_exclude: true
 ...
 

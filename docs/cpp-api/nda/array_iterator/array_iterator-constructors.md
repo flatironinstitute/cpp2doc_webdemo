@@ -31,5 +31,6 @@ see-also: []
 title: nda::array_iterator::array_iterator<Rank, T, Pointer>
 permalink: /cpp-api/nda/array_iterator/array_iterator-constructors
 parent: nda::array_iterator
+nav_exclude: true
 ...
 

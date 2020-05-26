@@ -48,5 +48,6 @@ see-also: []
 title: nda::basic_array_view::basic_array_view<ValueType, Rank, Layout, Algebra, AccessorPolicy, OwningPolicy>
 permalink: /cpp-api/nda/basic_array_view/basic_array_view-constructors
 parent: nda::basic_array_view
+nav_exclude: true
 ...
 

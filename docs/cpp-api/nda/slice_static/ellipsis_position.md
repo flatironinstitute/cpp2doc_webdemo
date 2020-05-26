@@ -22,5 +22,6 @@ see-also: []
 title: nda::slice_static::ellipsis_position
 permalink: /cpp-api/nda/slice_static/ellipsis_position
 parent: nda::slice_static
+nav_exclude: true
 ...
 

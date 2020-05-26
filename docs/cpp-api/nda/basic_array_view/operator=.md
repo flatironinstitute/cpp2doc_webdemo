@@ -33,5 +33,6 @@ see-also: []
 title: nda::basic_array_view::operator=
 permalink: /cpp-api/nda/basic_array_view/operator=
 parent: nda::basic_array_view
+nav_exclude: true
 ...
 

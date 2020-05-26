@@ -23,5 +23,6 @@ see-also: []
 title: nda::array_adapter::array_adapter<R, F>
 permalink: /cpp-api/nda/array_adapter/array_adapter-constructors
 parent: nda::array_adapter
+nav_exclude: true
 ...
 

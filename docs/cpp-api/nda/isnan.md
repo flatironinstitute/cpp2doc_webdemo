@@ -26,5 +26,6 @@ see-also: []
 title: nda::isnan
 permalink: /cpp-api/nda/isnan
 parent: nda
+nav_exclude: true
 ...
 

@@ -22,5 +22,6 @@ see-also: []
 title: nda::mem::handle_stack::size
 permalink: /cpp-api/nda/mem/handle_stack/size
 parent: nda::mem::handle_stack
+nav_exclude: true
 ...
 

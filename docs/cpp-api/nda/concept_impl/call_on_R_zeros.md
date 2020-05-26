@@ -23,5 +23,6 @@ see-also: []
 title: nda::concept_impl::call_on_R_zeros
 permalink: /cpp-api/nda/concept_impl/call_on_R_zeros
 parent: nda::concept_impl
+nav_exclude: true
 ...
 

@@ -31,5 +31,6 @@ see-also: []
 title: nda::make_matrix_const_view
 permalink: /cpp-api/nda/make_matrix_const_view
 parent: nda
+nav_exclude: true
 ...
 

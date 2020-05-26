@@ -22,5 +22,6 @@ see-also: []
 title: nda::mem::handle_shared::refcount
 permalink: /cpp-api/nda/mem/handle_shared/refcount
 parent: nda::mem::handle_shared
+nav_exclude: true
 ...
 

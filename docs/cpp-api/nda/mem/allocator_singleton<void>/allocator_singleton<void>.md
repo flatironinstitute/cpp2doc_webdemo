@@ -20,5 +20,6 @@ title: nda::mem::allocator_singleton<void>
 permalink: /cpp-api/nda/mem/allocator_singleton<void>
 has_children: true
 parent: nda::mem
+nav_exclude: true
 ...
 

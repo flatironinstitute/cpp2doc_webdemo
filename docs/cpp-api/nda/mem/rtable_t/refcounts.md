@@ -22,5 +22,6 @@ see-also: []
 title: nda::mem::rtable_t::refcounts
 permalink: /cpp-api/nda/mem/rtable_t/refcounts
 parent: nda::mem::rtable_t
+nav_exclude: true
 ...
 

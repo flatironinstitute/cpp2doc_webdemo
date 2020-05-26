@@ -45,5 +45,6 @@ title: nda::idx_map
 permalink: /cpp-api/nda/idx_map
 has_children: true
 parent: nda
+nav_exclude: true
 ...
 

@@ -18,5 +18,6 @@ title: nda::F_layout
 permalink: /cpp-api/nda/F_layout
 has_children: true
 parent: nda
+nav_exclude: true
 ...
 

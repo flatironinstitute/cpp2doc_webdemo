@@ -28,5 +28,6 @@ see-also: []
 title: nda::blas::gemv_generic
 permalink: /cpp-api/nda/blas/gemv_generic
 parent: nda::blas
+nav_exclude: true
 ...
 

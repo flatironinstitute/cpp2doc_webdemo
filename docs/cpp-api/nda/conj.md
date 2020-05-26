@@ -22,5 +22,6 @@ see-also: []
 title: nda::conj
 permalink: /cpp-api/nda/conj
 parent: nda
+nav_exclude: true
 ...
 

@@ -22,5 +22,6 @@ title: nda::idx_group_t
 permalink: /cpp-api/nda/idx_group_t
 has_children: true
 parent: nda
+nav_exclude: true
 ...
 

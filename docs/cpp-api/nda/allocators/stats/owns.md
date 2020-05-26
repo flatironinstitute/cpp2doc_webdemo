@@ -22,5 +22,6 @@ see-also: []
 title: nda::allocators::stats::owns
 permalink: /cpp-api/nda/allocators/stats/owns
 parent: nda::allocators::stats
+nav_exclude: true
 ...
 

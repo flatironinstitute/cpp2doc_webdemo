@@ -29,5 +29,6 @@ title: nda::mem::rtable_t
 permalink: /cpp-api/nda/mem/rtable_t
 has_children: true
 parent: nda::mem
+nav_exclude: true
 ...
 

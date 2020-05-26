@@ -30,5 +30,6 @@ title: nda::scalar_array
 permalink: /cpp-api/nda/scalar_array
 has_children: true
 parent: nda
+nav_exclude: true
 ...
 

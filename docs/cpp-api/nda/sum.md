@@ -22,5 +22,6 @@ see-also: []
 title: nda::sum
 permalink: /cpp-api/nda/sum
 parent: nda
+nav_exclude: true
 ...
 

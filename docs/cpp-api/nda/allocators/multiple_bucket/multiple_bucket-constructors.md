@@ -28,5 +28,6 @@ see-also: []
 title: nda::allocators::multiple_bucket::multiple_bucket<ChunkSize>
 permalink: /cpp-api/nda/allocators/multiple_bucket/multiple_bucket-constructors
 parent: nda::allocators::multiple_bucket
+nav_exclude: true
 ...
 

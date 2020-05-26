@@ -34,5 +34,6 @@ title: nda::array_iterator
 permalink: /cpp-api/nda/array_iterator
 has_children: true
 parent: nda
+nav_exclude: true
 ...
 

@@ -23,5 +23,6 @@ see-also: []
 title: nda::rank_are_compatible
 permalink: /cpp-api/nda/rank_are_compatible
 parent: nda
+nav_exclude: true
 ...
 

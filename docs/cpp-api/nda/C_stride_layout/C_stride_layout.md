@@ -18,5 +18,6 @@ title: nda::C_stride_layout
 permalink: /cpp-api/nda/C_stride_layout
 has_children: true
 parent: nda
+nav_exclude: true
 ...
 

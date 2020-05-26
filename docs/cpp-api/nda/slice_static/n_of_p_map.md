@@ -26,5 +26,6 @@ see-also: []
 title: nda::slice_static::n_of_p_map
 permalink: /cpp-api/nda/slice_static/n_of_p_map
 parent: nda::slice_static
+nav_exclude: true
 ...
 

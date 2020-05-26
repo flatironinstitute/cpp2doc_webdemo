@@ -22,5 +22,6 @@ see-also: []
 title: nda::blas::get_n_rows
 permalink: /cpp-api/nda/blas/get_n_rows
 parent: nda::blas
+nav_exclude: true
 ...
 

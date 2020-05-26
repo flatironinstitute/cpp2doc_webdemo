@@ -23,5 +23,6 @@ see-also: []
 title: nda::common_algebra
 permalink: /cpp-api/nda/common_algebra
 parent: nda
+nav_exclude: true
 ...
 

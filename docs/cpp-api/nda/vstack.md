@@ -24,5 +24,6 @@ see-also: []
 title: nda::vstack
 permalink: /cpp-api/nda/vstack
 parent: nda
+nav_exclude: true
 ...
 

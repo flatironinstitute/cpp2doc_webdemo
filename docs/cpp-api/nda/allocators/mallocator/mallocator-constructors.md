@@ -28,5 +28,6 @@ see-also: []
 title: nda::allocators::mallocator::mallocator
 permalink: /cpp-api/nda/allocators/mallocator/mallocator-constructors
 parent: nda::allocators::mallocator
+nav_exclude: true
 ...
 

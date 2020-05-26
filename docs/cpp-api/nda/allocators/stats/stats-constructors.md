@@ -28,5 +28,6 @@ see-also: []
 title: nda::allocators::stats::stats<A>
 permalink: /cpp-api/nda/allocators/stats/stats-constructors
 parent: nda::allocators::stats
+nav_exclude: true
 ...
 
