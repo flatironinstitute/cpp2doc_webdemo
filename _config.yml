@@ -7,6 +7,12 @@ email: oparcollet@flatironinstitute.org
 # TODO: REMOVE THESE?
 # Build Settings
 
+# Build Settings
+kramdown:
+   input: ERBKramdown #nFM
+#   math_engine: katex
+#   math_engine_opts: {}
+
 exclude:
   [
     "node_modules/",
