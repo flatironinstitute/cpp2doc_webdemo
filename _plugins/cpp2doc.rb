@@ -1,6 +1,7 @@
 require 'kramdown/parser/kramdown'
 require 'kramdown/parser/gfm'
 require 'digest'
+require 'yaml'
 
 class Kramdown::Parser::ERBKramdown < Kramdown::Parser::GFM
 
@@ -8,7 +9,48 @@ class Kramdown::Parser::ERBKramdown < Kramdown::Parser::GFM
      super
      @span_parsers.unshift(:erb_tags)
      @block_parsers.unshift(:berb_tags)
+     @block_parsers.unshift(:cpp2doc_tags)
    end
+
+   CPP2DOC_TABLE_TAGS_START = /<T(.*?)T>/m
+  
+   def parse_cpp2doc_tags
+    @src.pos += @src.matched_size
+    args = @src.matched[2..-3].strip.split
+
+    # protect, etc,..
+    data = YAML.load(File.read("_data/" + args[1] + '.yml'))
+    l = data[args[2]]
+    l.sort!()
+    ncol = args[3].to_i
+    nrow = (l.length() + 1)/ ncol 
+    table = new_block_el(:table, nil, nil, alignment: [], location: @src.current_line_number)
+    tbody =  new_block_el(:thead)
+   
+    (0..nrow-1).each do |i|
+      tr =  new_block_el(:tr)
+      (0..ncol-1).each do |j|
+        n = i*ncol + j
+        if n < l.length() then 
+          td =  new_block_el(:td)
+          fn = l[n].split('/')[-1]
+          data_f = YAML.load(File.read('docs/' + l[n]+ '.md'))
+          html = '<a href="' + l[n] + '" title="' + data_f['brief'] + '"> ' + fn + '</a>'
+          td.children << Element.new(:raw, html)
+          tr.children << td
+        end
+      end 
+      tbody.children << tr
+    end
+
+    #table.children << thead
+    table.children << tbody
+    table.attr['class'] = "table-cpp2doc-test"
+    @tree.children << table
+
+   end 
+   define_parser(:cpp2doc_tags, CPP2DOC_TABLE_TAGS_START, '<T')
+
 
    ERB_TAGS_START = /<%(.*?)%>/m
    BERB_TAGS_START = /<%(.*?)%>/m

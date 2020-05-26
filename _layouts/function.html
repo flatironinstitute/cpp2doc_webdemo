@@ -35,15 +35,16 @@ layout: default
  <!--Description of each overload-->
 <ol>
 {% for entity in page.overloads %}
+ {%- if entity[1].desc != "" -%}
 <li>
  {%- if entity[1].deprecated -%}[DEPRECATED]{%- endif -%}
  {{entity[1].desc| markdownify}}
+ {%- endif -%}
 {% endfor %}
 </ol>
 
  <!-- Template parameters  FIXME : FACTORIZE-->
-
- {% if page.tparams %}
+ {% if page.tparams.size != 0 %}
 <h5> Template parameters</h5>
 
 <table class='tparam-table' >
@@ -59,7 +60,7 @@ layout: default
 {% endif %}
 
  <!--Parameters -->
-
+{% if page.params.size != 0 %}
 <h5> Parameters</h5>
 
 <table class='param-table' >
@@ -70,6 +71,7 @@ layout: default
     </tr>
  {% endfor %}
 </table>
+{% endif %}
 
  <!-- Return -->
 
