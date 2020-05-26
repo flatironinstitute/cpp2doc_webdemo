@@ -2,7 +2,8 @@
 title: Design
 has_children: true
 nav_order: 99
-# nav_exclude: true TODO: Exclude from production site? Move to space for editors.
+# TODO: Swap this back in. Exclude from production site? Move to space for editors.
+nav_exclude: true
 permalink: /design
 ---
 

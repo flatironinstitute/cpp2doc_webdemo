@@ -2,6 +2,7 @@
     {%- assign pages_list = site.html_pages | sort:"nav_order" -%}
     {%- for node in pages_list -%}
       {%- unless node.nav_exclude -%}
+      <!-- TODO: Create a smaller subset with the nav_exclude -->
         {%- assign perm_id =  node.permalink | "/" -%}
         {%- assign node_data = perm_id | get_level_array_of: site.data.levels -%}
         {%- assign node_level = node_data.nest-%}
