@@ -16,7 +16,9 @@ module Jekyll
           if perm
             # Add page properties needed for nav as a hash
             nest = page['permalink'].split("/").slice(1, page["permalink"].size)
-            levels[perm] = { 'nest' => nest, 'page' => page }
+            unless page['nav_exclude']
+              levels[perm] = { 'nest' => nest, 'page' => page }
+            end
           end
         end
 

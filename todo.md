@@ -9,16 +9,23 @@ _updated 5/22_
 
 ## To Do before demo:
 
-- Fix the index / Fix Webrick.
-- Test pipeline/README with a user
-- Fix page name in browser
-- Test with new docs
+_priority_
+
+- Search finish
+- Fix the index / Fix Webrick
+- improve nav speed generation
+- Incremental regeneration
+- Remove toc - update heading on layouts from OP. \* Add :no-toc to class, function, namespace, cpp-concept.
+- Width on left bar - smaller.
+- Change min-width on <td> in signature numeration - make a class. Also make a class for the related number information "signature-table"
+- Confirm that left nesting highlights are working correctly (see Design dropdown)
 - Add function name etc on top of each page in heading.(see cppref - only name no namespace with parent/::)
-- Add :no-toc to class, function, namespace, cpp-concept.
+
+## Todo after demo:
+
+- Update pipeline/README with feedback from Alex. Add information on what is available for contributor editing.
 - Change main-concepts to an alternate name to avoid confusion with new c++ concepts.
 - Vim links / github links
-- Confirm that left nesting highlights are working correctly (see Design dropdown)
-- Update highlighting/link script with correct urls (see array)
 
 ## To Verify:
 
@@ -47,3 +54,4 @@ Files and permalink structure changes:
       - `title`
       - `has-children` (if applicable)
       -  permalink starts with "/"
+    10. page title / seo

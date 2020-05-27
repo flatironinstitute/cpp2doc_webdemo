@@ -4,7 +4,8 @@
 <!DOCTYPE html>
 
 <html lang="{{ site.lang | default: "en-US" }}">
-  {% include_cached head.html %}
+  {% seo %}
+  {% include head.html %}
 <body>
   <svg xmlns="http://www.w3.org/2000/svg" style="display: none;">
     <symbol id="link" viewBox="0 0 16 16">
@@ -16,7 +17,7 @@
   <div class="page-wrap">
     <div class="side-bar">
       <div class="site-header">
-        <a href="{{ site.url }}{{ site.baseurl }}" class="site-title lh-tight">{% include_cached title.html %}</a>
+        <a href="{{ site.url }}{{ site.baseurl }}" class="site-title lh-tight">{% include title.html %}</a>
         <button class="menu-button fs-3 js-main-nav-trigger" data-text-toggle="Hide" type="button">Menu</button>
       </div>
 
