@@ -2,6 +2,9 @@
 layout: default
 ---
 
+<br>
+
+<!--Edit in {{page.permalink}}.md -->
 <br/>
 
 <!--Includer-->
@@ -41,7 +44,6 @@ layout: default
 {% if page.constructor %}
    <tr>
      <td class="method-name" align="right"> <a href="{{page.constructor}}_.html"> (constructor) </a>  </td>
-     <td > <b>-</b> </td>
      <td class="method-brief">
      </td>
     </tr>
@@ -49,7 +51,6 @@ layout: default
 {% if page.destructor %}
    <tr>
      <td class="method-name" align="right"> <a href="destructor_.html"> (destructor) </a>  </td>
-     <td > <b>-</b> </td>
      <td class="method-brief">
      </td>
     </tr>
@@ -61,11 +62,10 @@ layout: default
 {% else %}
      <td class="method-name" align="right"> <a href="{{name}}.html"> {{name}} </a>  </td>
 {% endif %}
-     <!--<td > <b>-</b> </td>-->
      <td class="method-brief">
       <!--FIXME : remove p ?-->
       {% assign qname =  page.qualified_name |append: '::' |append: name %}
-      {{ qname | get_brief: site.data.allbriefs | markdownify | remove: '<p>' | remove: '</p>'}}
+      {{ qname | get_brief: site.data.qname_to_brief | markdownify | remove: '<p>' | remove: '</p>'}}
      </td>
     </tr>
  {% endfor %}

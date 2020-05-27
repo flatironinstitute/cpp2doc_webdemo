@@ -150,9 +150,11 @@ template <typename A> concept Array= requires(A const &a) {
   template <typename A>
   void fgh0b(A const &a) REQUIRES(ArrayOfRank<A, 2>) {}
 
+  /// \merge FGH12
   template <typename A>
   void fgh1(A const &a) REQUIRES(Array<A> and get_rank<A> == 3) {}
 
+  /// \merge FGH12
   template <typename A>
   void fgh2(A const &a) REQUIRES(Array<A> and (A::rank == 2)) {}
 
@@ -187,9 +189,12 @@ template <typename A> concept Array= requires(A const &a) {
 
   /// DOC
   ///
-  /// \tag(Tag1) Tag2
-  /// 
+  /// \tag Tag1 Tag2
+  ///
+  /// kekfek
   /// \ingroup G1 G2
+  /// \private k
+  /// with some doc
   struct non {
 
     long shape() const { return {}; }

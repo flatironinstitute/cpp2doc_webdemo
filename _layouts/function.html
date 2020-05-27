@@ -18,7 +18,7 @@ layout: default
 {% for entity in page.overloads %}
     <tr>
      <td> {{forloop.index}} </td>
-     <td><span class='signature'>{{- entity[0] | link_and_highlight: site.data.highlighted_types, page.namespaces -}}</span></td>
+     <td><span class='signature'>{{- entity.signature | link_and_highlight: site.data.highlighted_types, page.namespaces -}}</span></td>
      <!--<td> [Source] </td>-->
     </tr>
 {% endfor %}
@@ -35,10 +35,10 @@ layout: default
  <!--Description of each overload-->
 <ol>
 {% for entity in page.overloads %}
- {%- if entity[1].desc != "" -%}
+ {%- if entity.desc != "" -%}
 <li>
- {%- if entity[1].deprecated -%}[DEPRECATED]{%- endif -%}
- {{entity[1].desc| markdownify}}
+ {%- if entity.deprecated -%}[DEPRECATED]{%- endif -%}
+ {{entity.desc| markdownify}}
  {%- endif -%}
 {% endfor %}
 </ol>

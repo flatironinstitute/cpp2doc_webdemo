@@ -36,7 +36,7 @@ layout: default
      {%- else -%}
       {% assign qname =  page.qualified_name |append: '::' |append: name %}
      {%- endif  -%}
-      {{ qname | get_brief: site.data.allbriefs | markdownify | remove: '<p>' | remove: '</p>'}}
+      {{ qname | get_brief: site.data.qname_to_brief | markdownify | remove: '<p>' | remove: '</p>'}}
     </td>
     </tr>
  {% endfor %}
@@ -57,7 +57,7 @@ layout: default
      {%- else -%}
       {% assign qname =  page.qualified_name |append: '::' |append: name %}
      {%- endif  -%}
-      {{ qname | get_brief: site.data.allbriefs | markdownify | remove: '<p>' | remove: '</p>'}}
+      {{ qname | get_brief: site.data.qname_to_brief | markdownify | remove: '<p>' | remove: '</p>'}}
      </td>
     </tr>
  {% endfor %}

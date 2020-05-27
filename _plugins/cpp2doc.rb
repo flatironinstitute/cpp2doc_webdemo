@@ -166,32 +166,30 @@ module Jekyll
   # This function is executed before rendering the pages
   # Cf Jekyll help, custom Generators
   # It constructs
-  # briefs :  a hash table  qualified_name  --> brief documentation
+  # qname_to_brief :  a hash table  qualified_name  --> brief documentation
   # highlighted_types : a list of qualified name of type which are documented and
   # will be used to make link in highlighted code
   #
   class Generator < Jekyll::Generator
     def generate(site)
-      briefs = {}
+      qname_to_brief = {}
+      qname_to_permalinks = {}
       classes = []
-      urls = {}
       site.pages.each do |page|
         qname = page['qualified_name']
         if page['layout'] == 'function'
-          briefs[qname] = page['brief']
-          urls[qname] = '/docs/cpp-api/' + qname.gsub('::','/') + ".html"
+          qname_to_brief[qname] = page['brief']
+          qname_to_permalinks[qname] = page['permalink']
         end
         if page['layout'] == 'class'
-          briefs[qname] = page['brief']
-          urls[qname] = '/docs/cpp-api/' + qname.gsub('::','/') + "/index.html"
+          qname_to_brief[qname] = page['brief']
+          qname_to_permalinks[qname] = page['permalink']
           classes.append(page['qualified_name'])
         end
       end
-      site.data["urls"] = urls
-      site.data["allbriefs"] = briefs
+      site.data["qname_to_permalinks"] = qname_to_permalinks
+      site.data["qname_to_brief"] = qname_to_brief
       site.data["highlighted_types"] = classes
-      puts "Computing briefs"
-      system("pwd")
     end
   end
   end
@@ -201,19 +199,17 @@ module Jekyll
     # This filter get the url of the page of an object
     # with qualified name qname
     def get_page_of(qname, site)
-      urls = site['urls']
-      if urls.key?(qname) then
-        #puts qname, urls[qname]
-        return urls[qname]
+      qname_to_permalinks = site['qname_to_permalinks']
+      if qname_to_permalinks.key?(qname) then
+        return qname_to_permalinks[qname]
       end
     end
 
    # This filter associates the brief doc to a qualified name using the global table
     # The point is that the data is on *another* page.
-    # We must pass the table since a filter does not have the site variable
-    # FIXME : Can this be fixed ? Can I not pass site_allbriefs ?
-    def get_brief(qname, site_allbriefs)
-      site_allbriefs [qname]
+    # We must pass the table since a filter does not see the site variable
+    def get_brief(qname, qname_to_brief)
+      qname_to_brief [qname]
     end
 
     # This filter takes :
@@ -221,6 +217,10 @@ module Jekyll
     #  - highlighted_types : the global list of types from the site
     #  - namespace_list : namespace where the page being rendered.
     def link_and_highlight(source, highlighted_types, namespace_list= [])
+
+      if not source then 
+        return source
+      end
 
       require 'rouge' # we use the highlighter
 
