@@ -1,30 +1,51 @@
 ---
+# Do not edit this first section
 layout: function
 short_name: resize
 qualified_name: nda::basic_array::resize
 namespaces: [nda, basic_array]
 includer: nda/nda.hpp
+
+# Brief description. One line only.
 brief: ""
+
+# List of overloads. Edit only the desc
 overloads:
-  "template <std::integral Int>\nvoid resize(const Int &... extent)":
+
+  - signature: |
+      template <std::integral Int>
+      void resize(const Int &... extent)
     desc: ""
-    source: nda/basic_array.hpp
-  void resize(const std::array<long, Rank> & shape):
+
+  - signature: void resize(const std::array<long, Rank> & shape)
     desc: ""
-    source: nda/basic_array.hpp
+
+# Long description. Any Markdown, with code, latex, multiline with |
 desc: Resizes the array. Invalidates all references to the storage. Content is undefined, makes no copy of previous data.
+
+# Parameters of the function. Edit only the description after the :
 params:
   extent: __MISSING__
   shape: New shape of the array (lengths in each dimension)
+
+# Template parameters of the function. Edit only the description after the :
 tparams:
   Int: __MISSING__
+
+# Desc of the return value
 return_value: __MISSING__
+
+# Code example. desc: any markdown to explain it.
 example:
   desc: __MISSING__
   code: __MISSING__
+
+# A list of related functions/classes
 see-also: []
-title: nda::basic_array::resize
+
+# ---------- DO NOT EDIT BELOW --------
 permalink: /cpp-api/nda/basic_array/resize
+title: nda::basic_array::resize
 parent: nda::basic_array
 nav_exclude: true
 ...

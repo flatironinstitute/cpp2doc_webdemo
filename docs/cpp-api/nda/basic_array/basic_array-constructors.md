@@ -1,42 +1,57 @@
 ---
+# Do not edit this first section
 layout: function
 short_name: basic_array
 qualified_name: nda::basic_array::basic_array<ValueType, Rank, Layout, Algebra, ContainerPolicy>
 namespaces: [nda, basic_array]
 includer: nda/nda.hpp
+
+# Brief description. One line only.
 brief: Empty array
+
+# List of overloads. Edit only the desc
 overloads:
-  basic_array():
+
+  - signature: basic_array()
     desc: Empty array
-    source: nda/basic_array.hpp
-  basic_array(const basic_array<ValueType, Rank, Layout, Algebra, ContainerPolicy> & ) noexcept:
+
+  - signature: basic_array(const basic_array<ValueType, Rank, Layout, Algebra, ContainerPolicy> & ) noexcept
     desc: Makes a deep copy, since array is a regular type
-    source: nda/basic_array.hpp
-  basic_array(basic_array<ValueType, Rank, Layout, Algebra, ContainerPolicy> && ):
+
+  - signature: basic_array(basic_array<ValueType, Rank, Layout, Algebra, ContainerPolicy> && )
     desc: ""
-    source: nda/basic_array.hpp
-  "template <std::integral Int>\nbasic_array(Int... is) noexcept":
+
+  - signature: |
+      template <std::integral Int>
+      basic_array(Int... is) noexcept
     desc: ""
-    source: nda/basic_array.hpp
-  basic_array(const std::array<long, Rank> & shape) noexcept requires (std::is_default_constructible_v<ValueType>):
+
+  - signature: basic_array(const std::array<long, Rank> & shape) noexcept requires (std::is_default_constructible_v<ValueType>)
     desc: ""
-    source: nda/basic_array.hpp
-  "template <ArrayOfRank<Rank> A>\nbasic_array(const A & a) noexcept":
+
+  - signature: |
+      template <ArrayOfRank<Rank> A>
+      basic_array(const A & a) noexcept
     desc: ""
-    source: nda/basic_array.hpp
-  "template <nda::ArrayInitializer Initializer>\nbasic_array(const Initializer & initializer) noexcept(noexcept(initializer.invoke(*this)))":
+
+  - signature: |
+      template <nda::ArrayInitializer Initializer>
+      basic_array(const Initializer & initializer) noexcept(noexcept(initializer.invoke(*this)))
     desc: ""
-    source: nda/basic_array.hpp
-  basic_array(const std::initializer_list<ValueType> & l) noexcept requires (Rank == 1):
+
+  - signature: basic_array(const std::initializer_list<ValueType> & l) noexcept requires (Rank == 1)
     desc: ""
-    source: nda/basic_array.hpp
-  basic_array(const std::initializer_list<std::initializer_list<ValueType> > & l2) noexcept requires ((Rank == 2)):
+
+  - signature: basic_array(const std::initializer_list<std::initializer_list<ValueType> > & l2) noexcept requires ((Rank == 2))
     desc: ""
-    source: nda/basic_array.hpp
-  basic_array(const std::initializer_list<std::initializer_list<std::initializer_list<ValueType> > > & l3) noexcept:
+
+  - signature: basic_array(const std::initializer_list<std::initializer_list<std::initializer_list<ValueType> > > & l3) noexcept
     desc: ""
-    source: nda/basic_array.hpp
+
+# Long description. Any Markdown, with code, latex, multiline with |
 desc: ""
+
+# Parameters of the function. Edit only the description after the :
 params:
   is: __MISSING__
   shape: Shape of the array (lengths in each dimension)
@@ -45,17 +60,27 @@ params:
   l: __MISSING__
   l2: __MISSING__
   l3: __MISSING__
+
+# Template parameters of the function. Edit only the description after the :
 tparams:
   Int: __MISSING__
-  A: __SKIP__
+  A: __MISSING__
   Initializer: __MISSING__
+
+# Desc of the return value
 return_value: __MISSING__
+
+# Code example. desc: any markdown to explain it.
 example:
   desc: __MISSING__
-  code: auto a = nda::basic_array<long, 2>{1, 2};
+  code: __MISSING__
+
+# A list of related functions/classes
 see-also: []
-title: nda::basic_array::basic_array<ValueType, Rank, Layout, Algebra, ContainerPolicy>
+
+# ---------- DO NOT EDIT BELOW --------
 permalink: /cpp-api/nda/basic_array/basic_array-constructors
+title: nda::basic_array::basic_array<ValueType, Rank, Layout, Algebra, ContainerPolicy>
 parent: nda::basic_array
 nav_exclude: true
 ...

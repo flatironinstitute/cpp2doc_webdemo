@@ -1,28 +1,49 @@
 ---
+# Do not edit this first section
 layout: function
 short_name: operator()
 qualified_name: nda::mapped::operator()
 namespaces: [nda, mapped]
 includer: nda/nda.hpp
+
+# Brief description. One line only.
 brief: ""
+
+# List of overloads. Edit only the desc
 overloads:
-  "template <typename A0, typename A>\nexpr_call<F, A0, A...> operator()(A0 && a0, A &&... a)  const":
+
+  - signature: |
+      template <typename A0, typename A>
+      expr_call<F, A0, A...> operator()(A0 && a0, A &&... a)  const
     desc: ""
-    source: nda/map.hpp
+
+# Long description. Any Markdown, with code, latex, multiline with |
 desc: ""
+
+# Parameters of the function. Edit only the description after the :
 params:
   a0: __MISSING__
   a: __MISSING__
+
+# Template parameters of the function. Edit only the description after the :
 tparams:
   A0: __MISSING__
   A: __MISSING__
+
+# Desc of the return value
 return_value: __MISSING__
+
+# Code example. desc: any markdown to explain it.
 example:
   desc: __MISSING__
   code: __MISSING__
+
+# A list of related functions/classes
 see-also: []
-title: nda::mapped::operator()
+
+# ---------- DO NOT EDIT BELOW --------
 permalink: /cpp-api/nda/mapped/operator()
+title: nda::mapped::operator()
 parent: nda::mapped
 nav_exclude: true
 ...

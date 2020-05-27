@@ -1,14 +1,26 @@
 ---
+# Do not edit this first section
 layout: class
 short_name: handle_sso
 qualified_name: nda::mem::handle_sso
 namespaces: [nda, mem]
 includer: nda/nda.hpp
-brief: ""
-desc: ""
+signature: |
+  template <typename T, size_t Size>
+  struct handle_sso
+
+# Template parameters of the function. Edit only the description after the :
 tparams:
   T: __MISSING__
   Size: __MISSING__
+
+# Brief description. One line only.
+brief: ""
+
+# Long description. Any Markdown, with code, latex, multiline with |
+desc: ""
+
+# A list of methods. You can reorder, regroup into a dict : groupname -> list
 methods:
   - (constructors)
   - (destructor)
@@ -18,23 +30,29 @@ methods:
   - operator[]
   - size
   - operator=
+
+# A list of non_member_functions
 non_member_functions: []
+
+# Public member types
 member_types:
   value_type:
-    type: T
     desc: __MISSING__
+
+# Code example. desc: any markdown to explain it.
 example:
   desc: __MISSING__
   code: __MISSING__
+
+# A list of related functions/classes
 see-also: []
-signature: |
-  template <typename T, size_t Size>
-  struct handle_sso
-source: nda/storage/handle.hpp
-title: nda::mem::handle_sso
+
+# ---------- DO NOT EDIT BELOW --------
 permalink: /cpp-api/nda/mem/handle_sso
-has_children: true
+title: nda::mem::handle_sso
+source: nda/storage/handle.hpp
 parent: nda::mem
+has_children: true
 nav_exclude: true
 ...
 

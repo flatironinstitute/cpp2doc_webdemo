@@ -1,26 +1,45 @@
 ---
+# Do not edit this first section
 layout: function
 short_name: decref
 qualified_name: nda::mem::rtable_t::decref
 namespaces: [nda, mem, rtable_t]
 includer: nda/nda.hpp
+
+# Brief description. One line only.
 brief: ""
+
+# List of overloads. Edit only the desc
 overloads:
-  bool decref(long id) noexcept:
+
+  - signature: bool decref(long id) noexcept
     desc: ""
-    source: nda/storage/rtable.hpp
+
+# Long description. Any Markdown, with code, latex, multiline with |
 desc: ""
+
+# Parameters of the function. Edit only the description after the :
 params:
   id: __MISSING__
+
+# Template parameters of the function. Edit only the description after the :
 tparams:
   {}
+
+# Desc of the return value
 return_value: __MISSING__
+
+# Code example. desc: any markdown to explain it.
 example:
   desc: __MISSING__
   code: __MISSING__
+
+# A list of related functions/classes
 see-also: []
-title: nda::mem::rtable_t::decref
+
+# ---------- DO NOT EDIT BELOW --------
 permalink: /cpp-api/nda/mem/rtable_t/decref
+title: nda::mem::rtable_t::decref
 parent: nda::mem::rtable_t
 nav_exclude: true
 ...

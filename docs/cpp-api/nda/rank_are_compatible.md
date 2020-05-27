@@ -1,27 +1,48 @@
 ---
+# Do not edit this first section
 layout: function
 short_name: rank_are_compatible
 qualified_name: nda::rank_are_compatible
 namespaces: [nda]
 includer: nda/nda.hpp
+
+# Brief description. One line only.
 brief: ""
+
+# List of overloads. Edit only the desc
 overloads:
-  "template <typename L, typename R>\nbool rank_are_compatible()":
+
+  - signature: |
+      template <typename L, typename R>
+      bool rank_are_compatible()
     desc: ""
-    source: nda/arithmetic.hpp
+
+# Long description. Any Markdown, with code, latex, multiline with |
 desc: ""
+
+# Parameters of the function. Edit only the description after the :
 params:
   {}
+
+# Template parameters of the function. Edit only the description after the :
 tparams:
   L: __MISSING__
   R: __MISSING__
+
+# Desc of the return value
 return_value: __MISSING__
+
+# Code example. desc: any markdown to explain it.
 example:
   desc: __MISSING__
   code: __MISSING__
+
+# A list of related functions/classes
 see-also: []
-title: nda::rank_are_compatible
+
+# ---------- DO NOT EDIT BELOW --------
 permalink: /cpp-api/nda/rank_are_compatible
+title: nda::rank_are_compatible
 parent: nda
 nav_exclude: true
 ...

@@ -1,17 +1,29 @@
 ---
+# Do not edit this first section
 layout: class
 short_name: basic_array
 qualified_name: nda::basic_array
 namespaces: [nda]
 includer: nda/nda.hpp
-brief: ""
-desc: ""
+signature: |
+  template <typename ValueType, int Rank, typename Layout, char Algebra, typename ContainerPolicy>
+  class basic_array
+
+# Template parameters of the function. Edit only the description after the :
 tparams:
   ValueType: __MISSING__
   Rank: __MISSING__
   Layout: __MISSING__
   Algebra: __MISSING__
   ContainerPolicy: __MISSING__
+
+# Brief description. One line only.
+brief: ""
+
+# Long description. Any Markdown, with code, latex, multiline with |
+desc: ""
+
+# A list of methods. You can reorder, regroup into a dict : groupname -> list
 methods:
   - (constructors)
   - operator=
@@ -25,42 +37,45 @@ methods:
   - extent
   - is_stride_order_C
   - is_stride_order_Fortran
+  - operator()
+  - operator[]
   - begin
   - cbegin
   - end
   - cend
-  - operator()
-  - operator[]
   - operator+=
   - operator-=
   - operator*=
   - operator/=
+
+# A list of non_member_functions
 non_member_functions: []
+
+# Public member types
 member_types:
   value_type:
-    type: ValueType
-    desc: ""
+    desc: T
   layout_t:
-    type: typename Layout::mapping<Rank>
-    desc: __MISSING__
+    desc: The type of the layout
   const_iterator:
-    type: array_iterator<iterator_rank, const ValueType, typename AccessorPolicy::template accessor<ValueType>::pointer>
     desc: ""
   iterator:
-    type: array_iterator<iterator_rank, ValueType, typename AccessorPolicy::template accessor<ValueType>::pointer>
     desc: ""
+
+# Code example. desc: any markdown to explain it.
 example:
   desc: __MISSING__
   code: __MISSING__
+
+# A list of related functions/classes
 see-also: []
-signature: |
-  template <typename ValueType, int Rank, typename Layout, char Algebra, typename ContainerPolicy>
-  class basic_array
-source: nda/basic_array.hpp
-title: nda::basic_array
+
+# ---------- DO NOT EDIT BELOW --------
 permalink: /cpp-api/nda/basic_array
-has_children: true
+title: nda::basic_array
+source: nda/basic_array.hpp
 parent: nda
+has_children: true
 nav_exclude: true
 ...
 

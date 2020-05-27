@@ -1,21 +1,36 @@
 ---
+# Do not edit this first section
 layout: function
 short_name: reshape
 qualified_name: nda::reshape
 namespaces: [nda]
 includer: nda/nda.hpp
+
+# Brief description. One line only.
 brief: ""
+
+# List of overloads. Edit only the desc
 overloads:
-  "template <typename T, int R, typename L, char Algebra, typename ContainerPolicy, size_t R2>\nauto reshape(basic_array<T, R, L, Algebra, ContainerPolicy> && a, const std::array<long, R2> & new_shape)":
+
+  - signature: |
+      template <typename T, int R, typename L, char Algebra, typename ContainerPolicy, size_t R2>
+      auto reshape(basic_array<T, R, L, Algebra, ContainerPolicy> && a, const std::array<long, R2> & new_shape)
     desc: ""
-    source: nda/layout_transforms.hpp
-  "template <typename T, int R, typename L, char Algebra, typename ContainerPolicy, size_t R2>\nauto reshape(basic_array<T, R, L, Algebra, ContainerPolicy> && a, const std::array<int, R2> & new_shape)":
+
+  - signature: |
+      template <typename T, int R, typename L, char Algebra, typename ContainerPolicy, size_t R2>
+      auto reshape(basic_array<T, R, L, Algebra, ContainerPolicy> && a, const std::array<int, R2> & new_shape)
     desc: ""
-    source: nda/layout_transforms.hpp
+
+# Long description. Any Markdown, with code, latex, multiline with |
 desc: ""
+
+# Parameters of the function. Edit only the description after the :
 params:
   a: __MISSING__
   new_shape: __MISSING__
+
+# Template parameters of the function. Edit only the description after the :
 tparams:
   T: __MISSING__
   R: __MISSING__
@@ -23,13 +38,21 @@ tparams:
   Algebra: __MISSING__
   ContainerPolicy: __MISSING__
   R2: __MISSING__
+
+# Desc of the return value
 return_value: __MISSING__
+
+# Code example. desc: any markdown to explain it.
 example:
   desc: __MISSING__
   code: __MISSING__
+
+# A list of related functions/classes
 see-also: []
-title: nda::reshape
+
+# ---------- DO NOT EDIT BELOW --------
 permalink: /cpp-api/nda/reshape
+title: nda::reshape
 parent: nda
 nav_exclude: true
 ...

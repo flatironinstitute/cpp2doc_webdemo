@@ -1,7 +1,10 @@
 ---
+# Do not edit this first section
 layout: namespace
-qualified_name: nda::permutations
+
+# ---------- DO NOT EDIT BELOW --------
 permalink: /cpp-api/nda/permutations
+qualified_name: nda::permutations
 parent: nda
 title: nda::permutations
 has_children: true

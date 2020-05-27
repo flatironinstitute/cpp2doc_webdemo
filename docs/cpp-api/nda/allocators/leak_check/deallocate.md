@@ -1,26 +1,45 @@
 ---
+# Do not edit this first section
 layout: function
 short_name: deallocate
 qualified_name: nda::allocators::leak_check::deallocate
 namespaces: [nda, allocators, leak_check]
 includer: nda/nda.hpp
+
+# Brief description. One line only.
 brief: ""
+
+# List of overloads. Edit only the desc
 overloads:
-  void deallocate(struct nda::allocators::blk_t b) noexcept:
+
+  - signature: void deallocate(struct nda::allocators::blk_t b) noexcept
     desc: ""
-    source: nda/storage/allocators.hpp
+
+# Long description. Any Markdown, with code, latex, multiline with |
 desc: ""
+
+# Parameters of the function. Edit only the description after the :
 params:
   b: __MISSING__
+
+# Template parameters of the function. Edit only the description after the :
 tparams:
   {}
+
+# Desc of the return value
 return_value: __MISSING__
+
+# Code example. desc: any markdown to explain it.
 example:
   desc: __MISSING__
   code: __MISSING__
+
+# A list of related functions/classes
 see-also: []
-title: nda::allocators::leak_check::deallocate
+
+# ---------- DO NOT EDIT BELOW --------
 permalink: /cpp-api/nda/allocators/leak_check/deallocate
+title: nda::allocators::leak_check::deallocate
 parent: nda::allocators::leak_check
 nav_exclude: true
 ...

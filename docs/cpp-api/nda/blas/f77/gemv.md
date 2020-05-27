@@ -1,18 +1,27 @@
 ---
+# Do not edit this first section
 layout: function
 short_name: gemv
 qualified_name: nda::blas::f77::gemv
 namespaces: [nda, blas, f77]
 includer: nda/nda.hpp
+
+# Brief description. One line only.
 brief: ""
+
+# List of overloads. Edit only the desc
 overloads:
-  void gemv(char trans, int M, int N, double & alpha, const double * A, int & LDA, const double * x, int incx, double & beta, double * Y, int incy):
+
+  - signature: void gemv(char trans, int M, int N, double & alpha, const double * A, int & LDA, const double * x, int incx, double & beta, double * Y, int incy)
     desc: ""
-    source: nda/blas/interface/cxx_interface.hpp
-  void gemv(char trans, int M, int N, std::complex<double> & alpha, const std::complex<double> * A, int & LDA, const std::complex<double> * x, int incx, std::complex<double> & beta, std::complex<double> * Y, int incy):
+
+  - signature: void gemv(char trans, int M, int N, std::complex<double> & alpha, const std::complex<double> * A, int & LDA, const std::complex<double> * x, int incx, std::complex<double> & beta, std::complex<double> * Y, int incy)
     desc: ""
-    source: nda/blas/interface/cxx_interface.hpp
+
+# Long description. Any Markdown, with code, latex, multiline with |
 desc: ""
+
+# Parameters of the function. Edit only the description after the :
 params:
   trans: __MISSING__
   M: __MISSING__
@@ -25,15 +34,25 @@ params:
   beta: __MISSING__
   Y: __MISSING__
   incy: __MISSING__
+
+# Template parameters of the function. Edit only the description after the :
 tparams:
   {}
+
+# Desc of the return value
 return_value: __MISSING__
+
+# Code example. desc: any markdown to explain it.
 example:
   desc: __MISSING__
   code: __MISSING__
+
+# A list of related functions/classes
 see-also: []
-title: nda::blas::f77::gemv
+
+# ---------- DO NOT EDIT BELOW --------
 permalink: /cpp-api/nda/blas/f77/gemv
+title: nda::blas::f77::gemv
 parent: nda::blas::f77
 nav_exclude: true
 ...

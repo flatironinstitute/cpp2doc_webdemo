@@ -1,37 +1,53 @@
 ---
+# Do not edit this first section
 layout: class
 short_name: accessor
 qualified_name: nda::no_alias_accessor::accessor
 namespaces: [nda, no_alias_accessor]
 includer: nda/nda.hpp
-brief: ""
-desc: ""
-tparams:
-  T: __MISSING__
-methods: [access, offset]
-non_member_functions: []
-member_types:
-  element_type:
-    type: T
-    desc: __MISSING__
-  pointer:
-    type: T *
-    desc: __MISSING__
-  reference:
-    type: T &
-    desc: __MISSING__
-example:
-  desc: __MISSING__
-  code: __MISSING__
-see-also: []
 signature: |
   template <typename T>
   struct accessor
-source: nda/accessors.hpp
-title: nda::no_alias_accessor::accessor
+
+# Template parameters of the function. Edit only the description after the :
+tparams:
+  T: __MISSING__
+
+# Brief description. One line only.
+brief: ""
+
+# Long description. Any Markdown, with code, latex, multiline with |
+desc: ""
+
+# A list of methods. You can reorder, regroup into a dict : groupname -> list
+methods: [access, offset]
+
+# A list of non_member_functions
+non_member_functions: []
+
+# Public member types
+member_types:
+  element_type:
+    desc: __MISSING__
+  pointer:
+    desc: __MISSING__
+  reference:
+    desc: __MISSING__
+
+# Code example. desc: any markdown to explain it.
+example:
+  desc: __MISSING__
+  code: __MISSING__
+
+# A list of related functions/classes
+see-also: []
+
+# ---------- DO NOT EDIT BELOW --------
 permalink: /cpp-api/nda/no_alias_accessor/accessor
-has_children: true
+title: nda::no_alias_accessor::accessor
+source: nda/accessors.hpp
 parent: nda::no_alias_accessor
+has_children: true
 nav_exclude: true
 ...
 

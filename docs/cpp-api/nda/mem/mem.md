@@ -1,7 +1,10 @@
 ---
+# Do not edit this first section
 layout: namespace
-qualified_name: nda::mem
+
+# ---------- DO NOT EDIT BELOW --------
 permalink: /cpp-api/nda/mem
+qualified_name: nda::mem
 parent: nda
 title: nda::mem
 has_children: true

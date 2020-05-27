@@ -1,13 +1,25 @@
 ---
+# Do not edit this first section
 layout: class
 short_name: bucket
 qualified_name: nda::allocators::bucket
 namespaces: [nda, allocators]
 includer: nda/nda.hpp
-brief: ""
-desc: ""
+signature: |
+  template <int ChunkSize>
+  class bucket
+
+# Template parameters of the function. Edit only the description after the :
 tparams:
   ChunkSize: __MISSING__
+
+# Brief description. One line only.
+brief: ""
+
+# Long description. Any Markdown, with code, latex, multiline with |
+desc: ""
+
+# A list of methods. You can reorder, regroup into a dict : groupname -> list
 methods:
   - (constructors)
   - operator=
@@ -18,19 +30,24 @@ methods:
   - is_empty
   - data
   - owns
+
+# A list of non_member_functions
 non_member_functions: []
+
+# Code example. desc: any markdown to explain it.
 example:
   desc: __MISSING__
   code: __MISSING__
+
+# A list of related functions/classes
 see-also: []
-signature: |
-  template <int ChunkSize>
-  class bucket
-source: nda/storage/allocators.hpp
-title: nda::allocators::bucket
+
+# ---------- DO NOT EDIT BELOW --------
 permalink: /cpp-api/nda/allocators/bucket
-has_children: true
+title: nda::allocators::bucket
+source: nda/storage/allocators.hpp
 parent: nda::allocators
+has_children: true
 nav_exclude: true
 ...
 

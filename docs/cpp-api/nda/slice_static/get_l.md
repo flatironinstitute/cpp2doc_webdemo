@@ -1,30 +1,49 @@
 ---
+# Do not edit this first section
 layout: function
 short_name: get_l
 qualified_name: nda::slice_static::get_l
 namespaces: [nda, slice_static]
 includer: nda/nda.hpp
+
+# Brief description. One line only.
 brief: ""
+
+# List of overloads. Edit only the desc
 overloads:
-  long get_l(const class nda::range & R, long l_n):
+
+  - signature: long get_l(const class nda::range & R, long l_n)
     desc: ""
-    source: ""
-  long get_l(struct nda::range_all , long l_n):
+
+  - signature: long get_l(struct nda::range_all , long l_n)
     desc: ""
-    source: ""
+
+# Long description. Any Markdown, with code, latex, multiline with |
 desc: ""
+
+# Parameters of the function. Edit only the description after the :
 params:
   R: __MISSING__
   l_n: __MISSING__
+
+# Template parameters of the function. Edit only the description after the :
 tparams:
   {}
+
+# Desc of the return value
 return_value: __MISSING__
+
+# Code example. desc: any markdown to explain it.
 example:
   desc: __MISSING__
   code: __MISSING__
+
+# A list of related functions/classes
 see-also: []
-title: nda::slice_static::get_l
+
+# ---------- DO NOT EDIT BELOW --------
 permalink: /cpp-api/nda/slice_static/get_l
+title: nda::slice_static::get_l
 parent: nda::slice_static
 nav_exclude: true
 ...

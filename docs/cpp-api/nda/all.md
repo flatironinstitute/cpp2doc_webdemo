@@ -1,26 +1,47 @@
 ---
+# Do not edit this first section
 layout: function
 short_name: all
 qualified_name: nda::all
 namespaces: [nda]
 includer: nda/nda.hpp
+
+# Brief description. One line only.
 brief: Returns true iif all elements of the array are true
+
+# List of overloads. Edit only the desc
 overloads:
-  "template <nda::Array A>\nbool all(const A & a)":
+
+  - signature: |
+      template <nda::Array A>
+      bool all(const A & a)
     desc: Returns true iif all elements of the array are true
-    source: nda/algorithms.hpp
+
+# Long description. Any Markdown, with code, latex, multiline with |
 desc: ""
+
+# Parameters of the function. Edit only the description after the :
 params:
   a: __MISSING__
+
+# Template parameters of the function. Edit only the description after the :
 tparams:
   A: __MISSING__
+
+# Desc of the return value
 return_value: __MISSING__
+
+# Code example. desc: any markdown to explain it.
 example:
   desc: __MISSING__
   code: __MISSING__
+
+# A list of related functions/classes
 see-also: []
-title: nda::all
+
+# ---------- DO NOT EDIT BELOW --------
 permalink: /cpp-api/nda/all
+title: nda::all
 parent: nda
 nav_exclude: true
 ...

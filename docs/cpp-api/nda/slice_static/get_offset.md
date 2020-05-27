@@ -1,33 +1,52 @@
 ---
+# Do not edit this first section
 layout: function
 short_name: get_offset
 qualified_name: nda::slice_static::get_offset
 namespaces: [nda, slice_static]
 includer: nda/nda.hpp
+
+# Brief description. One line only.
 brief: ""
+
+# List of overloads. Edit only the desc
 overloads:
-  long get_offset(long R, long s_n):
+
+  - signature: long get_offset(long R, long s_n)
     desc: ""
-    source: ""
-  long get_offset(const class nda::range & R, long s_n):
+
+  - signature: long get_offset(const class nda::range & R, long s_n)
     desc: ""
-    source: ""
-  long get_offset(struct nda::range_all , long ):
+
+  - signature: long get_offset(struct nda::range_all , long )
     desc: ""
-    source: ""
+
+# Long description. Any Markdown, with code, latex, multiline with |
 desc: ""
+
+# Parameters of the function. Edit only the description after the :
 params:
   R: __MISSING__
   s_n: __MISSING__
+
+# Template parameters of the function. Edit only the description after the :
 tparams:
   {}
+
+# Desc of the return value
 return_value: __MISSING__
+
+# Code example. desc: any markdown to explain it.
 example:
   desc: __MISSING__
   code: __MISSING__
+
+# A list of related functions/classes
 see-also: []
-title: nda::slice_static::get_offset
+
+# ---------- DO NOT EDIT BELOW --------
 permalink: /cpp-api/nda/slice_static/get_offset
+title: nda::slice_static::get_offset
 parent: nda::slice_static
 nav_exclude: true
 ...

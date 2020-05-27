@@ -1,32 +1,51 @@
 ---
+# Do not edit this first section
 layout: function
 short_name: blk_t
 qualified_name: nda::allocators::blk_t::blk_t
 namespaces: [nda, allocators, blk_t]
 includer: nda/nda.hpp
+
+# Brief description. One line only.
 brief: ""
+
+# List of overloads. Edit only the desc
 overloads:
-  blk_t():
+
+  - signature: blk_t()
     desc: ""
-    source: nda/storage/blk.hpp
-  blk_t(const struct nda::allocators::blk_t & ):
+
+  - signature: blk_t(const struct nda::allocators::blk_t & )
     desc: ""
-    source: nda/storage/blk.hpp
-  blk_t(struct nda::allocators::blk_t && ):
+
+  - signature: blk_t(struct nda::allocators::blk_t && )
     desc: ""
-    source: nda/storage/blk.hpp
+
+# Long description. Any Markdown, with code, latex, multiline with |
 desc: ""
+
+# Parameters of the function. Edit only the description after the :
 params:
   {}
+
+# Template parameters of the function. Edit only the description after the :
 tparams:
   {}
+
+# Desc of the return value
 return_value: __MISSING__
+
+# Code example. desc: any markdown to explain it.
 example:
   desc: __MISSING__
   code: __MISSING__
+
+# A list of related functions/classes
 see-also: []
-title: nda::allocators::blk_t::blk_t
+
+# ---------- DO NOT EDIT BELOW --------
 permalink: /cpp-api/nda/allocators/blk_t/blk_t-constructors
+title: nda::allocators::blk_t::blk_t
 parent: nda::allocators::blk_t
 nav_exclude: true
 ...

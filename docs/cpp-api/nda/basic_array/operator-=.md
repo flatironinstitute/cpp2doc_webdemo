@@ -1,26 +1,47 @@
 ---
+# Do not edit this first section
 layout: function
 short_name: operator-=
 qualified_name: nda::basic_array::operator-=
 namespaces: [nda, basic_array]
 includer: nda/nda.hpp
+
+# Brief description. One line only.
 brief: ""
+
+# List of overloads. Edit only the desc
 overloads:
-  "template <typename RHS>\nauto & operator-=(const RHS & rhs) noexcept":
+
+  - signature: |
+      template <typename RHS>
+      auto & operator-=(const RHS & rhs) noexcept
     desc: ""
-    source: nda/_impl_basic_array_view_common.hpp
+
+# Long description. Any Markdown, with code, latex, multiline with |
 desc: ""
+
+# Parameters of the function. Edit only the description after the :
 params:
   rhs: ""
+
+# Template parameters of the function. Edit only the description after the :
 tparams:
   RHS: A scalar or a type modeling NdArray
+
+# Desc of the return value
 return_value: __MISSING__
+
+# Code example. desc: any markdown to explain it.
 example:
   desc: __MISSING__
   code: __MISSING__
+
+# A list of related functions/classes
 see-also: []
-title: nda::basic_array::operator-=
+
+# ---------- DO NOT EDIT BELOW --------
 permalink: /cpp-api/nda/basic_array/operator-=
+title: nda::basic_array::operator-=
 parent: nda::basic_array
 nav_exclude: true
 ...

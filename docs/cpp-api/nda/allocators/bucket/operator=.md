@@ -1,29 +1,48 @@
 ---
+# Do not edit this first section
 layout: function
 short_name: operator=
 qualified_name: nda::allocators::bucket::operator=
 namespaces: [nda, allocators, bucket]
 includer: nda/nda.hpp
+
+# Brief description. One line only.
 brief: ""
+
+# List of overloads. Edit only the desc
 overloads:
-  bucket & operator=(const bucket<ChunkSize> & ):
+
+  - signature: bucket & operator=(const bucket<ChunkSize> & )
     desc: ""
-    source: nda/storage/allocators.hpp
-  bucket & operator=(bucket<ChunkSize> && ):
+
+  - signature: bucket & operator=(bucket<ChunkSize> && )
     desc: ""
-    source: nda/storage/allocators.hpp
+
+# Long description. Any Markdown, with code, latex, multiline with |
 desc: ""
+
+# Parameters of the function. Edit only the description after the :
 params:
   {}
+
+# Template parameters of the function. Edit only the description after the :
 tparams:
   {}
+
+# Desc of the return value
 return_value: __MISSING__
+
+# Code example. desc: any markdown to explain it.
 example:
   desc: __MISSING__
   code: __MISSING__
+
+# A list of related functions/classes
 see-also: []
-title: nda::allocators::bucket::operator=
+
+# ---------- DO NOT EDIT BELOW --------
 permalink: /cpp-api/nda/allocators/bucket/operator=
+title: nda::allocators::bucket::operator=
 parent: nda::allocators::bucket
 nav_exclude: true
 ...

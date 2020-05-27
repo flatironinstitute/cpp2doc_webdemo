@@ -1,7 +1,10 @@
 ---
+# Do not edit this first section
 layout: namespace
-qualified_name: nda::slice_static
+
+# ---------- DO NOT EDIT BELOW --------
 permalink: /cpp-api/nda/slice_static
+qualified_name: nda::slice_static
 parent: nda
 title: nda::slice_static
 has_children: true

@@ -1,27 +1,48 @@
 ---
+# Do not edit this first section
 layout: function
 short_name: index_from_stride_order
 qualified_name: nda::details::index_from_stride_order
 namespaces: [nda, details]
 includer: nda/nda.hpp
+
+# Brief description. One line only.
 brief: ""
+
+# List of overloads. Edit only the desc
 overloads:
-  "template <int R>\nint index_from_stride_order(uint64_t StrideOrder, int i)":
+
+  - signature: |
+      template <int R>
+      int index_from_stride_order(uint64_t StrideOrder, int i)
     desc: ""
-    source: nda/layout/for_each.hpp
+
+# Long description. Any Markdown, with code, latex, multiline with |
 desc: ""
+
+# Parameters of the function. Edit only the description after the :
 params:
   StrideOrder: __MISSING__
   i: __MISSING__
+
+# Template parameters of the function. Edit only the description after the :
 tparams:
   R: __MISSING__
+
+# Desc of the return value
 return_value: __MISSING__
+
+# Code example. desc: any markdown to explain it.
 example:
   desc: __MISSING__
   code: __MISSING__
+
+# A list of related functions/classes
 see-also: []
-title: nda::details::index_from_stride_order
+
+# ---------- DO NOT EDIT BELOW --------
 permalink: /cpp-api/nda/details/index_from_stride_order
+title: nda::details::index_from_stride_order
 parent: nda::details
 nav_exclude: true
 ...

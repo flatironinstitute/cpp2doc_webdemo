@@ -1,26 +1,45 @@
 ---
+# Do not edit this first section
 layout: function
 short_name: ~layout_info_t
 qualified_name: nda::layout_info_t::~layout_info_t
 namespaces: [nda, layout_info_t]
 includer: nda/nda.hpp
+
+# Brief description. One line only.
 brief: ""
+
+# List of overloads. Edit only the desc
 overloads:
-  void ~layout_info_t():
+
+  - signature: void ~layout_info_t()
     desc: ""
-    source: nda/traits.hpp
+
+# Long description. Any Markdown, with code, latex, multiline with |
 desc: ""
+
+# Parameters of the function. Edit only the description after the :
 params:
   {}
+
+# Template parameters of the function. Edit only the description after the :
 tparams:
   {}
+
+# Desc of the return value
 return_value: __MISSING__
+
+# Code example. desc: any markdown to explain it.
 example:
   desc: __MISSING__
   code: __MISSING__
+
+# A list of related functions/classes
 see-also: []
-title: nda::layout_info_t::~layout_info_t
+
+# ---------- DO NOT EDIT BELOW --------
 permalink: /cpp-api/nda/layout_info_t/~layout_info_t-destructor
+title: nda::layout_info_t::~layout_info_t
 parent: nda::layout_info_t
 nav_exclude: true
 ...

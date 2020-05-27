@@ -1,15 +1,29 @@
 ---
+# Do not edit this first section
 layout: class
 short_name: scalar_array
 qualified_name: nda::scalar_array
 namespaces: [nda]
 includer: nda/nda.hpp
-brief: ""
-desc: ""
+signature: |
+  template <typename S, int Rank>
+  struct scalar_array
+
+# Template parameters of the function. Edit only the description after the :
 tparams:
   S: __MISSING__
   Rank: __MISSING__
+
+# Brief description. One line only.
+brief: ""
+
+# Long description. Any Markdown, with code, latex, multiline with |
+desc: ""
+
+# A list of methods. You can reorder, regroup into a dict : groupname -> list
 methods: [shape, "operator[]", operator()]
+
+# A list of non_member_functions
 non_member_functions: []
 member_fields:
   s:
@@ -18,18 +32,21 @@ member_fields:
   _shape:
     type: std::array<long, Rank>
     desc: __MISSING__
+
+# Code example. desc: any markdown to explain it.
 example:
   desc: __MISSING__
   code: __MISSING__
+
+# A list of related functions/classes
 see-also: []
-signature: |
-  template <typename S, int Rank>
-  struct scalar_array
-source: nda/arithmetic.hpp
-title: nda::scalar_array
+
+# ---------- DO NOT EDIT BELOW --------
 permalink: /cpp-api/nda/scalar_array
-has_children: true
+title: nda::scalar_array
+source: nda/arithmetic.hpp
 parent: nda
+has_children: true
 nav_exclude: true
 ...
 

@@ -1,13 +1,19 @@
 ---
+# Do not edit this first section
 layout: namespace
-qualified_name: nda::blas
+
+# ---------- DO NOT EDIT BELOW --------
 permalink: /cpp-api/nda/blas
+qualified_name: nda::blas
 parent: nda
 title: nda::blas
 has_children: true
 namespaces: [f77]
 classes: []
 functions:
+  - MatrixView
+  - IsDoubleOrComplex
+  - VectorView
   - get_trans
   - get_n_rows
   - get_n_cols

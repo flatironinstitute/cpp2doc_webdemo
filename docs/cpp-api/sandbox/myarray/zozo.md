@@ -1,26 +1,46 @@
 ---
+# Do not edit this first section
 layout: function
 short_name: zozo
 qualified_name: sandbox::myarray::zozo
 namespaces: [sandbox, myarray]
 includer: ""
+
+# Brief description. One line only.
 brief: ""
+
+# List of overloads. Edit only the desc
 overloads:
-  void zozo()  const requires (R == 3):
+
+  - signature: void zozo()  const requires (R == 3)
     desc: ""
-    source: /Users/oparcollet/cpp2doc_webdemo/src/array_concept.cpp
+
+# Long description. Any Markdown, with code, latex, multiline with |
 desc: ""
+
+# Parameters of the function. Edit only the description after the :
 params:
   {}
+
+# Template parameters of the function. Edit only the description after the :
 tparams:
   {}
+
+# Desc of the return value
 return_value: __MISSING__
+
+# Code example. desc: any markdown to explain it.
 example:
   desc: __MISSING__
   code: __MISSING__
+
+# A list of related functions
 see-also: []
 title: sandbox::myarray::zozo
+
+# ---------- DO NOT EDIT BELOW --------
 permalink: /cpp-api/sandbox/myarray/zozo
 parent: sandbox::myarray
+nav_exclude: true
 ...
 

@@ -1,29 +1,48 @@
 ---
+# Do not edit this first section
 layout: function
 short_name: shape
 qualified_name: nda::basic_array::shape
 namespaces: [nda, basic_array]
 includer: nda/nda.hpp
+
+# Brief description. One line only.
 brief: Shape
+
+# List of overloads. Edit only the desc
 overloads:
-  const std::array<long, rank> & shape() noexcept const:
+
+  - signature: const std::array<long, rank> & shape() noexcept const
     desc: Shape
-    source: nda/_impl_basic_array_view_common.hpp
-  long shape(int i) noexcept const:
+
+  - signature: long shape(int i) noexcept const
     desc: Same as shape()[i]
-    source: nda/_impl_basic_array_view_common.hpp
+
+# Long description. Any Markdown, with code, latex, multiline with |
 desc: ""
+
+# Parameters of the function. Edit only the description after the :
 params:
   i: __MISSING__
+
+# Template parameters of the function. Edit only the description after the :
 tparams:
   {}
+
+# Desc of the return value
 return_value: __MISSING__
+
+# Code example. desc: any markdown to explain it.
 example:
   desc: __MISSING__
   code: __MISSING__
+
+# A list of related functions/classes
 see-also: []
-title: nda::basic_array::shape
+
+# ---------- DO NOT EDIT BELOW --------
 permalink: /cpp-api/nda/basic_array/shape
+title: nda::basic_array::shape
 parent: nda::basic_array
 nav_exclude: true
 ...

@@ -1,29 +1,50 @@
 ---
+# Do not edit this first section
 layout: function
 short_name: join
 qualified_name: nda::join
 namespaces: [nda]
 includer: nda/nda.hpp
+
+# Brief description. One line only.
 brief: Join two arrays
+
+# List of overloads. Edit only the desc
 overloads:
-  "template <typename T, size_t R1, size_t R2>\nstd::array<T, R1 + R2> join(const std::array<T, R1> & a1, const std::array<T, R2> & a2)":
+
+  - signature: |
+      template <typename T, size_t R1, size_t R2>
+      std::array<T, R1 + R2> join(const std::array<T, R1> & a1, const std::array<T, R2> & a2)
     desc: Join two arrays
-    source: nda/std_addons/array.hpp
+
+# Long description. Any Markdown, with code, latex, multiline with |
 desc: ""
+
+# Parameters of the function. Edit only the description after the :
 params:
   a1: ""
   a2: ""
+
+# Template parameters of the function. Edit only the description after the :
 tparams:
   T: ""
   R1: __MISSING__
   R2: __MISSING__
+
+# Desc of the return value
 return_value: the concatenation of [a1, a2]
+
+# Code example. desc: any markdown to explain it.
 example:
   desc: __MISSING__
   code: __MISSING__
+
+# A list of related functions/classes
 see-also: []
-title: nda::join
+
+# ---------- DO NOT EDIT BELOW --------
 permalink: /cpp-api/nda/join
+title: nda::join
 parent: nda
 nav_exclude: true
 ...

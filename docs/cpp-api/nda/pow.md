@@ -1,32 +1,57 @@
 ---
+# Do not edit this first section
 layout: function
 short_name: pow
 qualified_name: nda::pow
 namespaces: [nda]
 includer: nda/nda.hpp
+
+# Brief description. One line only.
 brief: pow for integer
+
+# List of overloads. Edit only the desc
 overloads:
-  "template <typename T>\nrequires (std::is_integral_v<T>)\nT pow(T x, int n)":
+
+  - signature: |
+      template <typename T>
+      requires (std::is_integral_v<T>)
+      T pow(T x, int n)
     desc: pow for integer
-    source: nda/mapped_functions.hpp
-  "template <typename A>\nrequires (is_ndarray_v<std::decay_t<A>>)\nauto pow(A && a, int n)":
+
+  - signature: |
+      template <typename A>
+      requires (is_ndarray_v<std::decay_t<A>>)
+      auto pow(A && a, int n)
     desc: Map pow on Ndarray
-    source: nda/mapped_functions.hpp
+
+# Long description. Any Markdown, with code, latex, multiline with |
 desc: ""
+
+# Parameters of the function. Edit only the description after the :
 params:
   x: __MISSING__
   n: __MISSING__
   a: __MISSING__
+
+# Template parameters of the function. Edit only the description after the :
 tparams:
   T: __MISSING__
   A: __MISSING__
+
+# Desc of the return value
 return_value: __MISSING__
+
+# Code example. desc: any markdown to explain it.
 example:
   desc: __MISSING__
   code: __MISSING__
+
+# A list of related functions/classes
 see-also: []
-title: nda::pow
+
+# ---------- DO NOT EDIT BELOW --------
 permalink: /cpp-api/nda/pow
+title: nda::pow
 parent: nda
 nav_exclude: true
 ...

@@ -1,35 +1,60 @@
 ---
+# Do not edit this first section
 layout: function
 short_name: <deduction guide for array_adapter>
 qualified_name: nda::<deduction guide for array_adapter>
 namespaces: [nda]
 includer: nda/nda.hpp
+
+# Brief description. One line only.
 brief: ""
+
+# List of overloads. Edit only the desc
 overloads:
-  "template <int R, typename F, typename Int>\nauto <deduction guide for array_adapter>(const std::array<type-parameter-0-2, R> & shape, F f)-> array_adapter<R, F>":
+
+  - signature: |
+      template <int R, typename F, typename Int>
+      auto <deduction guide for array_adapter>(const std::array<type-parameter-0-2, R> & shape, F f)-> array_adapter<R, F>
     desc: ""
-    source: nda/array_adapter.hpp
-  "template <int R, typename F>\nauto <deduction guide for array_adapter>(array_adapter<R, F> )-> array_adapter<R, F>":
+
+  - signature: |
+      template <int R, typename F>
+      auto <deduction guide for array_adapter>(array_adapter<R, F> )-> array_adapter<R, F>
     desc: ""
-    source: nda/array_adapter.hpp
-  "template <auto R, typename Int, typename F>\nauto <deduction guide for array_adapter>(std::array<Int, R> , F )-> array_adapter<R, F>":
+
+  - signature: |
+      template <auto R, typename Int, typename F>
+      auto <deduction guide for array_adapter>(std::array<Int, R> , F )-> array_adapter<R, F>
     desc: ""
-    source: nda/array_adapter.hpp
+
+# Long description. Any Markdown, with code, latex, multiline with |
 desc: ""
+
+# Parameters of the function. Edit only the description after the :
 params:
   shape: __MISSING__
   f: __MISSING__
+
+# Template parameters of the function. Edit only the description after the :
 tparams:
   R: __MISSING__
   F: __MISSING__
   Int: __MISSING__
+
+# Desc of the return value
 return_value: __MISSING__
+
+# Code example. desc: any markdown to explain it.
 example:
   desc: __MISSING__
   code: __MISSING__
+
+# A list of related functions/classes
 see-also: []
-title: nda::<deduction guide for array_adapter>
+
+# ---------- DO NOT EDIT BELOW --------
 permalink: /cpp-api/nda/<deduction guide for array_adapter>
+title: nda::<deduction guide for array_adapter>
 parent: nda
 nav_exclude: true
 ...

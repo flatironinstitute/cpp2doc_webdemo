@@ -1,33 +1,55 @@
 ---
+# Do not edit this first section
 layout: function
 short_name: conj_r
 qualified_name: nda::conj_r
 namespaces: [nda]
 includer: nda/nda.hpp
+
+# Brief description. One line only.
 brief: ""
+
+# List of overloads. Edit only the desc
 overloads:
-  double conj_r(double x):
+
+  - signature: double conj_r(double x)
     desc: ""
-    source: nda/mapped_functions.hpp
-  std::complex<double> conj_r(std::complex<double> x):
+
+  - signature: std::complex<double> conj_r(std::complex<double> x)
     desc: ""
-    source: nda/mapped_functions.hpp
-  "template <typename A>\nrequires (is_ndarray_v<std::decay_t<A>>)\nauto conj_r(A && a)":
+
+  - signature: |
+      template <typename A>
+      requires (is_ndarray_v<std::decay_t<A>>)
+      auto conj_r(A && a)
     desc: Maps conj_r onto the array
-    source: nda/mapped_functions.hxx
+
+# Long description. Any Markdown, with code, latex, multiline with |
 desc: ""
+
+# Parameters of the function. Edit only the description after the :
 params:
   x: __MISSING__
   a: __MISSING__
+
+# Template parameters of the function. Edit only the description after the :
 tparams:
   A: __MISSING__
+
+# Desc of the return value
 return_value: __MISSING__
+
+# Code example. desc: any markdown to explain it.
 example:
   desc: __MISSING__
   code: __MISSING__
+
+# A list of related functions/classes
 see-also: []
-title: nda::conj_r
+
+# ---------- DO NOT EDIT BELOW --------
 permalink: /cpp-api/nda/conj_r
+title: nda::conj_r
 parent: nda
 nav_exclude: true
 ...

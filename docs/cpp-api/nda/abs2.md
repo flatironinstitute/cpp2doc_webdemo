@@ -1,33 +1,55 @@
 ---
+# Do not edit this first section
 layout: function
 short_name: abs2
 qualified_name: nda::abs2
 namespaces: [nda]
 includer: nda/nda.hpp
+
+# Brief description. One line only.
 brief: ""
+
+# List of overloads. Edit only the desc
 overloads:
-  double abs2(double x):
+
+  - signature: double abs2(double x)
     desc: ""
-    source: nda/mapped_functions.hpp
-  double abs2(std::complex<double> x):
+
+  - signature: double abs2(std::complex<double> x)
     desc: ""
-    source: nda/mapped_functions.hpp
-  "template <typename A>\nrequires (is_ndarray_v<std::decay_t<A>>)\nauto abs2(A && a)":
+
+  - signature: |
+      template <typename A>
+      requires (is_ndarray_v<std::decay_t<A>>)
+      auto abs2(A && a)
     desc: Maps abs2 onto the array
-    source: nda/mapped_functions.hxx
+
+# Long description. Any Markdown, with code, latex, multiline with |
 desc: ""
+
+# Parameters of the function. Edit only the description after the :
 params:
   x: __MISSING__
   a: __MISSING__
+
+# Template parameters of the function. Edit only the description after the :
 tparams:
   A: __MISSING__
+
+# Desc of the return value
 return_value: __MISSING__
+
+# Code example. desc: any markdown to explain it.
 example:
   desc: __MISSING__
   code: __MISSING__
+
+# A list of related functions/classes
 see-also: []
-title: nda::abs2
+
+# ---------- DO NOT EDIT BELOW --------
 permalink: /cpp-api/nda/abs2
+title: nda::abs2
 parent: nda
 nav_exclude: true
 ...

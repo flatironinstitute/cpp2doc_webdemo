@@ -1,28 +1,50 @@
 ---
+# Do not edit this first section
 layout: function
 short_name: operator*
 qualified_name: nda::operator*
 namespaces: [nda]
 includer: nda/nda.hpp
+
+# Brief description. One line only.
 brief: ""
+
+# List of overloads. Edit only the desc
 overloads:
-  "template <typename L, typename R>\nrequires (model_ndarray_with_possibly_one_scalar<L, R>)\nauto operator*(L && l, R && r)":
+
+  - signature: |
+      template <typename L, typename R>
+      requires (model_ndarray_with_possibly_one_scalar<L, R>)
+      auto operator*(L && l, R && r)
     desc: ""
-    source: nda/arithmetic.hpp
+
+# Long description. Any Markdown, with code, latex, multiline with |
 desc: ""
+
+# Parameters of the function. Edit only the description after the :
 params:
   l: ": lhs"
   r: ": rhs L, R model NdArray. One can be a scalar. They must be in the same algebra.     * if the algebra is 'A' : lazy expression for element-wise multiplication    * if the algebra is 'M' : compute the matrix product (with blas gemm), in a new matrix."
+
+# Template parameters of the function. Edit only the description after the :
 tparams:
   L: ""
   R: ""
+
+# Desc of the return value
 return_value: __MISSING__
+
+# Code example. desc: any markdown to explain it.
 example:
   desc: __MISSING__
   code: __MISSING__
+
+# A list of related functions/classes
 see-also: []
-title: nda::operator*
+
+# ---------- DO NOT EDIT BELOW --------
 permalink: /cpp-api/nda/operator*
+title: nda::operator*
 parent: nda
 nav_exclude: true
 ...

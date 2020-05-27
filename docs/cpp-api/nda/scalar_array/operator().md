@@ -1,26 +1,47 @@
 ---
+# Do not edit this first section
 layout: function
 short_name: operator()
 qualified_name: nda::scalar_array::operator()
 namespaces: [nda, scalar_array]
 includer: nda/nda.hpp
+
+# Brief description. One line only.
 brief: ""
+
+# List of overloads. Edit only the desc
 overloads:
-  "template <typename T>\nS operator()(T &&... )  const":
+
+  - signature: |
+      template <typename T>
+      S operator()(T &&... )  const
     desc: ""
-    source: nda/arithmetic.hpp
+
+# Long description. Any Markdown, with code, latex, multiline with |
 desc: ""
+
+# Parameters of the function. Edit only the description after the :
 params:
   {}
+
+# Template parameters of the function. Edit only the description after the :
 tparams:
   T: __MISSING__
+
+# Desc of the return value
 return_value: __MISSING__
+
+# Code example. desc: any markdown to explain it.
 example:
   desc: __MISSING__
   code: __MISSING__
+
+# A list of related functions/classes
 see-also: []
-title: nda::scalar_array::operator()
+
+# ---------- DO NOT EDIT BELOW --------
 permalink: /cpp-api/nda/scalar_array/operator()
+title: nda::scalar_array::operator()
 parent: nda::scalar_array
 nav_exclude: true
 ...

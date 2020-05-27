@@ -1,21 +1,46 @@
 ---
+# Do not edit this first section
 layout: function
 short_name: map_layout_transform
 qualified_name: nda::map_layout_transform
 namespaces: [nda]
 includer: nda/nda.hpp
+
+# Brief description. One line only.
 brief: ""
+
+# List of overloads. Edit only the desc
 overloads:
-  "template <typename T, int R, typename L, char Algebra, typename AccessorPolicy, typename OwningPolicy, typename NewLayoutType>\nauto map_layout_transform(basic_array_view<T, R, L, Algebra, AccessorPolicy, OwningPolicy> a, const NewLayoutType & new_layout)":
+
+  - signature: |
+      template <typename T, int R, typename L, char Algebra, typename AccessorPolicy, typename OwningPolicy, typename NewLayoutType>
+      auto map_layout_transform(basic_array_view<T, R, L, Algebra, AccessorPolicy, OwningPolicy> a, const NewLayoutType & new_layout)
     desc: ""
-    source: nda/layout_transforms.hpp
-  "template <typename T, int R, typename L, char Algebra, typename ContainerPolicy, typename NewLayoutType>\nauto map_layout_transform(basic_array<T, R, L, Algebra, ContainerPolicy> && a, const NewLayoutType & new_layout)":
+
+  - signature: |
+      template <typename T, int R, typename L, char Algebra, typename ContainerPolicy, typename NewLayoutType>
+      auto map_layout_transform(basic_array<T, R, L, Algebra, ContainerPolicy> && a, const NewLayoutType & new_layout)
     desc: ""
-    source: nda/layout_transforms.hpp
+
+  - signature: |
+      template <typename T, int R, typename L, char Algebra, typename AccessorPolicy, typename OwningPolicy, typename NewLayoutType>
+      auto map_layout_transform(basic_array_view<T, R, L, Algebra, AccessorPolicy, OwningPolicy> a, const NewLayoutType & new_layout)
+    desc: ""
+
+  - signature: |
+      template <typename T, int R, typename L, char Algebra, typename ContainerPolicy, typename NewLayoutType>
+      auto map_layout_transform(basic_array<T, R, L, Algebra, ContainerPolicy> && a, const NewLayoutType & new_layout)
+    desc: ""
+
+# Long description. Any Markdown, with code, latex, multiline with |
 desc: ""
+
+# Parameters of the function. Edit only the description after the :
 params:
   a: __MISSING__
   new_layout: __MISSING__
+
+# Template parameters of the function. Edit only the description after the :
 tparams:
   T: __MISSING__
   R: __MISSING__
@@ -25,13 +50,21 @@ tparams:
   OwningPolicy: __MISSING__
   NewLayoutType: __MISSING__
   ContainerPolicy: __MISSING__
+
+# Desc of the return value
 return_value: __MISSING__
+
+# Code example. desc: any markdown to explain it.
 example:
   desc: __MISSING__
   code: __MISSING__
+
+# A list of related functions/classes
 see-also: []
-title: nda::map_layout_transform
+
+# ---------- DO NOT EDIT BELOW --------
 permalink: /cpp-api/nda/map_layout_transform
+title: nda::map_layout_transform
 parent: nda
 nav_exclude: true
 ...

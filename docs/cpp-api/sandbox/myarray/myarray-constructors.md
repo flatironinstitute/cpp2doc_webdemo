@@ -1,29 +1,51 @@
 ---
+# Do not edit this first section
 layout: function
 short_name: myarray
 qualified_name: sandbox::myarray::myarray<T, R>
 namespaces: [sandbox, myarray]
 includer: ""
+
+# Brief description. One line only.
 brief: ""
+
+# List of overloads. Edit only the desc
 overloads:
-  "template <sandbox::is_integral Int>\nmyarray(Int... is) noexcept":
+
+  - signature: |
+      template <sandbox::is_integral Int>
+      myarray(Int... is) noexcept
     desc: ""
-    source: /Users/oparcollet/cpp2doc_webdemo/src/array_concept.cpp
-  myarray(const myarray<T, R> & ):
+
+  - signature: myarray(const myarray<T, R> & )
     desc: ""
-    source: /Users/oparcollet/cpp2doc_webdemo/src/array_concept.cpp
+
+# Long description. Any Markdown, with code, latex, multiline with |
 desc: ""
+
+# Parameters of the function. Edit only the description after the :
 params:
   is: __MISSING__
+
+# Template parameters of the function. Edit only the description after the :
 tparams:
   Int: __MISSING__
+
+# Desc of the return value
 return_value: __MISSING__
+
+# Code example. desc: any markdown to explain it.
 example:
   desc: __MISSING__
   code: __MISSING__
+
+# A list of related functions
 see-also: []
 title: sandbox::myarray::myarray<T, R>
+
+# ---------- DO NOT EDIT BELOW --------
 permalink: /cpp-api/sandbox/myarray/myarray-constructors
 parent: sandbox::myarray
+nav_exclude: true
 ...
 

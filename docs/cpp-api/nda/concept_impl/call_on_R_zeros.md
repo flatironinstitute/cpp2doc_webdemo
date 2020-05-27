@@ -1,27 +1,48 @@
 ---
+# Do not edit this first section
 layout: function
 short_name: call_on_R_zeros
 qualified_name: nda::concept_impl::call_on_R_zeros
 namespaces: [nda, concept_impl]
 includer: nda/nda.hpp
+
+# Brief description. One line only.
 brief: ""
+
+# List of overloads. Edit only the desc
 overloads:
-  "template <int R, typename A>\nauto call_on_R_zeros(const A & a)-> decltype(call_on_R_zeros_impl(std::make_index_sequence<R>({}), a))":
+
+  - signature: |
+      template <int R, typename A>
+      auto call_on_R_zeros(const A & a)-> decltype(call_on_R_zeros_impl(std::make_index_sequence<R>({}), a))
     desc: ""
-    source: nda/concepts.hpp
+
+# Long description. Any Markdown, with code, latex, multiline with |
 desc: ""
+
+# Parameters of the function. Edit only the description after the :
 params:
   a: __MISSING__
+
+# Template parameters of the function. Edit only the description after the :
 tparams:
   R: __MISSING__
   A: __MISSING__
+
+# Desc of the return value
 return_value: __MISSING__
+
+# Code example. desc: any markdown to explain it.
 example:
   desc: __MISSING__
   code: __MISSING__
+
+# A list of related functions/classes
 see-also: []
-title: nda::concept_impl::call_on_R_zeros
+
+# ---------- DO NOT EDIT BELOW --------
 permalink: /cpp-api/nda/concept_impl/call_on_R_zeros
+title: nda::concept_impl::call_on_R_zeros
 parent: nda::concept_impl
 nav_exclude: true
 ...

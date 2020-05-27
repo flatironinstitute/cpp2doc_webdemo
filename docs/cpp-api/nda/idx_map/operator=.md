@@ -1,29 +1,48 @@
 ---
+# Do not edit this first section
 layout: function
 short_name: operator=
 qualified_name: nda::idx_map::operator=
 namespaces: [nda, idx_map]
 includer: nda/nda.hpp
+
+# Brief description. One line only.
 brief: ""
+
+# List of overloads. Edit only the desc
 overloads:
-  idx_map & operator=(const idx_map<Rank, StaticExtents, StrideOrder, LayoutProp> & ):
+
+  - signature: idx_map & operator=(const idx_map<Rank, StaticExtents, StrideOrder, LayoutProp> & )
     desc: ""
-    source: nda/layout/idx_map.hpp
-  idx_map & operator=(idx_map<Rank, StaticExtents, StrideOrder, LayoutProp> && ):
+
+  - signature: idx_map & operator=(idx_map<Rank, StaticExtents, StrideOrder, LayoutProp> && )
     desc: ""
-    source: nda/layout/idx_map.hpp
+
+# Long description. Any Markdown, with code, latex, multiline with |
 desc: ""
+
+# Parameters of the function. Edit only the description after the :
 params:
   {}
+
+# Template parameters of the function. Edit only the description after the :
 tparams:
   {}
+
+# Desc of the return value
 return_value: __MISSING__
+
+# Code example. desc: any markdown to explain it.
 example:
   desc: __MISSING__
   code: __MISSING__
+
+# A list of related functions/classes
 see-also: []
-title: nda::idx_map::operator=
+
+# ---------- DO NOT EDIT BELOW --------
 permalink: /cpp-api/nda/idx_map/operator=
+title: nda::idx_map::operator=
 parent: nda::idx_map
 nav_exclude: true
 ...

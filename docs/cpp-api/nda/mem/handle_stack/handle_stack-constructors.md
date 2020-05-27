@@ -1,41 +1,60 @@
 ---
+# Do not edit this first section
 layout: function
 short_name: handle_stack
 qualified_name: nda::mem::handle_stack::handle_stack<T, Size>
 namespaces: [nda, mem, handle_stack]
 includer: nda/nda.hpp
+
+# Brief description. One line only.
 brief: ""
+
+# List of overloads. Edit only the desc
 overloads:
-  handle_stack():
+
+  - signature: handle_stack()
     desc: ""
-    source: nda/storage/handle.hpp
-  handle_stack(handle_stack<T, Size> && ) noexcept:
+
+  - signature: handle_stack(handle_stack<T, Size> && ) noexcept
     desc: ""
-    source: nda/storage/handle.hpp
-  handle_stack(long ):
+
+  - signature: handle_stack(long )
     desc: ""
-    source: nda/storage/handle.hpp
-  handle_stack(long , struct nda::mem::do_not_initialize_t ):
+
+  - signature: handle_stack(long , struct nda::mem::do_not_initialize_t )
     desc: ""
-    source: nda/storage/handle.hpp
-  handle_stack(long , struct nda::mem::init_zero_t ):
+
+  - signature: handle_stack(long , struct nda::mem::init_zero_t )
     desc: ""
-    source: nda/storage/handle.hpp
-  handle_stack(const handle_stack<T, Size> & ) noexcept:
+
+  - signature: handle_stack(const handle_stack<T, Size> & ) noexcept
     desc: ""
-    source: nda/storage/handle.hpp
+
+# Long description. Any Markdown, with code, latex, multiline with |
 desc: ""
+
+# Parameters of the function. Edit only the description after the :
 params:
   {}
+
+# Template parameters of the function. Edit only the description after the :
 tparams:
   {}
+
+# Desc of the return value
 return_value: __MISSING__
+
+# Code example. desc: any markdown to explain it.
 example:
   desc: __MISSING__
   code: __MISSING__
+
+# A list of related functions/classes
 see-also: []
-title: nda::mem::handle_stack::handle_stack<T, Size>
+
+# ---------- DO NOT EDIT BELOW --------
 permalink: /cpp-api/nda/mem/handle_stack/handle_stack-constructors
+title: nda::mem::handle_stack::handle_stack<T, Size>
 parent: nda::mem::handle_stack
 nav_exclude: true
 ...

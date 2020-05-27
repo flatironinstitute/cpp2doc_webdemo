@@ -1,41 +1,60 @@
 ---
+# Do not edit this first section
 layout: function
 short_name: handle_sso
 qualified_name: nda::mem::handle_sso::handle_sso<T, Size>
 namespaces: [nda, mem, handle_sso]
 includer: nda/nda.hpp
+
+# Brief description. One line only.
 brief: ""
+
+# List of overloads. Edit only the desc
 overloads:
-  handle_sso():
+
+  - signature: handle_sso()
     desc: ""
-    source: nda/storage/handle.hpp
-  handle_sso(handle_sso<T, Size> && ) noexcept:
+
+  - signature: handle_sso(handle_sso<T, Size> && ) noexcept
     desc: ""
-    source: nda/storage/handle.hpp
-  handle_sso(long size, struct nda::mem::do_not_initialize_t ):
+
+  - signature: handle_sso(long size, struct nda::mem::do_not_initialize_t )
     desc: ""
-    source: nda/storage/handle.hpp
-  handle_sso(long size, struct nda::mem::init_zero_t ):
+
+  - signature: handle_sso(long size, struct nda::mem::init_zero_t )
     desc: ""
-    source: nda/storage/handle.hpp
-  handle_sso(const handle_sso<T, Size> & ):
+
+  - signature: handle_sso(const handle_sso<T, Size> & )
     desc: ""
-    source: nda/storage/handle.hpp
-  handle_sso(long size):
+
+  - signature: handle_sso(long size)
     desc: ""
-    source: nda/storage/handle.hpp
+
+# Long description. Any Markdown, with code, latex, multiline with |
 desc: ""
+
+# Parameters of the function. Edit only the description after the :
 params:
   size: __MISSING__
+
+# Template parameters of the function. Edit only the description after the :
 tparams:
   {}
+
+# Desc of the return value
 return_value: __MISSING__
+
+# Code example. desc: any markdown to explain it.
 example:
   desc: __MISSING__
   code: __MISSING__
+
+# A list of related functions/classes
 see-also: []
-title: nda::mem::handle_sso::handle_sso<T, Size>
+
+# ---------- DO NOT EDIT BELOW --------
 permalink: /cpp-api/nda/mem/handle_sso/handle_sso-constructors
+title: nda::mem::handle_sso::handle_sso<T, Size>
 parent: nda::mem::handle_sso
 nav_exclude: true
 ...

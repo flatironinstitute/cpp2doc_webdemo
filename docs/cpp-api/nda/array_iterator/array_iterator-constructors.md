@@ -1,35 +1,54 @@
 ---
+# Do not edit this first section
 layout: function
 short_name: array_iterator
 qualified_name: nda::array_iterator::array_iterator<Rank, T, Pointer>
 namespaces: [nda, array_iterator]
 includer: nda/nda.hpp
+
+# Brief description. One line only.
 brief: ""
+
+# List of overloads. Edit only the desc
 overloads:
-  array_iterator():
+
+  - signature: array_iterator()
     desc: ""
-    source: nda/iterators.hpp
-  array_iterator(const array_iterator<Rank, T, Pointer> & ):
+
+  - signature: array_iterator(const array_iterator<Rank, T, Pointer> & )
     desc: ""
-    source: nda/iterators.hpp
-  array_iterator(const std::array<long, Rank> & lengths, const std::array<long, Rank> & strides, T * start, bool at_end):
+
+  - signature: array_iterator(const std::array<long, Rank> & lengths, const std::array<long, Rank> & strides, T * start, bool at_end)
     desc: ""
-    source: nda/iterators.hpp
+
+# Long description. Any Markdown, with code, latex, multiline with |
 desc: ""
+
+# Parameters of the function. Edit only the description after the :
 params:
   lengths: __MISSING__
   strides: __MISSING__
   start: __MISSING__
   at_end: __MISSING__
+
+# Template parameters of the function. Edit only the description after the :
 tparams:
   {}
+
+# Desc of the return value
 return_value: __MISSING__
+
+# Code example. desc: any markdown to explain it.
 example:
   desc: __MISSING__
   code: __MISSING__
+
+# A list of related functions/classes
 see-also: []
-title: nda::array_iterator::array_iterator<Rank, T, Pointer>
+
+# ---------- DO NOT EDIT BELOW --------
 permalink: /cpp-api/nda/array_iterator/array_iterator-constructors
+title: nda::array_iterator::array_iterator<Rank, T, Pointer>
 parent: nda::array_iterator
 nav_exclude: true
 ...

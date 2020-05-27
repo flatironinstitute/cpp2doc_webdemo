@@ -1,14 +1,26 @@
 ---
+# Do not edit this first section
 layout: class
 short_name: myarray
 qualified_name: sandbox::myarray
 namespaces: [sandbox]
 includer: ""
-brief: ""
-desc: ""
+signature: |
+  template <typename T, int R>
+  struct myarray
+
+# Template parameters of the function. Edit only the description after the :
 tparams:
   T: __MISSING__
   R: __MISSING__
+
+# Brief description. One line only.
+brief: ""
+
+# Long description. Any Markdown, with code, latex, multiline with |
+desc: ""
+
+# A list of methods. You can reorder, regroup into a dict : groupname -> list
 methods:
   - (constructors)
   - operator()
@@ -17,22 +29,30 @@ methods:
   - operator=
   - AAA
   - BBB
+
+# A list of non_member_functions
 non_member_functions: []
+
+# Public member types
 member_types:
   value_t:
     type: T
     desc: __MISSING__
+
+# Code example. desc: any markdown to explain it.
 example:
   desc: __MISSING__
   code: __MISSING__
+
+# A list of related functions
 see-also: []
-signature: |
-  template <typename T, int R>
-  struct myarray
-source: /Users/oparcollet/cpp2doc_webdemo/src/array_concept.cpp
-title: sandbox::myarray
+
+# ---------- DO NOT EDIT BELOW --------
 permalink: /cpp-api/sandbox/myarray
-has-children: true
+title: sandbox::myarray
+source: /Users/oparcollet/cpp2doc_webdemo/src/array_concept.cpp
 parent: sandbox
+has_children: true
+nav_exclude: true
 ...
 

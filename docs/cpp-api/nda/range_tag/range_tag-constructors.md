@@ -1,32 +1,51 @@
 ---
+# Do not edit this first section
 layout: function
 short_name: range_tag
 qualified_name: nda::range_tag::range_tag
 namespaces: [nda, range_tag]
 includer: nda/nda.hpp
+
+# Brief description. One line only.
 brief: ""
+
+# List of overloads. Edit only the desc
 overloads:
-  range_tag():
+
+  - signature: range_tag()
     desc: ""
-    source: nda/layout/range.hpp
-  range_tag(const struct nda::range_tag & ):
+
+  - signature: range_tag(const struct nda::range_tag & )
     desc: ""
-    source: nda/layout/range.hpp
-  range_tag(struct nda::range_tag && ):
+
+  - signature: range_tag(struct nda::range_tag && )
     desc: ""
-    source: nda/layout/range.hpp
+
+# Long description. Any Markdown, with code, latex, multiline with |
 desc: ""
+
+# Parameters of the function. Edit only the description after the :
 params:
   {}
+
+# Template parameters of the function. Edit only the description after the :
 tparams:
   {}
+
+# Desc of the return value
 return_value: __MISSING__
+
+# Code example. desc: any markdown to explain it.
 example:
   desc: __MISSING__
   code: __MISSING__
+
+# A list of related functions/classes
 see-also: []
-title: nda::range_tag::range_tag
+
+# ---------- DO NOT EDIT BELOW --------
 permalink: /cpp-api/nda/range_tag/range_tag-constructors
+title: nda::range_tag::range_tag
 parent: nda::range_tag
 nav_exclude: true
 ...

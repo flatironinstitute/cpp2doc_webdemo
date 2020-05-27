@@ -1,26 +1,47 @@
 ---
+# Do not edit this first section
 layout: function
 short_name: sum
 qualified_name: nda::sum
 namespaces: [nda]
 includer: nda/nda.hpp
+
+# Brief description. One line only.
 brief: ""
+
+# List of overloads. Edit only the desc
 overloads:
-  "template <nda::Array A>\nauto sum(const A & a)":
+
+  - signature: |
+      template <nda::Array A>
+      auto sum(const A & a)
     desc: ""
-    source: nda/algorithms.hpp
+
+# Long description. Any Markdown, with code, latex, multiline with |
 desc: ""
+
+# Parameters of the function. Edit only the description after the :
 params:
   a: The object of type A
+
+# Template parameters of the function. Edit only the description after the :
 tparams:
   A: Anything modeling NdArray
+
+# Desc of the return value
 return_value: The sum of all elements of a
+
+# Code example. desc: any markdown to explain it.
 example:
   desc: __MISSING__
   code: __MISSING__
+
+# A list of related functions/classes
 see-also: []
-title: nda::sum
+
+# ---------- DO NOT EDIT BELOW --------
 permalink: /cpp-api/nda/sum
+title: nda::sum
 parent: nda
 nav_exclude: true
 ...

@@ -1,32 +1,51 @@
 ---
+# Do not edit this first section
 layout: function
 short_name: segregator
 qualified_name: nda::allocators::segregator::segregator<Threshold, A, B>
 namespaces: [nda, allocators, segregator]
 includer: nda/nda.hpp
+
+# Brief description. One line only.
 brief: ""
+
+# List of overloads. Edit only the desc
 overloads:
-  segregator():
+
+  - signature: segregator()
     desc: ""
-    source: nda/storage/allocators.hpp
-  segregator(const segregator<Threshold, A, B> & ):
+
+  - signature: segregator(const segregator<Threshold, A, B> & )
     desc: ""
-    source: nda/storage/allocators.hpp
-  segregator(segregator<Threshold, A, B> && ):
+
+  - signature: segregator(segregator<Threshold, A, B> && )
     desc: ""
-    source: nda/storage/allocators.hpp
+
+# Long description. Any Markdown, with code, latex, multiline with |
 desc: ""
+
+# Parameters of the function. Edit only the description after the :
 params:
   {}
+
+# Template parameters of the function. Edit only the description after the :
 tparams:
   {}
+
+# Desc of the return value
 return_value: __MISSING__
+
+# Code example. desc: any markdown to explain it.
 example:
   desc: __MISSING__
   code: __MISSING__
+
+# A list of related functions/classes
 see-also: []
-title: nda::allocators::segregator::segregator<Threshold, A, B>
+
+# ---------- DO NOT EDIT BELOW --------
 permalink: /cpp-api/nda/allocators/segregator/segregator-constructors
+title: nda::allocators::segregator::segregator<Threshold, A, B>
 parent: nda::allocators::segregator
 nav_exclude: true
 ...

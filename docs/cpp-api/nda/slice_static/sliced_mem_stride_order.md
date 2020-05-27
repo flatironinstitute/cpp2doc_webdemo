@@ -1,28 +1,49 @@
 ---
+# Do not edit this first section
 layout: function
 short_name: sliced_mem_stride_order
 qualified_name: nda::slice_static::sliced_mem_stride_order
 namespaces: [nda, slice_static]
 includer: nda/nda.hpp
+
+# Brief description. One line only.
 brief: ""
+
+# List of overloads. Edit only the desc
 overloads:
-  "template <size_t P, size_t N>\nstd::array<int, P> sliced_mem_stride_order(const std::array<int, N> & stride_order_in, const std::array<int, P> & n_of_p)":
+
+  - signature: |
+      template <size_t P, size_t N>
+      std::array<int, P> sliced_mem_stride_order(const std::array<int, N> & stride_order_in, const std::array<int, P> & n_of_p)
     desc: ""
-    source: nda/layout/slice_static.hpp
+
+# Long description. Any Markdown, with code, latex, multiline with |
 desc: ""
+
+# Parameters of the function. Edit only the description after the :
 params:
   stride_order_in: __MISSING__
   n_of_p: __MISSING__
+
+# Template parameters of the function. Edit only the description after the :
 tparams:
   P: __MISSING__
   N: __MISSING__
+
+# Desc of the return value
 return_value: __MISSING__
+
+# Code example. desc: any markdown to explain it.
 example:
   desc: __MISSING__
   code: __MISSING__
+
+# A list of related functions/classes
 see-also: []
-title: nda::slice_static::sliced_mem_stride_order
+
+# ---------- DO NOT EDIT BELOW --------
 permalink: /cpp-api/nda/slice_static/sliced_mem_stride_order
+title: nda::slice_static::sliced_mem_stride_order
 parent: nda::slice_static
 nav_exclude: true
 ...

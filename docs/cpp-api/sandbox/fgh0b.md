@@ -1,26 +1,49 @@
 ---
+# Do not edit this first section
 layout: function
 short_name: fgh0b
 qualified_name: sandbox::fgh0b
 namespaces: [sandbox]
 includer: ""
+
+# Brief description. One line only.
 brief: ""
+
+# List of overloads. Edit only the desc
 overloads:
-  "template <typename A>\nrequires (ArrayOfRank<A, 2>)\nvoid fgh0b(const A & a)":
+
+  - signature: |
+      template <typename A>
+      requires (ArrayOfRank<A, 2>)
+      void fgh0b(const A & a)
     desc: ""
-    source: /Users/oparcollet/cpp2doc_webdemo/src/array_concept.cpp
+
+# Long description. Any Markdown, with code, latex, multiline with |
 desc: ""
+
+# Parameters of the function. Edit only the description after the :
 params:
   a: __MISSING__
+
+# Template parameters of the function. Edit only the description after the :
 tparams:
   A: __MISSING__
+
+# Desc of the return value
 return_value: __MISSING__
+
+# Code example. desc: any markdown to explain it.
 example:
   desc: __MISSING__
   code: __MISSING__
+
+# A list of related functions
 see-also: []
 title: sandbox::fgh0b
+
+# ---------- DO NOT EDIT BELOW --------
 permalink: /cpp-api/sandbox/fgh0b
 parent: sandbox
+nav_exclude: true
 ...
 

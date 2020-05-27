@@ -1,15 +1,26 @@
 ---
+# Do not edit this first section
 layout: function
 short_name: slice_layout_prop
 qualified_name: nda::slice_static::slice_layout_prop
 namespaces: [nda, slice_static]
 includer: nda/nda.hpp
+
+# Brief description. One line only.
 brief: ""
+
+# List of overloads. Edit only the desc
 overloads:
-  "template <size_t Q, size_t N>\nenum nda::layout_prop_e slice_layout_prop(int P, bool has_only_rangeall_and_long, const std::array<_Bool, Q> & args_is_range_all, const std::array<int, N> & stride_order, enum nda::layout_prop_e layout_prop, int e_pos, int e_len)":
+
+  - signature: |
+      template <size_t Q, size_t N>
+      enum nda::layout_prop_e slice_layout_prop(int P, bool has_only_rangeall_and_long, const std::array<_Bool, Q> & args_is_range_all, const std::array<int, N> & stride_order, enum nda::layout_prop_e layout_prop, int e_pos, int e_len)
     desc: ""
-    source: nda/layout/slice_static.hpp
+
+# Long description. Any Markdown, with code, latex, multiline with |
 desc: ""
+
+# Parameters of the function. Edit only the description after the :
 params:
   P: __MISSING__
   has_only_rangeall_and_long: __MISSING__
@@ -18,16 +29,26 @@ params:
   layout_prop: __MISSING__
   e_pos: __MISSING__
   e_len: __MISSING__
+
+# Template parameters of the function. Edit only the description after the :
 tparams:
   Q: __MISSING__
   N: __MISSING__
+
+# Desc of the return value
 return_value: __MISSING__
+
+# Code example. desc: any markdown to explain it.
 example:
   desc: __MISSING__
   code: __MISSING__
+
+# A list of related functions/classes
 see-also: []
-title: nda::slice_static::slice_layout_prop
+
+# ---------- DO NOT EDIT BELOW --------
 permalink: /cpp-api/nda/slice_static/slice_layout_prop
+title: nda::slice_static::slice_layout_prop
 parent: nda::slice_static
 nav_exclude: true
 ...

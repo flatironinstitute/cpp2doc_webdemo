@@ -1,23 +1,38 @@
 ---
+# Do not edit this first section
 layout: class
 short_name: range_tag
 qualified_name: nda::range_tag
 namespaces: [nda]
 includer: nda/nda.hpp
+signature: struct range_tag
+
+# Brief description. One line only.
 brief: ""
+
+# Long description. Any Markdown, with code, latex, multiline with |
 desc: ""
+
+# A list of methods. You can reorder, regroup into a dict : groupname -> list
 methods: [(constructors), (destructor)]
+
+# A list of non_member_functions
 non_member_functions: []
+
+# Code example. desc: any markdown to explain it.
 example:
   desc: __MISSING__
   code: __MISSING__
+
+# A list of related functions/classes
 see-also: []
-signature: struct range_tag
-source: nda/layout/range.hpp
-title: nda::range_tag
+
+# ---------- DO NOT EDIT BELOW --------
 permalink: /cpp-api/nda/range_tag
-has_children: true
+title: nda::range_tag
+source: nda/layout/range.hpp
 parent: nda
+has_children: true
 nav_exclude: true
 ...
 

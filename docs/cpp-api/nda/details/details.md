@@ -1,7 +1,10 @@
 ---
+# Do not edit this first section
 layout: namespace
-qualified_name: nda::details
+
+# ---------- DO NOT EDIT BELOW --------
 permalink: /cpp-api/nda/details
+qualified_name: nda::details
 parent: nda
 title: nda::details
 has_children: true

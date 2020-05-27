@@ -1,32 +1,57 @@
 ---
+# Do not edit this first section
 layout: function
 short_name: operator[]
 qualified_name: nda::basic_array::operator[]
 namespaces: [nda, basic_array]
 includer: nda/nda.hpp
+
+# Brief description. One line only.
 brief: Access the array, make a lazy expression or slice of it depending on the arguments
+
+# List of overloads. Edit only the desc
 overloads:
-  "template <typename T>\ndecltype(auto) operator[](const T & x) noexcept(has_no_boundcheck) const &":
+
+  - signature: |
+      template <typename T>
+      decltype(auto) operator[](const T & x) noexcept(has_no_boundcheck) const &
     desc: Access the array, make a lazy expression or slice of it depending on the arguments
-    source: nda/_impl_basic_array_view_common.hpp
-  "template <typename T>\ndecltype(auto) operator[](const T & x) noexcept(has_no_boundcheck) &":
+
+  - signature: |
+      template <typename T>
+      decltype(auto) operator[](const T & x) noexcept(has_no_boundcheck) &
     desc: ""
-    source: nda/_impl_basic_array_view_common.hpp
-  "template <typename T>\ndecltype(auto) operator[](const T & x) noexcept(has_no_boundcheck) &&":
+
+  - signature: |
+      template <typename T>
+      decltype(auto) operator[](const T & x) noexcept(has_no_boundcheck) &&
     desc: ""
-    source: nda/_impl_basic_array_view_common.hpp
+
+# Long description. Any Markdown, with code, latex, multiline with |
 desc: ""
+
+# Parameters of the function. Edit only the description after the :
 params:
   x: __MISSING__
+
+# Template parameters of the function. Edit only the description after the :
 tparams:
   T: __MISSING__
+
+# Desc of the return value
 return_value: __MISSING__
+
+# Code example. desc: any markdown to explain it.
 example:
   desc: __MISSING__
   code: __MISSING__
+
+# A list of related functions/classes
 see-also: []
-title: nda::basic_array::operator[]
+
+# ---------- DO NOT EDIT BELOW --------
 permalink: /cpp-api/nda/basic_array/operator[]
+title: nda::basic_array::operator[]
 parent: nda::basic_array
 nav_exclude: true
 ...

@@ -1,42 +1,68 @@
 ---
+# Do not edit this first section
 layout: function
 short_name: operator=
 qualified_name: nda::basic_array::operator=
 namespaces: [nda, basic_array]
 includer: nda/nda.hpp
+
+# Brief description. One line only.
 brief: ""
+
+# List of overloads. Edit only the desc
 overloads:
-  basic_array & operator=(basic_array<ValueType, Rank, Layout, Algebra, ContainerPolicy> && x):
+
+  - signature: basic_array & operator=(basic_array<ValueType, Rank, Layout, Algebra, ContainerPolicy> && x)
     desc: ""
-    source: nda/basic_array.hpp
-  basic_array & operator=(const basic_array<ValueType, Rank, Layout, Algebra, ContainerPolicy> & X):
+
+  - signature: basic_array & operator=(const basic_array<ValueType, Rank, Layout, Algebra, ContainerPolicy> & X)
     desc: Deep copy (array is a regular type). Invalidates all references to the storage.
-    source: nda/basic_array.hpp
-  "template <ArrayOfRank<Rank> RHS>\nbasic_array & operator=(const RHS & rhs) noexcept":
+
+  - signature: |
+      template <ArrayOfRank<Rank> RHS>
+      basic_array & operator=(const RHS & rhs) noexcept
     desc: ""
-    source: nda/basic_array.hpp
-  "template <typename RHS>\nrequires (is_scalar_for_v<RHS, basic_array>)\nbasic_array & operator=(const RHS & rhs) noexcept":
+
+  - signature: |
+      template <typename RHS>
+      requires (is_scalar_for_v<RHS, basic_array>)
+      basic_array & operator=(const RHS & rhs) noexcept
     desc: ""
-    source: nda/basic_array.hpp
-  "template <nda::ArrayInitializer Initializer>\nbasic_array & operator=(const Initializer & initializer) noexcept":
+
+  - signature: |
+      template <nda::ArrayInitializer Initializer>
+      basic_array & operator=(const Initializer & initializer) noexcept
     desc: ""
-    source: nda/basic_array.hpp
+
+# Long description. Any Markdown, with code, latex, multiline with |
 desc: ""
+
+# Parameters of the function. Edit only the description after the :
 params:
   x: __MISSING__
   X: __MISSING__
   rhs: __MISSING__
   initializer: __MISSING__
+
+# Template parameters of the function. Edit only the description after the :
 tparams:
   RHS: A scalar or an object modeling NdArray
   Initializer: __MISSING__
+
+# Desc of the return value
 return_value: __MISSING__
+
+# Code example. desc: any markdown to explain it.
 example:
   desc: __MISSING__
   code: __MISSING__
+
+# A list of related functions/classes
 see-also: []
-title: nda::basic_array::operator=
+
+# ---------- DO NOT EDIT BELOW --------
 permalink: /cpp-api/nda/basic_array/operator=
+title: nda::basic_array::operator=
 parent: nda::basic_array
 nav_exclude: true
 ...

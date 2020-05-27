@@ -1,27 +1,48 @@
 ---
+# Do not edit this first section
 layout: function
 short_name: pop
 qualified_name: nda::pop
 namespaces: [nda]
 includer: nda/nda.hpp
+
+# Brief description. One line only.
 brief: Make a new std::array by removing one element at the end
+
+# List of overloads. Edit only the desc
 overloads:
-  "template <typename T, size_t R>\nstd::array<T, R - 1> pop(const std::array<T, R> & a)":
+
+  - signature: |
+      template <typename T, size_t R>
+      std::array<T, R - 1> pop(const std::array<T, R> & a)
     desc: Make a new std::array by removing one element at the end
-    source: nda/std_addons/array.hpp
+
+# Long description. Any Markdown, with code, latex, multiline with |
 desc: ""
+
+# Parameters of the function. Edit only the description after the :
 params:
   a: The array
+
+# Template parameters of the function. Edit only the description after the :
 tparams:
   T: ""
   R: __MISSING__
+
+# Desc of the return value
 return_value: A new std::array with the element less at the end
+
+# Code example. desc: any markdown to explain it.
 example:
   desc: __MISSING__
   code: __MISSING__
+
+# A list of related functions/classes
 see-also: []
-title: nda::pop
+
+# ---------- DO NOT EDIT BELOW --------
 permalink: /cpp-api/nda/pop
+title: nda::pop
 parent: nda
 nav_exclude: true
 ...

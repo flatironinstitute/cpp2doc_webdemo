@@ -1,26 +1,45 @@
 ---
+# Do not edit this first section
 layout: function
 short_name: min_stride
 qualified_name: nda::idx_map::min_stride
 namespaces: [nda, idx_map]
 includer: nda/nda.hpp
+
+# Brief description. One line only.
 brief: Value of the minimum stride (i.e the fastest one)
+
+# List of overloads. Edit only the desc
 overloads:
-  long min_stride() noexcept const:
+
+  - signature: long min_stride() noexcept const
     desc: Value of the minimum stride (i.e the fastest one)
-    source: nda/layout/idx_map.hpp
+
+# Long description. Any Markdown, with code, latex, multiline with |
 desc: ""
+
+# Parameters of the function. Edit only the description after the :
 params:
   {}
+
+# Template parameters of the function. Edit only the description after the :
 tparams:
   {}
+
+# Desc of the return value
 return_value: __MISSING__
+
+# Code example. desc: any markdown to explain it.
 example:
   desc: __MISSING__
   code: __MISSING__
+
+# A list of related functions/classes
 see-also: []
-title: nda::idx_map::min_stride
+
+# ---------- DO NOT EDIT BELOW --------
 permalink: /cpp-api/nda/idx_map/min_stride
+title: nda::idx_map::min_stride
 parent: nda::idx_map
 nav_exclude: true
 ...

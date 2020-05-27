@@ -1,37 +1,63 @@
 ---
+# Do not edit this first section
 layout: function
 short_name: operator=
 qualified_name: nda::basic_array_view::operator=
 namespaces: [nda, basic_array_view]
 includer: nda/nda.hpp
+
+# Brief description. One line only.
 brief: Same as the general case
+
+# List of overloads. Edit only the desc
 overloads:
-  basic_array_view & operator=(const basic_array_view<ValueType, Rank, Layout, Algebra, AccessorPolicy, OwningPolicy> & rhs) noexcept:
+
+  - signature: basic_array_view & operator=(const basic_array_view<ValueType, Rank, Layout, Algebra, AccessorPolicy, OwningPolicy> & rhs) noexcept
     desc: Same as the general case
-    source: nda/basic_array_view.hpp
-  "template <ArrayOfRank<Rank> RHS>\nbasic_array_view & operator=(const RHS & rhs) noexcept":
+
+  - signature: |
+      template <ArrayOfRank<Rank> RHS>
+      basic_array_view & operator=(const RHS & rhs) noexcept
     desc: Copies the content of rhs into the view.
-    source: nda/basic_array_view.hpp
-  "template <typename RHS>\nrequires (is_scalar_for_v<RHS, basic_array_view>)\nbasic_array_view & operator=(const RHS & rhs) noexcept":
+
+  - signature: |
+      template <typename RHS>
+      requires (is_scalar_for_v<RHS, basic_array_view>)
+      basic_array_view & operator=(const RHS & rhs) noexcept
     desc: Assign to scalar
-    source: nda/basic_array_view.hpp
-  "template <nda::ArrayInitializer Initializer>\nbasic_array_view & operator=(const Initializer & initializer) noexcept":
+
+  - signature: |
+      template <nda::ArrayInitializer Initializer>
+      basic_array_view & operator=(const Initializer & initializer) noexcept
     desc: ""
-    source: nda/basic_array_view.hpp
+
+# Long description. Any Markdown, with code, latex, multiline with |
 desc: "[C++ oddity : this case must be explicitly coded too]"
+
+# Parameters of the function. Edit only the description after the :
 params:
   rhs: __MISSING__
   initializer: __MISSING__
+
+# Template parameters of the function. Edit only the description after the :
 tparams:
   RHS: __MISSING__
   Initializer: __MISSING__
+
+# Desc of the return value
 return_value: __MISSING__
+
+# Code example. desc: any markdown to explain it.
 example:
   desc: __MISSING__
   code: __MISSING__
+
+# A list of related functions/classes
 see-also: []
-title: nda::basic_array_view::operator=
+
+# ---------- DO NOT EDIT BELOW --------
 permalink: /cpp-api/nda/basic_array_view/operator=
+title: nda::basic_array_view::operator=
 parent: nda::basic_array_view
 nav_exclude: true
 ...

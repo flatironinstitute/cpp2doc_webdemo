@@ -1,26 +1,45 @@
 ---
+# Do not edit this first section
 layout: function
 short_name: refcounts
 qualified_name: nda::mem::rtable_t::refcounts
 namespaces: [nda, mem, rtable_t]
 includer: nda/nda.hpp
+
+# Brief description. One line only.
 brief: ""
+
+# List of overloads. Edit only the desc
 overloads:
-  const std::vector<int_t> & refcounts() noexcept const:
+
+  - signature: const std::vector<int_t> & refcounts() noexcept const
     desc: ""
-    source: nda/storage/rtable.hpp
+
+# Long description. Any Markdown, with code, latex, multiline with |
 desc: ""
+
+# Parameters of the function. Edit only the description after the :
 params:
   {}
+
+# Template parameters of the function. Edit only the description after the :
 tparams:
   {}
+
+# Desc of the return value
 return_value: __MISSING__
+
+# Code example. desc: any markdown to explain it.
 example:
   desc: __MISSING__
   code: __MISSING__
+
+# A list of related functions/classes
 see-also: []
-title: nda::mem::rtable_t::refcounts
+
+# ---------- DO NOT EDIT BELOW --------
 permalink: /cpp-api/nda/mem/rtable_t/refcounts
+title: nda::mem::rtable_t::refcounts
 parent: nda::mem::rtable_t
 nav_exclude: true
 ...

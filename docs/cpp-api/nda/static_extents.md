@@ -1,27 +1,48 @@
 ---
+# Do not edit this first section
 layout: function
 short_name: static_extents
 qualified_name: nda::static_extents
 namespaces: [nda]
 includer: nda/nda.hpp
+
+# Brief description. One line only.
 brief: ""
+
+# List of overloads. Edit only the desc
 overloads:
-  "template <typename Is>\nuint64_t static_extents(int i0, Is... is)":
+
+  - signature: |
+      template <typename Is>
+      uint64_t static_extents(int i0, Is... is)
     desc: ""
-    source: nda/declarations.hpp
+
+# Long description. Any Markdown, with code, latex, multiline with |
 desc: ""
+
+# Parameters of the function. Edit only the description after the :
 params:
   i0: __MISSING__
   is: __MISSING__
+
+# Template parameters of the function. Edit only the description after the :
 tparams:
   Is: __MISSING__
+
+# Desc of the return value
 return_value: __MISSING__
+
+# Code example. desc: any markdown to explain it.
 example:
   desc: __MISSING__
   code: __MISSING__
+
+# A list of related functions/classes
 see-also: []
-title: nda::static_extents
+
+# ---------- DO NOT EDIT BELOW --------
 permalink: /cpp-api/nda/static_extents
+title: nda::static_extents
 parent: nda
 nav_exclude: true
 ...

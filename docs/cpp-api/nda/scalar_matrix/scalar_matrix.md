@@ -1,14 +1,28 @@
 ---
+# Do not edit this first section
 layout: class
 short_name: scalar_matrix
 qualified_name: nda::scalar_matrix
 namespaces: [nda]
 includer: nda/nda.hpp
-brief: ""
-desc: ""
+signature: |
+  template <typename S>
+  struct scalar_matrix
+
+# Template parameters of the function. Edit only the description after the :
 tparams:
   S: __MISSING__
+
+# Brief description. One line only.
+brief: ""
+
+# Long description. Any Markdown, with code, latex, multiline with |
+desc: ""
+
+# A list of methods. You can reorder, regroup into a dict : groupname -> list
 methods: [shape, "operator[]", operator()]
+
+# A list of non_member_functions
 non_member_functions: []
 member_fields:
   s:
@@ -17,18 +31,21 @@ member_fields:
   _shape:
     type: std::array<long, 2>
     desc: __MISSING__
+
+# Code example. desc: any markdown to explain it.
 example:
   desc: __MISSING__
   code: __MISSING__
+
+# A list of related functions/classes
 see-also: []
-signature: |
-  template <typename S>
-  struct scalar_matrix
-source: nda/arithmetic.hpp
-title: nda::scalar_matrix
+
+# ---------- DO NOT EDIT BELOW --------
 permalink: /cpp-api/nda/scalar_matrix
-has_children: true
+title: nda::scalar_matrix
+source: nda/arithmetic.hpp
 parent: nda
+has_children: true
 nav_exclude: true
 ...
 

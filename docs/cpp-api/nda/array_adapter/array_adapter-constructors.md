@@ -1,27 +1,48 @@
 ---
+# Do not edit this first section
 layout: function
 short_name: array_adapter
 qualified_name: nda::array_adapter::array_adapter<R, F>
 namespaces: [nda, array_adapter]
 includer: nda/nda.hpp
+
+# Brief description. One line only.
 brief: ""
+
+# List of overloads. Edit only the desc
 overloads:
-  "template <typename Int>\narray_adapter(const std::array<Int, R> & shape, F f)":
+
+  - signature: |
+      template <typename Int>
+      array_adapter(const std::array<Int, R> & shape, F f)
     desc: ""
-    source: nda/array_adapter.hpp
+
+# Long description. Any Markdown, with code, latex, multiline with |
 desc: ""
+
+# Parameters of the function. Edit only the description after the :
 params:
   shape: __MISSING__
   f: __MISSING__
+
+# Template parameters of the function. Edit only the description after the :
 tparams:
   Int: __MISSING__
+
+# Desc of the return value
 return_value: __MISSING__
+
+# Code example. desc: any markdown to explain it.
 example:
   desc: __MISSING__
   code: __MISSING__
+
+# A list of related functions/classes
 see-also: []
-title: nda::array_adapter::array_adapter<R, F>
+
+# ---------- DO NOT EDIT BELOW --------
 permalink: /cpp-api/nda/array_adapter/array_adapter-constructors
+title: nda::array_adapter::array_adapter<R, F>
 parent: nda::array_adapter
 nav_exclude: true
 ...

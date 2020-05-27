@@ -1,31 +1,44 @@
 ---
+# Do not edit this first section
 layout: class
 short_name: array
-qualified_name: 'nda1::array'
-namespaces:
-  - nda1
-includer: src/nda1.hpp
+qualified_name: nda1::array
+namespaces: [nda1]
+includer: ""
+signature: |
+  template <typename T, int R>
+  class array
+
+# Template parameters of the function. Edit only the description after the :
+tparams:
+  T: T is a type
+  R: Rank
+
+# Brief description. One line only.
 brief: A brief doc of array
+
+# Long description. Any Markdown, with code, latex, multiline with |
 desc: |
   A long doc of array with multiple lines
   And several paragraphs also very long
   private
-
-
+  
+  
   Another paragraph
-tparams:
-  T: T is a type
-  R: Rank
-methods:
-  - method1
-  - storage
+
+# A list of methods. You can reorder, regroup into a dict : groupname -> list
+methods: [method1, storage]
+
+# A list of non_member_functions
 non_member_functions: []
+
+# Public member types
 member_types:
   storage_t:
     type: T
     desc: This is value_t
   arr_t:
-    type: 'std::vector<T>'
+    type: std::vector<T>
     desc: This is value_t
   index_t:
     type: long
@@ -34,6 +47,8 @@ member_fields:
   x:
     type: double
     desc: Something
+
+# Code example. desc: any markdown to explain it.
 example:
   desc: The description of the code
   code: |
@@ -42,12 +57,16 @@ example:
       nda1::array<int, 1> a{1, 2, 3};
       nda1::array_view<int, 1> v = make_view(a);
       std::vector<nda1::array> V{{1, 2}, {2, 3}};
-see-also:
-  - 'nda1::array_view'
-signature: 'template <typename T, int R> class array'
-source: src/nda1.hpp
-title: 'nda1::array'
+
+# A list of related functions
+see-also: [nda1::array_view]
+
+# ---------- DO NOT EDIT BELOW --------
 permalink: /cpp-api/nda1/array
-has_children: true
+title: nda1::array
+source: /Users/oparcollet/cpp2doc_webdemo/src/nda1.hpp
 parent: nda1
+has_children: true
+nav_exclude: true
 ...
+

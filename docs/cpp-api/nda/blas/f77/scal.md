@@ -1,32 +1,51 @@
 ---
+# Do not edit this first section
 layout: function
 short_name: scal
 qualified_name: nda::blas::f77::scal
 namespaces: [nda, blas, f77]
 includer: nda/nda.hpp
+
+# Brief description. One line only.
 brief: ""
+
+# List of overloads. Edit only the desc
 overloads:
-  void scal(int M, double alpha, double * x, int incx):
+
+  - signature: void scal(int M, double alpha, double * x, int incx)
     desc: ""
-    source: nda/blas/interface/cxx_interface.hpp
-  void scal(int M, std::complex<double> alpha, std::complex<double> * x, int incx):
+
+  - signature: void scal(int M, std::complex<double> alpha, std::complex<double> * x, int incx)
     desc: ""
-    source: nda/blas/interface/cxx_interface.hpp
+
+# Long description. Any Markdown, with code, latex, multiline with |
 desc: ""
+
+# Parameters of the function. Edit only the description after the :
 params:
   M: __MISSING__
   alpha: __MISSING__
   x: __MISSING__
   incx: __MISSING__
+
+# Template parameters of the function. Edit only the description after the :
 tparams:
   {}
+
+# Desc of the return value
 return_value: __MISSING__
+
+# Code example. desc: any markdown to explain it.
 example:
   desc: __MISSING__
   code: __MISSING__
+
+# A list of related functions/classes
 see-also: []
-title: nda::blas::f77::scal
+
+# ---------- DO NOT EDIT BELOW --------
 permalink: /cpp-api/nda/blas/f77/scal
+title: nda::blas::f77::scal
 parent: nda::blas::f77
 nav_exclude: true
 ...

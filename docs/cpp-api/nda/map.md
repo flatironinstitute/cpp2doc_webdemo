@@ -1,30 +1,51 @@
 ---
+# Do not edit this first section
 layout: function
 short_name: map
 qualified_name: nda::map
 namespaces: [nda]
 includer: nda/nda.hpp
+
+# Brief description. One line only.
 brief: ""
+
+# List of overloads. Edit only the desc
 overloads:
-  "template <class F>\nmapped<F> map(F f)":
+
+  - signature: |
+      template <class F>
+      mapped<F> map(F f)
     desc: ""
-    source: nda/map.hpp
+
+# Long description. Any Markdown, with code, latex, multiline with |
 desc: |
   Maps a function onto the array (elementwise)
   
   
   nda_map.cpp
+
+# Parameters of the function. Edit only the description after the :
 params:
   f: ": function to be mapped"
+
+# Template parameters of the function. Edit only the description after the :
 tparams:
   F: A lambda (do not use function pointers here, make a small lambda it is easier)
+
+# Desc of the return value
 return_value: a lambda that accepts array(s) as argument and return a lazy call expressions.
+
+# Code example. desc: any markdown to explain it.
 example:
   desc: __MISSING__
   code: __MISSING__
+
+# A list of related functions/classes
 see-also: []
-title: nda::map
+
+# ---------- DO NOT EDIT BELOW --------
 permalink: /cpp-api/nda/map
+title: nda::map
 parent: nda
 nav_exclude: true
 ...

@@ -1,28 +1,50 @@
 ---
+# Do not edit this first section
 layout: function
 short_name: fgh89
 qualified_name: sandbox::fgh89
 namespaces: [sandbox]
 includer: ""
+
+# Brief description. One line only.
 brief: ""
+
+# List of overloads. Edit only the desc
 overloads:
-  "template <typename T, ArrayOfT<T> A>\nvoid fgh89(T x, const A & a)":
+
+  - signature: |
+      template <typename T, ArrayOfT<T> A>
+      void fgh89(T x, const A & a)
     desc: ""
-    source: /Users/oparcollet/cpp2doc_webdemo/src/array_concept.cpp
+
+# Long description. Any Markdown, with code, latex, multiline with |
 desc: ""
+
+# Parameters of the function. Edit only the description after the :
 params:
   x: __MISSING__
   a: __MISSING__
+
+# Template parameters of the function. Edit only the description after the :
 tparams:
   T: __MISSING__
   A: __MISSING__
+
+# Desc of the return value
 return_value: __MISSING__
+
+# Code example. desc: any markdown to explain it.
 example:
   desc: __MISSING__
   code: __MISSING__
+
+# A list of related functions
 see-also: []
 title: sandbox::fgh89
+
+# ---------- DO NOT EDIT BELOW --------
 permalink: /cpp-api/sandbox/fgh89
 parent: sandbox
+nav_exclude: true
 ...
 

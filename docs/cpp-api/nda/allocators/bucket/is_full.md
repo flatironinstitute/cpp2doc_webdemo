@@ -1,26 +1,45 @@
 ---
+# Do not edit this first section
 layout: function
 short_name: is_full
 qualified_name: nda::allocators::bucket::is_full
 namespaces: [nda, allocators, bucket]
 includer: nda/nda.hpp
+
+# Brief description. One line only.
 brief: ""
+
+# List of overloads. Edit only the desc
 overloads:
-  bool is_full() noexcept const:
+
+  - signature: bool is_full() noexcept const
     desc: ""
-    source: nda/storage/allocators.hpp
+
+# Long description. Any Markdown, with code, latex, multiline with |
 desc: ""
+
+# Parameters of the function. Edit only the description after the :
 params:
   {}
+
+# Template parameters of the function. Edit only the description after the :
 tparams:
   {}
+
+# Desc of the return value
 return_value: __MISSING__
+
+# Code example. desc: any markdown to explain it.
 example:
   desc: __MISSING__
   code: __MISSING__
+
+# A list of related functions/classes
 see-also: []
-title: nda::allocators::bucket::is_full
+
+# ---------- DO NOT EDIT BELOW --------
 permalink: /cpp-api/nda/allocators/bucket/is_full
+title: nda::allocators::bucket::is_full
 parent: nda::allocators::bucket
 nav_exclude: true
 ...

@@ -1,29 +1,48 @@
 ---
+# Do not edit this first section
 layout: function
 short_name: end
 qualified_name: nda::basic_array::end
 namespaces: [nda, basic_array]
 includer: nda/nda.hpp
+
+# Brief description. One line only.
 brief: ""
+
+# List of overloads. Edit only the desc
 overloads:
-  nda::basic_array::const_iterator end() noexcept const:
+
+  - signature: nda::basic_array::const_iterator end() noexcept const
     desc: ""
-    source: nda/_impl_basic_array_view_common.hpp
-  nda::basic_array::iterator end() noexcept:
+
+  - signature: nda::basic_array::iterator end() noexcept
     desc: ""
-    source: nda/_impl_basic_array_view_common.hpp
+
+# Long description. Any Markdown, with code, latex, multiline with |
 desc: ""
+
+# Parameters of the function. Edit only the description after the :
 params:
   {}
+
+# Template parameters of the function. Edit only the description after the :
 tparams:
   {}
+
+# Desc of the return value
 return_value: __MISSING__
+
+# Code example. desc: any markdown to explain it.
 example:
   desc: __MISSING__
   code: __MISSING__
+
+# A list of related functions/classes
 see-also: []
-title: nda::basic_array::end
+
+# ---------- DO NOT EDIT BELOW --------
 permalink: /cpp-api/nda/basic_array/end
+title: nda::basic_array::end
 parent: nda::basic_array
 nav_exclude: true
 ...

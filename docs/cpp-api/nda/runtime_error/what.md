@@ -1,26 +1,45 @@
 ---
+# Do not edit this first section
 layout: function
 short_name: what
 qualified_name: nda::runtime_error::what
 namespaces: [nda, runtime_error]
 includer: nda/nda.hpp
+
+# Brief description. One line only.
 brief: ""
+
+# List of overloads. Edit only the desc
 overloads:
-  const char * what() noexcept const:
+
+  - signature: const char * what() noexcept const
     desc: ""
-    source: nda/exceptions.hpp
+
+# Long description. Any Markdown, with code, latex, multiline with |
 desc: ""
+
+# Parameters of the function. Edit only the description after the :
 params:
   {}
+
+# Template parameters of the function. Edit only the description after the :
 tparams:
   {}
+
+# Desc of the return value
 return_value: __MISSING__
+
+# Code example. desc: any markdown to explain it.
 example:
   desc: __MISSING__
   code: __MISSING__
+
+# A list of related functions/classes
 see-also: []
-title: nda::runtime_error::what
+
+# ---------- DO NOT EDIT BELOW --------
 permalink: /cpp-api/nda/runtime_error/what
+title: nda::runtime_error::what
 parent: nda::runtime_error
 nav_exclude: true
 ...

@@ -1,45 +1,71 @@
 ---
+# Do not edit this first section
 layout: function
 short_name: operator<<
 qualified_name: nda::operator<<
 namespaces: [nda]
 includer: nda/nda.hpp
+
+# Brief description. One line only.
 brief: ""
+
+# List of overloads. Edit only the desc
 overloads:
-  std::ostream & operator<<(std::ostream & os, struct nda::range_all ) noexcept:
+
+  - signature: std::ostream & operator<<(std::ostream & os, struct nda::range_all ) noexcept
     desc: ""
-    source: nda/layout/range.hpp
-  std::ostream & operator<<(std::ostream & os, struct nda::ellipsis ) noexcept:
+
+  - signature: std::ostream & operator<<(std::ostream & os, struct nda::ellipsis ) noexcept
     desc: ""
-    source: nda/layout/range.hpp
-  std::ostream & operator<<(std::ostream & out, enum nda::layout_prop_e p):
+
+  - signature: std::ostream & operator<<(std::ostream & out, enum nda::layout_prop_e p)
     desc: ""
-    source: nda/print.hpp
-  "template <int Rank, uint64_t StaticExtents, uint64_t StrideOrder, enum nda::layout_prop_e LayoutProp>\nstd::ostream & operator<<(std::ostream & out, const idx_map<Rank, StaticExtents, StrideOrder, LayoutProp> & x)":
+
+  - signature: |
+      template <int Rank, uint64_t StaticExtents, uint64_t StrideOrder, enum nda::layout_prop_e LayoutProp>
+      std::ostream & operator<<(std::ostream & out, const idx_map<Rank, StaticExtents, StrideOrder, LayoutProp> & x)
     desc: ""
-    source: nda/print.hpp
-  "template <typename A>\nrequires (is_regular_or_view_v<A>)\nstd::ostream & operator<<(std::ostream & out, const A & a)":
+
+  - signature: |
+      template <typename A>
+      requires (is_regular_or_view_v<A>)
+      std::ostream & operator<<(std::ostream & out, const A & a)
     desc: ""
-    source: nda/print.hpp
-  "template <int R, typename F>\nstd::ostream & operator<<(std::ostream & sout, const array_adapter<R, F> & x)":
+
+  - signature: |
+      template <int R, typename F>
+      std::ostream & operator<<(std::ostream & sout, const array_adapter<R, F> & x)
     desc: ""
-    source: nda/print.hpp
-  "template <typename S, int Rank>\nstd::ostream & operator<<(std::ostream & sout, const scalar_array<S, Rank> & expr)":
+
+  - signature: |
+      template <typename S, int Rank>
+      std::ostream & operator<<(std::ostream & sout, const scalar_array<S, Rank> & expr)
     desc: ""
-    source: nda/print.hpp
-  "template <typename S>\nstd::ostream & operator<<(std::ostream & sout, const scalar_matrix<S> & expr)":
+
+  - signature: |
+      template <typename S>
+      std::ostream & operator<<(std::ostream & sout, const scalar_matrix<S> & expr)
     desc: ""
-    source: nda/print.hpp
-  "template <char OP, typename L>\nstd::ostream & operator<<(std::ostream & sout, const expr_unary<OP, L> & expr)":
+
+  - signature: |
+      template <char OP, typename L>
+      std::ostream & operator<<(std::ostream & sout, const expr_unary<OP, L> & expr)
     desc: ""
-    source: nda/print.hpp
-  "template <char OP, typename L, typename R>\nstd::ostream & operator<<(std::ostream & sout, const expr<OP, L, R> & expr)":
+
+  - signature: |
+      template <char OP, typename L, typename R>
+      std::ostream & operator<<(std::ostream & sout, const expr<OP, L, R> & expr)
     desc: ""
-    source: nda/print.hpp
-  "template <typename F, typename A>\nstd::ostream & operator<<(std::ostream & out, const expr_call<F, A...> & )":
+
+  - signature: |
+      template <typename F, typename A>
+      std::ostream & operator<<(std::ostream & out, const expr_call<F, A...> & )
     desc: ""
-    source: nda/print.hpp
+
+# Long description. Any Markdown, with code, latex, multiline with |
 desc: ""
+
+# Parameters of the function. Edit only the description after the :
 params:
   os: __MISSING__
   out: __MISSING__
@@ -48,6 +74,8 @@ params:
   a: __MISSING__
   sout: __MISSING__
   expr: __MISSING__
+
+# Template parameters of the function. Edit only the description after the :
 tparams:
   Rank: __MISSING__
   StaticExtents: __MISSING__
@@ -59,13 +87,21 @@ tparams:
   S: __MISSING__
   OP: __MISSING__
   L: __MISSING__
+
+# Desc of the return value
 return_value: __MISSING__
+
+# Code example. desc: any markdown to explain it.
 example:
   desc: __MISSING__
   code: __MISSING__
+
+# A list of related functions/classes
 see-also: []
-title: nda::operator<<
+
+# ---------- DO NOT EDIT BELOW --------
 permalink: /cpp-api/nda/operator<<
+title: nda::operator<<
 parent: nda
 nav_exclude: true
 ...

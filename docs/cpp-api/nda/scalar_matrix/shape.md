@@ -1,26 +1,45 @@
 ---
+# Do not edit this first section
 layout: function
 short_name: shape
 qualified_name: nda::scalar_matrix::shape
 namespaces: [nda, scalar_matrix]
 includer: nda/nda.hpp
+
+# Brief description. One line only.
 brief: ""
+
+# List of overloads. Edit only the desc
 overloads:
-  const std::array<long, 2> & shape()  const:
+
+  - signature: const std::array<long, 2> & shape()  const
     desc: ""
-    source: nda/arithmetic.hpp
+
+# Long description. Any Markdown, with code, latex, multiline with |
 desc: ""
+
+# Parameters of the function. Edit only the description after the :
 params:
   {}
+
+# Template parameters of the function. Edit only the description after the :
 tparams:
   {}
+
+# Desc of the return value
 return_value: __MISSING__
+
+# Code example. desc: any markdown to explain it.
 example:
   desc: __MISSING__
   code: __MISSING__
+
+# A list of related functions/classes
 see-also: []
-title: nda::scalar_matrix::shape
+
+# ---------- DO NOT EDIT BELOW --------
 permalink: /cpp-api/nda/scalar_matrix/shape
+title: nda::scalar_matrix::shape
 parent: nda::scalar_matrix
 nav_exclude: true
 ...

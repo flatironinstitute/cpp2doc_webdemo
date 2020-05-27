@@ -1,7 +1,10 @@
 ---
+# Do not edit this first section
 layout: namespace
-qualified_name: nda
+
+# ---------- DO NOT EDIT BELOW --------
 permalink: /cpp-api/nda
+qualified_name: nda
 parent: C++ API
 title: nda
 has_children: true
@@ -66,6 +69,9 @@ functions:
   - for_each
   - static_extents
   - <deduction guide for basic_array>
+  - Array
+  - ArrayOfRank
+  - ArrayInitializer
   - map_layout_transform
   - make_regular
   - resize_or_check_if_view
@@ -127,27 +133,4 @@ functions:
   - min_element
   - sum
 ...
-
-This is a test
-
-
-* Algorithms
-
-<T table nda Algorithms 3 T>
-<BR>
-
-* A table of function mapping:
-
-<T table nda ArrayFunction 3 T>
-<BR>
-
-* A table of function mapping which do not apply to Matrices:
-
-<T table nda ArrayNoMatrixFunction 3 T>
-<BR>
-
-* Another table 
-
-
-
 

@@ -1,23 +1,26 @@
 ---
+# Do not edit this first section
 layout: namespace
-qualified_name: sandbox
+
+# ---------- DO NOT EDIT BELOW --------
 permalink: /cpp-api/sandbox
+qualified_name: sandbox
 parent: C++ API
 title: sandbox
-has-children: true
+has_children: true
 namespaces: [impl]
-classes:
-  - ess1
-  - myarray
-  - faulty_array
-  - non
+classes: [ess1, myarray, faulty_array]
 functions:
+  - is_integral
+  - Array
+  - ArrayOfRank
+  - ArrayOfT
+  - ArrayInitializer
   - maker
   - maker2
   - fgh0
   - fgh0b
-  - fgh1
-  - fgh2
+  - FGH12
   - fgh3
   - fgh3b
   - fPACK

@@ -1,15 +1,27 @@
 ---
+# Do not edit this first section
 layout: class
 short_name: array_iterator
 qualified_name: nda::array_iterator
 namespaces: [nda]
 includer: nda/nda.hpp
-brief: ""
-desc: ""
+signature: |
+  template <int Rank, typename T, typename Pointer>
+  class array_iterator
+
+# Template parameters of the function. Edit only the description after the :
 tparams:
   Rank: __MISSING__
   T: __MISSING__
   Pointer: __MISSING__
+
+# Brief description. One line only.
+brief: ""
+
+# Long description. Any Markdown, with code, latex, multiline with |
+desc: ""
+
+# A list of methods. You can reorder, regroup into a dict : groupname -> list
 methods:
   - (constructors)
   - operator*
@@ -17,23 +29,29 @@ methods:
   - operator++
   - operator==
   - operator!=
+
+# A list of non_member_functions
 non_member_functions: []
+
+# Public member types
 member_types:
   value_type:
-    type: T
     desc: __MISSING__
+
+# Code example. desc: any markdown to explain it.
 example:
   desc: __MISSING__
   code: __MISSING__
+
+# A list of related functions/classes
 see-also: []
-signature: |
-  template <int Rank, typename T, typename Pointer>
-  class array_iterator
-source: nda/iterators.hpp
-title: nda::array_iterator
+
+# ---------- DO NOT EDIT BELOW --------
 permalink: /cpp-api/nda/array_iterator
-has_children: true
+title: nda::array_iterator
+source: nda/iterators.hpp
 parent: nda
+has_children: true
 nav_exclude: true
 ...
 

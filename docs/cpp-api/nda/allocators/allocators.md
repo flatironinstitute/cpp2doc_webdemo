@@ -1,7 +1,10 @@
 ---
+# Do not edit this first section
 layout: namespace
-qualified_name: nda::allocators
+
+# ---------- DO NOT EDIT BELOW --------
 permalink: /cpp-api/nda/allocators
+qualified_name: nda::allocators
 parent: nda
 title: nda::allocators
 has_children: true

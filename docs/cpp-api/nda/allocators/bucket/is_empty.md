@@ -1,26 +1,45 @@
 ---
+# Do not edit this first section
 layout: function
 short_name: is_empty
 qualified_name: nda::allocators::bucket::is_empty
 namespaces: [nda, allocators, bucket]
 includer: nda/nda.hpp
+
+# Brief description. One line only.
 brief: ""
+
+# List of overloads. Edit only the desc
 overloads:
-  bool is_empty() noexcept const:
+
+  - signature: bool is_empty() noexcept const
     desc: ""
-    source: nda/storage/allocators.hpp
+
+# Long description. Any Markdown, with code, latex, multiline with |
 desc: ""
+
+# Parameters of the function. Edit only the description after the :
 params:
   {}
+
+# Template parameters of the function. Edit only the description after the :
 tparams:
   {}
+
+# Desc of the return value
 return_value: __MISSING__
+
+# Code example. desc: any markdown to explain it.
 example:
   desc: __MISSING__
   code: __MISSING__
+
+# A list of related functions/classes
 see-also: []
-title: nda::allocators::bucket::is_empty
+
+# ---------- DO NOT EDIT BELOW --------
 permalink: /cpp-api/nda/allocators/bucket/is_empty
+title: nda::allocators::bucket::is_empty
 parent: nda::allocators::bucket
 nav_exclude: true
 ...
