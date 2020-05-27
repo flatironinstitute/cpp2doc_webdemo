@@ -12,7 +12,7 @@ _updated 5/22_
 _priority_
 
 - Search finish
-- Fix the index / Fix Webrick/ page title
+- Fix the index / Fix Webrick
 - improve nav speed generation
 - Incremental regeneration
 - Remove toc - update heading on layouts from OP. \* Add :no-toc to class, function, namespace, cpp-concept.
@@ -54,3 +54,4 @@ Files and permalink structure changes:
       - `title`
       - `has-children` (if applicable)
       -  permalink starts with "/"
+    10. page title / seo
