@@ -1,15 +1,11 @@
 title: TRIQS
 description: Documentation for the TRIQS library.
-baseurl: "" # the subpath of your site, e.g. /blog
-
+baseurl: ""
 email: oparcollet@flatironinstitute.org
-
-# TODO: REMOVE THESE?
-# Build Settings
 
 # Build Settings
 kramdown:
-   input: ERBKramdown #nFM
+  input: ERBKramdown #nFM
 #   math_engine: katex
 #   math_engine_opts: {}
 
@@ -64,7 +60,6 @@ plugins:
   - jekyll-sitemap
   # - jekyll-include-cache
   - jekyll-katex
-
     #incremental: true
 
 defaults:

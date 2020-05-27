@@ -1,16 +1,16 @@
 ---
 ---
-(function (jtt, undefined) {
+(function (jtd, undefined) {
 
 // Event handling
 
-jtt.addEvent = function(el, type, handler) {
+jtd.addEvent = function(el, type, handler) {
   if (el.attachEvent) el.attachEvent('on'+type, handler); else el.addEventListener(type, handler);
 }
-jtt.removeEvent = function(el, type, handler) {
+jtd.removeEvent = function(el, type, handler) {
   if (el.detachEvent) el.detachEvent('on'+type, handler); else el.removeEventListener(type, handler);
 }
-jtt.onReady = function(ready) {
+jtd.onReady = function(ready) {
   // in case the document is already rendered
   if (document.readyState!='loading') ready();
   // modern browsers
@@ -28,7 +28,7 @@ function initNav() {
   const pageHeader = document.querySelector('.js-page-header');
   const navTrigger = document.querySelector('.js-main-nav-trigger');
 
-  jtt.addEvent(navTrigger, 'click', function(e){
+  jtd.addEvent(navTrigger, 'click', function(e){
     e.preventDefault();
     var text = navTrigger.innerText;
     var textToggle = navTrigger.getAttribute('data-text-toggle');
@@ -101,7 +101,7 @@ function initSearch() {
       searchResults.classList.remove('active');
     }
 
-    jtt.addEvent(searchInput, 'keydown', function(e){
+    jtd.addEvent(searchInput, 'keydown', function(e){
       switch (e.keyCode) {
         case 38: // arrow up
           e.preventDefault();
@@ -145,7 +145,7 @@ function initSearch() {
       }
     });
 
-    jtt.addEvent(searchInput, 'keyup', function(e){
+    jtd.addEvent(searchInput, 'keyup', function(e){
       switch (e.keyCode) {
         case 27: // When esc key is pressed, hide the results and clear the field
           hideResults();
@@ -273,7 +273,7 @@ function initSearch() {
       }
     });
 
-    jtt.addEvent(searchInput, 'blur', function(){
+    jtd.addEvent(searchInput, 'blur', function(){
       setTimeout(function(){ hideResults() }, 300);
     });
   }
@@ -286,7 +286,7 @@ function pageFocus() {
 
 // Document ready
 
-jtt.onReady(function(){
+jtd.onReady(function(){
   initNav();
   pageFocus();
   if (typeof lunr !== 'undefined') {
@@ -294,4 +294,4 @@ jtt.onReady(function(){
   }
 });
 
-})(window.jtt = window.jtt || {});
+})(window.jtd = window.jtd || {});

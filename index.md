@@ -6,6 +6,7 @@ permalink: "/home"
 ---
 
 # Focus on writing good documentation
+
 {: .fs-9 }
 
 TRIQS (Toolbox for Research on Interacting Quantum Systems) is a set of C++ and Python libraries for the study of interacting quantum systems.
@@ -39,19 +40,10 @@ remote_theme: lizlove/jek-theme-triqs
 
 #### Install with Ubuntu
 
-```bash
-$ gem install jek-theme-triqs
-```
-
-```yaml
-# .. or add it to your your Jekyll site’s Gemfile
-gem "jek-theme-triqs"
-```
-
 #### Install in a Docker container
 
 ```yaml
-theme: "jek-theme-triqs"
+blah blah
 ```
 
 #### Install in a Singularity Container
@@ -59,7 +51,7 @@ theme: "jek-theme-triqs"
 1. Step one of Singularity installation
 
 ```bash
-$ bundle exec jek-theme-triqs rake search:init
+$ bundle something fun together.
 ```
 
 2. Run you local Jekyll server
@@ -102,11 +94,12 @@ Krivenko, T. Ayral, H. Strand, D. Simons, H. Hafermann, L. Messio, P. Seth.
 ### Citation
 
 TRIQS is a part of our scientific work and we kindly request that projects using it include a citation to the following paper. In order to help you, we provide a BibTeX entry [1].
+
 <!-- TODO: ADD BIBTEX -->
-[1]	O. Parcollet, M. Ferrero, T. Ayral, H. Hafermann, I. Krivenko, L. Messio, and P. Seth, Comp. Phys. Comm. 196, 398-415 (2015) (bibtex file)
+
+[1] O. Parcollet, M. Ferrero, T. Ayral, H. Hafermann, I. Krivenko, L. Messio, and P. Seth, Comp. Phys. Comm. 196, 398-415 (2015) (bibtex file)
 
 If you find TRIQS useful, giving proper reference and citation is indeed a simple way to help convincing funding sources that such projects are useful for our community and should be supported.
-
 
 ### License
 
