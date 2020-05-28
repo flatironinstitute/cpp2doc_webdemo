@@ -44,6 +44,5 @@ see-also: []
 permalink: /cpp-api/nda/common_algebra
 title: nda::common_algebra
 parent: nda
-nav_exclude: true
 ...
 

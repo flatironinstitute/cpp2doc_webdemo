@@ -44,6 +44,5 @@ see-also: []
 permalink: /cpp-api/nda/log
 title: nda::log
 parent: nda
-nav_exclude: true
 ...
 

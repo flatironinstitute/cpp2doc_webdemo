@@ -47,6 +47,5 @@ see-also: []
 permalink: /cpp-api/nda/allocators/bucket/bucket-constructors
 title: nda::allocators::bucket::bucket<ChunkSize>
 parent: nda::allocators::bucket
-nav_exclude: true
 ...
 

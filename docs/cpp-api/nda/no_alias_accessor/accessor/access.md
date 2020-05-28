@@ -42,6 +42,5 @@ see-also: []
 permalink: /cpp-api/nda/no_alias_accessor/accessor/access
 title: nda::no_alias_accessor::accessor::access
 parent: nda::no_alias_accessor::accessor
-nav_exclude: true
 ...
 

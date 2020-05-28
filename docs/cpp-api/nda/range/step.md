@@ -41,6 +41,5 @@ see-also: []
 permalink: /cpp-api/nda/range/step
 title: nda::range::step
 parent: nda::range
-nav_exclude: true
 ...
 

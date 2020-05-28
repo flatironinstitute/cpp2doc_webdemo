@@ -56,13 +56,12 @@ example:
       std::vector<nda1::array> V{{1, 2}, {2, 3}};
     }
 
-# A list of related functions
+# A list of related functions/classes
 see-also: []
-title: nda1::make_view
 
 # ---------- DO NOT EDIT BELOW --------
 permalink: /cpp-api/nda1/make_view
+title: nda1::make_view
 parent: nda1
-nav_exclude: true
 ...
 

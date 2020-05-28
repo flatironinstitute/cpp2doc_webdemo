@@ -46,6 +46,5 @@ see-also: []
 permalink: /cpp-api/nda/clef_auto_assign
 title: nda::clef_auto_assign
 parent: nda
-nav_exclude: true
 ...
 

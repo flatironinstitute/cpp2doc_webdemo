@@ -39,6 +39,5 @@ title: nda::grid_iterator
 source: nda/iterators.hpp
 parent: nda
 has_children: true
-nav_exclude: true
 ...
 

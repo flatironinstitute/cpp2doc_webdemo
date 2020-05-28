@@ -41,6 +41,5 @@ see-also: []
 permalink: /cpp-api/nda/idx_map/is_stride_order_C
 title: nda::idx_map::is_stride_order_C
 parent: nda::idx_map
-nav_exclude: true
 ...
 

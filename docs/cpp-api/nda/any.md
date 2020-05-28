@@ -43,6 +43,5 @@ see-also: []
 permalink: /cpp-api/nda/any
 title: nda::any
 parent: nda
-nav_exclude: true
 ...
 

@@ -42,6 +42,5 @@ title: nda::layout_info_t
 source: nda/traits.hpp
 parent: nda
 has_children: true
-nav_exclude: true
 ...
 

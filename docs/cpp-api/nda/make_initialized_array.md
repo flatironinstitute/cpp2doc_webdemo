@@ -44,6 +44,5 @@ see-also: []
 permalink: /cpp-api/nda/make_initialized_array
 title: nda::make_initialized_array
 parent: nda
-nav_exclude: true
 ...
 

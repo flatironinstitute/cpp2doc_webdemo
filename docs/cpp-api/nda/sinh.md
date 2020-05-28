@@ -44,6 +44,5 @@ see-also: []
 permalink: /cpp-api/nda/sinh
 title: nda::sinh
 parent: nda
-nav_exclude: true
 ...
 

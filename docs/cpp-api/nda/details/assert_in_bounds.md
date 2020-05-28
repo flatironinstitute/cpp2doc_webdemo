@@ -45,6 +45,5 @@ see-also: []
 permalink: /cpp-api/nda/details/assert_in_bounds
 title: nda::details::assert_in_bounds
 parent: nda::details
-nav_exclude: true
 ...
 

@@ -41,6 +41,5 @@ see-also: []
 permalink: /cpp-api/nda/basic_array/is_empty
 title: nda::basic_array::is_empty
 parent: nda::basic_array
-nav_exclude: true
 ...
 

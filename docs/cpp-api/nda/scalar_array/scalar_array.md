@@ -47,6 +47,5 @@ title: nda::scalar_array
 source: nda/arithmetic.hpp
 parent: nda
 has_children: true
-nav_exclude: true
 ...
 

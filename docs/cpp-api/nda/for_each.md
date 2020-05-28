@@ -45,6 +45,5 @@ see-also: []
 permalink: /cpp-api/nda/for_each
 title: nda::for_each
 parent: nda
-nav_exclude: true
 ...
 

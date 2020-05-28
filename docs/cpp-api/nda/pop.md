@@ -44,6 +44,5 @@ see-also: []
 permalink: /cpp-api/nda/pop
 title: nda::pop
 parent: nda
-nav_exclude: true
 ...
 

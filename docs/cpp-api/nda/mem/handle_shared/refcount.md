@@ -41,6 +41,5 @@ see-also: []
 permalink: /cpp-api/nda/mem/handle_shared/refcount
 title: nda::mem::handle_shared::refcount
 parent: nda::mem::handle_shared
-nav_exclude: true
 ...
 

@@ -45,6 +45,5 @@ see-also: []
 permalink: /cpp-api/nda/blas/f77/dot
 title: nda::blas::f77::dot
 parent: nda::blas::f77
-nav_exclude: true
 ...
 

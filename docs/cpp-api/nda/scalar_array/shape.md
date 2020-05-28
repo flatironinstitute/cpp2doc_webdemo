@@ -41,6 +41,5 @@ see-also: []
 permalink: /cpp-api/nda/scalar_array/shape
 title: nda::scalar_array::shape
 parent: nda::scalar_array
-nav_exclude: true
 ...
 

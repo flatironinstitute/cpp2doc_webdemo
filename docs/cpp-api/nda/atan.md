@@ -44,6 +44,5 @@ see-also: []
 permalink: /cpp-api/nda/atan
 title: nda::atan
 parent: nda
-nav_exclude: true
 ...
 

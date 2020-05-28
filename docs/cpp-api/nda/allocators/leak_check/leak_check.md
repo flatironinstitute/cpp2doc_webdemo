@@ -48,6 +48,5 @@ title: nda::allocators::leak_check
 source: nda/storage/allocators.hpp
 parent: nda::allocators
 has_children: true
-nav_exclude: true
 ...
 

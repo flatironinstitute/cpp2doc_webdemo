@@ -43,6 +43,5 @@ see-also: []
 permalink: /cpp-api/nda/min_element
 title: nda::min_element
 parent: nda
-nav_exclude: true
 ...
 

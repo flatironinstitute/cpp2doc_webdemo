@@ -46,6 +46,5 @@ see-also: []
 permalink: /cpp-api/sandbox/myarray/myarray-constructors
 title: sandbox::myarray::myarray<T, R>
 parent: sandbox::myarray
-nav_exclude: true
 ...
 

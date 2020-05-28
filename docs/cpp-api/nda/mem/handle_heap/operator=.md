@@ -44,6 +44,5 @@ see-also: []
 permalink: /cpp-api/nda/mem/handle_heap/operator=
 title: nda::mem::handle_heap::operator=
 parent: nda::mem::handle_heap
-nav_exclude: true
 ...
 

@@ -20,6 +20,5 @@ signature: |
    concept ArrayOfRank
 source: nda/concepts.hpp
 parent: nda
-nav_exclude: true
 ...
 

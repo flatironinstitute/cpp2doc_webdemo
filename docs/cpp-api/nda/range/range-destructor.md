@@ -41,6 +41,5 @@ see-also: []
 permalink: /cpp-api/nda/range/~range-destructor
 title: nda::range::~range
 parent: nda::range
-nav_exclude: true
 ...
 

@@ -54,6 +54,5 @@ see-also: []
 permalink: /cpp-api/nda/reshape
 title: nda::reshape
 parent: nda
-nav_exclude: true
 ...
 

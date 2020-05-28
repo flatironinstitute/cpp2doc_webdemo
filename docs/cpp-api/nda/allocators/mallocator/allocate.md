@@ -41,6 +41,5 @@ see-also: []
 permalink: /cpp-api/nda/allocators/mallocator/allocate
 title: nda::allocators::mallocator::allocate
 parent: nda::allocators::mallocator
-nav_exclude: true
 ...
 

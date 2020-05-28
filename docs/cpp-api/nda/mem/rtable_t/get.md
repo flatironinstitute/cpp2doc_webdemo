@@ -41,6 +41,5 @@ see-also: []
 permalink: /cpp-api/nda/mem/rtable_t/get
 title: nda::mem::rtable_t::get
 parent: nda::mem::rtable_t
-nav_exclude: true
 ...
 

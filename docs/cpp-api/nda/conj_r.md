@@ -51,6 +51,5 @@ see-also: []
 permalink: /cpp-api/nda/conj_r
 title: nda::conj_r
 parent: nda
-nav_exclude: true
 ...
 

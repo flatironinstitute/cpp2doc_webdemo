@@ -44,6 +44,5 @@ see-also: []
 permalink: /cpp-api/nda/allocators/bucket/operator=
 title: nda::allocators::bucket::operator=
 parent: nda::allocators::bucket
-nav_exclude: true
 ...
 

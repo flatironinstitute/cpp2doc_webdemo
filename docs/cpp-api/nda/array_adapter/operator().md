@@ -44,6 +44,5 @@ see-also: []
 permalink: /cpp-api/nda/array_adapter/operator()
 title: nda::array_adapter::operator()
 parent: nda::array_adapter
-nav_exclude: true
 ...
 

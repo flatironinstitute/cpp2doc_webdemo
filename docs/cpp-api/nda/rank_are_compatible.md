@@ -44,6 +44,5 @@ see-also: []
 permalink: /cpp-api/nda/rank_are_compatible
 title: nda::rank_are_compatible
 parent: nda
-nav_exclude: true
 ...
 

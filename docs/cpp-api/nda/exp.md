@@ -44,6 +44,5 @@ see-also: []
 permalink: /cpp-api/nda/exp
 title: nda::exp
 parent: nda
-nav_exclude: true
 ...
 

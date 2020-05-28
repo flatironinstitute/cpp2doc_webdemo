@@ -43,6 +43,5 @@ see-also: []
 permalink: /cpp-api/nda/eye
 title: nda::eye
 parent: nda
-nav_exclude: true
 ...
 

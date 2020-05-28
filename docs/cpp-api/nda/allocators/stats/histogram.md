@@ -41,6 +41,5 @@ see-also: []
 permalink: /cpp-api/nda/allocators/stats/histogram
 title: nda::allocators::stats::histogram
 parent: nda::allocators::stats
-nav_exclude: true
 ...
 

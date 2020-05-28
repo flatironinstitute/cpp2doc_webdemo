@@ -43,6 +43,5 @@ title: nda::mapped
 source: nda/map.hpp
 parent: nda
 has_children: true
-nav_exclude: true
 ...
 

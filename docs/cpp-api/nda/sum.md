@@ -43,6 +43,5 @@ see-also: []
 permalink: /cpp-api/nda/sum
 title: nda::sum
 parent: nda
-nav_exclude: true
 ...
 

@@ -41,6 +41,5 @@ see-also: []
 permalink: /cpp-api/sandbox/myarray/BBB
 title: sandbox::myarray::BBB
 parent: sandbox::myarray
-nav_exclude: true
 ...
 

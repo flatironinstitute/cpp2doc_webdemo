@@ -41,6 +41,5 @@ see-also: []
 permalink: /cpp-api/nda/mem/handle_sso/on_heap
 title: nda::mem::handle_sso::on_heap
 parent: nda::mem::handle_sso
-nav_exclude: true
 ...
 

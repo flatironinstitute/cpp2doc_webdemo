@@ -43,6 +43,5 @@ see-also: []
 permalink: /cpp-api/nda/decode
 title: nda::decode
 parent: nda
-nav_exclude: true
 ...
 

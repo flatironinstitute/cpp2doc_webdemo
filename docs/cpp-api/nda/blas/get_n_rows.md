@@ -43,6 +43,5 @@ see-also: []
 permalink: /cpp-api/nda/blas/get_n_rows
 title: nda::blas::get_n_rows
 parent: nda::blas
-nav_exclude: true
 ...
 

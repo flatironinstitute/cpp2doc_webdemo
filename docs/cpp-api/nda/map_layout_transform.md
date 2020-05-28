@@ -66,6 +66,5 @@ see-also: []
 permalink: /cpp-api/nda/map_layout_transform
 title: nda::map_layout_transform
 parent: nda
-nav_exclude: true
 ...
 

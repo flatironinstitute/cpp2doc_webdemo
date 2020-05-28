@@ -43,6 +43,5 @@ see-also: []
 permalink: /cpp-api/nda/blas/get_ld
 title: nda::blas::get_ld
 parent: nda::blas
-nav_exclude: true
 ...
 

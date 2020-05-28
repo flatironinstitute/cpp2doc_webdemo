@@ -42,6 +42,5 @@ title: nda::allocators::blk_t
 source: nda/storage/blk.hpp
 parent: nda::allocators
 has_children: true
-nav_exclude: true
 ...
 

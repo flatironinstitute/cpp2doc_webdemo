@@ -20,6 +20,5 @@ signature: |
    concept CallableWithRLongs
 source: nda/concepts.hpp
 parent: nda::concept_impl
-nav_exclude: true
 ...
 

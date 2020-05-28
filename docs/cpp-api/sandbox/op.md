@@ -45,6 +45,5 @@ see-also: []
 permalink: /cpp-api/sandbox/op
 title: sandbox::op
 parent: sandbox
-nav_exclude: true
 ...
 

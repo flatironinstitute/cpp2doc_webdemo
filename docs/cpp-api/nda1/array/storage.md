@@ -34,13 +34,12 @@ example:
   desc: __MISSING__
   code: __MISSING__
 
-# A list of related functions
+# A list of related functions/classes
 see-also: []
-title: nda1::array::storage
 
 # ---------- DO NOT EDIT BELOW --------
 permalink: /cpp-api/nda1/array/storage
+title: nda1::array::storage
 parent: nda1::array
-nav_exclude: true
 ...
 

@@ -58,6 +58,5 @@ see-also: []
 permalink: /cpp-api/nda/<deduction guide for basic_array>
 title: nda::<deduction guide for basic_array>
 parent: nda
-nav_exclude: true
 ...
 

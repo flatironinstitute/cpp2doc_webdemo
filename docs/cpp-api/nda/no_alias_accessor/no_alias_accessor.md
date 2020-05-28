@@ -33,6 +33,5 @@ title: nda::no_alias_accessor
 source: nda/accessors.hpp
 parent: nda
 has_children: true
-nav_exclude: true
 ...
 

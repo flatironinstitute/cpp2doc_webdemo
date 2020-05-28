@@ -82,6 +82,5 @@ title: nda::basic_array
 source: nda/basic_array.hpp
 parent: nda
 has_children: true
-nav_exclude: true
 ...
 

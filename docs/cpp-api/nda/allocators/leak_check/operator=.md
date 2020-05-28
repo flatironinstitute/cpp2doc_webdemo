@@ -44,6 +44,5 @@ see-also: []
 permalink: /cpp-api/nda/allocators/leak_check/operator=
 title: nda::allocators::leak_check::operator=
 parent: nda::allocators::leak_check
-nav_exclude: true
 ...
 

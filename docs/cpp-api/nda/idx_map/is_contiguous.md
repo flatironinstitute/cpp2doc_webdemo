@@ -41,6 +41,5 @@ see-also: []
 permalink: /cpp-api/nda/idx_map/is_contiguous
 title: nda::idx_map::is_contiguous
 parent: nda::idx_map
-nav_exclude: true
 ...
 

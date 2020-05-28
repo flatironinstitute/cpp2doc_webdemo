@@ -35,13 +35,10 @@ non_member_functions: []
 # Public member types
 member_types:
   storage_t:
-    type: T
     desc: This is value_t
   arr_t:
-    type: std::vector<T>
     desc: This is value_t
   index_t:
-    type: long
     desc: My index_t
 member_fields:
   x:
@@ -58,7 +55,7 @@ example:
       nda1::array_view<int, 1> v = make_view(a);
       std::vector<nda1::array> V{{1, 2}, {2, 3}};
 
-# A list of related functions
+# A list of related functions/classes
 see-also: [nda1::array_view]
 
 # ---------- DO NOT EDIT BELOW --------
@@ -67,6 +64,5 @@ title: nda1::array
 source: /Users/oparcollet/cpp2doc_webdemo/src/nda1.hpp
 parent: nda1
 has_children: true
-nav_exclude: true
 ...
 

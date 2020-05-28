@@ -41,6 +41,5 @@ see-also: []
 permalink: /cpp-api/nda/range/const_iterator/operator->
 title: nda::range::const_iterator::operator->
 parent: nda::range::const_iterator
-nav_exclude: true
 ...
 

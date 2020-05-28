@@ -48,6 +48,5 @@ see-also: []
 permalink: /cpp-api/nda/blas/f77/copy
 title: nda::blas::f77::copy
 parent: nda::blas::f77
-nav_exclude: true
 ...
 

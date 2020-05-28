@@ -41,6 +41,5 @@ see-also: []
 permalink: /cpp-api/nda/basic_array/size
 title: nda::basic_array::size
 parent: nda::basic_array
-nav_exclude: true
 ...
 

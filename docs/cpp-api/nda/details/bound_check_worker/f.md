@@ -50,6 +50,5 @@ see-also: []
 permalink: /cpp-api/nda/details/bound_check_worker/f
 title: nda::details::bound_check_worker::f
 parent: nda::details::bound_check_worker
-nav_exclude: true
 ...
 

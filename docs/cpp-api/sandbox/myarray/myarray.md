@@ -52,6 +52,5 @@ title: sandbox::myarray
 source: /Users/oparcollet/cpp2doc_webdemo/src/array_concept.cpp
 parent: sandbox
 has_children: true
-nav_exclude: true
 ...
 

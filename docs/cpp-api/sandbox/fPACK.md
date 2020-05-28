@@ -43,6 +43,5 @@ see-also: []
 permalink: /cpp-api/sandbox/fPACK
 title: sandbox::fPACK
 parent: sandbox
-nav_exclude: true
 ...
 

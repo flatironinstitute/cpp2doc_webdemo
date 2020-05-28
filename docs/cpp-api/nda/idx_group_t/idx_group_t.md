@@ -39,6 +39,5 @@ title: nda::idx_group_t
 source: nda/group_indices.hpp
 parent: nda
 has_children: true
-nav_exclude: true
 ...
 

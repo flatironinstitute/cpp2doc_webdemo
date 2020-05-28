@@ -41,6 +41,5 @@ see-also: []
 permalink: /cpp-api/nda/allocators/stats/allocate
 title: nda::allocators::stats::allocate
 parent: nda::allocators::stats
-nav_exclude: true
 ...
 

@@ -44,6 +44,5 @@ see-also: []
 permalink: /cpp-api/nda/to_vector
 title: nda::to_vector
 parent: nda
-nav_exclude: true
 ...
 

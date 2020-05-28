@@ -48,6 +48,5 @@ see-also: []
 permalink: /cpp-api/nda/basic_array_view/rebind
 title: nda::basic_array_view::rebind
 parent: nda::basic_array_view
-nav_exclude: true
 ...
 

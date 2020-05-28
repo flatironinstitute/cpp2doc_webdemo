@@ -62,6 +62,5 @@ title: nda::idx_map
 source: nda/layout/idx_map.hpp
 parent: nda
 has_children: true
-nav_exclude: true
 ...
 

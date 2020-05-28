@@ -43,6 +43,5 @@ see-also: []
 permalink: /cpp-api/sandbox/impl/get_first_element
 title: sandbox::impl::get_first_element
 parent: sandbox::impl
-nav_exclude: true
 ...
 

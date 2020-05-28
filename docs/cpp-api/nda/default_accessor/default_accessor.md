@@ -33,6 +33,5 @@ title: nda::default_accessor
 source: nda/accessors.hpp
 parent: nda
 has_children: true
-nav_exclude: true
 ...
 

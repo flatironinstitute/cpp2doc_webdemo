@@ -41,6 +41,5 @@ see-also: []
 permalink: /cpp-api/nda/mem/handle_sso/~handle_sso<T, Size>-destructor
 title: nda::mem::handle_sso::~handle_sso<T, Size>
 parent: nda::mem::handle_sso
-nav_exclude: true
 ...
 

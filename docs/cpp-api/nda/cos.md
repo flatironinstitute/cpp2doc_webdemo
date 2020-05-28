@@ -44,6 +44,5 @@ see-also: []
 permalink: /cpp-api/nda/cos
 title: nda::cos
 parent: nda
-nav_exclude: true
 ...
 

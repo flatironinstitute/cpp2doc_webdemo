@@ -20,6 +20,5 @@ signature: |
    concept is_integral
 source: /Users/oparcollet/cpp2doc_webdemo/src/array_concept.cpp
 parent: sandbox
-nav_exclude: true
 ...
 

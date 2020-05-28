@@ -43,6 +43,5 @@ see-also: []
 permalink: /cpp-api/nda/slice_static/q_of_n
 title: nda::slice_static::q_of_n
 parent: nda::slice_static
-nav_exclude: true
 ...
 

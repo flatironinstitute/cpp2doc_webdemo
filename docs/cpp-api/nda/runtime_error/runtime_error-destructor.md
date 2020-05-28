@@ -41,6 +41,5 @@ see-also: []
 permalink: /cpp-api/nda/runtime_error/~runtime_error-destructor
 title: nda::runtime_error::~runtime_error
 parent: nda::runtime_error
-nav_exclude: true
 ...
 

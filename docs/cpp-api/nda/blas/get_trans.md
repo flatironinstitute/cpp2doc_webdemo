@@ -44,6 +44,5 @@ see-also: []
 permalink: /cpp-api/nda/blas/get_trans
 title: nda::blas::get_trans
 parent: nda::blas
-nav_exclude: true
 ...
 

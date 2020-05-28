@@ -60,6 +60,5 @@ see-also: []
 permalink: /cpp-api/nda/mem/handle_heap/handle_heap-constructors
 title: nda::mem::handle_heap::handle_heap<T, Allocator>
 parent: nda::mem::handle_heap
-nav_exclude: true
 ...
 

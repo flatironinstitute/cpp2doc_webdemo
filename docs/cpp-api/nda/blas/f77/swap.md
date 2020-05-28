@@ -48,6 +48,5 @@ see-also: []
 permalink: /cpp-api/nda/blas/f77/swap
 title: nda::blas::f77::swap
 parent: nda::blas::f77
-nav_exclude: true
 ...
 

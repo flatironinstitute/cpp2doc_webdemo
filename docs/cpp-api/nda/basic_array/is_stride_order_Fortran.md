@@ -41,6 +41,5 @@ see-also: []
 permalink: /cpp-api/nda/basic_array/is_stride_order_Fortran
 title: nda::basic_array::is_stride_order_Fortran
 parent: nda::basic_array
-nav_exclude: true
 ...
 

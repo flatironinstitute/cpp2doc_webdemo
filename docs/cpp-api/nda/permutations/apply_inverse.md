@@ -45,6 +45,5 @@ see-also: []
 permalink: /cpp-api/nda/permutations/apply_inverse
 title: nda::permutations::apply_inverse
 parent: nda::permutations
-nav_exclude: true
 ...
 

@@ -44,6 +44,5 @@ see-also: []
 permalink: /cpp-api/nda/make_regular
 title: nda::make_regular
 parent: nda
-nav_exclude: true
 ...
 

@@ -33,6 +33,5 @@ title: nda::shared
 source: nda/storage/policies.hpp
 parent: nda
 has_children: true
-nav_exclude: true
 ...
 

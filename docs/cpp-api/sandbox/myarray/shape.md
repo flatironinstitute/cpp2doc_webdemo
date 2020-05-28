@@ -41,6 +41,5 @@ see-also: []
 permalink: /cpp-api/sandbox/myarray/shape
 title: sandbox::myarray::shape
 parent: sandbox::myarray
-nav_exclude: true
 ...
 

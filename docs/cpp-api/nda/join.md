@@ -46,6 +46,5 @@ see-also: []
 permalink: /cpp-api/nda/join
 title: nda::join
 parent: nda
-nav_exclude: true
 ...
 

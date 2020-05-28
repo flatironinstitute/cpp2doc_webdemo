@@ -41,6 +41,5 @@ see-also: []
 permalink: /cpp-api/sandbox/myarray/operator()
 title: sandbox::myarray::operator()
 parent: sandbox::myarray
-nav_exclude: true
 ...
 

@@ -44,6 +44,5 @@ see-also: []
 permalink: /cpp-api/nda/mem/allocator_singleton/allocate
 title: nda::mem::allocator_singleton::allocate
 parent: nda::mem::allocator_singleton
-nav_exclude: true
 ...
 

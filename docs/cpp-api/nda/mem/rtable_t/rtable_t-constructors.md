@@ -44,6 +44,5 @@ see-also: []
 permalink: /cpp-api/nda/mem/rtable_t/rtable_t-constructors
 title: nda::mem::rtable_t::rtable_t
 parent: nda::mem::rtable_t
-nav_exclude: true
 ...
 

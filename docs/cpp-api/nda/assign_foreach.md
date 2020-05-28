@@ -45,6 +45,5 @@ see-also: []
 permalink: /cpp-api/nda/assign_foreach
 title: nda::assign_foreach
 parent: nda
-nav_exclude: true
 ...
 

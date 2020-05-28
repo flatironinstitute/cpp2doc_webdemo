@@ -44,6 +44,5 @@ see-also: []
 permalink: /cpp-api/nda/acos
 title: nda::acos
 parent: nda
-nav_exclude: true
 ...
 

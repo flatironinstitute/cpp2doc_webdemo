@@ -33,6 +33,5 @@ title: nda::ellipsis
 source: nda/layout/range.hpp
 parent: nda
 has_children: true
-nav_exclude: true
 ...
 

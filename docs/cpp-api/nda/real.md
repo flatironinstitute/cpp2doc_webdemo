@@ -44,6 +44,5 @@ see-also: []
 permalink: /cpp-api/nda/real
 title: nda::real
 parent: nda
-nav_exclude: true
 ...
 

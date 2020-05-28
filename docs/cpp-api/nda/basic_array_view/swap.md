@@ -42,6 +42,5 @@ see-also: []
 permalink: /cpp-api/nda/basic_array_view/swap
 title: nda::swap
 parent: nda::basic_array_view
-nav_exclude: true
 ...
 

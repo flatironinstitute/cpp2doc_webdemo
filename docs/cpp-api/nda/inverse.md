@@ -44,6 +44,5 @@ see-also: []
 permalink: /cpp-api/nda/inverse
 title: nda::inverse
 parent: nda
-nav_exclude: true
 ...
 

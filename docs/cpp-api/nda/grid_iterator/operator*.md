@@ -44,6 +44,5 @@ see-also: []
 permalink: /cpp-api/nda/grid_iterator/operator*
 title: nda::grid_iterator<1>::operator*
 parent: nda::grid_iterator
-nav_exclude: true
 ...
 

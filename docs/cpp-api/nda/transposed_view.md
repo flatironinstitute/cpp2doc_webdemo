@@ -46,6 +46,5 @@ see-also: []
 permalink: /cpp-api/nda/transposed_view
 title: nda::transposed_view
 parent: nda
-nav_exclude: true
 ...
 

@@ -45,6 +45,5 @@ see-also: []
 permalink: /cpp-api/nda/slice_static/get_s
 title: nda::slice_static::get_s
 parent: nda::slice_static
-nav_exclude: true
 ...
 

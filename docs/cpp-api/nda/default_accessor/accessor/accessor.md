@@ -48,6 +48,5 @@ title: nda::default_accessor::accessor
 source: nda/accessors.hpp
 parent: nda::default_accessor
 has_children: true
-nav_exclude: true
 ...
 

@@ -43,6 +43,5 @@ see-also: []
 permalink: /cpp-api/nda/permutations/identity
 title: nda::permutations::identity
 parent: nda::permutations
-nav_exclude: true
 ...
 

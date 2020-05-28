@@ -44,6 +44,5 @@ see-also: []
 permalink: /cpp-api/nda/permutations/transposition
 title: nda::permutations::transposition
 parent: nda::permutations
-nav_exclude: true
 ...
 

@@ -44,6 +44,5 @@ see-also: []
 permalink: /cpp-api/nda/floor
 title: nda::floor
 parent: nda
-nav_exclude: true
 ...
 

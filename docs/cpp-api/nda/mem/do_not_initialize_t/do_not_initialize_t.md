@@ -33,6 +33,5 @@ title: nda::mem::do_not_initialize_t
 source: nda/storage/handle.hpp
 parent: nda::mem
 has_children: true
-nav_exclude: true
 ...
 

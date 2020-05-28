@@ -42,6 +42,5 @@ see-also: []
 permalink: /cpp-api/nda/range/operator<<
 title: nda::operator<<
 parent: nda::range
-nav_exclude: true
 ...
 

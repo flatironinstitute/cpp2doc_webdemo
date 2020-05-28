@@ -42,6 +42,5 @@ see-also: []
 permalink: /cpp-api/nda/no_alias_accessor/accessor/offset
 title: nda::no_alias_accessor::accessor::offset
 parent: nda::no_alias_accessor::accessor
-nav_exclude: true
 ...
 

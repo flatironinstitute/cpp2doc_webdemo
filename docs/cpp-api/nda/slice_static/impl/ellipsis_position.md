@@ -44,6 +44,5 @@ see-also: []
 permalink: /cpp-api/nda/slice_static/impl/ellipsis_position
 title: nda::slice_static::impl::ellipsis_position
 parent: nda::slice_static::impl
-nav_exclude: true
 ...
 

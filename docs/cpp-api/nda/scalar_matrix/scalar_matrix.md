@@ -46,6 +46,5 @@ title: nda::scalar_matrix
 source: nda/arithmetic.hpp
 parent: nda
 has_children: true
-nav_exclude: true
 ...
 

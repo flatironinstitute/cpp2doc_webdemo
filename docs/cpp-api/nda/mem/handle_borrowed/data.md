@@ -41,6 +41,5 @@ see-also: []
 permalink: /cpp-api/nda/mem/handle_borrowed/data
 title: nda::mem::handle_borrowed::data
 parent: nda::mem::handle_borrowed
-nav_exclude: true
 ...
 

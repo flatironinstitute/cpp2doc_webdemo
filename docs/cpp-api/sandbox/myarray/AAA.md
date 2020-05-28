@@ -41,6 +41,5 @@ see-also: []
 permalink: /cpp-api/sandbox/myarray/AAA
 title: sandbox::myarray::AAA
 parent: sandbox::myarray
-nav_exclude: true
 ...
 

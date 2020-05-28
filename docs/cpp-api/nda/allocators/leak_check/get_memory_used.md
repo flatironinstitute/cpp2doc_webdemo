@@ -41,6 +41,5 @@ see-also: []
 permalink: /cpp-api/nda/allocators/leak_check/get_memory_used
 title: nda::allocators::leak_check::get_memory_used
 parent: nda::allocators::leak_check
-nav_exclude: true
 ...
 

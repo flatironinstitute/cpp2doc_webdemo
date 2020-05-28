@@ -13,4 +13,3 @@ classes: [array, array_view]
 functions: [make_view]
 ...
 
-

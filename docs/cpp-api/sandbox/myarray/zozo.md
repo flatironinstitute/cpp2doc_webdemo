@@ -41,6 +41,5 @@ see-also: []
 permalink: /cpp-api/sandbox/myarray/zozo
 title: sandbox::myarray::zozo
 parent: sandbox::myarray
-nav_exclude: true
 ...
 

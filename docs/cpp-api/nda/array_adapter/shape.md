@@ -41,6 +41,5 @@ see-also: []
 permalink: /cpp-api/nda/array_adapter/shape
 title: nda::array_adapter::shape
 parent: nda::array_adapter
-nav_exclude: true
 ...
 

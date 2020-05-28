@@ -41,6 +41,5 @@ see-also: []
 permalink: /cpp-api/nda/allocators/stats/deallocate
 title: nda::allocators::stats::deallocate
 parent: nda::allocators::stats
-nav_exclude: true
 ...
 

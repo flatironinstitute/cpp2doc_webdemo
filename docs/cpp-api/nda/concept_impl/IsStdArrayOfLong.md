@@ -20,6 +20,5 @@ signature: |
    concept IsStdArrayOfLong
 source: nda/concepts.hpp
 parent: nda::concept_impl
-nav_exclude: true
 ...
 

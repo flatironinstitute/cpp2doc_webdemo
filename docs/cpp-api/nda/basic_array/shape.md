@@ -44,6 +44,5 @@ see-also: []
 permalink: /cpp-api/nda/basic_array/shape
 title: nda::basic_array::shape
 parent: nda::basic_array
-nav_exclude: true
 ...
 

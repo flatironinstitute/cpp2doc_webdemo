@@ -44,6 +44,5 @@ see-also: []
 permalink: /cpp-api/nda/tan
 title: nda::tan
 parent: nda
-nav_exclude: true
 ...
 

@@ -33,6 +33,5 @@ title: nda::mem::init_zero_t
 source: nda/storage/handle.hpp
 parent: nda::mem
 has_children: true
-nav_exclude: true
 ...
 

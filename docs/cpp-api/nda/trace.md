@@ -43,6 +43,5 @@ see-also: []
 permalink: /cpp-api/nda/trace
 title: nda::trace
 parent: nda
-nav_exclude: true
 ...
 

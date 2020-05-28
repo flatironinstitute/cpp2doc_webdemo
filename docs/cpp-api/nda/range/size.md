@@ -41,6 +41,5 @@ see-also: []
 permalink: /cpp-api/nda/range/size
 title: nda::range::size
 parent: nda::range
-nav_exclude: true
 ...
 

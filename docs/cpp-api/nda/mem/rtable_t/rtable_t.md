@@ -44,6 +44,5 @@ title: nda::mem::rtable_t
 source: nda/storage/rtable.hpp
 parent: nda::mem
 has_children: true
-nav_exclude: true
 ...
 

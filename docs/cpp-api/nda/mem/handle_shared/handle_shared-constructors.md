@@ -57,6 +57,5 @@ see-also: []
 permalink: /cpp-api/nda/mem/handle_shared/handle_shared-constructors
 title: nda::mem::handle_shared::handle_shared<T>
 parent: nda::mem::handle_shared
-nav_exclude: true
 ...
 

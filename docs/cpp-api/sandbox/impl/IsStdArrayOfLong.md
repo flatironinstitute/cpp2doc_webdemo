@@ -20,6 +20,5 @@ signature: |
    concept IsStdArrayOfLong
 source: /Users/oparcollet/cpp2doc_webdemo/src/array_concept.cpp
 parent: sandbox::impl
-nav_exclude: true
 ...
 

@@ -47,6 +47,5 @@ see-also: []
 permalink: /cpp-api/nda/blas/f77/scal
 title: nda::blas::f77::scal
 parent: nda::blas::f77
-nav_exclude: true
 ...
 

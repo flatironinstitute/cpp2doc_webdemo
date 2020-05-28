@@ -20,6 +20,5 @@ signature: |
    concept IsDoubleOrComplex
 source: nda/blas/tools.hpp
 parent: nda::blas
-nav_exclude: true
 ...
 

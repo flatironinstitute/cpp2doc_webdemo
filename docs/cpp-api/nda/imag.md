@@ -44,6 +44,5 @@ see-also: []
 permalink: /cpp-api/nda/imag
 title: nda::imag
 parent: nda
-nav_exclude: true
 ...
 

@@ -41,6 +41,5 @@ see-also: []
 permalink: /cpp-api/sandbox/faulty_array/shape
 title: sandbox::faulty_array::shape
 parent: sandbox::faulty_array
-nav_exclude: true
 ...
 

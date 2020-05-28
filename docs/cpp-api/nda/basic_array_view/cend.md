@@ -41,6 +41,5 @@ see-also: []
 permalink: /cpp-api/nda/basic_array_view/cend
 title: nda::basic_array_view::cend
 parent: nda::basic_array_view
-nav_exclude: true
 ...
 

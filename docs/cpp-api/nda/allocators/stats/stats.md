@@ -47,6 +47,5 @@ title: nda::allocators::stats
 source: nda/storage/allocators.hpp
 parent: nda::allocators
 has_children: true
-nav_exclude: true
 ...
 

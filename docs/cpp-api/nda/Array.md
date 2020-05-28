@@ -20,6 +20,5 @@ signature: |
    concept Array
 source: nda/concepts.hpp
 parent: nda
-nav_exclude: true
 ...
 

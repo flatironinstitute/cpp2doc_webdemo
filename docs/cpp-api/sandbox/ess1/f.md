@@ -41,6 +41,5 @@ see-also: []
 permalink: /cpp-api/sandbox/ess1/f
 title: sandbox::ess1::f
 parent: sandbox::ess1
-nav_exclude: true
 ...
 

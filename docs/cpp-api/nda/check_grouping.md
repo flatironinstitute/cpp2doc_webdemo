@@ -45,6 +45,5 @@ see-also: []
 permalink: /cpp-api/nda/check_grouping
 title: nda::check_grouping
 parent: nda
-nav_exclude: true
 ...
 

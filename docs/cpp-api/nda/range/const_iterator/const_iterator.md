@@ -53,6 +53,5 @@ title: nda::range::const_iterator
 source: nda/layout/range.hpp
 parent: nda::range
 has_children: true
-nav_exclude: true
 ...
 

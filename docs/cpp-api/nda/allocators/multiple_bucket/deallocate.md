@@ -41,6 +41,5 @@ see-also: []
 permalink: /cpp-api/nda/allocators/multiple_bucket/deallocate
 title: nda::allocators::multiple_bucket::deallocate
 parent: nda::allocators::multiple_bucket
-nav_exclude: true
 ...
 

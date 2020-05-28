@@ -43,6 +43,5 @@ see-also: []
 permalink: /cpp-api/nda/encode
 title: nda::encode
 parent: nda
-nav_exclude: true
 ...
 

@@ -56,6 +56,5 @@ see-also: []
 permalink: /cpp-api/nda/mem/handle_stack/handle_stack-constructors
 title: nda::mem::handle_stack::handle_stack<T, Size>
 parent: nda::mem::handle_stack
-nav_exclude: true
 ...
 

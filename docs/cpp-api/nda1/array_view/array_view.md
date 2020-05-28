@@ -31,7 +31,7 @@ example:
   desc: __MISSING__
   code: __MISSING__
 
-# A list of related functions
+# A list of related functions/classes
 see-also: []
 
 # ---------- DO NOT EDIT BELOW --------
@@ -40,7 +40,5 @@ title: nda1::array_view
 source: /Users/oparcollet/cpp2doc_webdemo/src/nda1.hpp
 parent: nda1
 has_children: true
-nav_exclude: true
 ...
-
 

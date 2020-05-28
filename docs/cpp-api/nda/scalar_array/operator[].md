@@ -43,6 +43,5 @@ see-also: []
 permalink: /cpp-api/nda/scalar_array/operator[]
 title: nda::scalar_array::operator[]
 parent: nda::scalar_array
-nav_exclude: true
 ...
 

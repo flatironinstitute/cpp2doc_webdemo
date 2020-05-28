@@ -54,6 +54,5 @@ title: nda::mem::handle_shared
 source: nda/storage/handle.hpp
 parent: nda::mem
 has_children: true
-nav_exclude: true
 ...
 

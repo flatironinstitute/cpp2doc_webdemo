@@ -50,6 +50,5 @@ title: nda::details::bound_check_worker
 source: nda/layout/bound_check_worker.hpp
 parent: nda::details
 has_children: true
-nav_exclude: true
 ...
 

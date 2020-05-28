@@ -44,6 +44,5 @@ see-also: []
 permalink: /cpp-api/nda/sqrt
 title: nda::sqrt
 parent: nda
-nav_exclude: true
 ...
 

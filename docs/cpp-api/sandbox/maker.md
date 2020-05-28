@@ -43,6 +43,5 @@ see-also: []
 permalink: /cpp-api/sandbox/maker
 title: sandbox::maker
 parent: sandbox
-nav_exclude: true
 ...
 

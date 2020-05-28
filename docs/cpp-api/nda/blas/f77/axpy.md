@@ -49,6 +49,5 @@ see-also: []
 permalink: /cpp-api/nda/blas/f77/axpy
 title: nda::blas::f77::axpy
 parent: nda::blas::f77
-nav_exclude: true
 ...
 

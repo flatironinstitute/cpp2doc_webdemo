@@ -38,6 +38,5 @@ title: nda::runtime_error
 source: nda/exceptions.hpp
 parent: nda
 has_children: true
-nav_exclude: true
 ...
 

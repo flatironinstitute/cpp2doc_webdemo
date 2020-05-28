@@ -41,6 +41,5 @@ see-also: []
 permalink: /cpp-api/nda/allocators/bucket/is_full
 title: nda::allocators::bucket::is_full
 parent: nda::allocators::bucket
-nav_exclude: true
 ...
 

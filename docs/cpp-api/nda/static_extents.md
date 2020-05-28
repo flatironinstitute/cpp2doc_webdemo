@@ -44,6 +44,5 @@ see-also: []
 permalink: /cpp-api/nda/static_extents
 title: nda::static_extents
 parent: nda
-nav_exclude: true
 ...
 

@@ -43,6 +43,5 @@ see-also: []
 permalink: /cpp-api/nda/idx_map/transpose
 title: nda::idx_map::transpose
 parent: nda::idx_map
-nav_exclude: true
 ...
 

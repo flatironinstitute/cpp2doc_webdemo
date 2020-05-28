@@ -41,6 +41,5 @@ see-also: []
 permalink: /cpp-api/nda/mem/handle_heap/size
 title: nda::mem::handle_heap::size
 parent: nda::mem::handle_heap
-nav_exclude: true
 ...
 

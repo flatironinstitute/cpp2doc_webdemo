@@ -43,6 +43,5 @@ title: nda::range
 source: nda/layout/range.hpp
 parent: nda
 has_children: true
-nav_exclude: true
 ...
 

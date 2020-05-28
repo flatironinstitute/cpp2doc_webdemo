@@ -44,6 +44,5 @@ see-also: []
 permalink: /cpp-api/nda/mem/handle_stack/operator[]
 title: nda::mem::handle_stack::operator[]
 parent: nda::mem::handle_stack
-nav_exclude: true
 ...
 

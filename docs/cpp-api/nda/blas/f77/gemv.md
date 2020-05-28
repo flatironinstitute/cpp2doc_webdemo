@@ -54,6 +54,5 @@ see-also: []
 permalink: /cpp-api/nda/blas/f77/gemv
 title: nda::blas::f77::gemv
 parent: nda::blas::f77
-nav_exclude: true
 ...
 

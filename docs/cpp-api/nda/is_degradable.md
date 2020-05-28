@@ -42,6 +42,5 @@ see-also: []
 permalink: /cpp-api/nda/is_degradable
 title: nda::is_degradable
 parent: nda
-nav_exclude: true
 ...
 

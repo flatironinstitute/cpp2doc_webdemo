@@ -44,6 +44,5 @@ see-also: []
 permalink: /cpp-api/sandbox/fgh3b
 title: sandbox::fgh3b
 parent: sandbox
-nav_exclude: true
 ...
 

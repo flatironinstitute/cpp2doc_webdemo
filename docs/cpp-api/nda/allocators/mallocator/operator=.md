@@ -44,6 +44,5 @@ see-also: []
 permalink: /cpp-api/nda/allocators/mallocator/operator=
 title: nda::allocators::mallocator::operator=
 parent: nda::allocators::mallocator
-nav_exclude: true
 ...
 

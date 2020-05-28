@@ -44,6 +44,5 @@ title: nda::mem::aligner
 source: nda/storage/handle.hpp
 parent: nda::mem
 has_children: true
-nav_exclude: true
 ...
 

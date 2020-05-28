@@ -41,6 +41,5 @@ see-also: []
 permalink: /cpp-api/nda/layout_info_t/~layout_info_t-destructor
 title: nda::layout_info_t::~layout_info_t
 parent: nda::layout_info_t
-nav_exclude: true
 ...
 

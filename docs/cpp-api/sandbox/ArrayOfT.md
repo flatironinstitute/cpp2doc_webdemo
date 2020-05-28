@@ -20,6 +20,5 @@ signature: |
    concept ArrayOfT
 source: /Users/oparcollet/cpp2doc_webdemo/src/array_concept.cpp
 parent: sandbox
-nav_exclude: true
 ...
 

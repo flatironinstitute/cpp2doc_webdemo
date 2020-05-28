@@ -48,6 +48,5 @@ title: nda::no_alias_accessor::accessor
 source: nda/accessors.hpp
 parent: nda::no_alias_accessor
 has_children: true
-nav_exclude: true
 ...
 

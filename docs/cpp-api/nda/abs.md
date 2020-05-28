@@ -44,6 +44,5 @@ see-also: []
 permalink: /cpp-api/nda/abs
 title: nda::abs
 parent: nda
-nav_exclude: true
 ...
 

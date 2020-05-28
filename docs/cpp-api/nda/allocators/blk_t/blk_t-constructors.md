@@ -47,6 +47,5 @@ see-also: []
 permalink: /cpp-api/nda/allocators/blk_t/blk_t-constructors
 title: nda::allocators::blk_t::blk_t
 parent: nda::allocators::blk_t
-nav_exclude: true
 ...
 
