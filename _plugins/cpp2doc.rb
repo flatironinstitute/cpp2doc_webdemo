@@ -181,7 +181,7 @@ module Jekyll
           qname_to_brief[qname] = page['brief']
           qname_to_permalinks[qname] = page['permalink']
         end
-        if page['layout'] == 'class'
+        if page['layout'] == 'class' or page['layout'] == 'concept'
           qname_to_brief[qname] = page['brief']
           qname_to_permalinks[qname] = page['permalink']
           classes.append(page['qualified_name'])
@@ -190,6 +190,7 @@ module Jekyll
       site.data["qname_to_permalinks"] = qname_to_permalinks
       site.data["qname_to_brief"] = qname_to_brief
       site.data["highlighted_types"] = classes
+      #puts(classes)
     end
   end
   end
@@ -224,6 +225,9 @@ module Jekyll
 
       require 'rouge' # we use the highlighter
 
+      # FIXME : bug do the join one by one with replace
+      # nda::basic_array:: .... ?? replace nda !
+      # Do it at the END only
       current_namespace = namespace_list.join('::')
       if not current_namespace.empty? then
         current_namespace += '::'
@@ -245,6 +249,7 @@ module Jekyll
         source = source.gsub(re){ |w| repl}
       end
 
+      # FIXMe : keep the one that matched and runs only them
       formatter = Rouge::Formatters::HTML.new
       lexer = Rouge::Lexers::Cpp.new
       r = formatter.format(lexer.lex(source))
