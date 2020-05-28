@@ -34,12 +34,12 @@ example:
   desc: __MISSING__
   code: __MISSING__
 
-# A list of related functions
+# A list of related functions/classes
 see-also: []
-title: sandbox::myarray::shape
 
 # ---------- DO NOT EDIT BELOW --------
 permalink: /cpp-api/sandbox/myarray/shape
+title: sandbox::myarray::shape
 parent: sandbox::myarray
 nav_exclude: true
 ...

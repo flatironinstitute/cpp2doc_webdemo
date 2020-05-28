@@ -12,7 +12,7 @@ brief: ""
 # List of overloads. Edit only the desc
 overloads:
 
-  - signature: bool operator!=(const class nda::range::const_iterator & other) noexcept const
+  - signature: bool operator!=(const_iterator const & other) noexcept const
     desc: ""
 
 # Long description. Any Markdown, with code, latex, multiline with |

@@ -34,12 +34,12 @@ example:
   desc: __MISSING__
   code: __MISSING__
 
-# A list of related functions
+# A list of related functions/classes
 see-also: []
-title: sandbox::ess1::f
 
 # ---------- DO NOT EDIT BELOW --------
 permalink: /cpp-api/sandbox/ess1/f
+title: sandbox::ess1::f
 parent: sandbox::ess1
 nav_exclude: true
 ...

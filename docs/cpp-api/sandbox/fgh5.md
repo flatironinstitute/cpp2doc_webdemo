@@ -13,7 +13,7 @@ brief: ""
 overloads:
 
   - signature: |
-      template <ArrayOfRank<2> A>
+      template <sandbox::ArrayOfRank<2> A>
       void fgh5(A && a)
     desc: ""
 
@@ -36,12 +36,12 @@ example:
   desc: __MISSING__
   code: __MISSING__
 
-# A list of related functions
+# A list of related functions/classes
 see-also: []
-title: sandbox::fgh5
 
 # ---------- DO NOT EDIT BELOW --------
 permalink: /cpp-api/sandbox/fgh5
+title: sandbox::fgh5
 parent: sandbox
 nav_exclude: true
 ...

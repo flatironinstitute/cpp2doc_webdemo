@@ -15,10 +15,10 @@ overloads:
   - signature: ellipsis()
     desc: ""
 
-  - signature: ellipsis(const struct nda::ellipsis & )
+  - signature: ellipsis(ellipsis const & )
     desc: ""
 
-  - signature: ellipsis(struct nda::ellipsis && )
+  - signature: ellipsis(ellipsis && )
     desc: ""
 
 # Long description. Any Markdown, with code, latex, multiline with |

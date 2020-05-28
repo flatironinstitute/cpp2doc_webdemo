@@ -13,11 +13,11 @@ brief: ""
 overloads:
 
   - signature: |
-      template <sandbox::is_integral Int>
+      template <sandbox::is_integral ... Int>
       myarray(Int... is) noexcept
     desc: ""
 
-  - signature: myarray(const myarray<T, R> & )
+  - signature: myarray(myarray const & )
     desc: ""
 
 # Long description. Any Markdown, with code, latex, multiline with |
@@ -39,12 +39,12 @@ example:
   desc: __MISSING__
   code: __MISSING__
 
-# A list of related functions
+# A list of related functions/classes
 see-also: []
-title: sandbox::myarray::myarray<T, R>
 
 # ---------- DO NOT EDIT BELOW --------
 permalink: /cpp-api/sandbox/myarray/myarray-constructors
+title: sandbox::myarray::myarray<T, R>
 parent: sandbox::myarray
 nav_exclude: true
 ...

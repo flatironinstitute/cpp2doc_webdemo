@@ -15,10 +15,10 @@ overloads:
   - signature: stats()
     desc: ""
 
-  - signature: stats(const stats<A> & )
+  - signature: stats(stats const & )
     desc: ""
 
-  - signature: stats(stats<A> && )
+  - signature: stats(stats && )
     desc: ""
 
 # Long description. Any Markdown, with code, latex, multiline with |

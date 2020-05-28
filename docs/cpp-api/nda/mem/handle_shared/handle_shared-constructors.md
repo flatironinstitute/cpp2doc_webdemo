@@ -15,10 +15,10 @@ overloads:
   - signature: handle_shared()
     desc: ""
 
-  - signature: handle_shared(const handle_shared<T> & ) noexcept
+  - signature: handle_shared(handle_shared const & ) noexcept
     desc: ""
 
-  - signature: handle_shared(handle_shared<T> && ) noexcept
+  - signature: handle_shared(handle_shared && ) noexcept
     desc: ""
 
   - signature: handle_shared(T * data, size_t size, void * foreign_handle, void * foreign_decref) noexcept

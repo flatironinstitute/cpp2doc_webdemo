@@ -15,10 +15,10 @@ overloads:
   - signature: multiple_bucket()
     desc: ""
 
-  - signature: multiple_bucket(const multiple_bucket<ChunkSize> & )
+  - signature: multiple_bucket(multiple_bucket const & )
     desc: ""
 
-  - signature: multiple_bucket(multiple_bucket<ChunkSize> && )
+  - signature: multiple_bucket(multiple_bucket && )
     desc: ""
 
 # Long description. Any Markdown, with code, latex, multiline with |

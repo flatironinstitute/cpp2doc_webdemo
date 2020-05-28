@@ -12,10 +12,10 @@ brief: ""
 # List of overloads. Edit only the desc
 overloads:
 
-  - signature: handle_stack & operator=(handle_stack<T, Size> && x) noexcept
+  - signature: handle_stack & operator=(handle_stack && x) noexcept
     desc: ""
 
-  - signature: handle_stack & operator=(const handle_stack<T, Size> & x)
+  - signature: handle_stack & operator=(handle_stack const & x)
     desc: ""
 
 # Long description. Any Markdown, with code, latex, multiline with |

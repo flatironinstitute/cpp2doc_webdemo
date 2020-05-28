@@ -15,7 +15,7 @@ overloads:
   - signature: handle_heap()
     desc: ""
 
-  - signature: handle_heap(handle_heap<T, Allocator> && ) noexcept
+  - signature: handle_heap(handle_heap && ) noexcept
     desc: ""
 
   - signature: handle_heap(long size, struct nda::mem::do_not_initialize_t )
@@ -27,7 +27,7 @@ overloads:
   - signature: handle_heap(long size)
     desc: ""
 
-  - signature: handle_heap(const handle_heap<T, Allocator> & )
+  - signature: handle_heap(handle_heap const & )
     desc: ""
 
   - signature: handle_heap(const handle_shared<T> & x)

@@ -15,10 +15,10 @@ overloads:
   - signature: mallocator()
     desc: ""
 
-  - signature: mallocator(const class nda::allocators::mallocator & )
+  - signature: mallocator(mallocator const & )
     desc: ""
 
-  - signature: mallocator(class nda::allocators::mallocator && )
+  - signature: mallocator(mallocator && )
     desc: ""
 
 # Long description. Any Markdown, with code, latex, multiline with |

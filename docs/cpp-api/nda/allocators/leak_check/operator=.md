@@ -12,10 +12,10 @@ brief: ""
 # List of overloads. Edit only the desc
 overloads:
 
-  - signature: leak_check & operator=(const leak_check<A> & )
+  - signature: leak_check & operator=(leak_check const & )
     desc: ""
 
-  - signature: leak_check & operator=(leak_check<A> && )
+  - signature: leak_check & operator=(leak_check && )
     desc: ""
 
 # Long description. Any Markdown, with code, latex, multiline with |

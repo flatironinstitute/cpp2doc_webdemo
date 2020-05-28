@@ -12,7 +12,7 @@ brief: ""
 # List of overloads. Edit only the desc
 overloads:
 
-  - signature: bool operator==(const idx_map<Rank, StaticExtents, StrideOrder, LayoutProp> & x)  const
+  - signature: bool operator==(idx_map const & x)  const
     desc: ""
 
 # Long description. Any Markdown, with code, latex, multiline with |

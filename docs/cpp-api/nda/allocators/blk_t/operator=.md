@@ -12,10 +12,10 @@ brief: ""
 # List of overloads. Edit only the desc
 overloads:
 
-  - signature: blk_t & operator=(const struct nda::allocators::blk_t & )
+  - signature: blk_t & operator=(blk_t const & )
     desc: ""
 
-  - signature: blk_t & operator=(struct nda::allocators::blk_t && )
+  - signature: blk_t & operator=(blk_t && )
     desc: ""
 
 # Long description. Any Markdown, with code, latex, multiline with |

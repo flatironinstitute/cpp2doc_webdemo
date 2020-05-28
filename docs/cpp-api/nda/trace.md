@@ -13,7 +13,7 @@ brief: ""
 overloads:
 
   - signature: |
-      template <ArrayOfRank<2> M>
+      template <nda::ArrayOfRank<2> M>
       typename M::value_type trace(const M & m)
     desc: ""
 

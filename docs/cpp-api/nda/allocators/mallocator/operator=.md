@@ -12,10 +12,10 @@ brief: ""
 # List of overloads. Edit only the desc
 overloads:
 
-  - signature: mallocator & operator=(const class nda::allocators::mallocator & )
+  - signature: mallocator & operator=(mallocator const & )
     desc: ""
 
-  - signature: mallocator & operator=(class nda::allocators::mallocator && )
+  - signature: mallocator & operator=(mallocator && )
     desc: ""
 
 # Long description. Any Markdown, with code, latex, multiline with |

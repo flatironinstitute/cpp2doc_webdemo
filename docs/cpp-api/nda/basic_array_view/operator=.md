@@ -12,11 +12,11 @@ brief: Same as the general case
 # List of overloads. Edit only the desc
 overloads:
 
-  - signature: basic_array_view & operator=(const basic_array_view<ValueType, Rank, Layout, Algebra, AccessorPolicy, OwningPolicy> & rhs) noexcept
+  - signature: basic_array_view & operator=(basic_array_view const & rhs) noexcept
     desc: Same as the general case
 
   - signature: |
-      template <ArrayOfRank<Rank> RHS>
+      template <nda::ArrayOfRank<Rank> RHS>
       basic_array_view & operator=(const RHS & rhs) noexcept
     desc: Copies the content of rhs into the view.
 

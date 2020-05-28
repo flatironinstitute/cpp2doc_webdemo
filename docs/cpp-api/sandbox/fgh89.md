@@ -13,7 +13,7 @@ brief: ""
 overloads:
 
   - signature: |
-      template <typename T, ArrayOfT<T> A>
+      template <typename T, sandbox::ArrayOfT<type-parameter-0-0> A>
       void fgh89(T x, const A & a)
     desc: ""
 
@@ -38,12 +38,12 @@ example:
   desc: __MISSING__
   code: __MISSING__
 
-# A list of related functions
+# A list of related functions/classes
 see-also: []
-title: sandbox::fgh89
 
 # ---------- DO NOT EDIT BELOW --------
 permalink: /cpp-api/sandbox/fgh89
+title: sandbox::fgh89
 parent: sandbox
 nav_exclude: true
 ...

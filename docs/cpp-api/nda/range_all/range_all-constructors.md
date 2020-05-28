@@ -15,10 +15,10 @@ overloads:
   - signature: range_all()
     desc: ""
 
-  - signature: range_all(const struct nda::range_all & )
+  - signature: range_all(range_all const & )
     desc: ""
 
-  - signature: range_all(struct nda::range_all && )
+  - signature: range_all(range_all && )
     desc: ""
 
 # Long description. Any Markdown, with code, latex, multiline with |

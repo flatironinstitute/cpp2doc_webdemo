@@ -15,10 +15,10 @@ overloads:
   - signature: leak_check()
     desc: ""
 
-  - signature: leak_check(const leak_check<A> & )
+  - signature: leak_check(leak_check const & )
     desc: ""
 
-  - signature: leak_check(leak_check<A> && )
+  - signature: leak_check(leak_check && )
     desc: ""
 
 # Long description. Any Markdown, with code, latex, multiline with |

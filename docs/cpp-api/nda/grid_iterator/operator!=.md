@@ -12,10 +12,10 @@ brief: ""
 # List of overloads. Edit only the desc
 overloads:
 
-  - signature: bool operator!=(const class nda::grid_iterator<1> & other)  const
+  - signature: bool operator!=(grid_iterator const & other)  const
     desc: ""
 
-  - signature: bool operator!=(const grid_iterator<Rank> & other)  const
+  - signature: bool operator!=(grid_iterator const & other)  const
     desc: ""
 
 # Long description. Any Markdown, with code, latex, multiline with |

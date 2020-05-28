@@ -12,10 +12,10 @@ brief: ""
 # List of overloads. Edit only the desc
 overloads:
 
-  - signature: handle_heap & operator=(const handle_heap<T, Allocator> & x)
+  - signature: handle_heap & operator=(handle_heap const & x)
     desc: ""
 
-  - signature: handle_heap & operator=(handle_heap<T, Allocator> && x) noexcept
+  - signature: handle_heap & operator=(handle_heap && x) noexcept
     desc: ""
 
 # Long description. Any Markdown, with code, latex, multiline with |

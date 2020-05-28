@@ -15,10 +15,10 @@ overloads:
   - signature: blk_t()
     desc: ""
 
-  - signature: blk_t(const struct nda::allocators::blk_t & )
+  - signature: blk_t(blk_t const & )
     desc: ""
 
-  - signature: blk_t(struct nda::allocators::blk_t && )
+  - signature: blk_t(blk_t && )
     desc: ""
 
 # Long description. Any Markdown, with code, latex, multiline with |

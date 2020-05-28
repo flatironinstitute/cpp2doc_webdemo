@@ -15,10 +15,10 @@ overloads:
   - signature: bucket()
     desc: ""
 
-  - signature: bucket(const bucket<ChunkSize> & )
+  - signature: bucket(bucket const & )
     desc: ""
 
-  - signature: bucket(bucket<ChunkSize> && )
+  - signature: bucket(bucket && )
     desc: ""
 
 # Long description. Any Markdown, with code, latex, multiline with |

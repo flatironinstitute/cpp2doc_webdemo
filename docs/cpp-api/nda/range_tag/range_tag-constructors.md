@@ -15,10 +15,10 @@ overloads:
   - signature: range_tag()
     desc: ""
 
-  - signature: range_tag(const struct nda::range_tag & )
+  - signature: range_tag(range_tag const & )
     desc: ""
 
-  - signature: range_tag(struct nda::range_tag && )
+  - signature: range_tag(range_tag && )
     desc: ""
 
 # Long description. Any Markdown, with code, latex, multiline with |

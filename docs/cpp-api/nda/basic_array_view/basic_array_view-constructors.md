@@ -15,10 +15,10 @@ overloads:
   - signature: basic_array_view()
     desc: Construct an empty view.
 
-  - signature: basic_array_view(basic_array_view<ValueType, Rank, Layout, Algebra, AccessorPolicy, OwningPolicy> && )
+  - signature: basic_array_view(basic_array_view && )
     desc: ""
 
-  - signature: basic_array_view(const basic_array_view<ValueType, Rank, Layout, Algebra, AccessorPolicy, OwningPolicy> & )
+  - signature: basic_array_view(basic_array_view const & )
     desc: Shallow copy. It copies the *view*, not the data.
 
   - signature: |

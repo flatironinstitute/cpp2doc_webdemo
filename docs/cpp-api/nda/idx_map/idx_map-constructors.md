@@ -15,10 +15,10 @@ overloads:
   - signature: idx_map()
     desc: Default constructor. Strides are not initiliazed.
 
-  - signature: idx_map(const idx_map<Rank, StaticExtents, StrideOrder, LayoutProp> & )
+  - signature: idx_map(idx_map const & )
     desc: ""
 
-  - signature: idx_map(idx_map<Rank, StaticExtents, StrideOrder, LayoutProp> && )
+  - signature: idx_map(idx_map && )
     desc: ""
 
   - signature: |

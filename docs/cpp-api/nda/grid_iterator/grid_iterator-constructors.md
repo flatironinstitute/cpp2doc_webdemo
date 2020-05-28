@@ -18,10 +18,10 @@ overloads:
   - signature: grid_iterator(const long * lengths, const long * strides, bool at_end)
     desc: ""
 
-  - signature: grid_iterator(const class nda::grid_iterator<1> & )
+  - signature: grid_iterator(grid_iterator const & )
     desc: ""
 
-  - signature: grid_iterator(class nda::grid_iterator<1> && )
+  - signature: grid_iterator(grid_iterator && )
     desc: ""
 
   - signature: grid_iterator()

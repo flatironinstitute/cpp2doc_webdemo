@@ -12,7 +12,7 @@ brief: ""
 # List of overloads. Edit only the desc
 overloads:
 
-  - signature: bool operator==(const array_iterator<Rank, T, Pointer> & other)  const
+  - signature: bool operator==(array_iterator const & other)  const
     desc: ""
 
 # Long description. Any Markdown, with code, latex, multiline with |

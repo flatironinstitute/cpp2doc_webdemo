@@ -15,7 +15,7 @@ overloads:
   - signature: array_iterator()
     desc: ""
 
-  - signature: array_iterator(const array_iterator<Rank, T, Pointer> & )
+  - signature: array_iterator(array_iterator const & )
     desc: ""
 
   - signature: array_iterator(const std::array<long, Rank> & lengths, const std::array<long, Rank> & strides, T * start, bool at_end)

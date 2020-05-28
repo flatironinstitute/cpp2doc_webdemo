@@ -15,7 +15,7 @@ overloads:
   - signature: runtime_error() noexcept
     desc: ""
 
-  - signature: runtime_error(const class nda::runtime_error & ) noexcept
+  - signature: runtime_error(runtime_error const & ) noexcept
     desc: ""
 
 # Long description. Any Markdown, with code, latex, multiline with |

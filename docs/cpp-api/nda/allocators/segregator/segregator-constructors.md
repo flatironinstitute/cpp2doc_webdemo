@@ -15,10 +15,10 @@ overloads:
   - signature: segregator()
     desc: ""
 
-  - signature: segregator(const segregator<Threshold, A, B> & )
+  - signature: segregator(segregator const & )
     desc: ""
 
-  - signature: segregator(segregator<Threshold, A, B> && )
+  - signature: segregator(segregator && )
     desc: ""
 
 # Long description. Any Markdown, with code, latex, multiline with |

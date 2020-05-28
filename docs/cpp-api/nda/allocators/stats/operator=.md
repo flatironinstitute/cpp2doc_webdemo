@@ -12,10 +12,10 @@ brief: ""
 # List of overloads. Edit only the desc
 overloads:
 
-  - signature: stats & operator=(const stats<A> & )
+  - signature: stats & operator=(stats const & )
     desc: ""
 
-  - signature: stats & operator=(stats<A> && )
+  - signature: stats & operator=(stats && )
     desc: ""
 
 # Long description. Any Markdown, with code, latex, multiline with |

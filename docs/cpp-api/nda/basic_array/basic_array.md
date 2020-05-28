@@ -64,8 +64,14 @@ member_types:
 
 # Code example. desc: any markdown to explain it.
 example:
-  desc: __MISSING__
-  code: __MISSING__
+  desc: The description of the code
+  code: |
+    #include <nda1/nda1.hpp>
+    int main() {
+      nda::basic_array<int, 1> a{1, 2, 3};
+      nda::basic_array_view<int, 1> v = make_view(a);
+      std::vector<nda1::array> V{{1, 2}, {2, 3}};
+    }
 
 # A list of related functions/classes
 see-also: []

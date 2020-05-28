@@ -15,14 +15,14 @@ overloads:
   - signature: basic_array()
     desc: Empty array
 
-  - signature: basic_array(const basic_array<ValueType, Rank, Layout, Algebra, ContainerPolicy> & ) noexcept
+  - signature: basic_array(basic_array const & ) noexcept
     desc: Makes a deep copy, since array is a regular type
 
-  - signature: basic_array(basic_array<ValueType, Rank, Layout, Algebra, ContainerPolicy> && )
+  - signature: basic_array(basic_array && )
     desc: ""
 
   - signature: |
-      template <std::integral Int>
+      template <std::integral ... Int>
       basic_array(Int... is) noexcept
     desc: ""
 
@@ -30,7 +30,7 @@ overloads:
     desc: ""
 
   - signature: |
-      template <ArrayOfRank<Rank> A>
+      template <nda::ArrayOfRank<Rank> A>
       basic_array(const A & a) noexcept
     desc: ""
 

@@ -12,10 +12,10 @@ brief: ""
 # List of overloads. Edit only the desc
 overloads:
 
-  - signature: idx_map & operator=(const idx_map<Rank, StaticExtents, StrideOrder, LayoutProp> & )
+  - signature: idx_map & operator=(idx_map const & )
     desc: ""
 
-  - signature: idx_map & operator=(idx_map<Rank, StaticExtents, StrideOrder, LayoutProp> && )
+  - signature: idx_map & operator=(idx_map && )
     desc: ""
 
 # Long description. Any Markdown, with code, latex, multiline with |

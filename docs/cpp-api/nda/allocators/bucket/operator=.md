@@ -12,10 +12,10 @@ brief: ""
 # List of overloads. Edit only the desc
 overloads:
 
-  - signature: bucket & operator=(const bucket<ChunkSize> & )
+  - signature: bucket & operator=(bucket const & )
     desc: ""
 
-  - signature: bucket & operator=(bucket<ChunkSize> && )
+  - signature: bucket & operator=(bucket && )
     desc: ""
 
 # Long description. Any Markdown, with code, latex, multiline with |

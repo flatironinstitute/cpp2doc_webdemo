@@ -12,10 +12,10 @@ brief: ""
 # List of overloads. Edit only the desc
 overloads:
 
-  - signature: handle_shared & operator=(const handle_shared<T> & x) noexcept
+  - signature: handle_shared & operator=(handle_shared const & x) noexcept
     desc: ""
 
-  - signature: handle_shared & operator=(handle_shared<T> && x) noexcept
+  - signature: handle_shared & operator=(handle_shared && x) noexcept
     desc: ""
 
 # Long description. Any Markdown, with code, latex, multiline with |

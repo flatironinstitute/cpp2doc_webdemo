@@ -12,10 +12,10 @@ brief: ""
 # List of overloads. Edit only the desc
 overloads:
 
-  - signature: segregator & operator=(const segregator<Threshold, A, B> & )
+  - signature: segregator & operator=(segregator const & )
     desc: ""
 
-  - signature: segregator & operator=(segregator<Threshold, A, B> && )
+  - signature: segregator & operator=(segregator && )
     desc: ""
 
 # Long description. Any Markdown, with code, latex, multiline with |

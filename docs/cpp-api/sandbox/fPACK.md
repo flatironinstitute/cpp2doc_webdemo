@@ -13,7 +13,7 @@ brief: ""
 overloads:
 
   - signature: |
-      template <std::integral Int>
+      template <std::integral ... Int>
       void fPACK(Int... is)
     desc: ""
 
@@ -36,12 +36,12 @@ example:
   desc: __MISSING__
   code: __MISSING__
 
-# A list of related functions
+# A list of related functions/classes
 see-also: []
-title: sandbox::fPACK
 
 # ---------- DO NOT EDIT BELOW --------
 permalink: /cpp-api/sandbox/fPACK
+title: sandbox::fPACK
 parent: sandbox
 nav_exclude: true
 ...

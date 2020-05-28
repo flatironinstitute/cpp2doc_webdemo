@@ -15,7 +15,7 @@ overloads:
   - signature: handle_stack()
     desc: ""
 
-  - signature: handle_stack(handle_stack<T, Size> && ) noexcept
+  - signature: handle_stack(handle_stack && ) noexcept
     desc: ""
 
   - signature: handle_stack(long )
@@ -27,7 +27,7 @@ overloads:
   - signature: handle_stack(long , struct nda::mem::init_zero_t )
     desc: ""
 
-  - signature: handle_stack(const handle_stack<T, Size> & ) noexcept
+  - signature: handle_stack(handle_stack const & ) noexcept
     desc: ""
 
 # Long description. Any Markdown, with code, latex, multiline with |

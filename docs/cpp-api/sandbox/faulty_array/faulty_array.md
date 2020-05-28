@@ -29,7 +29,6 @@ non_member_functions: []
 # Public member types
 member_types:
   value_t:
-    type: T
     desc: __MISSING__
 
 # Code example. desc: any markdown to explain it.
@@ -37,7 +36,7 @@ example:
   desc: __MISSING__
   code: __MISSING__
 
-# A list of related functions
+# A list of related functions/classes
 see-also: []
 
 # ---------- DO NOT EDIT BELOW --------

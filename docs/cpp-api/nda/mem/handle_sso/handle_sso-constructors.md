@@ -15,7 +15,7 @@ overloads:
   - signature: handle_sso()
     desc: ""
 
-  - signature: handle_sso(handle_sso<T, Size> && ) noexcept
+  - signature: handle_sso(handle_sso && ) noexcept
     desc: ""
 
   - signature: handle_sso(long size, struct nda::mem::do_not_initialize_t )
@@ -24,7 +24,7 @@ overloads:
   - signature: handle_sso(long size, struct nda::mem::init_zero_t )
     desc: ""
 
-  - signature: handle_sso(const handle_sso<T, Size> & )
+  - signature: handle_sso(handle_sso const & )
     desc: ""
 
   - signature: handle_sso(long size)

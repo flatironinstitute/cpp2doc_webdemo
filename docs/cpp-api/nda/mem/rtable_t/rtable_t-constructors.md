@@ -15,7 +15,7 @@ overloads:
   - signature: rtable_t(long size = </Users/oparcollet/src/nda/c++/nda/storage/./rtable.hpp:58:26>)
     desc: ""
 
-  - signature: rtable_t(const class nda::mem::rtable_t & )
+  - signature: rtable_t(rtable_t const & )
     desc: ""
 
 # Long description. Any Markdown, with code, latex, multiline with |

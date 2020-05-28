@@ -15,10 +15,10 @@ overloads:
   - signature: const_iterator(const class nda::range * r, bool atEnd) noexcept
     desc: ""
 
-  - signature: const_iterator(const class nda::range::const_iterator & )
+  - signature: const_iterator(const_iterator const & )
     desc: ""
 
-  - signature: const_iterator(class nda::range::const_iterator && )
+  - signature: const_iterator(const_iterator && )
     desc: ""
 
 # Long description. Any Markdown, with code, latex, multiline with |

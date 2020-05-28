@@ -21,10 +21,10 @@ overloads:
   - signature: range(long i) noexcept
     desc: Constructor
 
-  - signature: range(const class nda::range & )
+  - signature: range(range const & )
     desc: ""
 
-  - signature: range(class nda::range && )
+  - signature: range(range && )
     desc: ""
 
 # Long description. Any Markdown, with code, latex, multiline with |

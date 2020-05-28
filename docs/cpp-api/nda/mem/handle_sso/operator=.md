@@ -12,10 +12,10 @@ brief: ""
 # List of overloads. Edit only the desc
 overloads:
 
-  - signature: handle_sso & operator=(handle_sso<T, Size> && x) noexcept
+  - signature: handle_sso & operator=(handle_sso && x) noexcept
     desc: ""
 
-  - signature: handle_sso & operator=(const handle_sso<T, Size> & x) noexcept
+  - signature: handle_sso & operator=(handle_sso const & x) noexcept
     desc: ""
 
 # Long description. Any Markdown, with code, latex, multiline with |

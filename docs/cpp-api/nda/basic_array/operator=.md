@@ -12,14 +12,14 @@ brief: ""
 # List of overloads. Edit only the desc
 overloads:
 
-  - signature: basic_array & operator=(basic_array<ValueType, Rank, Layout, Algebra, ContainerPolicy> && x)
+  - signature: basic_array & operator=(basic_array && x)
     desc: ""
 
-  - signature: basic_array & operator=(const basic_array<ValueType, Rank, Layout, Algebra, ContainerPolicy> & X)
+  - signature: basic_array & operator=(basic_array const & X)
     desc: Deep copy (array is a regular type). Invalidates all references to the storage.
 
   - signature: |
-      template <ArrayOfRank<Rank> RHS>
+      template <nda::ArrayOfRank<Rank> RHS>
       basic_array & operator=(const RHS & rhs) noexcept
     desc: ""
 

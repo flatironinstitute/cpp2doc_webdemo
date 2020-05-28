@@ -30,7 +30,7 @@ example:
   desc: __MISSING__
   code: __MISSING__
 
-# A list of related functions
+# A list of related functions/classes
 see-also: []
 
 # ---------- DO NOT EDIT BELOW --------
