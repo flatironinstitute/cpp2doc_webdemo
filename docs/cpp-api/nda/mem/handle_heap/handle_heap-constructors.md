@@ -30,7 +30,7 @@ overloads:
   - signature: handle_heap(handle_heap const & )
     desc: ""
 
-  - signature: handle_heap(const handle_shared<T> & x)
+  - signature: handle_heap(handle_shared<T> const & x)
     desc: ""
 
 # Long description. Any Markdown, with code, latex, multiline with |

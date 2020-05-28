@@ -14,7 +14,7 @@ overloads:
 
   - signature: |
       template <nda::Array A>
-      auto sum(const A & a)
+      auto sum(A const & a)
     desc: ""
 
 # Long description. Any Markdown, with code, latex, multiline with |

@@ -15,7 +15,7 @@ overloads:
   - signature: |
       template <typename A, typename B>
       requires (is_ndarray_v<A> and is_ndarray_v<B>)
-      bool operator==(const A & a, const B & b)
+      bool operator==(A const & a, B const & b)
     desc: --------------- operator == ---------------------
 
 # Long description. Any Markdown, with code, latex, multiline with |

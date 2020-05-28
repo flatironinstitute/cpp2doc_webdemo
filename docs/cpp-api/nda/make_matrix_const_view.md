@@ -14,12 +14,12 @@ overloads:
 
   - signature: |
       template <typename T, int R, typename L, char Algebra, typename ContainerPolicy>
-      matrix_view<const T, L> make_matrix_const_view(const basic_array<T, R, L, Algebra, ContainerPolicy> & a)
+      matrix_view<const T, L> make_matrix_const_view(basic_array<T, R, L, Algebra, ContainerPolicy> const & a)
     desc: ""
 
   - signature: |
       template <typename T, int R, typename L, char Algebra, typename AccessorPolicy, typename OwningPolicy>
-      matrix_view<const T, L> make_matrix_const_view(const basic_array_view<T, R, L, Algebra, AccessorPolicy, OwningPolicy> & a)
+      matrix_view<const T, L> make_matrix_const_view(basic_array_view<T, R, L, Algebra, AccessorPolicy, OwningPolicy> const & a)
     desc: ""
 
 # Long description. Any Markdown, with code, latex, multiline with |

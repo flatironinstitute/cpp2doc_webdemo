@@ -15,7 +15,7 @@ overloads:
   - signature: long get_offset(long R, long s_n)
     desc: ""
 
-  - signature: long get_offset(const class nda::range & R, long s_n)
+  - signature: long get_offset(class nda::range const & R, long s_n)
     desc: ""
 
   - signature: long get_offset(struct nda::range_all , long )

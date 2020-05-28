@@ -14,7 +14,7 @@ overloads:
 
   - signature: |
       template <int Rank, uint64_t StaticExtents, uint64_t StrideOrder, enum nda::layout_prop_e LayoutProp, typename IntSequences>
-      auto group_indices_layout(const idx_map<Rank, StaticExtents, StrideOrder, LayoutProp> & idxm, IntSequences... )
+      auto group_indices_layout(idx_map<Rank, StaticExtents, StrideOrder, LayoutProp> const & idxm, IntSequences... )
     desc: Regroup indices for a C array
 
 # Long description. Any Markdown, with code, latex, multiline with |

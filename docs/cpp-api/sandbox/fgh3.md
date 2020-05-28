@@ -14,7 +14,7 @@ overloads:
 
   - signature: |
       template <sandbox::Array A>
-      void fgh3(const A & a)
+      void fgh3(A const & a)
     desc: ""
 
 # Long description. Any Markdown, with code, latex, multiline with |

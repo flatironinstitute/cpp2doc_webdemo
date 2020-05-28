@@ -14,7 +14,7 @@ overloads:
 
   - signature: |
       template <typename A, typename B, typename C>
-      void gemv(typename A::value_type alpha, const A & a, const B & b, typename A::value_type beta, C && c)
+      void gemv(typename A::value_type alpha, A const & a, B const & b, typename A::value_type beta, C && c)
     desc: Calls gemv on a matrix, matrix_view, array, array_view of rank 2
 
 # Long description. Any Markdown, with code, latex, multiline with |

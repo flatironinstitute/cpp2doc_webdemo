@@ -14,7 +14,7 @@ overloads:
 
   - signature: |
       template <typename T, size_t R1, size_t R2>
-      std::array<T, R1 + R2> join(const std::array<T, R1> & a1, const std::array<T, R2> & a2)
+      std::array<T, R1 + R2> join(std::array<T, R1> const & a1, std::array<T, R2> const & a2)
     desc: Join two arrays
 
 # Long description. Any Markdown, with code, latex, multiline with |

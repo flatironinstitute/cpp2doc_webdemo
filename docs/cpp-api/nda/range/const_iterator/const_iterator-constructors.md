@@ -12,7 +12,7 @@ brief: ""
 # List of overloads. Edit only the desc
 overloads:
 
-  - signature: const_iterator(const class nda::range * r, bool atEnd) noexcept
+  - signature: const_iterator(class nda::range const * r, bool atEnd) noexcept
     desc: ""
 
   - signature: const_iterator(const_iterator const & )

@@ -20,18 +20,18 @@ overloads:
 
   - signature: |
       template <nda::ArrayOfRank<Rank> RHS>
-      basic_array & operator=(const RHS & rhs) noexcept
+      basic_array & operator=(RHS const & rhs) noexcept
     desc: ""
 
   - signature: |
       template <typename RHS>
       requires (is_scalar_for_v<RHS, basic_array>)
-      basic_array & operator=(const RHS & rhs) noexcept
+      basic_array & operator=(RHS const & rhs) noexcept
     desc: ""
 
   - signature: |
       template <nda::ArrayInitializer Initializer>
-      basic_array & operator=(const Initializer & initializer) noexcept
+      basic_array & operator=(Initializer const & initializer) noexcept
     desc: ""
 
 # Long description. Any Markdown, with code, latex, multiline with |

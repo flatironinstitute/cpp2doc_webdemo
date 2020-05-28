@@ -26,26 +26,26 @@ overloads:
       basic_array(Int... is) noexcept
     desc: ""
 
-  - signature: basic_array(const std::array<long, Rank> & shape) noexcept requires (std::is_default_constructible_v<ValueType>)
+  - signature: basic_array(std::array<long, Rank> const & shape) noexcept requires (std::is_default_constructible_v<ValueType>)
     desc: ""
 
   - signature: |
       template <nda::ArrayOfRank<Rank> A>
-      basic_array(const A & a) noexcept
+      basic_array(A const & a) noexcept
     desc: ""
 
   - signature: |
       template <nda::ArrayInitializer Initializer>
-      basic_array(const Initializer & initializer) noexcept(noexcept(initializer.invoke(*this)))
+      basic_array(Initializer const & initializer) noexcept(noexcept(initializer.invoke(*this)))
     desc: ""
 
-  - signature: basic_array(const std::initializer_list<ValueType> & l) noexcept requires (Rank == 1)
+  - signature: basic_array(std::initializer_list<ValueType> const & l) noexcept requires (Rank == 1)
     desc: ""
 
-  - signature: basic_array(const std::initializer_list<std::initializer_list<ValueType> > & l2) noexcept requires ((Rank == 2))
+  - signature: basic_array(std::initializer_list<std::initializer_list<ValueType> > const & l2) noexcept requires ((Rank == 2))
     desc: ""
 
-  - signature: basic_array(const std::initializer_list<std::initializer_list<std::initializer_list<ValueType> > > & l3) noexcept
+  - signature: basic_array(std::initializer_list<std::initializer_list<std::initializer_list<ValueType> > > const & l3) noexcept
     desc: ""
 
 # Long description. Any Markdown, with code, latex, multiline with |

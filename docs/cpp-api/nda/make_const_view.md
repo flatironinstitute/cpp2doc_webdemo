@@ -14,12 +14,12 @@ overloads:
 
   - signature: |
       template <typename T, int R, typename L, char Algebra, typename ContainerPolicy>
-      basic_array_view<const T, R, L, Algebra> make_const_view(const basic_array<T, R, L, Algebra, ContainerPolicy> & a)
+      basic_array_view<const T, R, L, Algebra> make_const_view(basic_array<T, R, L, Algebra, ContainerPolicy> const & a)
     desc: --------------- make_const_view------------------------
 
   - signature: |
       template <typename T, int R, typename L, char Algebra, typename AccessorPolicy, typename OwningPolicy>
-      basic_array_view<const T, R, L, Algebra, AccessorPolicy, OwningPolicy> make_const_view(const basic_array_view<T, R, L, Algebra, AccessorPolicy, OwningPolicy> & a)
+      basic_array_view<const T, R, L, Algebra, AccessorPolicy, OwningPolicy> make_const_view(basic_array_view<T, R, L, Algebra, AccessorPolicy, OwningPolicy> const & a)
     desc: ""
 
 # Long description. Any Markdown, with code, latex, multiline with |

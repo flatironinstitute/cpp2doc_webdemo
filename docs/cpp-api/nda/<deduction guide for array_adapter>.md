@@ -14,7 +14,7 @@ overloads:
 
   - signature: |
       template <int R, typename F, typename Int>
-      auto <deduction guide for array_adapter>(const std::array<type-parameter-0-2, R> & shape, F f)-> array_adapter<R, F>
+      auto <deduction guide for array_adapter>(std::array<type-parameter-0-2, R> const & shape, F f)-> array_adapter<R, F>
     desc: ""
 
   - signature: |

@@ -15,7 +15,7 @@ overloads:
   - signature: grid_iterator()
     desc: ""
 
-  - signature: grid_iterator(const long * lengths, const long * strides, bool at_end)
+  - signature: grid_iterator(long const * lengths, long const * strides, bool at_end)
     desc: ""
 
   - signature: grid_iterator(grid_iterator const & )
@@ -27,7 +27,7 @@ overloads:
   - signature: grid_iterator()
     desc: ""
 
-  - signature: grid_iterator(const long * lengths, const long * strides, bool at_end)
+  - signature: grid_iterator(long const * lengths, long const * strides, bool at_end)
     desc: ""
 
 # Long description. Any Markdown, with code, latex, multiline with |

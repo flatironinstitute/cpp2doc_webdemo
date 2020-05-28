@@ -12,10 +12,10 @@ brief: ""
 # List of overloads. Edit only the desc
 overloads:
 
-  - signature: void ger(int M, int N, double alpha, const double * x, int incx, const double * Y, int incy, double * A, int LDA)
+  - signature: void ger(int M, int N, double alpha, double const * x, int incx, double const * Y, int incy, double * A, int LDA)
     desc: ""
 
-  - signature: void ger(int M, int N, std::complex<double> alpha, const std::complex<double> * x, int incx, const std::complex<double> * Y, int incy, std::complex<double> * A, int LDA)
+  - signature: void ger(int M, int N, std::complex<double> alpha, std::complex<double> const * x, int incx, std::complex<double> const * Y, int incy, std::complex<double> * A, int LDA)
     desc: ""
 
 # Long description. Any Markdown, with code, latex, multiline with |

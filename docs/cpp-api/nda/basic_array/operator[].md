@@ -14,17 +14,17 @@ overloads:
 
   - signature: |
       template <typename T>
-      decltype(auto) operator[](const T & x) noexcept(has_no_boundcheck) const &
+      decltype(auto) operator[](T const & x) noexcept(has_no_boundcheck) const &
     desc: Access the array, make a lazy expression or slice of it depending on the arguments
 
   - signature: |
       template <typename T>
-      decltype(auto) operator[](const T & x) noexcept(has_no_boundcheck) &
+      decltype(auto) operator[](T const & x) noexcept(has_no_boundcheck) &
     desc: ""
 
   - signature: |
       template <typename T>
-      decltype(auto) operator[](const T & x) noexcept(has_no_boundcheck) &&
+      decltype(auto) operator[](T const & x) noexcept(has_no_boundcheck) &&
     desc: ""
 
 # Long description. Any Markdown, with code, latex, multiline with |

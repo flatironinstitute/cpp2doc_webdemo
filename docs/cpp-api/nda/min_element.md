@@ -14,7 +14,7 @@ overloads:
 
   - signature: |
       template <nda::Array A>
-      auto min_element(const A & a)
+      auto min_element(A const & a)
     desc: ""
 
 # Long description. Any Markdown, with code, latex, multiline with |

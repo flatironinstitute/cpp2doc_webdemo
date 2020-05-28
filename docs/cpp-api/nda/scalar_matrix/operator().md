@@ -14,7 +14,7 @@ overloads:
 
   - signature: |
       template <typename A1, typename A2>
-      S operator()(const A1 & a1, const A2 & a2)  const
+      S operator()(A1 const & a1, A2 const & a2)  const
     desc: ""
 
 # Long description. Any Markdown, with code, latex, multiline with |

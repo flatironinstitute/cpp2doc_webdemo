@@ -12,7 +12,7 @@ brief: ""
 # List of overloads. Edit only the desc
 overloads:
 
-  - signature: const handle_heap<nda::mem::handle_borrowed::T0, void> * parent()  const
+  - signature: handle_heap<nda::mem::handle_borrowed::T0, void> const * parent()  const
     desc: ""
 
 # Long description. Any Markdown, with code, latex, multiline with |

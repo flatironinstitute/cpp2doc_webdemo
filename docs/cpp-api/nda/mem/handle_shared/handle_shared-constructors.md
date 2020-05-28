@@ -24,7 +24,7 @@ overloads:
   - signature: handle_shared(T * data, size_t size, void * foreign_handle, void * foreign_decref) noexcept
     desc: ""
 
-  - signature: handle_shared(const handle_heap<T, void> & x) noexcept
+  - signature: handle_shared(handle_heap<T, void> const & x) noexcept
     desc: ""
 
 # Long description. Any Markdown, with code, latex, multiline with |

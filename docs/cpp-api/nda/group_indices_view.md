@@ -19,7 +19,7 @@ overloads:
 
   - signature: |
       template <typename T, int R, typename L, char Algebra, typename ContainerPolicy, typename IntSequences>
-      auto group_indices_view(const basic_array<T, R, L, Algebra, ContainerPolicy> & a, IntSequences... )
+      auto group_indices_view(basic_array<T, R, L, Algebra, ContainerPolicy> const & a, IntSequences... )
     desc: ""
 
   - signature: |

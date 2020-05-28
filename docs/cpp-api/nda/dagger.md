@@ -14,7 +14,7 @@ overloads:
 
   - signature: |
       template <nda::ArrayOfRank<2> M>
-      Array auto dagger(const M & m)
+      Array auto dagger(M const & m)
     desc: ""
 
 # Long description. Any Markdown, with code, latex, multiline with |

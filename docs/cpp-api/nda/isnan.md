@@ -12,7 +12,7 @@ brief: ""
 # List of overloads. Edit only the desc
 overloads:
 
-  - signature: bool isnan(const std::complex<double> & z)
+  - signature: bool isnan(std::complex<double> const & z)
     desc: ""
 
   - signature: |

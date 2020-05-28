@@ -12,7 +12,7 @@ brief: ""
 # List of overloads. Edit only the desc
 overloads:
 
-  - signature: const auto & histogram() noexcept const
+  - signature: auto const & histogram() noexcept const
     desc: ""
 
 # Long description. Any Markdown, with code, latex, multiline with |

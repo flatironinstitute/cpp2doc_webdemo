@@ -15,7 +15,7 @@ overloads:
   - signature: |
       template <typename L, typename R>
       requires Array<L> and (not Array<R>)
-      void op(const L & , const R & )
+      void op(L const & , R const & )
     desc: ""
 
 # Long description. Any Markdown, with code, latex, multiline with |

@@ -14,7 +14,7 @@ overloads:
 
   - signature: |
       template <typename RHS>
-      auto & operator+=(const RHS & rhs) noexcept
+      auto & operator+=(RHS const & rhs) noexcept
     desc: ""
 
 # Long description. Any Markdown, with code, latex, multiline with |

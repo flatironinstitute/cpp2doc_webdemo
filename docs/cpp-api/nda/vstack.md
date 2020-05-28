@@ -14,7 +14,7 @@ overloads:
 
   - signature: |
       template <typename M1, typename M2>
-      matrix<typename M1::value_type> vstack(const M1 & a, const M2 & b)
+      matrix<typename M1::value_type> vstack(M1 const & a, M2 const & b)
     desc: ""
 
 # Long description. Any Markdown, with code, latex, multiline with |

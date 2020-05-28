@@ -27,7 +27,7 @@ methods: [shape, "operator[]", operator()]
 non_member_functions: []
 member_fields:
   s:
-    type: const S
+    type: S const
     desc: __MISSING__
   _shape:
     type: std::array<long, Rank>

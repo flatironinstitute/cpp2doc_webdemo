@@ -15,7 +15,7 @@ overloads:
   - signature: |
       template <typename A>
       requires (is_regular_or_view_v<A>)
-      void resize_or_check_if_view(A & a, const std::array<long, A::rank> & sha)
+      void resize_or_check_if_view(A & a, std::array<long, A::rank> const & sha)
     desc: ""
 
 # Long description. Any Markdown, with code, latex, multiline with |

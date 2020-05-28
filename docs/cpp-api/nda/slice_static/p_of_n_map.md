@@ -14,7 +14,7 @@ overloads:
 
   - signature: |
       template <size_t N, size_t P>
-      std::array<int, N> p_of_n_map(const std::array<int, P> & n_of_p)
+      std::array<int, N> p_of_n_map(std::array<int, P> const & n_of_p)
     desc: ""
 
 # Long description. Any Markdown, with code, latex, multiline with |

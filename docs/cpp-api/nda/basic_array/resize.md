@@ -17,7 +17,7 @@ overloads:
       void resize(const Int &... extent)
     desc: ""
 
-  - signature: void resize(const std::array<long, Rank> & shape)
+  - signature: void resize(std::array<long, Rank> const & shape)
     desc: ""
 
 # Long description. Any Markdown, with code, latex, multiline with |

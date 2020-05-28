@@ -14,7 +14,7 @@ overloads:
 
   - signature: |
       template <nda::Array A>
-      bool all(const A & a)
+      bool all(A const & a)
     desc: Returns true iif all elements of the array are true
 
 # Long description. Any Markdown, with code, latex, multiline with |

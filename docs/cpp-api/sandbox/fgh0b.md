@@ -15,7 +15,7 @@ overloads:
   - signature: |
       template <typename A>
       requires (ArrayOfRank<A, 2>)
-      void fgh0b(const A & a)
+      void fgh0b(A const & a)
     desc: ""
 
 # Long description. Any Markdown, with code, latex, multiline with |

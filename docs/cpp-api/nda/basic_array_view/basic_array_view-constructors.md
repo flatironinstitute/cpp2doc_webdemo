@@ -23,18 +23,18 @@ overloads:
 
   - signature: |
       template <typename T, typename L, char A, typename CP>
-      basic_array_view(const basic_array<T, Rank, L, A, CP> & a) noexcept
+      basic_array_view(basic_array<T, Rank, L, A, CP> const & a) noexcept
     desc: ""
 
   - signature: |
       template <typename T, typename L, char A, typename AP, typename OP>
-      basic_array_view(const basic_array_view<T, Rank, L, A, AP, OP> & a) noexcept
+      basic_array_view(basic_array_view<T, Rank, L, A, AP, OP> const & a) noexcept
     desc: ""
 
-  - signature: basic_array_view(const std::array<long, Rank> & shape, ValueType * p) noexcept
+  - signature: basic_array_view(std::array<long, Rank> const & shape, ValueType * p) noexcept
     desc: ""
 
-  - signature: basic_array_view(const nda::basic_array_view::layout_t & idxm, ValueType * p) noexcept
+  - signature: basic_array_view(nda::basic_array_view::layout_t const & idxm, ValueType * p) noexcept
     desc: ""
 
 # Long description. Any Markdown, with code, latex, multiline with |

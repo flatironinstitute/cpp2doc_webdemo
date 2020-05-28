@@ -14,7 +14,7 @@ overloads:
 
   - signature: |
       template <typename MatrixType>
-      int get_ld(const MatrixType & A)
+      int get_ld(MatrixType const & A)
     desc: ""
 
 # Long description. Any Markdown, with code, latex, multiline with |

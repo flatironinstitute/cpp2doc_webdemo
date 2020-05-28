@@ -15,13 +15,13 @@ overloads:
   - signature: |
       template <typename A>
       requires (Array<A> and get_rank<A> == 3)
-      void fgh1(const A & a)
+      void fgh1(A const & a)
     desc: ""
 
   - signature: |
       template <typename A>
       requires (Array<A> and (A::rank == 2))
-      void fgh2(const A & a)
+      void fgh2(A const & a)
     desc: ""
 
 # Long description. Any Markdown, with code, latex, multiline with |

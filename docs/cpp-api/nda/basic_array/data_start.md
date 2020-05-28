@@ -12,7 +12,7 @@ brief: "Starting point of the data. NB : this is NOT the beginning of the memory
 # List of overloads. Edit only the desc
 overloads:
 
-  - signature: const ValueType * data_start() noexcept const
+  - signature: ValueType const * data_start() noexcept const
     desc: "Starting point of the data. NB : this is NOT the beginning of the memory block for a view in general"
 
   - signature: ValueType * data_start() noexcept

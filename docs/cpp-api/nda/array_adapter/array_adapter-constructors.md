@@ -14,7 +14,7 @@ overloads:
 
   - signature: |
       template <typename Int>
-      array_adapter(const std::array<Int, R> & shape, F f)
+      array_adapter(std::array<Int, R> const & shape, F f)
     desc: ""
 
 # Long description. Any Markdown, with code, latex, multiline with |

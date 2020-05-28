@@ -14,7 +14,7 @@ overloads:
 
   - signature: |
       template <typename Args>
-      void assert_in_bounds(int rank, const long * lengths, const Args &... args)
+      void assert_in_bounds(int rank, long const * lengths, const Args &... args)
     desc: ""
 
 # Long description. Any Markdown, with code, latex, multiline with |

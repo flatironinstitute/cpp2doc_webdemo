@@ -19,7 +19,7 @@ overloads:
 
   - signature: |
       template <uint64_t Permutation, typename T, int R, typename L, char Algebra, typename ContainerPolicy>
-      auto permuted_indices_view(const basic_array<T, R, L, Algebra, ContainerPolicy> & a)
+      auto permuted_indices_view(basic_array<T, R, L, Algebra, ContainerPolicy> const & a)
     desc: ""
 
   - signature: |

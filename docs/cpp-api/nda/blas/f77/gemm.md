@@ -12,10 +12,10 @@ brief: ""
 # List of overloads. Edit only the desc
 overloads:
 
-  - signature: void gemm(char trans_a, char trans_b, int M, int N, int K, double alpha, const double * A, int LDA, const double * B, int LDB, double beta, double * C, int LDC)
+  - signature: void gemm(char trans_a, char trans_b, int M, int N, int K, double alpha, double const * A, int LDA, double const * B, int LDB, double beta, double * C, int LDC)
     desc: ""
 
-  - signature: void gemm(char trans_a, char trans_b, int M, int N, int K, std::complex<double> alpha, const std::complex<double> * A, int LDA, const std::complex<double> * B, int LDB, std::complex<double> beta, std::complex<double> * C, int LDC)
+  - signature: void gemm(char trans_a, char trans_b, int M, int N, int K, std::complex<double> alpha, std::complex<double> const * A, int LDA, std::complex<double> const * B, int LDB, std::complex<double> beta, std::complex<double> * C, int LDC)
     desc: ""
 
 # Long description. Any Markdown, with code, latex, multiline with |

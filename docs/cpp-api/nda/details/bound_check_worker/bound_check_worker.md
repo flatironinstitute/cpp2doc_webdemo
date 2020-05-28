@@ -20,7 +20,7 @@ methods: [f, g]
 non_member_functions: []
 member_fields:
   lengths:
-    type: const long *
+    type: long const *
     desc: __MISSING__
     initializer: "{}"
   error_code:

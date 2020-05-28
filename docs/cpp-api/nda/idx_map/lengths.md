@@ -12,7 +12,7 @@ brief: Lengths of each dimension.
 # List of overloads. Edit only the desc
 overloads:
 
-  - signature: const std::array<long, Rank> & lengths() noexcept const
+  - signature: std::array<long, Rank> const & lengths() noexcept const
     desc: Lengths of each dimension.
 
 # Long description. Any Markdown, with code, latex, multiline with |

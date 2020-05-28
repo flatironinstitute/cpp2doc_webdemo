@@ -14,7 +14,7 @@ overloads:
 
   - signature: |
       template <nda::ArrayOfRank<2> M>
-      typename M::value_type trace(const M & m)
+      typename M::value_type trace(M const & m)
     desc: ""
 
 # Long description. Any Markdown, with code, latex, multiline with |

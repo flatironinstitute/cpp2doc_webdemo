@@ -23,21 +23,21 @@ overloads:
 
   - signature: |
       template <enum nda::layout_prop_e P>
-      idx_map(const idx_map<Rank, StaticExtents, StrideOrder, P> & idxm) noexcept
+      idx_map(idx_map<Rank, StaticExtents, StrideOrder, P> const & idxm) noexcept
     desc: ""
 
   - signature: |
       template <uint64_t SE, enum nda::layout_prop_e P>
-      idx_map(const idx_map<Rank, SE, StrideOrder, P> & idxm) noexcept(false)
+      idx_map(idx_map<Rank, SE, StrideOrder, P> const & idxm) noexcept(false)
     desc: Construct from a compatible static_extents
 
-  - signature: idx_map(const std::array<long, Rank> & shape, const std::array<long, Rank> & strides) noexcept
+  - signature: idx_map(std::array<long, Rank> const & shape, std::array<long, Rank> const & strides) noexcept
     desc: ""
 
-  - signature: idx_map(const std::array<long, Rank> & shape) noexcept
+  - signature: idx_map(std::array<long, Rank> const & shape) noexcept
     desc: Construct from the shape. If StaticExtents are present, the corresponding component of the shape must be equal to it.
 
-  - signature: idx_map(const std::array<long, n_dynamic_extents> & shape) noexcept requires ((n_dynamic_extents != Rank) and (n_dynamic_extents != 0))
+  - signature: idx_map(std::array<long, n_dynamic_extents> const & shape) noexcept requires ((n_dynamic_extents != Rank) and (n_dynamic_extents != 0))
     desc: When StaticExtents are present, constructs from the dynamic extents only
 
 # Long description. Any Markdown, with code, latex, multiline with |

@@ -14,12 +14,12 @@ overloads:
 
   - signature: |
       template <typename T, int R>
-      nda1::array_view<T, R> make_view(const nda1::array<T, R> & x)
+      nda1::array_view<T, R> make_view(nda1::array<T, R> const & x)
     desc: ""
 
   - signature: |
       template <typename T, int R>
-      nda1::array_view<T, R> make_view(int k, const nda1::array<T, R> & x)
+      nda1::array_view<T, R> make_view(int k, nda1::array<T, R> const & x)
     desc: ""
 
 # Long description. Any Markdown, with code, latex, multiline with |

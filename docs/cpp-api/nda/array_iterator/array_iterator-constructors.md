@@ -18,7 +18,7 @@ overloads:
   - signature: array_iterator(array_iterator const & )
     desc: ""
 
-  - signature: array_iterator(const std::array<long, Rank> & lengths, const std::array<long, Rank> & strides, T * start, bool at_end)
+  - signature: array_iterator(std::array<long, Rank> const & lengths, std::array<long, Rank> const & strides, T * start, bool at_end)
     desc: ""
 
 # Long description. Any Markdown, with code, latex, multiline with |

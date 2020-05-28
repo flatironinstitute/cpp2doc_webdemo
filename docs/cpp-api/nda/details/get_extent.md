@@ -14,7 +14,7 @@ overloads:
 
   - signature: |
       template <int I, int R, uint64_t StaticExtents>
-      long get_extent(const std::array<long, R> & l)
+      long get_extent(std::array<long, R> const & l)
     desc: ""
 
 # Long description. Any Markdown, with code, latex, multiline with |

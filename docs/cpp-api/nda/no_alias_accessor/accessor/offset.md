@@ -12,7 +12,7 @@ brief: ""
 # List of overloads. Edit only the desc
 overloads:
 
-  - signature: T * offset(nda::no_alias_accessor::accessor::pointer p, std::ptrdiff_t i) noexcept
+  - signature: T * offset(T * p, std::ptrdiff_t i) noexcept
     desc: ""
 
 # Long description. Any Markdown, with code, latex, multiline with |

@@ -12,7 +12,7 @@ brief: The Index Map object
 # List of overloads. Edit only the desc
 overloads:
 
-  - signature: const auto & indexmap() noexcept const
+  - signature: auto const & indexmap() noexcept const
     desc: The Index Map object
 
 # Long description. Any Markdown, with code, latex, multiline with |

@@ -14,7 +14,7 @@ overloads:
 
   - signature: |
       template <nda::Array A>
-      bool any(const A & a)
+      bool any(A const & a)
     desc: Returns true iif at least one element of the array is true
 
 # Long description. Any Markdown, with code, latex, multiline with |

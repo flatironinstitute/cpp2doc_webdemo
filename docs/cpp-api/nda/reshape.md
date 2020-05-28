@@ -14,12 +14,12 @@ overloads:
 
   - signature: |
       template <typename T, int R, typename L, char Algebra, typename ContainerPolicy, size_t R2>
-      auto reshape(basic_array<T, R, L, Algebra, ContainerPolicy> && a, const std::array<long, R2> & new_shape)
+      auto reshape(basic_array<T, R, L, Algebra, ContainerPolicy> && a, std::array<long, R2> const & new_shape)
     desc: ""
 
   - signature: |
       template <typename T, int R, typename L, char Algebra, typename ContainerPolicy, size_t R2>
-      auto reshape(basic_array<T, R, L, Algebra, ContainerPolicy> && a, const std::array<int, R2> & new_shape)
+      auto reshape(basic_array<T, R, L, Algebra, ContainerPolicy> && a, std::array<int, R2> const & new_shape)
     desc: ""
 
 # Long description. Any Markdown, with code, latex, multiline with |

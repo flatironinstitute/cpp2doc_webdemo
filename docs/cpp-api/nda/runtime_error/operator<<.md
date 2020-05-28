@@ -14,10 +14,10 @@ overloads:
 
   - signature: |
       template <typename T>
-      runtime_error & operator<<(const T & x)
+      runtime_error & operator<<(T const & x)
     desc: ""
 
-  - signature: runtime_error & operator<<(const char * mess)
+  - signature: runtime_error & operator<<(char const * mess)
     desc: ""
 
 # Long description. Any Markdown, with code, latex, multiline with |

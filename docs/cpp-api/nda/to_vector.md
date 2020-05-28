@@ -14,7 +14,7 @@ overloads:
 
   - signature: |
       template <typename T, size_t R>
-      std::vector<T> to_vector(const std::array<T, R> & a)
+      std::vector<T> to_vector(std::array<T, R> const & a)
     desc: Convert a std::array to a
 
 # Long description. Any Markdown, with code, latex, multiline with |

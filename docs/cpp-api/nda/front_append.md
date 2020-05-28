@@ -14,7 +14,7 @@ overloads:
 
   - signature: |
       template <typename T, typename U, size_t R>
-      std::array<T, R + 1> front_append(const std::array<T, R> & a, const U & x)
+      std::array<T, R + 1> front_append(std::array<T, R> const & a, U const & x)
     desc: Make a new std::array by appending one element at the front
 
 # Long description. Any Markdown, with code, latex, multiline with |

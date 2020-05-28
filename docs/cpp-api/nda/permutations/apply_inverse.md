@@ -14,7 +14,7 @@ overloads:
 
   - signature: |
       template <typename T, auto R>
-      std::array<T, R> apply_inverse(const std::array<int, R> & permutation, const std::array<T, R> & a)
+      std::array<T, R> apply_inverse(std::array<int, R> const & permutation, std::array<T, R> const & a)
     desc: ""
 
 # Long description. Any Markdown, with code, latex, multiline with |

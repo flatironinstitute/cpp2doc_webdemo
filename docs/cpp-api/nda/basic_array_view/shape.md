@@ -12,7 +12,7 @@ brief: Shape
 # List of overloads. Edit only the desc
 overloads:
 
-  - signature: const std::array<long, rank> & shape() noexcept const
+  - signature: std::array<long, rank> const & shape() noexcept const
     desc: Shape
 
   - signature: long shape(int i) noexcept const

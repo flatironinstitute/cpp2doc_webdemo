@@ -18,34 +18,34 @@ overloads:
   - signature: handle_borrowed(T * ptr) noexcept
     desc: ""
 
-  - signature: handle_borrowed(const handle_borrowed<T> & )
+  - signature: handle_borrowed(handle_borrowed<T> const & )
     desc: ""
 
-  - signature: handle_borrowed(const handle_borrowed<T> & x, long offset) noexcept
+  - signature: handle_borrowed(handle_borrowed<T> const & x, long offset) noexcept
     desc: ""
 
-  - signature: handle_borrowed(const handle_heap<nda::mem::handle_borrowed::T0, void> & x, long offset = </Users/oparcollet/src/nda/c++/nda/storage/./handle.hpp:628:67>) noexcept
+  - signature: handle_borrowed(handle_heap<nda::mem::handle_borrowed::T0, void> const & x, long offset = </Users/oparcollet/src/nda/c++/nda/storage/./handle.hpp:628:67>) noexcept
     desc: ""
 
   - signature: |
       template <typename Alloc>
-      handle_borrowed(const handle_heap<nda::mem::handle_borrowed::T0, Alloc> & x, long offset = </Users/oparcollet/src/nda/c++/nda/storage/./handle.hpp:631:68>) noexcept
+      handle_borrowed(handle_heap<nda::mem::handle_borrowed::T0, Alloc> const & x, long offset = </Users/oparcollet/src/nda/c++/nda/storage/./handle.hpp:631:68>) noexcept
     desc: ""
 
-  - signature: handle_borrowed(const handle_shared<nda::mem::handle_borrowed::T0> & x, long offset = </Users/oparcollet/src/nda/c++/nda/storage/./handle.hpp:633:63>) noexcept
+  - signature: handle_borrowed(handle_shared<nda::mem::handle_borrowed::T0> const & x, long offset = </Users/oparcollet/src/nda/c++/nda/storage/./handle.hpp:633:63>) noexcept
     desc: ""
 
-  - signature: handle_borrowed(const handle_borrowed<nda::mem::handle_borrowed::T0> & x, long offset = </Users/oparcollet/src/nda/c++/nda/storage/./handle.hpp:634:65>) noexcept requires (std::is_const_v<T>)
+  - signature: handle_borrowed(handle_borrowed<nda::mem::handle_borrowed::T0> const & x, long offset = </Users/oparcollet/src/nda/c++/nda/storage/./handle.hpp:634:65>) noexcept requires (std::is_const_v<T>)
     desc: ""
 
   - signature: |
       template <size_t Size>
-      handle_borrowed(const handle_stack<nda::mem::handle_borrowed::T0, Size> & x, long offset = </Users/oparcollet/src/nda/c++/nda/storage/./handle.hpp:637:68>) noexcept
+      handle_borrowed(handle_stack<nda::mem::handle_borrowed::T0, Size> const & x, long offset = </Users/oparcollet/src/nda/c++/nda/storage/./handle.hpp:637:68>) noexcept
     desc: ""
 
   - signature: |
       template <size_t SSO_Size>
-      handle_borrowed(const handle_sso<nda::mem::handle_borrowed::T0, SSO_Size> & x, long offset = </Users/oparcollet/src/nda/c++/nda/storage/./handle.hpp:640:70>) noexcept
+      handle_borrowed(handle_sso<nda::mem::handle_borrowed::T0, SSO_Size> const & x, long offset = </Users/oparcollet/src/nda/c++/nda/storage/./handle.hpp:640:70>) noexcept
     desc: ""
 
 # Long description. Any Markdown, with code, latex, multiline with |

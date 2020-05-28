@@ -15,12 +15,12 @@ overloads:
   - signature: |
       template <typename A>
       requires (Array<A>)
-      void fgh0(const A & a)
+      void fgh0(A const & a)
     desc: ""
 
   - signature: |
       template <typename A>
-      void fgh0(const A & a)
+      void fgh0(A const & a)
     desc: ""
 
 # Long description. Any Markdown, with code, latex, multiline with |

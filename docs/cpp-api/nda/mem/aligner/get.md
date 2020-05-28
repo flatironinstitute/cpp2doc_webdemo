@@ -15,7 +15,7 @@ overloads:
   - signature: T & get() noexcept
     desc: ""
 
-  - signature: const T & get() noexcept const
+  - signature: T const & get() noexcept const
     desc: ""
 
 # Long description. Any Markdown, with code, latex, multiline with |

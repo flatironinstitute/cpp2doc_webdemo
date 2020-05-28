@@ -12,7 +12,7 @@ brief: ""
 # List of overloads. Edit only the desc
 overloads:
 
-  - signature: const std::vector<int_t> & refcounts() noexcept const
+  - signature: std::vector<int_t> const & refcounts() noexcept const
     desc: ""
 
 # Long description. Any Markdown, with code, latex, multiline with |

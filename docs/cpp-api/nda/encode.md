@@ -14,7 +14,7 @@ overloads:
 
   - signature: |
       template <size_t Rank>
-      uint64_t encode(const std::array<int, Rank> & a)
+      uint64_t encode(std::array<int, Rank> const & a)
     desc: ""
 
 # Long description. Any Markdown, with code, latex, multiline with |

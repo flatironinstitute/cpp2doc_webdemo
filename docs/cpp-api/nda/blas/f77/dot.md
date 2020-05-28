@@ -12,7 +12,7 @@ brief: ""
 # List of overloads. Edit only the desc
 overloads:
 
-  - signature: double dot(int M, const double * x, int incx, const double * Y, int incy)
+  - signature: double dot(int M, double const * x, int incx, double const * Y, int incy)
     desc: ""
 
 # Long description. Any Markdown, with code, latex, multiline with |

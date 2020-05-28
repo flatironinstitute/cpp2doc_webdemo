@@ -12,10 +12,10 @@ brief: ""
 # List of overloads. Edit only the desc
 overloads:
 
-  - signature: void copy(int N, const double * x, int incx, double * Y, int incy)
+  - signature: void copy(int N, double const * x, int incx, double * Y, int incy)
     desc: ""
 
-  - signature: void copy(int N, const std::complex<double> * x, int incx, std::complex<double> * Y, int incy)
+  - signature: void copy(int N, std::complex<double> const * x, int incx, std::complex<double> * Y, int incy)
     desc: ""
 
 # Long description. Any Markdown, with code, latex, multiline with |

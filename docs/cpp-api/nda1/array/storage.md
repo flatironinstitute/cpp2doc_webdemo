@@ -12,7 +12,7 @@ brief: ""
 # List of overloads. Edit only the desc
 overloads:
 
-  - signature: const nda1::array::storage_t & storage()  const
+  - signature: nda1::array::storage_t const & storage()  const
     desc: ""
 
 # Long description. Any Markdown, with code, latex, multiline with |

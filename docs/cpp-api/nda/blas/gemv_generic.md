@@ -14,7 +14,7 @@ overloads:
 
   - signature: |
       template <typename A, typename B, typename Out>
-      void gemv_generic(typename A::value_type alpha, const A & a, const B & b, typename A::value_type beta, Out & c)
+      void gemv_generic(typename A::value_type alpha, A const & a, B const & b, typename A::value_type beta, Out & c)
     desc: ""
 
 # Long description. Any Markdown, with code, latex, multiline with |

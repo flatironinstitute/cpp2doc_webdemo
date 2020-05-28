@@ -12,7 +12,7 @@ brief: ""
 # List of overloads. Edit only the desc
 overloads:
 
-  - signature: const char * what() noexcept const
+  - signature: char const * what() noexcept const
     desc: ""
 
 # Long description. Any Markdown, with code, latex, multiline with |

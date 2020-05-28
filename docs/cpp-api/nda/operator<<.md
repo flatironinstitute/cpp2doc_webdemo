@@ -23,43 +23,43 @@ overloads:
 
   - signature: |
       template <int Rank, uint64_t StaticExtents, uint64_t StrideOrder, enum nda::layout_prop_e LayoutProp>
-      std::ostream & operator<<(std::ostream & out, const idx_map<Rank, StaticExtents, StrideOrder, LayoutProp> & x)
+      std::ostream & operator<<(std::ostream & out, idx_map<Rank, StaticExtents, StrideOrder, LayoutProp> const & x)
     desc: ""
 
   - signature: |
       template <typename A>
       requires (is_regular_or_view_v<A>)
-      std::ostream & operator<<(std::ostream & out, const A & a)
+      std::ostream & operator<<(std::ostream & out, A const & a)
     desc: ""
 
   - signature: |
       template <int R, typename F>
-      std::ostream & operator<<(std::ostream & sout, const array_adapter<R, F> & x)
+      std::ostream & operator<<(std::ostream & sout, array_adapter<R, F> const & x)
     desc: ""
 
   - signature: |
       template <typename S, int Rank>
-      std::ostream & operator<<(std::ostream & sout, const scalar_array<S, Rank> & expr)
+      std::ostream & operator<<(std::ostream & sout, scalar_array<S, Rank> const & expr)
     desc: ""
 
   - signature: |
       template <typename S>
-      std::ostream & operator<<(std::ostream & sout, const scalar_matrix<S> & expr)
+      std::ostream & operator<<(std::ostream & sout, scalar_matrix<S> const & expr)
     desc: ""
 
   - signature: |
       template <char OP, typename L>
-      std::ostream & operator<<(std::ostream & sout, const expr_unary<OP, L> & expr)
+      std::ostream & operator<<(std::ostream & sout, expr_unary<OP, L> const & expr)
     desc: ""
 
   - signature: |
       template <char OP, typename L, typename R>
-      std::ostream & operator<<(std::ostream & sout, const expr<OP, L, R> & expr)
+      std::ostream & operator<<(std::ostream & sout, expr<OP, L, R> const & expr)
     desc: ""
 
   - signature: |
       template <typename F, typename A>
-      std::ostream & operator<<(std::ostream & out, const expr_call<F, A...> & )
+      std::ostream & operator<<(std::ostream & out, expr_call<F, A...> const & )
     desc: ""
 
 # Long description. Any Markdown, with code, latex, multiline with |

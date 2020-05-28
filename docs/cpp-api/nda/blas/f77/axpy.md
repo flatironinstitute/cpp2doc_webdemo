@@ -12,10 +12,10 @@ brief: ""
 # List of overloads. Edit only the desc
 overloads:
 
-  - signature: void axpy(int N, double alpha, const double * x, int incx, double * Y, int incy)
+  - signature: void axpy(int N, double alpha, double const * x, int incx, double * Y, int incy)
     desc: ""
 
-  - signature: void axpy(int N, std::complex<double> alpha, const std::complex<double> * x, int incx, std::complex<double> * Y, int incy)
+  - signature: void axpy(int N, std::complex<double> alpha, std::complex<double> const * x, int incx, std::complex<double> * Y, int incy)
     desc: ""
 
 # Long description. Any Markdown, with code, latex, multiline with |

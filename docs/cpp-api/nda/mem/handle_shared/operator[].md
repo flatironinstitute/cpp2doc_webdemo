@@ -15,7 +15,7 @@ overloads:
   - signature: T & operator[](long i) noexcept
     desc: ""
 
-  - signature: const T & operator[](long i) noexcept const
+  - signature: T const & operator[](long i) noexcept const
     desc: ""
 
 # Long description. Any Markdown, with code, latex, multiline with |

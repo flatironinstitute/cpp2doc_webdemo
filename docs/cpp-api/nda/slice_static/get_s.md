@@ -12,7 +12,7 @@ brief: ""
 # List of overloads. Edit only the desc
 overloads:
 
-  - signature: long get_s(const class nda::range & R, long s_n)
+  - signature: long get_s(class nda::range const & R, long s_n)
     desc: ""
 
   - signature: long get_s(struct nda::range_all , long s_n)

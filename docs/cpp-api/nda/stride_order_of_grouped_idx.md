@@ -14,7 +14,7 @@ overloads:
 
   - signature: |
       template <size_t R, size_t Rs>
-      std::array<int, sizeof...(Rs)> stride_order_of_grouped_idx(const std::array<int, R> & stride_order, const std::array<int, Rs> &... grps)
+      std::array<int, sizeof...(Rs)> stride_order_of_grouped_idx(std::array<int, R> const & stride_order, const std::array<int, Rs> &... grps)
     desc: ""
 
 # Long description. Any Markdown, with code, latex, multiline with |

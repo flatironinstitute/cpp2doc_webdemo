@@ -12,7 +12,7 @@ brief: ""
 # List of overloads. Edit only the desc
 overloads:
 
-  - signature: std::ostream & operator<<(std::ostream & os, const class nda::range & r) noexcept
+  - signature: std::ostream & operator<<(std::ostream & os, class nda::range const & r) noexcept
     desc: ""
 
 # Long description. Any Markdown, with code, latex, multiline with |

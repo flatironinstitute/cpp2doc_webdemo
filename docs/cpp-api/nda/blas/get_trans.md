@@ -14,7 +14,7 @@ overloads:
 
   - signature: |
       template <typename MatrixType>
-      char get_trans(const MatrixType & A, bool transpose)
+      char get_trans(MatrixType const & A, bool transpose)
     desc: ""
 
 # Long description. Any Markdown, with code, latex, multiline with |

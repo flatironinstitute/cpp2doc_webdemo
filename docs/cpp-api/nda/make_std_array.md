@@ -14,7 +14,7 @@ overloads:
 
   - signature: |
       template <typename T, typename U, size_t R>
-      std::array<T, R> make_std_array(const std::array<U, R> & a)
+      std::array<T, R> make_std_array(std::array<U, R> const & a)
     desc: ""
 
 # Long description. Any Markdown, with code, latex, multiline with |

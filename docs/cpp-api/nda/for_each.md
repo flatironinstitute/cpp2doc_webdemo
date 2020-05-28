@@ -14,7 +14,7 @@ overloads:
 
   - signature: |
       template <typename F, auto R>
-      void for_each(const std::array<long, R> & idx_lengths, F && f)
+      void for_each(std::array<long, R> const & idx_lengths, F && f)
     desc: A loop in C order
 
 # Long description. Any Markdown, with code, latex, multiline with |

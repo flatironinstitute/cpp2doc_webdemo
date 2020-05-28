@@ -14,7 +14,7 @@ overloads:
 
   - signature: |
       template <typename MatrixType>
-      size_t get_n_cols(const MatrixType & A)
+      size_t get_n_cols(MatrixType const & A)
     desc: ""
 
 # Long description. Any Markdown, with code, latex, multiline with |

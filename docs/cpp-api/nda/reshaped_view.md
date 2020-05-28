@@ -14,32 +14,32 @@ overloads:
 
   - signature: |
       template <typename T, int R, typename L, char Algebra, typename AccessorPolicy, typename OwningPolicy, size_t R2>
-      auto reshaped_view(basic_array_view<T, R, L, Algebra, AccessorPolicy, OwningPolicy> a, const std::array<long, R2> & new_shape)
+      auto reshaped_view(basic_array_view<T, R, L, Algebra, AccessorPolicy, OwningPolicy> a, std::array<long, R2> const & new_shape)
     desc: ""
 
   - signature: |
       template <typename T, int R, typename L, char Algebra, typename AccessorPolicy, typename OwningPolicy, size_t R2>
-      auto reshaped_view(basic_array_view<T, R, L, Algebra, AccessorPolicy, OwningPolicy> a, const std::array<int, R2> & new_shape)
+      auto reshaped_view(basic_array_view<T, R, L, Algebra, AccessorPolicy, OwningPolicy> a, std::array<int, R2> const & new_shape)
     desc: ""
 
   - signature: |
       template <typename T, int R, typename L, char Algebra, typename ContainerPolicy, size_t R2>
-      auto reshaped_view(const basic_array<T, R, L, Algebra, ContainerPolicy> & a, const std::array<long, R2> & new_shape)
+      auto reshaped_view(basic_array<T, R, L, Algebra, ContainerPolicy> const & a, std::array<long, R2> const & new_shape)
     desc: ""
 
   - signature: |
       template <typename T, int R, typename L, char Algebra, typename ContainerPolicy, size_t R2>
-      auto reshaped_view(basic_array<T, R, L, Algebra, ContainerPolicy> & a, const std::array<long, R2> & new_shape)
+      auto reshaped_view(basic_array<T, R, L, Algebra, ContainerPolicy> & a, std::array<long, R2> const & new_shape)
     desc: ""
 
   - signature: |
       template <typename T, int R, typename L, char Algebra, typename ContainerPolicy, size_t R2>
-      auto reshaped_view(const basic_array<T, R, L, Algebra, ContainerPolicy> & a, const std::array<int, R2> & new_shape)
+      auto reshaped_view(basic_array<T, R, L, Algebra, ContainerPolicy> const & a, std::array<int, R2> const & new_shape)
     desc: ""
 
   - signature: |
       template <typename T, int R, typename L, char Algebra, typename ContainerPolicy, size_t R2>
-      auto reshaped_view(basic_array<T, R, L, Algebra, ContainerPolicy> & a, const std::array<int, R2> & new_shape)
+      auto reshaped_view(basic_array<T, R, L, Algebra, ContainerPolicy> & a, std::array<int, R2> const & new_shape)
     desc: ""
 
 # Long description. Any Markdown, with code, latex, multiline with |
