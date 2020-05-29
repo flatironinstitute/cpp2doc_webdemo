@@ -11,7 +11,7 @@ layout: default
 <table class='method-table' >
  {% for name in page.namespaces%}
     <tr>
-     <td class="method-name" align="right"> <a href="{{ name | escape }}.html">{{name| get_fancy_name: page.permalink, site.data.permalink_to_fancyname}}</a></td>
+     <td class="method-name" align="right"> <a href="{{name}}">{{name| get_fancy_name: page.permalink, site.data.permalink_to_fancyname}}</a></td>
      <td class="method-brief">{{name| get_brief: page.permalink, site.data.permalink_to_brief | markdownify | remove: '<p>' | remove: '</p>'}}</td>
     </tr>
  {% endfor %}
@@ -23,7 +23,7 @@ layout: default
 <table class='method-table' >
  {% for name in page.concepts%}
     <tr>
-     <td class="method-name" align="right"> <a href="{{ name | escape  }}">{{name| get_fancy_name: page.permalink, site.data.permalink_to_fancyname}}</a></td>
+     <td class="method-name" align="right"> <a href="{{name}}">{{name| get_fancy_name: page.permalink, site.data.permalink_to_fancyname}}</a></td>
      <td class="method-brief">{{name| get_brief: page.permalink, site.data.permalink_to_brief | markdownify | remove: '<p>' | remove: '</p>'}}</td>
     </tr>
  {% endfor %}
@@ -35,7 +35,7 @@ layout: default
 <table class='method-table' >
  {% for name in page.classes%}
     <tr>
-     <td class="method-name" align="right"> <a href="{{ name | escape  }}">{{name| get_fancy_name: page.permalink, site.data.permalink_to_fancyname}}</a></td>
+     <td class="method-name" align="right"> <a href="{{name}}">{{name| get_fancy_name: page.permalink, site.data.permalink_to_fancyname}}</a></td>
      <td class="method-brief">{{name| get_brief: page.permalink, site.data.permalink_to_brief | markdownify | remove: '<p>' | remove: '</p>'}}</td>
     </tr>
  {% endfor %}
@@ -47,7 +47,7 @@ layout: default
 <table class='method-table' >
  {% for name in page.functions%}
     <tr>
-     <td class="method-name" align="right"> <a href="{{ name | escape }}.html">{{name| get_fancy_name: page.permalink, site.data.permalink_to_fancyname}}</a></td>
+     <td class="method-name" align="right"> <a href="{{name}}">{{name| get_fancy_name: page.permalink, site.data.permalink_to_fancyname}}</a></td>
      <td class="method-brief">{{name| get_brief: page.permalink, site.data.permalink_to_brief | markdownify | remove: '<p>' | remove: '</p>'}}</td>
     </tr>
  {% endfor %}

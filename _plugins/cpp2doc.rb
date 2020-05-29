@@ -187,6 +187,7 @@ module Jekyll
       site.data["permalink_to_brief"] = permalink_to_brief
       site.data["permalink_to_fancyname"] = permalink_to_fancyname
       site.data["highlighted_types"] = highlighted_types
+      puts(permalink_to_brief)
     end
   end
   end
@@ -213,6 +214,7 @@ module Jekyll
     end
 
     def get_fancy_name(name,  root_permalink, permalink_to_fancyname_table)
+      puts(name)
       r = permalink_to_fancyname_table [root_permalink + '/' + name]
       if (not r) then 
         return name

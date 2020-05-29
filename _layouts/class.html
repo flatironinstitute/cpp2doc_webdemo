@@ -22,7 +22,7 @@ layout: default
 <!-- Template parameters -->
 
 {% if page.tparams %}
-<h5> Template parameters</h5>
+<h3> Template parameters</h3>
 
 <table class='tparam-table' >
  {% for param in page.tparams%}
@@ -39,21 +39,38 @@ layout: default
  <!-- Methods FIXME : regrouping. Write the get_brief Ruby filter-->
 
 {% if page.methods %}
-<h5> Member functions </h5>
+<h3> Member functions </h3>
+ <!--The method is a list of dicts with one element : a grouped list with a gruop title-->
+{% if page.methods.first.first %}
 <table class='method-table'>
-   {% for name in page.methods %}
-      <tr>
-      <td class="method-name" align="right"><a href="{{name}}.html">{{name| get_fancy_name: page.permalink, site.data.permalink_to_fancyname}}</a></td>
-      <td class="method-brief">{{name| get_brief: page.permalink, site.data.permalink_to_brief | markdownify | remove: '<p>' | remove: '</p>'}}</td>
-      </tr>
+  {% for g_l in page.methods %}
+  <tr> <td class="method-name" align="center"> {{g_l.first[0]}} </td></tr>
+   <!--<h5>{{g_l.first[0]}}</h5>-->
+   {% for name in g_l.first[1] %}
+    <tr>
+     <td class="method-name" align="right"><a href="{{name}}.html">{{name| get_fancy_name: page.permalink, site.data.permalink_to_fancyname}}</a></td>
+     <td class="method-brief">{{name| get_brief: page.permalink, site.data.permalink_to_brief | markdownify | remove: '<p>' | remove: '</p>'}}</td>
+    </tr>
    {% endfor %}
+  {% endfor %}
+</table>
+ <!--The method is a list-->
+{% else %}
+<table class='method-table'>
+ {% for name in page.methods %}
+    <tr>
+     <td class="method-name" align="right"><a href="{{name}}.html">{{name| get_fancy_name: page.permalink, site.data.permalink_to_fancyname}}</a></td>
+     <td class="method-brief">{{name| get_brief: page.permalink, site.data.permalink_to_brief | markdownify | remove: '<p>' | remove: '</p>'}}</td>
+    </tr>
+ {% endfor %}
 </table>
 {% endif %}
+{% endif %}
 
-<!--<h5> Non member functions</h5>-->
+<!--<h3> Non member functions</h3>-->
 
 {% if page.member_types %}
-<h5> Member types</h5>
+<h3> Member types</h3>
 <table class='member-type-table' >
  {% for mt in page.member_types%}
     <tr>
@@ -67,7 +84,7 @@ layout: default
 {% endif %}
 
 {% if page.member_fields %}
-<h5> Member fields</h5>
+<h3> Member fields</h3>
 <table class='member-field-table' >
  {% for mt in page.member_fields%}
     <tr>
@@ -89,7 +106,7 @@ layout: default
 
 </div>
 
-<h5> See also </h5>
+<h3> See also </h3>
 <table class='table-seealso' >
  {%- for name in page.see-also -%}
     <tr>
