@@ -41,46 +41,23 @@ layout: default
 {% if page.methods %}
 <h5> Member functions </h5>
 <table class='method-table'>
-{% if page.constructor %}
-   <tr>
-     <td class="method-name" align="right"> <a href="{{page.constructor}}_.html"> (constructor) </a>  </td>
-     <td class="method-brief">
-     </td>
-    </tr>
-{% endif %}
-{% if page.destructor %}
-   <tr>
-     <td class="method-name" align="right"> <a href="destructor_.html"> (destructor) </a>  </td>
-     <td class="method-brief">
-     </td>
-    </tr>
-{% endif %}
 {% for name in page.methods %}
     <tr>
-{% if name == "(constructors)" %}     
-     <td class="method-name" align="right"> <a href="{{page.short_name}}-constructors.html"> {{name}} </a>  </td>
-{% else %}
-     <td class="method-name" align="right"> <a href="{{name}}.html"> {{name}} </a>  </td>
-{% endif %}
-     <td class="method-brief">
-      <!--FIXME : remove p ?-->
-      {% assign qname =  page.qualified_name |append: '::' |append: name %}
-      {{ qname | get_brief: site.data.qname_to_brief | markdownify | remove: '<p>' | remove: '</p>'}}
-     </td>
+     <td class="method-name" align="right"><a href="{{name}}.html">{{name| get_fancy_name: page.permalink, site.data.permalink_to_fancyname}}</a></td>
+     <td class="method-brief">{{name| get_brief: page.permalink, site.data.permalink_to_brief | markdownify | remove: '<p>' | remove: '</p>'}}</td>
     </tr>
  {% endfor %}
 </table>
 {% endif %}
 
-<h5> Non member functions</h5>
+<!--<h5> Non member functions</h5>-->
 
-<h5> Member types</h5>
 {% if page.member_types %}
+<h5> Member types</h5>
 <table class='member-type-table' >
  {% for mt in page.member_types%}
     <tr>
      <td class="member-type-name" align="right"> {{mt[0]}}  </td>
-     <!--<td > <b>-</b> </td>-->
      <td class="member-type-doc">
       {{mt[1]["desc"]}}
      </td>
@@ -89,13 +66,12 @@ layout: default
 </table>
 {% endif %}
 
-<h5> Member fields</h5>
 {% if page.member_fields %}
+<h5> Member fields</h5>
 <table class='member-field-table' >
  {% for mt in page.member_fields%}
     <tr>
      <td class="member-field-name" align="right"> {{mt[0]}}  </td>
-     <!--<td > <b>-</b> </td>-->
      <td class="member-field-doc">
       {{mt[1]["desc"]}}
      </td>
@@ -103,9 +79,6 @@ layout: default
  {% endfor %}
 </table>
 {% endif %}
-
-
- <!-- Example FACTORIZE with function -->
 
  <h3> Example </h3>
 
@@ -116,16 +89,12 @@ layout: default
 
 </div>
 
- <!-- See Also links -->
-
 <h5> See also </h5>
-<!-- TODO: why is this failing -->
 <table class='table-seealso' >
- {%- for sa in page.see-also -%}
+ {%- for name in page.see-also -%}
     <tr>
-     <td class="" align="right"> <a href="{{ sa | get_page_of: site.data}}"> {{sa}} </a> </td>
-     <td > <b>-</b> </td>
-     <td class=""> {{sa |markdownify }} </td>
+     <td class="" align="right"><a href="{{name}}">{{name| get_fancy_name_from_permalink: site.data.permalink_to_fancyname}}</a></td>
+     <td class="">{{name| get_brief: page.permalink, site.data.permalink_to_brief | markdownify | remove: '<p>' | remove: '</p>'}}</td>
     </tr>
  {%- endfor -%}
 </table>

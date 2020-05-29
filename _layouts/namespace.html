@@ -4,19 +4,27 @@ layout: default
 
 <br/>
 
- <!-- Brief description of the namespace -->
-
- {{page.brief |markdownify}}
+{{page.brief |markdownify}}
 
  {% if page.namespaces %}
 <h5> Namespaces</h5>
-
 <table class='method-table' >
  {% for name in page.namespaces%}
     <tr>
-     <td class="method-name" align="right"> <a href="{{ name | escape }}.html"> {{name}} </a>  </td>
-     <td > <b>-</b> </td>
-     </td>
+     <td class="method-name" align="right"> <a href="{{ name | escape }}.html">{{name| get_fancy_name: page.permalink, site.data.permalink_to_fancyname}}</a></td>
+     <td class="method-brief">{{name| get_brief: page.permalink, site.data.permalink_to_brief | markdownify | remove: '<p>' | remove: '</p>'}}</td>
+    </tr>
+ {% endfor %}
+</table>
+{% endif %}
+
+{% if page.concepts %}
+<h5> Concepts </h5>
+<table class='method-table' >
+ {% for name in page.concepts%}
+    <tr>
+     <td class="method-name" align="right"> <a href="{{ name | escape  }}">{{name| get_fancy_name: page.permalink, site.data.permalink_to_fancyname}}</a></td>
+     <td class="method-brief">{{name| get_brief: page.permalink, site.data.permalink_to_brief | markdownify | remove: '<p>' | remove: '</p>'}}</td>
     </tr>
  {% endfor %}
 </table>
@@ -24,49 +32,27 @@ layout: default
 
 {% if page.classes %}
 <h5> Classes </h5>
-
 <table class='method-table' >
  {% for name in page.classes%}
     <tr>
-     <td class="method-name" align="right"> <a href="{{ name | escape  }}"> {{name |escape}} </a>  </td>
-     <!--<td > <b>-</b> </td>-->
-     <td class="method-brief">
-     {%- if  page.qualified_name =='/' -%}
-      {% assign qname =  name %}
-     {%- else -%}
-      {% assign qname =  page.qualified_name |append: '::' |append: name %}
-     {%- endif  -%}
-      {{ qname | get_brief: site.data.qname_to_brief | markdownify | remove: '<p>' | remove: '</p>'}}
-    </td>
+     <td class="method-name" align="right"> <a href="{{ name | escape  }}">{{name| get_fancy_name: page.permalink, site.data.permalink_to_fancyname}}</a></td>
+     <td class="method-brief">{{name| get_brief: page.permalink, site.data.permalink_to_brief | markdownify | remove: '<p>' | remove: '</p>'}}</td>
     </tr>
  {% endfor %}
 </table>
 {% endif %}
-
 
 {% if page.functions %}
 <h5> Functions</h5>
 <table class='method-table' >
  {% for name in page.functions%}
     <tr>
-     <td class="method-name" align="right"> <a href="{{ name | escape }}.html"> {{name}} </a>  </td>
-     <!--<td > <b>-</b> </td>-->
-     <td class="method-brief">
-     {%- if  page.qualified_name =='/' -%}
-      {% assign qname =  name %}
-     {%- else -%}
-      {% assign qname =  page.qualified_name |append: '::' |append: name %}
-     {%- endif  -%}
-      {{ qname | get_brief: site.data.qname_to_brief | markdownify | remove: '<p>' | remove: '</p>'}}
-     </td>
+     <td class="method-name" align="right"> <a href="{{ name | escape }}.html">{{name| get_fancy_name: page.permalink, site.data.permalink_to_fancyname}}</a></td>
+     <td class="method-brief">{{name| get_brief: page.permalink, site.data.permalink_to_brief | markdownify | remove: '<p>' | remove: '</p>'}}</td>
     </tr>
  {% endfor %}
 </table>
 {% endif %}
-
-
-
-
 
 {{ content }}
 

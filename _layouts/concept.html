@@ -1,0 +1,43 @@
+---
+layout: default
+---
+
+<br>
+
+<!--Edit in {{page.permalink}}.md -->
+<br/>
+
+<!--Includer-->
+
+<div> Defined in header <span  class='includer'> &lt;{{page.includer}}&gt; </span>
+
+<!-- Signature  -->
+
+<span class='signature'> {% highlight c++ %}{{page.signature}}{% endhighlight %}</span>
+
+ <!-- Description of the class -->
+
+ {{page.desc |markdownify}}
+
+<!-- Template parameters -->
+
+{% if page.tparams %}
+<h5> Template parameters</h5>
+
+<table class='tparam-table' >
+ {% for param in page.tparams%}
+  {% if param[1] != "__SKIP__" %}
+    <tr>
+     <td class="param-name" valign="top" align="right"> {{param[0]}} </td>
+     <td class="param-value"> {{param[1] |markdownify | remove: '<p>' | remove: '</p>'	}} </td>
+    </tr>
+   {% endif %}
+ {% endfor %}
+</table>
+{% endif %}
+
+
+{{ content }}
+
+{% cpp2doc_register_images_generated_by_parser %}
+

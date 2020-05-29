@@ -172,46 +172,58 @@ module Jekyll
   #
   class Generator < Jekyll::Generator
     def generate(site)
-      qname_to_brief = {}
-      qname_to_permalinks = {}
-      classes = []
+      permalink_to_brief = {}
+      permalink_to_fancyname = {}
+      highlighted_types = []
       site.pages.each do |page|
-        qname = page['qualified_name']
-        if page['layout'] == 'function'
-          qname_to_brief[qname] = page['brief']
-          qname_to_permalinks[qname] = page['permalink']
-        end
+        permalink = page['permalink']
+        next if not (permalink and permalink.start_with?('/cpp-api'))
+        permalink_to_brief[permalink] = page['brief']
+        permalink_to_fancyname[permalink] = (page['fancy_name'] or page['short_name'])
         if page['layout'] == 'class' or page['layout'] == 'concept'
-          qname_to_brief[qname] = page['brief']
-          qname_to_permalinks[qname] = page['permalink']
-          classes.append(page['qualified_name'])
+          highlighted_types.append(page['qualified_name'])
         end
       end
-      site.data["qname_to_permalinks"] = qname_to_permalinks
-      site.data["qname_to_brief"] = qname_to_brief
-      site.data["highlighted_types"] = classes
-      #puts(classes)
+      site.data["permalink_to_brief"] = permalink_to_brief
+      site.data["permalink_to_fancyname"] = permalink_to_fancyname
+      site.data["highlighted_types"] = highlighted_types
     end
   end
   end
 
   module CPP2DOC_Filter
 
-    # This filter get the url of the page of an object
-    # with qualified name qname
-    def get_page_of(qname, site)
-      qname_to_permalinks = site['qname_to_permalinks']
-      if qname_to_permalinks.key?(qname) then
-        return qname_to_permalinks[qname]
-      end
-    end
-
-   # This filter associates the brief doc to a qualified name using the global table
+    # This filter associates the brief doc to a permalink using the global table
     # The point is that the data is on *another* page.
     # We must pass the table since a filter does not see the site variable
-    def get_brief(qname, qname_to_brief)
-      qname_to_brief [qname]
+    def get_brief(name, root_permalink,  permalink_to_brief_table)
+      permalink_to_brief_table [root_permalink + '/' + name]
     end
+
+    def get_fancy_name_from_permalink(permalink, permalink_to_fancyname_table)
+      r = permalink_to_fancyname_table [permalink]
+      if (not r) then 
+        return "NOT FOUND : " + permalink
+      end
+      l = r.split
+      if l.length > 1 then 
+        return l.join('<BR>')
+      end
+      return r 
+    end
+
+    def get_fancy_name(name,  root_permalink, permalink_to_fancyname_table)
+      r = permalink_to_fancyname_table [root_permalink + '/' + name]
+      if (not r) then 
+        return name
+      end
+      l = r.split
+      if l.length > 1 then 
+        return l.join('<BR>')
+      end
+      return r 
+    end
+       
 
     # This filter takes :
     #  - source  : c++ code snipper
@@ -281,20 +293,13 @@ module Jekyll
     end
 
     def render(context)
-     #puts " START RENDER TAG"
      site = context.registers[:site]
      sfile_names = site.static_files.map{ |f| f.path}
-     #puts "-----------"
-     #puts sfile_names
      Dir.glob("*.pdf", base: "code_snippets").each do |f|
-       #puts "file "  + f
        if not sfile_names.include?(Dir.getwd + '/code_snippets/' + f)
          site.static_files << Jekyll::StaticFile.new(site, Dir.getwd,  "code_snippets", f)
        end
      end
-
-     #puts site.static_files.map{ |f| f.path}
-     #puts " END RENDER TAG"
      return "" # no rendering, it is just a hook giving us the context
     end
   end
