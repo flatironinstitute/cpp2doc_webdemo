@@ -22,14 +22,16 @@ desc: ""
 
 # A list of methods. You can reorder, regroup into a dict : groupname -> list
 methods:
-  - myarray-constructors
-  - operator=
-  - AAA
-  - BBB
-  - operator-call
-  - shape
-  - zozo
-  - operator-compound
+
+  - G1: [myarray-constructors, operator=]
+
+  - G2:
+      - AAA
+      - BBB
+      - operator-call
+      - shape
+      - zozo
+      - operator-compound
 
 # A list of non_member_functions
 non_member_functions: []
@@ -54,5 +56,4 @@ source: /Users/oparcollet/cpp2doc_webdemo/src/array_concept.cpp
 parent: sandbox
 has_children: true
 ...
-
 

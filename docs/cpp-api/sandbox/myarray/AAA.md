@@ -4,7 +4,6 @@ layout: function
 fancy_name: AAA
 function_name: AAA
 file_name: AAA
-qualified_name: sandbox::myarray::AAA
 namespaces: [sandbox, myarray]
 includer: ""
 

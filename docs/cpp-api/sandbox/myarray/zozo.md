@@ -4,7 +4,6 @@ layout: function
 fancy_name: zozo
 function_name: zozo
 file_name: zozo
-qualified_name: sandbox::myarray::zozo
 namespaces: [sandbox, myarray]
 includer: ""
 

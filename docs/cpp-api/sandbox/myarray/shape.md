@@ -4,7 +4,6 @@ layout: function
 fancy_name: shape
 function_name: shape
 file_name: shape
-qualified_name: sandbox::myarray::shape
 namespaces: [sandbox, myarray]
 includer: ""
 

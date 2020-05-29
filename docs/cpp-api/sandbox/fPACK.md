@@ -4,7 +4,6 @@ layout: function
 fancy_name: fPACK
 function_name: fPACK
 file_name: fPACK
-qualified_name: sandbox::fPACK
 namespaces: [sandbox]
 includer: ""
 

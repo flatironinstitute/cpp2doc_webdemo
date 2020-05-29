@@ -4,7 +4,6 @@ layout: function
 fancy_name: BBB
 function_name: BBB
 file_name: BBB
-qualified_name: sandbox::myarray::BBB
 namespaces: [sandbox, myarray]
 includer: ""
 

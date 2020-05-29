@@ -4,7 +4,6 @@ layout: function
 fancy_name: (constructors)
 function_name: myarray
 file_name: myarray-constructors
-qualified_name: sandbox::myarray::myarray<T, R>
 namespaces: [sandbox, myarray]
 includer: ""
 

@@ -4,7 +4,6 @@ layout: function
 fancy_name: op
 function_name: op
 file_name: op
-qualified_name: sandbox::op
 namespaces: [sandbox]
 includer: ""
 

@@ -4,7 +4,6 @@ layout: function
 fancy_name: operator+= operator-=
 function_name: operator+=
 file_name: operator-compound
-qualified_name: sandbox::myarray::operator+=
 namespaces: [sandbox, myarray]
 includer: ""
 

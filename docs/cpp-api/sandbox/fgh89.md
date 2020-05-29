@@ -4,7 +4,6 @@ layout: function
 fancy_name: fgh89
 function_name: fgh89
 file_name: fgh89
-qualified_name: sandbox::fgh89
 namespaces: [sandbox]
 includer: ""
 
