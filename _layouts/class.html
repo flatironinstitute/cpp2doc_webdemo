@@ -41,12 +41,12 @@ layout: default
 {% if page.methods %}
 <h5> Member functions </h5>
 <table class='method-table'>
-{% for name in page.methods %}
-    <tr>
-     <td class="method-name" align="right"><a href="{{name}}.html">{{name| get_fancy_name: page.permalink, site.data.permalink_to_fancyname}}</a></td>
-     <td class="method-brief">{{name| get_brief: page.permalink, site.data.permalink_to_brief | markdownify | remove: '<p>' | remove: '</p>'}}</td>
-    </tr>
- {% endfor %}
+   {% for name in page.methods %}
+      <tr>
+      <td class="method-name" align="right"><a href="{{name}}.html">{{name| get_fancy_name: page.permalink, site.data.permalink_to_fancyname}}</a></td>
+      <td class="method-brief">{{name| get_brief: page.permalink, site.data.permalink_to_brief | markdownify | remove: '<p>' | remove: '</p>'}}</td>
+      </tr>
+   {% endfor %}
 </table>
 {% endif %}
 

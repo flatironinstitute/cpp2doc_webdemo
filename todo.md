@@ -1,25 +1,10 @@
 # TODO Jekyll Docs
 
-_updated 5/27_
+_updated 5/29_
 
-## To Do before demo:
+## Todo:
 
-_priority_
-
-- Deploy on vercel ->
-- Routing issues around permalinks, impacting the search.
-- Search
-- improve nav speed generation
-
-Done:
-- page title / seo
-- Thank you Alex - updated the README with his inputs.
-- test deployment on vercel - aka now
-
-
-
-## Todo :
-
+- Improve nav speed generation
 - Remove toc - update heading on layouts from OP. \* Add :no-toc to class, function, namespace, cpp-concept.
 - Width on left bar - smaller.
 - Change min-width on <td> in signature numeration - make a class. Also make a class for the related number information "signature-table"
@@ -30,6 +15,31 @@ Done:
 - Vim links / github links
 - Investigate other speed optimizations: parallellization, etc.
 - Create folding list functionality (via class)
+- Deploy on vercel -> Routing issues around permalinks on vercel.
+- Thank you Alex - updated the README with his inputs.
+
+
+
+## Done:
+
+- change destination folder to docs/cpp-api
+- Speed: use cache plugin,
+- Fix YAML spacing errors in array / array_view
+- Add great-grandparent level - and more?
+- Fix left side navigation
+- Remove gray on gray code highlighting font color. (blackish)
+-  Try a test deploy /ci. - Github pages
+-  for breadcrumbs use only the newest term, not the whole string.
+-  Add the following properties to YAML
+      - `title`
+      - `has-children` (if applicable)
+      -  permalink starts with "/"
+      - layout: default
+- page title / seo
+- test deployment on vercel - aka now
+- Search
+
+
 
 ## To Verify:
 
@@ -43,19 +53,3 @@ Files and permalink structure changes:
   [array-constructors is renamed (constructors) in the page and title]
 - Also we use permalinks to have an obsolute URL :
   /cpp_api/nda/array/xxx, /py_api/gf/…. /ccp_api/triqs/gf/…. independly of where it is on the directory
-
-## Done:
-
-    1. change destination folder to docs/cpp-api
-    2. Speed: use cache plugin,
-    3. Fix YAML spacing errors in array / array_view
-    4. Add great-grandparent level - and more?
-    5. Fix left side navigation
-    6. Remove gray on gray code highlighting font color. (blackish)
-    7. Try a test deploy /ci. - Github pages
-    8. for breadcrumbs use only the newest term, not the whole string.
-    9.  Add the following properties to YAML
-      - `title`
-      - `has-children` (if applicable)
-      -  permalink starts with "/"
-    10. page title / seo
