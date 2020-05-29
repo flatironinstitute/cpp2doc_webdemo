@@ -93,8 +93,6 @@ template <typename A> concept Array= requires(A const &a) {
   struct myarray {
     static constexpr int rank = R;
     using value_t             = T;
-    value_t operator()(int i, ...) const { return 0; }
-    std::array<long, R> shape() const { return {}; }
 
     template <CONCEPT(is_integral)... Int>
     explicit myarray(Int... is) noexcept {};
@@ -104,8 +102,18 @@ template <typename A> concept Array= requires(A const &a) {
 
     myarray const & AAA();
     myarray  BBB();
+    value_t operator()(int i, int j) const { return 0; }
+    std::array<long, R> shape() const { return {}; }
 
     void zozo() const REQUIRES(R == 3) {}
+
+
+    /// \merge operator-compound
+    myarray& operator +=(int i);
+
+    /// \merge operator-compound
+    myarray& operator -=(int i);
+
   };
 
   template <typename T, int R>
