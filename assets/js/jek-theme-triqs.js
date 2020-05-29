@@ -67,7 +67,6 @@ function initSearch() {
         this.metadataWhitelist = ['position']
 
         for (var i in data) {
-          console.log(`${i} - data: `, data[i])
           this.add({
             id: i,
             title: data[i].title,
