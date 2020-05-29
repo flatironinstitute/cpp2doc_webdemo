@@ -1,7 +1,9 @@
 ---
 # Do not edit this first section
 layout: function
-short_name: get_offset
+fancy_name: get_offset
+function_name: get_offset
+file_name: get_offset
 qualified_name: nda::slice_static::get_offset
 namespaces: [nda, slice_static]
 includer: nda/nda.hpp
@@ -49,4 +51,5 @@ permalink: /cpp-api/nda/slice_static/get_offset
 title: nda::slice_static::get_offset
 parent: nda::slice_static
 ...
+
 

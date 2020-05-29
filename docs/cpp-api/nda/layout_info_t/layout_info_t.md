@@ -14,7 +14,7 @@ brief: ""
 desc: ""
 
 # A list of methods. You can reorder, regroup into a dict : groupname -> list
-methods: [(destructor)]
+methods: [layout_info_t-destructor]
 
 # A list of non_member_functions
 non_member_functions: []
@@ -43,4 +43,5 @@ source: nda/traits.hpp
 parent: nda
 has_children: true
 ...
+
 

@@ -1,7 +1,9 @@
 ---
 # Do not edit this first section
 layout: function
-short_name: matvecmul
+fancy_name: matvecmul
+function_name: matvecmul
+file_name: matvecmul
 qualified_name: nda::matvecmul
 namespaces: [nda]
 includer: nda/nda.hpp
@@ -46,4 +48,5 @@ permalink: /cpp-api/nda/matvecmul
 title: nda::matvecmul
 parent: nda
 ...
+
 

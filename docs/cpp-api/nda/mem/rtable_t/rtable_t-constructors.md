@@ -1,7 +1,9 @@
 ---
 # Do not edit this first section
 layout: function
-short_name: rtable_t
+fancy_name: (constructors)
+function_name: rtable_t
+file_name: rtable_t-constructors
 qualified_name: nda::mem::rtable_t::rtable_t
 namespaces: [nda, mem, rtable_t]
 includer: nda/nda.hpp
@@ -45,4 +47,5 @@ permalink: /cpp-api/nda/mem/rtable_t/rtable_t-constructors
 title: nda::mem::rtable_t::rtable_t
 parent: nda::mem::rtable_t
 ...
+
 

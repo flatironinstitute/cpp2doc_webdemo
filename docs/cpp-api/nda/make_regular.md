@@ -1,7 +1,9 @@
 ---
 # Do not edit this first section
 layout: function
-short_name: make_regular
+fancy_name: make_regular
+function_name: make_regular
+file_name: make_regular
 qualified_name: nda::make_regular
 namespaces: [nda]
 includer: nda/nda.hpp
@@ -45,4 +47,5 @@ permalink: /cpp-api/nda/make_regular
 title: nda::make_regular
 parent: nda
 ...
+
 

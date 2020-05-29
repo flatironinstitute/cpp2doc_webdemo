@@ -1,7 +1,9 @@
 ---
 # Do not edit this first section
 layout: function
-short_name: resize_or_check_if_view
+fancy_name: resize_or_check_if_view
+function_name: resize_or_check_if_view
+file_name: resize_or_check_if_view
 qualified_name: nda::resize_or_check_if_view
 namespaces: [nda]
 includer: nda/nda.hpp
@@ -46,4 +48,5 @@ permalink: /cpp-api/nda/resize_or_check_if_view
 title: nda::resize_or_check_if_view
 parent: nda
 ...
+
 

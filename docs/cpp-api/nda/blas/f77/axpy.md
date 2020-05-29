@@ -1,7 +1,9 @@
 ---
 # Do not edit this first section
 layout: function
-short_name: axpy
+fancy_name: axpy
+function_name: axpy
+file_name: axpy
 qualified_name: nda::blas::f77::axpy
 namespaces: [nda, blas, f77]
 includer: nda/nda.hpp
@@ -50,4 +52,5 @@ permalink: /cpp-api/nda/blas/f77/axpy
 title: nda::blas::f77::axpy
 parent: nda::blas::f77
 ...
+
 

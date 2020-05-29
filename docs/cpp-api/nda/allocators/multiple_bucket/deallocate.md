@@ -1,7 +1,9 @@
 ---
 # Do not edit this first section
 layout: function
-short_name: deallocate
+fancy_name: deallocate
+function_name: deallocate
+file_name: deallocate
 qualified_name: nda::allocators::multiple_bucket::deallocate
 namespaces: [nda, allocators, multiple_bucket]
 includer: nda/nda.hpp
@@ -42,4 +44,5 @@ permalink: /cpp-api/nda/allocators/multiple_bucket/deallocate
 title: nda::allocators::multiple_bucket::deallocate
 parent: nda::allocators::multiple_bucket
 ...
+
 

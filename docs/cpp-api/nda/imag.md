@@ -1,7 +1,9 @@
 ---
 # Do not edit this first section
 layout: function
-short_name: imag
+fancy_name: imag
+function_name: imag
+file_name: imag
 qualified_name: nda::imag
 namespaces: [nda]
 includer: nda/nda.hpp
@@ -45,4 +47,5 @@ permalink: /cpp-api/nda/imag
 title: nda::imag
 parent: nda
 ...
+
 

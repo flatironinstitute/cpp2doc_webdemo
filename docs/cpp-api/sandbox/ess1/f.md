@@ -1,7 +1,9 @@
 ---
 # Do not edit this first section
 layout: function
-short_name: f
+fancy_name: f
+function_name: f
+file_name: f
 qualified_name: sandbox::ess1::f
 namespaces: [sandbox, ess1]
 includer: ""

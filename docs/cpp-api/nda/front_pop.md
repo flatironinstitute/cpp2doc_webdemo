@@ -1,7 +1,9 @@
 ---
 # Do not edit this first section
 layout: function
-short_name: front_pop
+fancy_name: front_pop
+function_name: front_pop
+file_name: front_pop
 qualified_name: nda::front_pop
 namespaces: [nda]
 includer: nda/nda.hpp
@@ -45,4 +47,5 @@ permalink: /cpp-api/nda/front_pop
 title: nda::front_pop
 parent: nda
 ...
+
 

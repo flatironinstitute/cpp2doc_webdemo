@@ -1,7 +1,9 @@
 ---
 # Do not edit this first section
 layout: function
-short_name: resize
+fancy_name: resize
+function_name: resize
+file_name: resize
 qualified_name: nda::basic_array::resize
 namespaces: [nda, basic_array]
 includer: nda/nda.hpp
@@ -48,4 +50,5 @@ permalink: /cpp-api/nda/basic_array/resize
 title: nda::basic_array::resize
 parent: nda::basic_array
 ...
+
 

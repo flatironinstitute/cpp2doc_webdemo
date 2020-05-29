@@ -1,7 +1,9 @@
 ---
 # Do not edit this first section
 layout: function
-short_name: range
+fancy_name: (constructors)
+function_name: range
+file_name: range-constructors
 qualified_name: nda::range::range
 namespaces: [nda, range]
 includer: nda/nda.hpp
@@ -59,4 +61,5 @@ permalink: /cpp-api/nda/range/range-constructors
 title: nda::range::range
 parent: nda::range
 ...
+
 

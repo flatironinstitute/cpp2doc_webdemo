@@ -1,7 +1,9 @@
 ---
 # Do not edit this first section
 layout: function
-short_name: mallocator
+fancy_name: (constructors)
+function_name: mallocator
+file_name: mallocator-constructors
 qualified_name: nda::allocators::mallocator::mallocator
 namespaces: [nda, allocators, mallocator]
 includer: nda/nda.hpp
@@ -48,4 +50,5 @@ permalink: /cpp-api/nda/allocators/mallocator/mallocator-constructors
 title: nda::allocators::mallocator::mallocator
 parent: nda::allocators::mallocator
 ...
+
 

@@ -1,7 +1,9 @@
 ---
 # Do not edit this first section
 layout: function
-short_name: fold
+fancy_name: fold
+function_name: fold
+file_name: fold
 qualified_name: nda::fold
 namespaces: [nda]
 includer: nda/nda.hpp
@@ -49,4 +51,5 @@ permalink: /cpp-api/nda/fold
 title: nda::fold
 parent: nda
 ...
+
 

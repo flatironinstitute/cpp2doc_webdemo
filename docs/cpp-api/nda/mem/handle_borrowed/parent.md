@@ -1,7 +1,9 @@
 ---
 # Do not edit this first section
 layout: function
-short_name: parent
+fancy_name: parent
+function_name: parent
+file_name: parent
 qualified_name: nda::mem::handle_borrowed::parent
 namespaces: [nda, mem, handle_borrowed]
 includer: nda/nda.hpp
@@ -42,4 +44,5 @@ permalink: /cpp-api/nda/mem/handle_borrowed/parent
 title: nda::mem::handle_borrowed::parent
 parent: nda::mem::handle_borrowed
 ...
+
 

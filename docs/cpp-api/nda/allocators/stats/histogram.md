@@ -1,7 +1,9 @@
 ---
 # Do not edit this first section
 layout: function
-short_name: histogram
+fancy_name: histogram
+function_name: histogram
+file_name: histogram
 qualified_name: nda::allocators::stats::histogram
 namespaces: [nda, allocators, stats]
 includer: nda/nda.hpp
@@ -42,4 +44,5 @@ permalink: /cpp-api/nda/allocators/stats/histogram
 title: nda::allocators::stats::histogram
 parent: nda::allocators::stats
 ...
+
 

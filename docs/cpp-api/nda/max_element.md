@@ -1,7 +1,9 @@
 ---
 # Do not edit this first section
 layout: function
-short_name: max_element
+fancy_name: max_element
+function_name: max_element
+file_name: max_element
 qualified_name: nda::max_element
 namespaces: [nda]
 includer: nda/nda.hpp
@@ -44,4 +46,5 @@ permalink: /cpp-api/nda/max_element
 title: nda::max_element
 parent: nda
 ...
+
 

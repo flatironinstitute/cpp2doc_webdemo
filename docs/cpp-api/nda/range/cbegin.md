@@ -1,7 +1,9 @@
 ---
 # Do not edit this first section
 layout: function
-short_name: cbegin
+fancy_name: cbegin
+function_name: cbegin
+file_name: cbegin
 qualified_name: nda::range::cbegin
 namespaces: [nda, range]
 includer: nda/nda.hpp
@@ -42,4 +44,5 @@ permalink: /cpp-api/nda/range/cbegin
 title: nda::range::cbegin
 parent: nda::range
 ...
+
 

@@ -1,7 +1,9 @@
 ---
 # Do not edit this first section
 layout: function
-short_name: reshape
+fancy_name: reshape
+function_name: reshape
+file_name: reshape
 qualified_name: nda::reshape
 namespaces: [nda]
 includer: nda/nda.hpp
@@ -55,4 +57,5 @@ permalink: /cpp-api/nda/reshape
 title: nda::reshape
 parent: nda
 ...
+
 

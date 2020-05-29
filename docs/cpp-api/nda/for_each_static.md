@@ -1,7 +1,9 @@
 ---
 # Do not edit this first section
 layout: function
-short_name: for_each_static
+fancy_name: for_each_static
+function_name: for_each_static
+file_name: for_each_static
 qualified_name: nda::for_each_static
 namespaces: [nda]
 includer: nda/nda.hpp
@@ -48,4 +50,5 @@ permalink: /cpp-api/nda/for_each_static
 title: nda::for_each_static
 parent: nda
 ...
+
 

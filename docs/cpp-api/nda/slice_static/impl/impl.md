@@ -9,7 +9,9 @@ parent: nda::slice_static
 title: nda::slice_static::impl
 has_children: true
 namespaces: []
+concepts: []
 classes: []
 functions: [ellipsis_position]
 ...
+
 

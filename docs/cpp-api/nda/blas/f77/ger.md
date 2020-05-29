@@ -1,7 +1,9 @@
 ---
 # Do not edit this first section
 layout: function
-short_name: ger
+fancy_name: ger
+function_name: ger
+file_name: ger
 qualified_name: nda::blas::f77::ger
 namespaces: [nda, blas, f77]
 includer: nda/nda.hpp
@@ -53,4 +55,5 @@ permalink: /cpp-api/nda/blas/f77/ger
 title: nda::blas::f77::ger
 parent: nda::blas::f77
 ...
+
 

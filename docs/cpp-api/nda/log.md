@@ -1,7 +1,9 @@
 ---
 # Do not edit this first section
 layout: function
-short_name: log
+fancy_name: log
+function_name: log
+file_name: log
 qualified_name: nda::log
 namespaces: [nda]
 includer: nda/nda.hpp
@@ -45,4 +47,5 @@ permalink: /cpp-api/nda/log
 title: nda::log
 parent: nda
 ...
+
 

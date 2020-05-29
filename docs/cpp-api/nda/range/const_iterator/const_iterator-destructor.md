@@ -1,7 +1,9 @@
 ---
 # Do not edit this first section
 layout: function
-short_name: ~const_iterator
+fancy_name: (destructor)
+function_name: ~const_iterator
+file_name: const_iterator-destructor
 qualified_name: nda::range::const_iterator::~const_iterator
 namespaces: [nda, range, const_iterator]
 includer: nda/nda.hpp
@@ -38,8 +40,9 @@ example:
 see-also: []
 
 # ---------- DO NOT EDIT BELOW --------
-permalink: /cpp-api/nda/range/const_iterator/~const_iterator-destructor
+permalink: /cpp-api/nda/range/const_iterator/const_iterator-destructor
 title: nda::range::const_iterator::~const_iterator
 parent: nda::range::const_iterator
 ...
+
 

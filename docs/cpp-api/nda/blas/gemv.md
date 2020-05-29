@@ -1,7 +1,9 @@
 ---
 # Do not edit this first section
 layout: function
-short_name: gemv
+fancy_name: gemv
+function_name: gemv
+file_name: gemv
 qualified_name: nda::blas::gemv
 namespaces: [nda, blas]
 includer: nda/nda.hpp
@@ -59,4 +61,5 @@ permalink: /cpp-api/nda/blas/gemv
 title: nda::blas::gemv
 parent: nda::blas
 ...
+
 

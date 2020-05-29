@@ -1,7 +1,9 @@
 ---
 # Do not edit this first section
 layout: function
-short_name: q_of_p_map
+fancy_name: q_of_p_map
+function_name: q_of_p_map
+file_name: q_of_p_map
 qualified_name: nda::slice_static::q_of_p_map
 namespaces: [nda, slice_static]
 includer: nda/nda.hpp
@@ -48,4 +50,5 @@ permalink: /cpp-api/nda/slice_static/q_of_p_map
 title: nda::slice_static::q_of_p_map
 parent: nda::slice_static
 ...
+
 

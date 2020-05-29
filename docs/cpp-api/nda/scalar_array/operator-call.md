@@ -1,8 +1,10 @@
 ---
 # Do not edit this first section
 layout: function
-short_name: operator[]
-qualified_name: nda::scalar_array::operator[]
+fancy_name: operator()
+function_name: operator()
+file_name: operator-call
+qualified_name: nda::scalar_array::operator()
 namespaces: [nda, scalar_array]
 includer: nda/nda.hpp
 
@@ -14,7 +16,7 @@ overloads:
 
   - signature: |
       template <typename T>
-      S operator[](T && )  const
+      S operator()(T &&... )  const
     desc: ""
 
 # Long description. Any Markdown, with code, latex, multiline with |
@@ -40,8 +42,9 @@ example:
 see-also: []
 
 # ---------- DO NOT EDIT BELOW --------
-permalink: /cpp-api/nda/scalar_array/operator[]
-title: nda::scalar_array::operator[]
+permalink: /cpp-api/nda/scalar_array/operator-call
+title: nda::scalar_array::operator()
 parent: nda::scalar_array
 ...
+
 

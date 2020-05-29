@@ -1,7 +1,9 @@
 ---
 # Do not edit this first section
 layout: function
-short_name: round_to_align
+fancy_name: round_to_align
+function_name: round_to_align
+file_name: round_to_align
 qualified_name: nda::allocators::round_to_align
 namespaces: [nda, allocators]
 includer: nda/nda.hpp
@@ -42,4 +44,5 @@ permalink: /cpp-api/nda/allocators/round_to_align
 title: nda::allocators::round_to_align
 parent: nda::allocators
 ...
+
 

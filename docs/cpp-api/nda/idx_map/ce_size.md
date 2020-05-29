@@ -1,7 +1,9 @@
 ---
 # Do not edit this first section
 layout: function
-short_name: ce_size
+fancy_name: ce_size
+function_name: ce_size
+file_name: ce_size
 qualified_name: nda::idx_map::ce_size
 namespaces: [nda, idx_map]
 includer: nda/nda.hpp
@@ -42,4 +44,5 @@ permalink: /cpp-api/nda/idx_map/ce_size
 title: nda::idx_map::ce_size
 parent: nda::idx_map
 ...
+
 

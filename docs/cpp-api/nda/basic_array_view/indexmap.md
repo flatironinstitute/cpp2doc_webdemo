@@ -1,7 +1,9 @@
 ---
 # Do not edit this first section
 layout: function
-short_name: indexmap
+fancy_name: indexmap
+function_name: indexmap
+file_name: indexmap
 qualified_name: nda::basic_array_view::indexmap
 namespaces: [nda, basic_array_view]
 includer: nda/nda.hpp
@@ -42,4 +44,5 @@ permalink: /cpp-api/nda/basic_array_view/indexmap
 title: nda::basic_array_view::indexmap
 parent: nda::basic_array_view
 ...
+
 

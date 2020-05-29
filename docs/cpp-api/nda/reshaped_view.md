@@ -1,7 +1,9 @@
 ---
 # Do not edit this first section
 layout: function
-short_name: reshaped_view
+fancy_name: reshaped_view
+function_name: reshaped_view
+file_name: reshaped_view
 qualified_name: nda::reshaped_view
 namespaces: [nda]
 includer: nda/nda.hpp
@@ -77,4 +79,5 @@ permalink: /cpp-api/nda/reshaped_view
 title: nda::reshaped_view
 parent: nda
 ...
+
 

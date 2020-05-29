@@ -1,7 +1,9 @@
 ---
 # Do not edit this first section
 layout: function
-short_name: scal
+fancy_name: scal
+function_name: scal
+file_name: scal
 qualified_name: nda::blas::f77::scal
 namespaces: [nda, blas, f77]
 includer: nda/nda.hpp
@@ -48,4 +50,5 @@ permalink: /cpp-api/nda/blas/f77/scal
 title: nda::blas::f77::scal
 parent: nda::blas::f77
 ...
+
 

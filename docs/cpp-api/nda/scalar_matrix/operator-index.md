@@ -1,35 +1,37 @@
 ---
 # Do not edit this first section
 layout: function
-short_name: operator()
-qualified_name: nda::idx_map::operator()
-namespaces: [nda, idx_map]
+fancy_name: operator[]
+function_name: operator[]
+file_name: operator-index
+qualified_name: nda::scalar_matrix::operator[]
+namespaces: [nda, scalar_matrix]
 includer: nda/nda.hpp
 
 # Brief description. One line only.
-brief: Number of variables must be exactly the rank or are optionally
+brief: ""
 
 # List of overloads. Edit only the desc
 overloads:
 
   - signature: |
-      template <typename Args>
-      long operator()(const Args &... args) noexcept(true) const
-    desc: Number of variables must be exactly the rank or are optionally
+      template <typename T>
+      S operator[](T && )  const
+    desc: ""
 
 # Long description. Any Markdown, with code, latex, multiline with |
-desc: checked at runtime
+desc: ""
 
 # Parameters of the function. Edit only the description after the :
 params:
-  args: __MISSING__
+  {}
 
 # Template parameters of the function. Edit only the description after the :
 tparams:
-  Args: __MISSING__
+  T: __MISSING__
 
 # Desc of the return value
-return_value: ":        the linear position"
+return_value: __MISSING__
 
 # Code example. desc: any markdown to explain it.
 example:
@@ -40,8 +42,9 @@ example:
 see-also: []
 
 # ---------- DO NOT EDIT BELOW --------
-permalink: /cpp-api/nda/idx_map/operator()
-title: nda::idx_map::operator()
-parent: nda::idx_map
+permalink: /cpp-api/nda/scalar_matrix/operator-index
+title: nda::scalar_matrix::operator[]
+parent: nda::scalar_matrix
 ...
+
 

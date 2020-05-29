@@ -1,7 +1,9 @@
 ---
 # Do not edit this first section
 layout: function
-short_name: first
+fancy_name: first
+function_name: first
+file_name: first
 qualified_name: nda::range::first
 namespaces: [nda, range]
 includer: nda/nda.hpp
@@ -42,4 +44,5 @@ permalink: /cpp-api/nda/range/first
 title: nda::range::first
 parent: nda::range
 ...
+
 

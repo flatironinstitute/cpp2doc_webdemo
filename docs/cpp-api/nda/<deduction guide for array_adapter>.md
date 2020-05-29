@@ -1,7 +1,9 @@
 ---
 # Do not edit this first section
 layout: function
-short_name: <deduction guide for array_adapter>
+fancy_name: <deduction guide for array_adapter>
+function_name: <deduction guide for array_adapter>
+file_name: <deduction guide for array_adapter>
 qualified_name: nda::<deduction guide for array_adapter>
 namespaces: [nda]
 includer: nda/nda.hpp
@@ -57,4 +59,5 @@ permalink: /cpp-api/nda/<deduction guide for array_adapter>
 title: nda::<deduction guide for array_adapter>
 parent: nda
 ...
+
 

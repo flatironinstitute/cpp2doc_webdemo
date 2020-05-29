@@ -1,7 +1,9 @@
 ---
 # Do not edit this first section
 layout: function
-short_name: allocate_zero
+fancy_name: allocate_zero
+function_name: allocate_zero
+file_name: allocate_zero
 qualified_name: nda::allocators::segregator::allocate_zero
 namespaces: [nda, allocators, segregator]
 includer: nda/nda.hpp
@@ -42,4 +44,5 @@ permalink: /cpp-api/nda/allocators/segregator/allocate_zero
 title: nda::allocators::segregator::allocate_zero
 parent: nda::allocators::segregator
 ...
+
 

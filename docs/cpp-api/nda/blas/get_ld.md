@@ -1,7 +1,9 @@
 ---
 # Do not edit this first section
 layout: function
-short_name: get_ld
+fancy_name: get_ld
+function_name: get_ld
+file_name: get_ld
 qualified_name: nda::blas::get_ld
 namespaces: [nda, blas]
 includer: nda/nda.hpp
@@ -44,4 +46,5 @@ permalink: /cpp-api/nda/blas/get_ld
 title: nda::blas::get_ld
 parent: nda::blas
 ...
+
 

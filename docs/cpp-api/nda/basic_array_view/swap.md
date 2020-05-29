@@ -1,7 +1,9 @@
 ---
 # Do not edit this first section
 layout: function
-short_name: swap
+fancy_name: swap
+function_name: swap
+file_name: swap
 qualified_name: nda::swap
 namespaces: [nda, basic_array_view]
 includer: nda/nda.hpp
@@ -43,4 +45,5 @@ permalink: /cpp-api/nda/basic_array_view/swap
 title: nda::swap
 parent: nda::basic_array_view
 ...
+
 

@@ -1,7 +1,9 @@
 ---
 # Do not edit this first section
 layout: function
-short_name: operator=
+fancy_name: operator=
+function_name: operator=
+file_name: operator=
 qualified_name: nda::allocators::bucket::operator=
 namespaces: [nda, allocators, bucket]
 includer: nda/nda.hpp
@@ -45,4 +47,5 @@ permalink: /cpp-api/nda/allocators/bucket/operator=
 title: nda::allocators::bucket::operator=
 parent: nda::allocators::bucket
 ...
+
 

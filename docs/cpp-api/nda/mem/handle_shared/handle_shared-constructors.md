@@ -1,7 +1,9 @@
 ---
 # Do not edit this first section
 layout: function
-short_name: handle_shared
+fancy_name: (constructors)
+function_name: handle_shared
+file_name: handle_shared-constructors
 qualified_name: nda::mem::handle_shared::handle_shared<T>
 namespaces: [nda, mem, handle_shared]
 includer: nda/nda.hpp
@@ -58,4 +60,5 @@ permalink: /cpp-api/nda/mem/handle_shared/handle_shared-constructors
 title: nda::mem::handle_shared::handle_shared<T>
 parent: nda::mem::handle_shared
 ...
+
 

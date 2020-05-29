@@ -1,7 +1,9 @@
 ---
 # Do not edit this first section
 layout: function
-short_name: identity
+fancy_name: identity
+function_name: identity
+file_name: identity
 qualified_name: nda::permutations::identity
 namespaces: [nda, permutations]
 includer: nda/nda.hpp
@@ -44,4 +46,5 @@ permalink: /cpp-api/nda/permutations/identity
 title: nda::permutations::identity
 parent: nda::permutations
 ...
+
 

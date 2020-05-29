@@ -1,10 +1,12 @@
 ---
 # Do not edit this first section
 layout: function
-short_name: operator()
-qualified_name: nda::scalar_array::operator()
-namespaces: [nda, scalar_array]
-includer: nda/nda.hpp
+fancy_name: operator+= operator-=
+function_name: operator+=
+file_name: operator-compound
+qualified_name: sandbox::myarray::operator+=
+namespaces: [sandbox, myarray]
+includer: ""
 
 # Brief description. One line only.
 brief: ""
@@ -12,9 +14,10 @@ brief: ""
 # List of overloads. Edit only the desc
 overloads:
 
-  - signature: |
-      template <typename T>
-      S operator()(T &&... )  const
+  - signature: myarray & operator+=(int i)
+    desc: ""
+
+  - signature: myarray & operator-=(int i)
     desc: ""
 
 # Long description. Any Markdown, with code, latex, multiline with |
@@ -22,11 +25,11 @@ desc: ""
 
 # Parameters of the function. Edit only the description after the :
 params:
-  {}
+  i: __MISSING__
 
 # Template parameters of the function. Edit only the description after the :
 tparams:
-  T: __MISSING__
+  {}
 
 # Desc of the return value
 return_value: __MISSING__
@@ -40,8 +43,8 @@ example:
 see-also: []
 
 # ---------- DO NOT EDIT BELOW --------
-permalink: /cpp-api/nda/scalar_array/operator()
-title: nda::scalar_array::operator()
-parent: nda::scalar_array
+permalink: /cpp-api/sandbox/myarray/operator-compound
+title: sandbox::myarray::operator+=
+parent: sandbox::myarray
 ...
 

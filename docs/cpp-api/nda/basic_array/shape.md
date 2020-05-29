@@ -1,7 +1,9 @@
 ---
 # Do not edit this first section
 layout: function
-short_name: shape
+fancy_name: shape
+function_name: shape
+file_name: shape
 qualified_name: nda::basic_array::shape
 namespaces: [nda, basic_array]
 includer: nda/nda.hpp
@@ -45,4 +47,5 @@ permalink: /cpp-api/nda/basic_array/shape
 title: nda::basic_array::shape
 parent: nda::basic_array
 ...
+
 

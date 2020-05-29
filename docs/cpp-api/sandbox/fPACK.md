@@ -1,7 +1,9 @@
 ---
 # Do not edit this first section
 layout: function
-short_name: fPACK
+fancy_name: fPACK
+function_name: fPACK
+file_name: fPACK
 qualified_name: sandbox::fPACK
 namespaces: [sandbox]
 includer: ""

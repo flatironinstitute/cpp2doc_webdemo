@@ -1,7 +1,9 @@
 ---
 # Do not edit this first section
 layout: function
-short_name: get
+fancy_name: get
+function_name: get
+file_name: get
 qualified_name: nda::mem::aligner::get
 namespaces: [nda, mem, aligner]
 includer: nda/nda.hpp
@@ -45,4 +47,5 @@ permalink: /cpp-api/nda/mem/aligner/get
 title: nda::mem::aligner::get
 parent: nda::mem::aligner
 ...
+
 

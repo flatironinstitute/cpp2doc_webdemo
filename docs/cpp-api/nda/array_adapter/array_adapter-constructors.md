@@ -1,7 +1,9 @@
 ---
 # Do not edit this first section
 layout: function
-short_name: array_adapter
+fancy_name: (constructors)
+function_name: array_adapter
+file_name: array_adapter-constructors
 qualified_name: nda::array_adapter::array_adapter<R, F>
 namespaces: [nda, array_adapter]
 includer: nda/nda.hpp
@@ -45,4 +47,5 @@ permalink: /cpp-api/nda/array_adapter/array_adapter-constructors
 title: nda::array_adapter::array_adapter<R, F>
 parent: nda::array_adapter
 ...
+
 

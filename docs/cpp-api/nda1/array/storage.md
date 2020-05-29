@@ -1,7 +1,9 @@
 ---
 # Do not edit this first section
 layout: function
-short_name: storage
+fancy_name: storage
+function_name: storage
+file_name: storage
 qualified_name: nda1::array::storage
 namespaces: [nda1, array]
 includer: ""

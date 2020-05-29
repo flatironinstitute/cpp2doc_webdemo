@@ -1,9 +1,11 @@
 ---
 # Do not edit this first section
 layout: function
-short_name: operator()
-qualified_name: nda::mapped::operator()
-namespaces: [nda, mapped]
+fancy_name: operator[]
+function_name: operator[]
+file_name: operator-index
+qualified_name: nda::scalar_array::operator[]
+namespaces: [nda, scalar_array]
 includer: nda/nda.hpp
 
 # Brief description. One line only.
@@ -13,8 +15,8 @@ brief: ""
 overloads:
 
   - signature: |
-      template <typename A0, typename A>
-      expr_call<F, A0, A...> operator()(A0 && a0, A &&... a)  const
+      template <typename T>
+      S operator[](T && )  const
     desc: ""
 
 # Long description. Any Markdown, with code, latex, multiline with |
@@ -22,13 +24,11 @@ desc: ""
 
 # Parameters of the function. Edit only the description after the :
 params:
-  a0: __MISSING__
-  a: __MISSING__
+  {}
 
 # Template parameters of the function. Edit only the description after the :
 tparams:
-  A0: __MISSING__
-  A: __MISSING__
+  T: __MISSING__
 
 # Desc of the return value
 return_value: __MISSING__
@@ -42,8 +42,9 @@ example:
 see-also: []
 
 # ---------- DO NOT EDIT BELOW --------
-permalink: /cpp-api/nda/mapped/operator()
-title: nda::mapped::operator()
-parent: nda::mapped
+permalink: /cpp-api/nda/scalar_array/operator-index
+title: nda::scalar_array::operator[]
+parent: nda::scalar_array
 ...
+
 

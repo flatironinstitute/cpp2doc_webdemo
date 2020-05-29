@@ -1,7 +1,9 @@
 ---
 # Do not edit this first section
 layout: function
-short_name: get_first_element
+fancy_name: get_first_element
+function_name: get_first_element
+file_name: get_first_element
 qualified_name: nda::get_first_element
 namespaces: [nda]
 includer: nda/nda.hpp
@@ -44,4 +46,5 @@ permalink: /cpp-api/nda/get_first_element
 title: nda::get_first_element
 parent: nda
 ...
+
 

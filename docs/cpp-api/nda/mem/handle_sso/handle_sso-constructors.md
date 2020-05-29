@@ -1,7 +1,9 @@
 ---
 # Do not edit this first section
 layout: function
-short_name: handle_sso
+fancy_name: (constructors)
+function_name: handle_sso
+file_name: handle_sso-constructors
 qualified_name: nda::mem::handle_sso::handle_sso<T, Size>
 namespaces: [nda, mem, handle_sso]
 includer: nda/nda.hpp
@@ -57,4 +59,5 @@ permalink: /cpp-api/nda/mem/handle_sso/handle_sso-constructors
 title: nda::mem::handle_sso::handle_sso<T, Size>
 parent: nda::mem::handle_sso
 ...
+
 

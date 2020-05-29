@@ -1,7 +1,9 @@
 ---
 # Do not edit this first section
 layout: function
-short_name: g
+fancy_name: g
+function_name: g
+file_name: g
 qualified_name: nda::details::bound_check_worker::g
 namespaces: [nda, details, bound_check_worker]
 includer: nda/nda.hpp
@@ -52,4 +54,5 @@ permalink: /cpp-api/nda/details/bound_check_worker/g
 title: nda::details::bound_check_worker::g
 parent: nda::details::bound_check_worker
 ...
+
 

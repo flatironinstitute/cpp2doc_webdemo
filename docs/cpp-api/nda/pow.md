@@ -1,7 +1,9 @@
 ---
 # Do not edit this first section
 layout: function
-short_name: pow
+fancy_name: pow
+function_name: pow
+file_name: pow
 qualified_name: nda::pow
 namespaces: [nda]
 includer: nda/nda.hpp
@@ -54,4 +56,5 @@ permalink: /cpp-api/nda/pow
 title: nda::pow
 parent: nda
 ...
+
 

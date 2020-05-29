@@ -1,7 +1,9 @@
 ---
 # Do not edit this first section
 layout: function
-short_name: is_stride_order_C
+fancy_name: is_stride_order_C
+function_name: is_stride_order_C
+file_name: is_stride_order_C
 qualified_name: nda::idx_map::is_stride_order_C
 namespaces: [nda, idx_map]
 includer: nda/nda.hpp
@@ -42,4 +44,5 @@ permalink: /cpp-api/nda/idx_map/is_stride_order_C
 title: nda::idx_map::is_stride_order_C
 parent: nda::idx_map
 ...
+
 

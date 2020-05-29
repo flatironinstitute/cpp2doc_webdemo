@@ -1,7 +1,9 @@
 ---
 # Do not edit this first section
 layout: function
-short_name: isnan
+fancy_name: isnan
+function_name: isnan
+file_name: isnan
 qualified_name: nda::isnan
 namespaces: [nda]
 includer: nda/nda.hpp
@@ -49,4 +51,5 @@ permalink: /cpp-api/nda/isnan
 title: nda::isnan
 parent: nda
 ...
+
 

@@ -1,9 +1,11 @@
 ---
 # Do not edit this first section
 layout: function
-short_name: operator[]
-qualified_name: nda::mem::handle_borrowed::operator[]
-namespaces: [nda, mem, handle_borrowed]
+fancy_name: operator()
+function_name: operator()
+file_name: operator-call
+qualified_name: nda::mapped::operator()
+namespaces: [nda, mapped]
 includer: nda/nda.hpp
 
 # Brief description. One line only.
@@ -12,10 +14,9 @@ brief: ""
 # List of overloads. Edit only the desc
 overloads:
 
-  - signature: T & operator[](long i) noexcept
-    desc: ""
-
-  - signature: T const & operator[](long i) noexcept const
+  - signature: |
+      template <typename A0, typename A>
+      expr_call<F, A0, A...> operator()(A0 && a0, A &&... a)  const
     desc: ""
 
 # Long description. Any Markdown, with code, latex, multiline with |
@@ -23,11 +24,13 @@ desc: ""
 
 # Parameters of the function. Edit only the description after the :
 params:
-  i: __MISSING__
+  a0: __MISSING__
+  a: __MISSING__
 
 # Template parameters of the function. Edit only the description after the :
 tparams:
-  {}
+  A0: __MISSING__
+  A: __MISSING__
 
 # Desc of the return value
 return_value: __MISSING__
@@ -41,8 +44,9 @@ example:
 see-also: []
 
 # ---------- DO NOT EDIT BELOW --------
-permalink: /cpp-api/nda/mem/handle_borrowed/operator[]
-title: nda::mem::handle_borrowed::operator[]
-parent: nda::mem::handle_borrowed
+permalink: /cpp-api/nda/mapped/operator-call
+title: nda::mapped::operator()
+parent: nda::mapped
 ...
+
 

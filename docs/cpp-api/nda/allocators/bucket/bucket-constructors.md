@@ -1,7 +1,9 @@
 ---
 # Do not edit this first section
 layout: function
-short_name: bucket
+fancy_name: (constructors)
+function_name: bucket
+file_name: bucket-constructors
 qualified_name: nda::allocators::bucket::bucket<ChunkSize>
 namespaces: [nda, allocators, bucket]
 includer: nda/nda.hpp
@@ -48,4 +50,5 @@ permalink: /cpp-api/nda/allocators/bucket/bucket-constructors
 title: nda::allocators::bucket::bucket<ChunkSize>
 parent: nda::allocators::bucket
 ...
+
 

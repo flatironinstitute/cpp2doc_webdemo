@@ -1,7 +1,9 @@
 ---
 # Do not edit this first section
 layout: function
-short_name: exp
+fancy_name: exp
+function_name: exp
+file_name: exp
 qualified_name: nda::exp
 namespaces: [nda]
 includer: nda/nda.hpp
@@ -45,4 +47,5 @@ permalink: /cpp-api/nda/exp
 title: nda::exp
 parent: nda
 ...
+
 

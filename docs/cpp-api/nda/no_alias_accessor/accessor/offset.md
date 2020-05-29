@@ -1,7 +1,9 @@
 ---
 # Do not edit this first section
 layout: function
-short_name: offset
+fancy_name: offset
+function_name: offset
+file_name: offset
 qualified_name: nda::no_alias_accessor::accessor::offset
 namespaces: [nda, no_alias_accessor, accessor]
 includer: nda/nda.hpp
@@ -43,4 +45,5 @@ permalink: /cpp-api/nda/no_alias_accessor/accessor/offset
 title: nda::no_alias_accessor::accessor::offset
 parent: nda::no_alias_accessor::accessor
 ...
+
 

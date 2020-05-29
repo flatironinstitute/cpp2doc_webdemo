@@ -1,7 +1,9 @@
 ---
 # Do not edit this first section
 layout: function
-short_name: array_iterator
+fancy_name: (constructors)
+function_name: array_iterator
+file_name: array_iterator-constructors
 qualified_name: nda::array_iterator::array_iterator<Rank, T, Pointer>
 namespaces: [nda, array_iterator]
 includer: nda/nda.hpp
@@ -51,4 +53,5 @@ permalink: /cpp-api/nda/array_iterator/array_iterator-constructors
 title: nda::array_iterator::array_iterator<Rank, T, Pointer>
 parent: nda::array_iterator
 ...
+
 

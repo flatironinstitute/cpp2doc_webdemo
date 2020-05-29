@@ -1,7 +1,9 @@
 ---
 # Do not edit this first section
 layout: function
-short_name: transposed_view
+fancy_name: transposed_view
+function_name: transposed_view
+file_name: transposed_view
 qualified_name: nda::transposed_view
 namespaces: [nda]
 includer: nda/nda.hpp
@@ -47,4 +49,5 @@ permalink: /cpp-api/nda/transposed_view
 title: nda::transposed_view
 parent: nda
 ...
+
 

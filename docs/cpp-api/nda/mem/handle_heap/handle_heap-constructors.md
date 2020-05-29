@@ -1,7 +1,9 @@
 ---
 # Do not edit this first section
 layout: function
-short_name: handle_heap
+fancy_name: (constructors)
+function_name: handle_heap
+file_name: handle_heap-constructors
 qualified_name: nda::mem::handle_heap::handle_heap<T, Allocator>
 namespaces: [nda, mem, handle_heap]
 includer: nda/nda.hpp
@@ -61,4 +63,5 @@ permalink: /cpp-api/nda/mem/handle_heap/handle_heap-constructors
 title: nda::mem::handle_heap::handle_heap<T, Allocator>
 parent: nda::mem::handle_heap
 ...
+
 

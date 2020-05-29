@@ -1,9 +1,11 @@
 ---
 # Do not edit this first section
 layout: function
-short_name: operator[]
-qualified_name: nda::basic_array::operator[]
-namespaces: [nda, basic_array]
+fancy_name: operator[]
+function_name: operator[]
+file_name: operator-index
+qualified_name: nda::basic_array_view::operator[]
+namespaces: [nda, basic_array_view]
 includer: nda/nda.hpp
 
 # Brief description. One line only.
@@ -50,8 +52,9 @@ example:
 see-also: []
 
 # ---------- DO NOT EDIT BELOW --------
-permalink: /cpp-api/nda/basic_array/operator[]
-title: nda::basic_array::operator[]
-parent: nda::basic_array
+permalink: /cpp-api/nda/basic_array_view/operator-index
+title: nda::basic_array_view::operator[]
+parent: nda::basic_array_view
 ...
+
 

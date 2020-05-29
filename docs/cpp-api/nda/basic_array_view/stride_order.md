@@ -1,7 +1,9 @@
 ---
 # Do not edit this first section
 layout: function
-short_name: stride_order
+fancy_name: stride_order
+function_name: stride_order
+file_name: stride_order
 qualified_name: nda::basic_array_view::stride_order
 namespaces: [nda, basic_array_view]
 includer: nda/nda.hpp
@@ -42,4 +44,5 @@ permalink: /cpp-api/nda/basic_array_view/stride_order
 title: nda::basic_array_view::stride_order
 parent: nda::basic_array_view
 ...
+
 

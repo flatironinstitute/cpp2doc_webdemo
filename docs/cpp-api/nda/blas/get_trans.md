@@ -1,7 +1,9 @@
 ---
 # Do not edit this first section
 layout: function
-short_name: get_trans
+fancy_name: get_trans
+function_name: get_trans
+file_name: get_trans
 qualified_name: nda::blas::get_trans
 namespaces: [nda, blas]
 includer: nda/nda.hpp
@@ -45,4 +47,5 @@ permalink: /cpp-api/nda/blas/get_trans
 title: nda::blas::get_trans
 parent: nda::blas
 ...
+
 

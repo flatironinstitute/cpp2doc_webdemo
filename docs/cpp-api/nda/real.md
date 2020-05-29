@@ -1,7 +1,9 @@
 ---
 # Do not edit this first section
 layout: function
-short_name: real
+fancy_name: real
+function_name: real
+file_name: real
 qualified_name: nda::real
 namespaces: [nda]
 includer: nda/nda.hpp
@@ -45,4 +47,5 @@ permalink: /cpp-api/nda/real
 title: nda::real
 parent: nda
 ...
+
 

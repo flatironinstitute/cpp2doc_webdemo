@@ -1,7 +1,9 @@
 ---
 # Do not edit this first section
 layout: function
-short_name: handle_borrowed
+fancy_name: (constructors)
+function_name: handle_borrowed
+file_name: handle_borrowed-constructors
 qualified_name: nda::mem::handle_borrowed::handle_borrowed<T>
 namespaces: [nda, mem, handle_borrowed]
 includer: nda/nda.hpp
@@ -79,4 +81,5 @@ permalink: /cpp-api/nda/mem/handle_borrowed/handle_borrowed-constructors
 title: nda::mem::handle_borrowed::handle_borrowed<T>
 parent: nda::mem::handle_borrowed
 ...
+
 

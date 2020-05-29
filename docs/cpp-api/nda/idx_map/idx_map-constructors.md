@@ -1,7 +1,9 @@
 ---
 # Do not edit this first section
 layout: function
-short_name: idx_map
+fancy_name: (constructors)
+function_name: idx_map
+file_name: idx_map-constructors
 qualified_name: nda::idx_map::idx_map<Rank, StaticExtents, StrideOrder, LayoutProp>
 namespaces: [nda, idx_map]
 includer: nda/nda.hpp
@@ -70,4 +72,5 @@ permalink: /cpp-api/nda/idx_map/idx_map-constructors
 title: nda::idx_map::idx_map<Rank, StaticExtents, StrideOrder, LayoutProp>
 parent: nda::idx_map
 ...
+
 

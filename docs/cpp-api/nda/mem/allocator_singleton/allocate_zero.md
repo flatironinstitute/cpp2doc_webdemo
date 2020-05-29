@@ -1,7 +1,9 @@
 ---
 # Do not edit this first section
 layout: function
-short_name: allocate_zero
+fancy_name: allocate_zero
+function_name: allocate_zero
+file_name: allocate_zero
 qualified_name: nda::mem::allocator_singleton::allocate_zero
 namespaces: [nda, mem, allocator_singleton]
 includer: nda/nda.hpp
@@ -45,4 +47,5 @@ permalink: /cpp-api/nda/mem/allocator_singleton/allocate_zero
 title: nda::mem::allocator_singleton::allocate_zero
 parent: nda::mem::allocator_singleton
 ...
+
 

@@ -1,7 +1,9 @@
 ---
 # Do not edit this first section
 layout: function
-short_name: fgh89
+fancy_name: fgh89
+function_name: fgh89
+file_name: fgh89
 qualified_name: sandbox::fgh89
 namespaces: [sandbox]
 includer: ""

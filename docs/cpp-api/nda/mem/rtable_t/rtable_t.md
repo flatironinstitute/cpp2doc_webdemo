@@ -15,8 +15,8 @@ desc: ""
 
 # A list of methods. You can reorder, regroup into a dict : groupname -> list
 methods:
-  - (constructors)
-  - (destructor)
+  - rtable_t-constructors
+  - rtable_t-destructor
   - get
   - refcounts
   - incref
@@ -45,4 +45,5 @@ source: nda/storage/rtable.hpp
 parent: nda::mem
 has_children: true
 ...
+
 

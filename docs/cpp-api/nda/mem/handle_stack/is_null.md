@@ -1,7 +1,9 @@
 ---
 # Do not edit this first section
 layout: function
-short_name: is_null
+fancy_name: is_null
+function_name: is_null
+file_name: is_null
 qualified_name: nda::mem::handle_stack::is_null
 namespaces: [nda, mem, handle_stack]
 includer: nda/nda.hpp
@@ -42,4 +44,5 @@ permalink: /cpp-api/nda/mem/handle_stack/is_null
 title: nda::mem::handle_stack::is_null
 parent: nda::mem::handle_stack
 ...
+
 

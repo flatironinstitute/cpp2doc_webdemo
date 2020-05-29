@@ -1,7 +1,9 @@
 ---
 # Do not edit this first section
 layout: function
-short_name: ~handle_heap<T, Allocator>
+fancy_name: (destructor)
+function_name: ~handle_heap<T, Allocator>
+file_name: handle_heap-destructor
 qualified_name: nda::mem::handle_heap::~handle_heap<T, Allocator>
 namespaces: [nda, mem, handle_heap]
 includer: nda/nda.hpp
@@ -38,8 +40,9 @@ example:
 see-also: []
 
 # ---------- DO NOT EDIT BELOW --------
-permalink: /cpp-api/nda/mem/handle_heap/~handle_heap<T, Allocator>-destructor
+permalink: /cpp-api/nda/mem/handle_heap/handle_heap-destructor
 title: nda::mem::handle_heap::~handle_heap<T, Allocator>
 parent: nda::mem::handle_heap
 ...
+
 

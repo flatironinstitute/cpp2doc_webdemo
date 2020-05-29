@@ -1,7 +1,9 @@
 ---
 # Do not edit this first section
 layout: function
-short_name: cbegin
+fancy_name: cbegin
+function_name: cbegin
+file_name: cbegin
 qualified_name: nda::basic_array_view::cbegin
 namespaces: [nda, basic_array_view]
 includer: nda/nda.hpp
@@ -42,4 +44,5 @@ permalink: /cpp-api/nda/basic_array_view/cbegin
 title: nda::basic_array_view::cbegin
 parent: nda::basic_array_view
 ...
+
 

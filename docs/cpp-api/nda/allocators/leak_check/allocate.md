@@ -1,7 +1,9 @@
 ---
 # Do not edit this first section
 layout: function
-short_name: allocate
+fancy_name: allocate
+function_name: allocate
+file_name: allocate
 qualified_name: nda::allocators::leak_check::allocate
 namespaces: [nda, allocators, leak_check]
 includer: nda/nda.hpp
@@ -42,4 +44,5 @@ permalink: /cpp-api/nda/allocators/leak_check/allocate
 title: nda::allocators::leak_check::allocate
 parent: nda::allocators::leak_check
 ...
+
 

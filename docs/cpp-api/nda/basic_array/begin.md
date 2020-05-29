@@ -1,7 +1,9 @@
 ---
 # Do not edit this first section
 layout: function
-short_name: begin
+fancy_name: begin
+function_name: begin
+file_name: begin
 qualified_name: nda::basic_array::begin
 namespaces: [nda, basic_array]
 includer: nda/nda.hpp
@@ -45,4 +47,5 @@ permalink: /cpp-api/nda/basic_array/begin
 title: nda::basic_array::begin
 parent: nda::basic_array
 ...
+
 

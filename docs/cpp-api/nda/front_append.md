@@ -1,7 +1,9 @@
 ---
 # Do not edit this first section
 layout: function
-short_name: front_append
+fancy_name: front_append
+function_name: front_append
+file_name: front_append
 qualified_name: nda::front_append
 namespaces: [nda]
 includer: nda/nda.hpp
@@ -47,4 +49,5 @@ permalink: /cpp-api/nda/front_append
 title: nda::front_append
 parent: nda
 ...
+
 

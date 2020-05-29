@@ -1,7 +1,9 @@
 ---
 # Do not edit this first section
 layout: function
-short_name: handle_stack
+fancy_name: (constructors)
+function_name: handle_stack
+file_name: handle_stack-constructors
 qualified_name: nda::mem::handle_stack::handle_stack<T, Size>
 namespaces: [nda, mem, handle_stack]
 includer: nda/nda.hpp
@@ -57,4 +59,5 @@ permalink: /cpp-api/nda/mem/handle_stack/handle_stack-constructors
 title: nda::mem::handle_stack::handle_stack<T, Size>
 parent: nda::mem::handle_stack
 ...
+
 

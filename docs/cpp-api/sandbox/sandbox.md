@@ -9,13 +9,14 @@ parent: C++ API
 title: sandbox
 has_children: true
 namespaces: [impl]
-classes: [ess1, myarray, faulty_array]
-functions:
+concepts:
   - is_integral
   - Array
   - ArrayOfRank
   - ArrayOfT
   - ArrayInitializer
+classes: [ess1, myarray, faulty_array]
+functions:
   - maker
   - maker2
   - fgh0

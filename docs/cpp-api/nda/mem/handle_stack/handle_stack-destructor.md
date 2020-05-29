@@ -1,7 +1,9 @@
 ---
 # Do not edit this first section
 layout: function
-short_name: ~handle_stack<T, Size>
+fancy_name: (destructor)
+function_name: ~handle_stack<T, Size>
+file_name: handle_stack-destructor
 qualified_name: nda::mem::handle_stack::~handle_stack<T, Size>
 namespaces: [nda, mem, handle_stack]
 includer: nda/nda.hpp
@@ -38,8 +40,9 @@ example:
 see-also: []
 
 # ---------- DO NOT EDIT BELOW --------
-permalink: /cpp-api/nda/mem/handle_stack/~handle_stack<T, Size>-destructor
+permalink: /cpp-api/nda/mem/handle_stack/handle_stack-destructor
 title: nda::mem::handle_stack::~handle_stack<T, Size>
 parent: nda::mem::handle_stack
 ...
+
 

@@ -1,7 +1,9 @@
 ---
 # Do not edit this first section
 layout: function
-short_name: map
+fancy_name: map
+function_name: map
+file_name: map
 qualified_name: nda::map
 namespaces: [nda]
 includer: nda/nda.hpp
@@ -48,4 +50,5 @@ permalink: /cpp-api/nda/map
 title: nda::map
 parent: nda
 ...
+
 

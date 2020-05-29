@@ -1,7 +1,9 @@
 ---
 # Do not edit this first section
 layout: function
-short_name: assert_in_bounds
+fancy_name: assert_in_bounds
+function_name: assert_in_bounds
+file_name: assert_in_bounds
 qualified_name: nda::details::assert_in_bounds
 namespaces: [nda, details]
 includer: nda/nda.hpp
@@ -46,4 +48,5 @@ permalink: /cpp-api/nda/details/assert_in_bounds
 title: nda::details::assert_in_bounds
 parent: nda::details
 ...
+
 

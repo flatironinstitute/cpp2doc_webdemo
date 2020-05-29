@@ -1,7 +1,9 @@
 ---
 # Do not edit this first section
 layout: function
-short_name: basic_array_view
+fancy_name: (constructors)
+function_name: basic_array_view
+file_name: basic_array_view-constructors
 qualified_name: nda::basic_array_view::basic_array_view<ValueType, Rank, Layout, Algebra, AccessorPolicy, OwningPolicy>
 namespaces: [nda, basic_array_view]
 includer: nda/nda.hpp
@@ -72,4 +74,5 @@ permalink: /cpp-api/nda/basic_array_view/basic_array_view-constructors
 title: nda::basic_array_view::basic_array_view<ValueType, Rank, Layout, Algebra, AccessorPolicy, OwningPolicy>
 parent: nda::basic_array_view
 ...
+
 

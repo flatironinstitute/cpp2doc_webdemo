@@ -1,7 +1,9 @@
 ---
 # Do not edit this first section
 layout: function
-short_name: strides
+fancy_name: strides
+function_name: strides
+file_name: strides
 qualified_name: nda::idx_map::strides
 namespaces: [nda, idx_map]
 includer: nda/nda.hpp
@@ -42,4 +44,5 @@ permalink: /cpp-api/nda/idx_map/strides
 title: nda::idx_map::strides
 parent: nda::idx_map
 ...
+
 

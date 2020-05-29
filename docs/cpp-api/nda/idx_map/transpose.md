@@ -1,7 +1,9 @@
 ---
 # Do not edit this first section
 layout: function
-short_name: transpose
+fancy_name: transpose
+function_name: transpose
+file_name: transpose
 qualified_name: nda::idx_map::transpose
 namespaces: [nda, idx_map]
 includer: nda/nda.hpp
@@ -44,4 +46,5 @@ permalink: /cpp-api/nda/idx_map/transpose
 title: nda::idx_map::transpose
 parent: nda::idx_map
 ...
+
 

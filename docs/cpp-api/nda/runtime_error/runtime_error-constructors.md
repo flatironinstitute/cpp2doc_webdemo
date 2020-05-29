@@ -1,7 +1,9 @@
 ---
 # Do not edit this first section
 layout: function
-short_name: runtime_error
+fancy_name: (constructors)
+function_name: runtime_error
+file_name: runtime_error-constructors
 qualified_name: nda::runtime_error::runtime_error
 namespaces: [nda, runtime_error]
 includer: nda/nda.hpp
@@ -45,4 +47,5 @@ permalink: /cpp-api/nda/runtime_error/runtime_error-constructors
 title: nda::runtime_error::runtime_error
 parent: nda::runtime_error
 ...
+
 

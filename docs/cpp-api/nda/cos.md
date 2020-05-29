@@ -1,7 +1,9 @@
 ---
 # Do not edit this first section
 layout: function
-short_name: cos
+fancy_name: cos
+function_name: cos
+file_name: cos
 qualified_name: nda::cos
 namespaces: [nda]
 includer: nda/nda.hpp
@@ -45,4 +47,5 @@ permalink: /cpp-api/nda/cos
 title: nda::cos
 parent: nda
 ...
+
 

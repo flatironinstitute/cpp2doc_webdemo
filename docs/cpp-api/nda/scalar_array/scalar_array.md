@@ -21,7 +21,7 @@ brief: ""
 desc: ""
 
 # A list of methods. You can reorder, regroup into a dict : groupname -> list
-methods: [shape, "operator[]", operator()]
+methods: [shape, operator-index, operator-call]
 
 # A list of non_member_functions
 non_member_functions: []
@@ -48,4 +48,5 @@ source: nda/arithmetic.hpp
 parent: nda
 has_children: true
 ...
+
 

@@ -1,7 +1,9 @@
 ---
 # Do not edit this first section
 layout: function
-short_name: copy
+fancy_name: copy
+function_name: copy
+file_name: copy
 qualified_name: nda::blas::f77::copy
 namespaces: [nda, blas, f77]
 includer: nda/nda.hpp
@@ -49,4 +51,5 @@ permalink: /cpp-api/nda/blas/f77/copy
 title: nda::blas::f77::copy
 parent: nda::blas::f77
 ...
+
 

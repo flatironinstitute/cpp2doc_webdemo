@@ -1,7 +1,9 @@
 ---
 # Do not edit this first section
 layout: function
-short_name: deep_swap
+fancy_name: deep_swap
+function_name: deep_swap
+file_name: deep_swap
 qualified_name: nda::deep_swap
 namespaces: [nda, basic_array_view]
 includer: nda/nda.hpp
@@ -43,4 +45,5 @@ permalink: /cpp-api/nda/basic_array_view/deep_swap
 title: nda::deep_swap
 parent: nda::basic_array_view
 ...
+
 

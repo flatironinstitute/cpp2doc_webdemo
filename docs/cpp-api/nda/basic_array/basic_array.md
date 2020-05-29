@@ -25,7 +25,7 @@ desc: ""
 
 # A list of methods. You can reorder, regroup into a dict : groupname -> list
 methods:
-  - (constructors)
+  - basic_array-constructors
   - operator=
   - resize
   - indexmap
@@ -37,8 +37,8 @@ methods:
   - extent
   - is_stride_order_C
   - is_stride_order_Fortran
-  - operator()
-  - operator[]
+  - operator-call
+  - operator-index
   - begin
   - cbegin
   - end
@@ -64,14 +64,8 @@ member_types:
 
 # Code example. desc: any markdown to explain it.
 example:
-  desc: The description of the code
-  code: |
-    #include <nda1/nda1.hpp>
-    int main() {
-      nda::basic_array<int, 1> a{1, 2, 3};
-      nda::basic_array_view<int, 1> v = make_view(a);
-      std::vector<nda1::array> V{{1, 2}, {2, 3}};
-    }
+  desc: __MISSING__
+  code: __MISSING__
 
 # A list of related functions/classes
 see-also: []
@@ -83,4 +77,5 @@ source: nda/basic_array.hpp
 parent: nda
 has_children: true
 ...
+
 

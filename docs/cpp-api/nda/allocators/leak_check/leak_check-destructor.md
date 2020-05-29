@@ -1,7 +1,9 @@
 ---
 # Do not edit this first section
 layout: function
-short_name: ~leak_check<A>
+fancy_name: (destructor)
+function_name: ~leak_check<A>
+file_name: leak_check-destructor
 qualified_name: nda::allocators::leak_check::~leak_check<A>
 namespaces: [nda, allocators, leak_check]
 includer: nda/nda.hpp
@@ -38,8 +40,9 @@ example:
 see-also: []
 
 # ---------- DO NOT EDIT BELOW --------
-permalink: /cpp-api/nda/allocators/leak_check/~leak_check<A>-destructor
+permalink: /cpp-api/nda/allocators/leak_check/leak_check-destructor
 title: nda::allocators::leak_check::~leak_check<A>
 parent: nda::allocators::leak_check
 ...
+
 

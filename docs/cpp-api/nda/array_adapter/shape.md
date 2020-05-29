@@ -1,7 +1,9 @@
 ---
 # Do not edit this first section
 layout: function
-short_name: shape
+fancy_name: shape
+function_name: shape
+file_name: shape
 qualified_name: nda::array_adapter::shape
 namespaces: [nda, array_adapter]
 includer: nda/nda.hpp
@@ -42,4 +44,5 @@ permalink: /cpp-api/nda/array_adapter/shape
 title: nda::array_adapter::shape
 parent: nda::array_adapter
 ...
+
 

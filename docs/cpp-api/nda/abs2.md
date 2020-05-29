@@ -1,7 +1,9 @@
 ---
 # Do not edit this first section
 layout: function
-short_name: abs2
+fancy_name: abs2
+function_name: abs2
+file_name: abs2
 qualified_name: nda::abs2
 namespaces: [nda]
 includer: nda/nda.hpp
@@ -52,4 +54,5 @@ permalink: /cpp-api/nda/abs2
 title: nda::abs2
 parent: nda
 ...
+
 

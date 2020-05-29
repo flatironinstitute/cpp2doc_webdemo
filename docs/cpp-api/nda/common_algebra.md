@@ -1,7 +1,9 @@
 ---
 # Do not edit this first section
 layout: function
-short_name: common_algebra
+fancy_name: common_algebra
+function_name: common_algebra
+file_name: common_algebra
 qualified_name: nda::common_algebra
 namespaces: [nda]
 includer: nda/nda.hpp
@@ -45,4 +47,5 @@ permalink: /cpp-api/nda/common_algebra
 title: nda::common_algebra
 parent: nda
 ...
+
 

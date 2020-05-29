@@ -15,8 +15,8 @@ desc: ""
 
 # A list of methods. You can reorder, regroup into a dict : groupname -> list
 methods:
-  - (constructors)
-  - (destructor)
+  - const_iterator-constructors
+  - const_iterator-destructor
   - operator++
   - operator==
   - operator!=
@@ -54,4 +54,5 @@ source: nda/layout/range.hpp
 parent: nda::range
 has_children: true
 ...
+
 

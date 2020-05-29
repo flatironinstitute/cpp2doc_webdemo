@@ -1,7 +1,9 @@
 ---
 # Do not edit this first section
 layout: function
-short_name: apply
+fancy_name: apply
+function_name: apply
+file_name: apply
 qualified_name: nda::permutations::apply
 namespaces: [nda, permutations]
 includer: nda/nda.hpp
@@ -46,4 +48,5 @@ permalink: /cpp-api/nda/permutations/apply
 title: nda::permutations::apply
 parent: nda::permutations
 ...
+
 

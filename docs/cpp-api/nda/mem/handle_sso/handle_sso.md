@@ -22,12 +22,12 @@ desc: ""
 
 # A list of methods. You can reorder, regroup into a dict : groupname -> list
 methods:
-  - (constructors)
-  - (destructor)
+  - handle_sso-constructors
+  - handle_sso-destructor
   - on_heap
   - is_null
   - data
-  - operator[]
+  - operator-index
   - size
   - operator=
 
@@ -54,4 +54,5 @@ source: nda/storage/handle.hpp
 parent: nda::mem
 has_children: true
 ...
+
 

@@ -1,7 +1,9 @@
 ---
 # Do not edit this first section
 layout: function
-short_name: BBB
+fancy_name: BBB
+function_name: BBB
+file_name: BBB
 qualified_name: sandbox::myarray::BBB
 namespaces: [sandbox, myarray]
 includer: ""

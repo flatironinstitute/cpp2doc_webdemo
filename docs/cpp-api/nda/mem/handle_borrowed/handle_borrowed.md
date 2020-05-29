@@ -21,8 +21,8 @@ desc: ""
 
 # A list of methods. You can reorder, regroup into a dict : groupname -> list
 methods:
-  - (constructors)
-  - operator[]
+  - handle_borrowed-constructors
+  - operator-index
   - operator=
   - is_null
   - parent
@@ -53,4 +53,5 @@ source: nda/storage/handle.hpp
 parent: nda::mem
 has_children: true
 ...
+
 

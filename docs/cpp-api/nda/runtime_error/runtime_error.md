@@ -15,8 +15,8 @@ desc: ""
 
 # A list of methods. You can reorder, regroup into a dict : groupname -> list
 methods:
-  - (constructors)
-  - (destructor)
+  - runtime_error-constructors
+  - runtime_error-destructor
   - operator<<
   - what
   - operator=
@@ -39,4 +39,5 @@ source: nda/exceptions.hpp
 parent: nda
 has_children: true
 ...
+
 

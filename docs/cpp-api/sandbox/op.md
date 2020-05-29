@@ -1,7 +1,9 @@
 ---
 # Do not edit this first section
 layout: function
-short_name: op
+fancy_name: op
+function_name: op
+file_name: op
 qualified_name: sandbox::op
 namespaces: [sandbox]
 includer: ""

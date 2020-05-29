@@ -17,7 +17,7 @@ desc: ""
 
 # A list of methods. You can reorder, regroup into a dict : groupname -> list
 methods:
-  - (constructors)
+  - grid_iterator<1>-constructors
   - operator*
   - operator->
   - operator==
@@ -42,4 +42,5 @@ source: nda/iterators.hpp
 parent: nda
 has_children: true
 ...
+
 

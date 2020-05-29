@@ -1,7 +1,9 @@
 ---
 # Do not edit this first section
 layout: function
-short_name: method1
+fancy_name: method1
+function_name: method1
+file_name: method1
 qualified_name: nda1::array::method1
 namespaces: [nda1, array]
 includer: ""

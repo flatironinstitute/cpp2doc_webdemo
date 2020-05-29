@@ -1,7 +1,9 @@
 ---
 # Do not edit this first section
 layout: function
-short_name: zozo
+fancy_name: zozo
+function_name: zozo
+file_name: zozo
 qualified_name: sandbox::myarray::zozo
 namespaces: [sandbox, myarray]
 includer: ""

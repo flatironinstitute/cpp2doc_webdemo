@@ -1,7 +1,9 @@
 ---
 # Do not edit this first section
 layout: function
-short_name: on_heap
+fancy_name: on_heap
+function_name: on_heap
+file_name: on_heap
 qualified_name: nda::mem::handle_sso::on_heap
 namespaces: [nda, mem, handle_sso]
 includer: nda/nda.hpp
@@ -42,4 +44,5 @@ permalink: /cpp-api/nda/mem/handle_sso/on_heap
 title: nda::mem::handle_sso::on_heap
 parent: nda::mem::handle_sso
 ...
+
 

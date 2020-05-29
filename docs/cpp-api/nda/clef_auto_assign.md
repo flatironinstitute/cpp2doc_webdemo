@@ -1,7 +1,9 @@
 ---
 # Do not edit this first section
 layout: function
-short_name: clef_auto_assign
+fancy_name: clef_auto_assign
+function_name: clef_auto_assign
+file_name: clef_auto_assign
 qualified_name: nda::clef_auto_assign
 namespaces: [nda]
 includer: nda/nda.hpp
@@ -47,4 +49,5 @@ permalink: /cpp-api/nda/clef_auto_assign
 title: nda::clef_auto_assign
 parent: nda
 ...
+
 

@@ -16,6 +16,7 @@ namespaces:
   - concept_impl
   - slice_static
   - blas
+concepts: [Array, ArrayOfRank, ArrayInitializer]
 classes:
   - layout_info_t
   - default_accessor
@@ -69,9 +70,6 @@ functions:
   - for_each
   - static_extents
   - <deduction guide for basic_array>
-  - Array
-  - ArrayOfRank
-  - ArrayInitializer
   - map_layout_transform
   - make_regular
   - resize_or_check_if_view
@@ -133,4 +131,5 @@ functions:
   - min_element
   - sum
 ...
+
 

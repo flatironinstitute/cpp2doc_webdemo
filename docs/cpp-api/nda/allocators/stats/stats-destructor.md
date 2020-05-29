@@ -1,7 +1,9 @@
 ---
 # Do not edit this first section
 layout: function
-short_name: ~stats<A>
+fancy_name: (destructor)
+function_name: ~stats<A>
+file_name: stats-destructor
 qualified_name: nda::allocators::stats::~stats<A>
 namespaces: [nda, allocators, stats]
 includer: nda/nda.hpp
@@ -38,8 +40,9 @@ example:
 see-also: []
 
 # ---------- DO NOT EDIT BELOW --------
-permalink: /cpp-api/nda/allocators/stats/~stats<A>-destructor
+permalink: /cpp-api/nda/allocators/stats/stats-destructor
 title: nda::allocators::stats::~stats<A>
 parent: nda::allocators::stats
 ...
+
 

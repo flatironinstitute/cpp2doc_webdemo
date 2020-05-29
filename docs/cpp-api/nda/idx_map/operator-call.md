@@ -1,36 +1,37 @@
 ---
 # Do not edit this first section
 layout: function
-short_name: operator[]
-qualified_name: nda::mem::handle_heap::operator[]
-namespaces: [nda, mem, handle_heap]
+fancy_name: operator()
+function_name: operator()
+file_name: operator-call
+qualified_name: nda::idx_map::operator()
+namespaces: [nda, idx_map]
 includer: nda/nda.hpp
 
 # Brief description. One line only.
-brief: ""
+brief: Number of variables must be exactly the rank or are optionally
 
 # List of overloads. Edit only the desc
 overloads:
 
-  - signature: T & operator[](long i) noexcept
-    desc: ""
-
-  - signature: T const & operator[](long i) noexcept const
-    desc: ""
+  - signature: |
+      template <typename Args>
+      long operator()(const Args &... args) noexcept(true) const
+    desc: Number of variables must be exactly the rank or are optionally
 
 # Long description. Any Markdown, with code, latex, multiline with |
-desc: ""
+desc: checked at runtime
 
 # Parameters of the function. Edit only the description after the :
 params:
-  i: __MISSING__
+  args: __MISSING__
 
 # Template parameters of the function. Edit only the description after the :
 tparams:
-  {}
+  Args: __MISSING__
 
 # Desc of the return value
-return_value: __MISSING__
+return_value: ":        the linear position"
 
 # Code example. desc: any markdown to explain it.
 example:
@@ -41,8 +42,9 @@ example:
 see-also: []
 
 # ---------- DO NOT EDIT BELOW --------
-permalink: /cpp-api/nda/mem/handle_heap/operator[]
-title: nda::mem::handle_heap::operator[]
-parent: nda::mem::handle_heap
+permalink: /cpp-api/nda/idx_map/operator-call
+title: nda::idx_map::operator()
+parent: nda::idx_map
 ...
+
 

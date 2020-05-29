@@ -1,7 +1,9 @@
 ---
 # Do not edit this first section
 layout: function
-short_name: min_element
+fancy_name: min_element
+function_name: min_element
+file_name: min_element
 qualified_name: nda::min_element
 namespaces: [nda]
 includer: nda/nda.hpp
@@ -44,4 +46,5 @@ permalink: /cpp-api/nda/min_element
 title: nda::min_element
 parent: nda
 ...
+
 

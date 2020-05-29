@@ -1,7 +1,9 @@
 ---
 # Do not edit this first section
 layout: function
-short_name: sin
+fancy_name: sin
+function_name: sin
+file_name: sin
 qualified_name: nda::sin
 namespaces: [nda]
 includer: nda/nda.hpp
@@ -45,4 +47,5 @@ permalink: /cpp-api/nda/sin
 title: nda::sin
 parent: nda
 ...
+
 

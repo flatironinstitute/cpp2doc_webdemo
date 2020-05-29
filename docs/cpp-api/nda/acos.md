@@ -1,7 +1,9 @@
 ---
 # Do not edit this first section
 layout: function
-short_name: acos
+fancy_name: acos
+function_name: acos
+file_name: acos
 qualified_name: nda::acos
 namespaces: [nda]
 includer: nda/nda.hpp
@@ -45,4 +47,5 @@ permalink: /cpp-api/nda/acos
 title: nda::acos
 parent: nda
 ...
+
 

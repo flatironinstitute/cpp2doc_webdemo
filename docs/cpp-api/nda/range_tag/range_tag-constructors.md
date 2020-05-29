@@ -1,7 +1,9 @@
 ---
 # Do not edit this first section
 layout: function
-short_name: range_tag
+fancy_name: (constructors)
+function_name: range_tag
+file_name: range_tag-constructors
 qualified_name: nda::range_tag::range_tag
 namespaces: [nda, range_tag]
 includer: nda/nda.hpp
@@ -48,4 +50,5 @@ permalink: /cpp-api/nda/range_tag/range_tag-constructors
 title: nda::range_tag::range_tag
 parent: nda::range_tag
 ...
+
 

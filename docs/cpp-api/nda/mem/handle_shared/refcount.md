@@ -1,7 +1,9 @@
 ---
 # Do not edit this first section
 layout: function
-short_name: refcount
+fancy_name: refcount
+function_name: refcount
+file_name: refcount
 qualified_name: nda::mem::handle_shared::refcount
 namespaces: [nda, mem, handle_shared]
 includer: nda/nda.hpp
@@ -42,4 +44,5 @@ permalink: /cpp-api/nda/mem/handle_shared/refcount
 title: nda::mem::handle_shared::refcount
 parent: nda::mem::handle_shared
 ...
+
 

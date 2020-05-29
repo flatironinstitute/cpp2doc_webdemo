@@ -1,7 +1,9 @@
 ---
 # Do not edit this first section
 layout: function
-short_name: sum
+fancy_name: sum
+function_name: sum
+file_name: sum
 qualified_name: nda::sum
 namespaces: [nda]
 includer: nda/nda.hpp
@@ -44,4 +46,5 @@ permalink: /cpp-api/nda/sum
 title: nda::sum
 parent: nda
 ...
+
 

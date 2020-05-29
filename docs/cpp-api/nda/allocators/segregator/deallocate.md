@@ -1,7 +1,9 @@
 ---
 # Do not edit this first section
 layout: function
-short_name: deallocate
+fancy_name: deallocate
+function_name: deallocate
+file_name: deallocate
 qualified_name: nda::allocators::segregator::deallocate
 namespaces: [nda, allocators, segregator]
 includer: nda/nda.hpp
@@ -42,4 +44,5 @@ permalink: /cpp-api/nda/allocators/segregator/deallocate
 title: nda::allocators::segregator::deallocate
 parent: nda::allocators::segregator
 ...
+
 

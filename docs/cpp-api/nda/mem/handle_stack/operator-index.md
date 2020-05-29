@@ -1,9 +1,11 @@
 ---
 # Do not edit this first section
 layout: function
-short_name: operator[]
-qualified_name: nda::mem::handle_shared::operator[]
-namespaces: [nda, mem, handle_shared]
+fancy_name: operator[]
+function_name: operator[]
+file_name: operator-index
+qualified_name: nda::mem::handle_stack::operator[]
+namespaces: [nda, mem, handle_stack]
 includer: nda/nda.hpp
 
 # Brief description. One line only.
@@ -41,8 +43,9 @@ example:
 see-also: []
 
 # ---------- DO NOT EDIT BELOW --------
-permalink: /cpp-api/nda/mem/handle_shared/operator[]
-title: nda::mem::handle_shared::operator[]
-parent: nda::mem::handle_shared
+permalink: /cpp-api/nda/mem/handle_stack/operator-index
+title: nda::mem::handle_stack::operator[]
+parent: nda::mem::handle_stack
 ...
+
 

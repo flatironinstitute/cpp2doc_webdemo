@@ -1,7 +1,9 @@
 ---
 # Do not edit this first section
 layout: function
-short_name: is_stride_order_Fortran
+fancy_name: is_stride_order_Fortran
+function_name: is_stride_order_Fortran
+file_name: is_stride_order_Fortran
 qualified_name: nda::basic_array::is_stride_order_Fortran
 namespaces: [nda, basic_array]
 includer: nda/nda.hpp
@@ -42,4 +44,5 @@ permalink: /cpp-api/nda/basic_array/is_stride_order_Fortran
 title: nda::basic_array::is_stride_order_Fortran
 parent: nda::basic_array
 ...
+
 

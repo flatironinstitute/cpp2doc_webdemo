@@ -9,6 +9,7 @@ parent: nda
 title: nda::slice_static
 has_children: true
 namespaces: [impl]
+concepts: []
 classes: []
 functions:
   - ellipsis_position
@@ -23,4 +24,5 @@ functions:
   - get_s
   - slice_stride_order
 ...
+
 

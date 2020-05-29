@@ -1,7 +1,9 @@
 ---
 # Do not edit this first section
 layout: function
-short_name: atan
+fancy_name: atan
+function_name: atan
+file_name: atan
 qualified_name: nda::atan
 namespaces: [nda]
 includer: nda/nda.hpp
@@ -45,4 +47,5 @@ permalink: /cpp-api/nda/atan
 title: nda::atan
 parent: nda
 ...
+
 

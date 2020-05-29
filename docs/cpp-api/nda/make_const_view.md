@@ -1,7 +1,9 @@
 ---
 # Do not edit this first section
 layout: function
-short_name: make_const_view
+fancy_name: make_const_view
+function_name: make_const_view
+file_name: make_const_view
 qualified_name: nda::make_const_view
 namespaces: [nda]
 includer: nda/nda.hpp
@@ -55,4 +57,5 @@ permalink: /cpp-api/nda/make_const_view
 title: nda::make_const_view
 parent: nda
 ...
+
 

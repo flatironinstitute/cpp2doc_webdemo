@@ -1,9 +1,11 @@
 ---
 # Do not edit this first section
 layout: function
-short_name: operator()
-qualified_name: nda::basic_array_view::operator()
-namespaces: [nda, basic_array_view]
+fancy_name: operator[]
+function_name: operator[]
+file_name: operator-index
+qualified_name: nda::basic_array::operator[]
+namespaces: [nda, basic_array]
 includer: nda/nda.hpp
 
 # Brief description. One line only.
@@ -14,17 +16,17 @@ overloads:
 
   - signature: |
       template <typename T>
-      decltype(auto) operator()(const T &... x) noexcept(has_no_boundcheck) const &
+      decltype(auto) operator[](T const & x) noexcept(has_no_boundcheck) const &
     desc: Access the array, make a lazy expression or slice of it depending on the arguments
 
   - signature: |
       template <typename T>
-      decltype(auto) operator()(const T &... x) noexcept(has_no_boundcheck) &
+      decltype(auto) operator[](T const & x) noexcept(has_no_boundcheck) &
     desc: ""
 
   - signature: |
       template <typename T>
-      decltype(auto) operator()(const T &... x) noexcept(has_no_boundcheck) &&
+      decltype(auto) operator[](T const & x) noexcept(has_no_boundcheck) &&
     desc: ""
 
 # Long description. Any Markdown, with code, latex, multiline with |
@@ -50,8 +52,9 @@ example:
 see-also: []
 
 # ---------- DO NOT EDIT BELOW --------
-permalink: /cpp-api/nda/basic_array_view/operator()
-title: nda::basic_array_view::operator()
-parent: nda::basic_array_view
+permalink: /cpp-api/nda/basic_array/operator-index
+title: nda::basic_array::operator[]
+parent: nda::basic_array
 ...
+
 

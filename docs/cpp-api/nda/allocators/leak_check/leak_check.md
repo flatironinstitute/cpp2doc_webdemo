@@ -21,8 +21,8 @@ desc: ""
 
 # A list of methods. You can reorder, regroup into a dict : groupname -> list
 methods:
-  - (constructors)
-  - (destructor)
+  - leak_check-constructors
+  - leak_check-destructor
   - operator=
   - empty
   - allocate
@@ -49,4 +49,5 @@ source: nda/storage/allocators.hpp
 parent: nda::allocators
 has_children: true
 ...
+
 

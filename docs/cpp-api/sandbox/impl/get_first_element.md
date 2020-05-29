@@ -1,7 +1,9 @@
 ---
 # Do not edit this first section
 layout: function
-short_name: get_first_element
+fancy_name: get_first_element
+function_name: get_first_element
+file_name: get_first_element
 qualified_name: sandbox::impl::get_first_element
 namespaces: [sandbox, impl]
 includer: ""

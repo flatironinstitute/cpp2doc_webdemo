@@ -1,7 +1,9 @@
 ---
 # Do not edit this first section
 layout: function
-short_name: operator=
+fancy_name: operator=
+function_name: operator=
+file_name: operator=
 qualified_name: nda::allocators::leak_check::operator=
 namespaces: [nda, allocators, leak_check]
 includer: nda/nda.hpp
@@ -45,4 +47,5 @@ permalink: /cpp-api/nda/allocators/leak_check/operator=
 title: nda::allocators::leak_check::operator=
 parent: nda::allocators::leak_check
 ...
+
 

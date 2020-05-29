@@ -1,7 +1,9 @@
 ---
 # Do not edit this first section
 layout: function
-short_name: pop
+fancy_name: pop
+function_name: pop
+file_name: pop
 qualified_name: nda::pop
 namespaces: [nda]
 includer: nda/nda.hpp
@@ -45,4 +47,5 @@ permalink: /cpp-api/nda/pop
 title: nda::pop
 parent: nda
 ...
+
 

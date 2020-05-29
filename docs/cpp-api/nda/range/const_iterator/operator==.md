@@ -1,7 +1,9 @@
 ---
 # Do not edit this first section
 layout: function
-short_name: operator==
+fancy_name: operator==
+function_name: operator==
+file_name: operator==
 qualified_name: nda::range::const_iterator::operator==
 namespaces: [nda, range, const_iterator]
 includer: nda/nda.hpp
@@ -42,4 +44,5 @@ permalink: /cpp-api/nda/range/const_iterator/operator==
 title: nda::range::const_iterator::operator==
 parent: nda::range::const_iterator
 ...
+
 

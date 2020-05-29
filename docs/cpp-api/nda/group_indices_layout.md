@@ -1,7 +1,9 @@
 ---
 # Do not edit this first section
 layout: function
-short_name: group_indices_layout
+fancy_name: group_indices_layout
+function_name: group_indices_layout
+file_name: group_indices_layout
 qualified_name: nda::group_indices_layout
 namespaces: [nda]
 includer: nda/nda.hpp
@@ -48,4 +50,5 @@ permalink: /cpp-api/nda/group_indices_layout
 title: nda::group_indices_layout
 parent: nda
 ...
+
 

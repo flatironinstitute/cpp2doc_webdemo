@@ -1,7 +1,9 @@
 ---
 # Do not edit this first section
 layout: function
-short_name: for_each
+fancy_name: for_each
+function_name: for_each
+file_name: for_each
 qualified_name: nda::for_each
 namespaces: [nda]
 includer: nda/nda.hpp
@@ -46,4 +48,5 @@ permalink: /cpp-api/nda/for_each
 title: nda::for_each
 parent: nda
 ...
+
 

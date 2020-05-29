@@ -1,7 +1,9 @@
 ---
 # Do not edit this first section
 layout: function
-short_name: allocate
+fancy_name: allocate
+function_name: allocate
+file_name: allocate
 qualified_name: nda::mem::allocator_singleton::allocate
 namespaces: [nda, mem, allocator_singleton]
 includer: nda/nda.hpp
@@ -45,4 +47,5 @@ permalink: /cpp-api/nda/mem/allocator_singleton/allocate
 title: nda::mem::allocator_singleton::allocate
 parent: nda::mem::allocator_singleton
 ...
+
 

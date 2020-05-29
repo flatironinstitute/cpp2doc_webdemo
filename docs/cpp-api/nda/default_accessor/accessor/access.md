@@ -1,7 +1,9 @@
 ---
 # Do not edit this first section
 layout: function
-short_name: access
+fancy_name: access
+function_name: access
+file_name: access
 qualified_name: nda::default_accessor::accessor::access
 namespaces: [nda, default_accessor, accessor]
 includer: nda/nda.hpp
@@ -43,4 +45,5 @@ permalink: /cpp-api/nda/default_accessor/accessor/access
 title: nda::default_accessor::accessor::access
 parent: nda::default_accessor::accessor
 ...
+
 

@@ -1,7 +1,9 @@
 ---
 # Do not edit this first section
 layout: function
-short_name: index_from_stride_order
+fancy_name: index_from_stride_order
+function_name: index_from_stride_order
+file_name: index_from_stride_order
 qualified_name: nda::details::index_from_stride_order
 namespaces: [nda, details]
 includer: nda/nda.hpp
@@ -45,4 +47,5 @@ permalink: /cpp-api/nda/details/index_from_stride_order
 title: nda::details::index_from_stride_order
 parent: nda::details
 ...
+
 

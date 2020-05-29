@@ -1,7 +1,9 @@
 ---
 # Do not edit this first section
 layout: function
-short_name: ~rtable_t
+fancy_name: (destructor)
+function_name: ~rtable_t
+file_name: rtable_t-destructor
 qualified_name: nda::mem::rtable_t::~rtable_t
 namespaces: [nda, mem, rtable_t]
 includer: nda/nda.hpp
@@ -38,8 +40,9 @@ example:
 see-also: []
 
 # ---------- DO NOT EDIT BELOW --------
-permalink: /cpp-api/nda/mem/rtable_t/~rtable_t-destructor
+permalink: /cpp-api/nda/mem/rtable_t/rtable_t-destructor
 title: nda::mem::rtable_t::~rtable_t
 parent: nda::mem::rtable_t
 ...
+
 

@@ -1,10 +1,12 @@
 ---
 # Do not edit this first section
 layout: function
-short_name: operator()
-qualified_name: sandbox::myarray::operator()
-namespaces: [sandbox, myarray]
-includer: ""
+fancy_name: operator[]
+function_name: operator[]
+file_name: operator-index
+qualified_name: nda::mem::handle_borrowed::operator[]
+namespaces: [nda, mem, handle_borrowed]
+includer: nda/nda.hpp
 
 # Brief description. One line only.
 brief: ""
@@ -12,7 +14,10 @@ brief: ""
 # List of overloads. Edit only the desc
 overloads:
 
-  - signature: sandbox::myarray::value_t operator()(int i,   = ...)  const
+  - signature: T & operator[](long i) noexcept
+    desc: ""
+
+  - signature: T const & operator[](long i) noexcept const
     desc: ""
 
 # Long description. Any Markdown, with code, latex, multiline with |
@@ -38,8 +43,9 @@ example:
 see-also: []
 
 # ---------- DO NOT EDIT BELOW --------
-permalink: /cpp-api/sandbox/myarray/operator()
-title: sandbox::myarray::operator()
-parent: sandbox::myarray
+permalink: /cpp-api/nda/mem/handle_borrowed/operator-index
+title: nda::mem::handle_borrowed::operator[]
+parent: nda::mem::handle_borrowed
 ...
+
 

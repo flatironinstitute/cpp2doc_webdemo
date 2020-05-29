@@ -1,7 +1,9 @@
 ---
 # Do not edit this first section
 layout: function
-short_name: ~blk_t
+fancy_name: (destructor)
+function_name: ~blk_t
+file_name: blk_t-destructor
 qualified_name: nda::allocators::blk_t::~blk_t
 namespaces: [nda, allocators, blk_t]
 includer: nda/nda.hpp
@@ -38,8 +40,9 @@ example:
 see-also: []
 
 # ---------- DO NOT EDIT BELOW --------
-permalink: /cpp-api/nda/allocators/blk_t/~blk_t-destructor
+permalink: /cpp-api/nda/allocators/blk_t/blk_t-destructor
 title: nda::allocators::blk_t::~blk_t
 parent: nda::allocators::blk_t
 ...
+
 

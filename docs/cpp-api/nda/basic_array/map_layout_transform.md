@@ -1,7 +1,9 @@
 ---
 # Do not edit this first section
 layout: function
-short_name: map_layout_transform
+fancy_name: map_layout_transform
+function_name: map_layout_transform
+file_name: map_layout_transform
 qualified_name: nda::map_layout_transform
 namespaces: [nda, basic_array]
 includer: nda/nda.hpp
@@ -50,4 +52,5 @@ permalink: /cpp-api/nda/basic_array/map_layout_transform
 title: nda::map_layout_transform
 parent: nda::basic_array
 ...
+
 

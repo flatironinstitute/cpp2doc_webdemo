@@ -1,7 +1,9 @@
 ---
 # Do not edit this first section
 layout: function
-short_name: cosh
+fancy_name: cosh
+function_name: cosh
+file_name: cosh
 qualified_name: nda::cosh
 namespaces: [nda]
 includer: nda/nda.hpp
@@ -45,4 +47,5 @@ permalink: /cpp-api/nda/cosh
 title: nda::cosh
 parent: nda
 ...
+
 

@@ -1,7 +1,9 @@
 ---
 # Do not edit this first section
 layout: function
-short_name: blk_t
+fancy_name: (constructors)
+function_name: blk_t
+file_name: blk_t-constructors
 qualified_name: nda::allocators::blk_t::blk_t
 namespaces: [nda, allocators, blk_t]
 includer: nda/nda.hpp
@@ -48,4 +50,5 @@ permalink: /cpp-api/nda/allocators/blk_t/blk_t-constructors
 title: nda::allocators::blk_t::blk_t
 parent: nda::allocators::blk_t
 ...
+
 

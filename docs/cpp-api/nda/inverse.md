@@ -1,7 +1,9 @@
 ---
 # Do not edit this first section
 layout: function
-short_name: inverse
+fancy_name: inverse
+function_name: inverse
+file_name: inverse
 qualified_name: nda::inverse
 namespaces: [nda]
 includer: nda/nda.hpp
@@ -45,4 +47,5 @@ permalink: /cpp-api/nda/inverse
 title: nda::inverse
 parent: nda
 ...
+
 

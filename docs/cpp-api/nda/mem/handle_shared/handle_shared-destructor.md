@@ -1,7 +1,9 @@
 ---
 # Do not edit this first section
 layout: function
-short_name: ~handle_shared<T>
+fancy_name: (destructor)
+function_name: ~handle_shared<T>
+file_name: handle_shared-destructor
 qualified_name: nda::mem::handle_shared::~handle_shared<T>
 namespaces: [nda, mem, handle_shared]
 includer: nda/nda.hpp
@@ -38,8 +40,9 @@ example:
 see-also: []
 
 # ---------- DO NOT EDIT BELOW --------
-permalink: /cpp-api/nda/mem/handle_shared/~handle_shared<T>-destructor
+permalink: /cpp-api/nda/mem/handle_shared/handle_shared-destructor
 title: nda::mem::handle_shared::~handle_shared<T>
 parent: nda::mem::handle_shared
 ...
+
 

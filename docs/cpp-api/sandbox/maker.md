@@ -1,7 +1,9 @@
 ---
 # Do not edit this first section
 layout: function
-short_name: maker
+fancy_name: maker
+function_name: maker
+file_name: maker
 qualified_name: sandbox::maker
 namespaces: [sandbox]
 includer: ""

@@ -1,7 +1,9 @@
 ---
 # Do not edit this first section
 layout: function
-short_name: refcounts
+fancy_name: refcounts
+function_name: refcounts
+file_name: refcounts
 qualified_name: nda::mem::rtable_t::refcounts
 namespaces: [nda, mem, rtable_t]
 includer: nda/nda.hpp
@@ -42,4 +44,5 @@ permalink: /cpp-api/nda/mem/rtable_t/refcounts
 title: nda::mem::rtable_t::refcounts
 parent: nda::mem::rtable_t
 ...
+
 

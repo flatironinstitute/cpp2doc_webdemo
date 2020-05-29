@@ -56,7 +56,7 @@ example:
       std::vector<nda1::array> V{{1, 2}, {2, 3}};
 
 # A list of related functions/classes
-see-also: [nda1::array_view]
+see-also: [/cpp-api/nda1/array_view]
 
 # ---------- DO NOT EDIT BELOW --------
 permalink: /cpp-api/nda1/array

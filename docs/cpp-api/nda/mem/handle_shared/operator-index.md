@@ -1,9 +1,11 @@
 ---
 # Do not edit this first section
 layout: function
-short_name: operator[]
-qualified_name: nda::scalar_matrix::operator[]
-namespaces: [nda, scalar_matrix]
+fancy_name: operator[]
+function_name: operator[]
+file_name: operator-index
+qualified_name: nda::mem::handle_shared::operator[]
+namespaces: [nda, mem, handle_shared]
 includer: nda/nda.hpp
 
 # Brief description. One line only.
@@ -12,9 +14,10 @@ brief: ""
 # List of overloads. Edit only the desc
 overloads:
 
-  - signature: |
-      template <typename T>
-      S operator[](T && )  const
+  - signature: T & operator[](long i) noexcept
+    desc: ""
+
+  - signature: T const & operator[](long i) noexcept const
     desc: ""
 
 # Long description. Any Markdown, with code, latex, multiline with |
@@ -22,11 +25,11 @@ desc: ""
 
 # Parameters of the function. Edit only the description after the :
 params:
-  {}
+  i: __MISSING__
 
 # Template parameters of the function. Edit only the description after the :
 tparams:
-  T: __MISSING__
+  {}
 
 # Desc of the return value
 return_value: __MISSING__
@@ -40,8 +43,9 @@ example:
 see-also: []
 
 # ---------- DO NOT EDIT BELOW --------
-permalink: /cpp-api/nda/scalar_matrix/operator[]
-title: nda::scalar_matrix::operator[]
-parent: nda::scalar_matrix
+permalink: /cpp-api/nda/mem/handle_shared/operator-index
+title: nda::mem::handle_shared::operator[]
+parent: nda::mem::handle_shared
 ...
+
 

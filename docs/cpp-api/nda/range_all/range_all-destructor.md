@@ -1,7 +1,9 @@
 ---
 # Do not edit this first section
 layout: function
-short_name: ~range_all
+fancy_name: (destructor)
+function_name: ~range_all
+file_name: range_all-destructor
 qualified_name: nda::range_all::~range_all
 namespaces: [nda, range_all]
 includer: nda/nda.hpp
@@ -38,8 +40,9 @@ example:
 see-also: []
 
 # ---------- DO NOT EDIT BELOW --------
-permalink: /cpp-api/nda/range_all/~range_all-destructor
+permalink: /cpp-api/nda/range_all/range_all-destructor
 title: nda::range_all::~range_all
 parent: nda::range_all
 ...
+
 

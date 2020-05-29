@@ -1,11 +1,11 @@
 ---
 # Do not edit this first section
 layout: function
-fancy_name: deallocate
-function_name: deallocate
-file_name: deallocate
-qualified_name: nda::allocators::bucket::deallocate
-namespaces: [nda, allocators, bucket]
+fancy_name: operator()
+function_name: operator()
+file_name: operator-call
+qualified_name: nda::array_adapter::operator()
+namespaces: [nda, array_adapter]
 includer: nda/nda.hpp
 
 # Brief description. One line only.
@@ -14,7 +14,9 @@ brief: ""
 # List of overloads. Edit only the desc
 overloads:
 
-  - signature: void deallocate(struct nda::allocators::blk_t b) noexcept
+  - signature: |
+      template <typename Long>
+      auto operator()(long i, Long... is)  const
     desc: ""
 
 # Long description. Any Markdown, with code, latex, multiline with |
@@ -22,11 +24,12 @@ desc: ""
 
 # Parameters of the function. Edit only the description after the :
 params:
-  b: __MISSING__
+  i: __MISSING__
+  is: __MISSING__
 
 # Template parameters of the function. Edit only the description after the :
 tparams:
-  {}
+  Long: __MISSING__
 
 # Desc of the return value
 return_value: __MISSING__
@@ -40,9 +43,9 @@ example:
 see-also: []
 
 # ---------- DO NOT EDIT BELOW --------
-permalink: /cpp-api/nda/allocators/bucket/deallocate
-title: nda::allocators::bucket::deallocate
-parent: nda::allocators::bucket
+permalink: /cpp-api/nda/array_adapter/operator-call
+title: nda::array_adapter::operator()
+parent: nda::array_adapter
 ...
 
 

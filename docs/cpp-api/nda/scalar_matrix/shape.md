@@ -1,7 +1,9 @@
 ---
 # Do not edit this first section
 layout: function
-short_name: shape
+fancy_name: shape
+function_name: shape
+file_name: shape
 qualified_name: nda::scalar_matrix::shape
 namespaces: [nda, scalar_matrix]
 includer: nda/nda.hpp
@@ -42,4 +44,5 @@ permalink: /cpp-api/nda/scalar_matrix/shape
 title: nda::scalar_matrix::shape
 parent: nda::scalar_matrix
 ...
+
 

@@ -15,8 +15,8 @@ desc: ""
 
 # A list of methods. You can reorder, regroup into a dict : groupname -> list
 methods:
-  - (constructors)
-  - (destructor)
+  - range-constructors
+  - range-destructor
   - first
   - last
   - step
@@ -44,4 +44,5 @@ source: nda/layout/range.hpp
 parent: nda
 has_children: true
 ...
+
 

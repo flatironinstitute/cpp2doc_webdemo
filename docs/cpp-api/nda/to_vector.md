@@ -1,7 +1,9 @@
 ---
 # Do not edit this first section
 layout: function
-short_name: to_vector
+fancy_name: to_vector
+function_name: to_vector
+file_name: to_vector
 qualified_name: nda::to_vector
 namespaces: [nda]
 includer: nda/nda.hpp
@@ -45,4 +47,5 @@ permalink: /cpp-api/nda/to_vector
 title: nda::to_vector
 parent: nda
 ...
+
 

@@ -22,3 +22,4 @@ source: nda/blas/tools.hpp
 parent: nda::blas
 ...
 
+

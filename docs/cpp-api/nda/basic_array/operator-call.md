@@ -1,7 +1,9 @@
 ---
 # Do not edit this first section
 layout: function
-short_name: operator()
+fancy_name: operator()
+function_name: operator()
+file_name: operator-call
 qualified_name: nda::basic_array::operator()
 namespaces: [nda, basic_array]
 includer: nda/nda.hpp
@@ -50,8 +52,9 @@ example:
 see-also: []
 
 # ---------- DO NOT EDIT BELOW --------
-permalink: /cpp-api/nda/basic_array/operator()
+permalink: /cpp-api/nda/basic_array/operator-call
 title: nda::basic_array::operator()
 parent: nda::basic_array
 ...
+
 

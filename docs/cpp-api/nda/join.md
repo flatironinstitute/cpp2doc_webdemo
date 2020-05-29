@@ -1,7 +1,9 @@
 ---
 # Do not edit this first section
 layout: function
-short_name: join
+fancy_name: join
+function_name: join
+file_name: join
 qualified_name: nda::join
 namespaces: [nda]
 includer: nda/nda.hpp
@@ -47,4 +49,5 @@ permalink: /cpp-api/nda/join
 title: nda::join
 parent: nda
 ...
+
 

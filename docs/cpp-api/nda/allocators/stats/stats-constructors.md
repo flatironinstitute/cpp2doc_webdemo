@@ -1,7 +1,9 @@
 ---
 # Do not edit this first section
 layout: function
-short_name: stats
+fancy_name: (constructors)
+function_name: stats
+file_name: stats-constructors
 qualified_name: nda::allocators::stats::stats<A>
 namespaces: [nda, allocators, stats]
 includer: nda/nda.hpp
@@ -48,4 +50,5 @@ permalink: /cpp-api/nda/allocators/stats/stats-constructors
 title: nda::allocators::stats::stats<A>
 parent: nda::allocators::stats
 ...
+
 

@@ -14,7 +14,7 @@ brief: ""
 desc: ""
 
 # A list of methods. You can reorder, regroup into a dict : groupname -> list
-methods: [(constructors), (destructor), operator=]
+methods: [blk_t-constructors, blk_t-destructor, operator=]
 
 # A list of non_member_functions
 non_member_functions: []
@@ -43,4 +43,5 @@ source: nda/storage/blk.hpp
 parent: nda::allocators
 has_children: true
 ...
+
 

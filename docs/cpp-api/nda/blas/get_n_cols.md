@@ -1,7 +1,9 @@
 ---
 # Do not edit this first section
 layout: function
-short_name: get_n_cols
+fancy_name: get_n_cols
+function_name: get_n_cols
+file_name: get_n_cols
 qualified_name: nda::blas::get_n_cols
 namespaces: [nda, blas]
 includer: nda/nda.hpp
@@ -44,4 +46,5 @@ permalink: /cpp-api/nda/blas/get_n_cols
 title: nda::blas::get_n_cols
 parent: nda::blas
 ...
+
 

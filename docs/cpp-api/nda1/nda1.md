@@ -9,6 +9,7 @@ parent: C++ API
 title: nda1
 has_children: true
 namespaces: []
+concepts: []
 classes: [array, array_view]
 functions: [make_view]
 ...

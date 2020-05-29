@@ -1,7 +1,9 @@
 ---
 # Do not edit this first section
 layout: function
-short_name: tan
+fancy_name: tan
+function_name: tan
+file_name: tan
 qualified_name: nda::tan
 namespaces: [nda]
 includer: nda/nda.hpp
@@ -45,4 +47,5 @@ permalink: /cpp-api/nda/tan
 title: nda::tan
 parent: nda
 ...
+
 

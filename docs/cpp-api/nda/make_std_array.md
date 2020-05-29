@@ -1,7 +1,9 @@
 ---
 # Do not edit this first section
 layout: function
-short_name: make_std_array
+fancy_name: make_std_array
+function_name: make_std_array
+file_name: make_std_array
 qualified_name: nda::make_std_array
 namespaces: [nda]
 includer: nda/nda.hpp
@@ -46,4 +48,5 @@ permalink: /cpp-api/nda/make_std_array
 title: nda::make_std_array
 parent: nda
 ...
+
 

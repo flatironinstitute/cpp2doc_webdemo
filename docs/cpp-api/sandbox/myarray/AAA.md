@@ -1,7 +1,9 @@
 ---
 # Do not edit this first section
 layout: function
-short_name: AAA
+fancy_name: AAA
+function_name: AAA
+file_name: AAA
 qualified_name: sandbox::myarray::AAA
 namespaces: [sandbox, myarray]
 includer: ""

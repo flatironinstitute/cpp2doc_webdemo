@@ -1,7 +1,9 @@
 ---
 # Do not edit this first section
 layout: function
-short_name: sqrt
+fancy_name: sqrt
+function_name: sqrt
+file_name: sqrt
 qualified_name: nda::sqrt
 namespaces: [nda]
 includer: nda/nda.hpp
@@ -45,4 +47,5 @@ permalink: /cpp-api/nda/sqrt
 title: nda::sqrt
 parent: nda
 ...
+
 

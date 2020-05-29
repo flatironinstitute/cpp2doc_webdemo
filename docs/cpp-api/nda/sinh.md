@@ -1,7 +1,9 @@
 ---
 # Do not edit this first section
 layout: function
-short_name: sinh
+fancy_name: sinh
+function_name: sinh
+file_name: sinh
 qualified_name: nda::sinh
 namespaces: [nda]
 includer: nda/nda.hpp
@@ -45,4 +47,5 @@ permalink: /cpp-api/nda/sinh
 title: nda::sinh
 parent: nda
 ...
+
 

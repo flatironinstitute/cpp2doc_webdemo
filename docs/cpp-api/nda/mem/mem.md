@@ -9,6 +9,7 @@ parent: nda
 title: nda::mem
 has_children: true
 namespaces: []
+concepts: []
 classes:
   - globals
   - rtable_t
@@ -24,4 +25,5 @@ classes:
   - handle_borrowed
 functions: []
 ...
+
 

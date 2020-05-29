@@ -1,7 +1,9 @@
 ---
 # Do not edit this first section
 layout: function
-short_name: get_s
+fancy_name: get_s
+function_name: get_s
+file_name: get_s
 qualified_name: nda::slice_static::get_s
 namespaces: [nda, slice_static]
 includer: nda/nda.hpp
@@ -46,4 +48,5 @@ permalink: /cpp-api/nda/slice_static/get_s
 title: nda::slice_static::get_s
 parent: nda::slice_static
 ...
+
 

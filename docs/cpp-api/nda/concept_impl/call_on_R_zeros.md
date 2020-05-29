@@ -1,7 +1,9 @@
 ---
 # Do not edit this first section
 layout: function
-short_name: call_on_R_zeros
+fancy_name: call_on_R_zeros
+function_name: call_on_R_zeros
+file_name: call_on_R_zeros
 qualified_name: nda::concept_impl::call_on_R_zeros
 namespaces: [nda, concept_impl]
 includer: nda/nda.hpp
@@ -45,4 +47,5 @@ permalink: /cpp-api/nda/concept_impl/call_on_R_zeros
 title: nda::concept_impl::call_on_R_zeros
 parent: nda::concept_impl
 ...
+
 

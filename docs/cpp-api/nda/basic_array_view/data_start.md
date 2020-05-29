@@ -1,7 +1,9 @@
 ---
 # Do not edit this first section
 layout: function
-short_name: data_start
+fancy_name: data_start
+function_name: data_start
+file_name: data_start
 qualified_name: nda::basic_array_view::data_start
 namespaces: [nda, basic_array_view]
 includer: nda/nda.hpp
@@ -45,4 +47,5 @@ permalink: /cpp-api/nda/basic_array_view/data_start
 title: nda::basic_array_view::data_start
 parent: nda::basic_array_view
 ...
+
 

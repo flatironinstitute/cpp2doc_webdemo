@@ -1,7 +1,9 @@
 ---
 # Do not edit this first section
 layout: function
-short_name: decref
+fancy_name: decref
+function_name: decref
+file_name: decref
 qualified_name: nda::mem::rtable_t::decref
 namespaces: [nda, mem, rtable_t]
 includer: nda/nda.hpp
@@ -42,4 +44,5 @@ permalink: /cpp-api/nda/mem/rtable_t/decref
 title: nda::mem::rtable_t::decref
 parent: nda::mem::rtable_t
 ...
+
 

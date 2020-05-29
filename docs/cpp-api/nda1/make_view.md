@@ -1,7 +1,9 @@
 ---
 # Do not edit this first section
 layout: function
-short_name: make_view
+fancy_name: make_view
+function_name: make_view
+file_name: make_view
 qualified_name: nda1::make_view
 namespaces: [nda1]
 includer: ""

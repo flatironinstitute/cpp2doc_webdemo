@@ -1,7 +1,9 @@
 ---
 # Do not edit this first section
 layout: function
-short_name: transpose
+fancy_name: transpose
+function_name: transpose
+file_name: transpose
 qualified_name: nda::transpose
 namespaces: [nda]
 includer: nda/nda.hpp
@@ -45,4 +47,5 @@ permalink: /cpp-api/nda/transpose
 title: nda::transpose
 parent: nda
 ...
+
 

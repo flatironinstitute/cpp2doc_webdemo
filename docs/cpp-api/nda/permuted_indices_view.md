@@ -1,7 +1,9 @@
 ---
 # Do not edit this first section
 layout: function
-short_name: permuted_indices_view
+fancy_name: permuted_indices_view
+function_name: permuted_indices_view
+file_name: permuted_indices_view
 qualified_name: nda::permuted_indices_view
 namespaces: [nda]
 includer: nda/nda.hpp
@@ -61,4 +63,5 @@ permalink: /cpp-api/nda/permuted_indices_view
 title: nda::permuted_indices_view
 parent: nda
 ...
+
 

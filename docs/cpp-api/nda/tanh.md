@@ -1,7 +1,9 @@
 ---
 # Do not edit this first section
 layout: function
-short_name: tanh
+fancy_name: tanh
+function_name: tanh
+file_name: tanh
 qualified_name: nda::tanh
 namespaces: [nda]
 includer: nda/nda.hpp
@@ -45,4 +47,5 @@ permalink: /cpp-api/nda/tanh
 title: nda::tanh
 parent: nda
 ...
+
 

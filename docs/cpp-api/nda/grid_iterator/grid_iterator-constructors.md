@@ -1,7 +1,9 @@
 ---
 # Do not edit this first section
 layout: function
-short_name: grid_iterator
+fancy_name: (constructors)
+function_name: grid_iterator
+file_name: grid_iterator-constructors
 qualified_name: nda::grid_iterator<1>::grid_iterator
 namespaces: [nda, grid_iterator]
 includer: nda/nda.hpp
@@ -59,4 +61,5 @@ permalink: /cpp-api/nda/grid_iterator/grid_iterator-constructors
 title: nda::grid_iterator<1>::grid_iterator
 parent: nda::grid_iterator
 ...
+
 

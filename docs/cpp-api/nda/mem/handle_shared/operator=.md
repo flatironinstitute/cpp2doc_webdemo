@@ -1,7 +1,9 @@
 ---
 # Do not edit this first section
 layout: function
-short_name: operator=
+fancy_name: operator=
+function_name: operator=
+file_name: operator=
 qualified_name: nda::mem::handle_shared::operator=
 namespaces: [nda, mem, handle_shared]
 includer: nda/nda.hpp
@@ -45,4 +47,5 @@ permalink: /cpp-api/nda/mem/handle_shared/operator=
 title: nda::mem::handle_shared::operator=
 parent: nda::mem::handle_shared
 ...
+
 

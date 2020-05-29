@@ -1,7 +1,9 @@
 ---
 # Do not edit this first section
 layout: function
-short_name: ellipsis
+fancy_name: (constructors)
+function_name: ellipsis
+file_name: ellipsis-constructors
 qualified_name: nda::ellipsis::ellipsis
 namespaces: [nda, ellipsis]
 includer: nda/nda.hpp
@@ -48,4 +50,5 @@ permalink: /cpp-api/nda/ellipsis/ellipsis-constructors
 title: nda::ellipsis::ellipsis
 parent: nda::ellipsis
 ...
+
 

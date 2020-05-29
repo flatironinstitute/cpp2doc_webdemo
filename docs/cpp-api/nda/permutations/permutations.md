@@ -9,6 +9,7 @@ parent: nda
 title: nda::permutations
 has_children: true
 namespaces: []
+concepts: []
 classes: []
 functions:
   - identity
@@ -17,4 +18,5 @@ functions:
   - apply
   - transposition
 ...
+
 

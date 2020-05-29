@@ -1,7 +1,9 @@
 ---
 # Do not edit this first section
 layout: function
-short_name: conj
+fancy_name: conj
+function_name: conj
+file_name: conj
 qualified_name: nda::conj
 namespaces: [nda]
 includer: nda/nda.hpp
@@ -45,4 +47,5 @@ permalink: /cpp-api/nda/conj
 title: nda::conj
 parent: nda
 ...
+
 

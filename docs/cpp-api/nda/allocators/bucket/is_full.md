@@ -1,7 +1,9 @@
 ---
 # Do not edit this first section
 layout: function
-short_name: is_full
+fancy_name: is_full
+function_name: is_full
+file_name: is_full
 qualified_name: nda::allocators::bucket::is_full
 namespaces: [nda, allocators, bucket]
 includer: nda/nda.hpp
@@ -42,4 +44,5 @@ permalink: /cpp-api/nda/allocators/bucket/is_full
 title: nda::allocators::bucket::is_full
 parent: nda::allocators::bucket
 ...
+
 

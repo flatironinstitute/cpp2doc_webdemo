@@ -30,7 +30,7 @@ desc: |
 
 # A list of methods. You can reorder, regroup into a dict : groupname -> list
 methods:
-  - (constructors)
+  - idx_map-constructors
   - rank
   - size
   - ce_size
@@ -41,7 +41,7 @@ methods:
   - is_stride_order_Fortran
   - min_stride
   - operator=
-  - operator()
+  - operator-call
   - operator==
   - transpose
 
@@ -63,4 +63,5 @@ source: nda/layout/idx_map.hpp
 parent: nda
 has_children: true
 ...
+
 

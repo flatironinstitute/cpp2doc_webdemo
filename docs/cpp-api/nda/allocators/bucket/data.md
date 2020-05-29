@@ -1,7 +1,9 @@
 ---
 # Do not edit this first section
 layout: function
-short_name: data
+fancy_name: data
+function_name: data
+file_name: data
 qualified_name: nda::allocators::bucket::data
 namespaces: [nda, allocators, bucket]
 includer: nda/nda.hpp
@@ -42,4 +44,5 @@ permalink: /cpp-api/nda/allocators/bucket/data
 title: nda::allocators::bucket::data
 parent: nda::allocators::bucket
 ...
+
 

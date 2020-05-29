@@ -1,7 +1,9 @@
 ---
 # Do not edit this first section
 layout: function
-short_name: data
+fancy_name: data
+function_name: data
+file_name: data
 qualified_name: nda::mem::handle_stack::data
 namespaces: [nda, mem, handle_stack]
 includer: nda/nda.hpp
@@ -42,4 +44,5 @@ permalink: /cpp-api/nda/mem/handle_stack/data
 title: nda::mem::handle_stack::data
 parent: nda::mem::handle_stack
 ...
+
 

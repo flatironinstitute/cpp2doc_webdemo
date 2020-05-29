@@ -1,7 +1,9 @@
 ---
 # Do not edit this first section
 layout: function
-short_name: get_extent
+fancy_name: get_extent
+function_name: get_extent
+file_name: get_extent
 qualified_name: nda::details::get_extent
 namespaces: [nda, details]
 includer: nda/nda.hpp
@@ -46,4 +48,5 @@ permalink: /cpp-api/nda/details/get_extent
 title: nda::details::get_extent
 parent: nda::details
 ...
+
 

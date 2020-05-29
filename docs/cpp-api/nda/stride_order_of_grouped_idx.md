@@ -1,7 +1,9 @@
 ---
 # Do not edit this first section
 layout: function
-short_name: stride_order_of_grouped_idx
+fancy_name: stride_order_of_grouped_idx
+function_name: stride_order_of_grouped_idx
+file_name: stride_order_of_grouped_idx
 qualified_name: nda::stride_order_of_grouped_idx
 namespaces: [nda]
 includer: nda/nda.hpp
@@ -46,4 +48,5 @@ permalink: /cpp-api/nda/stride_order_of_grouped_idx
 title: nda::stride_order_of_grouped_idx
 parent: nda
 ...
+
 

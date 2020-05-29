@@ -1,7 +1,9 @@
 ---
 # Do not edit this first section
 layout: function
-short_name: dot
+fancy_name: dot
+function_name: dot
+file_name: dot
 qualified_name: nda::blas::f77::dot
 namespaces: [nda, blas, f77]
 includer: nda/nda.hpp
@@ -46,4 +48,5 @@ permalink: /cpp-api/nda/blas/f77/dot
 title: nda::blas::f77::dot
 parent: nda::blas::f77
 ...
+
 

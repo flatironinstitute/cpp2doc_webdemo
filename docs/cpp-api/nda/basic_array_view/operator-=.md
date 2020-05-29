@@ -1,7 +1,9 @@
 ---
 # Do not edit this first section
 layout: function
-short_name: operator-=
+fancy_name: operator-=
+function_name: operator-=
+file_name: operator-=
 qualified_name: nda::basic_array_view::operator-=
 namespaces: [nda, basic_array_view]
 includer: nda/nda.hpp
@@ -44,4 +46,5 @@ permalink: /cpp-api/nda/basic_array_view/operator-=
 title: nda::basic_array_view::operator-=
 parent: nda::basic_array_view
 ...
+
 

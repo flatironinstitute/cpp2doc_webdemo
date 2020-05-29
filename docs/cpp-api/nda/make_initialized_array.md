@@ -1,7 +1,9 @@
 ---
 # Do not edit this first section
 layout: function
-short_name: make_initialized_array
+fancy_name: make_initialized_array
+function_name: make_initialized_array
+file_name: make_initialized_array
 qualified_name: nda::make_initialized_array
 namespaces: [nda]
 includer: nda/nda.hpp
@@ -45,4 +47,5 @@ permalink: /cpp-api/nda/make_initialized_array
 title: nda::make_initialized_array
 parent: nda
 ...
+
 

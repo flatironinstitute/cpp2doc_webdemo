@@ -1,7 +1,9 @@
 ---
 # Do not edit this first section
 layout: function
-short_name: apply_inverse
+fancy_name: apply_inverse
+function_name: apply_inverse
+file_name: apply_inverse
 qualified_name: nda::permutations::apply_inverse
 namespaces: [nda, permutations]
 includer: nda/nda.hpp
@@ -46,4 +48,5 @@ permalink: /cpp-api/nda/permutations/apply_inverse
 title: nda::permutations::apply_inverse
 parent: nda::permutations
 ...
+
 

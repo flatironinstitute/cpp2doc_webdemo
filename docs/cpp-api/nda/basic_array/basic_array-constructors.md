@@ -1,7 +1,9 @@
 ---
 # Do not edit this first section
 layout: function
-short_name: basic_array
+fancy_name: (constructors)
+function_name: basic_array
+file_name: basic_array-constructors
 qualified_name: nda::basic_array::basic_array<ValueType, Rank, Layout, Algebra, ContainerPolicy>
 namespaces: [nda, basic_array]
 includer: nda/nda.hpp
@@ -83,4 +85,5 @@ permalink: /cpp-api/nda/basic_array/basic_array-constructors
 title: nda::basic_array::basic_array<ValueType, Rank, Layout, Algebra, ContainerPolicy>
 parent: nda::basic_array
 ...
+
 

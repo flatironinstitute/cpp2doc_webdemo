@@ -26,7 +26,7 @@ desc: ""
 
 # A list of methods. You can reorder, regroup into a dict : groupname -> list
 methods:
-  - (constructors)
+  - basic_array_view-constructors
   - operator=
   - rebind
   - indexmap
@@ -38,8 +38,8 @@ methods:
   - extent
   - is_stride_order_C
   - is_stride_order_Fortran
-  - operator()
-  - operator[]
+  - operator-call
+  - operator-index
   - begin
   - cbegin
   - end
@@ -78,4 +78,5 @@ source: nda/basic_array_view.hpp
 parent: nda
 has_children: true
 ...
+
 

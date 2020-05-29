@@ -1,7 +1,9 @@
 ---
 # Do not edit this first section
 layout: function
-short_name: p_of_n_map
+fancy_name: p_of_n_map
+function_name: p_of_n_map
+file_name: p_of_n_map
 qualified_name: nda::slice_static::p_of_n_map
 namespaces: [nda, slice_static]
 includer: nda/nda.hpp
@@ -45,4 +47,5 @@ permalink: /cpp-api/nda/slice_static/p_of_n_map
 title: nda::slice_static::p_of_n_map
 parent: nda::slice_static
 ...
+
 

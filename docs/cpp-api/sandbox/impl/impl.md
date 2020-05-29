@@ -9,7 +9,8 @@ parent: sandbox
 title: sandbox::impl
 has_children: true
 namespaces: []
+concepts: [IsStdArrayOfLong, convertible_to]
 classes: []
-functions: [get_first_element, IsStdArrayOfLong, convertible_to]
+functions: [get_first_element]
 ...
 

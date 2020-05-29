@@ -1,7 +1,9 @@
 ---
 # Do not edit this first section
 layout: function
-short_name: encode
+fancy_name: encode
+function_name: encode
+file_name: encode
 qualified_name: nda::encode
 namespaces: [nda]
 includer: nda/nda.hpp
@@ -44,4 +46,5 @@ permalink: /cpp-api/nda/encode
 title: nda::encode
 parent: nda
 ...
+
 

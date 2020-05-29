@@ -1,7 +1,9 @@
 ---
 # Do not edit this first section
 layout: function
-short_name: sliced_mem_stride_order
+fancy_name: sliced_mem_stride_order
+function_name: sliced_mem_stride_order
+file_name: sliced_mem_stride_order
 qualified_name: nda::slice_static::sliced_mem_stride_order
 namespaces: [nda, slice_static]
 includer: nda/nda.hpp
@@ -46,4 +48,5 @@ permalink: /cpp-api/nda/slice_static/sliced_mem_stride_order
 title: nda::slice_static::sliced_mem_stride_order
 parent: nda::slice_static
 ...
+
 

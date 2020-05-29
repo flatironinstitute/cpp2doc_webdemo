@@ -1,7 +1,9 @@
 ---
 # Do not edit this first section
 layout: function
-short_name: dagger
+fancy_name: dagger
+function_name: dagger
+file_name: dagger
 qualified_name: nda::dagger
 namespaces: [nda]
 includer: nda/nda.hpp
@@ -44,4 +46,5 @@ permalink: /cpp-api/nda/dagger
 title: nda::dagger
 parent: nda
 ...
+
 

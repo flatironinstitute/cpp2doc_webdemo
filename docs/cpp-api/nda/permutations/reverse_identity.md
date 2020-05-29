@@ -1,7 +1,9 @@
 ---
 # Do not edit this first section
 layout: function
-short_name: reverse_identity
+fancy_name: reverse_identity
+function_name: reverse_identity
+file_name: reverse_identity
 qualified_name: nda::permutations::reverse_identity
 namespaces: [nda, permutations]
 includer: nda/nda.hpp
@@ -44,4 +46,5 @@ permalink: /cpp-api/nda/permutations/reverse_identity
 title: nda::permutations::reverse_identity
 parent: nda::permutations
 ...
+
 

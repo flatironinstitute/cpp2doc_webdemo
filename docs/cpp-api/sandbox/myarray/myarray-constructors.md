@@ -1,7 +1,9 @@
 ---
 # Do not edit this first section
 layout: function
-short_name: myarray
+fancy_name: (constructors)
+function_name: myarray
+file_name: myarray-constructors
 qualified_name: sandbox::myarray::myarray<T, R>
 namespaces: [sandbox, myarray]
 includer: ""

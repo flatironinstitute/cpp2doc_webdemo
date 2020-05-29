@@ -9,6 +9,7 @@ parent: nda
 title: nda::allocators
 has_children: true
 namespaces: []
+concepts: []
 classes:
   - blk_t
   - mallocator
@@ -19,4 +20,5 @@ classes:
   - stats
 functions: [round_to_align]
 ...
+
 

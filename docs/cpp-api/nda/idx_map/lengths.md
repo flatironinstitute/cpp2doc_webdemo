@@ -1,7 +1,9 @@
 ---
 # Do not edit this first section
 layout: function
-short_name: lengths
+fancy_name: lengths
+function_name: lengths
+file_name: lengths
 qualified_name: nda::idx_map::lengths
 namespaces: [nda, idx_map]
 includer: nda/nda.hpp
@@ -42,4 +44,5 @@ permalink: /cpp-api/nda/idx_map/lengths
 title: nda::idx_map::lengths
 parent: nda::idx_map
 ...
+
 

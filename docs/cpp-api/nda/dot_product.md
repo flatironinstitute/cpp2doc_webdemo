@@ -1,7 +1,9 @@
 ---
 # Do not edit this first section
 layout: function
-short_name: dot_product
+fancy_name: dot_product
+function_name: dot_product
+file_name: dot_product
 qualified_name: nda::dot_product
 namespaces: [nda]
 includer: nda/nda.hpp
@@ -47,4 +49,5 @@ permalink: /cpp-api/nda/dot_product
 title: nda::dot_product
 parent: nda
 ...
+
 

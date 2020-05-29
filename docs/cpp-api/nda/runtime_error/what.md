@@ -1,7 +1,9 @@
 ---
 # Do not edit this first section
 layout: function
-short_name: what
+fancy_name: what
+function_name: what
+file_name: what
 qualified_name: nda::runtime_error::what
 namespaces: [nda, runtime_error]
 includer: nda/nda.hpp
@@ -42,4 +44,5 @@ permalink: /cpp-api/nda/runtime_error/what
 title: nda::runtime_error::what
 parent: nda::runtime_error
 ...
+
 

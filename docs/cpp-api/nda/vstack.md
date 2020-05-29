@@ -1,7 +1,9 @@
 ---
 # Do not edit this first section
 layout: function
-short_name: vstack
+fancy_name: vstack
+function_name: vstack
+file_name: vstack
 qualified_name: nda::vstack
 namespaces: [nda]
 includer: nda/nda.hpp
@@ -46,4 +48,5 @@ permalink: /cpp-api/nda/vstack
 title: nda::vstack
 parent: nda
 ...
+
 

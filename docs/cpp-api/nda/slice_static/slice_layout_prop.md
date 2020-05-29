@@ -1,7 +1,9 @@
 ---
 # Do not edit this first section
 layout: function
-short_name: slice_layout_prop
+fancy_name: slice_layout_prop
+function_name: slice_layout_prop
+file_name: slice_layout_prop
 qualified_name: nda::slice_static::slice_layout_prop
 namespaces: [nda, slice_static]
 includer: nda/nda.hpp
@@ -51,4 +53,5 @@ permalink: /cpp-api/nda/slice_static/slice_layout_prop
 title: nda::slice_static::slice_layout_prop
 parent: nda::slice_static
 ...
+
 

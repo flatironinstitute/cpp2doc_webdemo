@@ -1,7 +1,9 @@
 ---
 # Do not edit this first section
 layout: function
-short_name: append
+fancy_name: append
+function_name: append
+file_name: append
 qualified_name: nda::append
 namespaces: [nda]
 includer: nda/nda.hpp
@@ -47,4 +49,5 @@ permalink: /cpp-api/nda/append
 title: nda::append
 parent: nda
 ...
+
 

@@ -14,7 +14,7 @@ brief: ""
 desc: ""
 
 # A list of methods. You can reorder, regroup into a dict : groupname -> list
-methods: [(constructors), (destructor)]
+methods: [range_tag-constructors, range_tag-destructor]
 
 # A list of non_member_functions
 non_member_functions: []
@@ -34,4 +34,5 @@ source: nda/layout/range.hpp
 parent: nda
 has_children: true
 ...
+
 

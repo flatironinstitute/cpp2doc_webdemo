@@ -1,7 +1,9 @@
 ---
 # Do not edit this first section
 layout: function
-short_name: is_contiguous
+fancy_name: is_contiguous
+function_name: is_contiguous
+file_name: is_contiguous
 qualified_name: nda::idx_map::is_contiguous
 namespaces: [nda, idx_map]
 includer: nda/nda.hpp
@@ -42,4 +44,5 @@ permalink: /cpp-api/nda/idx_map/is_contiguous
 title: nda::idx_map::is_contiguous
 parent: nda::idx_map
 ...
+
 

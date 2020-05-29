@@ -1,7 +1,9 @@
 ---
 # Do not edit this first section
 layout: function
-short_name: trace
+fancy_name: trace
+function_name: trace
+file_name: trace
 qualified_name: nda::trace
 namespaces: [nda]
 includer: nda/nda.hpp
@@ -44,4 +46,5 @@ permalink: /cpp-api/nda/trace
 title: nda::trace
 parent: nda
 ...
+
 

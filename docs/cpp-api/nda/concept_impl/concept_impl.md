@@ -9,7 +9,9 @@ parent: nda
 title: nda::concept_impl
 has_children: true
 namespaces: []
+concepts: [IsStdArrayOfLong, CallableWithRLongs]
 classes: []
-functions: [call_on_R_zeros, IsStdArrayOfLong, CallableWithRLongs]
+functions: [call_on_R_zeros]
 ...
+
 

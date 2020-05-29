@@ -1,7 +1,9 @@
 ---
 # Do not edit this first section
 layout: function
-short_name: owns
+fancy_name: owns
+function_name: owns
+file_name: owns
 qualified_name: nda::allocators::stats::owns
 namespaces: [nda, allocators, stats]
 includer: nda/nda.hpp
@@ -42,4 +44,5 @@ permalink: /cpp-api/nda/allocators/stats/owns
 title: nda::allocators::stats::owns
 parent: nda::allocators::stats
 ...
+
 
