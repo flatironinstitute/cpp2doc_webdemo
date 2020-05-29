@@ -2,6 +2,8 @@
 title: Navigation
 parent: Design
 nav_order: 2
+layout: default
+nav_include: true
 permalink: /design/navigation
 ---
 

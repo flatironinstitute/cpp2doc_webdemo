@@ -295,5 +295,3 @@ jtt.onReady(function(){
 });
 
 })(window.jtt = window.jtt || {});
-
-{% include js/custom.js %}

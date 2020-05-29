@@ -1,6 +1,8 @@
 ---
 title: Green's Functions
 parent: Main Concepts
+layout: default
+nav_include: true
 permalink: /main-concepts/greens-functions
 ---
 

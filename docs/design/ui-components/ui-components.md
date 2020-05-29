@@ -3,6 +3,8 @@ title: UI Components
 nav_order: 3
 has_children: true
 parent: Design
+layout: default
+nav_include: true
 permalink: /design/ui-components
 ---
 

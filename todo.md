@@ -1,31 +1,35 @@
 # TODO Jekyll Docs
 
-_updated 5/22_
-
-## Low Priority
-
-- Investigate other speed optimizations: parallellization, etc.
-- Create folding list functionality (via class)
+_updated 5/27_
 
 ## To Do before demo:
 
 _priority_
 
-- Search finish
-- Fix the index / Fix Webrick
+- Deploy on vercel ->
+- Routing issues around permalinks, impacting the search.
+- Search
 - improve nav speed generation
-- Incremental regeneration
+
+Done:
+- page title / seo
+- Thank you Alex - updated the README with his inputs.
+- test deployment on vercel - aka now
+
+
+
+## Todo :
+
 - Remove toc - update heading on layouts from OP. \* Add :no-toc to class, function, namespace, cpp-concept.
 - Width on left bar - smaller.
 - Change min-width on <td> in signature numeration - make a class. Also make a class for the related number information "signature-table"
 - Confirm that left nesting highlights are working correctly (see Design dropdown)
 - Add function name etc on top of each page in heading.(see cppref - only name no namespace with parent/::)
-
-## Todo after demo:
-
 - Update pipeline/README with feedback from Alex. Add information on what is available for contributor editing.
 - Change main-concepts to an alternate name to avoid confusion with new c++ concepts.
 - Vim links / github links
+- Investigate other speed optimizations: parallellization, etc.
+- Create folding list functionality (via class)
 
 ## To Verify:
 

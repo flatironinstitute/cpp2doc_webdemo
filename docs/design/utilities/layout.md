@@ -3,6 +3,8 @@ title: Layout
 parent: Utilities
 grand_parent: Design
 nav_order: 2
+layout: default
+nav_include: true
 permalink: /design/utilities/layout
 ---
 

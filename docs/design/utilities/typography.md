@@ -3,6 +3,8 @@ title: Typography
 parent: Utilities
 grand_parent: Design
 nav_order: 4
+layout: default
+nav_include: true
 permalink: /design/utilities/typography
 ---
 

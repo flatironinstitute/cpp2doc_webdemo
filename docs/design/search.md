@@ -2,6 +2,8 @@
 title: Search
 parent: Design
 nav_order: 4
+layout: default
+nav_include: true
 permalink: /design/search
 ---
 
@@ -31,7 +33,7 @@ Jek Theme TRIQS uses [lunr.js](http://lunrjs.com) to add a client-side search in
 Before you can use search, you must initialize the feature by running this `rake` command that comes with `jek-theme-triqs`:
 
 ```bash
-$ bundle exec jek-theme-triqs rake search:init
+$ bundle exec rake search:init
 ```
 
 This command creates the `search-data.json` file that Jekyll uses to create your search index. Alternatively, you can create the file manually in the `assets/js/` directory of your Jekyll site with this content:

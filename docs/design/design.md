@@ -4,6 +4,8 @@ has_children: true
 nav_order: 99
 # TODO: Swap this back in. Exclude from production site? Move to space for editors.
 nav_exclude: true
+layout: default
+nav_include: true
 permalink: /design
 ---
 

@@ -3,6 +3,8 @@ title: Utilities
 nav_order: 5
 has_children: true
 parent: Design
+layout: default
+nav_include: true
 permalink: /design/utilities
 ---
 

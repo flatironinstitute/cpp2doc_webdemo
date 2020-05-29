@@ -26,7 +26,7 @@ gem install jekyll bundler
 bundle install
 ```
 
-4. Initialize the search engine.
+4. Initialize the search engine. For local development, the site must be viewed at `localhost` rather than an IP address for search to function properly.
 
 ```
 bundle exec search:init
@@ -38,7 +38,7 @@ bundle exec search:init
 bundle exec jekyll serve
 ```
 
-View the site at [http://127.0.0.1:4000](http://127.0.0.1:4000).
+View the site at [http://locahost:4000](http://localhost:4000).
 
 **Note:** `jeykll serve` includes a watch script that automatically updates any time a source file changes. The one exception is `_config.yml`, you will need to stop and restart `jekyll serve` to see these changes.
 
@@ -54,8 +54,13 @@ Consult the Jekyll [Troubleshooting Guide](https://jekyllrb.com/docs/troubleshoo
 jekyll build
 ```
 
-2. Currently deploys to Github pages using the Github Actions pipeline.
-<!-- TODO: Add CI pipeline with project. -->
+2. Deploying From Your Terminal
+
+You can deploy your new Jekyll project with a single command from your terminal using [Vercel CLI](https://vercel.com/download):
+
+```shell
+$ vercel
+```
 
 ## Built With
 

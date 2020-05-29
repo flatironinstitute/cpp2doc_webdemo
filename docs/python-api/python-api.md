@@ -1,7 +1,9 @@
 ---
 title: Python API
 nav_order: 4
-has_children: true
+has_children: false
+layout: default
+nav_include: true
 permalink: /python-api
 ---
 
