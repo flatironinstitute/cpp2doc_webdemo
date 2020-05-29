@@ -3,6 +3,7 @@ title: Buttons
 parent: UI Components
 grand_parent: Design
 nav_order: 2
+layout: default
 permalink: /design/ui-components/buttons
 ---
 

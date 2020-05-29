@@ -2,6 +2,7 @@
 title: Markdown kitchen sink
 parent: Design
 nav_order: 7
+layout: default
 permalink: /design/markdown
 ---
 

@@ -2,6 +2,7 @@
 title: Configuration
 parent: Design
 nav_order: 1
+layout: default
 permalink: /design/configuration
 ---
 

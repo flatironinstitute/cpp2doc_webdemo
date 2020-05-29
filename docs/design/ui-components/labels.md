@@ -3,6 +3,7 @@ title: Labels
 parent: UI Components
 grand_parent: Design
 nav_order: 3
+layout: default
 permalink: /design/ui-components/labels
 ---
 

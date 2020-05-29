@@ -3,6 +3,7 @@ title: Responsive Modifiers
 parent: Utilities
 grand_parent: Design
 nav_order: 1
+layout: default
 permalink: /design/utilities/responsive
 ---
 

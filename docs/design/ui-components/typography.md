@@ -3,6 +3,7 @@ title: Typography
 parent: UI Components
 grand_parent: Design
 nav_order: 1
+layout: default
 permalink: /design/ui-components/typography
 ---
 

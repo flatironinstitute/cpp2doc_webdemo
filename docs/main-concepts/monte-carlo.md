@@ -1,6 +1,7 @@
 ---
 title: MC tools
 parent: Main Concepts
+layout: default
 permalink: /main-concepts/monte-carlo
 ...
 

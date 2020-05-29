@@ -3,6 +3,7 @@ title: Color
 parent: Utilities
 grand_parent: Design
 nav_order: 3
+layout: default
 permalink: /design/utilities/color
 ---
 
