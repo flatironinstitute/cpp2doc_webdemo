@@ -4,6 +4,7 @@ parent: UI Components
 grand_parent: Design
 nav_order: 6
 layout: default
+nav_include: true
 permalink: /design/ui-components/code
 ---
 

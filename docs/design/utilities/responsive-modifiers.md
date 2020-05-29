@@ -4,6 +4,7 @@ parent: Utilities
 grand_parent: Design
 nav_order: 1
 layout: default
+nav_include: true
 permalink: /design/utilities/responsive
 ---
 

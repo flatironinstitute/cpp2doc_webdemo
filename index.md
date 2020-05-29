@@ -1,6 +1,7 @@
 ---
 title: Home
 layout: default
+nav_include: true
 nav_order: 1
 description: "TRIQS (Toolbox for Research on Interacting Quantum Systems) is a set of C++ and Python libraries for the study of interacting quantum systems."
 # permalink: "/home"

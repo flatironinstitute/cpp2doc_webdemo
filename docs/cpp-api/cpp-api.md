@@ -2,6 +2,7 @@
 title: C++ API
 permalink: /cpp-api
 has_children: true
+nav_include: true
 nav_order: 3
 ---
 

@@ -2,6 +2,7 @@
 title: MC tools
 parent: Main Concepts
 layout: default
+nav_include: true
 permalink: /main-concepts/monte-carlo
 ...
 

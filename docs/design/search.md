@@ -3,6 +3,7 @@ title: Search
 parent: Design
 nav_order: 4
 layout: default
+nav_include: true
 permalink: /design/search
 ---
 
