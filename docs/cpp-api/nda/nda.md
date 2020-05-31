@@ -135,20 +135,36 @@ functions:
 This is a test
 
 
-* Algorithms
+* Some tables
 
-<T table nda Algorithms 3 T>
+
+<T table 
+title: Algorithms
+file: nda
+key: Algorithms
+ncol: 3
+T>
+
 <BR>
 
-* A table of function mapping:
 
-<T table nda ArrayFunction 3 T>
+<T table 
+title: A table of function mapping
+file: nda
+key: ArrayFunction
+ncol: 3
+T>
 <BR>
 
-* A table of function mapping which do not apply to Matrices:
+<T table 
 
-<T table nda ArrayNoMatrixFunction 3 T>
+title:  A table of function mapping which do not apply to Matrices
+file: nda
+key: ArrayNoMatrixFunction
+ncol: 3
+collapsible: true 
+T>
+
 <BR>
 
-* Another table 
 

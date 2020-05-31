@@ -15,8 +15,10 @@ brief: ""
 overloads:
 
   - signature: |
-      template <typename T, int R, typename L, char Algebra, typename AccessorPolicy, typename OwningPolicy, size_t R2>
-      auto reshaped_view(basic_array_view<T, R, L, Algebra, AccessorPolicy, OwningPolicy> a, std::array<long, R2> const & new_shape)
+      template <typename T, int R, typename L, char Algebra, 
+                typename AccessorPolicy, typename OwningPolicy, size_t R2>
+      auto reshaped_view(basic_array_view<T, R, L, Algebra, AccessorPolicy, OwningPolicy> a,
+                         std::array<long, R2> const & new_shape)
     desc: ""
 
   - signature: |
