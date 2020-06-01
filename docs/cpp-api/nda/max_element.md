@@ -4,7 +4,6 @@ layout: function
 fancy_name: max_element
 function_name: max_element
 file_name: max_element
-qualified_name: nda::max_element
 namespaces: [nda]
 includer: nda/nda.hpp
 
@@ -15,8 +14,8 @@ brief: ""
 overloads:
 
   - signature: |
-      template <nda::Array A>
-      auto max_element(A const & a)
+      template <nda::Array A> 
+      auto max_element(A const &a)
     desc: ""
 
 # Long description. Any Markdown, with code, latex, multiline with |
@@ -46,5 +45,4 @@ permalink: /cpp-api/nda/max_element
 title: nda::max_element
 parent: nda
 ...
-
 

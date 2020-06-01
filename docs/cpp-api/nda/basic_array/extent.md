@@ -4,7 +4,6 @@ layout: function
 fancy_name: extent
 function_name: extent
 file_name: extent
-qualified_name: nda::basic_array::extent
 namespaces: [nda, basic_array]
 includer: nda/nda.hpp
 
@@ -44,5 +43,4 @@ permalink: /cpp-api/nda/basic_array/extent
 title: nda::basic_array::extent
 parent: nda::basic_array
 ...
-
 

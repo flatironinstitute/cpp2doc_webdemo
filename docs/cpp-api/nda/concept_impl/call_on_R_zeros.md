@@ -4,7 +4,6 @@ layout: function
 fancy_name: call_on_R_zeros
 function_name: call_on_R_zeros
 file_name: call_on_R_zeros
-qualified_name: nda::concept_impl::call_on_R_zeros
 namespaces: [nda, concept_impl]
 includer: nda/nda.hpp
 
@@ -15,8 +14,8 @@ brief: ""
 overloads:
 
   - signature: |
-      template <int R, typename A>
-      auto call_on_R_zeros(A const & a)-> decltype(call_on_R_zeros_impl(std::make_index_sequence<R>({}), a))
+      template <int R, typename A> 
+      auto call_on_R_zeros(A const &a) -> decltype(call_on_R_zeros_impl(std::make_index_sequence<R>({}), a))
     desc: ""
 
 # Long description. Any Markdown, with code, latex, multiline with |
@@ -47,5 +46,4 @@ permalink: /cpp-api/nda/concept_impl/call_on_R_zeros
 title: nda::concept_impl::call_on_R_zeros
 parent: nda::concept_impl
 ...
-
 

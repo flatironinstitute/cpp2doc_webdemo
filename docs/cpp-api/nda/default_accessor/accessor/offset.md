@@ -4,7 +4,6 @@ layout: function
 fancy_name: offset
 function_name: offset
 file_name: offset
-qualified_name: nda::default_accessor::accessor::offset
 namespaces: [nda, default_accessor, accessor]
 includer: nda/nda.hpp
 
@@ -14,7 +13,7 @@ brief: ""
 # List of overloads. Edit only the desc
 overloads:
 
-  - signature: T * offset(T * p, std::ptrdiff_t i) noexcept
+  - signature: T *offset(T *p, std::ptrdiff_t i) noexcept
     desc: ""
 
 # Long description. Any Markdown, with code, latex, multiline with |
@@ -45,5 +44,4 @@ permalink: /cpp-api/nda/default_accessor/accessor/offset
 title: nda::default_accessor::accessor::offset
 parent: nda::default_accessor::accessor
 ...
-
 

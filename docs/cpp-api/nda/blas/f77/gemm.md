@@ -4,7 +4,6 @@ layout: function
 fancy_name: gemm
 function_name: gemm
 file_name: gemm
-qualified_name: nda::blas::f77::gemm
 namespaces: [nda, blas, f77]
 includer: nda/nda.hpp
 
@@ -14,10 +13,14 @@ brief: ""
 # List of overloads. Edit only the desc
 overloads:
 
-  - signature: void gemm(char trans_a, char trans_b, int M, int N, int K, double alpha, double const * A, int LDA, double const * B, int LDB, double beta, double * C, int LDC)
+  - signature: |
+      void gemm(char trans_a, char trans_b, int M, int N, int K, double alpha, double const *A, int LDA, double const *B,
+                int LDB, double beta, double *C, int LDC)
     desc: ""
 
-  - signature: void gemm(char trans_a, char trans_b, int M, int N, int K, std::complex<double> alpha, std::complex<double> const * A, int LDA, std::complex<double> const * B, int LDB, std::complex<double> beta, std::complex<double> * C, int LDC)
+  - signature: |
+      void gemm(char trans_a, char trans_b, int M, int N, int K, std::complex<double> alpha, std::complex<double> const *A,
+                int LDA, std::complex<double> const *B, int LDB, std::complex<double> beta, std::complex<double> *C, int LDC)
     desc: ""
 
 # Long description. Any Markdown, with code, latex, multiline with |
@@ -59,5 +62,4 @@ permalink: /cpp-api/nda/blas/f77/gemm
 title: nda::blas::f77::gemm
 parent: nda::blas::f77
 ...
-
 

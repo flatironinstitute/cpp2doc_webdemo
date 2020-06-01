@@ -4,7 +4,6 @@ layout: function
 fancy_name: data_start
 function_name: data_start
 file_name: data_start
-qualified_name: nda::basic_array::data_start
 namespaces: [nda, basic_array]
 includer: nda/nda.hpp
 
@@ -14,10 +13,10 @@ brief: "Starting point of the data. NB : this is NOT the beginning of the memory
 # List of overloads. Edit only the desc
 overloads:
 
-  - signature: ValueType const * data_start() noexcept const
+  - signature: ValueType const *data_start() noexcept const
     desc: "Starting point of the data. NB : this is NOT the beginning of the memory block for a view in general"
 
-  - signature: ValueType * data_start() noexcept
+  - signature: ValueType *data_start() noexcept
     desc: "Starting point of the data. NB : this is NOT the beginning of the memory block for a view in general"
 
 # Long description. Any Markdown, with code, latex, multiline with |
@@ -47,5 +46,4 @@ permalink: /cpp-api/nda/basic_array/data_start
 title: nda::basic_array::data_start
 parent: nda::basic_array
 ...
-
 

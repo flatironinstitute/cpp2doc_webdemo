@@ -4,7 +4,6 @@ layout: function
 fancy_name: operator==
 function_name: operator==
 file_name: operator==
-qualified_name: nda::operator==
 namespaces: [nda]
 includer: nda/nda.hpp
 
@@ -15,9 +14,10 @@ brief: --------------- operator == ---------------------
 overloads:
 
   - signature: |
-      template <typename A, typename B>
-      requires (is_ndarray_v<A> and is_ndarray_v<B>)
-      bool operator==(A const & a, B const & b)
+      template <typename A, typename B>             
+      requires(is_ndarray_v<A> and is_ndarray_v<B>) 
+      bool
+         operator==(A const &a, B const &b)
     desc: --------------- operator == ---------------------
 
 # Long description. Any Markdown, with code, latex, multiline with |
@@ -49,5 +49,4 @@ permalink: /cpp-api/nda/operator==
 title: nda::operator==
 parent: nda
 ...
-
 

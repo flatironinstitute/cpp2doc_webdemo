@@ -4,7 +4,6 @@ layout: function
 fancy_name: get_ld
 function_name: get_ld
 file_name: get_ld
-qualified_name: nda::blas::get_ld
 namespaces: [nda, blas]
 includer: nda/nda.hpp
 
@@ -15,8 +14,8 @@ brief: ""
 overloads:
 
   - signature: |
-      template <typename MatrixType>
-      int get_ld(MatrixType const & A)
+      template <typename MatrixType> 
+      int get_ld(MatrixType const &A)
     desc: ""
 
 # Long description. Any Markdown, with code, latex, multiline with |
@@ -46,5 +45,4 @@ permalink: /cpp-api/nda/blas/get_ld
 title: nda::blas::get_ld
 parent: nda::blas
 ...
-
 

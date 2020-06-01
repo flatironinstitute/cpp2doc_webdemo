@@ -4,7 +4,6 @@ layout: function
 fancy_name: resize
 function_name: resize
 file_name: resize
-qualified_name: nda::basic_array::resize
 namespaces: [nda, basic_array]
 includer: nda/nda.hpp
 
@@ -15,11 +14,11 @@ brief: ""
 overloads:
 
   - signature: |
-      template <std::integral ... Int>
+      template <std::integral... Int> 
       void resize(const Int &... extent)
     desc: ""
 
-  - signature: void resize(std::array<long, Rank> const & shape)
+  - signature: void resize(std::array<long, Rank> const &shape)
     desc: ""
 
 # Long description. Any Markdown, with code, latex, multiline with |
@@ -50,5 +49,4 @@ permalink: /cpp-api/nda/basic_array/resize
 title: nda::basic_array::resize
 parent: nda::basic_array
 ...
-
 

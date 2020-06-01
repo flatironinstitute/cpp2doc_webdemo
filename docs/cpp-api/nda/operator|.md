@@ -4,7 +4,6 @@ layout: function
 fancy_name: operator|
 function_name: operator|
 file_name: operator|
-qualified_name: nda::operator|
 namespaces: [nda]
 includer: nda/nda.hpp
 
@@ -48,5 +47,4 @@ permalink: /cpp-api/nda/operator|
 title: nda::operator|
 parent: nda
 ...
-
 

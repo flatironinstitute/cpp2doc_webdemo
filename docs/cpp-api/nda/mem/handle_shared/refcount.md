@@ -4,7 +4,6 @@ layout: function
 fancy_name: refcount
 function_name: refcount
 file_name: refcount
-qualified_name: nda::mem::handle_shared::refcount
 namespaces: [nda, mem, handle_shared]
 includer: nda/nda.hpp
 
@@ -44,5 +43,4 @@ permalink: /cpp-api/nda/mem/handle_shared/refcount
 title: nda::mem::handle_shared::refcount
 parent: nda::mem::handle_shared
 ...
-
 

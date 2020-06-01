@@ -4,7 +4,6 @@ layout: function
 fancy_name: allocate
 function_name: allocate
 file_name: allocate
-qualified_name: nda::allocators::multiple_bucket::allocate
 namespaces: [nda, allocators, multiple_bucket]
 includer: nda/nda.hpp
 
@@ -44,5 +43,4 @@ permalink: /cpp-api/nda/allocators/multiple_bucket/allocate
 title: nda::allocators::multiple_bucket::allocate
 parent: nda::allocators::multiple_bucket
 ...
-
 

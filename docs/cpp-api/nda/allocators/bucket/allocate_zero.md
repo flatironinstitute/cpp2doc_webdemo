@@ -4,7 +4,6 @@ layout: function
 fancy_name: allocate_zero
 function_name: allocate_zero
 file_name: allocate_zero
-qualified_name: nda::allocators::bucket::allocate_zero
 namespaces: [nda, allocators, bucket]
 includer: nda/nda.hpp
 
@@ -44,5 +43,4 @@ permalink: /cpp-api/nda/allocators/bucket/allocate_zero
 title: nda::allocators::bucket::allocate_zero
 parent: nda::allocators::bucket
 ...
-
 

@@ -4,7 +4,6 @@ layout: function
 fancy_name: rank
 function_name: rank
 file_name: rank
-qualified_name: nda::idx_map::rank
 namespaces: [nda, idx_map]
 includer: nda/nda.hpp
 
@@ -44,5 +43,4 @@ permalink: /cpp-api/nda/idx_map/rank
 title: nda::idx_map::rank
 parent: nda::idx_map
 ...
-
 

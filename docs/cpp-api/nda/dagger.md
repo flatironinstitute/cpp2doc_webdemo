@@ -4,7 +4,6 @@ layout: function
 fancy_name: dagger
 function_name: dagger
 file_name: dagger
-qualified_name: nda::dagger
 namespaces: [nda]
 includer: nda/nda.hpp
 
@@ -15,8 +14,8 @@ brief: ""
 overloads:
 
   - signature: |
-      template <nda::ArrayOfRank<2> M>
-      Array auto dagger(M const & m)
+      template <nda::ArrayOfRank<2> M> 
+      Array auto dagger(M const &m)
     desc: ""
 
 # Long description. Any Markdown, with code, latex, multiline with |
@@ -46,5 +45,4 @@ permalink: /cpp-api/nda/dagger
 title: nda::dagger
 parent: nda
 ...
-
 

@@ -4,7 +4,6 @@ layout: function
 fancy_name: <deduction guide for basic_array>
 function_name: <deduction guide for basic_array>
 file_name: <deduction guide for basic_array>
-qualified_name: nda::<deduction guide for basic_array>
 namespaces: [nda]
 includer: nda/nda.hpp
 
@@ -61,5 +60,4 @@ permalink: /cpp-api/nda/<deduction guide for basic_array>
 title: nda::<deduction guide for basic_array>
 parent: nda
 ...
-
 

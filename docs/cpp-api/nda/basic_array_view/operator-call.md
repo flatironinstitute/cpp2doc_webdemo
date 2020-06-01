@@ -4,7 +4,6 @@ layout: function
 fancy_name: operator()
 function_name: operator()
 file_name: operator-call
-qualified_name: nda::basic_array_view::operator()
 namespaces: [nda, basic_array_view]
 includer: nda/nda.hpp
 
@@ -15,17 +14,17 @@ brief: Access the array, make a lazy expression or slice of it depending on the 
 overloads:
 
   - signature: |
-      template <typename T>
+      template <typename T> 
       decltype(auto) operator()(const T &... x) noexcept(has_no_boundcheck) const &
     desc: Access the array, make a lazy expression or slice of it depending on the arguments
 
   - signature: |
-      template <typename T>
+      template <typename T> 
       decltype(auto) operator()(const T &... x) noexcept(has_no_boundcheck) &
     desc: ""
 
   - signature: |
-      template <typename T>
+      template <typename T> 
       decltype(auto) operator()(const T &... x) noexcept(has_no_boundcheck) &&
     desc: ""
 
@@ -56,5 +55,4 @@ permalink: /cpp-api/nda/basic_array_view/operator-call
 title: nda::basic_array_view::operator()
 parent: nda::basic_array_view
 ...
-
 

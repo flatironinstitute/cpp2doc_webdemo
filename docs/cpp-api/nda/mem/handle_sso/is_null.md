@@ -4,7 +4,6 @@ layout: function
 fancy_name: is_null
 function_name: is_null
 file_name: is_null
-qualified_name: nda::mem::handle_sso::is_null
 namespaces: [nda, mem, handle_sso]
 includer: nda/nda.hpp
 
@@ -44,5 +43,4 @@ permalink: /cpp-api/nda/mem/handle_sso/is_null
 title: nda::mem::handle_sso::is_null
 parent: nda::mem::handle_sso
 ...
-
 

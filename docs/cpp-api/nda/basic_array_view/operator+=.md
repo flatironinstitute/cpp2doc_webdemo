@@ -4,7 +4,6 @@ layout: function
 fancy_name: operator+=
 function_name: operator+=
 file_name: operator+=
-qualified_name: nda::basic_array_view::operator+=
 namespaces: [nda, basic_array_view]
 includer: nda/nda.hpp
 
@@ -15,8 +14,8 @@ brief: ""
 overloads:
 
   - signature: |
-      template <typename RHS>
-      auto & operator+=(RHS const & rhs) noexcept
+      template <typename RHS> 
+      auto &operator+=(RHS const &rhs) noexcept
     desc: ""
 
 # Long description. Any Markdown, with code, latex, multiline with |
@@ -46,5 +45,4 @@ permalink: /cpp-api/nda/basic_array_view/operator+=
 title: nda::basic_array_view::operator+=
 parent: nda::basic_array_view
 ...
-
 

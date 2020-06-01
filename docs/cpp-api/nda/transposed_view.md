@@ -4,7 +4,6 @@ layout: function
 fancy_name: transposed_view
 function_name: transposed_view
 file_name: transposed_view
-qualified_name: nda::transposed_view
 namespaces: [nda]
 includer: nda/nda.hpp
 
@@ -15,9 +14,9 @@ brief: ""
 overloads:
 
   - signature: |
-      template <int I, int J, typename A>
-      requires (is_regular_or_view_v<std::decay_t<A>>)
-      auto transposed_view(A && a)
+      template <int I, int J, typename A>             
+      requires(is_regular_or_view_v<std::decay_t<A>>) 
+      auto transposed_view(A &&a)
     desc: ""
 
 # Long description. Any Markdown, with code, latex, multiline with |
@@ -49,5 +48,4 @@ permalink: /cpp-api/nda/transposed_view
 title: nda::transposed_view
 parent: nda
 ...
-
 

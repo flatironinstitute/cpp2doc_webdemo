@@ -4,7 +4,6 @@ layout: function
 fancy_name: encode
 function_name: encode
 file_name: encode
-qualified_name: nda::encode
 namespaces: [nda]
 includer: nda/nda.hpp
 
@@ -15,8 +14,8 @@ brief: ""
 overloads:
 
   - signature: |
-      template <size_t Rank>
-      uint64_t encode(std::array<int, Rank> const & a)
+      template <size_t Rank> 
+      uint64_t encode(std::array<int, Rank> const &a)
     desc: ""
 
 # Long description. Any Markdown, with code, latex, multiline with |
@@ -46,5 +45,4 @@ permalink: /cpp-api/nda/encode
 title: nda::encode
 parent: nda
 ...
-
 

@@ -4,7 +4,6 @@ layout: function
 fancy_name: operator=
 function_name: operator=
 file_name: operator=
-qualified_name: nda::mem::handle_borrowed::operator=
 namespaces: [nda, mem, handle_borrowed]
 includer: nda/nda.hpp
 
@@ -14,10 +13,10 @@ brief: ""
 # List of overloads. Edit only the desc
 overloads:
 
-  - signature: handle_borrowed & operator=(handle_borrowed const & )
+  - signature: handle_borrowed &operator=(handle_borrowed const &)
     desc: ""
 
-  - signature: handle_borrowed & operator=(handle_borrowed && )
+  - signature: handle_borrowed &operator=(handle_borrowed &&)
     desc: ""
 
 # Long description. Any Markdown, with code, latex, multiline with |
@@ -47,5 +46,4 @@ permalink: /cpp-api/nda/mem/handle_borrowed/operator=
 title: nda::mem::handle_borrowed::operator=
 parent: nda::mem::handle_borrowed
 ...
-
 

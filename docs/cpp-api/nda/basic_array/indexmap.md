@@ -4,7 +4,6 @@ layout: function
 fancy_name: indexmap
 function_name: indexmap
 file_name: indexmap
-qualified_name: nda::basic_array::indexmap
 namespaces: [nda, basic_array]
 includer: nda/nda.hpp
 
@@ -14,7 +13,7 @@ brief: The Index Map object
 # List of overloads. Edit only the desc
 overloads:
 
-  - signature: auto const & indexmap() noexcept const
+  - signature: auto const &indexmap() noexcept const
     desc: The Index Map object
 
 # Long description. Any Markdown, with code, latex, multiline with |
@@ -44,5 +43,4 @@ permalink: /cpp-api/nda/basic_array/indexmap
 title: nda::basic_array::indexmap
 parent: nda::basic_array
 ...
-
 

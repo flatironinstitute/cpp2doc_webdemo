@@ -4,7 +4,6 @@ layout: function
 fancy_name: (constructors)
 function_name: handle_heap
 file_name: handle_heap-constructors
-qualified_name: nda::mem::handle_heap::handle_heap<T, Allocator>
 namespaces: [nda, mem, handle_heap]
 includer: nda/nda.hpp
 
@@ -17,22 +16,22 @@ overloads:
   - signature: handle_heap()
     desc: ""
 
-  - signature: handle_heap(handle_heap && ) noexcept
+  - signature: handle_heap(handle_heap &&) noexcept
     desc: ""
 
-  - signature: handle_heap(long size, struct nda::mem::do_not_initialize_t )
+  - signature: handle_heap(long size, struct nda::mem::do_not_initialize_t)
     desc: ""
 
-  - signature: handle_heap(long size, struct nda::mem::init_zero_t )
+  - signature: handle_heap(long size, struct nda::mem::init_zero_t)
     desc: ""
 
   - signature: handle_heap(long size)
     desc: ""
 
-  - signature: handle_heap(handle_heap const & )
+  - signature: handle_heap(handle_heap const &)
     desc: ""
 
-  - signature: handle_heap(handle_shared<T> const & x)
+  - signature: handle_heap(handle_shared<T> const &x)
     desc: ""
 
 # Long description. Any Markdown, with code, latex, multiline with |
@@ -63,5 +62,4 @@ permalink: /cpp-api/nda/mem/handle_heap/handle_heap-constructors
 title: nda::mem::handle_heap::handle_heap<T, Allocator>
 parent: nda::mem::handle_heap
 ...
-
 

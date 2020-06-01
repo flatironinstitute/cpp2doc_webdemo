@@ -4,7 +4,6 @@ layout: function
 fancy_name: map
 function_name: map
 file_name: map
-qualified_name: nda::map
 namespaces: [nda]
 includer: nda/nda.hpp
 
@@ -15,7 +14,7 @@ brief: ""
 overloads:
 
   - signature: |
-      template <class F>
+      template <class F> 
       mapped<F> map(F f)
     desc: ""
 
@@ -50,5 +49,4 @@ permalink: /cpp-api/nda/map
 title: nda::map
 parent: nda
 ...
-
 

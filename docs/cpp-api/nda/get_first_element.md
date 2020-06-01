@@ -4,7 +4,6 @@ layout: function
 fancy_name: get_first_element
 function_name: get_first_element
 file_name: get_first_element
-qualified_name: nda::get_first_element
 namespaces: [nda]
 includer: nda/nda.hpp
 
@@ -15,8 +14,8 @@ brief: Get the first element of the array as a(0,0,0....) (i.e. also work for no
 overloads:
 
   - signature: |
-      template <typename A>
-      auto get_first_element(A const & a)
+      template <typename A> 
+      auto get_first_element(A const &a)
     desc: Get the first element of the array as a(0,0,0....) (i.e. also work for non
 
 # Long description. Any Markdown, with code, latex, multiline with |
@@ -46,5 +45,4 @@ permalink: /cpp-api/nda/get_first_element
 title: nda::get_first_element
 parent: nda
 ...
-
 

@@ -4,7 +4,6 @@ layout: function
 fancy_name: (destructor)
 function_name: ~const_iterator
 file_name: const_iterator-destructor
-qualified_name: nda::range::const_iterator::~const_iterator
 namespaces: [nda, range, const_iterator]
 includer: nda/nda.hpp
 
@@ -44,5 +43,4 @@ permalink: /cpp-api/nda/range/const_iterator/const_iterator-destructor
 title: nda::range::const_iterator::~const_iterator
 parent: nda::range::const_iterator
 ...
-
 

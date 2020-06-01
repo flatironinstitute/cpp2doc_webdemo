@@ -4,7 +4,6 @@ layout: function
 fancy_name: on_heap
 function_name: on_heap
 file_name: on_heap
-qualified_name: nda::mem::handle_sso::on_heap
 namespaces: [nda, mem, handle_sso]
 includer: nda/nda.hpp
 
@@ -14,7 +13,7 @@ brief: ""
 # List of overloads. Edit only the desc
 overloads:
 
-  - signature: bool on_heap()  const
+  - signature: bool on_heap() const
     desc: ""
 
 # Long description. Any Markdown, with code, latex, multiline with |
@@ -44,5 +43,4 @@ permalink: /cpp-api/nda/mem/handle_sso/on_heap
 title: nda::mem::handle_sso::on_heap
 parent: nda::mem::handle_sso
 ...
-
 

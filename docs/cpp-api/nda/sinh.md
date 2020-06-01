@@ -4,7 +4,6 @@ layout: function
 fancy_name: sinh
 function_name: sinh
 file_name: sinh
-qualified_name: nda::sinh
 namespaces: [nda]
 includer: nda/nda.hpp
 
@@ -15,9 +14,9 @@ brief: Maps sinh onto the array
 overloads:
 
   - signature: |
-      template <typename A>
-      requires (is_ndarray_v<std::decay_t<A>> and (get_algebra<std::decay_t<A>> != 'M'))
-      auto sinh(A && a)
+      template <typename A>                                                             
+      requires(is_ndarray_v<std::decay_t<A>> and (get_algebra<std::decay_t<A>> != 'M')) 
+      auto sinh(A &&a)
     desc: Maps sinh onto the array
 
 # Long description. Any Markdown, with code, latex, multiline with |
@@ -47,5 +46,4 @@ permalink: /cpp-api/nda/sinh
 title: nda::sinh
 parent: nda
 ...
-
 

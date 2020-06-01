@@ -4,7 +4,6 @@ layout: function
 fancy_name: operator==
 function_name: operator==
 file_name: operator==
-qualified_name: nda::range::const_iterator::operator==
 namespaces: [nda, range, const_iterator]
 includer: nda/nda.hpp
 
@@ -14,7 +13,7 @@ brief: ""
 # List of overloads. Edit only the desc
 overloads:
 
-  - signature: bool operator==(const_iterator const & other) noexcept const
+  - signature: bool operator==(const_iterator const &other) noexcept const
     desc: ""
 
 # Long description. Any Markdown, with code, latex, multiline with |
@@ -44,5 +43,4 @@ permalink: /cpp-api/nda/range/const_iterator/operator==
 title: nda::range::const_iterator::operator==
 parent: nda::range::const_iterator
 ...
-
 

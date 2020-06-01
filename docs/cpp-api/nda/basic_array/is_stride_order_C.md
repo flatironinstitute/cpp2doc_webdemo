@@ -4,7 +4,6 @@ layout: function
 fancy_name: is_stride_order_C
 function_name: is_stride_order_C
 file_name: is_stride_order_C
-qualified_name: nda::basic_array::is_stride_order_C
 namespaces: [nda, basic_array]
 includer: nda/nda.hpp
 
@@ -44,5 +43,4 @@ permalink: /cpp-api/nda/basic_array/is_stride_order_C
 title: nda::basic_array::is_stride_order_C
 parent: nda::basic_array
 ...
-
 

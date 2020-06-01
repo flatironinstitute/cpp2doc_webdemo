@@ -4,7 +4,6 @@ layout: function
 fancy_name: what
 function_name: what
 file_name: what
-qualified_name: nda::runtime_error::what
 namespaces: [nda, runtime_error]
 includer: nda/nda.hpp
 
@@ -14,7 +13,7 @@ brief: ""
 # List of overloads. Edit only the desc
 overloads:
 
-  - signature: char const * what() noexcept const
+  - signature: char const *what() noexcept const
     desc: ""
 
 # Long description. Any Markdown, with code, latex, multiline with |
@@ -44,5 +43,4 @@ permalink: /cpp-api/nda/runtime_error/what
 title: nda::runtime_error::what
 parent: nda::runtime_error
 ...
-
 

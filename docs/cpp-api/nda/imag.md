@@ -4,7 +4,6 @@ layout: function
 fancy_name: imag
 function_name: imag
 file_name: imag
-qualified_name: nda::imag
 namespaces: [nda]
 includer: nda/nda.hpp
 
@@ -15,9 +14,9 @@ brief: Maps imag onto the array
 overloads:
 
   - signature: |
-      template <typename A>
-      requires (is_ndarray_v<std::decay_t<A>>)
-      auto imag(A && a)
+      template <typename A>                   
+      requires(is_ndarray_v<std::decay_t<A>>) 
+      auto imag(A &&a)
     desc: Maps imag onto the array
 
 # Long description. Any Markdown, with code, latex, multiline with |
@@ -47,5 +46,4 @@ permalink: /cpp-api/nda/imag
 title: nda::imag
 parent: nda
 ...
-
 

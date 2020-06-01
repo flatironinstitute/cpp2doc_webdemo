@@ -4,7 +4,6 @@ layout: function
 fancy_name: apply
 function_name: apply
 file_name: apply
-qualified_name: nda::permutations::apply
 namespaces: [nda, permutations]
 includer: nda/nda.hpp
 
@@ -15,8 +14,8 @@ brief: ""
 overloads:
 
   - signature: |
-      template <typename T, auto R>
-      std::array<T, R> apply(std::array<int, R> const & permutation, std::array<T, R> const & a)
+      template <typename T, auto R> 
+      std::array<T, R> apply(std::array<int, R> const &permutation, std::array<T, R> const &a)
     desc: ""
 
 # Long description. Any Markdown, with code, latex, multiline with |
@@ -48,5 +47,4 @@ permalink: /cpp-api/nda/permutations/apply
 title: nda::permutations::apply
 parent: nda::permutations
 ...
-
 

@@ -4,7 +4,6 @@ layout: function
 fancy_name: floor
 function_name: floor
 file_name: floor
-qualified_name: nda::floor
 namespaces: [nda]
 includer: nda/nda.hpp
 
@@ -15,9 +14,9 @@ brief: Maps floor onto the array
 overloads:
 
   - signature: |
-      template <typename A>
-      requires (is_ndarray_v<std::decay_t<A>>)
-      auto floor(A && a)
+      template <typename A>                   
+      requires(is_ndarray_v<std::decay_t<A>>) 
+      auto floor(A &&a)
     desc: Maps floor onto the array
 
 # Long description. Any Markdown, with code, latex, multiline with |
@@ -47,5 +46,4 @@ permalink: /cpp-api/nda/floor
 title: nda::floor
 parent: nda
 ...
-
 

@@ -4,7 +4,6 @@ layout: function
 fancy_name: operator=
 function_name: operator=
 file_name: operator=
-qualified_name: nda::idx_map::operator=
 namespaces: [nda, idx_map]
 includer: nda/nda.hpp
 
@@ -14,10 +13,10 @@ brief: ""
 # List of overloads. Edit only the desc
 overloads:
 
-  - signature: idx_map & operator=(idx_map const & )
+  - signature: idx_map &operator=(idx_map const &)
     desc: ""
 
-  - signature: idx_map & operator=(idx_map && )
+  - signature: idx_map &operator=(idx_map &&)
     desc: ""
 
 # Long description. Any Markdown, with code, latex, multiline with |
@@ -47,5 +46,4 @@ permalink: /cpp-api/nda/idx_map/operator=
 title: nda::idx_map::operator=
 parent: nda::idx_map
 ...
-
 

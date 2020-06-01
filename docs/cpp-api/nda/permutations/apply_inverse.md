@@ -4,7 +4,6 @@ layout: function
 fancy_name: apply_inverse
 function_name: apply_inverse
 file_name: apply_inverse
-qualified_name: nda::permutations::apply_inverse
 namespaces: [nda, permutations]
 includer: nda/nda.hpp
 
@@ -15,8 +14,8 @@ brief: ""
 overloads:
 
   - signature: |
-      template <typename T, auto R>
-      std::array<T, R> apply_inverse(std::array<int, R> const & permutation, std::array<T, R> const & a)
+      template <typename T, auto R> 
+      std::array<T, R> apply_inverse(std::array<int, R> const &permutation, std::array<T, R> const &a)
     desc: ""
 
 # Long description. Any Markdown, with code, latex, multiline with |
@@ -48,5 +47,4 @@ permalink: /cpp-api/nda/permutations/apply_inverse
 title: nda::permutations::apply_inverse
 parent: nda::permutations
 ...
-
 

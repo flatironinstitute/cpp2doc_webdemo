@@ -4,7 +4,6 @@ layout: function
 fancy_name: (destructor)
 function_name: ~stats<A>
 file_name: stats-destructor
-qualified_name: nda::allocators::stats::~stats<A>
 namespaces: [nda, allocators, stats]
 includer: nda/nda.hpp
 
@@ -44,5 +43,4 @@ permalink: /cpp-api/nda/allocators/stats/stats-destructor
 title: nda::allocators::stats::~stats<A>
 parent: nda::allocators::stats
 ...
-
 

@@ -4,7 +4,6 @@ layout: function
 fancy_name: (constructors)
 function_name: array_iterator
 file_name: array_iterator-constructors
-qualified_name: nda::array_iterator::array_iterator<Rank, T, Pointer>
 namespaces: [nda, array_iterator]
 includer: nda/nda.hpp
 
@@ -17,10 +16,10 @@ overloads:
   - signature: array_iterator()
     desc: ""
 
-  - signature: array_iterator(array_iterator const & )
+  - signature: array_iterator(array_iterator const &)
     desc: ""
 
-  - signature: array_iterator(std::array<long, Rank> const & lengths, std::array<long, Rank> const & strides, T * start, bool at_end)
+  - signature: array_iterator(std::array<long, Rank> const &lengths, std::array<long, Rank> const &strides, T *start, bool at_end)
     desc: ""
 
 # Long description. Any Markdown, with code, latex, multiline with |
@@ -53,5 +52,4 @@ permalink: /cpp-api/nda/array_iterator/array_iterator-constructors
 title: nda::array_iterator::array_iterator<Rank, T, Pointer>
 parent: nda::array_iterator
 ...
-
 

@@ -4,7 +4,6 @@ layout: function
 fancy_name: sliced_mem_stride_order
 function_name: sliced_mem_stride_order
 file_name: sliced_mem_stride_order
-qualified_name: nda::slice_static::sliced_mem_stride_order
 namespaces: [nda, slice_static]
 includer: nda/nda.hpp
 
@@ -15,8 +14,8 @@ brief: ""
 overloads:
 
   - signature: |
-      template <size_t P, size_t N>
-      std::array<int, P> sliced_mem_stride_order(std::array<int, N> const & stride_order_in, std::array<int, P> const & n_of_p)
+      template <size_t P, size_t N> 
+      std::array<int, P> sliced_mem_stride_order(std::array<int, N> const &stride_order_in, std::array<int, P> const &n_of_p)
     desc: ""
 
 # Long description. Any Markdown, with code, latex, multiline with |
@@ -48,5 +47,4 @@ permalink: /cpp-api/nda/slice_static/sliced_mem_stride_order
 title: nda::slice_static::sliced_mem_stride_order
 parent: nda::slice_static
 ...
-
 

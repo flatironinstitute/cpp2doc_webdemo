@@ -4,7 +4,6 @@ layout: function
 fancy_name: group_indices_view
 function_name: group_indices_view
 file_name: group_indices_view
-qualified_name: nda::group_indices_view
 namespaces: [nda]
 includer: nda/nda.hpp
 
@@ -15,18 +14,19 @@ brief: --------------- Grouping indices------------------------
 overloads:
 
   - signature: |
-      template <typename T, int R, typename L, char Algebra, typename AccessorPolicy, typename OwningPolicy, typename IntSequences>
-      auto group_indices_view(basic_array_view<T, R, L, Algebra, AccessorPolicy, OwningPolicy> a, IntSequences... )
+      template <typename T, int R, typename L, char Algebra, typename AccessorPolicy, typename OwningPolicy,
+                typename IntSequences> 
+      auto group_indices_view(basic_array_view<T, R, L, Algebra, AccessorPolicy, OwningPolicy> a, IntSequences...)
     desc: --------------- Grouping indices------------------------
 
   - signature: |
-      template <typename T, int R, typename L, char Algebra, typename ContainerPolicy, typename IntSequences>
-      auto group_indices_view(basic_array<T, R, L, Algebra, ContainerPolicy> const & a, IntSequences... )
+      template <typename T, int R, typename L, char Algebra, typename ContainerPolicy, typename IntSequences> 
+      auto group_indices_view(basic_array<T, R, L, Algebra, ContainerPolicy> const &a, IntSequences...)
     desc: ""
 
   - signature: |
-      template <typename T, int R, typename L, char Algebra, typename ContainerPolicy, typename IntSequences>
-      auto group_indices_view(basic_array<T, R, L, Algebra, ContainerPolicy> & a, IntSequences... )
+      template <typename T, int R, typename L, char Algebra, typename ContainerPolicy, typename IntSequences> 
+      auto group_indices_view(basic_array<T, R, L, Algebra, ContainerPolicy> &a, IntSequences...)
     desc: ""
 
 # Long description. Any Markdown, with code, latex, multiline with |
@@ -63,5 +63,4 @@ permalink: /cpp-api/nda/group_indices_view
 title: nda::group_indices_view
 parent: nda
 ...
-
 

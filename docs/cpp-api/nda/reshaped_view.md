@@ -4,77 +4,68 @@ layout: function
 fancy_name: reshaped_view
 function_name: reshaped_view
 file_name: reshaped_view
-qualified_name: nda::reshaped_view
 namespaces: [nda]
 includer: nda/nda.hpp
 
 # Brief description. One line only.
-brief: ""
+brief: Make a new view of some array, array_view, with a different shape.
 
 # List of overloads. Edit only the desc
 overloads:
 
   - signature: |
-      template <typename T, int R, typename L, char Algebra, 
-                typename AccessorPolicy, typename OwningPolicy, size_t R2>
-      auto reshaped_view(basic_array_view<T, R, L, Algebra, AccessorPolicy, OwningPolicy> a,
-                         std::array<long, R2> const & new_shape)
-    desc: ""
+      template <typename T, int R, typename L, char Algebra, typename AccessorPolicy, typename OwningPolicy,
+                std::integral Int, auto newRank>
+      auto reshaped_view(basic_array_view<T, R, L, Algebra, AccessorPolicy, OwningPolicy> v,
+                         std::array<Int, newRank> const &new_shape)
+    desc: Reshape a view
 
   - signature: |
-      template <typename T, int R, typename L, char Algebra, typename AccessorPolicy, typename OwningPolicy, size_t R2>
-      auto reshaped_view(basic_array_view<T, R, L, Algebra, AccessorPolicy, OwningPolicy> a, std::array<int, R2> const & new_shape)
-    desc: ""
+      template <typename T, int R, typename L, char Algebra, typename ContainerPolicy, std::integral Int, auto newRank>
+      auto reshaped_view(basic_array<T, R, L, Algebra, ContainerPolicy> const &a, std::array<Int, newRank> const &new_shape)
+    desc: Reshaped _const_ view of an array
 
   - signature: |
-      template <typename T, int R, typename L, char Algebra, typename ContainerPolicy, size_t R2>
-      auto reshaped_view(basic_array<T, R, L, Algebra, ContainerPolicy> const & a, std::array<long, R2> const & new_shape)
-    desc: ""
-
-  - signature: |
-      template <typename T, int R, typename L, char Algebra, typename ContainerPolicy, size_t R2>
-      auto reshaped_view(basic_array<T, R, L, Algebra, ContainerPolicy> & a, std::array<long, R2> const & new_shape)
-    desc: ""
-
-  - signature: |
-      template <typename T, int R, typename L, char Algebra, typename ContainerPolicy, size_t R2>
-      auto reshaped_view(basic_array<T, R, L, Algebra, ContainerPolicy> const & a, std::array<int, R2> const & new_shape)
-    desc: ""
-
-  - signature: |
-      template <typename T, int R, typename L, char Algebra, typename ContainerPolicy, size_t R2>
-      auto reshaped_view(basic_array<T, R, L, Algebra, ContainerPolicy> & a, std::array<int, R2> const & new_shape)
-    desc: ""
+      template <typename T, int R, typename L, char Algebra, typename ContainerPolicy, std::integral Int, auto newRank>
+      auto reshaped_view(basic_array<T, R, L, Algebra, ContainerPolicy> &a, std::array<Int, newRank> const &new_shape)
+    desc: Reshaped view of an array
 
 # Long description. Any Markdown, with code, latex, multiline with |
-desc: ""
+desc: "* Contiguous data only [runtime checked]"
 
 # Parameters of the function. Edit only the description after the :
 params:
-  a: __MISSING__
-  new_shape: __MISSING__
+  v: View to reshape
+  new_shape: New shape. Must be of the same length as the original shape.
+  a: Array to reshape
 
 # Template parameters of the function. Edit only the description after the :
 tparams:
-  T: __MISSING__
-  R: __MISSING__
-  L: __MISSING__
-  Algebra: __MISSING__
-  AccessorPolicy: __MISSING__
-  OwningPolicy: __MISSING__
-  R2: __MISSING__
-  ContainerPolicy: __MISSING__
+  T: Match basic_array, basic_array_view
+  R: Match basic_array, basic_array_view
+  L: Match basic_array, basic_array_view
+  Algebra: Match basic_array, basic_array_view
+  AccessorPolicy: Match basic_array, basic_array_view
+  OwningPolicy: Match basic_array, basic_array_view
+  Int: |
+    Any integer [long, int, ...].
+    *(You can pass std::array<long,..> or std::array<int, ...> without thinking about it.*)
+  newRank: Rank of the shape
+  ContainerPolicy: Match basic_array, basic_array_view
 
 # Desc of the return value
-return_value: __MISSING__
+return_value: A [basic_array_view](/cpp-api/nda/basic_array_view) with the same `T`, Policies, but new shape and rank.
 
 # Code example. desc: any markdown to explain it.
 example:
-  desc: __MISSING__
-  code: __MISSING__
+  desc: ~
+  code: |
+    nda::array<long, 1> a{1, 2, 3, 4, 5, 6};     // 1d array
+    auto v = reshaped_view(a, std::array{2, 3}); // v is an array_view<long,2> of size 2 x 3
+    v(0, nda::range_all()) *= 10;                   // a is now {10, 20, 30, 4, 5, 6}
 
 # A list of related functions/classes
-see-also: []
+see-also: [/cpp-api/nda/reshape]
 
 # ---------- DO NOT EDIT BELOW --------
 permalink: /cpp-api/nda/reshaped_view

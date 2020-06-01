@@ -4,7 +4,6 @@ layout: function
 fancy_name: f
 function_name: f
 file_name: f
-qualified_name: nda::details::bound_check_worker::f
 namespaces: [nda, details, bound_check_worker]
 includer: nda/nda.hpp
 
@@ -17,13 +16,13 @@ overloads:
   - signature: void f(long key)
     desc: ""
 
-  - signature: void f(struct nda::range_all )
+  - signature: void f(struct nda::range_all)
     desc: ""
 
-  - signature: void f(class nda::range )
+  - signature: void f(class nda::range)
     desc: ""
 
-  - signature: void f(struct nda::ellipsis )
+  - signature: void f(struct nda::ellipsis)
     desc: ""
 
 # Long description. Any Markdown, with code, latex, multiline with |
@@ -53,5 +52,4 @@ permalink: /cpp-api/nda/details/bound_check_worker/f
 title: nda::details::bound_check_worker::f
 parent: nda::details::bound_check_worker
 ...
-
 

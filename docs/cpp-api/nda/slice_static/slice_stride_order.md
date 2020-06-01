@@ -4,7 +4,6 @@ layout: function
 fancy_name: slice_stride_order
 function_name: slice_stride_order
 file_name: slice_stride_order
-qualified_name: nda::slice_static::slice_stride_order
 namespaces: [nda, slice_static]
 includer: nda/nda.hpp
 
@@ -15,8 +14,8 @@ brief: ""
 overloads:
 
   - signature: |
-      template <typename IdxMap, typename T>
-      decltype(auto) slice_stride_order(IdxMap const & idxm, const T &... x)
+      template <typename IdxMap, typename T> 
+      decltype(auto) slice_stride_order(IdxMap const &idxm, const T &... x)
     desc: ""
 
 # Long description. Any Markdown, with code, latex, multiline with |
@@ -48,5 +47,4 @@ permalink: /cpp-api/nda/slice_static/slice_stride_order
 title: nda::slice_static::slice_stride_order
 parent: nda::slice_static
 ...
-
 

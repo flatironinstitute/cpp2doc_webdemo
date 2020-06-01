@@ -4,7 +4,6 @@ layout: function
 fancy_name: operator=
 function_name: operator=
 file_name: operator=
-qualified_name: nda::allocators::mallocator::operator=
 namespaces: [nda, allocators, mallocator]
 includer: nda/nda.hpp
 
@@ -14,10 +13,10 @@ brief: ""
 # List of overloads. Edit only the desc
 overloads:
 
-  - signature: mallocator & operator=(mallocator const & )
+  - signature: mallocator &operator=(mallocator const &)
     desc: ""
 
-  - signature: mallocator & operator=(mallocator && )
+  - signature: mallocator &operator=(mallocator &&)
     desc: ""
 
 # Long description. Any Markdown, with code, latex, multiline with |
@@ -47,5 +46,4 @@ permalink: /cpp-api/nda/allocators/mallocator/operator=
 title: nda::allocators::mallocator::operator=
 parent: nda::allocators::mallocator
 ...
-
 

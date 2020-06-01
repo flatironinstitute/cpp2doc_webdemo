@@ -4,7 +4,6 @@ layout: function
 fancy_name: make_initialized_array
 function_name: make_initialized_array
 file_name: make_initialized_array
-qualified_name: nda::make_initialized_array
 namespaces: [nda]
 includer: nda/nda.hpp
 
@@ -15,7 +14,7 @@ brief: ""
 overloads:
 
   - signature: |
-      template <size_t R, typename T>
+      template <size_t R, typename T> 
       std::array<T, R> make_initialized_array(T v)
     desc: ""
 
@@ -47,5 +46,4 @@ permalink: /cpp-api/nda/make_initialized_array
 title: nda::make_initialized_array
 parent: nda
 ...
-
 

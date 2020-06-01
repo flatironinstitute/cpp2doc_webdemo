@@ -4,7 +4,6 @@ layout: function
 fancy_name: shape
 function_name: shape
 file_name: shape
-qualified_name: nda::array_adapter::shape
 namespaces: [nda, array_adapter]
 includer: nda/nda.hpp
 
@@ -14,7 +13,7 @@ brief: ""
 # List of overloads. Edit only the desc
 overloads:
 
-  - signature: std::array<long, R> const & shape()  const
+  - signature: std::array<long, R> const &shape() const
     desc: ""
 
 # Long description. Any Markdown, with code, latex, multiline with |
@@ -44,5 +43,4 @@ permalink: /cpp-api/nda/array_adapter/shape
 title: nda::array_adapter::shape
 parent: nda::array_adapter
 ...
-
 

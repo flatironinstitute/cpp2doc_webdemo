@@ -4,7 +4,6 @@ layout: function
 fancy_name: for_each_static
 function_name: for_each_static
 file_name: for_each_static
-qualified_name: nda::for_each_static
 namespaces: [nda]
 includer: nda/nda.hpp
 
@@ -15,8 +14,8 @@ brief: ""
 overloads:
 
   - signature: |
-      template <uint64_t StaticExtents, uint64_t StrideOrder, typename F, auto R>
-      void for_each_static(std::array<long, R> const & idx_lengths, F && f)
+      template <uint64_t StaticExtents, uint64_t StrideOrder, typename F, auto R> 
+      void for_each_static(std::array<long, R> const &idx_lengths, F &&f)
     desc: ""
 
 # Long description. Any Markdown, with code, latex, multiline with |
@@ -50,5 +49,4 @@ permalink: /cpp-api/nda/for_each_static
 title: nda::for_each_static
 parent: nda
 ...
-
 

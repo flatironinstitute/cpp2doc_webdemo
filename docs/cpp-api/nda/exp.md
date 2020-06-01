@@ -4,7 +4,6 @@ layout: function
 fancy_name: exp
 function_name: exp
 file_name: exp
-qualified_name: nda::exp
 namespaces: [nda]
 includer: nda/nda.hpp
 
@@ -15,9 +14,9 @@ brief: Maps exp onto the array
 overloads:
 
   - signature: |
-      template <typename A>
-      requires (is_ndarray_v<std::decay_t<A>> and (get_algebra<std::decay_t<A>> != 'M'))
-      auto exp(A && a)
+      template <typename A>                                                             
+      requires(is_ndarray_v<std::decay_t<A>> and (get_algebra<std::decay_t<A>> != 'M')) 
+      auto exp(A &&a)
     desc: Maps exp onto the array
 
 # Long description. Any Markdown, with code, latex, multiline with |
@@ -47,5 +46,4 @@ permalink: /cpp-api/nda/exp
 title: nda::exp
 parent: nda
 ...
-
 

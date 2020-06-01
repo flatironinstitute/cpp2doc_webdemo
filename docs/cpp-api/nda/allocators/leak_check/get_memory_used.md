@@ -4,7 +4,6 @@ layout: function
 fancy_name: get_memory_used
 function_name: get_memory_used
 file_name: get_memory_used
-qualified_name: nda::allocators::leak_check::get_memory_used
 namespaces: [nda, allocators, leak_check]
 includer: nda/nda.hpp
 
@@ -44,5 +43,4 @@ permalink: /cpp-api/nda/allocators/leak_check/get_memory_used
 title: nda::allocators::leak_check::get_memory_used
 parent: nda::allocators::leak_check
 ...
-
 

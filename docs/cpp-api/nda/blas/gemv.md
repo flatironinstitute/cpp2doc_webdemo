@@ -4,7 +4,6 @@ layout: function
 fancy_name: gemv
 function_name: gemv
 file_name: gemv
-qualified_name: nda::blas::gemv
 namespaces: [nda, blas]
 includer: nda/nda.hpp
 
@@ -15,8 +14,8 @@ brief: Calls gemv on a matrix, matrix_view, array, array_view of rank 2
 overloads:
 
   - signature: |
-      template <typename A, typename B, typename C>
-      void gemv(typename A::value_type alpha, A const & a, B const & b, typename A::value_type beta, C && c)
+      template <typename A, typename B, typename C> 
+      void gemv(typename A::value_type alpha, A const &a, B const &b, typename A::value_type beta, C &&c)
     desc: Calls gemv on a matrix, matrix_view, array, array_view of rank 2
 
 # Long description. Any Markdown, with code, latex, multiline with |
@@ -61,5 +60,4 @@ permalink: /cpp-api/nda/blas/gemv
 title: nda::blas::gemv
 parent: nda::blas
 ...
-
 

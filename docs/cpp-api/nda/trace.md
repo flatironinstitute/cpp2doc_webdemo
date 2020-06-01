@@ -4,7 +4,6 @@ layout: function
 fancy_name: trace
 function_name: trace
 file_name: trace
-qualified_name: nda::trace
 namespaces: [nda]
 includer: nda/nda.hpp
 
@@ -15,8 +14,8 @@ brief: ""
 overloads:
 
   - signature: |
-      template <nda::ArrayOfRank<2> M>
-      typename M::value_type trace(M const & m)
+      template <nda::ArrayOfRank<2> M> 
+      typename M::value_type trace(M const &m)
     desc: ""
 
 # Long description. Any Markdown, with code, latex, multiline with |
@@ -46,5 +45,4 @@ permalink: /cpp-api/nda/trace
 title: nda::trace
 parent: nda
 ...
-
 

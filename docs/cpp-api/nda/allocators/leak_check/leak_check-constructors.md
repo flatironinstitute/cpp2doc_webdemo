@@ -4,7 +4,6 @@ layout: function
 fancy_name: (constructors)
 function_name: leak_check
 file_name: leak_check-constructors
-qualified_name: nda::allocators::leak_check::leak_check<A>
 namespaces: [nda, allocators, leak_check]
 includer: nda/nda.hpp
 
@@ -17,10 +16,10 @@ overloads:
   - signature: leak_check()
     desc: ""
 
-  - signature: leak_check(leak_check const & )
+  - signature: leak_check(leak_check const &)
     desc: ""
 
-  - signature: leak_check(leak_check && )
+  - signature: leak_check(leak_check &&)
     desc: ""
 
 # Long description. Any Markdown, with code, latex, multiline with |
@@ -50,5 +49,4 @@ permalink: /cpp-api/nda/allocators/leak_check/leak_check-constructors
 title: nda::allocators::leak_check::leak_check<A>
 parent: nda::allocators::leak_check
 ...
-
 

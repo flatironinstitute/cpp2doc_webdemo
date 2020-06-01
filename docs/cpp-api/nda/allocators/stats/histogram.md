@@ -4,7 +4,6 @@ layout: function
 fancy_name: histogram
 function_name: histogram
 file_name: histogram
-qualified_name: nda::allocators::stats::histogram
 namespaces: [nda, allocators, stats]
 includer: nda/nda.hpp
 
@@ -14,7 +13,7 @@ brief: ""
 # List of overloads. Edit only the desc
 overloads:
 
-  - signature: auto const & histogram() noexcept const
+  - signature: auto const &histogram() noexcept const
     desc: ""
 
 # Long description. Any Markdown, with code, latex, multiline with |
@@ -44,5 +43,4 @@ permalink: /cpp-api/nda/allocators/stats/histogram
 title: nda::allocators::stats::histogram
 parent: nda::allocators::stats
 ...
-
 

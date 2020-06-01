@@ -4,7 +4,6 @@ layout: function
 fancy_name: operator=
 function_name: operator=
 file_name: operator=
-qualified_name: nda::basic_array::operator=
 namespaces: [nda, basic_array]
 includer: nda/nda.hpp
 
@@ -14,26 +13,27 @@ brief: ""
 # List of overloads. Edit only the desc
 overloads:
 
-  - signature: basic_array & operator=(basic_array && x)
+  - signature: basic_array &operator=(basic_array &&x)
     desc: ""
 
-  - signature: basic_array & operator=(basic_array const & X)
+  - signature: basic_array &operator=(basic_array const &X)
     desc: Deep copy (array is a regular type). Invalidates all references to the storage.
 
   - signature: |
-      template <nda::ArrayOfRank<Rank> RHS>
-      basic_array & operator=(RHS const & rhs) noexcept
+      template <nda::ArrayOfRank<Rank> RHS> 
+      basic_array &operator=(RHS const &rhs) noexcept
     desc: ""
 
   - signature: |
-      template <typename RHS>
-      requires (is_scalar_for_v<RHS, basic_array>)
-      basic_array & operator=(RHS const & rhs) noexcept
+      template <typename RHS>                     
+      requires(is_scalar_for_v<RHS, basic_array>) 
+      basic_array &
+         operator=(RHS const &rhs) noexcept
     desc: ""
 
   - signature: |
-      template <nda::ArrayInitializer Initializer>
-      basic_array & operator=(Initializer const & initializer) noexcept
+      template <nda::ArrayInitializer Initializer> 
+      basic_array &operator=(Initializer const &initializer) noexcept
     desc: ""
 
 # Long description. Any Markdown, with code, latex, multiline with |
@@ -67,5 +67,4 @@ permalink: /cpp-api/nda/basic_array/operator=
 title: nda::basic_array::operator=
 parent: nda::basic_array
 ...
-
 

@@ -4,7 +4,6 @@ layout: function
 fancy_name: (constructors)
 function_name: handle_shared
 file_name: handle_shared-constructors
-qualified_name: nda::mem::handle_shared::handle_shared<T>
 namespaces: [nda, mem, handle_shared]
 includer: nda/nda.hpp
 
@@ -17,16 +16,16 @@ overloads:
   - signature: handle_shared()
     desc: ""
 
-  - signature: handle_shared(handle_shared const & ) noexcept
+  - signature: handle_shared(handle_shared const &) noexcept
     desc: ""
 
-  - signature: handle_shared(handle_shared && ) noexcept
+  - signature: handle_shared(handle_shared &&) noexcept
     desc: ""
 
-  - signature: handle_shared(T * data, size_t size, void * foreign_handle, void * foreign_decref) noexcept
+  - signature: handle_shared(T *data, size_t size, void *foreign_handle, void *foreign_decref) noexcept
     desc: ""
 
-  - signature: handle_shared(handle_heap<T, void> const & x) noexcept
+  - signature: handle_shared(handle_heap<T, void> const &x) noexcept
     desc: ""
 
 # Long description. Any Markdown, with code, latex, multiline with |
@@ -60,5 +59,4 @@ permalink: /cpp-api/nda/mem/handle_shared/handle_shared-constructors
 title: nda::mem::handle_shared::handle_shared<T>
 parent: nda::mem::handle_shared
 ...
-
 

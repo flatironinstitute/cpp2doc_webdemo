@@ -4,7 +4,6 @@ layout: function
 fancy_name: operator()
 function_name: operator()
 file_name: operator-call
-qualified_name: nda::scalar_matrix::operator()
 namespaces: [nda, scalar_matrix]
 includer: nda/nda.hpp
 
@@ -15,8 +14,8 @@ brief: ""
 overloads:
 
   - signature: |
-      template <typename A1, typename A2>
-      S operator()(A1 const & a1, A2 const & a2)  const
+      template <typename A1, typename A2> 
+      S operator()(A1 const &a1, A2 const &a2) const
     desc: ""
 
 # Long description. Any Markdown, with code, latex, multiline with |
@@ -48,5 +47,4 @@ permalink: /cpp-api/nda/scalar_matrix/operator-call
 title: nda::scalar_matrix::operator()
 parent: nda::scalar_matrix
 ...
-
 

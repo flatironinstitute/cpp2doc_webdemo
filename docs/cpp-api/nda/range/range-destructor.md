@@ -4,7 +4,6 @@ layout: function
 fancy_name: (destructor)
 function_name: ~range
 file_name: range-destructor
-qualified_name: nda::range::~range
 namespaces: [nda, range]
 includer: nda/nda.hpp
 
@@ -44,5 +43,4 @@ permalink: /cpp-api/nda/range/range-destructor
 title: nda::range::~range
 parent: nda::range
 ...
-
 

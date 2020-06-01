@@ -4,7 +4,6 @@ layout: function
 fancy_name: isnan
 function_name: isnan
 file_name: isnan
-qualified_name: nda::isnan
 namespaces: [nda]
 includer: nda/nda.hpp
 
@@ -14,13 +13,13 @@ brief: ""
 # List of overloads. Edit only the desc
 overloads:
 
-  - signature: bool isnan(std::complex<double> const & z)
+  - signature: bool isnan(std::complex<double> const &z)
     desc: ""
 
   - signature: |
-      template <typename A>
-      requires (is_ndarray_v<std::decay_t<A>>)
-      auto isnan(A && a)
+      template <typename A>                   
+      requires(is_ndarray_v<std::decay_t<A>>) 
+      auto isnan(A &&a)
     desc: Maps isnan onto the array
 
 # Long description. Any Markdown, with code, latex, multiline with |
@@ -51,5 +50,4 @@ permalink: /cpp-api/nda/isnan
 title: nda::isnan
 parent: nda
 ...
-
 

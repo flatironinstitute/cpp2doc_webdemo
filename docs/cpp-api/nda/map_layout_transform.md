@@ -4,7 +4,6 @@ layout: function
 fancy_name: map_layout_transform
 function_name: map_layout_transform
 file_name: map_layout_transform
-qualified_name: nda::map_layout_transform
 namespaces: [nda]
 includer: nda/nda.hpp
 
@@ -15,23 +14,27 @@ brief: ""
 overloads:
 
   - signature: |
-      template <typename T, int R, typename L, char Algebra, typename AccessorPolicy, typename OwningPolicy, typename NewLayoutType>
-      auto map_layout_transform(basic_array_view<T, R, L, Algebra, AccessorPolicy, OwningPolicy> a, NewLayoutType const & new_layout)
+      template <typename T, int R, typename L, char Algebra, typename AccessorPolicy, typename OwningPolicy,
+                typename NewLayoutType> 
+      auto map_layout_transform(basic_array_view<T, R, L, Algebra, AccessorPolicy, OwningPolicy> a,
+                                NewLayoutType const &new_layout)
     desc: ""
 
   - signature: |
-      template <typename T, int R, typename L, char Algebra, typename ContainerPolicy, typename NewLayoutType>
-      auto map_layout_transform(basic_array<T, R, L, Algebra, ContainerPolicy> && a, NewLayoutType const & new_layout)
+      template <typename T, int R, typename L, char Algebra, typename ContainerPolicy, typename NewLayoutType> 
+      auto map_layout_transform(basic_array<T, R, L, Algebra, ContainerPolicy> &&a, NewLayoutType const &new_layout)
     desc: ""
 
   - signature: |
-      template <typename T, int R, typename L, char Algebra, typename AccessorPolicy, typename OwningPolicy, typename NewLayoutType>
-      auto map_layout_transform(basic_array_view<T, R, L, Algebra, AccessorPolicy, OwningPolicy> a, NewLayoutType const & new_layout)
+      template <typename T, int R, typename L, char Algebra, typename AccessorPolicy, typename OwningPolicy,
+                typename NewLayoutType> 
+      auto map_layout_transform(basic_array_view<T, R, L, Algebra, AccessorPolicy, OwningPolicy> a,
+                                NewLayoutType const &new_layout)
     desc: ""
 
   - signature: |
-      template <typename T, int R, typename L, char Algebra, typename ContainerPolicy, typename NewLayoutType>
-      auto map_layout_transform(basic_array<T, R, L, Algebra, ContainerPolicy> && a, NewLayoutType const & new_layout)
+      template <typename T, int R, typename L, char Algebra, typename ContainerPolicy, typename NewLayoutType> 
+      auto map_layout_transform(basic_array<T, R, L, Algebra, ContainerPolicy> &&a, NewLayoutType const &new_layout)
     desc: ""
 
 # Long description. Any Markdown, with code, latex, multiline with |
@@ -69,5 +72,4 @@ permalink: /cpp-api/nda/map_layout_transform
 title: nda::map_layout_transform
 parent: nda
 ...
-
 

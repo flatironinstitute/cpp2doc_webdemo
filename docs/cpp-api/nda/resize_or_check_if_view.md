@@ -4,7 +4,6 @@ layout: function
 fancy_name: resize_or_check_if_view
 function_name: resize_or_check_if_view
 file_name: resize_or_check_if_view
-qualified_name: nda::resize_or_check_if_view
 namespaces: [nda]
 includer: nda/nda.hpp
 
@@ -15,9 +14,9 @@ brief: ""
 overloads:
 
   - signature: |
-      template <typename A>
-      requires (is_regular_or_view_v<A>)
-      void resize_or_check_if_view(A & a, std::array<long, A::rank> const & sha)
+      template <typename A>             
+      requires(is_regular_or_view_v<A>) 
+      void resize_or_check_if_view(A &a, std::array<long, A::rank> const &sha)
     desc: ""
 
 # Long description. Any Markdown, with code, latex, multiline with |
@@ -48,5 +47,4 @@ permalink: /cpp-api/nda/resize_or_check_if_view
 title: nda::resize_or_check_if_view
 parent: nda
 ...
-
 

@@ -4,7 +4,6 @@ layout: function
 fancy_name: get_s
 function_name: get_s
 file_name: get_s
-qualified_name: nda::slice_static::get_s
 namespaces: [nda, slice_static]
 includer: nda/nda.hpp
 
@@ -14,10 +13,10 @@ brief: ""
 # List of overloads. Edit only the desc
 overloads:
 
-  - signature: long get_s(class nda::range const & R, long s_n)
+  - signature: long get_s(class nda::range const &R, long s_n)
     desc: ""
 
-  - signature: long get_s(struct nda::range_all , long s_n)
+  - signature: long get_s(struct nda::range_all, long s_n)
     desc: ""
 
 # Long description. Any Markdown, with code, latex, multiline with |
@@ -48,5 +47,4 @@ permalink: /cpp-api/nda/slice_static/get_s
 title: nda::slice_static::get_s
 parent: nda::slice_static
 ...
-
 

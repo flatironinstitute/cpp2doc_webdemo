@@ -4,7 +4,6 @@ layout: function
 fancy_name: group_indices_layout
 function_name: group_indices_layout
 file_name: group_indices_layout
-qualified_name: nda::group_indices_layout
 namespaces: [nda]
 includer: nda/nda.hpp
 
@@ -15,8 +14,9 @@ brief: Regroup indices for a C array
 overloads:
 
   - signature: |
-      template <int Rank, uint64_t StaticExtents, uint64_t StrideOrder, enum nda::layout_prop_e LayoutProp, typename IntSequences>
-      auto group_indices_layout(idx_map<Rank, StaticExtents, StrideOrder, LayoutProp> const & idxm, IntSequences... )
+      template <int Rank, uint64_t StaticExtents, uint64_t StrideOrder, enum nda::layout_prop_e LayoutProp,
+                typename IntSequences> 
+      auto group_indices_layout(idx_map<Rank, StaticExtents, StrideOrder, LayoutProp> const &idxm, IntSequences...)
     desc: Regroup indices for a C array
 
 # Long description. Any Markdown, with code, latex, multiline with |
@@ -50,5 +50,4 @@ permalink: /cpp-api/nda/group_indices_layout
 title: nda::group_indices_layout
 parent: nda
 ...
-
 

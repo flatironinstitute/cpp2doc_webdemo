@@ -4,7 +4,6 @@ layout: function
 fancy_name: operator->
 function_name: operator->
 file_name: operator->
-qualified_name: nda::array_iterator::operator->
 namespaces: [nda, array_iterator]
 includer: nda/nda.hpp
 
@@ -14,7 +13,7 @@ brief: ""
 # List of overloads. Edit only the desc
 overloads:
 
-  - signature: nda::array_iterator::value_type & operator->()  const
+  - signature: nda::array_iterator::value_type &operator->() const
     desc: ""
 
 # Long description. Any Markdown, with code, latex, multiline with |
@@ -44,5 +43,4 @@ permalink: /cpp-api/nda/array_iterator/operator->
 title: nda::array_iterator::operator->
 parent: nda::array_iterator
 ...
-
 

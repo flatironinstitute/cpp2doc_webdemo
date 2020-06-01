@@ -4,7 +4,6 @@ layout: function
 fancy_name: sin
 function_name: sin
 file_name: sin
-qualified_name: nda::sin
 namespaces: [nda]
 includer: nda/nda.hpp
 
@@ -15,9 +14,9 @@ brief: Maps sin onto the array
 overloads:
 
   - signature: |
-      template <typename A>
-      requires (is_ndarray_v<std::decay_t<A>> and (get_algebra<std::decay_t<A>> != 'M'))
-      auto sin(A && a)
+      template <typename A>                                                             
+      requires(is_ndarray_v<std::decay_t<A>> and (get_algebra<std::decay_t<A>> != 'M')) 
+      auto sin(A &&a)
     desc: Maps sin onto the array
 
 # Long description. Any Markdown, with code, latex, multiline with |
@@ -47,5 +46,4 @@ permalink: /cpp-api/nda/sin
 title: nda::sin
 parent: nda
 ...
-
 

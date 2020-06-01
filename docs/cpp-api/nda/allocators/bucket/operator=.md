@@ -4,7 +4,6 @@ layout: function
 fancy_name: operator=
 function_name: operator=
 file_name: operator=
-qualified_name: nda::allocators::bucket::operator=
 namespaces: [nda, allocators, bucket]
 includer: nda/nda.hpp
 
@@ -14,10 +13,10 @@ brief: ""
 # List of overloads. Edit only the desc
 overloads:
 
-  - signature: bucket & operator=(bucket const & )
+  - signature: bucket &operator=(bucket const &)
     desc: ""
 
-  - signature: bucket & operator=(bucket && )
+  - signature: bucket &operator=(bucket &&)
     desc: ""
 
 # Long description. Any Markdown, with code, latex, multiline with |
@@ -47,5 +46,4 @@ permalink: /cpp-api/nda/allocators/bucket/operator=
 title: nda::allocators::bucket::operator=
 parent: nda::allocators::bucket
 ...
-
 

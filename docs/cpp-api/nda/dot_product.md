@@ -4,7 +4,6 @@ layout: function
 fancy_name: dot_product
 function_name: dot_product
 file_name: dot_product
-qualified_name: nda::dot_product
 namespaces: [nda]
 includer: nda/nda.hpp
 
@@ -15,8 +14,8 @@ brief: Dot product of two arrays.
 overloads:
 
   - signature: |
-      template <typename T, typename U, size_t R>
-      auto dot_product(std::array<T, R> const & a1, std::array<U, R> const & a2)
+      template <typename T, typename U, size_t R> 
+      auto dot_product(std::array<T, R> const &a1, std::array<U, R> const &a2)
     desc: Dot product of two arrays.
 
 # Long description. Any Markdown, with code, latex, multiline with |
@@ -49,5 +48,4 @@ permalink: /cpp-api/nda/dot_product
 title: nda::dot_product
 parent: nda
 ...
-
 

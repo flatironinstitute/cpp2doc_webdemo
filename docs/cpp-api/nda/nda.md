@@ -71,6 +71,7 @@ functions:
   - static_extents
   - <deduction guide for basic_array>
   - map_layout_transform
+  - zeros
   - make_regular
   - resize_or_check_if_view
   - make_const_view
@@ -129,6 +130,7 @@ functions:
   - all
   - max_element
   - min_element
+  - frobenius_norm
   - sum
 ...
 

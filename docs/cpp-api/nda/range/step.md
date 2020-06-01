@@ -4,7 +4,6 @@ layout: function
 fancy_name: step
 function_name: step
 file_name: step
-qualified_name: nda::range::step
 namespaces: [nda, range]
 includer: nda/nda.hpp
 
@@ -44,5 +43,4 @@ permalink: /cpp-api/nda/range/step
 title: nda::range::step
 parent: nda::range
 ...
-
 

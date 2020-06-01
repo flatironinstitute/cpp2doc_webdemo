@@ -4,7 +4,6 @@ layout: function
 fancy_name: parent
 function_name: parent
 file_name: parent
-qualified_name: nda::mem::handle_borrowed::parent
 namespaces: [nda, mem, handle_borrowed]
 includer: nda/nda.hpp
 
@@ -14,7 +13,7 @@ brief: ""
 # List of overloads. Edit only the desc
 overloads:
 
-  - signature: handle_heap<nda::mem::handle_borrowed::T0, void> const * parent()  const
+  - signature: handle_heap<nda::mem::handle_borrowed::T0, void> const *parent() const
     desc: ""
 
 # Long description. Any Markdown, with code, latex, multiline with |
@@ -44,5 +43,4 @@ permalink: /cpp-api/nda/mem/handle_borrowed/parent
 title: nda::mem::handle_borrowed::parent
 parent: nda::mem::handle_borrowed
 ...
-
 

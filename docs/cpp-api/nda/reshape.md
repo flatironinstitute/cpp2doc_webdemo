@@ -4,7 +4,6 @@ layout: function
 fancy_name: reshape
 function_name: reshape
 file_name: reshape
-qualified_name: nda::reshape
 namespaces: [nda]
 includer: nda/nda.hpp
 
@@ -15,13 +14,13 @@ brief: ""
 overloads:
 
   - signature: |
-      template <typename T, int R, typename L, char Algebra, typename ContainerPolicy, size_t R2>
-      auto reshape(basic_array<T, R, L, Algebra, ContainerPolicy> && a, std::array<long, R2> const & new_shape)
+      template <typename T, int R, typename L, char Algebra, typename ContainerPolicy, auto newRank> 
+      auto reshape(basic_array<T, R, L, Algebra, ContainerPolicy> &&a, std::array<long, newRank> const &new_shape)
     desc: ""
 
   - signature: |
-      template <typename T, int R, typename L, char Algebra, typename ContainerPolicy, size_t R2>
-      auto reshape(basic_array<T, R, L, Algebra, ContainerPolicy> && a, std::array<int, R2> const & new_shape)
+      template <typename T, int R, typename L, char Algebra, typename ContainerPolicy, auto newRank> 
+      auto reshape(basic_array<T, R, L, Algebra, ContainerPolicy> &&a, std::array<int, newRank> const &new_shape)
     desc: ""
 
 # Long description. Any Markdown, with code, latex, multiline with |
@@ -39,7 +38,7 @@ tparams:
   L: __MISSING__
   Algebra: __MISSING__
   ContainerPolicy: __MISSING__
-  R2: __MISSING__
+  newRank: __MISSING__
 
 # Desc of the return value
 return_value: __MISSING__
@@ -57,5 +56,4 @@ permalink: /cpp-api/nda/reshape
 title: nda::reshape
 parent: nda
 ...
-
 

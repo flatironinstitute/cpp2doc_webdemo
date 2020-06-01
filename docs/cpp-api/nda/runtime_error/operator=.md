@@ -4,7 +4,6 @@ layout: function
 fancy_name: operator=
 function_name: operator=
 file_name: operator=
-qualified_name: nda::runtime_error::operator=
 namespaces: [nda, runtime_error]
 includer: nda/nda.hpp
 
@@ -14,7 +13,7 @@ brief: ""
 # List of overloads. Edit only the desc
 overloads:
 
-  - signature: runtime_error & operator=(runtime_error const & )
+  - signature: runtime_error &operator=(runtime_error const &)
     desc: ""
 
 # Long description. Any Markdown, with code, latex, multiline with |
@@ -44,5 +43,4 @@ permalink: /cpp-api/nda/runtime_error/operator=
 title: nda::runtime_error::operator=
 parent: nda::runtime_error
 ...
-
 

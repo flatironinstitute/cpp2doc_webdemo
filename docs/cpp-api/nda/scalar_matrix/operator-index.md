@@ -4,7 +4,6 @@ layout: function
 fancy_name: operator[]
 function_name: operator[]
 file_name: operator-index
-qualified_name: nda::scalar_matrix::operator[]
 namespaces: [nda, scalar_matrix]
 includer: nda/nda.hpp
 
@@ -15,8 +14,8 @@ brief: ""
 overloads:
 
   - signature: |
-      template <typename T>
-      S operator[](T && )  const
+      template <typename T> 
+      S operator[](T &&) const
     desc: ""
 
 # Long description. Any Markdown, with code, latex, multiline with |
@@ -46,5 +45,4 @@ permalink: /cpp-api/nda/scalar_matrix/operator-index
 title: nda::scalar_matrix::operator[]
 parent: nda::scalar_matrix
 ...
-
 

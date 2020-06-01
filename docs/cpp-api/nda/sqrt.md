@@ -4,7 +4,6 @@ layout: function
 fancy_name: sqrt
 function_name: sqrt
 file_name: sqrt
-qualified_name: nda::sqrt
 namespaces: [nda]
 includer: nda/nda.hpp
 
@@ -15,9 +14,9 @@ brief: Maps sqrt onto the array
 overloads:
 
   - signature: |
-      template <typename A>
-      requires (is_ndarray_v<std::decay_t<A>> and (get_algebra<std::decay_t<A>> != 'M'))
-      auto sqrt(A && a)
+      template <typename A>                                                             
+      requires(is_ndarray_v<std::decay_t<A>> and (get_algebra<std::decay_t<A>> != 'M')) 
+      auto sqrt(A &&a)
     desc: Maps sqrt onto the array
 
 # Long description. Any Markdown, with code, latex, multiline with |
@@ -47,5 +46,4 @@ permalink: /cpp-api/nda/sqrt
 title: nda::sqrt
 parent: nda
 ...
-
 

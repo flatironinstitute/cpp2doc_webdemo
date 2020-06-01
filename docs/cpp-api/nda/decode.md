@@ -4,7 +4,6 @@ layout: function
 fancy_name: decode
 function_name: decode
 file_name: decode
-qualified_name: nda::decode
 namespaces: [nda]
 includer: nda/nda.hpp
 
@@ -15,7 +14,7 @@ brief: ""
 overloads:
 
   - signature: |
-      template <size_t Rank>
+      template <size_t Rank> 
       std::array<int, Rank> decode(uint64_t binary_representation)
     desc: ""
 
@@ -46,5 +45,4 @@ permalink: /cpp-api/nda/decode
 title: nda::decode
 parent: nda
 ...
-
 

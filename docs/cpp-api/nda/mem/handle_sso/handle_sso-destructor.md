@@ -4,7 +4,6 @@ layout: function
 fancy_name: (destructor)
 function_name: ~handle_sso<T, Size>
 file_name: handle_sso-destructor
-qualified_name: nda::mem::handle_sso::~handle_sso<T, Size>
 namespaces: [nda, mem, handle_sso]
 includer: nda/nda.hpp
 
@@ -44,5 +43,4 @@ permalink: /cpp-api/nda/mem/handle_sso/handle_sso-destructor
 title: nda::mem::handle_sso::~handle_sso<T, Size>
 parent: nda::mem::handle_sso
 ...
-
 

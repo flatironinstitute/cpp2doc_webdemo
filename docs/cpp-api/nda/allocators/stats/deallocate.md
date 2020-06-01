@@ -4,7 +4,6 @@ layout: function
 fancy_name: deallocate
 function_name: deallocate
 file_name: deallocate
-qualified_name: nda::allocators::stats::deallocate
 namespaces: [nda, allocators, stats]
 includer: nda/nda.hpp
 
@@ -44,5 +43,4 @@ permalink: /cpp-api/nda/allocators/stats/deallocate
 title: nda::allocators::stats::deallocate
 parent: nda::allocators::stats
 ...
-
 

@@ -4,7 +4,6 @@ layout: function
 fancy_name: sum
 function_name: sum
 file_name: sum
-qualified_name: nda::sum
 namespaces: [nda]
 includer: nda/nda.hpp
 
@@ -15,8 +14,8 @@ brief: ""
 overloads:
 
   - signature: |
-      template <nda::Array A>
-      auto sum(A const & a)
+      template <nda::Array A> 
+      auto sum(A const &a)
     desc: ""
 
 # Long description. Any Markdown, with code, latex, multiline with |
@@ -46,5 +45,4 @@ permalink: /cpp-api/nda/sum
 title: nda::sum
 parent: nda
 ...
-
 

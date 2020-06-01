@@ -1,4 +1,5 @@
 ---
+layout: default
 title: C++ API
 permalink: /cpp-api
 has_children: true

@@ -4,7 +4,6 @@ layout: function
 fancy_name: strides
 function_name: strides
 file_name: strides
-qualified_name: nda::idx_map::strides
 namespaces: [nda, idx_map]
 includer: nda/nda.hpp
 
@@ -14,7 +13,7 @@ brief: Strides of each dimension.
 # List of overloads. Edit only the desc
 overloads:
 
-  - signature: std::array<long, Rank> const & strides() noexcept const
+  - signature: std::array<long, Rank> const &strides() noexcept const
     desc: Strides of each dimension.
 
 # Long description. Any Markdown, with code, latex, multiline with |
@@ -44,5 +43,4 @@ permalink: /cpp-api/nda/idx_map/strides
 title: nda::idx_map::strides
 parent: nda::idx_map
 ...
-
 

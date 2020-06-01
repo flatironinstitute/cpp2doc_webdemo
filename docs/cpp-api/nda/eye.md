@@ -4,7 +4,6 @@ layout: function
 fancy_name: eye
 function_name: eye
 file_name: eye
-qualified_name: nda::eye
 namespaces: [nda]
 includer: nda/nda.hpp
 
@@ -15,7 +14,7 @@ brief: ""
 overloads:
 
   - signature: |
-      template <typename V>
+      template <typename V> 
       matrix<V> eye(long dim)
     desc: ""
 
@@ -46,5 +45,4 @@ permalink: /cpp-api/nda/eye
 title: nda::eye
 parent: nda
 ...
-
 

@@ -4,7 +4,6 @@ layout: function
 fancy_name: front_append
 function_name: front_append
 file_name: front_append
-qualified_name: nda::front_append
 namespaces: [nda]
 includer: nda/nda.hpp
 
@@ -15,8 +14,8 @@ brief: Make a new std::array by appending one element at the front
 overloads:
 
   - signature: |
-      template <typename T, typename U, size_t R>
-      std::array<T, R + 1> front_append(std::array<T, R> const & a, U const & x)
+      template <typename T, typename U, size_t R> 
+      std::array<T, R + 1> front_append(std::array<T, R> const &a, U const &x)
     desc: Make a new std::array by appending one element at the front
 
 # Long description. Any Markdown, with code, latex, multiline with |
@@ -49,5 +48,4 @@ permalink: /cpp-api/nda/front_append
 title: nda::front_append
 parent: nda
 ...
-
 

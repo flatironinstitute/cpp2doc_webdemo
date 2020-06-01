@@ -4,7 +4,6 @@ layout: function
 fancy_name: (constructors)
 function_name: segregator
 file_name: segregator-constructors
-qualified_name: nda::allocators::segregator::segregator<Threshold, A, B>
 namespaces: [nda, allocators, segregator]
 includer: nda/nda.hpp
 
@@ -17,10 +16,10 @@ overloads:
   - signature: segregator()
     desc: ""
 
-  - signature: segregator(segregator const & )
+  - signature: segregator(segregator const &)
     desc: ""
 
-  - signature: segregator(segregator && )
+  - signature: segregator(segregator &&)
     desc: ""
 
 # Long description. Any Markdown, with code, latex, multiline with |
@@ -50,5 +49,4 @@ permalink: /cpp-api/nda/allocators/segregator/segregator-constructors
 title: nda::allocators::segregator::segregator<Threshold, A, B>
 parent: nda::allocators::segregator
 ...
-
 

@@ -4,7 +4,6 @@ layout: function
 fancy_name: cos
 function_name: cos
 file_name: cos
-qualified_name: nda::cos
 namespaces: [nda]
 includer: nda/nda.hpp
 
@@ -15,9 +14,9 @@ brief: Maps cos onto the array
 overloads:
 
   - signature: |
-      template <typename A>
-      requires (is_ndarray_v<std::decay_t<A>> and (get_algebra<std::decay_t<A>> != 'M'))
-      auto cos(A && a)
+      template <typename A>                                                             
+      requires(is_ndarray_v<std::decay_t<A>> and (get_algebra<std::decay_t<A>> != 'M')) 
+      auto cos(A &&a)
     desc: Maps cos onto the array
 
 # Long description. Any Markdown, with code, latex, multiline with |
@@ -47,5 +46,4 @@ permalink: /cpp-api/nda/cos
 title: nda::cos
 parent: nda
 ...
-
 

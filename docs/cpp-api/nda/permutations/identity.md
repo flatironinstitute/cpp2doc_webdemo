@@ -4,7 +4,6 @@ layout: function
 fancy_name: identity
 function_name: identity
 file_name: identity
-qualified_name: nda::permutations::identity
 namespaces: [nda, permutations]
 includer: nda/nda.hpp
 
@@ -15,7 +14,7 @@ brief: ""
 overloads:
 
   - signature: |
-      template <int Rank>
+      template <int Rank> 
       std::array<int, Rank> identity()
     desc: ""
 
@@ -46,5 +45,4 @@ permalink: /cpp-api/nda/permutations/identity
 title: nda::permutations::identity
 parent: nda::permutations
 ...
-
 

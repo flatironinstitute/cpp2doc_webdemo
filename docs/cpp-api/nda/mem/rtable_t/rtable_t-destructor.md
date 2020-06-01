@@ -4,7 +4,6 @@ layout: function
 fancy_name: (destructor)
 function_name: ~rtable_t
 file_name: rtable_t-destructor
-qualified_name: nda::mem::rtable_t::~rtable_t
 namespaces: [nda, mem, rtable_t]
 includer: nda/nda.hpp
 
@@ -44,5 +43,4 @@ permalink: /cpp-api/nda/mem/rtable_t/rtable_t-destructor
 title: nda::mem::rtable_t::~rtable_t
 parent: nda::mem::rtable_t
 ...
-
 

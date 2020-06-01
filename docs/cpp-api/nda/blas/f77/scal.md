@@ -4,7 +4,6 @@ layout: function
 fancy_name: scal
 function_name: scal
 file_name: scal
-qualified_name: nda::blas::f77::scal
 namespaces: [nda, blas, f77]
 includer: nda/nda.hpp
 
@@ -14,10 +13,10 @@ brief: ""
 # List of overloads. Edit only the desc
 overloads:
 
-  - signature: void scal(int M, double alpha, double * x, int incx)
+  - signature: void scal(int M, double alpha, double *x, int incx)
     desc: ""
 
-  - signature: void scal(int M, std::complex<double> alpha, std::complex<double> * x, int incx)
+  - signature: void scal(int M, std::complex<double> alpha, std::complex<double> *x, int incx)
     desc: ""
 
 # Long description. Any Markdown, with code, latex, multiline with |
@@ -50,5 +49,4 @@ permalink: /cpp-api/nda/blas/f77/scal
 title: nda::blas::f77::scal
 parent: nda::blas::f77
 ...
-
 

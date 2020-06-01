@@ -4,7 +4,6 @@ layout: function
 fancy_name: (constructors)
 function_name: mallocator
 file_name: mallocator-constructors
-qualified_name: nda::allocators::mallocator::mallocator
 namespaces: [nda, allocators, mallocator]
 includer: nda/nda.hpp
 
@@ -17,10 +16,10 @@ overloads:
   - signature: mallocator()
     desc: ""
 
-  - signature: mallocator(mallocator const & )
+  - signature: mallocator(mallocator const &)
     desc: ""
 
-  - signature: mallocator(mallocator && )
+  - signature: mallocator(mallocator &&)
     desc: ""
 
 # Long description. Any Markdown, with code, latex, multiline with |
@@ -50,5 +49,4 @@ permalink: /cpp-api/nda/allocators/mallocator/mallocator-constructors
 title: nda::allocators::mallocator::mallocator
 parent: nda::allocators::mallocator
 ...
-
 

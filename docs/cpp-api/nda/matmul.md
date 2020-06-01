@@ -4,7 +4,6 @@ layout: function
 fancy_name: matmul
 function_name: matmul
 file_name: matmul
-qualified_name: nda::matmul
 namespaces: [nda]
 includer: nda/nda.hpp
 
@@ -15,8 +14,8 @@ brief: ""
 overloads:
 
   - signature: |
-      template <typename L, typename R>
-      auto matmul(L && l, R && r)
+      template <typename L, typename R> 
+      auto matmul(L &&l, R &&r)
     desc: ""
 
 # Long description. Any Markdown, with code, latex, multiline with |
@@ -48,5 +47,4 @@ permalink: /cpp-api/nda/matmul
 title: nda::matmul
 parent: nda
 ...
-
 

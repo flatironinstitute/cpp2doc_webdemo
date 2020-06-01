@@ -4,7 +4,6 @@ layout: function
 fancy_name: index_from_stride_order
 function_name: index_from_stride_order
 file_name: index_from_stride_order
-qualified_name: nda::details::index_from_stride_order
 namespaces: [nda, details]
 includer: nda/nda.hpp
 
@@ -15,7 +14,7 @@ brief: ""
 overloads:
 
   - signature: |
-      template <int R>
+      template <int R> 
       int index_from_stride_order(uint64_t StrideOrder, int i)
     desc: ""
 
@@ -47,5 +46,4 @@ permalink: /cpp-api/nda/details/index_from_stride_order
 title: nda::details::index_from_stride_order
 parent: nda::details
 ...
-
 

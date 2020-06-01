@@ -4,7 +4,6 @@ layout: function
 fancy_name: check_grouping
 function_name: check_grouping
 file_name: check_grouping
-qualified_name: nda::check_grouping
 namespaces: [nda]
 includer: nda/nda.hpp
 
@@ -15,8 +14,8 @@ brief: ""
 overloads:
 
   - signature: |
-      template <size_t R, size_t Rs>
-      bool check_grouping(std::array<int, R> const & stride_order, const std::array<int, Rs> &... grps)
+      template <size_t R, size_t Rs> 
+      bool check_grouping(std::array<int, R> const &stride_order, const std::array<int, Rs> &... grps)
     desc: ""
 
 # Long description. Any Markdown, with code, latex, multiline with |
@@ -48,5 +47,4 @@ permalink: /cpp-api/nda/check_grouping
 title: nda::check_grouping
 parent: nda
 ...
-
 

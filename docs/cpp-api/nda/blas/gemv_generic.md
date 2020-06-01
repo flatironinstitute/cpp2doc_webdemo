@@ -4,7 +4,6 @@ layout: function
 fancy_name: gemv_generic
 function_name: gemv_generic
 file_name: gemv_generic
-qualified_name: nda::blas::gemv_generic
 namespaces: [nda, blas]
 includer: nda/nda.hpp
 
@@ -15,8 +14,8 @@ brief: ""
 overloads:
 
   - signature: |
-      template <typename A, typename B, typename Out>
-      void gemv_generic(typename A::value_type alpha, A const & a, B const & b, typename A::value_type beta, Out & c)
+      template <typename A, typename B, typename Out> 
+      void gemv_generic(typename A::value_type alpha, A const &a, B const &b, typename A::value_type beta, Out &c)
     desc: ""
 
 # Long description. Any Markdown, with code, latex, multiline with |
@@ -52,5 +51,4 @@ permalink: /cpp-api/nda/blas/gemv_generic
 title: nda::blas::gemv_generic
 parent: nda::blas
 ...
-
 

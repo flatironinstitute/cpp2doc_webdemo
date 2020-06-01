@@ -4,7 +4,6 @@ layout: function
 fancy_name: operator=
 function_name: operator=
 file_name: operator=
-qualified_name: nda::allocators::stats::operator=
 namespaces: [nda, allocators, stats]
 includer: nda/nda.hpp
 
@@ -14,10 +13,10 @@ brief: ""
 # List of overloads. Edit only the desc
 overloads:
 
-  - signature: stats & operator=(stats const & )
+  - signature: stats &operator=(stats const &)
     desc: ""
 
-  - signature: stats & operator=(stats && )
+  - signature: stats &operator=(stats &&)
     desc: ""
 
 # Long description. Any Markdown, with code, latex, multiline with |
@@ -47,5 +46,4 @@ permalink: /cpp-api/nda/allocators/stats/operator=
 title: nda::allocators::stats::operator=
 parent: nda::allocators::stats
 ...
-
 

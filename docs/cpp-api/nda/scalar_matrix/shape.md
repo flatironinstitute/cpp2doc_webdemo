@@ -4,7 +4,6 @@ layout: function
 fancy_name: shape
 function_name: shape
 file_name: shape
-qualified_name: nda::scalar_matrix::shape
 namespaces: [nda, scalar_matrix]
 includer: nda/nda.hpp
 
@@ -14,7 +13,7 @@ brief: ""
 # List of overloads. Edit only the desc
 overloads:
 
-  - signature: std::array<long, 2> const & shape()  const
+  - signature: std::array<long, 2> const &shape() const
     desc: ""
 
 # Long description. Any Markdown, with code, latex, multiline with |
@@ -44,5 +43,4 @@ permalink: /cpp-api/nda/scalar_matrix/shape
 title: nda::scalar_matrix::shape
 parent: nda::scalar_matrix
 ...
-
 

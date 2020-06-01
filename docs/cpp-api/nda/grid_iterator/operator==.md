@@ -4,7 +4,6 @@ layout: function
 fancy_name: operator==
 function_name: operator==
 file_name: operator==
-qualified_name: nda::grid_iterator<1>::operator==
 namespaces: [nda, grid_iterator]
 includer: nda/nda.hpp
 
@@ -14,10 +13,10 @@ brief: ""
 # List of overloads. Edit only the desc
 overloads:
 
-  - signature: bool operator==(grid_iterator const & other)  const
+  - signature: bool operator==(grid_iterator const &other) const
     desc: ""
 
-  - signature: bool operator==(grid_iterator const & other)  const
+  - signature: bool operator==(grid_iterator const &other) const
     desc: ""
 
 # Long description. Any Markdown, with code, latex, multiline with |
@@ -47,5 +46,4 @@ permalink: /cpp-api/nda/grid_iterator/operator==
 title: nda::grid_iterator<1>::operator==
 parent: nda::grid_iterator
 ...
-
 

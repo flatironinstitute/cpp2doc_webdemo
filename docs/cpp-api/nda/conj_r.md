@@ -4,7 +4,6 @@ layout: function
 fancy_name: conj_r
 function_name: conj_r
 file_name: conj_r
-qualified_name: nda::conj_r
 namespaces: [nda]
 includer: nda/nda.hpp
 
@@ -21,9 +20,9 @@ overloads:
     desc: ""
 
   - signature: |
-      template <typename A>
-      requires (is_ndarray_v<std::decay_t<A>>)
-      auto conj_r(A && a)
+      template <typename A>                   
+      requires(is_ndarray_v<std::decay_t<A>>) 
+      auto conj_r(A &&a)
     desc: Maps conj_r onto the array
 
 # Long description. Any Markdown, with code, latex, multiline with |
@@ -54,5 +53,4 @@ permalink: /cpp-api/nda/conj_r
 title: nda::conj_r
 parent: nda
 ...
-
 

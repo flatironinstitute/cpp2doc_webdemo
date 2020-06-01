@@ -4,7 +4,6 @@ layout: function
 fancy_name: size
 function_name: size
 file_name: size
-qualified_name: nda::idx_map::size
 namespaces: [nda, idx_map]
 includer: nda/nda.hpp
 
@@ -44,5 +43,4 @@ permalink: /cpp-api/nda/idx_map/size
 title: nda::idx_map::size
 parent: nda::idx_map
 ...
-
 

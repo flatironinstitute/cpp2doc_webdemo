@@ -4,7 +4,6 @@ layout: function
 fancy_name: decref
 function_name: decref
 file_name: decref
-qualified_name: nda::mem::handle_shared::decref
 namespaces: [nda, mem, handle_shared]
 includer: nda/nda.hpp
 
@@ -44,5 +43,4 @@ permalink: /cpp-api/nda/mem/handle_shared/decref
 title: nda::mem::handle_shared::decref
 parent: nda::mem::handle_shared
 ...
-
 

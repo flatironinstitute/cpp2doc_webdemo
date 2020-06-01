@@ -4,7 +4,6 @@ layout: function
 fancy_name: data
 function_name: data
 file_name: data
-qualified_name: nda::allocators::bucket::data
 namespaces: [nda, allocators, bucket]
 includer: nda/nda.hpp
 
@@ -14,7 +13,7 @@ brief: ""
 # List of overloads. Edit only the desc
 overloads:
 
-  - signature: char const * data() noexcept const
+  - signature: char const *data() noexcept const
     desc: ""
 
 # Long description. Any Markdown, with code, latex, multiline with |
@@ -44,5 +43,4 @@ permalink: /cpp-api/nda/allocators/bucket/data
 title: nda::allocators::bucket::data
 parent: nda::allocators::bucket
 ...
-
 
