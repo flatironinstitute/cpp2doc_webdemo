@@ -3,7 +3,7 @@ title: Community
 layout: default
 nav_include: true
 nav_order: 2
-permalink: /community/
+permalink: /community
 ---
 
 # Community

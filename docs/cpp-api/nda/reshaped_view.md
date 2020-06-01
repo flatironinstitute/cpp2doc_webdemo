@@ -8,7 +8,7 @@ namespaces: [nda]
 includer: nda/nda.hpp
 
 # Brief description. One line only.
-brief: Make a new view of some array, array_view, with a different shape.
+brief: Make a new view of an array or a contiguous array_view with a different shape.
 
 # List of overloads. Edit only the desc
 overloads:
@@ -41,12 +41,12 @@ params:
 
 # Template parameters of the function. Edit only the description after the :
 tparams:
-  T: Match basic_array, basic_array_view
-  R: Match basic_array, basic_array_view
-  L: Match basic_array, basic_array_view
-  Algebra: Match basic_array, basic_array_view
-  AccessorPolicy: Match basic_array, basic_array_view
-  OwningPolicy: Match basic_array, basic_array_view
+  T: 
+  R: 
+  L: 
+  Algebra: 
+  AccessorPolicy: 
+  OwningPolicy: 
   Int: |
     Any integer [long, int, ...].
     *(You can pass std::array<long,..> or std::array<int, ...> without thinking about it.*)
@@ -58,11 +58,11 @@ return_value: A [basic_array_view](/cpp-api/nda/basic_array_view) with the same 
 
 # Code example. desc: any markdown to explain it.
 example:
-  desc: ~
+  desc: 
   code: |
     nda::array<long, 1> a{1, 2, 3, 4, 5, 6};     // 1d array
     auto v = reshaped_view(a, std::array{2, 3}); // v is an array_view<long,2> of size 2 x 3
-    v(0, nda::range_all()) *= 10;                   // a is now {10, 20, 30, 4, 5, 6}
+    v(0, nda::range_all()) *= 10;                // a is now {10, 20, 30, 4, 5, 6}
 
 # A list of related functions/classes
 see-also: [/cpp-api/nda/reshape]

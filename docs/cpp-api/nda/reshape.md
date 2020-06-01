@@ -8,7 +8,7 @@ namespaces: [nda]
 includer: nda/nda.hpp
 
 # Brief description. One line only.
-brief: ""
+brief: Transform an array into another one with a new shape
 
 # List of overloads. Edit only the desc
 overloads:
@@ -24,12 +24,12 @@ overloads:
     desc: ""
 
 # Long description. Any Markdown, with code, latex, multiline with |
-desc: ""
+desc: "* It steals the data of the (rvalue reference) array."
 
 # Parameters of the function. Edit only the description after the :
 params:
-  a: __MISSING__
-  new_shape: __MISSING__
+  a: The array to reshape
+  new_shape: The new shape
 
 # Template parameters of the function. Edit only the description after the :
 tparams:
@@ -38,18 +38,21 @@ tparams:
   L: __MISSING__
   Algebra: __MISSING__
   ContainerPolicy: __MISSING__
-  newRank: __MISSING__
+  newRank: The new rank
 
 # Desc of the return value
-return_value: __MISSING__
+return_value: A basic_array with the same `T`, `Algebra` and `Policy`, but with `Rank = newRank` and the new shape.
 
 # Code example. desc: any markdown to explain it.
 example:
-  desc: __MISSING__
-  code: __MISSING__
+  desc: ~
+  code: |
+    nda::array<long, 1> a{1, 2, 3, 4, 5, 6};          // 1d array
+    auto b = reshape(std::move(a), std::array{2, 3}); // A new array, with the data of a and size 2 x 3
+  comment: Note that afterwards a has no data anymore, it must not be used, as with any moved object in C++
 
 # A list of related functions/classes
-see-also: []
+see-also: [/cpp-api/nda/reshaped_view]
 
 # ---------- DO NOT EDIT BELOW --------
 permalink: /cpp-api/nda/reshape
