@@ -2,19 +2,11 @@
 layout: default
 ---
 
-<br/>
+<h1> {{page.title |markdownify}} </h1>
 
-<!--Includer-->
+<span  class='cpp-include-header'> Defined in header  &lt;{{page.includer}}&gt; </span>
 
-<div> Defined in header <span  class='includer'> &lt;{{page.includer}}&gt; </span>
-
-<!--<ul style="list-style-type:none;">-->
-<!--{% for entity in page.overloads %}-->
-<!--<li> <span class='signature'> {% highlight c++ %}  {{entity[0]}} ({{forloop.index}}) {% endhighlight %}       </span>-->
-<!--{% endfor %} -->
-<!--</ul>-->
-
-<table class='signature-table' >
+<table class='cppfunction-signature-table'>
 {% for entity in page.overloads %}
     <tr>
      <td> {{forloop.index}} </td>
@@ -26,11 +18,9 @@ layout: default
 
  <!-- Description of the function -->
 
+{{page.brief |markdownify}}
 
- {{page.brief |markdownify}}
-
- {{page.desc |markdownify}}
-
+{{page.desc |markdownify}}
 
  <!--Description of each overload-->
 <ol>
@@ -38,30 +28,34 @@ layout: default
  {%- if entity.desc != "" -%}
 <li>
  {%- if entity.deprecated -%}[DEPRECATED]{%- endif -%}
- {{entity.desc| markdownify}}
+<span class='cppfunction-overload-desc'> {{entity.desc| markdownify}}</span>
  {%- endif -%}
 {% endfor %}
 </ol>
 
  <!-- Template parameters  FIXME : FACTORIZE-->
- {% if page.tparams.size != 0 %}
-<h5> Template parameters</h5>
-
+{% if page.tparams.size != 0 %}
+<h3> Template parameters</h3>
+{% if  page.tparams.size >= 3 %}
+{%assign collapsed = true %}
+<details><summary><span class="cpp-template-parameters-header">Click to unfold</span></summary> 
+{% endif %}
 <table class='tparam-table' >
  {% for param in page.tparams%}
   {% if param[1] != "__SKIP__" %}
     <tr>
      <td class="param-name" valign="top" align="left"> {{param[0]}} </td>
-     <td class="param-value"> {{param[1] |markdownify | remove: '<p>' | remove: '</p>'	}} </td>
+     <td class="param-value"> {{param[1] | newline_to_br| markdownify | remove: '<p>' | remove: '</p>'	}} </td>
     </tr>
    {% endif %}
  {% endfor %}
 </table>
+{%- if collapsed -%}</details>{%- endif -%}
 {% endif %}
 
  <!--Parameters -->
 {% if page.params.size != 0 %}
-<h5> Parameters</h5>
+<h3> Parameters</h3>
 
 <table class='param-table' >
  {% for param in page.params%}
@@ -76,13 +70,13 @@ layout: default
  <!-- Return -->
 
 {% if page.return_value %}
-<h5> Return value</h5>
-{{page.return_value}}
+<h3> Return value</h3>
+{{page.return_value| markdownify}}
 {% endif %}
 
  <!-- Example -->
 
- <h5> Example </h5>
+<h3> Example </h3>
 
 {{page.example.desc | markdownify}}
 
@@ -92,13 +86,12 @@ layout: default
 
  <!-- See Also links -->
 
-<h5> See also </h5>
+<h3> See also </h3>
 <table class='table-seealso' >
- {%- for sa in page.see-also -%}
+ {%- for name in page.see-also -%}
     <tr>
-     <td class="" align="right"> <a href="{{sa[0] |replace: "::", "/"}}.html"> {{sa[0]}} </a> </td>
-     <td > <b>-</b> </td>
-     <td class=""> {{sa[1] |markdownify }} </td>
+     <td class="" align="right"><a href="{{name}}">{{name| get_fancy_name_from_permalink: site.data.permalink_to_fancyname}}</a></td>
+     <td class="cppfunction-brief">{{site.data.permalink_to_brief[name]| markdownify | remove: '<p>' | remove: '</p>'}}</td>
     </tr>
  {%- endfor -%}
 </table>

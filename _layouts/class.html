@@ -1,15 +1,9 @@
 ---
 layout: default
 ---
+<h1> {{page.title |markdownify}} </h1>
 
-<br>
-
-<!--Edit in {{page.permalink}}.md -->
-<br/>
-
-<!--Includer-->
-
-<div> Defined in header <span  class='includer'> &lt;{{page.includer}}&gt; </span>
+<span  class='cpp-include-header'> Defined in header  &lt;{{page.includer}}&gt; </span>
 
 <!-- Signature  -->
 
@@ -21,31 +15,38 @@ layout: default
 
 <!-- Template parameters -->
 
-{% if page.tparams %}
+{% if page.tparams.size != 0 %}
 <h3> Template parameters</h3>
-
+{% if  page.tparams.size >= 3 %}
+{%assign tpl_collapsed = true %}
+<details><summary><span class="cpp-template-parameters-header">Click to unfold</span></summary> 
+{% endif %}
 <table class='tparam-table' >
  {% for param in page.tparams%}
   {% if param[1] != "__SKIP__" %}
     <tr>
-     <td class="param-name" valign="top" align="right"> {{param[0]}} </td>
-     <td class="param-value"> {{param[1] |markdownify | remove: '<p>' | remove: '</p>'	}} </td>
+     <td class="param-name" valign="top" align="left"> {{param[0]}} </td>
+     <td class="param-value"> {{param[1] | newline_to_br| markdownify | remove: '<p>' | remove: '</p>'	}} </td>
     </tr>
    {% endif %}
  {% endfor %}
 </table>
+{%- if tpl_collapsed -%}</details>{%- endif -%}
 {% endif %}
 
  <!-- Methods FIXME : regrouping. Write the get_brief Ruby filter-->
 
 {% if page.methods %}
 <h3> Member functions </h3>
+{% if  page.methods.size >= 100 %}
+{%assign param_collapsed = true %}
+<details><summary><span class="cpp-parameters-header">Click to unfold</span></summary> 
+{% endif %}
  <!--The method is a list of dicts with one element : a grouped list with a gruop title-->
 {% if page.methods.first.first %}
 <table class='method-table'>
   {% for g_l in page.methods %}
-  <tr> <td class="method-name" align="center"> {{g_l.first[0]}} </td></tr>
-   <!--<h5>{{g_l.first[0]}}</h5>-->
+  <tr> <td class="method-group-name" align="center" colspan=3> {{g_l.first[0]}} </td></tr>
    {% for name in g_l.first[1] %}
     <tr>
      <td class="method-name" align="right"><a href="{{name}}.html">{{name| get_fancy_name: page.permalink, site.data.permalink_to_fancyname}}</a></td>
@@ -65,6 +66,7 @@ layout: default
  {% endfor %}
 </table>
 {% endif %}
+{%- if param_collapsed -%}</details>{%- endif -%}
 {% endif %}
 
 <!--<h3> Non member functions</h3>-->
