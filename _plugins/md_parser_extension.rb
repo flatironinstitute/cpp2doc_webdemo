@@ -10,19 +10,45 @@ class Kramdown::Parser::Kramdown_CCQ_extension < Kramdown::Parser::GFM
      @span_parsers.unshift(:erb_tags)
      @block_parsers.unshift(:berb_tags)
      @block_parsers.unshift(:cpp2doc_tags)
-     @block_parsers.unshift(:cpp2doc_collap_tags)
+     @block_parsers.unshift(:cpp2doc_warning_tags)
    end
 
-  CPP2DOC_COLLAP_TAGS_START = /<C(.*?)C>/m
+  CPP2DOC_WARNING_TAGS_START = /<W(.*?)W>/m
    
-  def parse_cpp2doc_collap_tags
+  def parse_cpp2doc_warning_tags
     @src.pos += @src.matched_size
-    args = @src.matched[2..-3].strip.split
+    args = @src.matched[2..-3].strip
 
-    parse_blocks(@tree.children, @src.matched) #@src[2].gsub(INDENT, ''))
+    table = new_block_el(:table, nil, nil, alignment: [], location: @src.current_line_number)
+    tbody =  new_block_el(:thead)
+    tbody =  new_block_el(:tbody)
+    tr =  new_block_el(:tr)
+    td1 =  new_block_el(:td)
+    td2 =  new_block_el(:td)
+
+    el = new_block_el(:text, args)
+ el.attr['align'] = "left"
+    td2.children << el
+
+    el = new_block_el(:img)
+    el.attr['src'] = "/assets/images/warning.png"
+    el.attr['alt'] = "Warning"
+    el.attr['width'] = "40"
+    #el.attr['title'] = "THE TITLE"
+    td1.attr['width'] = "30"
+    td1.children << el
+
+    tr.children << td1
+    tr.children << td2
+    tbody.children << tr
+
+    #table.children << thead
+    table.children << tbody
+    table.attr['class'] = "warning"
+    @tree.children << table
 
   end
-  define_parser(:cpp2doc_collap_tags, CPP2DOC_COLLAP_TAGS_START)
+  define_parser(:cpp2doc_warning_tags, CPP2DOC_WARNING_TAGS_START)
 
 
    CPP2DOC_TABLE_TAGS_START = /<T(.*?)T>/m

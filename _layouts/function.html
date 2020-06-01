@@ -17,9 +17,9 @@ layout: default
 </table>
 
  <!-- Description of the function -->
+<h3> Description </h3>
 
 {{page.brief |markdownify}}
-
 {{page.desc |markdownify}}
 
  <!--Description of each overload-->
@@ -45,7 +45,7 @@ layout: default
   {% if param[1] != "__SKIP__" %}
     <tr>
      <td class="param-name" valign="top" align="left"> {{param[0]}} </td>
-     <td class="param-value"> {{param[1] | newline_to_br| markdownify | remove: '<p>' | remove: '</p>'	}} </td>
+     <td class="param-value"> {{param[1] |newline_to_br| markdownify | remove: '<p>' | remove: '</p>'	}} </td>
     </tr>
    {% endif %}
  {% endfor %}
@@ -74,28 +74,7 @@ layout: default
 {{page.return_value| markdownify}}
 {% endif %}
 
- <!-- Example -->
-
-<h3> Example </h3>
-
-{{page.example.desc | markdownify}}
-
-<div>
-{{page.example.code | link_and_highlight: site.data.highlighted_types}}
-</div>
-
- <!-- See Also links -->
-
-<h3> See also </h3>
-<table class='table-seealso' >
- {%- for name in page.see-also -%}
-    <tr>
-     <td class="" align="right"><a href="{{name}}">{{name| get_fancy_name_from_permalink: site.data.permalink_to_fancyname}}</a></td>
-     <td class="cppfunction-brief">{{site.data.permalink_to_brief[name]| markdownify | remove: '<p>' | remove: '</p>'}}</td>
-    </tr>
- {%- endfor -%}
-</table>
-
+{%include example_and_see_also.html %}
 
 {{ content }}
 {% cpp2doc_register_images_generated_by_parser %}
