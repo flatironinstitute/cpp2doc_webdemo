@@ -14,7 +14,7 @@ brief: Returns true iif all elements of the array are true
 overloads:
 
   - signature: |
-      template <nda::Array A> 
+      template <nda::Array A>
       bool all(A const &a)
     desc: Returns true iif all elements of the array are true
 

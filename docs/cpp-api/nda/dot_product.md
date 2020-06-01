@@ -14,7 +14,7 @@ brief: Dot product of two arrays.
 overloads:
 
   - signature: |
-      template <typename T, typename U, size_t R> 
+      template <typename T, typename U, size_t R>
       auto dot_product(std::array<T, R> const &a1, std::array<U, R> const &a2)
     desc: Dot product of two arrays.
 

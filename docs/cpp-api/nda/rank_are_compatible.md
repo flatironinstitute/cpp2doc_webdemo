@@ -14,7 +14,7 @@ brief: ""
 overloads:
 
   - signature: |
-      template <typename L, typename R> 
+      template <typename L, typename R>
       bool rank_are_compatible()
     desc: ""
 

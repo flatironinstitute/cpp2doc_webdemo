@@ -14,8 +14,8 @@ brief: Maps atan onto the array
 overloads:
 
   - signature: |
-      template <typename A>                                                             
-      requires(is_ndarray_v<std::decay_t<A>> and (get_algebra<std::decay_t<A>> != 'M')) 
+      template <typename A>
+      requires(is_ndarray_v<std::decay_t<A>> and (get_algebra<std::decay_t<A>> != 'M'))
       auto atan(A &&a)
     desc: Maps atan onto the array
 

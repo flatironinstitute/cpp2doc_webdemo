@@ -14,7 +14,7 @@ brief: ""
 overloads:
 
   - signature: |
-      template <size_t Rank> 
+      template <size_t Rank>
       std::array<int, Rank> decode(uint64_t binary_representation)
     desc: ""
 

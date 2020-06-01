@@ -14,7 +14,7 @@ brief: ""
 overloads:
 
   - signature: |
-      template <uint64_t Permutation> 
+      template <uint64_t Permutation>
       auto transpose() const
     desc: ""
 

@@ -14,7 +14,7 @@ brief: ""
 overloads:
 
   - signature: |
-      template <size_t P, size_t N> 
+      template <size_t P, size_t N>
       std::array<int, P> sliced_mem_stride_order(std::array<int, N> const &stride_order_in, std::array<int, P> const &n_of_p)
     desc: ""
 

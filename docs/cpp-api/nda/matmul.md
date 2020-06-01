@@ -14,7 +14,7 @@ brief: ""
 overloads:
 
   - signature: |
-      template <typename L, typename R> 
+      template <typename L, typename R>
       auto matmul(L &&l, R &&r)
     desc: ""
 

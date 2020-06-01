@@ -14,7 +14,7 @@ brief: ""
 overloads:
 
   - signature: |
-      template <typename T, typename U, size_t R> 
+      template <typename T, typename U, size_t R>
       std::array<T, R> make_std_array(std::array<U, R> const &a)
     desc: ""
 

@@ -14,7 +14,7 @@ brief: ""
 overloads:
 
   - signature: |
-      template <typename A1, typename A2> 
+      template <typename A1, typename A2>
       S operator()(A1 const &a1, A2 const &a2) const
     desc: ""
 

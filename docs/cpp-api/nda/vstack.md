@@ -14,8 +14,8 @@ brief: ""
 overloads:
 
   - signature: |
-      template <nda::ArrayOfRank<2> A, nda::ArrayOfRank<2> B> 
-      requires(std::same_as<get_value_t<A>, get_value_t<B>>)  
+      template <nda::ArrayOfRank<2> A, nda::ArrayOfRank<2> B>
+      requires(std::same_as<get_value_t<A>, get_value_t<B>>)
       matrix<get_value_t<A>> vstack(A const &a, B const &b)
     desc: Give 2 matrices A (of size n x q) and B (of size p x q)
 

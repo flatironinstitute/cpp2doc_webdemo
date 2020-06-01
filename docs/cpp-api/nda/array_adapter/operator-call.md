@@ -14,7 +14,7 @@ brief: ""
 overloads:
 
   - signature: |
-      template <typename Long> 
+      template <typename Long>
       auto operator()(long i, Long... is) const
     desc: ""
 

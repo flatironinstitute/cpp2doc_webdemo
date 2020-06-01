@@ -14,7 +14,7 @@ brief: ""
 overloads:
 
   - signature: |
-      template <typename Args, size_t Is> 
+      template <typename Args, size_t Is>
       int ellipsis_position(std::index_sequence<Is...>)
     desc: ""
 

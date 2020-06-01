@@ -14,7 +14,7 @@ brief: Number of variables must be exactly the rank or are optionally
 overloads:
 
   - signature: |
-      template <typename Args> 
+      template <typename Args>
       long operator()(const Args &... args) noexcept(true) const
     desc: Number of variables must be exactly the rank or are optionally
 

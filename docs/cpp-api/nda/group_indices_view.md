@@ -15,17 +15,17 @@ overloads:
 
   - signature: |
       template <typename T, int R, typename L, char Algebra, typename AccessorPolicy, typename OwningPolicy,
-                typename IntSequences> 
+                typename IntSequences>
       auto group_indices_view(basic_array_view<T, R, L, Algebra, AccessorPolicy, OwningPolicy> a, IntSequences...)
     desc: --------------- Grouping indices------------------------
 
   - signature: |
-      template <typename T, int R, typename L, char Algebra, typename ContainerPolicy, typename IntSequences> 
+      template <typename T, int R, typename L, char Algebra, typename ContainerPolicy, typename IntSequences>
       auto group_indices_view(basic_array<T, R, L, Algebra, ContainerPolicy> const &a, IntSequences...)
     desc: ""
 
   - signature: |
-      template <typename T, int R, typename L, char Algebra, typename ContainerPolicy, typename IntSequences> 
+      template <typename T, int R, typename L, char Algebra, typename ContainerPolicy, typename IntSequences>
       auto group_indices_view(basic_array<T, R, L, Algebra, ContainerPolicy> &a, IntSequences...)
     desc: ""
 

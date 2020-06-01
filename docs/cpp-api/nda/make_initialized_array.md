@@ -14,7 +14,7 @@ brief: ""
 overloads:
 
   - signature: |
-      template <size_t R, typename T> 
+      template <size_t R, typename T>
       std::array<T, R> make_initialized_array(T v)
     desc: ""
 

@@ -14,7 +14,7 @@ brief: ""
 overloads:
 
   - signature: |
-      template <int N, int P, size_t Q> 
+      template <int N, int P, size_t Q>
       std::array<int, P> q_of_p_map(std::array<_Bool, Q> const &args_is_range, int e_pos, int e_len)
     desc: ""
 

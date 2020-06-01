@@ -15,17 +15,17 @@ overloads:
 
   - signature: |
       template <uint64_t Permutation, typename T, int R, typename L, char Algebra, typename AccessorPolicy,
-                typename OwningPolicy> 
+                typename OwningPolicy>
       auto permuted_indices_view(basic_array_view<T, R, L, Algebra, AccessorPolicy, OwningPolicy> a)
     desc: ""
 
   - signature: |
-      template <uint64_t Permutation, typename T, int R, typename L, char Algebra, typename ContainerPolicy> 
+      template <uint64_t Permutation, typename T, int R, typename L, char Algebra, typename ContainerPolicy>
       auto permuted_indices_view(basic_array<T, R, L, Algebra, ContainerPolicy> const &a)
     desc: ""
 
   - signature: |
-      template <uint64_t Permutation, typename T, int R, typename L, char Algebra, typename ContainerPolicy> 
+      template <uint64_t Permutation, typename T, int R, typename L, char Algebra, typename ContainerPolicy>
       auto permuted_indices_view(basic_array<T, R, L, Algebra, ContainerPolicy> &a)
     desc: ""
 

@@ -14,8 +14,8 @@ brief: ""
 overloads:
 
   - signature: |
-      template <typename A, typename F>       
-      requires(is_ndarray_v<std::decay_t<A>>) 
+      template <typename A, typename F>
+      requires(is_ndarray_v<std::decay_t<A>>)
       void clef_auto_assign(A &&a, F &&f)
     desc: ""
 

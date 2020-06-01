@@ -14,7 +14,7 @@ brief: ""
 overloads:
 
   - signature: |
-      template <typename T> 
+      template <typename T>
       S operator[](T &&) const
     desc: ""
 

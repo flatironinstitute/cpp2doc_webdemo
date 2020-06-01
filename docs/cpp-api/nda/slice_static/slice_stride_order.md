@@ -14,7 +14,7 @@ brief: ""
 overloads:
 
   - signature: |
-      template <typename IdxMap, typename T> 
+      template <typename IdxMap, typename T>
       decltype(auto) slice_stride_order(IdxMap const &idxm, const T &... x)
     desc: ""
 

@@ -14,7 +14,7 @@ brief: ""
 overloads:
 
   - signature: |
-      template <class F> 
+      template <class F>
       mapped<F> map(F f)
     desc: ""
 

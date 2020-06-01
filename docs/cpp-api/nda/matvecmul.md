@@ -14,7 +14,7 @@ brief: ""
 overloads:
 
   - signature: |
-      template <typename L, typename R> 
+      template <typename L, typename R>
       auto matvecmul(L &&l, R &&r)
     desc: ""
 

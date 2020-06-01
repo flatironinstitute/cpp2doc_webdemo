@@ -14,8 +14,8 @@ brief: Maps conj onto the array
 overloads:
 
   - signature: |
-      template <typename A>                   
-      requires(is_ndarray_v<std::decay_t<A>>) 
+      template <typename A>
+      requires(is_ndarray_v<std::decay_t<A>>)
       auto conj(A &&a)
     desc: Maps conj onto the array
 

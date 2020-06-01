@@ -14,7 +14,7 @@ brief: Returns true iif at least one element of the array is true
 overloads:
 
   - signature: |
-      template <nda::Array A> 
+      template <nda::Array A>
       bool any(A const &a)
     desc: Returns true iif at least one element of the array is true
 

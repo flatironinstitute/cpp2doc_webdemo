@@ -14,7 +14,7 @@ brief: ""
 overloads:
 
   - signature: |
-      template <typename Args> 
+      template <typename Args>
       void assert_in_bounds(int rank, long const *lengths, const Args &... args)
     desc: ""
 

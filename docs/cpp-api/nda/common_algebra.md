@@ -14,7 +14,7 @@ brief: ""
 overloads:
 
   - signature: |
-      template <typename L, typename R> 
+      template <typename L, typename R>
       char common_algebra()
     desc: ""
 

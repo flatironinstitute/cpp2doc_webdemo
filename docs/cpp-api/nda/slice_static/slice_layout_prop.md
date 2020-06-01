@@ -14,7 +14,7 @@ brief: ""
 overloads:
 
   - signature: |
-      template <size_t Q, size_t N> 
+      template <size_t Q, size_t N>
       enum nda::layout_prop_e
       slice_layout_prop(int P, bool has_only_rangeall_and_long, std::array<_Bool, Q> const &args_is_range_all,
                         std::array<int, N> const &stride_order, enum nda::layout_prop_e layout_prop, int e_pos, int e_len)

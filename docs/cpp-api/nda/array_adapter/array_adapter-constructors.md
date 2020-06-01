@@ -14,7 +14,7 @@ brief: ""
 overloads:
 
   - signature: |
-      template <typename Int> 
+      template <typename Int>
       array_adapter(std::array<Int, R> const &shape, F f)
     desc: ""
 
@@ -36,7 +36,7 @@ return_value: __MISSING__
 # Code example. desc: any markdown to explain it.
 example:
   desc: __MISSING__
-  code: __MISSING__
+  code: __NONE__
 
 # A list of related functions/classes
 see-also: []

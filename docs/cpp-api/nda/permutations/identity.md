@@ -14,7 +14,7 @@ brief: ""
 overloads:
 
   - signature: |
-      template <int Rank> 
+      template <int Rank>
       std::array<int, Rank> identity()
     desc: ""
 

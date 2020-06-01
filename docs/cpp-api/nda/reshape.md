@@ -14,17 +14,12 @@ brief: Transform an array into another one with a new shape
 overloads:
 
   - signature: |
-      template <typename T, int R, typename L, char Algebra, typename ContainerPolicy, auto newRank> 
+      template <typename T, int R, typename L, char Algebra, typename ContainerPolicy, auto newRank>
       auto reshape(basic_array<T, R, L, Algebra, ContainerPolicy> &&a, std::array<long, newRank> const &new_shape)
     desc: ""
 
-  - signature: |
-      template <typename T, int R, typename L, char Algebra, typename ContainerPolicy, auto newRank> 
-      auto reshape(basic_array<T, R, L, Algebra, ContainerPolicy> &&a, std::array<int, newRank> const &new_shape)
-    desc: ""
-
 # Long description. Any Markdown, with code, latex, multiline with |
-desc: "* It steals the data of the (rvalue reference) array."
+desc: "It steals the data of the (rvalue reference) array."
 
 # Parameters of the function. Edit only the description after the :
 params:
@@ -33,11 +28,11 @@ params:
 
 # Template parameters of the function. Edit only the description after the :
 tparams:
-  T: __MISSING__
-  R: __MISSING__
-  L: __MISSING__
-  Algebra: __MISSING__
-  ContainerPolicy: __MISSING__
+  T: Cf basic_array
+  R: Cf basic_array
+  L: Cf basic_array
+  Algebra: Cf basic_array
+  ContainerPolicy: Cf basic_array
   newRank: The new rank
 
 # Desc of the return value
@@ -49,7 +44,8 @@ example:
   code: |
     nda::array<long, 1> a{1, 2, 3, 4, 5, 6};          // 1d array
     auto b = reshape(std::move(a), std::array{2, 3}); // A new array, with the data of a and size 2 x 3
-  comment: Note that afterwards a has no data anymore, it must not be used, as with any moved object in C++
+  comment: |
+    | ![Warning](/assets/images/warning.png){:height="36px" width="36px"} |  Note that __a__ must not be used afterwards. It has no data anymore after the move.
 
 # A list of related functions/classes
 see-also: [/cpp-api/nda/reshaped_view]
@@ -59,4 +55,6 @@ permalink: /cpp-api/nda/reshape
 title: nda::reshape
 parent: nda
 ...
+
+
 

@@ -14,7 +14,7 @@ brief: A loop in C order
 overloads:
 
   - signature: |
-      template <typename F, auto R> 
+      template <typename F, auto R>
       void for_each(std::array<long, R> const &idx_lengths, F &&f)
     desc: A loop in C order
 

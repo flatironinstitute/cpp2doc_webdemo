@@ -14,7 +14,7 @@ brief: ""
 overloads:
 
   - signature: |
-      template <typename T, int R, typename L, char A, typename AP, typename OP> 
+      template <typename T, int R, typename L, char A, typename AP, typename OP>
       void rebind(basic_array_view<T, R, L, A, AP, OP> v) noexcept
     desc: ""
 

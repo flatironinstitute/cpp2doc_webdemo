@@ -14,7 +14,7 @@ brief: Make a new std::array by appending one element at the end
 overloads:
 
   - signature: |
-      template <typename T, typename U, size_t R> 
+      template <typename T, typename U, size_t R>
       std::array<T, R + 1> append(std::array<T, R> const &a, U const &x)
     desc: Make a new std::array by appending one element at the end
 

@@ -14,8 +14,8 @@ brief: --------------- operator == ---------------------
 overloads:
 
   - signature: |
-      template <typename A, typename B>             
-      requires(is_ndarray_v<A> and is_ndarray_v<B>) 
+      template <typename A, typename B>
+      requires(is_ndarray_v<A> and is_ndarray_v<B>)
       bool
          operator==(A const &a, B const &b)
     desc: --------------- operator == ---------------------

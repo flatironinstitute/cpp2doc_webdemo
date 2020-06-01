@@ -14,8 +14,8 @@ brief: Maps sin onto the array
 overloads:
 
   - signature: |
-      template <typename A>                                                             
-      requires(is_ndarray_v<std::decay_t<A>> and (get_algebra<std::decay_t<A>> != 'M')) 
+      template <typename A>
+      requires(is_ndarray_v<std::decay_t<A>> and (get_algebra<std::decay_t<A>> != 'M'))
       auto sin(A &&a)
     desc: Maps sin onto the array
 

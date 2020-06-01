@@ -14,7 +14,7 @@ brief: ""
 overloads:
 
   - signature: |
-      template <size_t N, size_t P> 
+      template <size_t N, size_t P>
       std::array<int, N> p_of_n_map(std::array<int, P> const &n_of_p)
     desc: ""
 

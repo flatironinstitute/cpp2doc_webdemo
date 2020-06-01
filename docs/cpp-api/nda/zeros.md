@@ -14,13 +14,13 @@ brief: Make a array of zeros with the given dimensions.
 overloads:
 
   - signature: |
-      template <typename T, std::integral Int, auto Rank>       
-      requires(std::is_arithmetic_v<T> or nda::is_complex_v<T>) 
+      template <typename T, std::integral Int, auto Rank>
+      requires(std::is_arithmetic_v<T> or nda::is_complex_v<T>)
       auto zeros(std::array<Int, Rank> const &shape)
     desc: Make a array of zeros with the given dimensions.
 
   - signature: |
-      template <typename T, std::integral... Int> 
+      template <typename T, std::integral... Int>
       auto zeros(Int... i)
     desc: ""
 

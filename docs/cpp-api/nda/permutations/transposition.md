@@ -14,7 +14,7 @@ brief: ""
 overloads:
 
   - signature: |
-      template <int Rank> 
+      template <int Rank>
       std::array<int, Rank> transposition(int i, int j)
     desc: ""
 

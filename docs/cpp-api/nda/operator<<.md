@@ -23,44 +23,44 @@ overloads:
     desc: ""
 
   - signature: |
-      template <int Rank, uint64_t StaticExtents, uint64_t StrideOrder, enum nda::layout_prop_e LayoutProp> 
+      template <int Rank, uint64_t StaticExtents, uint64_t StrideOrder, enum nda::layout_prop_e LayoutProp>
       std::ostream &operator<<(std::ostream &out, idx_map<Rank, StaticExtents, StrideOrder, LayoutProp> const &x)
     desc: ""
 
   - signature: |
-      template <typename A>             
-      requires(is_regular_or_view_v<A>) 
+      template <typename A>
+      requires(is_regular_or_view_v<A>)
       std::ostream &
          operator<<(std::ostream &out, A const &a)
     desc: ""
 
   - signature: |
-      template <int R, typename F> 
+      template <int R, typename F>
       std::ostream &operator<<(std::ostream &sout, array_adapter<R, F> const &x)
     desc: ""
 
   - signature: |
-      template <typename S, int Rank> 
+      template <typename S, int Rank>
       std::ostream &operator<<(std::ostream &sout, scalar_array<S, Rank> const &expr)
     desc: ""
 
   - signature: |
-      template <typename S> 
+      template <typename S>
       std::ostream &operator<<(std::ostream &sout, scalar_matrix<S> const &expr)
     desc: ""
 
   - signature: |
-      template <char OP, typename L> 
+      template <char OP, typename L>
       std::ostream &operator<<(std::ostream &sout, expr_unary<OP, L> const &expr)
     desc: ""
 
   - signature: |
-      template <char OP, typename L, typename R> 
+      template <char OP, typename L, typename R>
       std::ostream &operator<<(std::ostream &sout, expr<OP, L, R> const &expr)
     desc: ""
 
   - signature: |
-      template <typename F, typename A> 
+      template <typename F, typename A>
       std::ostream &operator<<(std::ostream &out, expr_call<F, A...> const &)
     desc: ""
 

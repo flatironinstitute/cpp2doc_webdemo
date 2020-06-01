@@ -23,7 +23,7 @@ overloads:
     desc: ""
 
   - signature: |
-      template <std::integral... Int> 
+      template <std::integral... Int>
       basic_array(Int... is) noexcept
     desc: ""
 
@@ -31,12 +31,12 @@ overloads:
     desc: ""
 
   - signature: |
-      template <nda::ArrayOfRank<Rank> A> 
+      template <nda::ArrayOfRank<Rank> A>
       basic_array(A const &a) noexcept
     desc: ""
 
   - signature: |
-      template <nda::ArrayInitializer Initializer> 
+      template <nda::ArrayInitializer Initializer>
       basic_array(Initializer const &initializer) noexcept(noexcept(initializer.invoke(*this)))
     desc: ""
 
@@ -52,7 +52,7 @@ overloads:
     desc: ""
 
   - signature: |
-      template <char Algebra2> 
+      template <char Algebra2>
       basic_array(basic_array<ValueType, 2, Layout, Algebra2, ContainerPolicy> &&am) noexcept requires(Rank == 2)
     desc: Allows to move a array of Rank 2 into a matrix and vice versa
 

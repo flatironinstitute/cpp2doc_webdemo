@@ -14,7 +14,7 @@ brief: ""
 overloads:
 
   - signature: |
-      template <typename Args> 
+      template <typename Args>
       int ellipsis_position()
     desc: ""
 

@@ -14,14 +14,14 @@ brief: pow for integer
 overloads:
 
   - signature: |
-      template <typename T>           
-      requires(std::is_integral_v<T>) 
+      template <typename T>
+      requires(std::is_integral_v<T>)
       T pow(T x, int n)
     desc: pow for integer
 
   - signature: |
-      template <typename A>                   
-      requires(is_ndarray_v<std::decay_t<A>>) 
+      template <typename A>
+      requires(is_ndarray_v<std::decay_t<A>>)
       auto pow(A &&a, int n)
     desc: Map pow on Ndarray
 

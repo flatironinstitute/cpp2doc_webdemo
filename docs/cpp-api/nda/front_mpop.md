@@ -14,7 +14,7 @@ brief: Make a new std::array by removing one element at the front
 overloads:
 
   - signature: |
-      template <typename T, size_t R, int N> 
+      template <typename T, size_t R, int N>
       std::array<T, R - N> front_mpop(std::array<T, R> const &a)
     desc: Make a new std::array by removing one element at the front
 

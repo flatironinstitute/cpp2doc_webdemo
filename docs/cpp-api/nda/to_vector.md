@@ -14,7 +14,7 @@ brief: Convert a std::array to a
 overloads:
 
   - signature: |
-      template <typename T, size_t R> 
+      template <typename T, size_t R>
       std::vector<T> to_vector(std::array<T, R> const &a)
     desc: Convert a std::array to a
 

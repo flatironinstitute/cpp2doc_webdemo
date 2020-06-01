@@ -14,7 +14,7 @@ brief: ""
 overloads:
 
   - signature: |
-      template <typename A0, typename A> 
+      template <typename A0, typename A>
       expr_call<F, A0, A...> operator()(A0 &&a0, A &&... a) const
     desc: ""
 

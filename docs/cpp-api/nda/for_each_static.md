@@ -14,7 +14,7 @@ brief: ""
 overloads:
 
   - signature: |
-      template <uint64_t StaticExtents, uint64_t StrideOrder, typename F, auto R> 
+      template <uint64_t StaticExtents, uint64_t StrideOrder, typename F, auto R>
       void for_each_static(std::array<long, R> const &idx_lengths, F &&f)
     desc: ""
 

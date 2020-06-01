@@ -14,7 +14,7 @@ brief: ""
 overloads:
 
   - signature: |
-      template <typename MatrixType> 
+      template <typename MatrixType>
       size_t get_n_cols(MatrixType const &A)
     desc: ""
 

@@ -14,7 +14,7 @@ brief: ""
 overloads:
 
   - signature: |
-      template <nda::Array A> 
+      template <nda::Array A>
       auto min_element(A const &a)
     desc: ""
 

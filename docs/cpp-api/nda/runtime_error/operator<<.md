@@ -14,7 +14,7 @@ brief: ""
 overloads:
 
   - signature: |
-      template <typename T> 
+      template <typename T>
       runtime_error &operator<<(T const &x)
     desc: ""
 

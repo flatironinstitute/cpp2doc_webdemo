@@ -14,7 +14,7 @@ brief: ""
 overloads:
 
   - signature: |
-      template <typename T, auto R> 
+      template <typename T, auto R>
       std::array<T, R> apply(std::array<int, R> const &permutation, std::array<T, R> const &a)
     desc: ""
 

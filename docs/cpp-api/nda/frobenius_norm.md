@@ -14,7 +14,7 @@ brief: ""
 overloads:
 
   - signature: |
-      template <typename T> 
+      template <typename T>
       double frobenius_norm(matrix<T> const &a)
     desc: ""
 

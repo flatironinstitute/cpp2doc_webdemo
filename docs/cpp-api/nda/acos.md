@@ -14,8 +14,8 @@ brief: Maps acos onto the array
 overloads:
 
   - signature: |
-      template <typename A>                                                             
-      requires(is_ndarray_v<std::decay_t<A>> and (get_algebra<std::decay_t<A>> != 'M')) 
+      template <typename A>
+      requires(is_ndarray_v<std::decay_t<A>> and (get_algebra<std::decay_t<A>> != 'M'))
       auto acos(A &&a)
     desc: Maps acos onto the array
 

@@ -14,7 +14,7 @@ brief: ""
 overloads:
 
   - signature: |
-      template <typename MatrixType> 
+      template <typename MatrixType>
       char get_trans(MatrixType const &A, bool transpose)
     desc: ""
 

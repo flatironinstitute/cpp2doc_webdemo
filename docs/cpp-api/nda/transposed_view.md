@@ -14,8 +14,8 @@ brief: ""
 overloads:
 
   - signature: |
-      template <int I, int J, typename A>             
-      requires(is_regular_or_view_v<std::decay_t<A>>) 
+      template <int I, int J, typename A>
+      requires(is_regular_or_view_v<std::decay_t<A>>)
       auto transposed_view(A &&a)
     desc: ""
 

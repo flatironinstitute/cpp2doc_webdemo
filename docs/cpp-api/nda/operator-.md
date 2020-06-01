@@ -14,15 +14,15 @@ brief: ""
 overloads:
 
   - signature: |
-      template <typename L, typename R>                      
-      requires(model_ndarray_with_possibly_one_scalar<L, R>) 
+      template <typename L, typename R>
+      requires(model_ndarray_with_possibly_one_scalar<L, R>)
       auto
          operator-(L &&l, R &&r)
     desc: ""
 
   - signature: |
-      template <typename L>                   
-      requires(is_ndarray_v<std::decay_t<L>>) 
+      template <typename L>
+      requires(is_ndarray_v<std::decay_t<L>>)
       expr_unary<'-', L>
          operator-(L &&l)
     desc: ""

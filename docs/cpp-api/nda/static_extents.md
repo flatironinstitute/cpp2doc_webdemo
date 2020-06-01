@@ -14,7 +14,7 @@ brief: ""
 overloads:
 
   - signature: |
-      template <typename Is> 
+      template <typename Is>
       uint64_t static_extents(int i0, Is... is)
     desc: ""
 

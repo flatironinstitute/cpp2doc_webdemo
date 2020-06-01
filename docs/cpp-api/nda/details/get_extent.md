@@ -14,7 +14,7 @@ brief: ""
 overloads:
 
   - signature: |
-      template <int I, int R, uint64_t StaticExtents> 
+      template <int I, int R, uint64_t StaticExtents>
       long get_extent(std::array<long, R> const &l)
     desc: ""
 

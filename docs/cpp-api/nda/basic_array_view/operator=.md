@@ -17,19 +17,19 @@ overloads:
     desc: Same as the general case
 
   - signature: |
-      template <nda::ArrayOfRank<Rank> RHS> 
+      template <nda::ArrayOfRank<Rank> RHS>
       basic_array_view &operator=(RHS const &rhs) noexcept
     desc: Copies the content of rhs into the view.
 
   - signature: |
-      template <typename RHS>                          
-      requires(is_scalar_for_v<RHS, basic_array_view>) 
+      template <typename RHS>
+      requires(is_scalar_for_v<RHS, basic_array_view>)
       basic_array_view &
          operator=(RHS const &rhs) noexcept
     desc: Assign to scalar
 
   - signature: |
-      template <nda::ArrayInitializer Initializer> 
+      template <nda::ArrayInitializer Initializer>
       basic_array_view &operator=(Initializer const &initializer) noexcept
     desc: ""
 

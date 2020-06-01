@@ -14,8 +14,8 @@ brief: ""
 overloads:
 
   - signature: |
-      template <typename A, typename F, typename R> 
-      requires(is_ndarray_v<A>)                     
+      template <typename A, typename F, typename R>
+      requires(is_ndarray_v<A>)
       auto fold(F f, A const &a, R r = < / Users / oparcollet / src / nda / c++ / nda / algorithms.hpp : 18 : 36,
                    col : 38 >)
     desc: ""

@@ -14,8 +14,8 @@ brief: Maps imag onto the array
 overloads:
 
   - signature: |
-      template <typename A>                   
-      requires(is_ndarray_v<std::decay_t<A>>) 
+      template <typename A>
+      requires(is_ndarray_v<std::decay_t<A>>)
       auto imag(A &&a)
     desc: Maps imag onto the array
 

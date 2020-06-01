@@ -15,25 +15,25 @@ overloads:
 
   - signature: |
       template <typename T, int R, typename L, char Algebra, typename AccessorPolicy, typename OwningPolicy,
-                typename NewLayoutType> 
+                typename NewLayoutType>
       auto map_layout_transform(basic_array_view<T, R, L, Algebra, AccessorPolicy, OwningPolicy> a,
                                 NewLayoutType const &new_layout)
     desc: ""
 
   - signature: |
-      template <typename T, int R, typename L, char Algebra, typename ContainerPolicy, typename NewLayoutType> 
+      template <typename T, int R, typename L, char Algebra, typename ContainerPolicy, typename NewLayoutType>
       auto map_layout_transform(basic_array<T, R, L, Algebra, ContainerPolicy> &&a, NewLayoutType const &new_layout)
     desc: ""
 
   - signature: |
       template <typename T, int R, typename L, char Algebra, typename AccessorPolicy, typename OwningPolicy,
-                typename NewLayoutType> 
+                typename NewLayoutType>
       auto map_layout_transform(basic_array_view<T, R, L, Algebra, AccessorPolicy, OwningPolicy> a,
                                 NewLayoutType const &new_layout)
     desc: ""
 
   - signature: |
-      template <typename T, int R, typename L, char Algebra, typename ContainerPolicy, typename NewLayoutType> 
+      template <typename T, int R, typename L, char Algebra, typename ContainerPolicy, typename NewLayoutType>
       auto map_layout_transform(basic_array<T, R, L, Algebra, ContainerPolicy> &&a, NewLayoutType const &new_layout)
     desc: ""
 

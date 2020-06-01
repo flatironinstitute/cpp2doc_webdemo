@@ -32,7 +32,7 @@ overloads:
     desc: ""
 
   - signature: |
-      template <typename Alloc> 
+      template <typename Alloc>
       handle_borrowed(handle_heap<nda::mem::handle_borrowed::T0, Alloc> const &x,
                       long offset = < / Users / oparcollet / src / nda / c++ / nda / storage /./ handle.hpp : 635 : 68
                          >) noexcept
@@ -51,14 +51,14 @@ overloads:
     desc: ""
 
   - signature: |
-      template <size_t Size> 
+      template <size_t Size>
       handle_borrowed(handle_stack<nda::mem::handle_borrowed::T0, Size> const &x,
                       long offset = < / Users / oparcollet / src / nda / c++ / nda / storage /./ handle.hpp : 641 : 68
                          >) noexcept
     desc: ""
 
   - signature: |
-      template <size_t SSO_Size> 
+      template <size_t SSO_Size>
       handle_borrowed(handle_sso<nda::mem::handle_borrowed::T0, SSO_Size> const &x,
                       long offset = < / Users / oparcollet / src / nda / c++ / nda / storage /./ handle.hpp : 644 : 70
                          >) noexcept

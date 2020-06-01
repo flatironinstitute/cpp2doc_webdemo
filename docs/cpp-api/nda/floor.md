@@ -14,8 +14,8 @@ brief: Maps floor onto the array
 overloads:
 
   - signature: |
-      template <typename A>                   
-      requires(is_ndarray_v<std::decay_t<A>>) 
+      template <typename A>
+      requires(is_ndarray_v<std::decay_t<A>>)
       auto floor(A &&a)
     desc: Maps floor onto the array
 

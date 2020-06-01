@@ -14,7 +14,7 @@ brief: ""
 overloads:
 
   - signature: |
-      template <nda::ArrayOfRank<2> M> 
+      template <nda::ArrayOfRank<2> M>
       Array auto dagger(M const &m)
     desc: ""
 

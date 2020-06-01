@@ -14,7 +14,7 @@ brief: ""
 overloads:
 
   - signature: |
-      template <typename V> 
+      template <typename V>
       matrix<V> eye(long dim)
     desc: ""
 

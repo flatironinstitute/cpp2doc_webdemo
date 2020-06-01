@@ -14,7 +14,7 @@ brief: ""
 overloads:
 
   - signature: |
-      template <size_t R, size_t Rs> 
+      template <size_t R, size_t Rs>
       bool check_grouping(std::array<int, R> const &stride_order, const std::array<int, Rs> &... grps)
     desc: ""
 

@@ -14,7 +14,7 @@ brief: ""
 overloads:
 
   - signature: |
-      template <typename T, int R, typename L, char A, typename AP, typename OP, typename NewLayoutType> 
+      template <typename T, int R, typename L, char A, typename AP, typename OP, typename NewLayoutType>
       auto map_layout_transform(basic_array_view<T, R, L, A, AP, OP> a, NewLayoutType const &new_layout)
     desc: ""
 

@@ -14,7 +14,7 @@ brief: Calls gemv on a matrix, matrix_view, array, array_view of rank 2
 overloads:
 
   - signature: |
-      template <typename A, typename B, typename C> 
+      template <typename A, typename B, typename C>
       void gemv(typename A::value_type alpha, A const &a, B const &b, typename A::value_type beta, C &&c)
     desc: Calls gemv on a matrix, matrix_view, array, array_view of rank 2
 

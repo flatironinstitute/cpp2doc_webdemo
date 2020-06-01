@@ -14,17 +14,17 @@ brief: Access the array, make a lazy expression or slice of it depending on the 
 overloads:
 
   - signature: |
-      template <typename T> 
+      template <typename T>
       decltype(auto) operator[](T const &x) noexcept(has_no_boundcheck) const &
     desc: Access the array, make a lazy expression or slice of it depending on the arguments
 
   - signature: |
-      template <typename T> 
+      template <typename T>
       decltype(auto) operator[](T const &x) noexcept(has_no_boundcheck) &
     desc: ""
 
   - signature: |
-      template <typename T> 
+      template <typename T>
       decltype(auto) operator[](T const &x) noexcept(has_no_boundcheck) &&
     desc: ""
 

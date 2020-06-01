@@ -14,7 +14,7 @@ brief: Get the first element of the array as a(0,0,0....) (i.e. also work for no
 overloads:
 
   - signature: |
-      template <typename A> 
+      template <typename A>
       auto get_first_element(A const &a)
     desc: Get the first element of the array as a(0,0,0....) (i.e. also work for non
 

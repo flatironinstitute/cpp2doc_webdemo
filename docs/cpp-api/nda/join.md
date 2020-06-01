@@ -14,7 +14,7 @@ brief: Join two arrays
 overloads:
 
   - signature: |
-      template <typename T, size_t R1, size_t R2> 
+      template <typename T, size_t R1, size_t R2>
       std::array<T, R1 + R2> join(std::array<T, R1> const &a1, std::array<T, R2> const &a2)
     desc: Join two arrays
 

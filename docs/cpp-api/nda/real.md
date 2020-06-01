@@ -14,8 +14,8 @@ brief: Maps real onto the array
 overloads:
 
   - signature: |
-      template <typename A>                   
-      requires(is_ndarray_v<std::decay_t<A>>) 
+      template <typename A>
+      requires(is_ndarray_v<std::decay_t<A>>)
       auto real(A &&a)
     desc: Maps real onto the array
 

@@ -14,7 +14,7 @@ brief: --------------- ASSIGN FOREACH ------------------------
 overloads:
 
   - signature: |
-      template <typename T, typename F> 
+      template <typename T, typename F>
       void assign_foreach(T &x, F &&f)
     desc: --------------- ASSIGN FOREACH ------------------------
 

@@ -20,8 +20,8 @@ overloads:
     desc: ""
 
   - signature: |
-      template <typename A>                   
-      requires(is_ndarray_v<std::decay_t<A>>) 
+      template <typename A>
+      requires(is_ndarray_v<std::decay_t<A>>)
       auto abs2(A &&a)
     desc: Maps abs2 onto the array
 

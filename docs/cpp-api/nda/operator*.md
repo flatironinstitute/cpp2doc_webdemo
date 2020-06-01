@@ -14,8 +14,8 @@ brief: ""
 overloads:
 
   - signature: |
-      template <typename L, typename R>                      
-      requires(model_ndarray_with_possibly_one_scalar<L, R>) 
+      template <typename L, typename R>
+      requires(model_ndarray_with_possibly_one_scalar<L, R>)
       auto
          operator*(L &&l, R &&r)
     desc: ""

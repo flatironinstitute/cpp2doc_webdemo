@@ -14,7 +14,7 @@ brief: ""
 overloads:
 
   - signature: |
-      template <typename MatrixType> 
+      template <typename MatrixType>
       int get_ld(MatrixType const &A)
     desc: ""
 

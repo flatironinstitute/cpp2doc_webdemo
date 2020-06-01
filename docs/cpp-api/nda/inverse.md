@@ -14,8 +14,8 @@ brief: ""
 overloads:
 
   - signature: |
-      template <class A>                                                                
-      requires(is_ndarray_v<std::decay_t<A>> and (get_algebra<std::decay_t<A>> != 'M')) 
+      template <class A>
+      requires(is_ndarray_v<std::decay_t<A>> and (get_algebra<std::decay_t<A>> != 'M'))
       expr<'/', A, int> inverse(A &&a)
     desc: ""
 

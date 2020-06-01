@@ -14,7 +14,7 @@ brief: ""
 overloads:
 
   - signature: |
-      template <typename A, typename B, typename Out> 
+      template <typename A, typename B, typename Out>
       void gemv_generic(typename A::value_type alpha, A const &a, B const &b, typename A::value_type beta, Out &c)
     desc: ""
 

@@ -23,12 +23,12 @@ overloads:
     desc: ""
 
   - signature: |
-      template <enum nda::layout_prop_e P> 
+      template <enum nda::layout_prop_e P>
       idx_map(idx_map<Rank, StaticExtents, StrideOrder, P> const &idxm) noexcept
     desc: ""
 
   - signature: |
-      template <uint64_t SE, enum nda::layout_prop_e P> 
+      template <uint64_t SE, enum nda::layout_prop_e P>
       idx_map(idx_map<Rank, SE, StrideOrder, P> const &idxm) noexcept(false)
     desc: Construct from a compatible static_extents
 

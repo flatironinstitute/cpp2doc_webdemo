@@ -14,7 +14,7 @@ brief: ""
 overloads:
 
   - signature: |
-      template <int R> 
+      template <int R>
       int index_from_stride_order(uint64_t StrideOrder, int i)
     desc: ""
 

@@ -14,7 +14,7 @@ brief: ""
 overloads:
 
   - signature: |
-      template <size_t Rank> 
+      template <size_t Rank>
       uint64_t encode(std::array<int, Rank> const &a)
     desc: ""
 

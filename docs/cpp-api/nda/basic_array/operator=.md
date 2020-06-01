@@ -20,19 +20,19 @@ overloads:
     desc: Deep copy (array is a regular type). Invalidates all references to the storage.
 
   - signature: |
-      template <nda::ArrayOfRank<Rank> RHS> 
+      template <nda::ArrayOfRank<Rank> RHS>
       basic_array &operator=(RHS const &rhs) noexcept
     desc: ""
 
   - signature: |
-      template <typename RHS>                     
-      requires(is_scalar_for_v<RHS, basic_array>) 
+      template <typename RHS>
+      requires(is_scalar_for_v<RHS, basic_array>)
       basic_array &
          operator=(RHS const &rhs) noexcept
     desc: ""
 
   - signature: |
-      template <nda::ArrayInitializer Initializer> 
+      template <nda::ArrayInitializer Initializer>
       basic_array &operator=(Initializer const &initializer) noexcept
     desc: ""
 

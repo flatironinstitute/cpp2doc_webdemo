@@ -14,7 +14,7 @@ brief: ""
 overloads:
 
   - signature: |
-      template <typename RHS> 
+      template <typename RHS>
       auto &operator+=(RHS const &rhs) noexcept
     desc: ""
 

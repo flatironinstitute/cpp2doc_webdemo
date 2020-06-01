@@ -14,7 +14,7 @@ brief: Make a new std::array by removing one element at the front
 overloads:
 
   - signature: |
-      template <typename T, size_t R> 
+      template <typename T, size_t R>
       std::array<T, R - 1> front_pop(std::array<T, R> const &a)
     desc: Make a new std::array by removing one element at the front
 

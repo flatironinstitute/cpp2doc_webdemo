@@ -23,29 +23,29 @@ overloads:
     desc: Shallow copy. It copies the *view*, not the data.
 
   - signature: |
-      template <typename CP> 
+      template <typename CP>
       basic_array_view(basic_array<ValueType, Rank, Layout, Algebra, CP> const &a) noexcept
     desc: ""
 
   - signature: |
-      template <typename L, char A, typename CP> 
+      template <typename L, char A, typename CP>
       basic_array_view(basic_array<ValueType, Rank, L, A, CP> const &a) noexcept
     desc: ""
 
   - signature: |
-      template <typename L, char A, typename AP, typename OP> 
+      template <typename L, char A, typename AP, typename OP>
       basic_array_view(basic_array_view<ValueType, Rank, L, A, AP, OP> const &a) noexcept
     desc: ""
 
   - signature: |
-      template <typename L, char A, typename CP> 
-      requires(std::is_const_v<ValueType>)       
+      template <typename L, char A, typename CP>
+      requires(std::is_const_v<ValueType>)
       basic_array_view(basic_array<std::remove_const_t<ValueType>, Rank, L, A, CP> const &a) noexcept
     desc: ""
 
   - signature: |
-      template <typename L, char A, typename AP, typename OP> 
-      requires(std::is_const_v<ValueType>)                    
+      template <typename L, char A, typename AP, typename OP>
+      requires(std::is_const_v<ValueType>)
       basic_array_view(basic_array_view<std::remove_const_t<ValueType>, Rank, L, A, AP, OP> const &a) noexcept
     desc: ""
 

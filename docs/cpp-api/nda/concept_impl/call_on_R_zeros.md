@@ -14,7 +14,7 @@ brief: ""
 overloads:
 
   - signature: |
-      template <int R, typename A> 
+      template <int R, typename A>
       auto call_on_R_zeros(A const &a) -> decltype(call_on_R_zeros_impl(std::make_index_sequence<R>({}), a))
     desc: ""
 

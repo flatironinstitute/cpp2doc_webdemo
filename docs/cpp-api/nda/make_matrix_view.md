@@ -14,12 +14,12 @@ brief: --------------- make_matrix_view------------------------
 overloads:
 
   - signature: |
-      template <typename T, int R, typename L, char Algebra, typename ContainerPolicy> 
+      template <typename T, int R, typename L, char Algebra, typename ContainerPolicy>
       matrix_view<T, L> make_matrix_view(basic_array<T, R, L, Algebra, ContainerPolicy> const &a)
     desc: --------------- make_matrix_view------------------------
 
   - signature: |
-      template <typename T, int R, typename L, char Algebra, typename AccessorPolicy, typename OwningPolicy> 
+      template <typename T, int R, typename L, char Algebra, typename AccessorPolicy, typename OwningPolicy>
       matrix_view<T, L> make_matrix_view(basic_array_view<T, R, L, Algebra, AccessorPolicy, OwningPolicy> const &a)
     desc: ""
 

@@ -14,8 +14,8 @@ brief: ""
 overloads:
 
   - signature: |
-      template <typename A>             
-      requires(is_regular_or_view_v<A>) 
+      template <typename A>
+      requires(is_regular_or_view_v<A>)
       void resize_or_check_if_view(A &a, std::array<long, A::rank> const &sha)
     desc: ""
 
