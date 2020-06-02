@@ -4,7 +4,10 @@ _updated 5/29_
 
 ## Todo:
 
-- Improve nav speed generation
+- Search add: brief, desc
+- Improve nav speed generation: make static, use a table to transfer, use permalink
+*
+
 - Remove toc - update heading on layouts from OP. \* Add :no-toc to class, function, namespace, cpp-concept.
 - Width on left bar - smaller.
 - Change min-width on <td> in signature numeration - make a class. Also make a class for the related number information "signature-table"
@@ -16,7 +19,7 @@ _updated 5/29_
 - Investigate other speed optimizations: parallellization, etc.
 - Create folding list functionality (via class)
 - Deploy on vercel -> Routing issues around permalinks on vercel.
-- Thank you Alex - updated the README with his inputs.
+- Add classes for G1 G2 to place the title.
 
 
 

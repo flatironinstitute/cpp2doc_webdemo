@@ -26,6 +26,7 @@ permalink: pretty
 # Build settings
 markdown: kramdown
 kramdown:
+  input: ERBKramdown
   math_engine: katex
   math_engine_opts: {} # TODO: Can we remove this empty object?
 plugins:
