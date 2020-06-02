@@ -3,22 +3,24 @@
 _updated 5/29_
 
 ## Todo:
-
+- Add classes for G1 G2 to place the title. _Ask Olivier for example_
 - Search add: brief, desc
-- Improve nav speed generation: make static, use a table to transfer, use permalink
-- Remove toc - update heading on layouts from OP. [Add :no-toc to class, function, namespace, cpp-concept. ]
 - Width on left bar - smaller.
 - Change min-width on <td> in signature numeration - make a class. Also make a class for the related number information "signature-table"
-- Confirm that left nesting highlights are working correctly (see Design dropdown)
-- Add function name etc on top of each page in heading.(see cppref - only name no namespace with parent/::)
 - Update pipeline/README with feedback from Alex. Add information on what is available for contributor editing.
+- Re-deploy on vercel -> Routing issues around permalinks on vercel.
+
+_icebox_
 - Change main-concepts to an alternate name to avoid confusion with new c++ concepts.
 - Vim links / github links
 - Investigate other speed optimizations: parallellization, etc.
-- Create folding list functionality (via class)
-- Deploy on vercel -> Routing issues around permalinks on vercel.
-- Add classes for G1 G2 to place the title.
 
+
+
+## Verify:
+- Remove toc - update heading on layouts from OP. [Add :no-toc to class, function, namespace, cpp-concept. ]
+- Add function name etc on top of each page in heading.(see cppref - only name no namespace with parent/::)
+- Create folding list functionality (via class)
 
 ## Done:
 
@@ -38,6 +40,7 @@ _updated 5/29_
 - page title / seo
 - test deployment on vercel - aka now
 - Search
+- Improve nav speed generation: make static, use a table to transfer, use permalink
 
 
 
