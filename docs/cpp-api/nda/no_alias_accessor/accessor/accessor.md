@@ -50,4 +50,3 @@ parent: nda::no_alias_accessor
 has_children: true
 ...
 
-

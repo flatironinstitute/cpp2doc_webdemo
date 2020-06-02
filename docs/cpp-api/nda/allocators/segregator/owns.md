@@ -4,7 +4,6 @@ layout: function
 fancy_name: owns
 function_name: owns
 file_name: owns
-qualified_name: nda::allocators::segregator::owns
 namespaces: [nda, allocators, segregator]
 includer: nda/nda.hpp
 
@@ -44,5 +43,4 @@ permalink: /cpp-api/nda/allocators/segregator/owns
 title: nda::allocators::segregator::owns
 parent: nda::allocators::segregator
 ...
-
 

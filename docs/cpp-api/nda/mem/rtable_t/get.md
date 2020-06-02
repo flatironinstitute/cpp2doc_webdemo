@@ -4,7 +4,6 @@ layout: function
 fancy_name: get
 function_name: get
 file_name: get
-qualified_name: nda::mem::rtable_t::get
 namespaces: [nda, mem, rtable_t]
 includer: nda/nda.hpp
 
@@ -44,5 +43,4 @@ permalink: /cpp-api/nda/mem/rtable_t/get
 title: nda::mem::rtable_t::get
 parent: nda::mem::rtable_t
 ...
-
 

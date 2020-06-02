@@ -4,7 +4,6 @@ layout: function
 fancy_name: end
 function_name: end
 file_name: end
-qualified_name: nda::basic_array_view::end
 namespaces: [nda, basic_array_view]
 includer: nda/nda.hpp
 
@@ -47,5 +46,4 @@ permalink: /cpp-api/nda/basic_array_view/end
 title: nda::basic_array_view::end
 parent: nda::basic_array_view
 ...
-
 

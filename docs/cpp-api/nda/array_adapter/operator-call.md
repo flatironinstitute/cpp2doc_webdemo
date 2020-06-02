@@ -4,7 +4,6 @@ layout: function
 fancy_name: operator()
 function_name: operator()
 file_name: operator-call
-qualified_name: nda::array_adapter::operator()
 namespaces: [nda, array_adapter]
 includer: nda/nda.hpp
 
@@ -16,7 +15,7 @@ overloads:
 
   - signature: |
       template <typename Long>
-      auto operator()(long i, Long... is)  const
+      auto operator()(long i, Long... is) const
     desc: ""
 
 # Long description. Any Markdown, with code, latex, multiline with |
@@ -47,5 +46,4 @@ permalink: /cpp-api/nda/array_adapter/operator-call
 title: nda::array_adapter::operator()
 parent: nda::array_adapter
 ...
-
 

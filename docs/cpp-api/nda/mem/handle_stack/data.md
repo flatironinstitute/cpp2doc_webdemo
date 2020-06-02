@@ -4,7 +4,6 @@ layout: function
 fancy_name: data
 function_name: data
 file_name: data
-qualified_name: nda::mem::handle_stack::data
 namespaces: [nda, mem, handle_stack]
 includer: nda/nda.hpp
 
@@ -14,7 +13,7 @@ brief: ""
 # List of overloads. Edit only the desc
 overloads:
 
-  - signature: T * data() noexcept const
+  - signature: T *data() noexcept const
     desc: ""
 
 # Long description. Any Markdown, with code, latex, multiline with |
@@ -44,5 +43,4 @@ permalink: /cpp-api/nda/mem/handle_stack/data
 title: nda::mem::handle_stack::data
 parent: nda::mem::handle_stack
 ...
-
 

@@ -4,7 +4,6 @@ layout: function
 fancy_name: (constructors)
 function_name: handle_stack
 file_name: handle_stack-constructors
-qualified_name: nda::mem::handle_stack::handle_stack<T, Size>
 namespaces: [nda, mem, handle_stack]
 includer: nda/nda.hpp
 
@@ -17,19 +16,19 @@ overloads:
   - signature: handle_stack()
     desc: ""
 
-  - signature: handle_stack(handle_stack && ) noexcept
+  - signature: handle_stack(handle_stack &&) noexcept
     desc: ""
 
-  - signature: handle_stack(long )
+  - signature: handle_stack(long)
     desc: ""
 
-  - signature: handle_stack(long , struct nda::mem::do_not_initialize_t )
+  - signature: handle_stack(long, struct nda::mem::do_not_initialize_t)
     desc: ""
 
-  - signature: handle_stack(long , struct nda::mem::init_zero_t )
+  - signature: handle_stack(long, struct nda::mem::init_zero_t)
     desc: ""
 
-  - signature: handle_stack(handle_stack const & ) noexcept
+  - signature: handle_stack(handle_stack const &) noexcept
     desc: ""
 
 # Long description. Any Markdown, with code, latex, multiline with |
@@ -59,5 +58,4 @@ permalink: /cpp-api/nda/mem/handle_stack/handle_stack-constructors
 title: nda::mem::handle_stack::handle_stack<T, Size>
 parent: nda::mem::handle_stack
 ...
-
 

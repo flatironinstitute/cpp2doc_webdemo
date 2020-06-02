@@ -4,7 +4,6 @@ layout: function
 fancy_name: operator<<
 function_name: operator<<
 file_name: operator<<
-qualified_name: nda::operator<<
 namespaces: [nda, range]
 includer: nda/nda.hpp
 
@@ -14,7 +13,7 @@ brief: ""
 # List of overloads. Edit only the desc
 overloads:
 
-  - signature: std::ostream & operator<<(std::ostream & os, class nda::range const & r) noexcept
+  - signature: std::ostream &operator<<(std::ostream &os, class nda::range const &r) noexcept
     desc: ""
 
 # Long description. Any Markdown, with code, latex, multiline with |
@@ -45,5 +44,4 @@ permalink: /cpp-api/nda/range/operator<<
 title: nda::operator<<
 parent: nda::range
 ...
-
 

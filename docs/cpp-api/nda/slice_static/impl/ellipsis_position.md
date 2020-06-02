@@ -4,7 +4,6 @@ layout: function
 fancy_name: ellipsis_position
 function_name: ellipsis_position
 file_name: ellipsis_position
-qualified_name: nda::slice_static::impl::ellipsis_position
 namespaces: [nda, slice_static, impl]
 includer: nda/nda.hpp
 
@@ -16,7 +15,7 @@ overloads:
 
   - signature: |
       template <typename Args, size_t Is>
-      int ellipsis_position(std::index_sequence<Is...> )
+      int ellipsis_position(std::index_sequence<Is...>)
     desc: ""
 
 # Long description. Any Markdown, with code, latex, multiline with |
@@ -47,5 +46,4 @@ permalink: /cpp-api/nda/slice_static/impl/ellipsis_position
 title: nda::slice_static::impl::ellipsis_position
 parent: nda::slice_static::impl
 ...
-
 

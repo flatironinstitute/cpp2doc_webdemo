@@ -4,7 +4,6 @@ layout: function
 fancy_name: (destructor)
 function_name: ~runtime_error
 file_name: runtime_error-destructor
-qualified_name: nda::runtime_error::~runtime_error
 namespaces: [nda, runtime_error]
 includer: nda/nda.hpp
 
@@ -44,5 +43,4 @@ permalink: /cpp-api/nda/runtime_error/runtime_error-destructor
 title: nda::runtime_error::~runtime_error
 parent: nda::runtime_error
 ...
-
 

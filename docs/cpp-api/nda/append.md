@@ -4,7 +4,6 @@ layout: function
 fancy_name: append
 function_name: append
 file_name: append
-qualified_name: nda::append
 namespaces: [nda]
 includer: nda/nda.hpp
 
@@ -16,7 +15,7 @@ overloads:
 
   - signature: |
       template <typename T, typename U, size_t R>
-      std::array<T, R + 1> append(std::array<T, R> const & a, U const & x)
+      std::array<T, R + 1> append(std::array<T, R> const &a, U const &x)
     desc: Make a new std::array by appending one element at the end
 
 # Long description. Any Markdown, with code, latex, multiline with |
@@ -49,5 +48,4 @@ permalink: /cpp-api/nda/append
 title: nda::append
 parent: nda
 ...
-
 

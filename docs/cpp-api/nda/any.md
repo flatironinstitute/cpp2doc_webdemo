@@ -4,7 +4,6 @@ layout: function
 fancy_name: any
 function_name: any
 file_name: any
-qualified_name: nda::any
 namespaces: [nda]
 includer: nda/nda.hpp
 
@@ -16,7 +15,7 @@ overloads:
 
   - signature: |
       template <nda::Array A>
-      bool any(A const & a)
+      bool any(A const &a)
     desc: Returns true iif at least one element of the array is true
 
 # Long description. Any Markdown, with code, latex, multiline with |
@@ -46,5 +45,4 @@ permalink: /cpp-api/nda/any
 title: nda::any
 parent: nda
 ...
-
 

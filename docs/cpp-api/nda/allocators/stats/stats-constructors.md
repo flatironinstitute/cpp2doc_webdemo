@@ -4,7 +4,6 @@ layout: function
 fancy_name: (constructors)
 function_name: stats
 file_name: stats-constructors
-qualified_name: nda::allocators::stats::stats<A>
 namespaces: [nda, allocators, stats]
 includer: nda/nda.hpp
 
@@ -17,10 +16,10 @@ overloads:
   - signature: stats()
     desc: ""
 
-  - signature: stats(stats const & )
+  - signature: stats(stats const &)
     desc: ""
 
-  - signature: stats(stats && )
+  - signature: stats(stats &&)
     desc: ""
 
 # Long description. Any Markdown, with code, latex, multiline with |
@@ -50,5 +49,4 @@ permalink: /cpp-api/nda/allocators/stats/stats-constructors
 title: nda::allocators::stats::stats<A>
 parent: nda::allocators::stats
 ...
-
 

@@ -4,7 +4,6 @@ layout: function
 fancy_name: slice_layout_prop
 function_name: slice_layout_prop
 file_name: slice_layout_prop
-qualified_name: nda::slice_static::slice_layout_prop
 namespaces: [nda, slice_static]
 includer: nda/nda.hpp
 
@@ -16,7 +15,9 @@ overloads:
 
   - signature: |
       template <size_t Q, size_t N>
-      enum nda::layout_prop_e slice_layout_prop(int P, bool has_only_rangeall_and_long, std::array<_Bool, Q> const & args_is_range_all, std::array<int, N> const & stride_order, enum nda::layout_prop_e layout_prop, int e_pos, int e_len)
+      enum nda::layout_prop_e
+      slice_layout_prop(int P, bool has_only_rangeall_and_long, std::array<_Bool, Q> const &args_is_range_all,
+                        std::array<int, N> const &stride_order, enum nda::layout_prop_e layout_prop, int e_pos, int e_len)
     desc: ""
 
 # Long description. Any Markdown, with code, latex, multiline with |
@@ -53,5 +54,4 @@ permalink: /cpp-api/nda/slice_static/slice_layout_prop
 title: nda::slice_static::slice_layout_prop
 parent: nda::slice_static
 ...
-
 

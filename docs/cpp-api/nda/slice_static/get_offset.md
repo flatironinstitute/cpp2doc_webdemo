@@ -4,7 +4,6 @@ layout: function
 fancy_name: get_offset
 function_name: get_offset
 file_name: get_offset
-qualified_name: nda::slice_static::get_offset
 namespaces: [nda, slice_static]
 includer: nda/nda.hpp
 
@@ -17,10 +16,10 @@ overloads:
   - signature: long get_offset(long R, long s_n)
     desc: ""
 
-  - signature: long get_offset(class nda::range const & R, long s_n)
+  - signature: long get_offset(class nda::range const &R, long s_n)
     desc: ""
 
-  - signature: long get_offset(struct nda::range_all , long )
+  - signature: long get_offset(struct nda::range_all, long)
     desc: ""
 
 # Long description. Any Markdown, with code, latex, multiline with |
@@ -51,5 +50,4 @@ permalink: /cpp-api/nda/slice_static/get_offset
 title: nda::slice_static::get_offset
 parent: nda::slice_static
 ...
-
 

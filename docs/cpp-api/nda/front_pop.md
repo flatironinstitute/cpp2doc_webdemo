@@ -4,7 +4,6 @@ layout: function
 fancy_name: front_pop
 function_name: front_pop
 file_name: front_pop
-qualified_name: nda::front_pop
 namespaces: [nda]
 includer: nda/nda.hpp
 
@@ -16,7 +15,7 @@ overloads:
 
   - signature: |
       template <typename T, size_t R>
-      std::array<T, R - 1> front_pop(std::array<T, R> const & a)
+      std::array<T, R - 1> front_pop(std::array<T, R> const &a)
     desc: Make a new std::array by removing one element at the front
 
 # Long description. Any Markdown, with code, latex, multiline with |
@@ -47,5 +46,4 @@ permalink: /cpp-api/nda/front_pop
 title: nda::front_pop
 parent: nda
 ...
-
 

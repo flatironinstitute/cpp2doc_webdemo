@@ -4,7 +4,6 @@ layout: function
 fancy_name: swap
 function_name: swap
 file_name: swap
-qualified_name: nda::blas::f77::swap
 namespaces: [nda, blas, f77]
 includer: nda/nda.hpp
 
@@ -14,10 +13,10 @@ brief: ""
 # List of overloads. Edit only the desc
 overloads:
 
-  - signature: void swap(int N, double * x, int incx, double * Y, int incy)
+  - signature: void swap(int N, double *x, int incx, double *Y, int incy)
     desc: ""
 
-  - signature: void swap(int N, std::complex<double> * x, int incx, std::complex<double> * Y, int incy)
+  - signature: void swap(int N, std::complex<double> *x, int incx, std::complex<double> *Y, int incy)
     desc: ""
 
 # Long description. Any Markdown, with code, latex, multiline with |
@@ -51,5 +50,4 @@ permalink: /cpp-api/nda/blas/f77/swap
 title: nda::blas::f77::swap
 parent: nda::blas::f77
 ...
-
 

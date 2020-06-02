@@ -4,7 +4,6 @@ layout: function
 fancy_name: (destructor)
 function_name: ~handle_heap<T, Allocator>
 file_name: handle_heap-destructor
-qualified_name: nda::mem::handle_heap::~handle_heap<T, Allocator>
 namespaces: [nda, mem, handle_heap]
 includer: nda/nda.hpp
 
@@ -44,5 +43,4 @@ permalink: /cpp-api/nda/mem/handle_heap/handle_heap-destructor
 title: nda::mem::handle_heap::~handle_heap<T, Allocator>
 parent: nda::mem::handle_heap
 ...
-
 

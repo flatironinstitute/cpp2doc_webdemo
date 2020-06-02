@@ -4,7 +4,6 @@ layout: function
 fancy_name: cbegin
 function_name: cbegin
 file_name: cbegin
-qualified_name: nda::basic_array::cbegin
 namespaces: [nda, basic_array]
 includer: nda/nda.hpp
 
@@ -44,5 +43,4 @@ permalink: /cpp-api/nda/basic_array/cbegin
 title: nda::basic_array::cbegin
 parent: nda::basic_array
 ...
-
 

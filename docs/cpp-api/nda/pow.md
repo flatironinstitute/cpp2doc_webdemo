@@ -4,7 +4,6 @@ layout: function
 fancy_name: pow
 function_name: pow
 file_name: pow
-qualified_name: nda::pow
 namespaces: [nda]
 includer: nda/nda.hpp
 
@@ -16,14 +15,14 @@ overloads:
 
   - signature: |
       template <typename T>
-      requires (std::is_integral_v<T>)
+      requires(std::is_integral_v<T>)
       T pow(T x, int n)
     desc: pow for integer
 
   - signature: |
       template <typename A>
-      requires (is_ndarray_v<std::decay_t<A>>)
-      auto pow(A && a, int n)
+      requires(is_ndarray_v<std::decay_t<A>>)
+      auto pow(A &&a, int n)
     desc: Map pow on Ndarray
 
 # Long description. Any Markdown, with code, latex, multiline with |
@@ -56,5 +55,4 @@ permalink: /cpp-api/nda/pow
 title: nda::pow
 parent: nda
 ...
-
 

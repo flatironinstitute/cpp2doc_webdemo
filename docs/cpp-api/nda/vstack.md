@@ -4,7 +4,6 @@ layout: function
 fancy_name: vstack
 function_name: vstack
 file_name: vstack
-qualified_name: nda::vstack
 namespaces: [nda]
 includer: nda/nda.hpp
 
@@ -15,9 +14,10 @@ brief: ""
 overloads:
 
   - signature: |
-      template <typename M1, typename M2>
-      matrix<typename M1::value_type> vstack(M1 const & a, M2 const & b)
-    desc: ""
+      template <nda::ArrayOfRank<2> A, nda::ArrayOfRank<2> B>
+      requires(std::same_as<get_value_t<A>, get_value_t<B>>)
+      matrix<get_value_t<A>> vstack(A const &a, B const &b)
+    desc: Give 2 matrices A (of size n x q) and B (of size p x q)
 
 # Long description. Any Markdown, with code, latex, multiline with |
 desc: ""
@@ -29,8 +29,8 @@ params:
 
 # Template parameters of the function. Edit only the description after the :
 tparams:
-  M1: __MISSING__
-  M2: __MISSING__
+  A: __MISSING__
+  B: __MISSING__
 
 # Desc of the return value
 return_value: __MISSING__
@@ -48,5 +48,4 @@ permalink: /cpp-api/nda/vstack
 title: nda::vstack
 parent: nda
 ...
-
 

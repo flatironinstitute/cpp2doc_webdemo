@@ -4,7 +4,6 @@ layout: function
 fancy_name: size
 function_name: size
 file_name: size
-qualified_name: nda::range::size
 namespaces: [nda, range]
 includer: nda/nda.hpp
 
@@ -44,5 +43,4 @@ permalink: /cpp-api/nda/range/size
 title: nda::range::size
 parent: nda::range
 ...
-
 

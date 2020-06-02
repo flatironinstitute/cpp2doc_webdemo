@@ -4,7 +4,6 @@ layout: function
 fancy_name: (constructors)
 function_name: basic_array_view
 file_name: basic_array_view-constructors
-qualified_name: nda::basic_array_view::basic_array_view<ValueType, Rank, Layout, Algebra, AccessorPolicy, OwningPolicy>
 namespaces: [nda, basic_array_view]
 includer: nda/nda.hpp
 
@@ -17,26 +16,43 @@ overloads:
   - signature: basic_array_view()
     desc: Construct an empty view.
 
-  - signature: basic_array_view(basic_array_view && )
+  - signature: basic_array_view(basic_array_view &&)
     desc: ""
 
-  - signature: basic_array_view(basic_array_view const & )
+  - signature: basic_array_view(basic_array_view const &)
     desc: Shallow copy. It copies the *view*, not the data.
 
   - signature: |
-      template <typename T, typename L, char A, typename CP>
-      basic_array_view(basic_array<T, Rank, L, A, CP> const & a) noexcept
+      template <typename CP>
+      basic_array_view(basic_array<ValueType, Rank, Layout, Algebra, CP> const &a) noexcept
     desc: ""
 
   - signature: |
-      template <typename T, typename L, char A, typename AP, typename OP>
-      basic_array_view(basic_array_view<T, Rank, L, A, AP, OP> const & a) noexcept
+      template <typename L, char A, typename CP>
+      basic_array_view(basic_array<ValueType, Rank, L, A, CP> const &a) noexcept
     desc: ""
 
-  - signature: basic_array_view(std::array<long, Rank> const & shape, ValueType * p) noexcept
+  - signature: |
+      template <typename L, char A, typename AP, typename OP>
+      basic_array_view(basic_array_view<ValueType, Rank, L, A, AP, OP> const &a) noexcept
     desc: ""
 
-  - signature: basic_array_view(nda::basic_array_view::layout_t const & idxm, ValueType * p) noexcept
+  - signature: |
+      template <typename L, char A, typename CP>
+      requires(std::is_const_v<ValueType>)
+      basic_array_view(basic_array<std::remove_const_t<ValueType>, Rank, L, A, CP> const &a) noexcept
+    desc: ""
+
+  - signature: |
+      template <typename L, char A, typename AP, typename OP>
+      requires(std::is_const_v<ValueType>)
+      basic_array_view(basic_array_view<std::remove_const_t<ValueType>, Rank, L, A, AP, OP> const &a) noexcept
+    desc: ""
+
+  - signature: basic_array_view(std::array<long, Rank> const &shape, ValueType *p) noexcept
+    desc: ""
+
+  - signature: basic_array_view(nda::basic_array_view::layout_t const &idxm, ValueType *p) noexcept
     desc: ""
 
 # Long description. Any Markdown, with code, latex, multiline with |
@@ -51,10 +67,9 @@ params:
 
 # Template parameters of the function. Edit only the description after the :
 tparams:
-  T: __MISSING__
+  CP: __MISSING__
   L: __MISSING__
   A: __MISSING__
-  CP: __MISSING__
   AP: __MISSING__
   OP: __MISSING__
 
@@ -74,5 +89,4 @@ permalink: /cpp-api/nda/basic_array_view/basic_array_view-constructors
 title: nda::basic_array_view::basic_array_view<ValueType, Rank, Layout, Algebra, AccessorPolicy, OwningPolicy>
 parent: nda::basic_array_view
 ...
-
 

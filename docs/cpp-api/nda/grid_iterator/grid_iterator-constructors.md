@@ -4,7 +4,6 @@ layout: function
 fancy_name: (constructors)
 function_name: grid_iterator
 file_name: grid_iterator-constructors
-qualified_name: nda::grid_iterator<1>::grid_iterator
 namespaces: [nda, grid_iterator]
 includer: nda/nda.hpp
 
@@ -17,19 +16,19 @@ overloads:
   - signature: grid_iterator()
     desc: ""
 
-  - signature: grid_iterator(long const * lengths, long const * strides, bool at_end)
+  - signature: grid_iterator(long const *lengths, long const *strides, bool at_end)
     desc: ""
 
-  - signature: grid_iterator(grid_iterator const & )
+  - signature: grid_iterator(grid_iterator const &)
     desc: ""
 
-  - signature: grid_iterator(grid_iterator && )
+  - signature: grid_iterator(grid_iterator &&)
     desc: ""
 
   - signature: grid_iterator()
     desc: ""
 
-  - signature: grid_iterator(long const * lengths, long const * strides, bool at_end)
+  - signature: grid_iterator(long const *lengths, long const *strides, bool at_end)
     desc: ""
 
 # Long description. Any Markdown, with code, latex, multiline with |
@@ -61,5 +60,4 @@ permalink: /cpp-api/nda/grid_iterator/grid_iterator-constructors
 title: nda::grid_iterator<1>::grid_iterator
 parent: nda::grid_iterator
 ...
-
 

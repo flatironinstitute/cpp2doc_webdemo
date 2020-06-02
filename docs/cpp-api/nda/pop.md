@@ -4,7 +4,6 @@ layout: function
 fancy_name: pop
 function_name: pop
 file_name: pop
-qualified_name: nda::pop
 namespaces: [nda]
 includer: nda/nda.hpp
 
@@ -16,7 +15,7 @@ overloads:
 
   - signature: |
       template <typename T, size_t R>
-      std::array<T, R - 1> pop(std::array<T, R> const & a)
+      std::array<T, R - 1> pop(std::array<T, R> const &a)
     desc: Make a new std::array by removing one element at the end
 
 # Long description. Any Markdown, with code, latex, multiline with |
@@ -47,5 +46,4 @@ permalink: /cpp-api/nda/pop
 title: nda::pop
 parent: nda
 ...
-
 

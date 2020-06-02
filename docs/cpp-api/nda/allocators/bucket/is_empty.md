@@ -4,7 +4,6 @@ layout: function
 fancy_name: is_empty
 function_name: is_empty
 file_name: is_empty
-qualified_name: nda::allocators::bucket::is_empty
 namespaces: [nda, allocators, bucket]
 includer: nda/nda.hpp
 
@@ -44,5 +43,4 @@ permalink: /cpp-api/nda/allocators/bucket/is_empty
 title: nda::allocators::bucket::is_empty
 parent: nda::allocators::bucket
 ...
-
 

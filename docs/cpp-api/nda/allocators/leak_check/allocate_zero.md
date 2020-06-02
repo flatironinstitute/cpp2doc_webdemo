@@ -4,7 +4,6 @@ layout: function
 fancy_name: allocate_zero
 function_name: allocate_zero
 file_name: allocate_zero
-qualified_name: nda::allocators::leak_check::allocate_zero
 namespaces: [nda, allocators, leak_check]
 includer: nda/nda.hpp
 
@@ -44,5 +43,4 @@ permalink: /cpp-api/nda/allocators/leak_check/allocate_zero
 title: nda::allocators::leak_check::allocate_zero
 parent: nda::allocators::leak_check
 ...
-
 

@@ -4,7 +4,6 @@ layout: function
 fancy_name: operator<<
 function_name: operator<<
 file_name: operator<<
-qualified_name: nda::runtime_error::operator<<
 namespaces: [nda, runtime_error]
 includer: nda/nda.hpp
 
@@ -16,10 +15,10 @@ overloads:
 
   - signature: |
       template <typename T>
-      runtime_error & operator<<(T const & x)
+      runtime_error &operator<<(T const &x)
     desc: ""
 
-  - signature: runtime_error & operator<<(char const * mess)
+  - signature: runtime_error &operator<<(char const *mess)
     desc: ""
 
 # Long description. Any Markdown, with code, latex, multiline with |
@@ -50,5 +49,4 @@ permalink: /cpp-api/nda/runtime_error/operator<<
 title: nda::runtime_error::operator<<
 parent: nda::runtime_error
 ...
-
 

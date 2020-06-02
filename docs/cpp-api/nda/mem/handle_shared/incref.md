@@ -4,7 +4,6 @@ layout: function
 fancy_name: incref
 function_name: incref
 file_name: incref
-qualified_name: nda::mem::handle_shared::incref
 namespaces: [nda, mem, handle_shared]
 includer: nda/nda.hpp
 
@@ -44,5 +43,4 @@ permalink: /cpp-api/nda/mem/handle_shared/incref
 title: nda::mem::handle_shared::incref
 parent: nda::mem::handle_shared
 ...
-
 

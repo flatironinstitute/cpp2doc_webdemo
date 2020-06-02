@@ -4,7 +4,6 @@ layout: function
 fancy_name: allocate
 function_name: allocate
 file_name: allocate
-qualified_name: nda::allocators::segregator::allocate
 namespaces: [nda, allocators, segregator]
 includer: nda/nda.hpp
 
@@ -44,5 +43,4 @@ permalink: /cpp-api/nda/allocators/segregator/allocate
 title: nda::allocators::segregator::allocate
 parent: nda::allocators::segregator
 ...
-
 

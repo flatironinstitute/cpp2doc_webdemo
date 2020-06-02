@@ -4,7 +4,6 @@ layout: function
 fancy_name: operator()
 function_name: operator()
 file_name: operator-call
-qualified_name: nda::basic_array_view::operator()
 namespaces: [nda, basic_array_view]
 includer: nda/nda.hpp
 
@@ -56,5 +55,4 @@ permalink: /cpp-api/nda/basic_array_view/operator-call
 title: nda::basic_array_view::operator()
 parent: nda::basic_array_view
 ...
-
 

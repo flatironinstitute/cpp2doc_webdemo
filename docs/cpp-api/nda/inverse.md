@@ -4,7 +4,6 @@ layout: function
 fancy_name: inverse
 function_name: inverse
 file_name: inverse
-qualified_name: nda::inverse
 namespaces: [nda]
 includer: nda/nda.hpp
 
@@ -16,8 +15,8 @@ overloads:
 
   - signature: |
       template <class A>
-      requires (is_ndarray_v<std::decay_t<A>> and (get_algebra<std::decay_t<A>> != 'M'))
-      expr<'/', A, int> inverse(A && a)
+      requires(is_ndarray_v<std::decay_t<A>> and (get_algebra<std::decay_t<A>> != 'M'))
+      expr<'/', A, int> inverse(A &&a)
     desc: ""
 
 # Long description. Any Markdown, with code, latex, multiline with |
@@ -47,5 +46,4 @@ permalink: /cpp-api/nda/inverse
 title: nda::inverse
 parent: nda
 ...
-
 

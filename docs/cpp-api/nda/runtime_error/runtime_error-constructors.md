@@ -4,7 +4,6 @@ layout: function
 fancy_name: (constructors)
 function_name: runtime_error
 file_name: runtime_error-constructors
-qualified_name: nda::runtime_error::runtime_error
 namespaces: [nda, runtime_error]
 includer: nda/nda.hpp
 
@@ -17,7 +16,7 @@ overloads:
   - signature: runtime_error() noexcept
     desc: ""
 
-  - signature: runtime_error(runtime_error const & ) noexcept
+  - signature: runtime_error(runtime_error const &) noexcept
     desc: ""
 
 # Long description. Any Markdown, with code, latex, multiline with |
@@ -47,5 +46,4 @@ permalink: /cpp-api/nda/runtime_error/runtime_error-constructors
 title: nda::runtime_error::runtime_error
 parent: nda::runtime_error
 ...
-
 

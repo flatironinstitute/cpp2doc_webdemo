@@ -4,7 +4,6 @@ layout: function
 fancy_name: (destructor)
 function_name: ~blk_t
 file_name: blk_t-destructor
-qualified_name: nda::allocators::blk_t::~blk_t
 namespaces: [nda, allocators, blk_t]
 includer: nda/nda.hpp
 
@@ -44,5 +43,4 @@ permalink: /cpp-api/nda/allocators/blk_t/blk_t-destructor
 title: nda::allocators::blk_t::~blk_t
 parent: nda::allocators::blk_t
 ...
-
 

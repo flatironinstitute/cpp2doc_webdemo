@@ -9,7 +9,7 @@ parent: nda
 title: nda::blas
 has_children: true
 namespaces: [f77]
-concepts: [MatrixView, IsDoubleOrComplex, VectorView]
+concepts: [IsDoubleOrComplex, MatrixView, VectorView]
 classes: []
 functions:
   - get_trans
@@ -20,5 +20,4 @@ functions:
   - gemv_generic
   - gemv
 ...
-
 

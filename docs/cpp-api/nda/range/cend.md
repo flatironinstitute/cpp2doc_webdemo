@@ -4,7 +4,6 @@ layout: function
 fancy_name: cend
 function_name: cend
 file_name: cend
-qualified_name: nda::range::cend
 namespaces: [nda, range]
 includer: nda/nda.hpp
 
@@ -44,5 +43,4 @@ permalink: /cpp-api/nda/range/cend
 title: nda::range::cend
 parent: nda::range
 ...
-
 

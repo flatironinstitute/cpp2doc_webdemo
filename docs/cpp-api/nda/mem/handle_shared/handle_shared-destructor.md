@@ -4,7 +4,6 @@ layout: function
 fancy_name: (destructor)
 function_name: ~handle_shared<T>
 file_name: handle_shared-destructor
-qualified_name: nda::mem::handle_shared::~handle_shared<T>
 namespaces: [nda, mem, handle_shared]
 includer: nda/nda.hpp
 
@@ -44,5 +43,4 @@ permalink: /cpp-api/nda/mem/handle_shared/handle_shared-destructor
 title: nda::mem::handle_shared::~handle_shared<T>
 parent: nda::mem::handle_shared
 ...
-
 

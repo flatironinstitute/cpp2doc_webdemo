@@ -4,7 +4,6 @@ layout: function
 fancy_name: (constructors)
 function_name: ellipsis
 file_name: ellipsis-constructors
-qualified_name: nda::ellipsis::ellipsis
 namespaces: [nda, ellipsis]
 includer: nda/nda.hpp
 
@@ -17,10 +16,10 @@ overloads:
   - signature: ellipsis()
     desc: ""
 
-  - signature: ellipsis(ellipsis const & )
+  - signature: ellipsis(ellipsis const &)
     desc: ""
 
-  - signature: ellipsis(ellipsis && )
+  - signature: ellipsis(ellipsis &&)
     desc: ""
 
 # Long description. Any Markdown, with code, latex, multiline with |
@@ -50,5 +49,4 @@ permalink: /cpp-api/nda/ellipsis/ellipsis-constructors
 title: nda::ellipsis::ellipsis
 parent: nda::ellipsis
 ...
-
 

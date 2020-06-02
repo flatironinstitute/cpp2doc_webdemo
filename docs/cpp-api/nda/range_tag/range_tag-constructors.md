@@ -4,7 +4,6 @@ layout: function
 fancy_name: (constructors)
 function_name: range_tag
 file_name: range_tag-constructors
-qualified_name: nda::range_tag::range_tag
 namespaces: [nda, range_tag]
 includer: nda/nda.hpp
 
@@ -17,10 +16,10 @@ overloads:
   - signature: range_tag()
     desc: ""
 
-  - signature: range_tag(range_tag const & )
+  - signature: range_tag(range_tag const &)
     desc: ""
 
-  - signature: range_tag(range_tag && )
+  - signature: range_tag(range_tag &&)
     desc: ""
 
 # Long description. Any Markdown, with code, latex, multiline with |
@@ -50,5 +49,4 @@ permalink: /cpp-api/nda/range_tag/range_tag-constructors
 title: nda::range_tag::range_tag
 parent: nda::range_tag
 ...
-
 

@@ -4,7 +4,6 @@ layout: function
 fancy_name: shape
 function_name: shape
 file_name: shape
-qualified_name: nda::basic_array::shape
 namespaces: [nda, basic_array]
 includer: nda/nda.hpp
 
@@ -14,7 +13,7 @@ brief: Shape
 # List of overloads. Edit only the desc
 overloads:
 
-  - signature: std::array<long, rank> const & shape() noexcept const
+  - signature: std::array<long, rank> const &shape() noexcept const
     desc: Shape
 
   - signature: long shape(int i) noexcept const
@@ -47,5 +46,4 @@ permalink: /cpp-api/nda/basic_array/shape
 title: nda::basic_array::shape
 parent: nda::basic_array
 ...
-
 

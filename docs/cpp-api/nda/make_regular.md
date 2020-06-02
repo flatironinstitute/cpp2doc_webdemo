@@ -4,7 +4,6 @@ layout: function
 fancy_name: make_regular
 function_name: make_regular
 file_name: make_regular
-qualified_name: nda::make_regular
 namespaces: [nda]
 includer: nda/nda.hpp
 
@@ -16,8 +15,9 @@ overloads:
 
   - signature: |
       template <typename A>
-      requires (is_ndarray_v<std::decay_t<A>>)
-      basic_array<get_value_t<std::decay_t<A> >, get_rank<A>, struct nda::C_layout, get_algebra<std::decay_t<A> >, struct nda::heap> make_regular(A && x)
+      requires(is_ndarray_v<std::decay_t<A>>)
+      basic_array<get_value_t<std::decay_t<A>>, get_rank<A>, struct nda::C_layout, get_algebra<std::decay_t<A>>,
+                     struct nda::heap> make_regular(A &&x)
     desc: ""
 
 # Long description. Any Markdown, with code, latex, multiline with |
@@ -47,5 +47,4 @@ permalink: /cpp-api/nda/make_regular
 title: nda::make_regular
 parent: nda
 ...
-
 

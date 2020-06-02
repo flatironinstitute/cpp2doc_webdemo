@@ -8,13 +8,13 @@ namespaces: [sandbox, myarray]
 includer: ""
 
 # Brief description. One line only.
-brief: "Brief doc of operator = "
+brief: Brief doc of operator =
 
 # List of overloads. Edit only the desc
 overloads:
 
   - signature: myarray & operator=(int i)
-    desc: "This is the documentstion"
+    desc: This is the documentstion
 
 # Long description. Any Markdown, with code, latex, multiline with |
 desc: ""

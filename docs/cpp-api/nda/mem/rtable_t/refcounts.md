@@ -4,7 +4,6 @@ layout: function
 fancy_name: refcounts
 function_name: refcounts
 file_name: refcounts
-qualified_name: nda::mem::rtable_t::refcounts
 namespaces: [nda, mem, rtable_t]
 includer: nda/nda.hpp
 
@@ -14,7 +13,7 @@ brief: ""
 # List of overloads. Edit only the desc
 overloads:
 
-  - signature: std::vector<int_t> const & refcounts() noexcept const
+  - signature: std::vector<int_t> const &refcounts() noexcept const
     desc: ""
 
 # Long description. Any Markdown, with code, latex, multiline with |
@@ -44,5 +43,4 @@ permalink: /cpp-api/nda/mem/rtable_t/refcounts
 title: nda::mem::rtable_t::refcounts
 parent: nda::mem::rtable_t
 ...
-
 

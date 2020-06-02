@@ -4,7 +4,6 @@ layout: function
 fancy_name: (destructor)
 function_name: ~layout_info_t
 file_name: layout_info_t-destructor
-qualified_name: nda::layout_info_t::~layout_info_t
 namespaces: [nda, layout_info_t]
 includer: nda/nda.hpp
 
@@ -44,5 +43,4 @@ permalink: /cpp-api/nda/layout_info_t/layout_info_t-destructor
 title: nda::layout_info_t::~layout_info_t
 parent: nda::layout_info_t
 ...
-
 

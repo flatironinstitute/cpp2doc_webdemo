@@ -4,7 +4,6 @@ layout: function
 fancy_name: assert_in_bounds
 function_name: assert_in_bounds
 file_name: assert_in_bounds
-qualified_name: nda::details::assert_in_bounds
 namespaces: [nda, details]
 includer: nda/nda.hpp
 
@@ -16,7 +15,7 @@ overloads:
 
   - signature: |
       template <typename Args>
-      void assert_in_bounds(int rank, long const * lengths, const Args &... args)
+      void assert_in_bounds(int rank, long const *lengths, const Args &... args)
     desc: ""
 
 # Long description. Any Markdown, with code, latex, multiline with |
@@ -48,5 +47,4 @@ permalink: /cpp-api/nda/details/assert_in_bounds
 title: nda::details::assert_in_bounds
 parent: nda::details
 ...
-
 

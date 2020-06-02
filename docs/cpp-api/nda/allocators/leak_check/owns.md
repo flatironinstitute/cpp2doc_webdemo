@@ -4,7 +4,6 @@ layout: function
 fancy_name: owns
 function_name: owns
 file_name: owns
-qualified_name: nda::allocators::leak_check::owns
 namespaces: [nda, allocators, leak_check]
 includer: nda/nda.hpp
 
@@ -44,5 +43,4 @@ permalink: /cpp-api/nda/allocators/leak_check/owns
 title: nda::allocators::leak_check::owns
 parent: nda::allocators::leak_check
 ...
-
 

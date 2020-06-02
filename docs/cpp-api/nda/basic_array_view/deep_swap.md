@@ -4,7 +4,6 @@ layout: function
 fancy_name: deep_swap
 function_name: deep_swap
 file_name: deep_swap
-qualified_name: nda::deep_swap
 namespaces: [nda, basic_array_view]
 includer: nda/nda.hpp
 
@@ -14,7 +13,9 @@ brief: Swaps the data in a and b
 # List of overloads. Edit only the desc
 overloads:
 
-  - signature: void deep_swap(basic_array_view<ValueType, Rank, Layout, Algebra, AccessorPolicy, OwningPolicy> a, basic_array_view<ValueType, Rank, Layout, Algebra, AccessorPolicy, OwningPolicy> b) noexcept
+  - signature: |
+      void deep_swap(basic_array_view<ValueType, Rank, Layout, Algebra, AccessorPolicy, OwningPolicy> a,
+                     basic_array_view<ValueType, Rank, Layout, Algebra, AccessorPolicy, OwningPolicy> b) noexcept
     desc: Swaps the data in a and b
 
 # Long description. Any Markdown, with code, latex, multiline with |
@@ -45,5 +46,4 @@ permalink: /cpp-api/nda/basic_array_view/deep_swap
 title: nda::deep_swap
 parent: nda::basic_array_view
 ...
-
 

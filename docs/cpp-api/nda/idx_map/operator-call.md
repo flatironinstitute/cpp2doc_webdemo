@@ -4,7 +4,6 @@ layout: function
 fancy_name: operator()
 function_name: operator()
 file_name: operator-call
-qualified_name: nda::idx_map::operator()
 namespaces: [nda, idx_map]
 includer: nda/nda.hpp
 
@@ -46,5 +45,4 @@ permalink: /cpp-api/nda/idx_map/operator-call
 title: nda::idx_map::operator()
 parent: nda::idx_map
 ...
-
 

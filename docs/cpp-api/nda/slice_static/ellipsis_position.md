@@ -4,7 +4,6 @@ layout: function
 fancy_name: ellipsis_position
 function_name: ellipsis_position
 file_name: ellipsis_position
-qualified_name: nda::slice_static::ellipsis_position
 namespaces: [nda, slice_static]
 includer: nda/nda.hpp
 
@@ -46,5 +45,4 @@ permalink: /cpp-api/nda/slice_static/ellipsis_position
 title: nda::slice_static::ellipsis_position
 parent: nda::slice_static
 ...
-
 

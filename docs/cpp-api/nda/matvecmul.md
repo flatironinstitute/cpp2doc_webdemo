@@ -4,7 +4,6 @@ layout: function
 fancy_name: matvecmul
 function_name: matvecmul
 file_name: matvecmul
-qualified_name: nda::matvecmul
 namespaces: [nda]
 includer: nda/nda.hpp
 
@@ -16,7 +15,7 @@ overloads:
 
   - signature: |
       template <typename L, typename R>
-      auto matvecmul(L && l, R && r)
+      auto matvecmul(L &&l, R &&r)
     desc: ""
 
 # Long description. Any Markdown, with code, latex, multiline with |
@@ -48,5 +47,4 @@ permalink: /cpp-api/nda/matvecmul
 title: nda::matvecmul
 parent: nda
 ...
-
 

@@ -4,7 +4,6 @@ layout: function
 fancy_name: empty
 function_name: empty
 file_name: empty
-qualified_name: nda::allocators::leak_check::empty
 namespaces: [nda, allocators, leak_check]
 includer: nda/nda.hpp
 
@@ -14,7 +13,7 @@ brief: ""
 # List of overloads. Edit only the desc
 overloads:
 
-  - signature: bool empty()  const
+  - signature: bool empty() const
     desc: ""
 
 # Long description. Any Markdown, with code, latex, multiline with |
@@ -44,5 +43,4 @@ permalink: /cpp-api/nda/allocators/leak_check/empty
 title: nda::allocators::leak_check::empty
 parent: nda::allocators::leak_check
 ...
-
 

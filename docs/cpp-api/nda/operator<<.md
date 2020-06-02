@@ -4,7 +4,6 @@ layout: function
 fancy_name: operator<<
 function_name: operator<<
 file_name: operator<<
-qualified_name: nda::operator<<
 namespaces: [nda]
 includer: nda/nda.hpp
 
@@ -14,54 +13,55 @@ brief: ""
 # List of overloads. Edit only the desc
 overloads:
 
-  - signature: std::ostream & operator<<(std::ostream & os, struct nda::range_all ) noexcept
+  - signature: std::ostream &operator<<(std::ostream &os, struct nda::range_all) noexcept
     desc: ""
 
-  - signature: std::ostream & operator<<(std::ostream & os, struct nda::ellipsis ) noexcept
+  - signature: std::ostream &operator<<(std::ostream &os, struct nda::ellipsis) noexcept
     desc: ""
 
-  - signature: std::ostream & operator<<(std::ostream & out, enum nda::layout_prop_e p)
+  - signature: std::ostream &operator<<(std::ostream &out, enum nda::layout_prop_e p)
     desc: ""
 
   - signature: |
       template <int Rank, uint64_t StaticExtents, uint64_t StrideOrder, enum nda::layout_prop_e LayoutProp>
-      std::ostream & operator<<(std::ostream & out, idx_map<Rank, StaticExtents, StrideOrder, LayoutProp> const & x)
+      std::ostream &operator<<(std::ostream &out, idx_map<Rank, StaticExtents, StrideOrder, LayoutProp> const &x)
     desc: ""
 
   - signature: |
       template <typename A>
-      requires (is_regular_or_view_v<A>)
-      std::ostream & operator<<(std::ostream & out, A const & a)
+      requires(is_regular_or_view_v<A>)
+      std::ostream &
+         operator<<(std::ostream &out, A const &a)
     desc: ""
 
   - signature: |
       template <int R, typename F>
-      std::ostream & operator<<(std::ostream & sout, array_adapter<R, F> const & x)
+      std::ostream &operator<<(std::ostream &sout, array_adapter<R, F> const &x)
     desc: ""
 
   - signature: |
       template <typename S, int Rank>
-      std::ostream & operator<<(std::ostream & sout, scalar_array<S, Rank> const & expr)
+      std::ostream &operator<<(std::ostream &sout, scalar_array<S, Rank> const &expr)
     desc: ""
 
   - signature: |
       template <typename S>
-      std::ostream & operator<<(std::ostream & sout, scalar_matrix<S> const & expr)
+      std::ostream &operator<<(std::ostream &sout, scalar_matrix<S> const &expr)
     desc: ""
 
   - signature: |
       template <char OP, typename L>
-      std::ostream & operator<<(std::ostream & sout, expr_unary<OP, L> const & expr)
+      std::ostream &operator<<(std::ostream &sout, expr_unary<OP, L> const &expr)
     desc: ""
 
   - signature: |
       template <char OP, typename L, typename R>
-      std::ostream & operator<<(std::ostream & sout, expr<OP, L, R> const & expr)
+      std::ostream &operator<<(std::ostream &sout, expr<OP, L, R> const &expr)
     desc: ""
 
   - signature: |
       template <typename F, typename A>
-      std::ostream & operator<<(std::ostream & out, expr_call<F, A...> const & )
+      std::ostream &operator<<(std::ostream &out, expr_call<F, A...> const &)
     desc: ""
 
 # Long description. Any Markdown, with code, latex, multiline with |
@@ -106,5 +106,4 @@ permalink: /cpp-api/nda/operator<<
 title: nda::operator<<
 parent: nda
 ...
-
 

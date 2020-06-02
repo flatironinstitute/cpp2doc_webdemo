@@ -4,7 +4,6 @@ layout: function
 fancy_name: operator[]
 function_name: operator[]
 file_name: operator-index
-qualified_name: nda::mem::handle_stack::operator[]
 namespaces: [nda, mem, handle_stack]
 includer: nda/nda.hpp
 
@@ -14,10 +13,10 @@ brief: ""
 # List of overloads. Edit only the desc
 overloads:
 
-  - signature: T & operator[](long i) noexcept
+  - signature: T &operator[](long i) noexcept
     desc: ""
 
-  - signature: T const & operator[](long i) noexcept const
+  - signature: T const &operator[](long i) noexcept const
     desc: ""
 
 # Long description. Any Markdown, with code, latex, multiline with |
@@ -47,5 +46,4 @@ permalink: /cpp-api/nda/mem/handle_stack/operator-index
 title: nda::mem::handle_stack::operator[]
 parent: nda::mem::handle_stack
 ...
-
 

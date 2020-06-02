@@ -4,7 +4,6 @@ layout: function
 fancy_name: to_vector
 function_name: to_vector
 file_name: to_vector
-qualified_name: nda::to_vector
 namespaces: [nda]
 includer: nda/nda.hpp
 
@@ -16,7 +15,7 @@ overloads:
 
   - signature: |
       template <typename T, size_t R>
-      std::vector<T> to_vector(std::array<T, R> const & a)
+      std::vector<T> to_vector(std::array<T, R> const &a)
     desc: Convert a std::array to a
 
 # Long description. Any Markdown, with code, latex, multiline with |
@@ -47,5 +46,4 @@ permalink: /cpp-api/nda/to_vector
 title: nda::to_vector
 parent: nda
 ...
-
 

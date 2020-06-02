@@ -47,6 +47,7 @@ methods:
   - operator-=
   - operator*=
   - operator/=
+  - zeros
 
 # A list of non_member_functions
 non_member_functions: []
@@ -77,5 +78,4 @@ source: nda/basic_array.hpp
 parent: nda
 has_children: true
 ...
-
 

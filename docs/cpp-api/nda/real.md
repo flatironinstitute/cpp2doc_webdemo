@@ -4,7 +4,6 @@ layout: function
 fancy_name: real
 function_name: real
 file_name: real
-qualified_name: nda::real
 namespaces: [nda]
 includer: nda/nda.hpp
 
@@ -16,8 +15,8 @@ overloads:
 
   - signature: |
       template <typename A>
-      requires (is_ndarray_v<std::decay_t<A>>)
-      auto real(A && a)
+      requires(is_ndarray_v<std::decay_t<A>>)
+      auto real(A &&a)
     desc: Maps real onto the array
 
 # Long description. Any Markdown, with code, latex, multiline with |
@@ -47,5 +46,4 @@ permalink: /cpp-api/nda/real
 title: nda::real
 parent: nda
 ...
-
 

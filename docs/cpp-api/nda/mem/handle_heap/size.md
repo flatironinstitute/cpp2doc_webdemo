@@ -4,7 +4,6 @@ layout: function
 fancy_name: size
 function_name: size
 file_name: size
-qualified_name: nda::mem::handle_heap::size
 namespaces: [nda, mem, handle_heap]
 includer: nda/nda.hpp
 
@@ -44,5 +43,4 @@ permalink: /cpp-api/nda/mem/handle_heap/size
 title: nda::mem::handle_heap::size
 parent: nda::mem::handle_heap
 ...
-
 

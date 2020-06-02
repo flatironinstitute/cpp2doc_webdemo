@@ -4,7 +4,6 @@ layout: function
 fancy_name: transpose
 function_name: transpose
 file_name: transpose
-qualified_name: nda::idx_map::transpose
 namespaces: [nda, idx_map]
 includer: nda/nda.hpp
 
@@ -16,7 +15,7 @@ overloads:
 
   - signature: |
       template <uint64_t Permutation>
-      auto transpose()  const
+      auto transpose() const
     desc: ""
 
 # Long description. Any Markdown, with code, latex, multiline with |
@@ -46,5 +45,4 @@ permalink: /cpp-api/nda/idx_map/transpose
 title: nda::idx_map::transpose
 parent: nda::idx_map
 ...
-
 

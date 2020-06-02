@@ -52,4 +52,3 @@ parent: nda::details
 has_children: true
 ...
 
-

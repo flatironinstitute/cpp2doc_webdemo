@@ -4,7 +4,6 @@ layout: function
 fancy_name: transposition
 function_name: transposition
 file_name: transposition
-qualified_name: nda::permutations::transposition
 namespaces: [nda, permutations]
 includer: nda/nda.hpp
 
@@ -47,5 +46,4 @@ permalink: /cpp-api/nda/permutations/transposition
 title: nda::permutations::transposition
 parent: nda::permutations
 ...
-
 

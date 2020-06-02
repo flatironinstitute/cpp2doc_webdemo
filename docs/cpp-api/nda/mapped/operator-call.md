@@ -4,7 +4,6 @@ layout: function
 fancy_name: operator()
 function_name: operator()
 file_name: operator-call
-qualified_name: nda::mapped::operator()
 namespaces: [nda, mapped]
 includer: nda/nda.hpp
 
@@ -16,7 +15,7 @@ overloads:
 
   - signature: |
       template <typename A0, typename A>
-      expr_call<F, A0, A...> operator()(A0 && a0, A &&... a)  const
+      expr_call<F, A0, A...> operator()(A0 &&a0, A &&... a) const
     desc: ""
 
 # Long description. Any Markdown, with code, latex, multiline with |
@@ -48,5 +47,4 @@ permalink: /cpp-api/nda/mapped/operator-call
 title: nda::mapped::operator()
 parent: nda::mapped
 ...
-
 

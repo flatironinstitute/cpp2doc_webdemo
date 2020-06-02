@@ -4,7 +4,6 @@ layout: function
 fancy_name: q_of_n
 function_name: q_of_n
 file_name: q_of_n
-qualified_name: nda::slice_static::q_of_n
 namespaces: [nda, slice_static]
 includer: nda/nda.hpp
 
@@ -46,5 +45,4 @@ permalink: /cpp-api/nda/slice_static/q_of_n
 title: nda::slice_static::q_of_n
 parent: nda::slice_static
 ...
-
 

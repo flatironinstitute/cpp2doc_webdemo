@@ -4,7 +4,6 @@ layout: function
 fancy_name: deallocate
 function_name: deallocate
 file_name: deallocate
-qualified_name: nda::allocators::bucket::deallocate
 namespaces: [nda, allocators, bucket]
 includer: nda/nda.hpp
 
@@ -44,5 +43,4 @@ permalink: /cpp-api/nda/allocators/bucket/deallocate
 title: nda::allocators::bucket::deallocate
 parent: nda::allocators::bucket
 ...
-
 

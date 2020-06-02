@@ -4,7 +4,6 @@ layout: function
 fancy_name: cend
 function_name: cend
 file_name: cend
-qualified_name: nda::basic_array::cend
 namespaces: [nda, basic_array]
 includer: nda/nda.hpp
 
@@ -44,5 +43,4 @@ permalink: /cpp-api/nda/basic_array/cend
 title: nda::basic_array::cend
 parent: nda::basic_array
 ...
-
 

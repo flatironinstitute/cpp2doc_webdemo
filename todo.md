@@ -22,7 +22,6 @@ _updated 5/29_
 - Add classes for G1 G2 to place the title.
 
 
-
 ## Done:
 
 - change destination folder to docs/cpp-api

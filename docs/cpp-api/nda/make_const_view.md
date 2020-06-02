@@ -4,7 +4,6 @@ layout: function
 fancy_name: make_const_view
 function_name: make_const_view
 file_name: make_const_view
-qualified_name: nda::make_const_view
 namespaces: [nda]
 includer: nda/nda.hpp
 
@@ -16,12 +15,13 @@ overloads:
 
   - signature: |
       template <typename T, int R, typename L, char Algebra, typename ContainerPolicy>
-      basic_array_view<const T, R, L, Algebra> make_const_view(basic_array<T, R, L, Algebra, ContainerPolicy> const & a)
+      basic_array_view<const T, R, L, Algebra> make_const_view(basic_array<T, R, L, Algebra, ContainerPolicy> const &a)
     desc: --------------- make_const_view------------------------
 
   - signature: |
       template <typename T, int R, typename L, char Algebra, typename AccessorPolicy, typename OwningPolicy>
-      basic_array_view<const T, R, L, Algebra, AccessorPolicy, OwningPolicy> make_const_view(basic_array_view<T, R, L, Algebra, AccessorPolicy, OwningPolicy> const & a)
+      basic_array_view<const T, R, L, Algebra, AccessorPolicy, OwningPolicy>
+      make_const_view(basic_array_view<T, R, L, Algebra, AccessorPolicy, OwningPolicy> const &a)
     desc: ""
 
 # Long description. Any Markdown, with code, latex, multiline with |
@@ -57,5 +57,4 @@ permalink: /cpp-api/nda/make_const_view
 title: nda::make_const_view
 parent: nda
 ...
-
 

@@ -4,7 +4,6 @@ layout: function
 fancy_name: size
 function_name: size
 file_name: size
-qualified_name: nda::basic_array::size
 namespaces: [nda, basic_array]
 includer: nda/nda.hpp
 
@@ -44,5 +43,4 @@ permalink: /cpp-api/nda/basic_array/size
 title: nda::basic_array::size
 parent: nda::basic_array
 ...
-
 

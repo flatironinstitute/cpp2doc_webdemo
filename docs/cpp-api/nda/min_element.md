@@ -4,7 +4,6 @@ layout: function
 fancy_name: min_element
 function_name: min_element
 file_name: min_element
-qualified_name: nda::min_element
 namespaces: [nda]
 includer: nda/nda.hpp
 
@@ -16,7 +15,7 @@ overloads:
 
   - signature: |
       template <nda::Array A>
-      auto min_element(A const & a)
+      auto min_element(A const &a)
     desc: ""
 
 # Long description. Any Markdown, with code, latex, multiline with |
@@ -46,5 +45,4 @@ permalink: /cpp-api/nda/min_element
 title: nda::min_element
 parent: nda
 ...
-
 

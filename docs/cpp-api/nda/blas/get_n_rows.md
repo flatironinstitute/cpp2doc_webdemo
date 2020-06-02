@@ -4,7 +4,6 @@ layout: function
 fancy_name: get_n_rows
 function_name: get_n_rows
 file_name: get_n_rows
-qualified_name: nda::blas::get_n_rows
 namespaces: [nda, blas]
 includer: nda/nda.hpp
 
@@ -16,7 +15,7 @@ overloads:
 
   - signature: |
       template <typename MatrixType>
-      size_t get_n_rows(MatrixType const & A)
+      size_t get_n_rows(MatrixType const &A)
     desc: ""
 
 # Long description. Any Markdown, with code, latex, multiline with |
@@ -46,5 +45,4 @@ permalink: /cpp-api/nda/blas/get_n_rows
 title: nda::blas::get_n_rows
 parent: nda::blas
 ...
-
 

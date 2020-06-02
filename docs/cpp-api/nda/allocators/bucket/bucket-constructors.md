@@ -4,7 +4,6 @@ layout: function
 fancy_name: (constructors)
 function_name: bucket
 file_name: bucket-constructors
-qualified_name: nda::allocators::bucket::bucket<ChunkSize>
 namespaces: [nda, allocators, bucket]
 includer: nda/nda.hpp
 
@@ -17,10 +16,10 @@ overloads:
   - signature: bucket()
     desc: ""
 
-  - signature: bucket(bucket const & )
+  - signature: bucket(bucket const &)
     desc: ""
 
-  - signature: bucket(bucket && )
+  - signature: bucket(bucket &&)
     desc: ""
 
 # Long description. Any Markdown, with code, latex, multiline with |
@@ -50,5 +49,4 @@ permalink: /cpp-api/nda/allocators/bucket/bucket-constructors
 title: nda::allocators::bucket::bucket<ChunkSize>
 parent: nda::allocators::bucket
 ...
-
 

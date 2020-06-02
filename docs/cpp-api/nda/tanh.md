@@ -4,7 +4,6 @@ layout: function
 fancy_name: tanh
 function_name: tanh
 file_name: tanh
-qualified_name: nda::tanh
 namespaces: [nda]
 includer: nda/nda.hpp
 
@@ -16,8 +15,8 @@ overloads:
 
   - signature: |
       template <typename A>
-      requires (is_ndarray_v<std::decay_t<A>> and (get_algebra<std::decay_t<A>> != 'M'))
-      auto tanh(A && a)
+      requires(is_ndarray_v<std::decay_t<A>> and (get_algebra<std::decay_t<A>> != 'M'))
+      auto tanh(A &&a)
     desc: Maps tanh onto the array
 
 # Long description. Any Markdown, with code, latex, multiline with |
@@ -47,5 +46,4 @@ permalink: /cpp-api/nda/tanh
 title: nda::tanh
 parent: nda
 ...
-
 

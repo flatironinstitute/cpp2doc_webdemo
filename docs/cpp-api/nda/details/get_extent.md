@@ -4,7 +4,6 @@ layout: function
 fancy_name: get_extent
 function_name: get_extent
 file_name: get_extent
-qualified_name: nda::details::get_extent
 namespaces: [nda, details]
 includer: nda/nda.hpp
 
@@ -16,7 +15,7 @@ overloads:
 
   - signature: |
       template <int I, int R, uint64_t StaticExtents>
-      long get_extent(std::array<long, R> const & l)
+      long get_extent(std::array<long, R> const &l)
     desc: ""
 
 # Long description. Any Markdown, with code, latex, multiline with |
@@ -48,5 +47,4 @@ permalink: /cpp-api/nda/details/get_extent
 title: nda::details::get_extent
 parent: nda::details
 ...
-
 

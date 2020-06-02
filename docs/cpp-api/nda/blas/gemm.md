@@ -4,7 +4,6 @@ layout: function
 fancy_name: gemm
 function_name: gemm
 file_name: gemm
-qualified_name: nda::blas::gemm
 namespaces: [nda, blas]
 includer: nda/nda.hpp
 
@@ -16,8 +15,8 @@ overloads:
 
   - signature: |
       template <nda::blas::MatrixView A, nda::blas::MatrixView B, nda::blas::MatrixView C>
-      requires (have_same_value_type_v<A, B, C> and is_blas_lapack_v<typename A::value_type>)
-      void gemm(typename A::value_type alpha, A const & a, B const & b, typename A::value_type beta, C && c)
+      requires(have_same_value_type_v<A, B, C> and is_blas_lapack_v<typename A::value_type>)
+      void gemm(typename A::value_type alpha, A const &a, B const &b, typename A::value_type beta, C &&c)
     desc: Compute c
 
 # Long description. Any Markdown, with code, latex, multiline with |
@@ -58,5 +57,4 @@ permalink: /cpp-api/nda/blas/gemm
 title: nda::blas::gemm
 parent: nda::blas
 ...
-
 

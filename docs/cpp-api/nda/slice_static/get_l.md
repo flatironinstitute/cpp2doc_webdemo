@@ -4,7 +4,6 @@ layout: function
 fancy_name: get_l
 function_name: get_l
 file_name: get_l
-qualified_name: nda::slice_static::get_l
 namespaces: [nda, slice_static]
 includer: nda/nda.hpp
 
@@ -14,10 +13,10 @@ brief: ""
 # List of overloads. Edit only the desc
 overloads:
 
-  - signature: long get_l(class nda::range const & R, long l_n)
+  - signature: long get_l(class nda::range const &R, long l_n)
     desc: ""
 
-  - signature: long get_l(struct nda::range_all , long l_n)
+  - signature: long get_l(struct nda::range_all, long l_n)
     desc: ""
 
 # Long description. Any Markdown, with code, latex, multiline with |
@@ -48,5 +47,4 @@ permalink: /cpp-api/nda/slice_static/get_l
 title: nda::slice_static::get_l
 parent: nda::slice_static
 ...
-
 

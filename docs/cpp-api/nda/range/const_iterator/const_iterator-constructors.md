@@ -4,7 +4,6 @@ layout: function
 fancy_name: (constructors)
 function_name: const_iterator
 file_name: const_iterator-constructors
-qualified_name: nda::range::const_iterator::const_iterator
 namespaces: [nda, range, const_iterator]
 includer: nda/nda.hpp
 
@@ -14,13 +13,13 @@ brief: ""
 # List of overloads. Edit only the desc
 overloads:
 
-  - signature: const_iterator(class nda::range const * r, bool atEnd) noexcept
+  - signature: const_iterator(class nda::range const *r, bool atEnd) noexcept
     desc: ""
 
-  - signature: const_iterator(const_iterator const & )
+  - signature: const_iterator(const_iterator const &)
     desc: ""
 
-  - signature: const_iterator(const_iterator && )
+  - signature: const_iterator(const_iterator &&)
     desc: ""
 
 # Long description. Any Markdown, with code, latex, multiline with |
@@ -51,5 +50,4 @@ permalink: /cpp-api/nda/range/const_iterator/const_iterator-constructors
 title: nda::range::const_iterator::const_iterator
 parent: nda::range::const_iterator
 ...
-
 

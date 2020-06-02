@@ -4,7 +4,6 @@ layout: function
 fancy_name: (constructors)
 function_name: range_all
 file_name: range_all-constructors
-qualified_name: nda::range_all::range_all
 namespaces: [nda, range_all]
 includer: nda/nda.hpp
 
@@ -17,10 +16,10 @@ overloads:
   - signature: range_all()
     desc: ""
 
-  - signature: range_all(range_all const & )
+  - signature: range_all(range_all const &)
     desc: ""
 
-  - signature: range_all(range_all && )
+  - signature: range_all(range_all &&)
     desc: ""
 
 # Long description. Any Markdown, with code, latex, multiline with |
@@ -50,5 +49,4 @@ permalink: /cpp-api/nda/range_all/range_all-constructors
 title: nda::range_all::range_all
 parent: nda::range_all
 ...
-
 

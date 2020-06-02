@@ -4,7 +4,6 @@ layout: function
 fancy_name: (destructor)
 function_name: ~handle_stack<T, Size>
 file_name: handle_stack-destructor
-qualified_name: nda::mem::handle_stack::~handle_stack<T, Size>
 namespaces: [nda, mem, handle_stack]
 includer: nda/nda.hpp
 
@@ -44,5 +43,4 @@ permalink: /cpp-api/nda/mem/handle_stack/handle_stack-destructor
 title: nda::mem::handle_stack::~handle_stack<T, Size>
 parent: nda::mem::handle_stack
 ...
-
 

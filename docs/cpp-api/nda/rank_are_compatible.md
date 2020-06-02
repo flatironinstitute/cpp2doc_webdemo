@@ -4,7 +4,6 @@ layout: function
 fancy_name: rank_are_compatible
 function_name: rank_are_compatible
 file_name: rank_are_compatible
-qualified_name: nda::rank_are_compatible
 namespaces: [nda]
 includer: nda/nda.hpp
 
@@ -47,5 +46,4 @@ permalink: /cpp-api/nda/rank_are_compatible
 title: nda::rank_are_compatible
 parent: nda
 ...
-
 

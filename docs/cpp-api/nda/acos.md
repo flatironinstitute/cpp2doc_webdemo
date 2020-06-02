@@ -4,7 +4,6 @@ layout: function
 fancy_name: acos
 function_name: acos
 file_name: acos
-qualified_name: nda::acos
 namespaces: [nda]
 includer: nda/nda.hpp
 
@@ -16,8 +15,8 @@ overloads:
 
   - signature: |
       template <typename A>
-      requires (is_ndarray_v<std::decay_t<A>> and (get_algebra<std::decay_t<A>> != 'M'))
-      auto acos(A && a)
+      requires(is_ndarray_v<std::decay_t<A>> and (get_algebra<std::decay_t<A>> != 'M'))
+      auto acos(A &&a)
     desc: Maps acos onto the array
 
 # Long description. Any Markdown, with code, latex, multiline with |
@@ -47,5 +46,4 @@ permalink: /cpp-api/nda/acos
 title: nda::acos
 parent: nda
 ...
-
 

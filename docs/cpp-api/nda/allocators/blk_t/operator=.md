@@ -4,7 +4,6 @@ layout: function
 fancy_name: operator=
 function_name: operator=
 file_name: operator=
-qualified_name: nda::allocators::blk_t::operator=
 namespaces: [nda, allocators, blk_t]
 includer: nda/nda.hpp
 
@@ -14,10 +13,10 @@ brief: ""
 # List of overloads. Edit only the desc
 overloads:
 
-  - signature: blk_t & operator=(blk_t const & )
+  - signature: blk_t &operator=(blk_t const &)
     desc: ""
 
-  - signature: blk_t & operator=(blk_t && )
+  - signature: blk_t &operator=(blk_t &&)
     desc: ""
 
 # Long description. Any Markdown, with code, latex, multiline with |
@@ -47,5 +46,4 @@ permalink: /cpp-api/nda/allocators/blk_t/operator=
 title: nda::allocators::blk_t::operator=
 parent: nda::allocators::blk_t
 ...
-
 

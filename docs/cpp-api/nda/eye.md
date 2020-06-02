@@ -4,7 +4,6 @@ layout: function
 fancy_name: eye
 function_name: eye
 file_name: eye
-qualified_name: nda::eye
 namespaces: [nda]
 includer: nda/nda.hpp
 
@@ -46,5 +45,4 @@ permalink: /cpp-api/nda/eye
 title: nda::eye
 parent: nda
 ...
-
 

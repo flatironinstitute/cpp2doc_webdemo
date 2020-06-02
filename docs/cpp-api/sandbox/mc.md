@@ -1,6 +1,7 @@
 ---
-layout: page
+layout: default
 title: MC tools
+permalink: /cpp-api/sandbox/mc
 ...
 
 
@@ -8,8 +9,8 @@ SOME TEXT is to be written here, but it is long
 
 <%
 
-import numpy as np
 import matplotlib.pyplot as plt
+import numpy as np
 
 x1 = np.linspace(0.0, 5.0)
 x2 = np.linspace(0.0, 2.0)
@@ -56,6 +57,10 @@ and a block
 
 which ends hre
 
+A dootnote[^1]
+
+[^1]: The foot noteitself
+      glklkl $$a =b $$
 
 * TOC
 {:toc}
@@ -80,16 +85,6 @@ which ends hre
 I want to write<span style="color:red">in read</span>
 
 
-And the ![result](green_imfreq.pdf)
-{:height="36px" width="36px"}
-
-{::mytension}
-
-writing someting
----
-ee: 1
-...
-{:/mytension}
 
 n order to have a first overview of the main features of the
 `mc_generic` class, let's start with a concrete Monte Carlo code. We

@@ -4,7 +4,6 @@ layout: function
 fancy_name: incref
 function_name: incref
 file_name: incref
-qualified_name: nda::mem::rtable_t::incref
 namespaces: [nda, mem, rtable_t]
 includer: nda/nda.hpp
 
@@ -44,5 +43,4 @@ permalink: /cpp-api/nda/mem/rtable_t/incref
 title: nda::mem::rtable_t::incref
 parent: nda::mem::rtable_t
 ...
-
 

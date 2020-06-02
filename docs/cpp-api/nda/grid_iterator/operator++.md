@@ -4,7 +4,6 @@ layout: function
 fancy_name: operator++
 function_name: operator++
 file_name: operator++
-qualified_name: nda::grid_iterator<1>::operator++
 namespaces: [nda, grid_iterator]
 includer: nda/nda.hpp
 
@@ -14,16 +13,16 @@ brief: ""
 # List of overloads. Edit only the desc
 overloads:
 
-  - signature: grid_iterator & operator++()
+  - signature: grid_iterator &operator++()
     desc: ""
 
-  - signature: grid_iterator operator++(int )
+  - signature: grid_iterator operator++(int)
     desc: ""
 
-  - signature: grid_iterator & operator++()
+  - signature: grid_iterator &operator++()
     desc: ""
 
-  - signature: grid_iterator operator++(int )
+  - signature: grid_iterator operator++(int)
     desc: ""
 
 # Long description. Any Markdown, with code, latex, multiline with |
@@ -53,5 +52,4 @@ permalink: /cpp-api/nda/grid_iterator/operator++
 title: nda::grid_iterator<1>::operator++
 parent: nda::grid_iterator
 ...
-
 

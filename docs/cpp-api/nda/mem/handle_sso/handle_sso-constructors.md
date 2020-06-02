@@ -4,7 +4,6 @@ layout: function
 fancy_name: (constructors)
 function_name: handle_sso
 file_name: handle_sso-constructors
-qualified_name: nda::mem::handle_sso::handle_sso<T, Size>
 namespaces: [nda, mem, handle_sso]
 includer: nda/nda.hpp
 
@@ -17,16 +16,16 @@ overloads:
   - signature: handle_sso()
     desc: ""
 
-  - signature: handle_sso(handle_sso && ) noexcept
+  - signature: handle_sso(handle_sso &&) noexcept
     desc: ""
 
-  - signature: handle_sso(long size, struct nda::mem::do_not_initialize_t )
+  - signature: handle_sso(long size, struct nda::mem::do_not_initialize_t)
     desc: ""
 
-  - signature: handle_sso(long size, struct nda::mem::init_zero_t )
+  - signature: handle_sso(long size, struct nda::mem::init_zero_t)
     desc: ""
 
-  - signature: handle_sso(handle_sso const & )
+  - signature: handle_sso(handle_sso const &)
     desc: ""
 
   - signature: handle_sso(long size)
@@ -59,5 +58,4 @@ permalink: /cpp-api/nda/mem/handle_sso/handle_sso-constructors
 title: nda::mem::handle_sso::handle_sso<T, Size>
 parent: nda::mem::handle_sso
 ...
-
 

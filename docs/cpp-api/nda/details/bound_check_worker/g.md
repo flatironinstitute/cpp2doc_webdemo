@@ -4,7 +4,6 @@ layout: function
 fancy_name: g
 function_name: g
 file_name: g
-qualified_name: nda::details::bound_check_worker::g
 namespaces: [nda, details, bound_check_worker]
 includer: nda/nda.hpp
 
@@ -14,16 +13,16 @@ brief: ""
 # List of overloads. Edit only the desc
 overloads:
 
-  - signature: void g(std::stringstream & fs, long key)
+  - signature: void g(std::stringstream &fs, long key)
     desc: ""
 
-  - signature: void g(std::stringstream & , class nda::range )
+  - signature: void g(std::stringstream &, class nda::range)
     desc: ""
 
-  - signature: void g(std::stringstream & , struct nda::range_all )
+  - signature: void g(std::stringstream &, struct nda::range_all)
     desc: ""
 
-  - signature: void g(std::stringstream & , struct nda::ellipsis )
+  - signature: void g(std::stringstream &, struct nda::ellipsis)
     desc: ""
 
 # Long description. Any Markdown, with code, latex, multiline with |
@@ -54,5 +53,4 @@ permalink: /cpp-api/nda/details/bound_check_worker/g
 title: nda::details::bound_check_worker::g
 parent: nda::details::bound_check_worker
 ...
-
 

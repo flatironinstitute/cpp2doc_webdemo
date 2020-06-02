@@ -4,7 +4,6 @@ layout: function
 fancy_name: clef_auto_assign
 function_name: clef_auto_assign
 file_name: clef_auto_assign
-qualified_name: nda::clef_auto_assign
 namespaces: [nda]
 includer: nda/nda.hpp
 
@@ -16,8 +15,8 @@ overloads:
 
   - signature: |
       template <typename A, typename F>
-      requires (is_ndarray_v<std::decay_t<A>>)
-      void clef_auto_assign(A && a, F && f)
+      requires(is_ndarray_v<std::decay_t<A>>)
+      void clef_auto_assign(A &&a, F &&f)
     desc: ""
 
 # Long description. Any Markdown, with code, latex, multiline with |
@@ -49,5 +48,4 @@ permalink: /cpp-api/nda/clef_auto_assign
 title: nda::clef_auto_assign
 parent: nda
 ...
-
 

@@ -4,7 +4,6 @@ layout: function
 fancy_name: map_layout_transform
 function_name: map_layout_transform
 file_name: map_layout_transform
-qualified_name: nda::map_layout_transform
 namespaces: [nda, basic_array_view]
 includer: nda/nda.hpp
 
@@ -16,7 +15,7 @@ overloads:
 
   - signature: |
       template <typename T, int R, typename L, char A, typename AP, typename OP, typename NewLayoutType>
-      auto map_layout_transform(basic_array_view<T, R, L, A, AP, OP> a, NewLayoutType const & new_layout)
+      auto map_layout_transform(basic_array_view<T, R, L, A, AP, OP> a, NewLayoutType const &new_layout)
     desc: ""
 
 # Long description. Any Markdown, with code, latex, multiline with |
@@ -53,5 +52,4 @@ permalink: /cpp-api/nda/basic_array_view/map_layout_transform
 title: nda::map_layout_transform
 parent: nda::basic_array_view
 ...
-
 

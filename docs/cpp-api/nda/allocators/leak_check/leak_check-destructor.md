@@ -4,7 +4,6 @@ layout: function
 fancy_name: (destructor)
 function_name: ~leak_check<A>
 file_name: leak_check-destructor
-qualified_name: nda::allocators::leak_check::~leak_check<A>
 namespaces: [nda, allocators, leak_check]
 includer: nda/nda.hpp
 
@@ -44,5 +43,4 @@ permalink: /cpp-api/nda/allocators/leak_check/leak_check-destructor
 title: nda::allocators::leak_check::~leak_check<A>
 parent: nda::allocators::leak_check
 ...
-
 

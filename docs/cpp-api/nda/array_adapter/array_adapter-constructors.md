@@ -4,7 +4,6 @@ layout: function
 fancy_name: (constructors)
 function_name: array_adapter
 file_name: array_adapter-constructors
-qualified_name: nda::array_adapter::array_adapter<R, F>
 namespaces: [nda, array_adapter]
 includer: nda/nda.hpp
 
@@ -16,7 +15,7 @@ overloads:
 
   - signature: |
       template <typename Int>
-      array_adapter(std::array<Int, R> const & shape, F f)
+      array_adapter(std::array<Int, R> const &shape, F f)
     desc: ""
 
 # Long description. Any Markdown, with code, latex, multiline with |
@@ -37,7 +36,7 @@ return_value: __MISSING__
 # Code example. desc: any markdown to explain it.
 example:
   desc: __MISSING__
-  code: __MISSING__
+  code: __NONE__
 
 # A list of related functions/classes
 see-also: []
@@ -47,5 +46,4 @@ permalink: /cpp-api/nda/array_adapter/array_adapter-constructors
 title: nda::array_adapter::array_adapter<R, F>
 parent: nda::array_adapter
 ...
-
 

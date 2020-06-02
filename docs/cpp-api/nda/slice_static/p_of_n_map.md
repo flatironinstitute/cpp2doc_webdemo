@@ -4,7 +4,6 @@ layout: function
 fancy_name: p_of_n_map
 function_name: p_of_n_map
 file_name: p_of_n_map
-qualified_name: nda::slice_static::p_of_n_map
 namespaces: [nda, slice_static]
 includer: nda/nda.hpp
 
@@ -16,7 +15,7 @@ overloads:
 
   - signature: |
       template <size_t N, size_t P>
-      std::array<int, N> p_of_n_map(std::array<int, P> const & n_of_p)
+      std::array<int, N> p_of_n_map(std::array<int, P> const &n_of_p)
     desc: ""
 
 # Long description. Any Markdown, with code, latex, multiline with |
@@ -47,5 +46,4 @@ permalink: /cpp-api/nda/slice_static/p_of_n_map
 title: nda::slice_static::p_of_n_map
 parent: nda::slice_static
 ...
-
 

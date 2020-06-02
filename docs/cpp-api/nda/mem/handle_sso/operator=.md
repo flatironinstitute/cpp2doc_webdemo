@@ -4,7 +4,6 @@ layout: function
 fancy_name: operator=
 function_name: operator=
 file_name: operator=
-qualified_name: nda::mem::handle_sso::operator=
 namespaces: [nda, mem, handle_sso]
 includer: nda/nda.hpp
 
@@ -14,10 +13,10 @@ brief: ""
 # List of overloads. Edit only the desc
 overloads:
 
-  - signature: handle_sso & operator=(handle_sso && x) noexcept
+  - signature: handle_sso &operator=(handle_sso &&x) noexcept
     desc: ""
 
-  - signature: handle_sso & operator=(handle_sso const & x) noexcept
+  - signature: handle_sso &operator=(handle_sso const &x) noexcept
     desc: ""
 
 # Long description. Any Markdown, with code, latex, multiline with |
@@ -47,5 +46,4 @@ permalink: /cpp-api/nda/mem/handle_sso/operator=
 title: nda::mem::handle_sso::operator=
 parent: nda::mem::handle_sso
 ...
-
 

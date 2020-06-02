@@ -4,7 +4,6 @@ layout: function
 fancy_name: join
 function_name: join
 file_name: join
-qualified_name: nda::join
 namespaces: [nda]
 includer: nda/nda.hpp
 
@@ -16,7 +15,7 @@ overloads:
 
   - signature: |
       template <typename T, size_t R1, size_t R2>
-      std::array<T, R1 + R2> join(std::array<T, R1> const & a1, std::array<T, R2> const & a2)
+      std::array<T, R1 + R2> join(std::array<T, R1> const &a1, std::array<T, R2> const &a2)
     desc: Join two arrays
 
 # Long description. Any Markdown, with code, latex, multiline with |
@@ -49,5 +48,4 @@ permalink: /cpp-api/nda/join
 title: nda::join
 parent: nda
 ...
-
 

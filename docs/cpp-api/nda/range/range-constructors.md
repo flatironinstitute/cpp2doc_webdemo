@@ -4,7 +4,6 @@ layout: function
 fancy_name: (constructors)
 function_name: range
 file_name: range-constructors
-qualified_name: nda::range::range
 namespaces: [nda, range]
 includer: nda/nda.hpp
 
@@ -17,16 +16,18 @@ overloads:
   - signature: range()
     desc: Default constructor.
 
-  - signature: range(long first__, long last__, long step__ = </Users/oparcollet/src/nda/c++/nda/layout/./range.hpp:59:52>) noexcept
+  - signature: |
+      range(long first__, long last__,
+            long step__ = < / Users / oparcollet / src / nda / c++ / nda / layout /./ range.hpp : 59 : 52 >) noexcept
     desc: ""
 
   - signature: range(long i) noexcept
     desc: Constructor
 
-  - signature: range(range const & )
+  - signature: range(range const &)
     desc: ""
 
-  - signature: range(range && )
+  - signature: range(range &&)
     desc: ""
 
 # Long description. Any Markdown, with code, latex, multiline with |
@@ -61,5 +62,4 @@ permalink: /cpp-api/nda/range/range-constructors
 title: nda::range::range
 parent: nda::range
 ...
-
 

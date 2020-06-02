@@ -4,7 +4,6 @@ layout: function
 fancy_name: get
 function_name: get
 file_name: get
-qualified_name: nda::mem::aligner::get
 namespaces: [nda, mem, aligner]
 includer: nda/nda.hpp
 
@@ -14,10 +13,10 @@ brief: ""
 # List of overloads. Edit only the desc
 overloads:
 
-  - signature: T & get() noexcept
+  - signature: T &get() noexcept
     desc: ""
 
-  - signature: T const & get() noexcept const
+  - signature: T const &get() noexcept const
     desc: ""
 
 # Long description. Any Markdown, with code, latex, multiline with |
@@ -47,5 +46,4 @@ permalink: /cpp-api/nda/mem/aligner/get
 title: nda::mem::aligner::get
 parent: nda::mem::aligner
 ...
-
 

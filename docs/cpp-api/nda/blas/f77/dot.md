@@ -4,7 +4,6 @@ layout: function
 fancy_name: dot
 function_name: dot
 file_name: dot
-qualified_name: nda::blas::f77::dot
 namespaces: [nda, blas, f77]
 includer: nda/nda.hpp
 
@@ -14,7 +13,7 @@ brief: ""
 # List of overloads. Edit only the desc
 overloads:
 
-  - signature: double dot(int M, double const * x, int incx, double const * Y, int incy)
+  - signature: double dot(int M, double const *x, int incx, double const *Y, int incy)
     desc: ""
 
 # Long description. Any Markdown, with code, latex, multiline with |
@@ -48,5 +47,4 @@ permalink: /cpp-api/nda/blas/f77/dot
 title: nda::blas::f77::dot
 parent: nda::blas::f77
 ...
-
 

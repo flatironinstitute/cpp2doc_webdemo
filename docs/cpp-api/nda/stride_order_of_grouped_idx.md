@@ -4,7 +4,6 @@ layout: function
 fancy_name: stride_order_of_grouped_idx
 function_name: stride_order_of_grouped_idx
 file_name: stride_order_of_grouped_idx
-qualified_name: nda::stride_order_of_grouped_idx
 namespaces: [nda]
 includer: nda/nda.hpp
 
@@ -16,7 +15,8 @@ overloads:
 
   - signature: |
       template <size_t R, size_t Rs>
-      std::array<int, sizeof...(Rs)> stride_order_of_grouped_idx(std::array<int, R> const & stride_order, const std::array<int, Rs> &... grps)
+      std::array<int, sizeof...(Rs)> stride_order_of_grouped_idx(std::array<int, R> const &stride_order,
+                                                                 const std::array<int, Rs> &... grps)
     desc: ""
 
 # Long description. Any Markdown, with code, latex, multiline with |
@@ -48,5 +48,4 @@ permalink: /cpp-api/nda/stride_order_of_grouped_idx
 title: nda::stride_order_of_grouped_idx
 parent: nda
 ...
-
 

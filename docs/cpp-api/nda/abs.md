@@ -4,7 +4,6 @@ layout: function
 fancy_name: abs
 function_name: abs
 file_name: abs
-qualified_name: nda::abs
 namespaces: [nda]
 includer: nda/nda.hpp
 
@@ -16,8 +15,8 @@ overloads:
 
   - signature: |
       template <typename A>
-      requires (is_ndarray_v<std::decay_t<A>>)
-      auto abs(A && a)
+      requires(is_ndarray_v<std::decay_t<A>>)
+      auto abs(A &&a)
     desc: Maps abs onto the array
 
 # Long description. Any Markdown, with code, latex, multiline with |
@@ -47,5 +46,4 @@ permalink: /cpp-api/nda/abs
 title: nda::abs
 parent: nda
 ...
-
 

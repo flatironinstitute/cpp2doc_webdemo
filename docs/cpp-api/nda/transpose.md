@@ -4,7 +4,6 @@ layout: function
 fancy_name: transpose
 function_name: transpose
 file_name: transpose
-qualified_name: nda::transpose
 namespaces: [nda]
 includer: nda/nda.hpp
 
@@ -16,8 +15,8 @@ overloads:
 
   - signature: |
       template <typename A>
-      requires (is_regular_or_view_v<std::decay_t<A>> and (std::decay_t<A>::rank == 2))
-      auto transpose(A && a)
+      requires(is_regular_or_view_v<std::decay_t<A>> and (std::decay_t<A>::rank == 2))
+      auto transpose(A &&a)
     desc: ""
 
 # Long description. Any Markdown, with code, latex, multiline with |
@@ -47,5 +46,4 @@ permalink: /cpp-api/nda/transpose
 title: nda::transpose
 parent: nda
 ...
-
 

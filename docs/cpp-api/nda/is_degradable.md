@@ -4,7 +4,6 @@ layout: function
 fancy_name: is_degradable
 function_name: is_degradable
 file_name: is_degradable
-qualified_name: nda::is_degradable
 namespaces: [nda]
 includer: nda/nda.hpp
 
@@ -45,5 +44,4 @@ permalink: /cpp-api/nda/is_degradable
 title: nda::is_degradable
 parent: nda
 ...
-
 

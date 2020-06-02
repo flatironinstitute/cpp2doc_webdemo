@@ -4,7 +4,6 @@ layout: function
 fancy_name: fold
 function_name: fold
 file_name: fold
-qualified_name: nda::fold
 namespaces: [nda]
 includer: nda/nda.hpp
 
@@ -16,8 +15,9 @@ overloads:
 
   - signature: |
       template <typename A, typename F, typename R>
-      requires (is_ndarray_v<A>)
-      auto fold(F f, A const & a, R r = </Users/oparcollet/src/nda/c++/nda/algorithms.hpp:18:36, col:38>)
+      requires(is_ndarray_v<A>)
+      auto fold(F f, A const &a, R r = < / Users / oparcollet / src / nda / c++ / nda / algorithms.hpp : 18 : 36,
+                   col : 38 >)
     desc: ""
 
 # Long description. Any Markdown, with code, latex, multiline with |
@@ -51,5 +51,4 @@ permalink: /cpp-api/nda/fold
 title: nda::fold
 parent: nda
 ...
-
 

@@ -4,7 +4,6 @@ layout: function
 fancy_name: access
 function_name: access
 file_name: access
-qualified_name: nda::no_alias_accessor::accessor::access
 namespaces: [nda, no_alias_accessor, accessor]
 includer: nda/nda.hpp
 
@@ -14,7 +13,7 @@ brief: ""
 # List of overloads. Edit only the desc
 overloads:
 
-  - signature: T & access(T * p, std::ptrdiff_t i) noexcept
+  - signature: T &access(T *p, std::ptrdiff_t i) noexcept
     desc: ""
 
 # Long description. Any Markdown, with code, latex, multiline with |
@@ -45,5 +44,4 @@ permalink: /cpp-api/nda/no_alias_accessor/accessor/access
 title: nda::no_alias_accessor::accessor::access
 parent: nda::no_alias_accessor::accessor
 ...
-
 

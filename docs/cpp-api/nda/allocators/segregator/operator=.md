@@ -4,7 +4,6 @@ layout: function
 fancy_name: operator=
 function_name: operator=
 file_name: operator=
-qualified_name: nda::allocators::segregator::operator=
 namespaces: [nda, allocators, segregator]
 includer: nda/nda.hpp
 
@@ -14,10 +13,10 @@ brief: ""
 # List of overloads. Edit only the desc
 overloads:
 
-  - signature: segregator & operator=(segregator const & )
+  - signature: segregator &operator=(segregator const &)
     desc: ""
 
-  - signature: segregator & operator=(segregator && )
+  - signature: segregator &operator=(segregator &&)
     desc: ""
 
 # Long description. Any Markdown, with code, latex, multiline with |
@@ -47,5 +46,4 @@ permalink: /cpp-api/nda/allocators/segregator/operator=
 title: nda::allocators::segregator::operator=
 parent: nda::allocators::segregator
 ...
-
 

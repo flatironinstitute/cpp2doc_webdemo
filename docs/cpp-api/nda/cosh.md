@@ -4,7 +4,6 @@ layout: function
 fancy_name: cosh
 function_name: cosh
 file_name: cosh
-qualified_name: nda::cosh
 namespaces: [nda]
 includer: nda/nda.hpp
 
@@ -16,8 +15,8 @@ overloads:
 
   - signature: |
       template <typename A>
-      requires (is_ndarray_v<std::decay_t<A>> and (get_algebra<std::decay_t<A>> != 'M'))
-      auto cosh(A && a)
+      requires(is_ndarray_v<std::decay_t<A>> and (get_algebra<std::decay_t<A>> != 'M'))
+      auto cosh(A &&a)
     desc: Maps cosh onto the array
 
 # Long description. Any Markdown, with code, latex, multiline with |
@@ -47,5 +46,4 @@ permalink: /cpp-api/nda/cosh
 title: nda::cosh
 parent: nda
 ...
-
 

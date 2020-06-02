@@ -4,7 +4,6 @@ layout: function
 fancy_name: (constructors)
 function_name: multiple_bucket
 file_name: multiple_bucket-constructors
-qualified_name: nda::allocators::multiple_bucket::multiple_bucket<ChunkSize>
 namespaces: [nda, allocators, multiple_bucket]
 includer: nda/nda.hpp
 
@@ -17,10 +16,10 @@ overloads:
   - signature: multiple_bucket()
     desc: ""
 
-  - signature: multiple_bucket(multiple_bucket const & )
+  - signature: multiple_bucket(multiple_bucket const &)
     desc: ""
 
-  - signature: multiple_bucket(multiple_bucket && )
+  - signature: multiple_bucket(multiple_bucket &&)
     desc: ""
 
 # Long description. Any Markdown, with code, latex, multiline with |
@@ -50,5 +49,4 @@ permalink: /cpp-api/nda/allocators/multiple_bucket/multiple_bucket-constructors
 title: nda::allocators::multiple_bucket::multiple_bucket<ChunkSize>
 parent: nda::allocators::multiple_bucket
 ...
-
 

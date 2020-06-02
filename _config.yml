@@ -25,10 +25,27 @@ permalink: pretty
 
 # Build settings
 markdown: kramdown
+<<<<<<< HEAD
 kramdown:
   input: ERBKramdown
+=======
+kramdown: 
+  input: Kramdown_CCQ_extension
+>>>>>>> bbfccd4e2f03185b016c849a3d62a2269668605b
   math_engine: katex
   math_engine_opts: {} # TODO: Can we remove this empty object?
+
+  # failed
+  #syntax_highlighter_opts:
+    ##css_class: 'highlight'
+    ##line_numbers: true # bad idea, spans don't need linenos and would inherit this option
+    #span:
+      #line_numbers: false
+    #block:
+      #line_numbers: true
+      #start_line: 1
+
+
 plugins:
 # TODO: Remove?
   - jekyll-seo-tag
@@ -73,7 +90,6 @@ exclude:
   - sandbox/
   - LICENSE.txt
   - README.md
-  - code_snippets/
   - src/ #TODO: Can I exempt this?
 
 # Google Analytics Tracking

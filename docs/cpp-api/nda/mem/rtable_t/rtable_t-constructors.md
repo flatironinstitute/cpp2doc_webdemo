@@ -4,7 +4,6 @@ layout: function
 fancy_name: (constructors)
 function_name: rtable_t
 file_name: rtable_t-constructors
-qualified_name: nda::mem::rtable_t::rtable_t
 namespaces: [nda, mem, rtable_t]
 includer: nda/nda.hpp
 
@@ -14,10 +13,10 @@ brief: ""
 # List of overloads. Edit only the desc
 overloads:
 
-  - signature: rtable_t(long size = </Users/oparcollet/src/nda/c++/nda/storage/./rtable.hpp:58:26>)
+  - signature: "rtable_t(long size = < / Users / oparcollet / src / nda / c++ / nda / storage /./ rtable.hpp : 58 : 26 >)"
     desc: ""
 
-  - signature: rtable_t(rtable_t const & )
+  - signature: rtable_t(rtable_t const &)
     desc: ""
 
 # Long description. Any Markdown, with code, latex, multiline with |
@@ -47,5 +46,4 @@ permalink: /cpp-api/nda/mem/rtable_t/rtable_t-constructors
 title: nda::mem::rtable_t::rtable_t
 parent: nda::mem::rtable_t
 ...
-
 

@@ -4,7 +4,6 @@ layout: function
 fancy_name: operator=
 function_name: operator=
 file_name: operator=
-qualified_name: nda::basic_array_view::operator=
 namespaces: [nda, basic_array_view]
 includer: nda/nda.hpp
 
@@ -14,23 +13,24 @@ brief: Same as the general case
 # List of overloads. Edit only the desc
 overloads:
 
-  - signature: basic_array_view & operator=(basic_array_view const & rhs) noexcept
+  - signature: basic_array_view &operator=(basic_array_view const &rhs) noexcept
     desc: Same as the general case
 
   - signature: |
       template <nda::ArrayOfRank<Rank> RHS>
-      basic_array_view & operator=(RHS const & rhs) noexcept
+      basic_array_view &operator=(RHS const &rhs) noexcept
     desc: Copies the content of rhs into the view.
 
   - signature: |
       template <typename RHS>
-      requires (is_scalar_for_v<RHS, basic_array_view>)
-      basic_array_view & operator=(RHS const & rhs) noexcept
+      requires(is_scalar_for_v<RHS, basic_array_view>)
+      basic_array_view &
+         operator=(RHS const &rhs) noexcept
     desc: Assign to scalar
 
   - signature: |
       template <nda::ArrayInitializer Initializer>
-      basic_array_view & operator=(Initializer const & initializer) noexcept
+      basic_array_view &operator=(Initializer const &initializer) noexcept
     desc: ""
 
 # Long description. Any Markdown, with code, latex, multiline with |
@@ -62,5 +62,4 @@ permalink: /cpp-api/nda/basic_array_view/operator=
 title: nda::basic_array_view::operator=
 parent: nda::basic_array_view
 ...
-
 

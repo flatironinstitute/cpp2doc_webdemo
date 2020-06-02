@@ -4,7 +4,6 @@ layout: function
 fancy_name: static_extents
 function_name: static_extents
 file_name: static_extents
-qualified_name: nda::static_extents
 namespaces: [nda]
 includer: nda/nda.hpp
 
@@ -47,5 +46,4 @@ permalink: /cpp-api/nda/static_extents
 title: nda::static_extents
 parent: nda
 ...
-
 

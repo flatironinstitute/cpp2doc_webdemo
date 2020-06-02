@@ -4,7 +4,6 @@ layout: function
 fancy_name: asin
 function_name: asin
 file_name: asin
-qualified_name: nda::asin
 namespaces: [nda]
 includer: nda/nda.hpp
 
@@ -16,8 +15,8 @@ overloads:
 
   - signature: |
       template <typename A>
-      requires (is_ndarray_v<std::decay_t<A>> and (get_algebra<std::decay_t<A>> != 'M'))
-      auto asin(A && a)
+      requires(is_ndarray_v<std::decay_t<A>> and (get_algebra<std::decay_t<A>> != 'M'))
+      auto asin(A &&a)
     desc: Maps asin onto the array
 
 # Long description. Any Markdown, with code, latex, multiline with |
@@ -47,5 +46,4 @@ permalink: /cpp-api/nda/asin
 title: nda::asin
 parent: nda
 ...
-
 

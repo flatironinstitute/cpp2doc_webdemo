@@ -4,7 +4,6 @@ layout: function
 fancy_name: permuted_indices_view
 function_name: permuted_indices_view
 file_name: permuted_indices_view
-qualified_name: nda::permuted_indices_view
 namespaces: [nda]
 includer: nda/nda.hpp
 
@@ -15,18 +14,19 @@ brief: ""
 overloads:
 
   - signature: |
-      template <uint64_t Permutation, typename T, int R, typename L, char Algebra, typename AccessorPolicy, typename OwningPolicy>
+      template <uint64_t Permutation, typename T, int R, typename L, char Algebra, typename AccessorPolicy,
+                typename OwningPolicy>
       auto permuted_indices_view(basic_array_view<T, R, L, Algebra, AccessorPolicy, OwningPolicy> a)
     desc: ""
 
   - signature: |
       template <uint64_t Permutation, typename T, int R, typename L, char Algebra, typename ContainerPolicy>
-      auto permuted_indices_view(basic_array<T, R, L, Algebra, ContainerPolicy> const & a)
+      auto permuted_indices_view(basic_array<T, R, L, Algebra, ContainerPolicy> const &a)
     desc: ""
 
   - signature: |
       template <uint64_t Permutation, typename T, int R, typename L, char Algebra, typename ContainerPolicy>
-      auto permuted_indices_view(basic_array<T, R, L, Algebra, ContainerPolicy> & a)
+      auto permuted_indices_view(basic_array<T, R, L, Algebra, ContainerPolicy> &a)
     desc: ""
 
 # Long description. Any Markdown, with code, latex, multiline with |
@@ -63,5 +63,4 @@ permalink: /cpp-api/nda/permuted_indices_view
 title: nda::permuted_indices_view
 parent: nda
 ...
-
 

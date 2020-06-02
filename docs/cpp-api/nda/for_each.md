@@ -4,7 +4,6 @@ layout: function
 fancy_name: for_each
 function_name: for_each
 file_name: for_each
-qualified_name: nda::for_each
 namespaces: [nda]
 includer: nda/nda.hpp
 
@@ -16,7 +15,7 @@ overloads:
 
   - signature: |
       template <typename F, auto R>
-      void for_each(std::array<long, R> const & idx_lengths, F && f)
+      void for_each(std::array<long, R> const &idx_lengths, F &&f)
     desc: A loop in C order
 
 # Long description. Any Markdown, with code, latex, multiline with |
@@ -48,5 +47,4 @@ permalink: /cpp-api/nda/for_each
 title: nda::for_each
 parent: nda
 ...
-
 

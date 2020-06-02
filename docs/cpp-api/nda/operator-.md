@@ -4,7 +4,6 @@ layout: function
 fancy_name: operator-
 function_name: operator-
 file_name: operator-
-qualified_name: nda::operator-
 namespaces: [nda]
 includer: nda/nda.hpp
 
@@ -16,14 +15,16 @@ overloads:
 
   - signature: |
       template <typename L, typename R>
-      requires (model_ndarray_with_possibly_one_scalar<L, R>)
-      auto operator-(L && l, R && r)
+      requires(model_ndarray_with_possibly_one_scalar<L, R>)
+      auto
+         operator-(L &&l, R &&r)
     desc: ""
 
   - signature: |
       template <typename L>
-      requires (is_ndarray_v<std::decay_t<L>>)
-      expr_unary<'-', L> operator-(L && l)
+      requires(is_ndarray_v<std::decay_t<L>>)
+      expr_unary<'-', L>
+         operator-(L &&l)
     desc: ""
 
 # Long description. Any Markdown, with code, latex, multiline with |
@@ -55,5 +56,4 @@ permalink: /cpp-api/nda/operator-
 title: nda::operator-
 parent: nda
 ...
-
 

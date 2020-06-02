@@ -4,7 +4,6 @@ layout: function
 fancy_name: get_trans
 function_name: get_trans
 file_name: get_trans
-qualified_name: nda::blas::get_trans
 namespaces: [nda, blas]
 includer: nda/nda.hpp
 
@@ -16,7 +15,7 @@ overloads:
 
   - signature: |
       template <typename MatrixType>
-      char get_trans(MatrixType const & A, bool transpose)
+      char get_trans(MatrixType const &A, bool transpose)
     desc: ""
 
 # Long description. Any Markdown, with code, latex, multiline with |
@@ -47,5 +46,4 @@ permalink: /cpp-api/nda/blas/get_trans
 title: nda::blas::get_trans
 parent: nda::blas
 ...
-
 

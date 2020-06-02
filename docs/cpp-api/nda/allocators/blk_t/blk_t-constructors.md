@@ -4,7 +4,6 @@ layout: function
 fancy_name: (constructors)
 function_name: blk_t
 file_name: blk_t-constructors
-qualified_name: nda::allocators::blk_t::blk_t
 namespaces: [nda, allocators, blk_t]
 includer: nda/nda.hpp
 
@@ -17,10 +16,10 @@ overloads:
   - signature: blk_t()
     desc: ""
 
-  - signature: blk_t(blk_t const & )
+  - signature: blk_t(blk_t const &)
     desc: ""
 
-  - signature: blk_t(blk_t && )
+  - signature: blk_t(blk_t &&)
     desc: ""
 
 # Long description. Any Markdown, with code, latex, multiline with |
@@ -50,5 +49,4 @@ permalink: /cpp-api/nda/allocators/blk_t/blk_t-constructors
 title: nda::allocators::blk_t::blk_t
 parent: nda::allocators::blk_t
 ...
-
 

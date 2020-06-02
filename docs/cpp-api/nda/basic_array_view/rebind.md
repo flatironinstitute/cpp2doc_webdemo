@@ -4,7 +4,6 @@ layout: function
 fancy_name: rebind
 function_name: rebind
 file_name: rebind
-qualified_name: nda::basic_array_view::rebind
 namespaces: [nda, basic_array_view]
 includer: nda/nda.hpp
 
@@ -51,5 +50,4 @@ permalink: /cpp-api/nda/basic_array_view/rebind
 title: nda::basic_array_view::rebind
 parent: nda::basic_array_view
 ...
-
 
