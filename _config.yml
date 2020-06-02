@@ -25,13 +25,8 @@ permalink: pretty
 
 # Build settings
 markdown: kramdown
-<<<<<<< HEAD
 kramdown:
-  input: ERBKramdown
-=======
-kramdown: 
   input: Kramdown_CCQ_extension
->>>>>>> bbfccd4e2f03185b016c849a3d62a2269668605b
   math_engine: katex
   math_engine_opts: {} # TODO: Can we remove this empty object?
 

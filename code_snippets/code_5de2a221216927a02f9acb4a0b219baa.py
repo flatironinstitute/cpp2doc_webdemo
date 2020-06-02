@@ -17,4 +17,4 @@ plt.plot(x2, y2, '.-')
 plt.xlabel('time (s)')
 plt.ylabel('Undamped')
 import matplotlib.pyplot
-matplotlib.pyplot.savefig('code_snippets/code_5de2a221216927a02f9acb4a0b219baa.pdf')
+matplotlib.pyplot.savefig('code_snippets/code_5de2a221216927a02f9acb4a0b219baa.png')

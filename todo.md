@@ -6,9 +6,7 @@ _updated 5/29_
 
 - Search add: brief, desc
 - Improve nav speed generation: make static, use a table to transfer, use permalink
-*
-
-- Remove toc - update heading on layouts from OP. \* Add :no-toc to class, function, namespace, cpp-concept.
+- Remove toc - update heading on layouts from OP. [Add :no-toc to class, function, namespace, cpp-concept. ]
 - Width on left bar - smaller.
 - Change min-width on <td> in signature numeration - make a class. Also make a class for the related number information "signature-table"
 - Confirm that left nesting highlights are working correctly (see Design dropdown)
