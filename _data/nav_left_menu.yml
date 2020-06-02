@@ -3,7 +3,7 @@
 
 - community:
 
-- cpp-api:  
+- cpp-api:
   - sandbox:
     - myarray
     - mc
@@ -17,4 +17,13 @@
     - basic_array
     - basic_array_view
 
+- design:
+  - ui-components:
+      - ui-components
+      - buttons
+      - code
+      - labels
+      - tables
+      - typography
+  - utilities
 ...
