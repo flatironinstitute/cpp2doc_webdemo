@@ -99,22 +99,20 @@ template <typename A> concept Array= requires(A const &a) {
     explicit myarray(Int... is) noexcept {};
 
     myarray(myarray const &) = default;
-    myarray & operator =( int i) ;
+    myarray &operator        =(int i);
 
-    myarray const & AAA();
-    myarray  BBB();
+    myarray const &AAA();
+    myarray BBB();
     value_t operator()(int i, int j) const { return 0; }
     std::array<long, R> shape() const { return {}; }
 
     void zozo() const REQUIRES(R == 3) {}
 
+    /// \merge operator-compound
+    myarray &operator+=(int i);
 
     /// \merge operator-compound
-    myarray& operator +=(int i);
-
-    /// \merge operator-compound
-    myarray& operator -=(int i);
-
+    myarray &operator-=(int i);
   };
 
   template <typename T, int R>
@@ -196,9 +194,7 @@ template <typename A> concept Array= requires(A const &a) {
   template <typename T, ArrayOfT<T> A>
   void fgh89(T x, A const &a) {}
 
-
-
-    class runtime_error : public std::exception {
+  class runtime_error : public std::exception {
     std::stringstream acc;
     std::string _trace;
     mutable std::string _what;
@@ -233,23 +229,22 @@ template <typename A> concept Array= requires(A const &a) {
     //virtual const char *trace() const noexcept { return _trace.c_str(); }
   };
 
-
   /**
    * Doc breif
    *
    * Content
    * \param i RIEN
    */
-  void simple_f( int i);
+  void simple_f(int i);
 
   ///
   ///Doc breif
-  /// 
+  ///
   ///  Content
   ///\param i RIEN
   ///
-  void simple_f( int i);
-  
+  void simple_f(int i);
+
   /// DOC
   ///
   /// \tag Tag1 Tag2
