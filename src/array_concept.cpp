@@ -4,6 +4,7 @@
 
 #include <array>
 #include <iostream>
+#include <sstream>
 #include <tuple>
 #include <type_traits>
 
@@ -194,6 +195,44 @@ template <typename A> concept Array= requires(A const &a) {
 
   template <typename T, ArrayOfT<T> A>
   void fgh89(T x, A const &a) {}
+
+
+
+    class runtime_error : public std::exception {
+    std::stringstream acc;
+    std::string _trace;
+    mutable std::string _what;
+
+    public:
+    runtime_error() noexcept : std::exception() {} // _trace = utility::stack_trace(); }
+
+    runtime_error(runtime_error const &e) noexcept : acc(e.acc.str()), _trace(e._trace), _what(e._what) {}
+
+    ~runtime_error() noexcept override = default;
+
+    template <typename T>
+    runtime_error &operator<<(T const &x) {
+      acc << x;
+      return *this;
+    }
+
+    runtime_error &operator<<(const char *mess) {
+      (*this) << std::string(mess);
+      return *this;
+    } // to limit code size
+
+    const char *what() const noexcept override {
+      std::stringstream out;
+      out << acc.str() << "\n.. Error occurred on node ";
+      //if (mpi::is_initialized()) out << mpi::communicator().rank() << "\n";
+      //if (getenv("NDA_SHOW_EXCEPTION_TRACE")) out << ".. C++ trace is : " << trace() << "\n";
+      _what = out.str();
+      return _what.c_str();
+    }
+
+    //virtual const char *trace() const noexcept { return _trace.c_str(); }
+  };
+
 
   /**
    * Doc breif
