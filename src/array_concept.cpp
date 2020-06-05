@@ -195,6 +195,15 @@ template <typename A> concept Array= requires(A const &a) {
   template <typename T, ArrayOfT<T> A>
   void fgh89(T x, A const &a) {}
 
+    /**
+   * Doc breif
+   *
+   * Content
+   * \param i RIEN
+   */
+  void simple_f( int i);
+
+ 
   /// DOC
   ///
   /// \tag Tag1 Tag2
