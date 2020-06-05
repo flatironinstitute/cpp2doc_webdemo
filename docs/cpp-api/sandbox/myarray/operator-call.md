@@ -13,7 +13,7 @@ brief: ""
 # List of overloads. Edit only the desc
 overloads:
 
-  - signature: sandbox::myarray::value_t operator()(int i, int j)  const
+  - signature: sandbox::myarray::value_t operator()(int i, int j) const
     desc: ""
 
 # Long description. Any Markdown, with code, latex, multiline with |

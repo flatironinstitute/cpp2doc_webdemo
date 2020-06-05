@@ -15,8 +15,8 @@ overloads:
 
   - signature: |
       template <sandbox::Array A>
-      requires (std::decay_t<A>::rank == 2)
-      void fgh4(A && a)
+      requires(std::decay_t<A>::rank == 2)
+      void fgh4(A &&a)
     desc: ""
 
 # Long description. Any Markdown, with code, latex, multiline with |

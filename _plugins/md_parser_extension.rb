@@ -11,7 +11,22 @@ class Kramdown::Parser::Kramdown_CCQ_extension < Kramdown::Parser::GFM
      @block_parsers.unshift(:berb_tags)
      @block_parsers.unshift(:cpp2doc_tags)
      @block_parsers.unshift(:cpp2doc_warning_tags)
+     @block_parsers.unshift(:cpp2doc_link_tags)
    end
+
+  CPP2DOC_LINK_TAGS_START = /<\[(.*?)\]>/m
+   
+  def parse_cpp2doc_link_tags
+    @src.pos += @src.matched_size
+    args = @src.matched[2..-3].strip
+
+     puts (args)
+    el = new_block_el(:raw, '<a href="/cpp-api">%s<a>'% args )
+    @tree.children << el
+
+  end
+  define_parser(:cpp2doc_link_tags, CPP2DOC_LINK_TAGS_START, "<\[")
+
 
   CPP2DOC_WARNING_TAGS_START = /<W(.*?)W>/m
    
@@ -25,9 +40,13 @@ class Kramdown::Parser::Kramdown_CCQ_extension < Kramdown::Parser::GFM
     tr =  new_block_el(:tr)
     td1 =  new_block_el(:td)
     td2 =  new_block_el(:td)
-
+    
     el = new_block_el(:text, args)
- el.attr['align'] = "left"
+    #el = Element.new(:text) #, nil, nil,  location: @src.current_line_number)
+
+    #parse_blocks(el, args)
+    
+    el.attr['align'] = "left"
     td2.children << el
 
     el = new_block_el(:img)

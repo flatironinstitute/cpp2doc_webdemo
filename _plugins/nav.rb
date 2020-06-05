@@ -31,7 +31,7 @@ module Jekyll
     if not permalink then 
       return ''
     end
-    childs = permalink.split('/').slice(1,100) 
+    childs = permalink.split('/').slice(1,100)  # remove the first '' because permalink starts with /
     r = '<ul class="navigation-list">'
     r += make_nav_left_menu_impl('', childs, nav_left_menu_table, permalink_to_title)
     r += '</ul>'

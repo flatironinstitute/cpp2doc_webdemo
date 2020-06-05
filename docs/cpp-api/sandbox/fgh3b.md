@@ -15,8 +15,8 @@ overloads:
 
   - signature: |
       template <sandbox::Array A>
-      requires (A::rank == 2)
-      void fgh3b(A const & a)
+      requires(A::rank == 2)
+      void fgh3b(A const &a)
     desc: ""
 
 # Long description. Any Markdown, with code, latex, multiline with |

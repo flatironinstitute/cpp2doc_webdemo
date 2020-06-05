@@ -14,7 +14,7 @@ brief: ""
 overloads:
 
   - signature: |
-      template <std::integral ... Int>
+      template <std::integral... Int>
       void fPACK(Int... is)
     desc: ""
 

@@ -13,7 +13,7 @@ brief: ""
 # List of overloads. Edit only the desc
 overloads:
 
-  - signature: std::array<long, R> shape()  const
+  - signature: std::array<long, R> shape() const
     desc: ""
 
 # Long description. Any Markdown, with code, latex, multiline with |

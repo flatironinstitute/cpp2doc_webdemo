@@ -14,11 +14,11 @@ brief: ""
 overloads:
 
   - signature: |
-      template <sandbox::is_integral ... Int>
+      template <sandbox::is_integral... Int>
       myarray(Int... is) noexcept
     desc: ""
 
-  - signature: myarray(myarray const & )
+  - signature: myarray(myarray const &)
     desc: ""
 
 # Long description. Any Markdown, with code, latex, multiline with |

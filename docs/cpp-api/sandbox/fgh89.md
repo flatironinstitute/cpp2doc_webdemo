@@ -14,8 +14,8 @@ brief: ""
 overloads:
 
   - signature: |
-      template <typename T, sandbox::ArrayOfT<type-parameter-0-0> A>
-      void fgh89(T x, A const & a)
+      template <typename T, sandbox::ArrayOfT<type - parameter - 0 - 0> A>
+      void fgh89(T x, A const &a)
     desc: ""
 
 # Long description. Any Markdown, with code, latex, multiline with |

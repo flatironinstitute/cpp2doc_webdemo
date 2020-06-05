@@ -31,6 +31,6 @@ functions:
   - g46
   - op
   - fgh89
+  - simple_f
 ...
-
 

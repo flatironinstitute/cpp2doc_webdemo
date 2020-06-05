@@ -15,7 +15,7 @@ overloads:
 
   - signature: |
       template <typename A>
-      auto get_first_element(A const & a)-> decltype(_get_first_element_impl(std::make_index_sequence<get_rank<A> >({}), a))
+      auto get_first_element(A const &a) -> decltype(_get_first_element_impl(std::make_index_sequence<get_rank<A>>({}), a))
     desc: Get the first element of the array as a(0,0,0....) (i.e. also work for non
 
 # Long description. Any Markdown, with code, latex, multiline with |

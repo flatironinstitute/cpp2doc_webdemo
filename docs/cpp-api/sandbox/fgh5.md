@@ -15,7 +15,7 @@ overloads:
 
   - signature: |
       template <sandbox::ArrayOfRank<2> A>
-      void fgh5(A && a)
+      void fgh5(A &&a)
     desc: ""
 
 # Long description. Any Markdown, with code, latex, multiline with |
