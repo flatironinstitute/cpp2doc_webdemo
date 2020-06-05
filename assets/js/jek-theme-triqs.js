@@ -52,7 +52,7 @@ function initSearch() {
     if (request.status >= 200 && request.status < 400) {
       // Success!
       var data = JSON.parse(request.responseText);
-
+      console.log('🗺️', data);
       {% if site.search_tokenizer_separator != nil %}
       lunr.tokenizer.separator = {{ site.search_tokenizer_separator }}
       {% else %}

@@ -3,19 +3,18 @@
 _updated 5/29_
 
 ## Todo:
-- Add classes for G1 G2 to place the title. _Ask Olivier for example_
 - Search add: brief, desc
 - Width on left bar - smaller.
 - Change min-width on <td> in signature numeration - make a class. Also make a class for the related number information "signature-table"
+use nda:reshaped view as template. reduce characters to 100, update propoertions.
 - Update pipeline/README with feedback from Alex. Add information on what is available for contributor editing.
 - Re-deploy on vercel -> Routing issues around permalinks on vercel.
 
-_icebox_
+_Icebox_
 - Change main-concepts to an alternate name to avoid confusion with new c++ concepts.
 - Vim links / github links
 - Investigate other speed optimizations: parallellization, etc.
-
-
+- Sublists for nda _Ask Olivier for example_
 
 ## Verify:
 - Remove toc - update heading on layouts from OP. [Add :no-toc to class, function, namespace, cpp-concept. ]

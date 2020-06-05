@@ -22,8 +22,8 @@ desc: |
   A long doc of array with multiple lines
   And several paragraphs also very long
   private
-  
-  
+
+
   Another paragraph
 
 # A list of methods. You can reorder, regroup into a dict : groupname -> list
