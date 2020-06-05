@@ -202,7 +202,15 @@ template <typename A> concept Array= requires(A const &a) {
    * \param i RIEN
    */
   void simple_f( int i);
- 
+
+  ///
+  ///Doc breif
+  /// 
+  ///  Content
+  ///\param i RIEN
+  ///
+  void simple_f( int i);
+  
   /// DOC
   ///
   /// \tag Tag1 Tag2
