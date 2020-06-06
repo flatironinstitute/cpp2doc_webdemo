@@ -13,7 +13,7 @@ brief: ""
 # List of overloads. Edit only the desc
 overloads:
 
-  - signature: "rtable_t(long size = < / Users / oparcollet / src / nda / c++ / nda / storage /./ rtable.hpp : 58 : 26 >)"
+  - signature: rtable_t(long size = 10)
     desc: ""
 
   - signature: rtable_t(rtable_t const &)
@@ -35,8 +35,9 @@ return_value: __MISSING__
 
 # Code example. desc: any markdown to explain it.
 example:
-  desc: __MISSING__
-  code: __MISSING__
+  desc: ""
+  code: ""
+  comment: ""
 
 # A list of related functions/classes
 see-also: []

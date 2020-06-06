@@ -14,10 +14,9 @@ brief: ""
 overloads:
 
   - signature: |
-      template <typename A, typename F, typename R>
+      template <typename A, typename F, typename R = get_value_t<A>>
       requires(is_ndarray_v<A>)
-      auto fold(F f, A const &a, R r = < / Users / oparcollet / src / nda / c++ / nda / algorithms.hpp : 18 : 36,
-                   col : 38 >)
+      auto fold(F f, A const &a, R r = R{})
     desc: ""
 
 # Long description. Any Markdown, with code, latex, multiline with |
@@ -40,8 +39,9 @@ return_value: __MISSING__
 
 # Code example. desc: any markdown to explain it.
 example:
-  desc: __MISSING__
-  code: __MISSING__
+  desc: ""
+  code: ""
+  comment: ""
 
 # A list of related functions/classes
 see-also: []

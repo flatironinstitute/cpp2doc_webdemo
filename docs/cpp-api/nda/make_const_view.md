@@ -19,7 +19,7 @@ overloads:
     desc: --------------- make_const_view------------------------
 
   - signature: |
-      template <typename T, int R, typename L, char Algebra, typename AccessorPolicy, typename OwningPolicy>
+      template <typename T, int R, typename L, char Algebra = 'A', typename AccessorPolicy, typename OwningPolicy>
       basic_array_view<const T, R, L, Algebra, AccessorPolicy, OwningPolicy>
       make_const_view(basic_array_view<T, R, L, Algebra, AccessorPolicy, OwningPolicy> const &a)
     desc: ""

@@ -16,10 +16,8 @@ overloads:
   - signature: range()
     desc: Default constructor.
 
-  - signature: |
-      range(long first__, long last__,
-            long step__ = < / Users / oparcollet / src / nda / c++ / nda / layout /./ range.hpp : 59 : 52 >) noexcept
-    desc: ":"
+  - signature: range(long first__, long last__, long step__ = 1) noexcept
+    desc: ""
 
   - signature: explicit range(long i) noexcept
     desc: Constructor

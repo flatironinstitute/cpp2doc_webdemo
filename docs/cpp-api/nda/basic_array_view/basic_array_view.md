@@ -6,7 +6,7 @@ qualified_name: nda::basic_array_view
 namespaces: [nda]
 includer: nda/nda.hpp
 signature: |
-  template <typename ValueType, int Rank, typename Layout, char Algebra, typename AccessorPolicy, typename OwningPolicy>
+  template <typename ValueType, int Rank, typename Layout, char Algebra = 'A', typename AccessorPolicy = nda::default_accessor, typename OwningPolicy = nda::borrowed>
   class basic_array_view
 
 # Template parameters of the function. Edit only the description after the :
