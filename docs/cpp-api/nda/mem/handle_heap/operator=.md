@@ -43,7 +43,7 @@ see-also: []
 
 # ---------- DO NOT EDIT BELOW --------
 permalink: /cpp-api/nda/mem/handle_heap/operator=
-title: nda::mem::handle_heap::operator=
+title: nda::mem::handle_heap<T, Allocator>::operator=
 parent: nda::mem::handle_heap
 source: nda/storage/handle.hpp
 ...

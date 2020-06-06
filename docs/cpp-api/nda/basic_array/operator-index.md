@@ -52,7 +52,7 @@ see-also: []
 
 # ---------- DO NOT EDIT BELOW --------
 permalink: /cpp-api/nda/basic_array/operator-index
-title: nda::basic_array::operator[]
+title: nda::basic_array<ValueType, Rank, Layout, Algebra, ContainerPolicy>::operator[]
 parent: nda::basic_array
 source: nda/_impl_basic_array_view_common.hpp
 ...

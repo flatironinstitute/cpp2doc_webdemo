@@ -43,7 +43,7 @@ see-also: []
 
 # ---------- DO NOT EDIT BELOW --------
 permalink: /cpp-api/nda/allocators/stats/operator=
-title: nda::allocators::stats::operator=
+title: nda::allocators::stats<A>::operator=
 parent: nda::allocators::stats
 source: nda/storage/allocators.hpp
 ...

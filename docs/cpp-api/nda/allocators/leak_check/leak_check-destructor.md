@@ -40,7 +40,7 @@ see-also: []
 
 # ---------- DO NOT EDIT BELOW --------
 permalink: /cpp-api/nda/allocators/leak_check/leak_check-destructor
-title: nda::allocators::leak_check::~leak_check<A>
+title: nda::allocators::leak_check<A>::~leak_check<A>
 parent: nda::allocators::leak_check
 source: nda/storage/allocators.hpp
 ...

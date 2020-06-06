@@ -40,7 +40,7 @@ see-also: []
 
 # ---------- DO NOT EDIT BELOW --------
 permalink: /cpp-api/nda/idx_map/rank
-title: nda::idx_map::rank
+title: nda::idx_map<Rank, StaticExtents, StrideOrder, LayoutProp>::rank
 parent: nda::idx_map
 source: nda/layout/idx_map.hpp
 ...

@@ -40,7 +40,7 @@ see-also: []
 
 # ---------- DO NOT EDIT BELOW --------
 permalink: /cpp-api/nda/allocators/leak_check/owns
-title: nda::allocators::leak_check::owns
+title: nda::allocators::leak_check<A>::owns
 parent: nda::allocators::leak_check
 source: nda/storage/allocators.hpp
 ...

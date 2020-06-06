@@ -46,7 +46,7 @@ see-also: []
 
 # ---------- DO NOT EDIT BELOW --------
 permalink: /cpp-api/nda/allocators/stats/stats-constructors
-title: nda::allocators::stats::stats<A>
+title: nda::allocators::stats<A>::stats
 parent: nda::allocators::stats
 source: nda/storage/allocators.hpp
 ...

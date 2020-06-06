@@ -43,7 +43,7 @@ see-also: []
 
 # ---------- DO NOT EDIT BELOW --------
 permalink: /cpp-api/nda/array_adapter/array_adapter-constructors
-title: nda::array_adapter::array_adapter<R, F>
+title: nda::array_adapter<R, F>::array_adapter
 parent: nda::array_adapter
 source: nda/array_adapter.hpp
 ...

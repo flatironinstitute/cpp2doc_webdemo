@@ -43,7 +43,7 @@ see-also: []
 
 # ---------- DO NOT EDIT BELOW --------
 permalink: /cpp-api/nda/allocators/segregator/operator=
-title: nda::allocators::segregator::operator=
+title: nda::allocators::segregator<Threshold, A, B>::operator=
 parent: nda::allocators::segregator
 source: nda/storage/allocators.hpp
 ...

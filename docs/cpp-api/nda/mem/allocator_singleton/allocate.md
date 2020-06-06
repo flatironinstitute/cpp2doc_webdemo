@@ -43,7 +43,7 @@ see-also: []
 
 # ---------- DO NOT EDIT BELOW --------
 permalink: /cpp-api/nda/mem/allocator_singleton/allocate
-title: nda::mem::allocator_singleton::allocate
+title: nda::mem::allocator_singleton<Allocator>::allocate
 parent: nda::mem::allocator_singleton
 source: nda/storage/handle.hpp
 ...

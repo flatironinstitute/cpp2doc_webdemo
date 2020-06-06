@@ -40,7 +40,7 @@ see-also: []
 
 # ---------- DO NOT EDIT BELOW --------
 permalink: /cpp-api/nda/allocators/segregator/allocate_zero
-title: nda::allocators::segregator::allocate_zero
+title: nda::allocators::segregator<Threshold, A, B>::allocate_zero
 parent: nda::allocators::segregator
 source: nda/storage/allocators.hpp
 ...

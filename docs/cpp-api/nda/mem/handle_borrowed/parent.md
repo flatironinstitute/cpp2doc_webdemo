@@ -40,7 +40,7 @@ see-also: []
 
 # ---------- DO NOT EDIT BELOW --------
 permalink: /cpp-api/nda/mem/handle_borrowed/parent
-title: nda::mem::handle_borrowed::parent
+title: nda::mem::handle_borrowed<T>::parent
 parent: nda::mem::handle_borrowed
 source: nda/storage/handle.hpp
 ...

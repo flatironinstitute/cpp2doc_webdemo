@@ -43,7 +43,7 @@ see-also: []
 
 # ---------- DO NOT EDIT BELOW --------
 permalink: /cpp-api/nda/mem/handle_shared/operator=
-title: nda::mem::handle_shared::operator=
+title: nda::mem::handle_shared<T>::operator=
 parent: nda::mem::handle_shared
 source: nda/storage/handle.hpp
 ...

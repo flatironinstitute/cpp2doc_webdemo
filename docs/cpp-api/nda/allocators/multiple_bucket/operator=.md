@@ -43,7 +43,7 @@ see-also: []
 
 # ---------- DO NOT EDIT BELOW --------
 permalink: /cpp-api/nda/allocators/multiple_bucket/operator=
-title: nda::allocators::multiple_bucket::operator=
+title: nda::allocators::multiple_bucket<ChunkSize>::operator=
 parent: nda::allocators::multiple_bucket
 source: nda/storage/allocators.hpp
 ...

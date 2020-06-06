@@ -43,7 +43,7 @@ see-also: []
 
 # ---------- DO NOT EDIT BELOW --------
 permalink: /cpp-api/nda/mem/handle_borrowed/operator-index
-title: nda::mem::handle_borrowed::operator[]
+title: nda::mem::handle_borrowed<T>::operator[]
 parent: nda::mem::handle_borrowed
 source: nda/storage/handle.hpp
 ...

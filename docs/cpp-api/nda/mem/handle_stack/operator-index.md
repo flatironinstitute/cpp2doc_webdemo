@@ -43,7 +43,7 @@ see-also: []
 
 # ---------- DO NOT EDIT BELOW --------
 permalink: /cpp-api/nda/mem/handle_stack/operator-index
-title: nda::mem::handle_stack::operator[]
+title: nda::mem::handle_stack<T, Size>::operator[]
 parent: nda::mem::handle_stack
 source: nda/storage/handle.hpp
 ...

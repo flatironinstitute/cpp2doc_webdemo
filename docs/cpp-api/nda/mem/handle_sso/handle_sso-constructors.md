@@ -55,7 +55,7 @@ see-also: []
 
 # ---------- DO NOT EDIT BELOW --------
 permalink: /cpp-api/nda/mem/handle_sso/handle_sso-constructors
-title: nda::mem::handle_sso::handle_sso<T, Size>
+title: nda::mem::handle_sso<T, Size>::handle_sso
 parent: nda::mem::handle_sso
 source: nda/storage/handle.hpp
 ...

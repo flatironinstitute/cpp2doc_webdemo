@@ -43,7 +43,7 @@ see-also: []
 
 # ---------- DO NOT EDIT BELOW --------
 permalink: /cpp-api/nda/allocators/leak_check/operator=
-title: nda::allocators::leak_check::operator=
+title: nda::allocators::leak_check<A>::operator=
 parent: nda::allocators::leak_check
 source: nda/storage/allocators.hpp
 ...

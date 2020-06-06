@@ -40,7 +40,7 @@ see-also: []
 
 # ---------- DO NOT EDIT BELOW --------
 permalink: /cpp-api/nda/allocators/bucket/owns
-title: nda::allocators::bucket::owns
+title: nda::allocators::bucket<ChunkSize>::owns
 parent: nda::allocators::bucket
 source: nda/storage/allocators.hpp
 ...

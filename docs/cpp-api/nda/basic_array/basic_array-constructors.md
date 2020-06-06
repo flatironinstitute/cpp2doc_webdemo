@@ -90,7 +90,7 @@ see-also: []
 
 # ---------- DO NOT EDIT BELOW --------
 permalink: /cpp-api/nda/basic_array/basic_array-constructors
-title: nda::basic_array::basic_array<ValueType, Rank, Layout, Algebra, ContainerPolicy>
+title: nda::basic_array<ValueType, Rank, Layout, Algebra, ContainerPolicy>::basic_array
 parent: nda::basic_array
 source: nda/basic_array.hpp
 ...

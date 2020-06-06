@@ -40,7 +40,7 @@ see-also: []
 
 # ---------- DO NOT EDIT BELOW --------
 permalink: /cpp-api/nda/allocators/stats/histogram
-title: nda::allocators::stats::histogram
+title: nda::allocators::stats<A>::histogram
 parent: nda::allocators::stats
 source: nda/storage/allocators.hpp
 ...

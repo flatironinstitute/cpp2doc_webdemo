@@ -40,7 +40,7 @@ see-also: []
 
 # ---------- DO NOT EDIT BELOW --------
 permalink: /cpp-api/nda/allocators/stats/allocate_zero
-title: nda::allocators::stats::allocate_zero
+title: nda::allocators::stats<A>::allocate_zero
 parent: nda::allocators::stats
 source: nda/storage/allocators.hpp
 ...

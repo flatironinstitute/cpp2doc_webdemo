@@ -40,7 +40,7 @@ see-also: []
 
 # ---------- DO NOT EDIT BELOW --------
 permalink: /cpp-api/nda/allocators/stats/stats-destructor
-title: nda::allocators::stats::~stats<A>
+title: nda::allocators::stats<A>::~stats<A>
 parent: nda::allocators::stats
 source: nda/storage/allocators.hpp
 ...

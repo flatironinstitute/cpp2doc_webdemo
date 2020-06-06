@@ -40,7 +40,7 @@ see-also: []
 
 # ---------- DO NOT EDIT BELOW --------
 permalink: /cpp-api/nda/mem/handle_stack/handle_stack-destructor
-title: nda::mem::handle_stack::~handle_stack<T, Size>
+title: nda::mem::handle_stack<T, Size>::~handle_stack<T, Size>
 parent: nda::mem::handle_stack
 source: nda/storage/handle.hpp
 ...

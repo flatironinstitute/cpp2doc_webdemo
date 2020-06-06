@@ -40,7 +40,7 @@ see-also: []
 
 # ---------- DO NOT EDIT BELOW --------
 permalink: /cpp-api/nda/allocators/stats/deallocate
-title: nda::allocators::stats::deallocate
+title: nda::allocators::stats<A>::deallocate
 parent: nda::allocators::stats
 source: nda/storage/allocators.hpp
 ...

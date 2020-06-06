@@ -40,7 +40,7 @@ see-also: []
 
 # ---------- DO NOT EDIT BELOW --------
 permalink: /cpp-api/nda/mem/handle_stack/is_null
-title: nda::mem::handle_stack::is_null
+title: nda::mem::handle_stack<T, Size>::is_null
 parent: nda::mem::handle_stack
 source: nda/storage/handle.hpp
 ...

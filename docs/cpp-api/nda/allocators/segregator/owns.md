@@ -40,7 +40,7 @@ see-also: []
 
 # ---------- DO NOT EDIT BELOW --------
 permalink: /cpp-api/nda/allocators/segregator/owns
-title: nda::allocators::segregator::owns
+title: nda::allocators::segregator<Threshold, A, B>::owns
 parent: nda::allocators::segregator
 source: nda/storage/allocators.hpp
 ...

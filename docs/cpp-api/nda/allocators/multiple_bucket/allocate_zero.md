@@ -40,7 +40,7 @@ see-also: []
 
 # ---------- DO NOT EDIT BELOW --------
 permalink: /cpp-api/nda/allocators/multiple_bucket/allocate_zero
-title: nda::allocators::multiple_bucket::allocate_zero
+title: nda::allocators::multiple_bucket<ChunkSize>::allocate_zero
 parent: nda::allocators::multiple_bucket
 source: nda/storage/allocators.hpp
 ...

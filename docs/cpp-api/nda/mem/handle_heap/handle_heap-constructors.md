@@ -59,7 +59,7 @@ see-also: []
 
 # ---------- DO NOT EDIT BELOW --------
 permalink: /cpp-api/nda/mem/handle_heap/handle_heap-constructors
-title: nda::mem::handle_heap::handle_heap<T, Allocator>
+title: nda::mem::handle_heap<T, Allocator>::handle_heap
 parent: nda::mem::handle_heap
 source: nda/storage/handle.hpp
 ...

@@ -43,7 +43,7 @@ see-also: []
 
 # ---------- DO NOT EDIT BELOW --------
 permalink: /cpp-api/nda/mem/aligner/get
-title: nda::mem::aligner::get
+title: nda::mem::aligner<T, Al>::get
 parent: nda::mem::aligner
 source: nda/storage/handle.hpp
 ...

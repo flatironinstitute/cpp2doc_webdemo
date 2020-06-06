@@ -40,7 +40,7 @@ see-also: []
 
 # ---------- DO NOT EDIT BELOW --------
 permalink: /cpp-api/nda/allocators/multiple_bucket/deallocate
-title: nda::allocators::multiple_bucket::deallocate
+title: nda::allocators::multiple_bucket<ChunkSize>::deallocate
 parent: nda::allocators::multiple_bucket
 source: nda/storage/allocators.hpp
 ...

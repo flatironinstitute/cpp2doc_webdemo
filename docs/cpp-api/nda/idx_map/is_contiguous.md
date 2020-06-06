@@ -40,7 +40,7 @@ see-also: []
 
 # ---------- DO NOT EDIT BELOW --------
 permalink: /cpp-api/nda/idx_map/is_contiguous
-title: nda::idx_map::is_contiguous
+title: nda::idx_map<Rank, StaticExtents, StrideOrder, LayoutProp>::is_contiguous
 parent: nda::idx_map
 source: nda/layout/idx_map.hpp
 ...

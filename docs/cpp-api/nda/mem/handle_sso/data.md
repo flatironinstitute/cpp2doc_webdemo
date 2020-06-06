@@ -40,7 +40,7 @@ see-also: []
 
 # ---------- DO NOT EDIT BELOW --------
 permalink: /cpp-api/nda/mem/handle_sso/data
-title: nda::mem::handle_sso::data
+title: nda::mem::handle_sso<T, Size>::data
 parent: nda::mem::handle_sso
 source: nda/storage/handle.hpp
 ...

@@ -43,7 +43,7 @@ see-also: []
 
 # ---------- DO NOT EDIT BELOW --------
 permalink: /cpp-api/nda/mem/allocator_singleton/deallocate
-title: nda::mem::allocator_singleton::deallocate
+title: nda::mem::allocator_singleton<Allocator>::deallocate
 parent: nda::mem::allocator_singleton
 source: nda/storage/handle.hpp
 ...
