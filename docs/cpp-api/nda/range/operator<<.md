@@ -43,5 +43,6 @@ see-also: []
 permalink: /cpp-api/nda/range/operator<<
 title: nda::operator<<
 parent: nda::range
+source: nda/layout/range.hpp
 ...
 

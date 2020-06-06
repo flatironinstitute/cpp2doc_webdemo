@@ -42,5 +42,6 @@ see-also: []
 permalink: /cpp-api/nda/mem/rtable_t/refcounts
 title: nda::mem::rtable_t::refcounts
 parent: nda::mem::rtable_t
+source: nda/storage/rtable.hpp
 ...
 

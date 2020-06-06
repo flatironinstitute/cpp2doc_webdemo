@@ -42,5 +42,6 @@ see-also: []
 permalink: /cpp-api/nda/idx_map/is_stride_order_Fortran
 title: nda::idx_map::is_stride_order_Fortran
 parent: nda::idx_map
+source: nda/layout/idx_map.hpp
 ...
 

@@ -72,5 +72,6 @@ see-also: []
 permalink: /cpp-api/nda/idx_map/idx_map-constructors
 title: nda::idx_map::idx_map<Rank, StaticExtents, StrideOrder, LayoutProp>
 parent: nda::idx_map
+source: nda/layout/idx_map.hpp
 ...
 

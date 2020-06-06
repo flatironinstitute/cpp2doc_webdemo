@@ -46,5 +46,6 @@ see-also: []
 permalink: /cpp-api/nda/matvecmul
 title: nda::matvecmul
 parent: nda
+source: nda/linalg/matmul.hpp
 ...
 

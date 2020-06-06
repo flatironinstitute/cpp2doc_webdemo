@@ -45,5 +45,6 @@ see-also: []
 permalink: /cpp-api/nda/log
 title: nda::log
 parent: nda
+source: nda/mapped_functions.hxx
 ...
 

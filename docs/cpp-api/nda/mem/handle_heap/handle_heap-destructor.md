@@ -42,5 +42,6 @@ see-also: []
 permalink: /cpp-api/nda/mem/handle_heap/handle_heap-destructor
 title: nda::mem::handle_heap::~handle_heap<T, Allocator>
 parent: nda::mem::handle_heap
+source: nda/storage/handle.hpp
 ...
 

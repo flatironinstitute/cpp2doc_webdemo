@@ -45,5 +45,6 @@ see-also: []
 permalink: /cpp-api/nda/basic_array/zeros
 title: nda::basic_array::zeros
 parent: nda::basic_array
+source: nda/basic_array.hpp
 ...
 

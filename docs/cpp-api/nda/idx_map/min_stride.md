@@ -42,5 +42,6 @@ see-also: []
 permalink: /cpp-api/nda/idx_map/min_stride
 title: nda::idx_map::min_stride
 parent: nda::idx_map
+source: nda/layout/idx_map.hpp
 ...
 

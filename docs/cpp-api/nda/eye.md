@@ -44,5 +44,6 @@ see-also: []
 permalink: /cpp-api/nda/eye
 title: nda::eye
 parent: nda
+source: nda/matrix_functions.hpp
 ...
 

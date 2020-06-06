@@ -47,5 +47,6 @@ see-also: []
 permalink: /cpp-api/nda/clef_auto_assign
 title: nda::clef_auto_assign
 parent: nda
+source: nda/basic_functions.hpp
 ...
 

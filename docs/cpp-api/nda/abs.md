@@ -45,5 +45,6 @@ see-also: []
 permalink: /cpp-api/nda/abs
 title: nda::abs
 parent: nda
+source: nda/mapped_functions.hxx
 ...
 

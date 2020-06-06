@@ -92,5 +92,6 @@ see-also: []
 permalink: /cpp-api/nda/basic_array/basic_array-constructors
 title: nda::basic_array::basic_array<ValueType, Rank, Layout, Algebra, ContainerPolicy>
 parent: nda::basic_array
+source: nda/basic_array.hpp
 ...
 

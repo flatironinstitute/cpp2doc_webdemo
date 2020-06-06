@@ -94,5 +94,6 @@ see-also: []
 permalink: /cpp-api/nda/mem/handle_borrowed/handle_borrowed-constructors
 title: nda::mem::handle_borrowed::handle_borrowed<T>
 parent: nda::mem::handle_borrowed
+source: nda/storage/handle.hpp
 ...
 

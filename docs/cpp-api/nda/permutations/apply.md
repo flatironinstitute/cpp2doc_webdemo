@@ -46,5 +46,6 @@ see-also: []
 permalink: /cpp-api/nda/permutations/apply
 title: nda::permutations::apply
 parent: nda::permutations
+source: nda/layout/permutation.hpp
 ...
 

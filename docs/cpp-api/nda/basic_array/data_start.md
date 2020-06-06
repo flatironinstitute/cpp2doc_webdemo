@@ -45,5 +45,6 @@ see-also: []
 permalink: /cpp-api/nda/basic_array/data_start
 title: nda::basic_array::data_start
 parent: nda::basic_array
+source: nda/_impl_basic_array_view_common.hpp
 ...
 

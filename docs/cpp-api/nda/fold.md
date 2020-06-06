@@ -50,5 +50,6 @@ see-also: []
 permalink: /cpp-api/nda/fold
 title: nda::fold
 parent: nda
+source: nda/algorithms.hpp
 ...
 

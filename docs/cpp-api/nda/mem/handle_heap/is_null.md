@@ -42,5 +42,6 @@ see-also: []
 permalink: /cpp-api/nda/mem/handle_heap/is_null
 title: nda::mem::handle_heap::is_null
 parent: nda::mem::handle_heap
+source: nda/storage/handle.hpp
 ...
 

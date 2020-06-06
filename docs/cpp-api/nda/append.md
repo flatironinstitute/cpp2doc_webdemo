@@ -47,5 +47,6 @@ see-also: []
 permalink: /cpp-api/nda/append
 title: nda::append
 parent: nda
+source: nda/std_addons/array.hpp
 ...
 

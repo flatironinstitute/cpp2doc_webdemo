@@ -42,5 +42,6 @@ see-also: []
 permalink: /cpp-api/nda/allocators/stats/owns
 title: nda::allocators::stats::owns
 parent: nda::allocators::stats
+source: nda/storage/allocators.hpp
 ...
 

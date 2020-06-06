@@ -46,5 +46,6 @@ see-also: []
 permalink: /cpp-api/nda/details/get_extent
 title: nda::details::get_extent
 parent: nda::details
+source: nda/layout/for_each.hpp
 ...
 

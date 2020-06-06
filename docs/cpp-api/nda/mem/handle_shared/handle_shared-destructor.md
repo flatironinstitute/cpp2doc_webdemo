@@ -42,5 +42,6 @@ see-also: []
 permalink: /cpp-api/nda/mem/handle_shared/handle_shared-destructor
 title: nda::mem::handle_shared::~handle_shared<T>
 parent: nda::mem::handle_shared
+source: nda/storage/handle.hpp
 ...
 

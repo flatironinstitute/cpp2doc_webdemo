@@ -44,5 +44,6 @@ see-also: []
 permalink: /cpp-api/nda/max_element
 title: nda::max_element
 parent: nda
+source: nda/algorithms.hpp
 ...
 

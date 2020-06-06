@@ -47,5 +47,6 @@ see-also: []
 permalink: /cpp-api/nda/vstack
 title: nda::vstack
 parent: nda
+source: nda/matrix_functions.hpp
 ...
 

@@ -52,5 +52,6 @@ see-also: []
 permalink: /cpp-api/nda/conj_r
 title: nda::conj_r
 parent: nda
+source: nda/mapped_functions.hpp
 ...
 

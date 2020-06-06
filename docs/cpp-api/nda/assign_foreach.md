@@ -46,5 +46,6 @@ see-also: []
 permalink: /cpp-api/nda/assign_foreach
 title: nda::assign_foreach
 parent: nda
+source: nda/basic_functions.hpp
 ...
 

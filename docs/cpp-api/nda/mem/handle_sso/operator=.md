@@ -45,5 +45,6 @@ see-also: []
 permalink: /cpp-api/nda/mem/handle_sso/operator=
 title: nda::mem::handle_sso::operator=
 parent: nda::mem::handle_sso
+source: nda/storage/handle.hpp
 ...
 

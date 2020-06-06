@@ -45,5 +45,6 @@ see-also: []
 permalink: /cpp-api/nda/front_pop
 title: nda::front_pop
 parent: nda
+source: nda/std_addons/array.hpp
 ...
 

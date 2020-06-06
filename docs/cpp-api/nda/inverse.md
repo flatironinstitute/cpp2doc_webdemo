@@ -45,5 +45,6 @@ see-also: []
 permalink: /cpp-api/nda/inverse
 title: nda::inverse
 parent: nda
+source: nda/arithmetic.hpp
 ...
 

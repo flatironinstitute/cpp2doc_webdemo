@@ -45,5 +45,6 @@ see-also: []
 permalink: /cpp-api/nda/exp
 title: nda::exp
 parent: nda
+source: nda/mapped_functions.hxx
 ...
 

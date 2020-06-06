@@ -42,5 +42,6 @@ see-also: []
 permalink: /cpp-api/nda/basic_array_view/extent
 title: nda::basic_array_view::extent
 parent: nda::basic_array_view
+source: nda/_impl_basic_array_view_common.hpp
 ...
 

@@ -45,5 +45,6 @@ see-also: []
 permalink: /cpp-api/nda/allocators/mallocator/operator=
 title: nda::allocators::mallocator::operator=
 parent: nda::allocators::mallocator
+source: nda/storage/allocators.hpp
 ...
 

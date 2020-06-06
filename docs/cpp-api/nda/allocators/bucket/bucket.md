@@ -27,9 +27,9 @@ methods:
   - allocate_zero
   - deallocate
   - is_full
-  - is_empty
   - data
   - owns
+  - empty
 
 # A list of non_member_functions
 non_member_functions: []

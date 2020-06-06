@@ -42,5 +42,6 @@ see-also: []
 permalink: /cpp-api/nda/mem/rtable_t/get
 title: nda::mem::rtable_t::get
 parent: nda::mem::rtable_t
+source: nda/storage/rtable.hpp
 ...
 

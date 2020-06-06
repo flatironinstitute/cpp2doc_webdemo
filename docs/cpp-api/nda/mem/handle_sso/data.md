@@ -42,5 +42,6 @@ see-also: []
 permalink: /cpp-api/nda/mem/handle_sso/data
 title: nda::mem::handle_sso::data
 parent: nda::mem::handle_sso
+source: nda/storage/handle.hpp
 ...
 

@@ -56,5 +56,6 @@ see-also: []
 permalink: /cpp-api/nda/make_matrix_const_view
 title: nda::make_matrix_const_view
 parent: nda
+source: nda/basic_functions.hpp
 ...
 

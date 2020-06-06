@@ -45,5 +45,6 @@ see-also: []
 permalink: /cpp-api/nda/allocators/blk_t/operator=
 title: nda::allocators::blk_t::operator=
 parent: nda::allocators::blk_t
+source: nda/storage/blk.hpp
 ...
 

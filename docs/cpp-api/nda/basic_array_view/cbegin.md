@@ -42,5 +42,6 @@ see-also: []
 permalink: /cpp-api/nda/basic_array_view/cbegin
 title: nda::basic_array_view::cbegin
 parent: nda::basic_array_view
+source: nda/_impl_basic_array_view_common.hpp
 ...
 

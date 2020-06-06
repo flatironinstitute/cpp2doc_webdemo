@@ -48,5 +48,6 @@ see-also: []
 permalink: /cpp-api/nda/map
 title: nda::map
 parent: nda
+source: nda/map.hpp
 ...
 

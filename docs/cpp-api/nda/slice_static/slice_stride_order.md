@@ -46,5 +46,6 @@ see-also: []
 permalink: /cpp-api/nda/slice_static/slice_stride_order
 title: nda::slice_static::slice_stride_order
 parent: nda::slice_static
+source: ""
 ...
 

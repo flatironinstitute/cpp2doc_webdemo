@@ -47,5 +47,6 @@ see-also: []
 permalink: /cpp-api/nda/join
 title: nda::join
 parent: nda
+source: nda/std_addons/array.hpp
 ...
 

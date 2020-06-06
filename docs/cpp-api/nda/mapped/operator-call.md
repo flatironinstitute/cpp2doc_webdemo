@@ -46,5 +46,6 @@ see-also: []
 permalink: /cpp-api/nda/mapped/operator-call
 title: nda::mapped::operator()
 parent: nda::mapped
+source: nda/map.hpp
 ...
 

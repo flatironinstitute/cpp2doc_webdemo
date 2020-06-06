@@ -48,5 +48,6 @@ see-also: []
 permalink: /cpp-api/nda/basic_array/resize
 title: nda::basic_array::resize
 parent: nda::basic_array
+source: nda/basic_array.hpp
 ...
 

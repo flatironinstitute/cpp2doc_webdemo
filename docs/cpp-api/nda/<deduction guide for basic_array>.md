@@ -15,17 +15,17 @@ overloads:
 
   - signature: |
       template <typename ValueType, int Rank, typename Layout, char Algebra, typename ContainerPolicy>
-      auto <deduction guide for basic_array>()-> basic_array<ValueType, Rank, Layout, Algebra, ContainerPolicy>
+      auto <deduction guide for basic_array>() -> basic_array<ValueType, Rank, Layout, Algebra, ContainerPolicy>
     desc: ""
 
   - signature: |
       template <typename ValueType, int Rank, typename Layout, char Algebra, typename ContainerPolicy>
-      auto <deduction guide for basic_array>(basic_array<ValueType, Rank, Layout, Algebra, ContainerPolicy> )-> basic_array<ValueType, Rank, Layout, Algebra, ContainerPolicy>
+      auto <deduction guide for basic_array>(basic_array<ValueType, Rank, Layout, Algebra, ContainerPolicy> ) -> basic_array<ValueType, Rank, Layout, Algebra, ContainerPolicy>
     desc: ""
 
   - signature: |
       template <typename T>
-      auto <deduction guide for basic_array>(T )-> basic_array<get_value_t<std::decay_t<T> >, get_rank<std::decay_t<T> >, struct nda::C_layout, 'A', struct nda::heap>
+      auto <deduction guide for basic_array>(T ) -> basic_array<get_value_t<std::decay_t<T> >, get_rank<std::decay_t<T> >, struct nda::C_layout, 'A', struct nda::heap>
     desc: Class template argument deduction
 
 # Long description. Any Markdown, with code, latex, multiline with |
@@ -59,5 +59,6 @@ see-also: []
 permalink: /cpp-api/nda/<deduction guide for basic_array>
 title: nda::<deduction guide for basic_array>
 parent: nda
+source: nda/declarations.hpp
 ...
 

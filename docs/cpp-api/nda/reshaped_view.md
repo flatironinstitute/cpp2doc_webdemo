@@ -71,5 +71,6 @@ see-also: [/cpp-api/nda/reshape]
 permalink: /cpp-api/nda/reshaped_view
 title: nda::reshaped_view
 parent: nda
+source: nda/layout_transforms.hpp
 ...
 

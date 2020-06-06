@@ -42,5 +42,6 @@ see-also: []
 permalink: /cpp-api/nda/scalar_array/shape
 title: nda::scalar_array::shape
 parent: nda::scalar_array
+source: nda/arithmetic.hpp
 ...
 

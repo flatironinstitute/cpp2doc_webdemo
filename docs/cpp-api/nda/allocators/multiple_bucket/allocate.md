@@ -42,5 +42,6 @@ see-also: []
 permalink: /cpp-api/nda/allocators/multiple_bucket/allocate
 title: nda::allocators::multiple_bucket::allocate
 parent: nda::allocators::multiple_bucket
+source: nda/storage/allocators.hpp
 ...
 

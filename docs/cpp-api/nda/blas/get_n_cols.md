@@ -44,5 +44,6 @@ see-also: []
 permalink: /cpp-api/nda/blas/get_n_cols
 title: nda::blas::get_n_cols
 parent: nda::blas
+source: nda/blas/tools.hpp
 ...
 

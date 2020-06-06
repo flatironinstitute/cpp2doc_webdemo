@@ -45,5 +45,6 @@ see-also: []
 permalink: /cpp-api/nda/allocators/segregator/operator=
 title: nda::allocators::segregator::operator=
 parent: nda::allocators::segregator
+source: nda/storage/allocators.hpp
 ...
 

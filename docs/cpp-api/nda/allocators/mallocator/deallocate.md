@@ -42,5 +42,6 @@ see-also: []
 permalink: /cpp-api/nda/allocators/mallocator/deallocate
 title: nda::allocators::mallocator::deallocate
 parent: nda::allocators::mallocator
+source: nda/storage/allocators.hpp
 ...
 

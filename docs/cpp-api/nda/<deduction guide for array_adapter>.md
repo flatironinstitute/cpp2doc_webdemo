@@ -15,17 +15,17 @@ overloads:
 
   - signature: |
       template <int R, typename F, typename Int>
-      auto <deduction guide for array_adapter>(std::array<type-parameter-0-2, R> const & shape, F f)-> array_adapter<R, F>
+      auto <deduction guide for array_adapter>(std::array<type-parameter-0-2, R> const & shape, F f) -> array_adapter<R, F>
     desc: ""
 
   - signature: |
       template <int R, typename F>
-      auto <deduction guide for array_adapter>(array_adapter<R, F> )-> array_adapter<R, F>
+      auto <deduction guide for array_adapter>(array_adapter<R, F> ) -> array_adapter<R, F>
     desc: ""
 
   - signature: |
       template <auto R, typename Int, typename F>
-      auto <deduction guide for array_adapter>(std::array<Int, R> , F )-> array_adapter<R, F>
+      auto <deduction guide for array_adapter>(std::array<Int, R> , F ) -> array_adapter<R, F>
     desc: ""
 
 # Long description. Any Markdown, with code, latex, multiline with |
@@ -57,5 +57,6 @@ see-also: []
 permalink: /cpp-api/nda/<deduction guide for array_adapter>
 title: nda::<deduction guide for array_adapter>
 parent: nda
+source: nda/array_adapter.hpp
 ...
 

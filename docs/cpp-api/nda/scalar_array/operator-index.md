@@ -44,5 +44,6 @@ see-also: []
 permalink: /cpp-api/nda/scalar_array/operator-index
 title: nda::scalar_array::operator[]
 parent: nda::scalar_array
+source: nda/arithmetic.hpp
 ...
 

@@ -56,5 +56,6 @@ see-also: []
 permalink: /cpp-api/nda/blas/gemm
 title: nda::blas::gemm
 parent: nda::blas
+source: nda/blas/gemm.hpp
 ...
 

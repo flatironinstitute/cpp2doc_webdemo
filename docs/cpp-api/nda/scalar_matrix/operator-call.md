@@ -46,5 +46,6 @@ see-also: []
 permalink: /cpp-api/nda/scalar_matrix/operator-call
 title: nda::scalar_matrix::operator()
 parent: nda::scalar_matrix
+source: nda/arithmetic.hpp
 ...
 

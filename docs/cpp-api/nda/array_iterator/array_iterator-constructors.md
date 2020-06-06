@@ -51,5 +51,6 @@ see-also: []
 permalink: /cpp-api/nda/array_iterator/array_iterator-constructors
 title: nda::array_iterator::array_iterator<Rank, T, Pointer>
 parent: nda::array_iterator
+source: nda/iterators.hpp
 ...
 

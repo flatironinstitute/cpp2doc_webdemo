@@ -42,5 +42,6 @@ see-also: []
 permalink: /cpp-api/nda/idx_map/ce_size
 title: nda::idx_map::ce_size
 parent: nda::idx_map
+source: nda/layout/idx_map.hpp
 ...
 

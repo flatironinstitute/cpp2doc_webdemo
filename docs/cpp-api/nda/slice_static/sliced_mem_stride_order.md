@@ -46,5 +46,6 @@ see-also: []
 permalink: /cpp-api/nda/slice_static/sliced_mem_stride_order
 title: nda::slice_static::sliced_mem_stride_order
 parent: nda::slice_static
+source: nda/layout/slice_static.hpp
 ...
 

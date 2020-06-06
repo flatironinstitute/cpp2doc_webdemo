@@ -42,5 +42,6 @@ see-also: []
 permalink: /cpp-api/nda/mem/rtable_t/incref
 title: nda::mem::rtable_t::incref
 parent: nda::mem::rtable_t
+source: nda/storage/rtable.hpp
 ...
 

@@ -45,5 +45,6 @@ see-also: []
 permalink: /cpp-api/nda/slice_static/p_of_n_map
 title: nda::slice_static::p_of_n_map
 parent: nda::slice_static
+source: nda/layout/slice_static.hpp
 ...
 

@@ -45,5 +45,6 @@ see-also: []
 permalink: /cpp-api/nda/mem/handle_borrowed/operator=
 title: nda::mem::handle_borrowed::operator=
 parent: nda::mem::handle_borrowed
+source: nda/storage/handle.hpp
 ...
 

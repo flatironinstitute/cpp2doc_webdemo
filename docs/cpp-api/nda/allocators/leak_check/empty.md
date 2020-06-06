@@ -42,5 +42,6 @@ see-also: []
 permalink: /cpp-api/nda/allocators/leak_check/empty
 title: nda::allocators::leak_check::empty
 parent: nda::allocators::leak_check
+source: nda/storage/allocators.hpp
 ...
 

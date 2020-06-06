@@ -44,5 +44,6 @@ see-also: []
 permalink: /cpp-api/nda/dagger
 title: nda::dagger
 parent: nda
+source: ""
 ...
 

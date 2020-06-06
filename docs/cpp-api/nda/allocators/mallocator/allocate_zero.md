@@ -42,5 +42,6 @@ see-also: []
 permalink: /cpp-api/nda/allocators/mallocator/allocate_zero
 title: nda::allocators::mallocator::allocate_zero
 parent: nda::allocators::mallocator
+source: nda/storage/allocators.hpp
 ...
 

@@ -45,5 +45,6 @@ see-also: []
 permalink: /cpp-api/nda/details/index_from_stride_order
 title: nda::details::index_from_stride_order
 parent: nda::details
+source: nda/layout/for_each.hpp
 ...
 

@@ -42,5 +42,6 @@ see-also: []
 permalink: /cpp-api/nda/allocators/segregator/allocate_zero
 title: nda::allocators::segregator::allocate_zero
 parent: nda::allocators::segregator
+source: nda/storage/allocators.hpp
 ...
 

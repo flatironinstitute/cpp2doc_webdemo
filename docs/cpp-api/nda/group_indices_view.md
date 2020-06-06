@@ -62,5 +62,6 @@ see-also: []
 permalink: /cpp-api/nda/group_indices_view
 title: nda::group_indices_view
 parent: nda
+source: nda/layout_transforms.hpp
 ...
 

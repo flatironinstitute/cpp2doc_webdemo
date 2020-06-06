@@ -49,5 +49,6 @@ see-also: []
 permalink: /cpp-api/nda/range/const_iterator/const_iterator-constructors
 title: nda::range::const_iterator::const_iterator
 parent: nda::range::const_iterator
+source: nda/layout/range.hpp
 ...
 

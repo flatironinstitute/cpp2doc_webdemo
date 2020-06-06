@@ -57,5 +57,6 @@ see-also: []
 permalink: /cpp-api/nda/mem/handle_sso/handle_sso-constructors
 title: nda::mem::handle_sso::handle_sso<T, Size>
 parent: nda::mem::handle_sso
+source: nda/storage/handle.hpp
 ...
 

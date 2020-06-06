@@ -45,5 +45,6 @@ see-also: []
 permalink: /cpp-api/nda/static_extents
 title: nda::static_extents
 parent: nda
+source: nda/declarations.hpp
 ...
 

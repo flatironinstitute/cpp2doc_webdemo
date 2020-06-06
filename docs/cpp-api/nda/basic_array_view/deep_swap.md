@@ -45,5 +45,6 @@ see-also: []
 permalink: /cpp-api/nda/basic_array_view/deep_swap
 title: nda::deep_swap
 parent: nda::basic_array_view
+source: nda/basic_array_view.hpp
 ...
 

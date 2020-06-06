@@ -45,5 +45,6 @@ see-also: []
 permalink: /cpp-api/nda/mem/handle_shared/operator-index
 title: nda::mem::handle_shared::operator[]
 parent: nda::mem::handle_shared
+source: nda/storage/handle.hpp
 ...
 

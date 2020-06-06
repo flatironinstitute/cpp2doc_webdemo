@@ -66,5 +66,6 @@ see-also: []
 permalink: /cpp-api/nda/basic_array/operator=
 title: nda::basic_array::operator=
 parent: nda::basic_array
+source: nda/basic_array.hpp
 ...
 

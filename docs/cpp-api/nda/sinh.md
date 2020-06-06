@@ -45,5 +45,6 @@ see-also: []
 permalink: /cpp-api/nda/sinh
 title: nda::sinh
 parent: nda
+source: nda/mapped_functions.hxx
 ...
 

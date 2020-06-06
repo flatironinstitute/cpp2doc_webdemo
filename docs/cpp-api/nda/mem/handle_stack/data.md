@@ -42,5 +42,6 @@ see-also: []
 permalink: /cpp-api/nda/mem/handle_stack/data
 title: nda::mem::handle_stack::data
 parent: nda::mem::handle_stack
+source: nda/storage/handle.hpp
 ...
 

@@ -62,5 +62,6 @@ see-also: []
 permalink: /cpp-api/nda/permuted_indices_view
 title: nda::permuted_indices_view
 parent: nda
+source: nda/layout_transforms.hpp
 ...
 

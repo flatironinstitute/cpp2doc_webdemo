@@ -42,5 +42,6 @@ see-also: []
 permalink: /cpp-api/nda/array_iterator/operator!=
 title: nda::array_iterator::operator!=
 parent: nda::array_iterator
+source: nda/iterators.hpp
 ...
 

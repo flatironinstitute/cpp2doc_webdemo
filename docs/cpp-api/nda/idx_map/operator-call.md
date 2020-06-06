@@ -44,5 +44,6 @@ see-also: []
 permalink: /cpp-api/nda/idx_map/operator-call
 title: nda::idx_map::operator()
 parent: nda::idx_map
+source: ""
 ...
 

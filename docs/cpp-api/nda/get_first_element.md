@@ -44,5 +44,6 @@ see-also: []
 permalink: /cpp-api/nda/get_first_element
 title: nda::get_first_element
 parent: nda
+source: nda/traits.hpp
 ...
 

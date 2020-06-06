@@ -45,5 +45,6 @@ see-also: []
 permalink: /cpp-api/nda/rank_are_compatible
 title: nda::rank_are_compatible
 parent: nda
+source: nda/arithmetic.hpp
 ...
 

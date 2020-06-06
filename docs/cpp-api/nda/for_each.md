@@ -46,5 +46,6 @@ see-also: []
 permalink: /cpp-api/nda/for_each
 title: nda::for_each
 parent: nda
+source: ""
 ...
 

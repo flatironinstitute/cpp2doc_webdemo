@@ -44,5 +44,6 @@ see-also: []
 permalink: /cpp-api/nda/sum
 title: nda::sum
 parent: nda
+source: nda/algorithms.hpp
 ...
 

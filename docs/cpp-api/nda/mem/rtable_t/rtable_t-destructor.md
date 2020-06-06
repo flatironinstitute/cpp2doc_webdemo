@@ -42,5 +42,6 @@ see-also: []
 permalink: /cpp-api/nda/mem/rtable_t/rtable_t-destructor
 title: nda::mem::rtable_t::~rtable_t
 parent: nda::mem::rtable_t
+source: nda/storage/rtable.hpp
 ...
 

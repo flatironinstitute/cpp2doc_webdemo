@@ -42,5 +42,6 @@ see-also: []
 permalink: /cpp-api/nda/allocators/stats/stats-destructor
 title: nda::allocators::stats::~stats<A>
 parent: nda::allocators::stats
+source: nda/storage/allocators.hpp
 ...
 

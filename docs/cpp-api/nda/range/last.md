@@ -42,5 +42,6 @@ see-also: []
 permalink: /cpp-api/nda/range/last
 title: nda::range::last
 parent: nda::range
+source: nda/layout/range.hpp
 ...
 

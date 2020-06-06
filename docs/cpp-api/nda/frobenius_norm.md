@@ -44,5 +44,6 @@ see-also: []
 permalink: /cpp-api/nda/frobenius_norm
 title: nda::frobenius_norm
 parent: nda
+source: nda/algorithms.hpp
 ...
 

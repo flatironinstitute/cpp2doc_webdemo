@@ -53,5 +53,6 @@ see-also: []
 permalink: /cpp-api/nda/slice_static/slice_layout_prop
 title: nda::slice_static::slice_layout_prop
 parent: nda::slice_static
+source: nda/layout/slice_static.hpp
 ...
 

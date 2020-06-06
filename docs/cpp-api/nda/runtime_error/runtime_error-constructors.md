@@ -45,5 +45,6 @@ see-also: []
 permalink: /cpp-api/nda/runtime_error/runtime_error-constructors
 title: nda::runtime_error::runtime_error
 parent: nda::runtime_error
+source: nda/exceptions.hpp
 ...
 

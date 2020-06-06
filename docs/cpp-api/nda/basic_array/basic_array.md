@@ -48,6 +48,7 @@ methods:
   - operator*=
   - operator/=
   - zeros
+  - empty
 
 # A list of non_member_functions
 non_member_functions: []

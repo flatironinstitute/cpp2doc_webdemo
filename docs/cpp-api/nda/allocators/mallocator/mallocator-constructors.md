@@ -48,5 +48,6 @@ see-also: []
 permalink: /cpp-api/nda/allocators/mallocator/mallocator-constructors
 title: nda::allocators::mallocator::mallocator
 parent: nda::allocators::mallocator
+source: nda/storage/allocators.hpp
 ...
 

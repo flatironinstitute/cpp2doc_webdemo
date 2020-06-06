@@ -45,5 +45,6 @@ see-also: []
 permalink: /cpp-api/nda/tanh
 title: nda::tanh
 parent: nda
+source: nda/mapped_functions.hxx
 ...
 

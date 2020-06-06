@@ -50,5 +50,6 @@ see-also: []
 permalink: /cpp-api/nda/blas/gemv_generic
 title: nda::blas::gemv_generic
 parent: nda::blas
+source: nda/blas/gemv.hpp
 ...
 

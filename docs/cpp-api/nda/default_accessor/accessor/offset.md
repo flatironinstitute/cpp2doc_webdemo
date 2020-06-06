@@ -43,5 +43,6 @@ see-also: []
 permalink: /cpp-api/nda/default_accessor/accessor/offset
 title: nda::default_accessor::accessor::offset
 parent: nda::default_accessor::accessor
+source: nda/accessors.hpp
 ...
 

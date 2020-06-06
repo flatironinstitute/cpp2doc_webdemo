@@ -45,5 +45,6 @@ see-also: []
 permalink: /cpp-api/nda/atan
 title: nda::atan
 parent: nda
+source: nda/mapped_functions.hxx
 ...
 

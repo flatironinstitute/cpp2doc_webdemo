@@ -55,5 +55,6 @@ see-also: []
 permalink: /cpp-api/nda/blas/f77/ger
 title: nda::blas::f77::ger
 parent: nda::blas::f77
+source: nda/blas/interface/cxx_interface.hpp
 ...
 

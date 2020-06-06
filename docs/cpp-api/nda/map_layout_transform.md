@@ -71,5 +71,6 @@ see-also: []
 permalink: /cpp-api/nda/map_layout_transform
 title: nda::map_layout_transform
 parent: nda
+source: nda/basic_array_view.hpp
 ...
 

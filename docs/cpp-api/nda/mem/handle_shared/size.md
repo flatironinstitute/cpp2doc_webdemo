@@ -42,5 +42,6 @@ see-also: []
 permalink: /cpp-api/nda/mem/handle_shared/size
 title: nda::mem::handle_shared::size
 parent: nda::mem::handle_shared
+source: nda/storage/handle.hpp
 ...
 

@@ -45,5 +45,6 @@ see-also: []
 permalink: /cpp-api/nda/cosh
 title: nda::cosh
 parent: nda
+source: nda/mapped_functions.hxx
 ...
 

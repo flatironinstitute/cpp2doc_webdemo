@@ -45,5 +45,6 @@ see-also: []
 permalink: /cpp-api/nda/mem/allocator_singleton/allocate_zero
 title: nda::mem::allocator_singleton::allocate_zero
 parent: nda::mem::allocator_singleton
+source: nda/storage/handle.hpp
 ...
 

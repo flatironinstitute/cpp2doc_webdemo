@@ -45,5 +45,6 @@ see-also: []
 permalink: /cpp-api/nda/array_adapter/operator-call
 title: nda::array_adapter::operator()
 parent: nda::array_adapter
+source: nda/array_adapter.hpp
 ...
 

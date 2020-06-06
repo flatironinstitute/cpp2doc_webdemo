@@ -44,5 +44,6 @@ see-also: []
 permalink: /cpp-api/nda/basic_array/operator*=
 title: nda::basic_array::operator*=
 parent: nda::basic_array
+source: nda/_impl_basic_array_view_common.hpp
 ...
 
