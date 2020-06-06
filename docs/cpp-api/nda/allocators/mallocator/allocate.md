@@ -13,7 +13,7 @@ brief: ""
 # List of overloads. Edit only the desc
 overloads:
 
-  - signature: struct nda::allocators::blk_t allocate(size_t s)
+  - signature: static struct nda::allocators::blk_t allocate(size_t s)
     desc: ""
 
 # Long description. Any Markdown, with code, latex, multiline with |

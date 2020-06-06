@@ -46,4 +46,3 @@ parent: nda::allocators::bucket
 source: nda/storage/allocators.hpp
 ...
 
-

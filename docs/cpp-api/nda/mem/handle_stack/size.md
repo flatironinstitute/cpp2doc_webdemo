@@ -13,7 +13,7 @@ brief: ""
 # List of overloads. Edit only the desc
 overloads:
 
-  - signature: long size() noexcept
+  - signature: static long size() noexcept
     desc: ""
 
 # Long description. Any Markdown, with code, latex, multiline with |

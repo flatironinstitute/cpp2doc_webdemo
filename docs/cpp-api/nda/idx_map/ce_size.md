@@ -13,7 +13,7 @@ brief: Compile time size, 0 means "dynamical"
 # List of overloads. Edit only the desc
 overloads:
 
-  - signature: long ce_size() noexcept
+  - signature: static long ce_size() noexcept
     desc: Compile time size, 0 means "dynamical"
 
 # Long description. Any Markdown, with code, latex, multiline with |

@@ -13,10 +13,10 @@ brief: ""
 # List of overloads. Edit only the desc
 overloads:
 
-  - signature: void deallocate(allocators::blk_t b)
+  - signature: static void deallocate(allocators::blk_t b)
     desc: ""
 
-  - signature: void deallocate(allocators::blk_t b)
+  - signature: static void deallocate(allocators::blk_t b)
     desc: ""
 
 # Long description. Any Markdown, with code, latex, multiline with |

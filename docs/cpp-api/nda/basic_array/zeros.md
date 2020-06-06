@@ -16,7 +16,7 @@ overloads:
   - signature: |
       template <std::integral Int>
       requires((std::is_arithmetic_v<ValueType> or nda::is_complex_v<ValueType>))
-      basic_array zeros(std::array<Int, Rank> const &shape)
+      static basic_array zeros(std::array<Int, Rank> const &shape)
     desc: ""
 
 # Long description. Any Markdown, with code, latex, multiline with |

@@ -13,7 +13,7 @@ brief: ""
 # List of overloads. Edit only the desc
 overloads:
 
-  - signature: void deallocate(struct nda::allocators::blk_t b) noexcept
+  - signature: static void deallocate(struct nda::allocators::blk_t b) noexcept
     desc: ""
 
 # Long description. Any Markdown, with code, latex, multiline with |

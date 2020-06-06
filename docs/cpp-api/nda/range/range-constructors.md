@@ -19,9 +19,9 @@ overloads:
   - signature: |
       range(long first__, long last__,
             long step__ = < / Users / oparcollet / src / nda / c++ / nda / layout /./ range.hpp : 59 : 52 >) noexcept
-    desc: ""
+    desc: ":"
 
-  - signature: range(long i) noexcept
+  - signature: explicit range(long i) noexcept
     desc: Constructor
 
   - signature: range(range const &)

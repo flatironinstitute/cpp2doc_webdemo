@@ -13,10 +13,10 @@ brief: ""
 # List of overloads. Edit only the desc
 overloads:
 
-  - signature: allocators::blk_t allocate_zero(size_t size)
+  - signature: static allocators::blk_t allocate_zero(size_t size)
     desc: ""
 
-  - signature: allocators::blk_t allocate_zero(size_t size)
+  - signature: static allocators::blk_t allocate_zero(size_t size)
     desc: ""
 
 # Long description. Any Markdown, with code, latex, multiline with |

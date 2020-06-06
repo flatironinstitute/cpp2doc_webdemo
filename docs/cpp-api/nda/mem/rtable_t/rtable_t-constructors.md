@@ -13,7 +13,7 @@ brief: ""
 # List of overloads. Edit only the desc
 overloads:
 
-  - signature: "rtable_t(long size = < / Users / oparcollet / src / nda / c++ / nda / storage /./ rtable.hpp : 58 : 26 >)"
+  - signature: "rtable_t(long size = < / Users / oparcollet / src / nda / c++ / nda / storage /./ rtable.hpp : 64 : 26 >)"
     desc: ""
 
   - signature: rtable_t(rtable_t const &)

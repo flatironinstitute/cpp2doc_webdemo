@@ -24,11 +24,11 @@ overloads:
 
   - signature: |
       template <std::integral... Int>
-      basic_array(Int... is) noexcept
-    desc: ""
+      explicit basic_array(Int... is) noexcept
+    desc: Construct with a shape [i0, is ...]. Int are integers (convertible to long), and there must be exactly R arguments.
 
-  - signature: basic_array(std::array<long, Rank> const &shape) noexcept requires(std::is_default_constructible_v<ValueType>)
-    desc: ""
+  - signature: explicit basic_array(std::array<long, Rank> const &shape) noexcept requires(std::is_default_constructible_v<ValueType>)
+    desc: Construct with the given shape and default construct elements
 
   - signature: |
       template <nda::ArrayOfRank<Rank> A>
@@ -53,7 +53,7 @@ overloads:
 
   - signature: |
       template <char Algebra2>
-      basic_array(basic_array<ValueType, 2, Layout, Algebra2, ContainerPolicy> &&am) noexcept requires(Rank == 2)
+      explicit basic_array(basic_array<ValueType, 2, Layout, Algebra2, ContainerPolicy> &&am) noexcept requires(Rank == 2)
     desc: Allows to move a array of Rank 2 into a matrix and vice versa
 
 # Long description. Any Markdown, with code, latex, multiline with |

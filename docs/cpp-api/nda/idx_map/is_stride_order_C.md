@@ -13,7 +13,7 @@ brief: Is the order in memory C ?
 # List of overloads. Edit only the desc
 overloads:
 
-  - signature: bool is_stride_order_C()
+  - signature: static bool is_stride_order_C()
     desc: Is the order in memory C ?
 
 # Long description. Any Markdown, with code, latex, multiline with |

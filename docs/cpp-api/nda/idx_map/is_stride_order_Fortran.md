@@ -13,7 +13,7 @@ brief: Is the order in memory Fortran ?
 # List of overloads. Edit only the desc
 overloads:
 
-  - signature: bool is_stride_order_Fortran()
+  - signature: static bool is_stride_order_Fortran()
     desc: Is the order in memory Fortran ?
 
 # Long description. Any Markdown, with code, latex, multiline with |

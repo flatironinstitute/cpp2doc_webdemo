@@ -13,7 +13,7 @@ brief: Rank of the map (number of arguments)
 # List of overloads. Edit only the desc
 overloads:
 
-  - signature: int rank() noexcept
+  - signature: static int rank() noexcept
     desc: Rank of the map (number of arguments)
 
 # Long description. Any Markdown, with code, latex, multiline with |
