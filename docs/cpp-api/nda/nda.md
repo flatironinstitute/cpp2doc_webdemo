@@ -134,7 +134,7 @@ For a complete index, see below.
 
 |---
 | | | 
-|:-:|:-:|:-:
+|:-:|:-:|:-:|:-:
 | **Overview** <BR> [*Basic notions*](/cpp-api/nda/overview) | **Tutorial** <BR> *To Be Written* | **Installation** <BR> [Instructions](/cpp-api/nda/install) |  **Howtos** <BR> *Gallery of examples* |  
 |---
 |---
@@ -145,6 +145,6 @@ For a complete index, see below.
 |---
 |---
 | **Linear Algebra** <BR> *Interface BLAS/LAPACK* <BR> *Eigen, ...* | **HDF5** |  **MPI**
-{: .table_top_page }
+{: .table_top_page .vertical-align=top}
 
 

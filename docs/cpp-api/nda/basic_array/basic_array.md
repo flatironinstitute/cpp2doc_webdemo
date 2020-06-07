@@ -28,21 +28,25 @@ methods:
 
   - "":
       - basic_array-constructors
-      - operator=
-      - resize
-      - indexmap
-      - stride_order
-      - data_start
-      - shape
-      - size
-      - is_empty
-      - extent
-      - is_stride_order_C
-      - is_stride_order_Fortran
+      - zeros
       - operator-call
       - operator-index
-      - zeros
+
+  - Access:
+      - shape
+      - extent
+      - size
       - empty
+      - is_empty
+      - data_start
+      - indexmap
+      - stride_order
+      - is_stride_order_C
+      - is_stride_order_Fortran
+
+  - Modifiers:
+      - operator=
+      - resize
 
   - Iterator:
       - begin
