@@ -94,7 +94,7 @@ functions:
   - operator+
   - operator-
   - operator*
-  - ""
+  - operator-div
   - inverse
   - map
   - conj_r

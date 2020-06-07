@@ -3,7 +3,7 @@
 layout: class
 short_name: range_all
 qualified_name: nda::range_all
-namespaces: [nda]
+namespace: nda
 includer: nda/nda.hpp
 signature: struct range_all
 

@@ -2,7 +2,7 @@
 # Do not edit this first section
 layout: function
 fancy_name: is_stride_order_Fortran
-namespaces: [nda, basic_array_view]
+namespace: nda::basic_array_view
 includer: nda/nda.hpp
 
 # Brief description. One line only.

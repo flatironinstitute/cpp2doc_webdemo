@@ -3,7 +3,7 @@
 layout: class
 short_name: sso
 qualified_name: nda::sso
-namespaces: [nda]
+namespace: nda
 includer: nda/nda.hpp
 signature: |
   template <size_t SSO_Size>

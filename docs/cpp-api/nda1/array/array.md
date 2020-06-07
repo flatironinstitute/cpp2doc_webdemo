@@ -3,7 +3,7 @@
 layout: class
 short_name: array
 qualified_name: nda1::array
-namespaces: [nda1]
+namespace: nda1
 includer: ""
 signature: |
   template <typename T, int R>

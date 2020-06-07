@@ -3,7 +3,7 @@
 layout: class
 short_name: shared
 qualified_name: nda::shared
-namespaces: [nda]
+namespace: nda
 includer: nda/nda.hpp
 signature: struct shared
 

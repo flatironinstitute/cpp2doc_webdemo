@@ -3,7 +3,7 @@
 layout: class
 short_name: range_tag
 qualified_name: nda::range_tag
-namespaces: [nda]
+namespace: nda
 includer: nda/nda.hpp
 signature: struct range_tag
 

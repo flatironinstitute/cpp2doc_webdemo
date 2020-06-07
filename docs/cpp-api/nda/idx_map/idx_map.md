@@ -3,7 +3,7 @@
 layout: class
 short_name: idx_map
 qualified_name: nda::idx_map
-namespaces: [nda]
+namespace: nda
 includer: nda/nda.hpp
 signature: |
   template <int Rank, uint64_t StaticExtents, uint64_t StrideOrder, enum nda::layout_prop_e LayoutProp>

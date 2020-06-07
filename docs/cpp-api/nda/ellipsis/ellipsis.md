@@ -3,7 +3,7 @@
 layout: class
 short_name: ellipsis
 qualified_name: nda::ellipsis
-namespaces: [nda]
+namespace: nda
 includer: nda/nda.hpp
 signature: struct ellipsis
 

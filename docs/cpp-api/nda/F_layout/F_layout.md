@@ -3,7 +3,7 @@
 layout: class
 short_name: F_layout
 qualified_name: nda::F_layout
-namespaces: [nda]
+namespace: nda
 includer: nda/nda.hpp
 signature: struct F_layout
 

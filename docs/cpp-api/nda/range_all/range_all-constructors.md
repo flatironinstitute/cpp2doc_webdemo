@@ -2,7 +2,7 @@
 # Do not edit this first section
 layout: function
 fancy_name: (constructors)
-namespaces: [nda, range_all]
+namespace: nda::range_all
 includer: nda/nda.hpp
 
 # Brief description. One line only.

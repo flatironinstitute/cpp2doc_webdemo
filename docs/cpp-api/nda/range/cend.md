@@ -2,7 +2,7 @@
 # Do not edit this first section
 layout: function
 fancy_name: cend
-namespaces: [nda, range]
+namespace: nda::range
 includer: nda/nda.hpp
 
 # Brief description. One line only.

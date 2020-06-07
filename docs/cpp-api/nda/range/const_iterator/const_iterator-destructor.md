@@ -2,7 +2,7 @@
 # Do not edit this first section
 layout: function
 fancy_name: (destructor)
-namespaces: [nda, range, const_iterator]
+namespace: nda::range::const_iterator
 includer: nda/nda.hpp
 
 # Brief description. One line only.

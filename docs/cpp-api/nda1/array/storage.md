@@ -5,7 +5,7 @@ fancy_name: storage
 function_name: storage
 file_name: storage
 qualified_name: nda1::array::storage
-namespaces: [nda1, array]
+namespace: nda1::array
 includer: ""
 
 # Brief description. One line only.

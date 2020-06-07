@@ -3,7 +3,7 @@
 layout: class
 short_name: accessor
 qualified_name: nda::no_alias_accessor::accessor
-namespaces: [nda, no_alias_accessor]
+namespace: nda::no_alias_accessor
 includer: nda/nda.hpp
 signature: |
   template <typename T>

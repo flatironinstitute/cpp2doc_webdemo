@@ -2,7 +2,7 @@
 # Do not edit this first section
 layout: function
 fancy_name: operator==
-namespaces: [nda]
+namespace: nda
 includer: nda/nda.hpp
 
 # Brief description. One line only.

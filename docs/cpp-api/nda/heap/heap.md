@@ -3,7 +3,7 @@
 layout: class
 short_name: heap
 qualified_name: nda::heap
-namespaces: [nda]
+namespace: nda
 includer: nda/nda.hpp
 signature: struct heap
 

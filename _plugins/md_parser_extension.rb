@@ -73,6 +73,13 @@ class Kramdown::Parser::Kramdown_CCQ_extension < Kramdown::Parser::GFM
    CPP2DOC_TABLE_TAGS_START = /<T(.*?)T>/m
   
    def parse_cpp2doc_tags
+
+    # NO puts @context.registers[:site].data['permalink_to_brief']
+    puts Kramdown::Document.new("a little test **STRONG** ").to_html
+     
+    #el = Element.new(:raw) #, nil, nil,  location: @src.current_line_number)
+    #parse_blocks(el, "a little test **STRONG** ")
+ 
     @src.pos += @src.matched_size
     type, args = @src.matched[2..-3].strip.split(' ',2)
     begin  

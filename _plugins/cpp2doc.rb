@@ -47,6 +47,9 @@ module Jekyll
     end
 
     def get_fancy_name_from_permalink(permalink, permalink_to_fancyname_table)
+    
+      #puts @context.registers[:site].data['permalink_to_brief']
+  
       r = permalink_to_fancyname_table [permalink]
       if (not r) then 
         return "NOT FOUND : " + permalink
@@ -72,14 +75,19 @@ module Jekyll
     end
        
 
+    # FIXME : USE CONTEXT
     # This filter takes :
     #  - source  : c++ code snipper
     #  - highlighted_types : the global list of types from the site
-    #  - namespace_list : namespace where the page being rendered.
-    def link_and_highlight(source, highlighted_types, namespace_list= [])
+    def link_and_highlight(source, highlighted_types, current_namespace= '')
 
       if not source then 
         return source
+      end
+
+      # a security if the page pass current_namespace = nil by mistake (corrupted yaml header)
+      if not current_namespace then 
+        current_namespace = ''
       end
 
       require 'rouge' # we use the highlighter
@@ -87,7 +95,6 @@ module Jekyll
       # FIXME : bug do the join one by one with replace
       # nda::basic_array:: .... ?? replace nda !
       # Do it at the END only
-      current_namespace = namespace_list.join('::')
       if not current_namespace.empty? then
         current_namespace += '::'
         source = source.gsub(current_namespace, '')

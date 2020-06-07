@@ -3,7 +3,7 @@
 layout: class
 short_name: runtime_error
 qualified_name: nda::runtime_error
-namespaces: [nda]
+namespace: nda
 includer: nda/nda.hpp
 signature: class runtime_error
 

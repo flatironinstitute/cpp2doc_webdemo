@@ -1,7 +1,7 @@
 ---
 # Do not edit this first section
 layout: function
-fancy_name: common_algebra
+fancy_name: operator/
 namespace: nda
 includer: nda/nda.hpp
 
@@ -13,7 +13,9 @@ overloads:
 
   - signature: |
       template <typename L, typename R>
-      char common_algebra()
+      requires(model_ndarray_with_possibly_one_scalar<L, R> and (common_algebra<L, R>() != 'N'))
+      expr<'/', L, R>
+         operator/(L &&l, R &&r)
     desc: ""
 
 # Long description. Any Markdown, with code, latex, multiline with |
@@ -21,27 +23,29 @@ desc: ""
 
 # Parameters of the function. Edit only the description after the :
 params:
-  {}
+  l: ": lhs"
+  r: ": rhs L, R model NdArray. One can be a scalar. They must be in the same algebra.     * if the algebra is 'M' for L, then R must be a scalar. matrix/matrix is disabled.       NB : we could rewrite it as matrix * inverse(matrix) as in triqs arrays, but this looks ambigous."
 
 # Template parameters of the function. Edit only the description after the :
 tparams:
-  L: __MISSING__
-  R: __MISSING__
+  L: ""
+  R: ""
 
 # Desc of the return value
-return_value: __MISSING__
+return_value: lazy expression for element-wise division
 
 # Code example. desc: any markdown to explain it.
 example:
-  desc: __MISSING__
-  code: __MISSING__
+  desc: ""
+  code: ""
+  comment: ""
 
 # A list of related functions/classes
 see-also: []
 
 # ---------- DO NOT EDIT BELOW --------
-permalink: /cpp-api/nda/common_algebra
-title: nda::common_algebra
+permalink: /cpp-api/nda/operator-div
+title: nda::operator/
 parent: nda
 source: nda/arithmetic.hpp
 ...

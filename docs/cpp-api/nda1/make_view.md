@@ -5,7 +5,7 @@ fancy_name: make_view
 function_name: make_view
 file_name: make_view
 qualified_name: nda1::make_view
-namespaces: [nda1]
+namespace: nda1
 includer: ""
 
 # Brief description. One line only.

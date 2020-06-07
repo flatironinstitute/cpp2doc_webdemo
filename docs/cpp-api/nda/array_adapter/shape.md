@@ -2,7 +2,7 @@
 # Do not edit this first section
 layout: function
 fancy_name: shape
-namespaces: [nda, array_adapter]
+namespace: nda::array_adapter
 includer: nda/nda.hpp
 
 # Brief description. One line only.

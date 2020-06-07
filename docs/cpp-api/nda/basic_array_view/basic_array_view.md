@@ -3,7 +3,7 @@
 layout: class
 short_name: basic_array_view
 qualified_name: nda::basic_array_view
-namespaces: [nda]
+namespace: nda
 includer: nda/nda.hpp
 signature: |
   template <typename ValueType, int Rank, typename Layout, char Algebra = 'A', typename AccessorPolicy = nda::default_accessor, typename OwningPolicy = nda::borrowed>
@@ -47,8 +47,8 @@ methods:
   - operator+=
   - operator-=
   - operator*=
-  - operator/=
   - empty
+  - operator-div=
 
 # A list of non_member_functions
 non_member_functions: []

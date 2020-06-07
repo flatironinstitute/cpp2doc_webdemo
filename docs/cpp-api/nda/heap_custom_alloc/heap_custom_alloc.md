@@ -3,7 +3,7 @@
 layout: class
 short_name: heap_custom_alloc
 qualified_name: nda::heap_custom_alloc
-namespaces: [nda]
+namespace: nda
 includer: nda/nda.hpp
 signature: |
   template <typename Allocator>

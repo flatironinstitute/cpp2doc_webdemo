@@ -3,7 +3,7 @@
 layout: class
 short_name: basic_array
 qualified_name: nda::basic_array
-namespaces: [nda]
+namespace: nda
 includer: nda/nda.hpp
 signature: |
   template <typename ValueType, int Rank, typename Layout, char Algebra, typename ContainerPolicy>
@@ -44,9 +44,7 @@ methods:
       - is_stride_order_C
       - is_stride_order_Fortran
 
-  - Modifiers:
-      - operator=
-      - resize
+  - Modifiers: [operator=, resize]
 
   - Iterator:
       - begin
@@ -54,11 +52,9 @@ methods:
       - end
       - cend
 
-  - Arithmetic:
-      - operator+=
-      - operator-=
-      - operator*=
-      - operator/=
+  - Arithmetic: [operator+=, operator-=, operator*=]
+
+  - __NOT_SORTED__: [operator-div=]
 
 # A list of non_member_functions
 non_member_functions: []

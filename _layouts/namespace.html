@@ -2,14 +2,12 @@
 layout: default
 ---
 
-{{ content }}
+{{ content  }}
 
-<br/>
-
-{{page.brief |markdownify}}
-
- {% if page.namespaces %}
-<h5> Namespaces</h5>
+<h2> Index </h2>
+{% if page.namespaces %}
+<details><summary><span class="cpp-namespace-list">Namespaces</span></summary> 
+<h5> </h5>
 <table class='method-table' >
  {% for name in page.namespaces%}
     <tr>
@@ -18,10 +16,11 @@ layout: default
     </tr>
  {% endfor %}
 </table>
+</details>
 {% endif %}
 
 {% if page.concepts %}
-<h5> Concepts </h5>
+<details><summary><span class="cpp-namespace-list">Concepts</span></summary> 
 <table class='method-table' >
  {% for name in page.concepts%}
     <tr>
@@ -30,10 +29,11 @@ layout: default
     </tr>
  {% endfor %}
 </table>
+</details>
 {% endif %}
 
 {% if page.classes %}
-<h5> Classes </h5>
+<details><summary><span class="cpp-namespace-list">Classes</span></summary> 
 <table class='method-table' >
  {% for name in page.classes%}
     <tr>
@@ -42,10 +42,11 @@ layout: default
     </tr>
  {% endfor %}
 </table>
+</details>
 {% endif %}
 
 {% if page.functions %}
-<h5> Functions</h5>
+<details><summary><span class="cpp-namespace-list">Functions</span></summary> 
 <table class='method-table' >
  {% for name in page.functions%}
     <tr>
@@ -54,6 +55,7 @@ layout: default
     </tr>
  {% endfor %}
 </table>
+</details>
 {% endif %}
 
 

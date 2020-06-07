@@ -3,7 +3,7 @@
 layout: class
 short_name: basic_layout
 qualified_name: nda::basic_layout
-namespaces: [nda]
+namespace: nda
 includer: nda/nda.hpp
 signature: |
   template <uint64_t StaticExtents, uint64_t StrideOrder, enum nda::layout_prop_e LayoutProp>

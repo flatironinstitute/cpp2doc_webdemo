@@ -2,7 +2,7 @@
 # Do not edit this first section
 layout: function
 fancy_name: (constructors)
-namespaces: [nda, runtime_error]
+namespace: nda::runtime_error
 includer: nda/nda.hpp
 
 # Brief description. One line only.

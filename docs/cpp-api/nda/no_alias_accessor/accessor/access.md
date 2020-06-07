@@ -2,7 +2,7 @@
 # Do not edit this first section
 layout: function
 fancy_name: access
-namespaces: [nda, no_alias_accessor, accessor]
+namespace: nda::no_alias_accessor::accessor
 includer: nda/nda.hpp
 
 # Brief description. One line only.

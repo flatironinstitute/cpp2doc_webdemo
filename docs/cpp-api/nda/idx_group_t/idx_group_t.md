@@ -3,7 +3,7 @@
 layout: class
 short_name: idx_group_t
 qualified_name: nda::idx_group_t
-namespaces: [nda]
+namespace: nda
 includer: nda/nda.hpp
 signature: |
   template <int Is>

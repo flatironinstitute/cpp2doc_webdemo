@@ -3,7 +3,7 @@
 layout: class
 short_name: scalar_array
 qualified_name: nda::scalar_array
-namespaces: [nda]
+namespace: nda
 includer: nda/nda.hpp
 signature: |
   template <typename S, int Rank>

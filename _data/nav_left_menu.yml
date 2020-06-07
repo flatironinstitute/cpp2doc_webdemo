@@ -4,6 +4,12 @@
 - community:
 
 - cpp-api:
+  - nda:
+    - overview
+    - install
+    - basic_array
+    - basic_array_view
+
   - sandbox:
     - myarray
     - mc
@@ -13,9 +19,6 @@
     - array_view
     - make_view
 
-  - nda:
-    - basic_array
-    - basic_array_view
 
 - design:
   - ui-components:

@@ -24,7 +24,8 @@ github_username:  lizlove
 permalink: pretty
 
 # Build settings
-markdown: kramdown
+markdown: MyCustomProcessor #kramdown
+#markdown: kramdown
 kramdown:
   input: Kramdown_CCQ_extension
   math_engine: katex
@@ -39,6 +40,7 @@ kramdown:
     #block:
       #line_numbers: true
       #start_line: 1
+
 
 
 plugins:

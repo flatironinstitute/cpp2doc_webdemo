@@ -3,7 +3,7 @@
 layout: class
 short_name: scalar_matrix
 qualified_name: nda::scalar_matrix
-namespaces: [nda]
+namespace: nda
 includer: nda/nda.hpp
 signature: |
   template <typename S>

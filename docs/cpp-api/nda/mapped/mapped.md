@@ -3,7 +3,7 @@
 layout: class
 short_name: mapped
 qualified_name: nda::mapped
-namespaces: [nda]
+namespace: nda
 includer: nda/nda.hpp
 signature: |
   template <class F>

@@ -2,7 +2,7 @@
 # Do not edit this first section
 layout: function
 fancy_name: operator++
-namespaces: [nda, grid_iterator]
+namespace: nda::grid_iterator
 includer: nda/nda.hpp
 
 # Brief description. One line only.

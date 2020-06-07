@@ -3,7 +3,7 @@
 layout: class
 short_name: grid_iterator<1>
 qualified_name: nda::grid_iterator<1>
-namespaces: [nda]
+namespace: nda
 includer: nda/nda.hpp
 signature: |
   template<> 

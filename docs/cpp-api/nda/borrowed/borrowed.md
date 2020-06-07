@@ -3,7 +3,7 @@
 layout: class
 short_name: borrowed
 qualified_name: nda::borrowed
-namespaces: [nda]
+namespace: nda
 includer: nda/nda.hpp
 signature: struct borrowed
 

@@ -3,7 +3,7 @@
 layout: class
 short_name: default_accessor
 qualified_name: nda::default_accessor
-namespaces: [nda]
+namespace: nda
 includer: nda/nda.hpp
 signature: struct default_accessor
 

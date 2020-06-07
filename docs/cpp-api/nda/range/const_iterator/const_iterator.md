@@ -3,7 +3,7 @@
 layout: class
 short_name: const_iterator
 qualified_name: nda::range::const_iterator
-namespaces: [nda, range]
+namespace: nda::range
 includer: nda/nda.hpp
 signature: class const_iterator
 

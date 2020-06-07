@@ -3,7 +3,7 @@
 layout: class
 short_name: array_iterator
 qualified_name: nda::array_iterator
-namespaces: [nda]
+namespace: nda
 includer: nda/nda.hpp
 signature: |
   template <int Rank, typename T, typename Pointer>

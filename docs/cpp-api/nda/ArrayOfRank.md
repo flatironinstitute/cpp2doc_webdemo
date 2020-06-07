@@ -3,7 +3,6 @@
 layout: concept
 short_name: ArrayOfRank
 qualified_name: nda::ArrayOfRank
-namespaces: [nda]
 includer: nda/nda.hpp
 
 # Brief description. One line only.

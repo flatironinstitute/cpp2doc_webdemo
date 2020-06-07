@@ -35,6 +35,7 @@ module Jekyll
     r = '<ul class="navigation-list">'
     r += make_nav_left_menu_impl('', childs, nav_left_menu_table, permalink_to_title)
     r += '</ul>'
+    
     return r
 
     end

@@ -3,7 +3,7 @@
 layout: class
 short_name: array_adapter
 qualified_name: nda::array_adapter
-namespaces: [nda]
+namespace: nda
 includer: nda/nda.hpp
 signature: |
   template <int R, typename F>

@@ -2,7 +2,7 @@
 # Do not edit this first section
 layout: function
 fancy_name: (constructors)
-namespaces: [nda, idx_map]
+namespace: nda::idx_map
 includer: nda/nda.hpp
 
 # Brief description. One line only.

@@ -3,7 +3,7 @@
 layout: class
 short_name: no_alias_accessor
 qualified_name: nda::no_alias_accessor
-namespaces: [nda]
+namespace: nda
 includer: nda/nda.hpp
 signature: struct no_alias_accessor
 

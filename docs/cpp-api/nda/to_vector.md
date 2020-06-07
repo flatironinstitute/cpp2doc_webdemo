@@ -2,7 +2,7 @@
 # Do not edit this first section
 layout: function
 fancy_name: to_vector
-namespaces: [nda]
+namespace: nda
 includer: nda/nda.hpp
 
 # Brief description. One line only.

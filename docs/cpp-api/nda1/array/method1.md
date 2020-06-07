@@ -5,7 +5,7 @@ fancy_name: method1
 function_name: method1
 file_name: method1
 qualified_name: nda1::array::method1
-namespaces: [nda1, array]
+namespace: nda1::array
 includer: ""
 
 # Brief description. One line only.

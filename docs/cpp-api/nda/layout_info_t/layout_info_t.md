@@ -3,7 +3,7 @@
 layout: class
 short_name: layout_info_t
 qualified_name: nda::layout_info_t
-namespaces: [nda]
+namespace: nda
 includer: nda/nda.hpp
 signature: struct layout_info_t
 

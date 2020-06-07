@@ -3,7 +3,7 @@
 layout: class
 short_name: stack
 qualified_name: nda::stack
-namespaces: [nda]
+namespace: nda
 includer: nda/nda.hpp
 signature: struct stack
 
