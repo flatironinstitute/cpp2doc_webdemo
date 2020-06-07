@@ -3,7 +3,7 @@
 layout: class
 short_name: faulty_array
 qualified_name: sandbox::faulty_array
-namespaces: [sandbox]
+namespace: sandbox
 includer: ""
 signature: |
   template <typename T, int R = 99, typename U = long>

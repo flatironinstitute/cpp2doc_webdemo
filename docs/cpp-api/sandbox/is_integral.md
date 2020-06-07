@@ -3,7 +3,6 @@
 layout: concept
 short_name: is_integral
 qualified_name: sandbox::is_integral
-namespaces: [sandbox]
 includer: ""
 
 # Brief description. One line only.

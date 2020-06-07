@@ -3,7 +3,6 @@
 layout: concept
 short_name: convertible_to
 qualified_name: sandbox::impl::convertible_to
-namespaces: [sandbox, impl]
 includer: ""
 
 # Brief description. One line only.

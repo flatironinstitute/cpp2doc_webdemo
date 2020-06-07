@@ -2,7 +2,7 @@
 # Do not edit this first section
 layout: function
 fancy_name: f
-namespaces: [sandbox, ess1]
+namespace: sandbox::ess1
 includer: ""
 
 # Brief description. One line only.

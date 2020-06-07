@@ -3,7 +3,6 @@
 layout: concept
 short_name: ArrayOfT
 qualified_name: sandbox::ArrayOfT
-namespaces: [sandbox]
 includer: ""
 
 # Brief description. One line only.

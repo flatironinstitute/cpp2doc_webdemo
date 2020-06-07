@@ -20,7 +20,7 @@ classes:
   - myarray
   - faulty_array
   - runtime_error
-  - A45
+  - AB45
 functions:
   - maker
   - maker2

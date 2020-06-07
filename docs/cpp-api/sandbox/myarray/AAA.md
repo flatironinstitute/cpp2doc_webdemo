@@ -2,7 +2,7 @@
 # Do not edit this first section
 layout: function
 fancy_name: AAA
-namespaces: [sandbox, myarray]
+namespace: sandbox::myarray
 includer: ""
 
 # Brief description. One line only.

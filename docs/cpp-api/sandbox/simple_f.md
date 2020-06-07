@@ -2,7 +2,7 @@
 # Do not edit this first section
 layout: function
 fancy_name: simple_f
-namespaces: [sandbox]
+namespace: sandbox
 includer: ""
 
 # Brief description. One line only.

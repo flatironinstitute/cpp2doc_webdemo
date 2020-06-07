@@ -3,7 +3,7 @@
 layout: class
 short_name: ess1
 qualified_name: sandbox::ess1
-namespaces: [sandbox]
+namespace: sandbox
 includer: ""
 signature: |
   template <bool B>

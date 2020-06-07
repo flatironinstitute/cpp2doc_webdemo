@@ -2,7 +2,7 @@
 # Do not edit this first section
 layout: function
 fancy_name: operator=
-namespaces: [sandbox, runtime_error]
+namespace: sandbox::runtime_error
 includer: ""
 
 # Brief description. One line only.

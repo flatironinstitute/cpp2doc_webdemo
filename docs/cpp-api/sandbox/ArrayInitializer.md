@@ -3,7 +3,6 @@
 layout: concept
 short_name: ArrayInitializer
 qualified_name: sandbox::ArrayInitializer
-namespaces: [sandbox]
 includer: ""
 
 # Brief description. One line only.

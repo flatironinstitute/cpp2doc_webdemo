@@ -3,7 +3,7 @@
 layout: class
 short_name: runtime_error
 qualified_name: sandbox::runtime_error
-namespaces: [sandbox]
+namespace: sandbox
 includer: ""
 signature: class runtime_error
 

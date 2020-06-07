@@ -3,7 +3,7 @@
 layout: class
 short_name: myarray
 qualified_name: sandbox::myarray
-namespaces: [sandbox]
+namespace: sandbox
 includer: ""
 signature: |
   template <typename T, int R = 2>

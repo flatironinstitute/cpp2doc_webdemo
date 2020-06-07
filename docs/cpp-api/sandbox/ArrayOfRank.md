@@ -3,7 +3,6 @@
 layout: concept
 short_name: ArrayOfRank
 qualified_name: sandbox::ArrayOfRank
-namespaces: [sandbox]
 includer: ""
 
 # Brief description. One line only.

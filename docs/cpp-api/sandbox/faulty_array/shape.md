@@ -2,7 +2,7 @@
 # Do not edit this first section
 layout: function
 fancy_name: shape
-namespaces: [sandbox, faulty_array]
+namespace: sandbox::faulty_array
 includer: ""
 
 # Brief description. One line only.
