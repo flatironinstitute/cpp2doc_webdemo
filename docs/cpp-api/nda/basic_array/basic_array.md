@@ -25,33 +25,30 @@ desc: ""
 
 # A list of methods. You can reorder, regroup into a dict : groupname -> list
 methods:
-  - '':
-     - basic_array-constructors
-     - operator=
-     - resize
-     - indexmap
-     - stride_order
-     - data_start
-     - shape
-     - size
-     - is_empty
-     - extent
-     - is_stride_order_C
-     - is_stride_order_Fortran
-     - operator-call
-     - operator-index
-     - zeros
-     - empty
-  - Iterator:
-     - begin
-     - cbegin
-     - end
-     - cend
-  - Arithmetic:
-     - operator+=
-     - operator-=
-     - operator*=
-     - operator/=
+  - basic_array-constructors
+  - operator=
+  - resize
+  - indexmap
+  - stride_order
+  - data_start
+  - shape
+  - size
+  - is_empty
+  - extent
+  - is_stride_order_C
+  - is_stride_order_Fortran
+  - operator-call
+  - operator-index
+  - begin
+  - cbegin
+  - end
+  - cend
+  - operator+=
+  - operator-=
+  - operator*=
+  - operator/=
+  - zeros
+  - empty
 
 # A list of non_member_functions
 non_member_functions: []
