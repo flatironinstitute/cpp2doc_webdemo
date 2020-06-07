@@ -15,7 +15,7 @@ overloads:
 
   - signature: |
       template <sandbox::is_integral... Int>
-      myarray(Int... is) noexcept
+      explicit myarray(Int... is) noexcept
     desc: ""
 
   - signature: myarray(myarray const &)
@@ -45,7 +45,8 @@ see-also: []
 
 # ---------- DO NOT EDIT BELOW --------
 permalink: /cpp-api/sandbox/myarray/myarray-constructors
-title: sandbox::myarray::myarray<T, R>
+title: sandbox::myarray<T, R>::myarray
 parent: sandbox::myarray
+source: /Users/oparcollet/cpp2doc_webdemo/src/array_concept.cpp
 ...
 

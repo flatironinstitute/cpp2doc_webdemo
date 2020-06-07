@@ -6,7 +6,7 @@ qualified_name: sandbox::myarray
 namespaces: [sandbox]
 includer: ""
 signature: |
-  template <typename T, int R>
+  template <typename T, int R = 2>
   struct myarray
 
 # Template parameters of the function. Edit only the description after the :
@@ -32,6 +32,8 @@ methods:
       - shape
       - zozo
       - operator-compound
+
+  - __NOT_SORTED__: []
 
 # A list of non_member_functions
 non_member_functions: []

@@ -6,13 +6,14 @@ qualified_name: sandbox::faulty_array
 namespaces: [sandbox]
 includer: ""
 signature: |
-  template <typename T, int R>
+  template <typename T, int R = 99, typename U = long>
   struct faulty_array
 
 # Template parameters of the function. Edit only the description after the :
 tparams:
   T: __MISSING__
   R: __MISSING__
+  U: __MISSING__
 
 # Brief description. One line only.
 brief: ""

@@ -15,7 +15,12 @@ concepts:
   - ArrayOfRank
   - ArrayOfT
   - ArrayInitializer
-classes: [ess1, myarray, faulty_array]
+classes:
+  - ess1
+  - myarray
+  - faulty_array
+  - runtime_error
+  - A45
 functions:
   - maker
   - maker2

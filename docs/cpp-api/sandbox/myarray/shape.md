@@ -40,7 +40,8 @@ see-also: []
 
 # ---------- DO NOT EDIT BELOW --------
 permalink: /cpp-api/sandbox/myarray/shape
-title: sandbox::myarray::shape
+title: sandbox::myarray<T, R>::shape
 parent: sandbox::myarray
+source: /Users/oparcollet/cpp2doc_webdemo/src/array_concept.cpp
 ...
 

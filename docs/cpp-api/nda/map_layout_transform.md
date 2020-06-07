@@ -25,18 +25,6 @@ overloads:
       auto map_layout_transform(basic_array<T, R, L, Algebra, ContainerPolicy> &&a, NewLayoutType const &new_layout)
     desc: ""
 
-  - signature: |
-      template <typename T, int R, typename L, char Algebra, typename AccessorPolicy, typename OwningPolicy,
-                typename NewLayoutType>
-      auto map_layout_transform(basic_array_view<T, R, L, Algebra, AccessorPolicy, OwningPolicy> a,
-                                NewLayoutType const &new_layout)
-    desc: ""
-
-  - signature: |
-      template <typename T, int R, typename L, char Algebra, typename ContainerPolicy, typename NewLayoutType>
-      auto map_layout_transform(basic_array<T, R, L, Algebra, ContainerPolicy> &&a, NewLayoutType const &new_layout)
-    desc: ""
-
 # Long description. Any Markdown, with code, latex, multiline with |
 desc: ""
 
@@ -71,6 +59,6 @@ see-also: []
 permalink: /cpp-api/nda/map_layout_transform
 title: nda::map_layout_transform
 parent: nda
-source: nda/basic_array_view.hpp
+source: nda/layout_transforms.hpp
 ...
 

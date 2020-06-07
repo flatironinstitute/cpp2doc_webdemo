@@ -70,7 +70,6 @@ functions:
   - for_each
   - static_extents
   - <deduction guide for basic_array>
-  - map_layout_transform
   - zeros
   - make_regular
   - resize_or_check_if_view
@@ -83,6 +82,7 @@ functions:
   - check_grouping
   - stride_order_of_grouped_idx
   - group_indices_layout
+  - map_layout_transform
   - reshape
   - reshaped_view
   - permuted_indices_view
@@ -133,8 +133,6 @@ functions:
   - frobenius_norm
   - sum
 ...
-
-
 
 |---
 | | | 
