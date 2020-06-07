@@ -1,7 +1,7 @@
 ---
 # Do not edit this first section
 layout: namespace
-
+brief: " A brief **fesd**"
 # ---------- DO NOT EDIT BELOW --------
 permalink: /cpp-api/nda
 qualified_name: nda
@@ -127,47 +127,24 @@ functions:
   - sum
 ...
 
+# nda, a multi-dimensional array library
+
+Here are the main topics of the documention.
+For a complete index, see below.
+
 |---
 | | | 
 |:-:|:-:|:-:
-| Basic containers  <BR> *Explanation* | HDF5 <BR>  *Interface to HDF5 files*|  Linear Algebra<BR>  *Interface to BLAS/LAPACK* <BR> *Inverse, ...*
+| **Overview** <BR> [*Basic notions*](/cpp-api/nda/overview) | **Tutorial** <BR> *To Be Written* | **Installation** <BR> [Instructions](/cpp-api/nda/install) |  **Howtos** <BR> *Gallery of examples* |  
 |---
-| Basic containers  <BR> *Explanation* | HDF5 <BR>  *Hard*|  HDF5  <BR>  *Hard*
+|---
+| **Container** <BR> [[nda/basic_array]] | **Views** <BR> [[nda/basic_array_view]]  | **Concepts** <BR> [[nda/Array]], [[nda/ArrayOfRank]], ...
+|---
+|---
+| **Layout transformations**  <BR> *Reshape, reinterpret*  | **Arithmetic** <BR> *Array, Matrix algebra* <BR> *Basic operations*|  **Algorithms** <BR> *e.g. abs, max* <BR> *map*, *fold* 
+|---
+|---
+| **Linear Algebra** <BR> *Interface BLAS/LAPACK* <BR> *Eigen, ...* | **HDF5** |  **MPI**
 {: .table_top_page }
-
-
-
-
-* Some tables
-
-
-<T table 
-title: Algorithms
-file: nda
-key: Algorithms
-ncol: 3
-T>
-
-<BR>
-
-
-<T table 
-title: A table of function mapping
-file: nda
-key: ArrayFunction
-ncol: 3
-T>
-<BR>
-
-<T table 
-
-title:  A table of function mapping which do not apply to Matrices
-file: nda
-key: ArrayNoMatrixFunction
-ncol: 3
-collapsible: true 
-T>
-
-<BR>
 
 
