@@ -2,8 +2,6 @@
 # Do not edit this first section
 layout: function
 fancy_name: sqrt
-function_name: sqrt
-file_name: sqrt
 namespaces: [nda]
 includer: nda/nda.hpp
 

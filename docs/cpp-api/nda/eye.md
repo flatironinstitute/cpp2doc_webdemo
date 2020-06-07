@@ -2,8 +2,6 @@
 # Do not edit this first section
 layout: function
 fancy_name: eye
-function_name: eye
-file_name: eye
 namespaces: [nda]
 includer: nda/nda.hpp
 

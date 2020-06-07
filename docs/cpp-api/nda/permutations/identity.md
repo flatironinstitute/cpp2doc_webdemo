@@ -2,8 +2,6 @@
 # Do not edit this first section
 layout: function
 fancy_name: identity
-function_name: identity
-file_name: identity
 namespaces: [nda, permutations]
 includer: nda/nda.hpp
 

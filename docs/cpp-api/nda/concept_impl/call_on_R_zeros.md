@@ -2,8 +2,6 @@
 # Do not edit this first section
 layout: function
 fancy_name: call_on_R_zeros
-function_name: call_on_R_zeros
-file_name: call_on_R_zeros
 namespaces: [nda, concept_impl]
 includer: nda/nda.hpp
 

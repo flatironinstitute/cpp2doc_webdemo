@@ -2,8 +2,6 @@
 # Do not edit this first section
 layout: function
 fancy_name: pop
-function_name: pop
-file_name: pop
 namespaces: [nda]
 includer: nda/nda.hpp
 

@@ -2,8 +2,6 @@
 # Do not edit this first section
 layout: function
 fancy_name: (constructors)
-function_name: segregator
-file_name: segregator-constructors
 namespaces: [nda, allocators, segregator]
 includer: nda/nda.hpp
 

@@ -2,8 +2,6 @@
 # Do not edit this first section
 layout: function
 fancy_name: dot
-function_name: dot
-file_name: dot
 namespaces: [nda, blas, f77]
 includer: nda/nda.hpp
 

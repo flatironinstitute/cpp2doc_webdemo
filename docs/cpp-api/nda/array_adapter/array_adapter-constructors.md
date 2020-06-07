@@ -2,8 +2,6 @@
 # Do not edit this first section
 layout: function
 fancy_name: (constructors)
-function_name: array_adapter
-file_name: array_adapter-constructors
 namespaces: [nda, array_adapter]
 includer: nda/nda.hpp
 

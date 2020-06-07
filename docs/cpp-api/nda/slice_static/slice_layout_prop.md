@@ -2,8 +2,6 @@
 # Do not edit this first section
 layout: function
 fancy_name: slice_layout_prop
-function_name: slice_layout_prop
-file_name: slice_layout_prop
 namespaces: [nda, slice_static]
 includer: nda/nda.hpp
 

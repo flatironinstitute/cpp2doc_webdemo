@@ -2,8 +2,6 @@
 # Do not edit this first section
 layout: function
 fancy_name: (constructors)
-function_name: grid_iterator
-file_name: grid_iterator-constructors
 namespaces: [nda, grid_iterator]
 includer: nda/nda.hpp
 

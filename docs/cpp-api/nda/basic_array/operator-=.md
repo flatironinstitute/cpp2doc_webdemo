@@ -2,8 +2,6 @@
 # Do not edit this first section
 layout: function
 fancy_name: operator-=
-function_name: operator-=
-file_name: operator-=
 namespaces: [nda, basic_array]
 includer: nda/nda.hpp
 

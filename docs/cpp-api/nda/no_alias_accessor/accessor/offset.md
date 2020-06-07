@@ -2,8 +2,6 @@
 # Do not edit this first section
 layout: function
 fancy_name: offset
-function_name: offset
-file_name: offset
 namespaces: [nda, no_alias_accessor, accessor]
 includer: nda/nda.hpp
 

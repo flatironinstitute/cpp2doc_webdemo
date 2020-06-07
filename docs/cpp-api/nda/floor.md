@@ -2,8 +2,6 @@
 # Do not edit this first section
 layout: function
 fancy_name: floor
-function_name: floor
-file_name: floor
 namespaces: [nda]
 includer: nda/nda.hpp
 

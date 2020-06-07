@@ -2,8 +2,6 @@
 # Do not edit this first section
 layout: function
 fancy_name: access
-function_name: access
-file_name: access
 namespaces: [nda, default_accessor, accessor]
 includer: nda/nda.hpp
 

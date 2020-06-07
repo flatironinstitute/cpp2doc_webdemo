@@ -2,8 +2,6 @@
 # Do not edit this first section
 layout: function
 fancy_name: (destructor)
-function_name: ~handle_sso<T, Size>
-file_name: handle_sso-destructor
 namespaces: [nda, mem, handle_sso]
 includer: nda/nda.hpp
 

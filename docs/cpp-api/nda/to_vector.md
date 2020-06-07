@@ -2,8 +2,6 @@
 # Do not edit this first section
 layout: function
 fancy_name: to_vector
-function_name: to_vector
-file_name: to_vector
 namespaces: [nda]
 includer: nda/nda.hpp
 

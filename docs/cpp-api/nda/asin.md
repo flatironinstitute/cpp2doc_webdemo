@@ -2,8 +2,6 @@
 # Do not edit this first section
 layout: function
 fancy_name: asin
-function_name: asin
-file_name: asin
 namespaces: [nda]
 includer: nda/nda.hpp
 

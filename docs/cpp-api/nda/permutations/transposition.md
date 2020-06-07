@@ -2,8 +2,6 @@
 # Do not edit this first section
 layout: function
 fancy_name: transposition
-function_name: transposition
-file_name: transposition
 namespaces: [nda, permutations]
 includer: nda/nda.hpp
 

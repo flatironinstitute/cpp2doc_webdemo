@@ -2,8 +2,6 @@
 # Do not edit this first section
 layout: function
 fancy_name: (constructors)
-function_name: idx_map
-file_name: idx_map-constructors
 namespaces: [nda, idx_map]
 includer: nda/nda.hpp
 

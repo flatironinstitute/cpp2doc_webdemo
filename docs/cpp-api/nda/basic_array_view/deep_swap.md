@@ -2,8 +2,6 @@
 # Do not edit this first section
 layout: function
 fancy_name: deep_swap
-function_name: deep_swap
-file_name: deep_swap
 namespaces: [nda, basic_array_view]
 includer: nda/nda.hpp
 

@@ -2,8 +2,6 @@
 # Do not edit this first section
 layout: function
 fancy_name: make_initialized_array
-function_name: make_initialized_array
-file_name: make_initialized_array
 namespaces: [nda]
 includer: nda/nda.hpp
 

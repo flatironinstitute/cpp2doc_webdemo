@@ -2,8 +2,6 @@
 # Do not edit this first section
 layout: function
 fancy_name: (destructor)
-function_name: ~handle_heap<T, Allocator>
-file_name: handle_heap-destructor
 namespaces: [nda, mem, handle_heap]
 includer: nda/nda.hpp
 

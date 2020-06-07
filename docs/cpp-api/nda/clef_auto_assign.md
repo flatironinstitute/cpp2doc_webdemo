@@ -2,8 +2,6 @@
 # Do not edit this first section
 layout: function
 fancy_name: clef_auto_assign
-function_name: clef_auto_assign
-file_name: clef_auto_assign
 namespaces: [nda]
 includer: nda/nda.hpp
 

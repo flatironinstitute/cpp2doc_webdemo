@@ -2,8 +2,6 @@
 # Do not edit this first section
 layout: function
 fancy_name: get_ld
-function_name: get_ld
-file_name: get_ld
 namespaces: [nda, blas]
 includer: nda/nda.hpp
 

@@ -2,8 +2,6 @@
 # Do not edit this first section
 layout: function
 fancy_name: data_start
-function_name: data_start
-file_name: data_start
 namespaces: [nda, basic_array_view]
 includer: nda/nda.hpp
 

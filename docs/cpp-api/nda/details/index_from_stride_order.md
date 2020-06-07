@@ -2,8 +2,6 @@
 # Do not edit this first section
 layout: function
 fancy_name: index_from_stride_order
-function_name: index_from_stride_order
-file_name: index_from_stride_order
 namespaces: [nda, details]
 includer: nda/nda.hpp
 

@@ -2,8 +2,6 @@
 # Do not edit this first section
 layout: function
 fancy_name: matvecmul
-function_name: matvecmul
-file_name: matvecmul
 namespaces: [nda]
 includer: nda/nda.hpp
 

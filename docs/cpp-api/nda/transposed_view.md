@@ -2,8 +2,6 @@
 # Do not edit this first section
 layout: function
 fancy_name: transposed_view
-function_name: transposed_view
-file_name: transposed_view
 namespaces: [nda]
 includer: nda/nda.hpp
 

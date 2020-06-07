@@ -2,8 +2,6 @@
 # Do not edit this first section
 layout: function
 fancy_name: is_degradable
-function_name: is_degradable
-file_name: is_degradable
 namespaces: [nda]
 includer: nda/nda.hpp
 

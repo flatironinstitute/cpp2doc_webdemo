@@ -2,8 +2,6 @@
 # Do not edit this first section
 layout: function
 fancy_name: (constructors)
-function_name: ellipsis
-file_name: ellipsis-constructors
 namespaces: [nda, ellipsis]
 includer: nda/nda.hpp
 

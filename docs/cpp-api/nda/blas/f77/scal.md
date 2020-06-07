@@ -2,8 +2,6 @@
 # Do not edit this first section
 layout: function
 fancy_name: scal
-function_name: scal
-file_name: scal
 namespaces: [nda, blas, f77]
 includer: nda/nda.hpp
 

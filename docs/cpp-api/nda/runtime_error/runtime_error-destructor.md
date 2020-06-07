@@ -2,8 +2,6 @@
 # Do not edit this first section
 layout: function
 fancy_name: (destructor)
-function_name: ~runtime_error
-file_name: runtime_error-destructor
 namespaces: [nda, runtime_error]
 includer: nda/nda.hpp
 

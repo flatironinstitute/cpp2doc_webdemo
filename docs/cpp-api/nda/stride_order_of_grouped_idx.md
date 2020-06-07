@@ -2,8 +2,6 @@
 # Do not edit this first section
 layout: function
 fancy_name: stride_order_of_grouped_idx
-function_name: stride_order_of_grouped_idx
-file_name: stride_order_of_grouped_idx
 namespaces: [nda]
 includer: nda/nda.hpp
 

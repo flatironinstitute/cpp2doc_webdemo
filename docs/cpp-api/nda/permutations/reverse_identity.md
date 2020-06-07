@@ -2,8 +2,6 @@
 # Do not edit this first section
 layout: function
 fancy_name: reverse_identity
-function_name: reverse_identity
-file_name: reverse_identity
 namespaces: [nda, permutations]
 includer: nda/nda.hpp
 

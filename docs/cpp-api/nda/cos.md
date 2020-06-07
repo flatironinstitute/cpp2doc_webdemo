@@ -2,8 +2,6 @@
 # Do not edit this first section
 layout: function
 fancy_name: cos
-function_name: cos
-file_name: cos
 namespaces: [nda]
 includer: nda/nda.hpp
 

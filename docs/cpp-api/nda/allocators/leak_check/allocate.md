@@ -2,8 +2,6 @@
 # Do not edit this first section
 layout: function
 fancy_name: allocate
-function_name: allocate
-file_name: allocate
 namespaces: [nda, allocators, leak_check]
 includer: nda/nda.hpp
 

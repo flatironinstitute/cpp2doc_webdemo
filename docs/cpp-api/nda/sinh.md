@@ -2,8 +2,6 @@
 # Do not edit this first section
 layout: function
 fancy_name: sinh
-function_name: sinh
-file_name: sinh
 namespaces: [nda]
 includer: nda/nda.hpp
 

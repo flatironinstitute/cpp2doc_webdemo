@@ -2,8 +2,6 @@
 # Do not edit this first section
 layout: function
 fancy_name: incref
-function_name: incref
-file_name: incref
 namespaces: [nda, mem, handle_shared]
 includer: nda/nda.hpp
 

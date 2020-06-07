@@ -2,8 +2,6 @@
 # Do not edit this first section
 layout: function
 fancy_name: axpy
-function_name: axpy
-file_name: axpy
 namespaces: [nda, blas, f77]
 includer: nda/nda.hpp
 

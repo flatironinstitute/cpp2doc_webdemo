@@ -2,8 +2,6 @@
 # Do not edit this first section
 layout: function
 fancy_name: parent
-function_name: parent
-file_name: parent
 namespaces: [nda, mem, handle_borrowed]
 includer: nda/nda.hpp
 

@@ -2,8 +2,6 @@
 # Do not edit this first section
 layout: function
 fancy_name: ellipsis_position
-function_name: ellipsis_position
-file_name: ellipsis_position
 namespaces: [nda, slice_static, impl]
 includer: nda/nda.hpp
 

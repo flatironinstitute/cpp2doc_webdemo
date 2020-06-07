@@ -2,8 +2,6 @@
 # Do not edit this first section
 layout: function
 fancy_name: (constructors)
-function_name: handle_stack
-file_name: handle_stack-constructors
 namespaces: [nda, mem, handle_stack]
 includer: nda/nda.hpp
 

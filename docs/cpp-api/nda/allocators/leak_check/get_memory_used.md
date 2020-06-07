@@ -2,8 +2,6 @@
 # Do not edit this first section
 layout: function
 fancy_name: get_memory_used
-function_name: get_memory_used
-file_name: get_memory_used
 namespaces: [nda, allocators, leak_check]
 includer: nda/nda.hpp
 

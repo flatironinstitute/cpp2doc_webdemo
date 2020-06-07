@@ -2,8 +2,6 @@
 # Do not edit this first section
 layout: function
 fancy_name: min_element
-function_name: min_element
-file_name: min_element
 namespaces: [nda]
 includer: nda/nda.hpp
 

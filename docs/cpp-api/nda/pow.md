@@ -2,8 +2,6 @@
 # Do not edit this first section
 layout: function
 fancy_name: pow
-function_name: pow
-file_name: pow
 namespaces: [nda]
 includer: nda/nda.hpp
 

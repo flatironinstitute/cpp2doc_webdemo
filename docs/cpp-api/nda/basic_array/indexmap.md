@@ -2,8 +2,6 @@
 # Do not edit this first section
 layout: function
 fancy_name: indexmap
-function_name: indexmap
-file_name: indexmap
 namespaces: [nda, basic_array]
 includer: nda/nda.hpp
 

@@ -2,8 +2,6 @@
 # Do not edit this first section
 layout: function
 fancy_name: rank
-function_name: rank
-file_name: rank
 namespaces: [nda, idx_map]
 includer: nda/nda.hpp
 

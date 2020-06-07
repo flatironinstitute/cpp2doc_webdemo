@@ -2,8 +2,6 @@
 # Do not edit this first section
 layout: function
 fancy_name: swap
-function_name: swap
-file_name: swap
 namespaces: [nda, basic_array_view]
 includer: nda/nda.hpp
 

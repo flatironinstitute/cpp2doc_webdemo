@@ -2,8 +2,6 @@
 # Do not edit this first section
 layout: function
 fancy_name: (destructor)
-function_name: ~leak_check<A>
-file_name: leak_check-destructor
 namespaces: [nda, allocators, leak_check]
 includer: nda/nda.hpp
 

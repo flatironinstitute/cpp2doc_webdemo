@@ -2,8 +2,6 @@
 # Do not edit this first section
 layout: function
 fancy_name: decref
-function_name: decref
-file_name: decref
 namespaces: [nda, mem, rtable_t]
 includer: nda/nda.hpp
 

@@ -2,8 +2,6 @@
 # Do not edit this first section
 layout: function
 fancy_name: tanh
-function_name: tanh
-file_name: tanh
 namespaces: [nda]
 includer: nda/nda.hpp
 

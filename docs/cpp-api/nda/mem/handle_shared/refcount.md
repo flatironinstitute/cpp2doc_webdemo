@@ -2,8 +2,6 @@
 # Do not edit this first section
 layout: function
 fancy_name: refcount
-function_name: refcount
-file_name: refcount
 namespaces: [nda, mem, handle_shared]
 includer: nda/nda.hpp
 

@@ -2,8 +2,6 @@
 # Do not edit this first section
 layout: function
 fancy_name: <deduction guide for array_adapter>
-function_name: <deduction guide for array_adapter>
-file_name: <deduction guide for array_adapter>
 namespaces: [nda]
 includer: nda/nda.hpp
 

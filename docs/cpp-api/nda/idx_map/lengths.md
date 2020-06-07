@@ -2,8 +2,6 @@
 # Do not edit this first section
 layout: function
 fancy_name: lengths
-function_name: lengths
-file_name: lengths
 namespaces: [nda, idx_map]
 includer: nda/nda.hpp
 

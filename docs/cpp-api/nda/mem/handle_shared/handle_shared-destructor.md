@@ -2,8 +2,6 @@
 # Do not edit this first section
 layout: function
 fancy_name: (destructor)
-function_name: ~handle_shared<T>
-file_name: handle_shared-destructor
 namespaces: [nda, mem, handle_shared]
 includer: nda/nda.hpp
 

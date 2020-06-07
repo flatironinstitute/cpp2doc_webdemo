@@ -101,7 +101,7 @@ functions:
   - operator+
   - operator-
   - operator*
-  - operator/
+  - ""
   - inverse
   - map
   - conj_r

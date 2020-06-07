@@ -2,8 +2,6 @@
 # Do not edit this first section
 layout: function
 fancy_name: fold
-function_name: fold
-file_name: fold
 namespaces: [nda]
 includer: nda/nda.hpp
 

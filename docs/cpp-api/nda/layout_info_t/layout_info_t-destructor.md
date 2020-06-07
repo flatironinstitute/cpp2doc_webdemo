@@ -2,8 +2,6 @@
 # Do not edit this first section
 layout: function
 fancy_name: (destructor)
-function_name: ~layout_info_t
-file_name: layout_info_t-destructor
 namespaces: [nda, layout_info_t]
 includer: nda/nda.hpp
 

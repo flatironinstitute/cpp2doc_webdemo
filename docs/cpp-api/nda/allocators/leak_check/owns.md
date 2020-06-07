@@ -2,8 +2,6 @@
 # Do not edit this first section
 layout: function
 fancy_name: owns
-function_name: owns
-file_name: owns
 namespaces: [nda, allocators, leak_check]
 includer: nda/nda.hpp
 

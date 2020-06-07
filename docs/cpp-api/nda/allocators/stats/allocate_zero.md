@@ -2,8 +2,6 @@
 # Do not edit this first section
 layout: function
 fancy_name: allocate_zero
-function_name: allocate_zero
-file_name: allocate_zero
 namespaces: [nda, allocators, stats]
 includer: nda/nda.hpp
 

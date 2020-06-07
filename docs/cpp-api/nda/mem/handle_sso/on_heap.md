@@ -2,8 +2,6 @@
 # Do not edit this first section
 layout: function
 fancy_name: on_heap
-function_name: on_heap
-file_name: on_heap
 namespaces: [nda, mem, handle_sso]
 includer: nda/nda.hpp
 

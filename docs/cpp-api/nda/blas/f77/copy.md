@@ -2,8 +2,6 @@
 # Do not edit this first section
 layout: function
 fancy_name: copy
-function_name: copy
-file_name: copy
 namespaces: [nda, blas, f77]
 includer: nda/nda.hpp
 

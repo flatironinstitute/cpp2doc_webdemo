@@ -2,8 +2,6 @@
 # Do not edit this first section
 layout: function
 fancy_name: shape
-function_name: shape
-file_name: shape
 namespaces: [nda, basic_array]
 includer: nda/nda.hpp
 

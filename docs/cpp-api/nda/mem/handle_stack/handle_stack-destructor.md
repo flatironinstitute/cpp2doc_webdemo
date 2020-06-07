@@ -2,8 +2,6 @@
 # Do not edit this first section
 layout: function
 fancy_name: (destructor)
-function_name: ~handle_stack<T, Size>
-file_name: handle_stack-destructor
 namespaces: [nda, mem, handle_stack]
 includer: nda/nda.hpp
 

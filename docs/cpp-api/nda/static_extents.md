@@ -2,8 +2,6 @@
 # Do not edit this first section
 layout: function
 fancy_name: static_extents
-function_name: static_extents
-file_name: static_extents
 namespaces: [nda]
 includer: nda/nda.hpp
 

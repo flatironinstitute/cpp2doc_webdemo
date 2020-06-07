@@ -2,8 +2,6 @@
 # Do not edit this first section
 layout: function
 fancy_name: (constructors)
-function_name: array_iterator
-file_name: array_iterator-constructors
 namespaces: [nda, array_iterator]
 includer: nda/nda.hpp
 

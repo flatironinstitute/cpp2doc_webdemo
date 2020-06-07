@@ -2,8 +2,6 @@
 # Do not edit this first section
 layout: function
 fancy_name: make_std_array
-function_name: make_std_array
-file_name: make_std_array
 namespaces: [nda]
 includer: nda/nda.hpp
 

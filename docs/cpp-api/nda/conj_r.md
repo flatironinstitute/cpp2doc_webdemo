@@ -2,8 +2,6 @@
 # Do not edit this first section
 layout: function
 fancy_name: conj_r
-function_name: conj_r
-file_name: conj_r
 namespaces: [nda]
 includer: nda/nda.hpp
 

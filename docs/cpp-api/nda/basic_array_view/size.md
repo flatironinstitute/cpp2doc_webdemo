@@ -2,8 +2,6 @@
 # Do not edit this first section
 layout: function
 fancy_name: size
-function_name: size
-file_name: size
 namespaces: [nda, basic_array_view]
 includer: nda/nda.hpp
 

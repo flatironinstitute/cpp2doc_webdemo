@@ -2,8 +2,6 @@
 # Do not edit this first section
 layout: function
 fancy_name: join
-function_name: join
-file_name: join
 namespaces: [nda]
 includer: nda/nda.hpp
 

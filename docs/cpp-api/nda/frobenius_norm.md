@@ -2,8 +2,6 @@
 # Do not edit this first section
 layout: function
 fancy_name: frobenius_norm
-function_name: frobenius_norm
-file_name: frobenius_norm
 namespaces: [nda]
 includer: nda/nda.hpp
 

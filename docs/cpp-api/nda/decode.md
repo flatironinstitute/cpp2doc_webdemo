@@ -2,8 +2,6 @@
 # Do not edit this first section
 layout: function
 fancy_name: decode
-function_name: decode
-file_name: decode
 namespaces: [nda]
 includer: nda/nda.hpp
 

@@ -2,8 +2,6 @@
 # Do not edit this first section
 layout: function
 fancy_name: empty
-function_name: empty
-file_name: empty
 namespaces: [nda, allocators, leak_check]
 includer: nda/nda.hpp
 

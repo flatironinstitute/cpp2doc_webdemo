@@ -2,8 +2,6 @@
 # Do not edit this first section
 layout: function
 fancy_name: f
-function_name: f
-file_name: f
 namespaces: [nda, details, bound_check_worker]
 includer: nda/nda.hpp
 

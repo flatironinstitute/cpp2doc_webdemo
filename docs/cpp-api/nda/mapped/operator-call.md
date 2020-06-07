@@ -2,8 +2,6 @@
 # Do not edit this first section
 layout: function
 fancy_name: operator()
-function_name: operator()
-file_name: operator-call
 namespaces: [nda, mapped]
 includer: nda/nda.hpp
 

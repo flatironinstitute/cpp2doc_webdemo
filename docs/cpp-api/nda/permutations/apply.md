@@ -2,8 +2,6 @@
 # Do not edit this first section
 layout: function
 fancy_name: apply
-function_name: apply
-file_name: apply
 namespaces: [nda, permutations]
 includer: nda/nda.hpp
 

@@ -2,8 +2,6 @@
 # Do not edit this first section
 layout: function
 fancy_name: make_regular
-function_name: make_regular
-file_name: make_regular
 namespaces: [nda]
 includer: nda/nda.hpp
 

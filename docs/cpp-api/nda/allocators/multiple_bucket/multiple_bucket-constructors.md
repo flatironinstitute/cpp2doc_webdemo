@@ -2,8 +2,6 @@
 # Do not edit this first section
 layout: function
 fancy_name: (constructors)
-function_name: multiple_bucket
-file_name: multiple_bucket-constructors
 namespaces: [nda, allocators, multiple_bucket]
 includer: nda/nda.hpp
 

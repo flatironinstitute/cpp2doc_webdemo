@@ -2,8 +2,6 @@
 # Do not edit this first section
 layout: function
 fancy_name: (destructor)
-function_name: ~stats<A>
-file_name: stats-destructor
 namespaces: [nda, allocators, stats]
 includer: nda/nda.hpp
 

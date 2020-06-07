@@ -2,8 +2,6 @@
 # Do not edit this first section
 layout: function
 fancy_name: map
-function_name: map
-file_name: map
 namespaces: [nda]
 includer: nda/nda.hpp
 

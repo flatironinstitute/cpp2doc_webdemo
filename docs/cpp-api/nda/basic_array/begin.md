@@ -2,8 +2,6 @@
 # Do not edit this first section
 layout: function
 fancy_name: begin
-function_name: begin
-file_name: begin
 namespaces: [nda, basic_array]
 includer: nda/nda.hpp
 

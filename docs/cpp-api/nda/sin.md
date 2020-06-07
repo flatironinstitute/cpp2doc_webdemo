@@ -2,8 +2,6 @@
 # Do not edit this first section
 layout: function
 fancy_name: sin
-function_name: sin
-file_name: sin
 namespaces: [nda]
 includer: nda/nda.hpp
 

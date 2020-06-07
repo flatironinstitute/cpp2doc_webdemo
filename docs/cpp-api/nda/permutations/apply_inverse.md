@@ -2,8 +2,6 @@
 # Do not edit this first section
 layout: function
 fancy_name: apply_inverse
-function_name: apply_inverse
-file_name: apply_inverse
 namespaces: [nda, permutations]
 includer: nda/nda.hpp
 

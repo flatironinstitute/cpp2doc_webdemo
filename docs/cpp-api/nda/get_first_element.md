@@ -2,8 +2,6 @@
 # Do not edit this first section
 layout: function
 fancy_name: get_first_element
-function_name: get_first_element
-file_name: get_first_element
 namespaces: [nda]
 includer: nda/nda.hpp
 

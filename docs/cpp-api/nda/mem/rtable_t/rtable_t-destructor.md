@@ -2,8 +2,6 @@
 # Do not edit this first section
 layout: function
 fancy_name: (destructor)
-function_name: ~rtable_t
-file_name: rtable_t-destructor
 namespaces: [nda, mem, rtable_t]
 includer: nda/nda.hpp
 

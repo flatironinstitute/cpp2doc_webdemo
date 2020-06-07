@@ -2,8 +2,6 @@
 # Do not edit this first section
 layout: function
 fancy_name: operator[]
-function_name: operator[]
-file_name: operator-index
 namespaces: [nda, basic_array_view]
 includer: nda/nda.hpp
 

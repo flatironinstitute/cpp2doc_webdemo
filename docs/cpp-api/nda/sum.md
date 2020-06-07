@@ -2,8 +2,6 @@
 # Do not edit this first section
 layout: function
 fancy_name: sum
-function_name: sum
-file_name: sum
 namespaces: [nda]
 includer: nda/nda.hpp
 

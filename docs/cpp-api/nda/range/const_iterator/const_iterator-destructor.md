@@ -2,8 +2,6 @@
 # Do not edit this first section
 layout: function
 fancy_name: (destructor)
-function_name: ~const_iterator
-file_name: const_iterator-destructor
 namespaces: [nda, range, const_iterator]
 includer: nda/nda.hpp
 

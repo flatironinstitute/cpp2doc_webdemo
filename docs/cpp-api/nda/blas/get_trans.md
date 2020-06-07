@@ -2,8 +2,6 @@
 # Do not edit this first section
 layout: function
 fancy_name: get_trans
-function_name: get_trans
-file_name: get_trans
 namespaces: [nda, blas]
 includer: nda/nda.hpp
 

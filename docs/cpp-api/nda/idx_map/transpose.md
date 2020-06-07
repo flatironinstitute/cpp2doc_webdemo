@@ -2,8 +2,6 @@
 # Do not edit this first section
 layout: function
 fancy_name: transpose
-function_name: transpose
-file_name: transpose
 namespaces: [nda, idx_map]
 includer: nda/nda.hpp
 

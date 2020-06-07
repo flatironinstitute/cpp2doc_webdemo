@@ -2,8 +2,6 @@
 # Do not edit this first section
 layout: function
 fancy_name: rank_are_compatible
-function_name: rank_are_compatible
-file_name: rank_are_compatible
 namespaces: [nda]
 includer: nda/nda.hpp
 

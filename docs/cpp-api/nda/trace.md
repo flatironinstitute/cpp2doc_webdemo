@@ -2,8 +2,6 @@
 # Do not edit this first section
 layout: function
 fancy_name: trace
-function_name: trace
-file_name: trace
 namespaces: [nda]
 includer: nda/nda.hpp
 

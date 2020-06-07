@@ -2,8 +2,6 @@
 # Do not edit this first section
 layout: function
 fancy_name: get_extent
-function_name: get_extent
-file_name: get_extent
 namespaces: [nda, details]
 includer: nda/nda.hpp
 

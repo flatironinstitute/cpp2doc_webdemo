@@ -2,8 +2,6 @@
 # Do not edit this first section
 layout: function
 fancy_name: min_stride
-function_name: min_stride
-file_name: min_stride
 namespaces: [nda, idx_map]
 includer: nda/nda.hpp
 

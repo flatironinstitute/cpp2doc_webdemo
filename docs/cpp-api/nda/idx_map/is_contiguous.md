@@ -2,8 +2,6 @@
 # Do not edit this first section
 layout: function
 fancy_name: is_contiguous
-function_name: is_contiguous
-file_name: is_contiguous
 namespaces: [nda, idx_map]
 includer: nda/nda.hpp
 

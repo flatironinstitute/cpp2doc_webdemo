@@ -2,8 +2,6 @@
 # Do not edit this first section
 layout: function
 fancy_name: front_append
-function_name: front_append
-file_name: front_append
 namespaces: [nda]
 includer: nda/nda.hpp
 

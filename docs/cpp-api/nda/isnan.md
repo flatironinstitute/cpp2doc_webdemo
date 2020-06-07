@@ -2,8 +2,6 @@
 # Do not edit this first section
 layout: function
 fancy_name: isnan
-function_name: isnan
-file_name: isnan
 namespaces: [nda]
 includer: nda/nda.hpp
 

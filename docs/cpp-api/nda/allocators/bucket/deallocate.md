@@ -2,8 +2,6 @@
 # Do not edit this first section
 layout: function
 fancy_name: deallocate
-function_name: deallocate
-file_name: deallocate
 namespaces: [nda, allocators, bucket]
 includer: nda/nda.hpp
 

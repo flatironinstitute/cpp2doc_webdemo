@@ -2,8 +2,6 @@
 # Do not edit this first section
 layout: function
 fancy_name: max_element
-function_name: max_element
-file_name: max_element
 namespaces: [nda]
 includer: nda/nda.hpp
 

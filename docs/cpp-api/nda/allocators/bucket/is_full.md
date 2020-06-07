@@ -2,8 +2,6 @@
 # Do not edit this first section
 layout: function
 fancy_name: is_full
-function_name: is_full
-file_name: is_full
 namespaces: [nda, allocators, bucket]
 includer: nda/nda.hpp
 

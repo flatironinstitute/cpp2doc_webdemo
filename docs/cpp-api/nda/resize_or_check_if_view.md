@@ -2,8 +2,6 @@
 # Do not edit this first section
 layout: function
 fancy_name: resize_or_check_if_view
-function_name: resize_or_check_if_view
-file_name: resize_or_check_if_view
 namespaces: [nda]
 includer: nda/nda.hpp
 

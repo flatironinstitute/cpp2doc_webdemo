@@ -2,8 +2,6 @@
 # Do not edit this first section
 layout: function
 fancy_name: q_of_p_map
-function_name: q_of_p_map
-file_name: q_of_p_map
 namespaces: [nda, slice_static]
 includer: nda/nda.hpp
 

@@ -2,8 +2,6 @@
 # Do not edit this first section
 layout: function
 fancy_name: strides
-function_name: strides
-file_name: strides
 namespaces: [nda, idx_map]
 includer: nda/nda.hpp
 

@@ -2,8 +2,6 @@
 # Do not edit this first section
 layout: function
 fancy_name: (constructors)
-function_name: range
-file_name: range-constructors
 namespaces: [nda, range]
 includer: nda/nda.hpp
 

@@ -2,8 +2,6 @@
 # Do not edit this first section
 layout: function
 fancy_name: vstack
-function_name: vstack
-file_name: vstack
 namespaces: [nda]
 includer: nda/nda.hpp
 

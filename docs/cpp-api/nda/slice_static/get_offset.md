@@ -2,8 +2,6 @@
 # Do not edit this first section
 layout: function
 fancy_name: get_offset
-function_name: get_offset
-file_name: get_offset
 namespaces: [nda, slice_static]
 includer: nda/nda.hpp
 

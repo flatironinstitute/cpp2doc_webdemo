@@ -2,8 +2,6 @@
 # Do not edit this first section
 layout: function
 fancy_name: (constructors)
-function_name: bucket
-file_name: bucket-constructors
 namespaces: [nda, allocators, bucket]
 includer: nda/nda.hpp
 

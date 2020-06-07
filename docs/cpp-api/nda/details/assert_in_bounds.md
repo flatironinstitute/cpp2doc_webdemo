@@ -2,8 +2,6 @@
 # Do not edit this first section
 layout: function
 fancy_name: assert_in_bounds
-function_name: assert_in_bounds
-file_name: assert_in_bounds
 namespaces: [nda, details]
 includer: nda/nda.hpp
 

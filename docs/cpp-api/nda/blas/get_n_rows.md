@@ -2,8 +2,6 @@
 # Do not edit this first section
 layout: function
 fancy_name: get_n_rows
-function_name: get_n_rows
-file_name: get_n_rows
 namespaces: [nda, blas]
 includer: nda/nda.hpp
 

@@ -2,8 +2,6 @@
 # Do not edit this first section
 layout: function
 fancy_name: atan
-function_name: atan
-file_name: atan
 namespaces: [nda]
 includer: nda/nda.hpp
 

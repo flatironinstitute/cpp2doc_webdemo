@@ -2,8 +2,6 @@
 # Do not edit this first section
 layout: function
 fancy_name: zeros
-function_name: zeros
-file_name: zeros
 namespaces: [nda, basic_array]
 includer: nda/nda.hpp
 

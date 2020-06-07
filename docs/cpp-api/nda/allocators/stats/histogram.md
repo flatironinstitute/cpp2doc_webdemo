@@ -2,8 +2,6 @@
 # Do not edit this first section
 layout: function
 fancy_name: histogram
-function_name: histogram
-file_name: histogram
 namespaces: [nda, allocators, stats]
 includer: nda/nda.hpp
 

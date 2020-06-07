@@ -2,8 +2,6 @@
 # Do not edit this first section
 layout: function
 fancy_name: conj
-function_name: conj
-file_name: conj
 namespaces: [nda]
 includer: nda/nda.hpp
 

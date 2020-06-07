@@ -2,8 +2,6 @@
 # Do not edit this first section
 layout: function
 fancy_name: check_grouping
-function_name: check_grouping
-file_name: check_grouping
 namespaces: [nda]
 includer: nda/nda.hpp
 

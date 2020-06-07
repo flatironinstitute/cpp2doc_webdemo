@@ -2,8 +2,6 @@
 # Do not edit this first section
 layout: function
 fancy_name: q_of_n
-function_name: q_of_n
-file_name: q_of_n
 namespaces: [nda, slice_static]
 includer: nda/nda.hpp
 

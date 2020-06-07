@@ -2,8 +2,6 @@
 # Do not edit this first section
 layout: function
 fancy_name: (constructors)
-function_name: handle_borrowed
-file_name: handle_borrowed-constructors
 namespaces: [nda, mem, handle_borrowed]
 includer: nda/nda.hpp
 

@@ -2,8 +2,6 @@
 # Do not edit this first section
 layout: function
 fancy_name: matmul
-function_name: matmul
-file_name: matmul
 namespaces: [nda]
 includer: nda/nda.hpp
 

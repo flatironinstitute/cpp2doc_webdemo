@@ -2,8 +2,6 @@
 # Do not edit this first section
 layout: function
 fancy_name: ce_size
-function_name: ce_size
-file_name: ce_size
 namespaces: [nda, idx_map]
 includer: nda/nda.hpp
 

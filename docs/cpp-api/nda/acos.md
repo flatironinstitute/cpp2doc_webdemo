@@ -2,8 +2,6 @@
 # Do not edit this first section
 layout: function
 fancy_name: acos
-function_name: acos
-file_name: acos
 namespaces: [nda]
 includer: nda/nda.hpp
 

@@ -2,8 +2,6 @@
 # Do not edit this first section
 layout: function
 fancy_name: (destructor)
-function_name: ~range_all
-file_name: range_all-destructor
 namespaces: [nda, range_all]
 includer: nda/nda.hpp
 

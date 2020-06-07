@@ -2,8 +2,6 @@
 # Do not edit this first section
 layout: function
 fancy_name: (constructors)
-function_name: stats
-file_name: stats-constructors
 namespaces: [nda, allocators, stats]
 includer: nda/nda.hpp
 

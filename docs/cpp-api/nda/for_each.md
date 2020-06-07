@@ -2,8 +2,6 @@
 # Do not edit this first section
 layout: function
 fancy_name: for_each
-function_name: for_each
-file_name: for_each
 namespaces: [nda]
 includer: nda/nda.hpp
 

@@ -2,8 +2,6 @@
 # Do not edit this first section
 layout: function
 fancy_name: ger
-function_name: ger
-file_name: ger
 namespaces: [nda, blas, f77]
 includer: nda/nda.hpp
 

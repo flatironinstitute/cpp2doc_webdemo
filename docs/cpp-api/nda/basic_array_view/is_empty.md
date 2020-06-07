@@ -2,8 +2,6 @@
 # Do not edit this first section
 layout: function
 fancy_name: is_empty
-function_name: is_empty
-file_name: is_empty
 namespaces: [nda, basic_array_view]
 includer: nda/nda.hpp
 

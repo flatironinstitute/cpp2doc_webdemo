@@ -2,8 +2,6 @@
 # Do not edit this first section
 layout: function
 fancy_name: (constructors)
-function_name: rtable_t
-file_name: rtable_t-constructors
 namespaces: [nda, mem, rtable_t]
 includer: nda/nda.hpp
 

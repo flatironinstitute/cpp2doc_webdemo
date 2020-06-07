@@ -2,8 +2,6 @@
 # Do not edit this first section
 layout: function
 fancy_name: first
-function_name: first
-file_name: first
 namespaces: [nda, range]
 includer: nda/nda.hpp
 

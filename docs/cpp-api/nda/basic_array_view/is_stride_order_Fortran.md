@@ -2,8 +2,6 @@
 # Do not edit this first section
 layout: function
 fancy_name: is_stride_order_Fortran
-function_name: is_stride_order_Fortran
-file_name: is_stride_order_Fortran
 namespaces: [nda, basic_array_view]
 includer: nda/nda.hpp
 

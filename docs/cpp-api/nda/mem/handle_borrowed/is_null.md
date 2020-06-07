@@ -2,8 +2,6 @@
 # Do not edit this first section
 layout: function
 fancy_name: is_null
-function_name: is_null
-file_name: is_null
 namespaces: [nda, mem, handle_borrowed]
 includer: nda/nda.hpp
 

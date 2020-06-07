@@ -2,8 +2,6 @@
 # Do not edit this first section
 layout: function
 fancy_name: common_algebra
-function_name: common_algebra
-file_name: common_algebra
 namespaces: [nda]
 includer: nda/nda.hpp
 

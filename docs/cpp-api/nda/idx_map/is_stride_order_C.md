@@ -2,8 +2,6 @@
 # Do not edit this first section
 layout: function
 fancy_name: is_stride_order_C
-function_name: is_stride_order_C
-file_name: is_stride_order_C
 namespaces: [nda, idx_map]
 includer: nda/nda.hpp
 

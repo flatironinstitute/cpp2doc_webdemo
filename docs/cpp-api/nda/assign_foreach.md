@@ -2,8 +2,6 @@
 # Do not edit this first section
 layout: function
 fancy_name: assign_foreach
-function_name: assign_foreach
-file_name: assign_foreach
 namespaces: [nda]
 includer: nda/nda.hpp
 

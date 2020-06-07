@@ -2,8 +2,6 @@
 # Do not edit this first section
 layout: function
 fancy_name: get_s
-function_name: get_s
-file_name: get_s
 namespaces: [nda, slice_static]
 includer: nda/nda.hpp
 

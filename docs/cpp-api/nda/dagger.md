@@ -2,8 +2,6 @@
 # Do not edit this first section
 layout: function
 fancy_name: dagger
-function_name: dagger
-file_name: dagger
 namespaces: [nda]
 includer: nda/nda.hpp
 

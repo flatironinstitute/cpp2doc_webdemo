@@ -2,8 +2,6 @@
 # Do not edit this first section
 layout: function
 fancy_name: cbegin
-function_name: cbegin
-file_name: cbegin
 namespaces: [nda, basic_array_view]
 includer: nda/nda.hpp
 

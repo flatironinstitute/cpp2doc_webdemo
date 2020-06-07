@@ -2,8 +2,6 @@
 # Do not edit this first section
 layout: function
 fancy_name: rebind
-function_name: rebind
-file_name: rebind
 namespaces: [nda, basic_array_view]
 includer: nda/nda.hpp
 

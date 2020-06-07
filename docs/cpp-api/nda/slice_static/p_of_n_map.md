@@ -2,8 +2,6 @@
 # Do not edit this first section
 layout: function
 fancy_name: p_of_n_map
-function_name: p_of_n_map
-file_name: p_of_n_map
 namespaces: [nda, slice_static]
 includer: nda/nda.hpp
 

@@ -2,8 +2,6 @@
 # Do not edit this first section
 layout: function
 fancy_name: inverse
-function_name: inverse
-file_name: inverse
 namespaces: [nda]
 includer: nda/nda.hpp
 

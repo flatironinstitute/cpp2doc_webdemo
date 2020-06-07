@@ -2,8 +2,6 @@
 # Do not edit this first section
 layout: function
 fancy_name: reshape
-function_name: reshape
-file_name: reshape
 namespaces: [nda]
 includer: nda/nda.hpp
 

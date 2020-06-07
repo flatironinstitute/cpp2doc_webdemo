@@ -2,8 +2,6 @@
 # Do not edit this first section
 layout: function
 fancy_name: imag
-function_name: imag
-file_name: imag
 namespaces: [nda]
 includer: nda/nda.hpp
 

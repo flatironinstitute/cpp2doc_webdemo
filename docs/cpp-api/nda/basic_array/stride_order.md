@@ -2,8 +2,6 @@
 # Do not edit this first section
 layout: function
 fancy_name: stride_order
-function_name: stride_order
-file_name: stride_order
 namespaces: [nda, basic_array]
 includer: nda/nda.hpp
 

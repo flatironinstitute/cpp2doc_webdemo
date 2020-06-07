@@ -2,8 +2,6 @@
 # Do not edit this first section
 layout: function
 fancy_name: round_to_align
-function_name: round_to_align
-file_name: round_to_align
 namespaces: [nda, allocators]
 includer: nda/nda.hpp
 

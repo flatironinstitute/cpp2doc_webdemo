@@ -2,8 +2,6 @@
 # Do not edit this first section
 layout: function
 fancy_name: make_matrix_const_view
-function_name: make_matrix_const_view
-file_name: make_matrix_const_view
 namespaces: [nda]
 includer: nda/nda.hpp
 

@@ -2,8 +2,6 @@
 # Do not edit this first section
 layout: function
 fancy_name: front_mpop
-function_name: front_mpop
-file_name: front_mpop
 namespaces: [nda]
 includer: nda/nda.hpp
 

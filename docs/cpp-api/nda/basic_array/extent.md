@@ -2,8 +2,6 @@
 # Do not edit this first section
 layout: function
 fancy_name: extent
-function_name: extent
-file_name: extent
 namespaces: [nda, basic_array]
 includer: nda/nda.hpp
 

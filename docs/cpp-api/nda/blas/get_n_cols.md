@@ -2,8 +2,6 @@
 # Do not edit this first section
 layout: function
 fancy_name: get_n_cols
-function_name: get_n_cols
-file_name: get_n_cols
 namespaces: [nda, blas]
 includer: nda/nda.hpp
 

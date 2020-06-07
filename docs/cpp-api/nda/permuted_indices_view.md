@@ -2,8 +2,6 @@
 # Do not edit this first section
 layout: function
 fancy_name: permuted_indices_view
-function_name: permuted_indices_view
-file_name: permuted_indices_view
 namespaces: [nda]
 includer: nda/nda.hpp
 

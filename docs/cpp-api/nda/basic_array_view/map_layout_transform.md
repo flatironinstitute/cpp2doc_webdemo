@@ -2,8 +2,6 @@
 # Do not edit this first section
 layout: function
 fancy_name: map_layout_transform
-function_name: map_layout_transform
-file_name: map_layout_transform
 namespaces: [nda, basic_array_view]
 includer: nda/nda.hpp
 

@@ -2,8 +2,6 @@
 # Do not edit this first section
 layout: function
 fancy_name: sliced_mem_stride_order
-function_name: sliced_mem_stride_order
-file_name: sliced_mem_stride_order
 namespaces: [nda, slice_static]
 includer: nda/nda.hpp
 

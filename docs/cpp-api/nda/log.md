@@ -2,8 +2,6 @@
 # Do not edit this first section
 layout: function
 fancy_name: log
-function_name: log
-file_name: log
 namespaces: [nda]
 includer: nda/nda.hpp
 

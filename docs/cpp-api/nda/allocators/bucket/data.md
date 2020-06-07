@@ -2,8 +2,6 @@
 # Do not edit this first section
 layout: function
 fancy_name: data
-function_name: data
-file_name: data
 namespaces: [nda, allocators, bucket]
 includer: nda/nda.hpp
 

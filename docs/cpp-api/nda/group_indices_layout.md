@@ -2,8 +2,6 @@
 # Do not edit this first section
 layout: function
 fancy_name: group_indices_layout
-function_name: group_indices_layout
-file_name: group_indices_layout
 namespaces: [nda]
 includer: nda/nda.hpp
 

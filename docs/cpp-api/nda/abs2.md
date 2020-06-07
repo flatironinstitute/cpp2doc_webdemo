@@ -2,8 +2,6 @@
 # Do not edit this first section
 layout: function
 fancy_name: abs2
-function_name: abs2
-file_name: abs2
 namespaces: [nda]
 includer: nda/nda.hpp
 

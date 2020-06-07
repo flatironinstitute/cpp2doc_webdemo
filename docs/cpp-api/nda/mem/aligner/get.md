@@ -2,8 +2,6 @@
 # Do not edit this first section
 layout: function
 fancy_name: get
-function_name: get
-file_name: get
 namespaces: [nda, mem, aligner]
 includer: nda/nda.hpp
 

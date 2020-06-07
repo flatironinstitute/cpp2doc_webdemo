@@ -2,8 +2,6 @@
 # Do not edit this first section
 layout: function
 fancy_name: gemm
-function_name: gemm
-file_name: gemm
 namespaces: [nda, blas]
 includer: nda/nda.hpp
 

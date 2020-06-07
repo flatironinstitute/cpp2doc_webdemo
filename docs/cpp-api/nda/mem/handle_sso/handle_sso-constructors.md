@@ -2,8 +2,6 @@
 # Do not edit this first section
 layout: function
 fancy_name: (constructors)
-function_name: handle_sso
-file_name: handle_sso-constructors
 namespaces: [nda, mem, handle_sso]
 includer: nda/nda.hpp
 

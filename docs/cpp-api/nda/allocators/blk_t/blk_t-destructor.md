@@ -2,8 +2,6 @@
 # Do not edit this first section
 layout: function
 fancy_name: (destructor)
-function_name: ~blk_t
-file_name: blk_t-destructor
 namespaces: [nda, allocators, blk_t]
 includer: nda/nda.hpp
 
