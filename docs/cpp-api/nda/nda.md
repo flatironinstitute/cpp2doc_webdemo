@@ -1,7 +1,7 @@
 ---
 # Do not edit this first section
 layout: namespace
-brief: " A brief **fesd**"
+
 # ---------- DO NOT EDIT BELOW --------
 permalink: /cpp-api/nda
 qualified_name: nda
