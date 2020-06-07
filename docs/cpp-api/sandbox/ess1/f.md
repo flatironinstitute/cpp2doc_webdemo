@@ -2,8 +2,6 @@
 # Do not edit this first section
 layout: function
 fancy_name: f
-function_name: f
-file_name: f
 namespaces: [sandbox, ess1]
 includer: ""
 
@@ -32,8 +30,9 @@ return_value: __MISSING__
 
 # Code example. desc: any markdown to explain it.
 example:
-  desc: __MISSING__
-  code: __MISSING__
+  desc: ""
+  code: ""
+  comment: ""
 
 # A list of related functions/classes
 see-also: []

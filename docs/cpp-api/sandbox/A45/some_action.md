@@ -1,50 +1,47 @@
 ---
 # Do not edit this first section
 layout: function
-fancy_name: g46
-namespaces: [sandbox]
+fancy_name: some_action
+namespaces: [sandbox, A45]
 includer: ""
 
 # Brief description. One line only.
-brief: ""
+brief: A breif descp is critical
 
 # List of overloads. Edit only the desc
 overloads:
 
-  - signature: |
-      template <sandbox::Array L, sandbox::Array R>
-      void g46(L l, R r)
-    desc: ""
+  - signature: int some_action()
+    desc: Some very important doc
 
 # Long description. Any Markdown, with code, latex, multiline with |
-desc: ""
+desc: But a long one also
 
 # Parameters of the function. Edit only the description after the :
 params:
-  l: __MISSING__
-  r: __MISSING__
+  {}
 
 # Template parameters of the function. Edit only the description after the :
 tparams:
-  L: __MISSING__
-  R: __MISSING__
+  {}
 
 # Desc of the return value
 return_value: __MISSING__
 
 # Code example. desc: any markdown to explain it.
 example:
-  desc: ""
-  code: ""
+  desc: A good example
+  code: |
+    int a=0; // profound piece of codd
   comment: ""
 
 # A list of related functions/classes
 see-also: []
 
 # ---------- DO NOT EDIT BELOW --------
-permalink: /cpp-api/sandbox/g46
-title: sandbox::g46
-parent: sandbox
+permalink: /cpp-api/sandbox/A45/some_action
+title: sandbox::A45<R>::some_action
+parent: sandbox::A45
 source: /Users/oparcollet/cpp2doc_webdemo/src/array_concept.cpp
 ...
 

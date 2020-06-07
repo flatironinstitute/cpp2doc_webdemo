@@ -22,18 +22,14 @@ desc: ""
 
 # A list of methods. You can reorder, regroup into a dict : groupname -> list
 methods:
-
-  - G1: [myarray-constructors, operator=]
-
-  - G2:
-      - AAA
-      - BBB
-      - operator-call
-      - shape
-      - zozo
-      - operator-compound
-
-  - __NOT_SORTED__: []
+  - myarray-constructors
+  - operator=
+  - AAA
+  - BBB
+  - operator-call
+  - shape
+  - zozo
+  - operator-compound
 
 # A list of non_member_functions
 non_member_functions: []
@@ -45,8 +41,9 @@ member_types:
 
 # Code example. desc: any markdown to explain it.
 example:
-  desc: __MISSING__
-  code: __MISSING__
+  desc: ""
+  code: ""
+  comment: ""
 
 # A list of related functions/classes
 see-also: []

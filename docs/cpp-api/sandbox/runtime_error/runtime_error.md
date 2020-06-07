@@ -1,36 +1,28 @@
 ---
 # Do not edit this first section
 layout: class
-short_name: faulty_array
-qualified_name: sandbox::faulty_array
+short_name: runtime_error
+qualified_name: sandbox::runtime_error
 namespaces: [sandbox]
 includer: ""
-signature: |
-  template <typename T, int R = 99, typename U = long>
-  struct faulty_array
-
-# Template parameters of the function. Edit only the description after the :
-tparams:
-  T: __MISSING__
-  R: __MISSING__
-  U: __MISSING__
+signature: class runtime_error
 
 # Brief description. One line only.
-brief: A doc of faulty_array
+brief: ""
 
 # Long description. Any Markdown, with code, latex, multiline with |
 desc: ""
 
 # A list of methods. You can reorder, regroup into a dict : groupname -> list
-methods: [shape]
+methods:
+  - runtime_error-constructors
+  - runtime_error-destructor
+  - operator<<
+  - what
+  - operator=
 
 # A list of non_member_functions
 non_member_functions: []
-
-# Public member types
-member_types:
-  value_t:
-    desc: __MISSING__
 
 # Code example. desc: any markdown to explain it.
 example:
@@ -42,8 +34,8 @@ example:
 see-also: []
 
 # ---------- DO NOT EDIT BELOW --------
-permalink: /cpp-api/sandbox/faulty_array
-title: sandbox::faulty_array
+permalink: /cpp-api/sandbox/runtime_error
+title: sandbox::runtime_error
 source: /Users/oparcollet/cpp2doc_webdemo/src/array_concept.cpp
 parent: sandbox
 has_children: true

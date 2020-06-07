@@ -2,13 +2,11 @@
 # Do not edit this first section
 layout: function
 fancy_name: operator=
-function_name: operator=
-file_name: operator=
 namespaces: [sandbox, myarray]
 includer: ""
 
 # Brief description. One line only.
-brief: Brief doc of operator =
+brief: ""
 
 # List of overloads. Edit only the desc
 overloads:
@@ -32,8 +30,9 @@ return_value: __MISSING__
 
 # Code example. desc: any markdown to explain it.
 example:
-  desc: __MISSING__
-  code: __MISSING__
+  desc: ""
+  code: ""
+  comment: ""
 
 # A list of related functions/classes
 see-also: []

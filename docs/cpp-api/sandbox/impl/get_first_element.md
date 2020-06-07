@@ -2,8 +2,6 @@
 # Do not edit this first section
 layout: function
 fancy_name: get_first_element
-function_name: get_first_element
-file_name: get_first_element
 namespaces: [sandbox, impl]
 includer: ""
 
@@ -34,8 +32,9 @@ return_value: __MISSING__
 
 # Code example. desc: any markdown to explain it.
 example:
-  desc: __MISSING__
-  code: __MISSING__
+  desc: ""
+  code: ""
+  comment: ""
 
 # A list of related functions/classes
 see-also: []

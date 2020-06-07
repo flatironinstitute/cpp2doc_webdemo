@@ -1,8 +1,8 @@
 ---
 # Do not edit this first section
 layout: function
-fancy_name: g46
-namespaces: [sandbox]
+fancy_name: (constructors)
+namespaces: [sandbox, runtime_error]
 includer: ""
 
 # Brief description. One line only.
@@ -11,9 +11,10 @@ brief: ""
 # List of overloads. Edit only the desc
 overloads:
 
-  - signature: |
-      template <sandbox::Array L, sandbox::Array R>
-      void g46(L l, R r)
+  - signature: runtime_error() noexcept
+    desc: ""
+
+  - signature: runtime_error(runtime_error const &) noexcept
     desc: ""
 
 # Long description. Any Markdown, with code, latex, multiline with |
@@ -21,13 +22,11 @@ desc: ""
 
 # Parameters of the function. Edit only the description after the :
 params:
-  l: __MISSING__
-  r: __MISSING__
+  {}
 
 # Template parameters of the function. Edit only the description after the :
 tparams:
-  L: __MISSING__
-  R: __MISSING__
+  {}
 
 # Desc of the return value
 return_value: __MISSING__
@@ -42,9 +41,9 @@ example:
 see-also: []
 
 # ---------- DO NOT EDIT BELOW --------
-permalink: /cpp-api/sandbox/g46
-title: sandbox::g46
-parent: sandbox
+permalink: /cpp-api/sandbox/runtime_error/runtime_error-constructors
+title: sandbox::runtime_error::runtime_error
+parent: sandbox::runtime_error
 source: /Users/oparcollet/cpp2doc_webdemo/src/array_concept.cpp
 ...
 
