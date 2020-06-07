@@ -8,7 +8,7 @@ qualified_name: nda::blas
 parent: nda
 title: nda::blas
 has_children: true
-namespaces: [f77]
+namespaces: []
 concepts: [IsDoubleOrComplex, MatrixView, VectorView]
 classes: []
 functions:

@@ -8,14 +8,7 @@ qualified_name: nda
 parent: C++ API
 title: nda
 has_children: true
-namespaces:
-  - details
-  - permutations
-  - allocators
-  - mem
-  - concept_impl
-  - slice_static
-  - blas
+namespaces: [blas]
 concepts: [Array, ArrayOfRank, ArrayInitializer]
 classes:
   - layout_info_t
