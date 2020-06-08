@@ -15,8 +15,6 @@ concepts:
 # List of classes.  You can reorder, regroup into a dict : groupname -> list
 classes:
 
-  - "":
-
   - Containers:
       - basic_array
       - basic_array_view
