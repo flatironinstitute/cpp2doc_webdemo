@@ -1,27 +1,5 @@
 module Jekyll
 
-  module Cpp2docExtension
-
-    def md_extension(src)
-
-      
- 
-    return src
-
-    end
-
-    def md_extension2(src)
-
-
-    return src
-
-    end
-
-
-  end
-
-
-
   class Jekyll::Converters::Markdown::MyCustomProcessor < Jekyll::Converters::Markdown::KramdownParser
     def initialize(config)
       #require 'kramdown'
@@ -63,5 +41,4 @@ module Jekyll
 
 end
 
-Liquid::Template.register_filter(Jekyll::Cpp2docExtension)
 
