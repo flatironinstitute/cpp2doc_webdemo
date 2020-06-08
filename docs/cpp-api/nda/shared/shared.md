@@ -31,7 +31,5 @@ see-also: []
 permalink: /cpp-api/nda/shared
 title: nda::shared
 source: nda/storage/policies.hpp
-parent: nda
-has_children: true
 ...
 

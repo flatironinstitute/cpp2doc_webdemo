@@ -43,7 +43,6 @@ see-also: []
 # ---------- DO NOT EDIT BELOW --------
 permalink: /cpp-api/nda/mapped/operator-call
 title: nda::mapped<F>::operator()
-parent: nda::mapped
 source: nda/map.hpp
 ...
 

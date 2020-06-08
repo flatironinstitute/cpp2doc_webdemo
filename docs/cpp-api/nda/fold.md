@@ -47,7 +47,6 @@ see-also: []
 # ---------- DO NOT EDIT BELOW --------
 permalink: /cpp-api/nda/fold
 title: nda::fold
-parent: nda
 source: nda/algorithms.hpp
 ...
 

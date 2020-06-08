@@ -48,7 +48,5 @@ see-also: []
 permalink: /cpp-api/nda/scalar_array
 title: nda::scalar_array
 source: nda/arithmetic.hpp
-parent: nda
-has_children: true
 ...
 

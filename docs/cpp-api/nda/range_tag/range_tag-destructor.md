@@ -39,7 +39,6 @@ see-also: []
 # ---------- DO NOT EDIT BELOW --------
 permalink: /cpp-api/nda/range_tag/range_tag-destructor
 title: nda::range_tag::~range_tag
-parent: nda::range_tag
 source: nda/layout/range.hpp
 ...
 

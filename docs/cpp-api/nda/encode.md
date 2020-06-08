@@ -41,7 +41,6 @@ see-also: []
 # ---------- DO NOT EDIT BELOW --------
 permalink: /cpp-api/nda/encode
 title: nda::encode
-parent: nda
 source: nda/layout/permutation.hpp
 ...
 

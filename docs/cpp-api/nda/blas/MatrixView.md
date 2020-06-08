@@ -19,6 +19,5 @@ signature: |
   template <typename A>
    concept MatrixView
 source: nda/blas/tools.hpp
-parent: nda::blas
 ...
 

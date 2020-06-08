@@ -60,7 +60,5 @@ see-also: []
 permalink: /cpp-api/nda/idx_map
 title: nda::idx_map
 source: nda/layout/idx_map.hpp
-parent: nda
-has_children: true
 ...
 

@@ -41,7 +41,5 @@ see-also: []
 permalink: /cpp-api/nda/array_adapter
 title: nda::array_adapter
 source: nda/array_adapter.hpp
-parent: nda
-has_children: true
 ...
 

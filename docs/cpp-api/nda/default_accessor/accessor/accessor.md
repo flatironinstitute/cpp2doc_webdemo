@@ -48,7 +48,5 @@ see-also: []
 permalink: /cpp-api/nda/default_accessor/accessor
 title: nda::default_accessor::accessor
 source: nda/accessors.hpp
-parent: nda::default_accessor
-has_children: true
 ...
 

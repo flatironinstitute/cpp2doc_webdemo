@@ -31,7 +31,5 @@ see-also: []
 permalink: /cpp-api/nda/C_layout
 title: nda::C_layout
 source: nda/layout/policies.hpp
-parent: nda
-has_children: true
 ...
 

@@ -39,7 +39,6 @@ see-also: []
 # ---------- DO NOT EDIT BELOW --------
 permalink: /cpp-api/nda/runtime_error/runtime_error-destructor
 title: nda::runtime_error::~runtime_error
-parent: nda::runtime_error
 source: nda/exceptions.hpp
 ...
 

@@ -33,7 +33,5 @@ see-also: []
 permalink: /cpp-api/nda/range_all
 title: nda::range_all
 source: nda/layout/range.hpp
-parent: nda
-has_children: true
 ...
 

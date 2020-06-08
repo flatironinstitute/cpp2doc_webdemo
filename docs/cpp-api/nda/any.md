@@ -41,7 +41,6 @@ see-also: []
 # ---------- DO NOT EDIT BELOW --------
 permalink: /cpp-api/nda/any
 title: nda::any
-parent: nda
 source: nda/algorithms.hpp
 ...
 

@@ -27,8 +27,6 @@ functions:
 # ---------- DO NOT EDIT BELOW --------
 permalink: /cpp-api/nda/blas
 qualified_name: nda::blas
-parent: nda
 title: nda::blas
-has_children: true
 ...
 

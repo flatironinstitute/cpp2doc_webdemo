@@ -19,6 +19,5 @@ signature: |
   template <typename A, int R>
    concept ArrayOfRank
 source: nda/concepts.hpp
-parent: nda
 ...
 

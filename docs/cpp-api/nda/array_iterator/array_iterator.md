@@ -50,7 +50,5 @@ see-also: []
 permalink: /cpp-api/nda/array_iterator
 title: nda::array_iterator
 source: nda/iterators.hpp
-parent: nda
-has_children: true
 ...
 

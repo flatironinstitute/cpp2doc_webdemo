@@ -51,7 +51,5 @@ see-also: []
 permalink: /cpp-api/nda/range/const_iterator
 title: nda::range::const_iterator
 source: nda/layout/range.hpp
-parent: nda::range
-has_children: true
 ...
 

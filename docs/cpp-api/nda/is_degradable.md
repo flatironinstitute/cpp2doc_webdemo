@@ -40,7 +40,6 @@ see-also: []
 # ---------- DO NOT EDIT BELOW --------
 permalink: /cpp-api/nda/is_degradable
 title: nda::is_degradable
-parent: nda
 source: nda/traits.hpp
 ...
 

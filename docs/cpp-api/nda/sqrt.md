@@ -42,7 +42,6 @@ see-also: []
 # ---------- DO NOT EDIT BELOW --------
 permalink: /cpp-api/nda/sqrt
 title: nda::sqrt
-parent: nda
 source: nda/mapped_functions.hxx
 ...
 

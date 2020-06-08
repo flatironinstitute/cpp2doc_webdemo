@@ -44,7 +44,6 @@ see-also: []
 # ---------- DO NOT EDIT BELOW --------
 permalink: /cpp-api/nda/front_append
 title: nda::front_append
-parent: nda
 source: nda/std_addons/array.hpp
 ...
 

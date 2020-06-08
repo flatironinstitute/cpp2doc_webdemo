@@ -19,6 +19,5 @@ signature: |
   template <typename A>
    concept ArrayInitializer
 source: nda/concepts.hpp
-parent: nda
 ...
 

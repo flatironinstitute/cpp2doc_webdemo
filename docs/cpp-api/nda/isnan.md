@@ -46,7 +46,6 @@ see-also: []
 # ---------- DO NOT EDIT BELOW --------
 permalink: /cpp-api/nda/isnan
 title: nda::isnan
-parent: nda
 source: nda/mapped_functions.hpp
 ...
 

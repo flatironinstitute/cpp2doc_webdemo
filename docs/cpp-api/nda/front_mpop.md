@@ -43,7 +43,6 @@ see-also: []
 # ---------- DO NOT EDIT BELOW --------
 permalink: /cpp-api/nda/front_mpop
 title: nda::front_mpop
-parent: nda
 source: nda/std_addons/array.hpp
 ...
 

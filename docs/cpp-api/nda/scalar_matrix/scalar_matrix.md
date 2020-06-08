@@ -47,7 +47,5 @@ see-also: []
 permalink: /cpp-api/nda/scalar_matrix
 title: nda::scalar_matrix
 source: nda/arithmetic.hpp
-parent: nda
-has_children: true
 ...
 

@@ -56,7 +56,6 @@ see-also: []
 # ---------- DO NOT EDIT BELOW --------
 permalink: /cpp-api/nda/range/range-constructors
 title: nda::range::range
-parent: nda::range
 source: nda/layout/range.hpp
 ...
 

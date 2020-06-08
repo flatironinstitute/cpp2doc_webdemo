@@ -43,7 +43,6 @@ see-also: []
 # ---------- DO NOT EDIT BELOW --------
 permalink: /cpp-api/nda/make_std_array
 title: nda::make_std_array
-parent: nda
 source: nda/std_addons/array.hpp
 ...
 

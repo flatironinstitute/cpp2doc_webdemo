@@ -39,7 +39,6 @@ see-also: []
 # ---------- DO NOT EDIT BELOW --------
 permalink: /cpp-api/nda/runtime_error/what
 title: nda::runtime_error::what
-parent: nda::runtime_error
 source: nda/exceptions.hpp
 ...
 

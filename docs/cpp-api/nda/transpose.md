@@ -42,7 +42,6 @@ see-also: []
 # ---------- DO NOT EDIT BELOW --------
 permalink: /cpp-api/nda/transpose
 title: nda::transpose
-parent: nda
 source: nda/layout_transforms.hpp
 ...
 

@@ -41,7 +41,6 @@ see-also: []
 # ---------- DO NOT EDIT BELOW --------
 permalink: /cpp-api/nda/trace
 title: nda::trace
-parent: nda
 source: nda/matrix_functions.hpp
 ...
 

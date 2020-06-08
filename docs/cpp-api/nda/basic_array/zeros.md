@@ -42,7 +42,6 @@ see-also: []
 # ---------- DO NOT EDIT BELOW --------
 permalink: /cpp-api/nda/basic_array/zeros
 title: nda::basic_array<ValueType, Rank, Layout, Algebra, ContainerPolicy>::zeros
-parent: nda::basic_array
 source: nda/basic_array.hpp
 ...
 

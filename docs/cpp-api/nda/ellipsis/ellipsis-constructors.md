@@ -45,7 +45,6 @@ see-also: []
 # ---------- DO NOT EDIT BELOW --------
 permalink: /cpp-api/nda/ellipsis/ellipsis-constructors
 title: nda::ellipsis::ellipsis
-parent: nda::ellipsis
 source: nda/layout/range.hpp
 ...
 

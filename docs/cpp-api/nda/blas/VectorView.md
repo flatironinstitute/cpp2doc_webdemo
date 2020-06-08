@@ -19,6 +19,5 @@ signature: |
   template <typename A>
    concept VectorView
 source: nda/blas/tools.hpp
-parent: nda::blas
 ...
 

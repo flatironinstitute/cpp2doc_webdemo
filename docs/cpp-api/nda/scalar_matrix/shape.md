@@ -39,7 +39,6 @@ see-also: []
 # ---------- DO NOT EDIT BELOW --------
 permalink: /cpp-api/nda/scalar_matrix/shape
 title: nda::scalar_matrix<S>::shape
-parent: nda::scalar_matrix
 source: nda/arithmetic.hpp
 ...
 

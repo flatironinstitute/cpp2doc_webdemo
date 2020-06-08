@@ -31,7 +31,5 @@ see-also: []
 permalink: /cpp-api/nda/default_accessor
 title: nda::default_accessor
 source: nda/accessors.hpp
-parent: nda
-has_children: true
 ...
 

@@ -39,7 +39,6 @@ see-also: []
 # ---------- DO NOT EDIT BELOW --------
 permalink: /cpp-api/nda/range/cend
 title: nda::range::cend
-parent: nda::range
 source: nda/layout/range.hpp
 ...
 

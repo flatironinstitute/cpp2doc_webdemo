@@ -42,7 +42,6 @@ see-also: []
 # ---------- DO NOT EDIT BELOW --------
 permalink: /cpp-api/nda/to_vector
 title: nda::to_vector
-parent: nda
 source: nda/std_addons/array.hpp
 ...
 

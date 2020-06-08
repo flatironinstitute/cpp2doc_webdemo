@@ -37,7 +37,5 @@ see-also: []
 permalink: /cpp-api/nda/sso
 title: nda::sso
 source: nda/storage/policies.hpp
-parent: nda
-has_children: true
 ...
 

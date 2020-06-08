@@ -45,7 +45,6 @@ see-also: []
 # ---------- DO NOT EDIT BELOW --------
 permalink: /cpp-api/nda/runtime_error/operator<<
 title: nda::runtime_error::operator<<
-parent: nda::runtime_error
 source: nda/exceptions.hpp
 ...
 

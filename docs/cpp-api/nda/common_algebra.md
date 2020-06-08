@@ -42,7 +42,6 @@ see-also: []
 # ---------- DO NOT EDIT BELOW --------
 permalink: /cpp-api/nda/common_algebra
 title: nda::common_algebra
-parent: nda
 source: nda/arithmetic.hpp
 ...
 

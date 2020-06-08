@@ -46,7 +46,6 @@ see-also: []
 # ---------- DO NOT EDIT BELOW --------
 permalink: /cpp-api/nda/basic_array_view/rebind
 title: nda::basic_array_view<ValueType, Rank, Layout, Algebra, AccessorPolicy, OwningPolicy>::rebind
-parent: nda::basic_array_view
 source: nda/basic_array_view.hpp
 ...
 

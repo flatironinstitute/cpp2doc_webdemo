@@ -42,7 +42,6 @@ see-also: []
 # ---------- DO NOT EDIT BELOW --------
 permalink: /cpp-api/nda/abs
 title: nda::abs
-parent: nda
 source: nda/mapped_functions.hxx
 ...
 

@@ -42,7 +42,6 @@ see-also: []
 # ---------- DO NOT EDIT BELOW --------
 permalink: /cpp-api/nda/sin
 title: nda::sin
-parent: nda
 source: nda/mapped_functions.hxx
 ...
 

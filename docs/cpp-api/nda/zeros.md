@@ -50,7 +50,6 @@ see-also: []
 # ---------- DO NOT EDIT BELOW --------
 permalink: /cpp-api/nda/zeros
 title: nda::zeros
-parent: nda
 source: nda/basic_functions.hpp
 ...
 

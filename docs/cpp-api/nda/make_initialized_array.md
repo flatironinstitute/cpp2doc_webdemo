@@ -42,7 +42,6 @@ see-also: []
 # ---------- DO NOT EDIT BELOW --------
 permalink: /cpp-api/nda/make_initialized_array
 title: nda::make_initialized_array
-parent: nda
 source: nda/std_addons/array.hpp
 ...
 

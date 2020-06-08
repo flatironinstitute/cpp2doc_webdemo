@@ -44,7 +44,6 @@ see-also: []
 # ---------- DO NOT EDIT BELOW --------
 permalink: /cpp-api/nda/stride_order_of_grouped_idx
 title: nda::stride_order_of_grouped_idx
-parent: nda
 source: nda/group_indices.hpp
 ...
 

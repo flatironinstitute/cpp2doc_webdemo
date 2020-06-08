@@ -19,6 +19,5 @@ signature: |
   template <typename A>
    concept Array
 source: nda/concepts.hpp
-parent: nda
 ...
 

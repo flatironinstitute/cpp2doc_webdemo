@@ -44,7 +44,6 @@ see-also: []
 # ---------- DO NOT EDIT BELOW --------
 permalink: /cpp-api/nda/dot_product
 title: nda::dot_product
-parent: nda
 source: nda/std_addons/array.hpp
 ...
 

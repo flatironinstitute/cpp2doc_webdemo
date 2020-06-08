@@ -48,7 +48,6 @@ see-also: []
 # ---------- DO NOT EDIT BELOW --------
 permalink: /cpp-api/nda/array_iterator/array_iterator-constructors
 title: nda::array_iterator<Rank, T, Pointer>::array_iterator
-parent: nda::array_iterator
 source: nda/iterators.hpp
 ...
 

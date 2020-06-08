@@ -39,7 +39,5 @@ see-also: []
 permalink: /cpp-api/nda/grid_iterator<1>
 title: nda::grid_iterator<1>
 source: nda/iterators.hpp
-parent: nda
-has_children: true
 ...
 

@@ -43,7 +43,6 @@ see-also: []
 # ---------- DO NOT EDIT BELOW --------
 permalink: /cpp-api/nda/make_regular
 title: nda::make_regular
-parent: nda
 source: nda/basic_functions.hpp
 ...
 

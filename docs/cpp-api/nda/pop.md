@@ -42,7 +42,6 @@ see-also: []
 # ---------- DO NOT EDIT BELOW --------
 permalink: /cpp-api/nda/pop
 title: nda::pop
-parent: nda
 source: nda/std_addons/array.hpp
 ...
 

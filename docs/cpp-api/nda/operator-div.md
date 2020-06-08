@@ -46,7 +46,6 @@ see-also: []
 # ---------- DO NOT EDIT BELOW --------
 permalink: /cpp-api/nda/operator-div
 title: nda::operator/
-parent: nda
 source: nda/arithmetic.hpp
 ...
 

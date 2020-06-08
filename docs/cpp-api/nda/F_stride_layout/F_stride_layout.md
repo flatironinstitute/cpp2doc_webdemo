@@ -31,7 +31,5 @@ see-also: []
 permalink: /cpp-api/nda/F_stride_layout
 title: nda::F_stride_layout
 source: nda/layout/policies.hpp
-parent: nda
-has_children: true
 ...
 

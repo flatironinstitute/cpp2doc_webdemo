@@ -142,9 +142,7 @@ functions:
 # ---------- DO NOT EDIT BELOW --------
 permalink: /cpp-api/nda
 qualified_name: nda
-parent: C++ API
 title: nda
-has_children: true
 ...
 
 # nda, a multi-dimensional array library
