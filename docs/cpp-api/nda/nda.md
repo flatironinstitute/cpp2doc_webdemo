@@ -16,8 +16,6 @@ concepts:
 classes:
 
   - "":
-      - default_accessor
-      - no_alias_accessor
 
   - Containers:
       - basic_array
@@ -40,6 +38,8 @@ classes:
       - heap_custom_alloc
       - sso
       - stack
+      - default_accessor
+      - no_alias_accessor
 
   - __NOT_SORTED__:
       - layout_info_t
