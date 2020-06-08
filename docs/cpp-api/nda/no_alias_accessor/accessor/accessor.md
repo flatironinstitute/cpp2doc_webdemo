@@ -20,7 +20,9 @@ brief: ""
 desc: ""
 
 # A list of methods. You can reorder, regroup into a dict : groupname -> list
-methods: [access, offset]
+methods:
+  - access
+  - offset
 
 # A list of non_member_functions
 non_member_functions: []

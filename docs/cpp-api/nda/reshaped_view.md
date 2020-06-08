@@ -63,7 +63,8 @@ example:
     v(0, nda::range_all()) *= 10;                // a is now {10, 20, 30, 4, 5, 6}
 
 # A list of related functions/classes
-see-also: [/cpp-api/nda/reshape]
+see-also:
+  - /cpp-api/nda/reshape
 
 # ---------- DO NOT EDIT BELOW --------
 permalink: /cpp-api/nda/reshaped_view

@@ -21,7 +21,10 @@ brief: A pair shape + lambda --> an immutable array
 desc: ""
 
 # A list of methods. You can reorder, regroup into a dict : groupname -> list
-methods: [array_adapter-constructors, shape, operator-call]
+methods:
+  - array_adapter-constructors
+  - shape
+  - operator-call
 
 # A list of non_member_functions
 non_member_functions: []

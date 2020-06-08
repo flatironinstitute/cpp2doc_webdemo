@@ -3,6 +3,7 @@
 layout: concept
 short_name: Array
 qualified_name: nda::Array
+namespace: nda
 includer: nda/nda.hpp
 
 # Brief description. One line only.

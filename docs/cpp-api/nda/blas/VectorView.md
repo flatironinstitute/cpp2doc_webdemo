@@ -3,6 +3,7 @@
 layout: concept
 short_name: VectorView
 qualified_name: nda::blas::VectorView
+namespace: nda::blas
 includer: nda/nda.hpp
 
 # Brief description. One line only.

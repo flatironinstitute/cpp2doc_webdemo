@@ -50,7 +50,8 @@ example:
   comment: "| ![Warning](/assets/images/warning.png){:height=\"36px\" width=\"36px\"} |  Note that __a__ must not be used afterwards. It has no data anymore after the move."
 
 # A list of related functions/classes
-see-also: [/cpp-api/nda/reshaped_view]
+see-also:
+  - /cpp-api/nda/reshaped_view
 
 # ---------- DO NOT EDIT BELOW --------
 permalink: /cpp-api/nda/reshape

@@ -3,6 +3,7 @@
 layout: concept
 short_name: ArrayInitializer
 qualified_name: nda::ArrayInitializer
+namespace: nda
 includer: nda/nda.hpp
 
 # Brief description. One line only.

@@ -3,6 +3,7 @@
 layout: concept
 short_name: MatrixView
 qualified_name: nda::blas::MatrixView
+namespace: nda::blas
 includer: nda/nda.hpp
 
 # Brief description. One line only.

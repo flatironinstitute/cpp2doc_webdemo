@@ -44,7 +44,9 @@ methods:
       - is_stride_order_C
       - is_stride_order_Fortran
 
-  - Modifiers: [operator=, resize]
+  - Modifiers:
+      - operator=
+      - resize
 
   - Iterator:
       - begin
@@ -52,9 +54,11 @@ methods:
       - end
       - cend
 
-  - Arithmetic: [operator+=, operator-=, operator*=]
-
-  - __NOT_SORTED__: [operator-div=]
+  - Arithmetic:
+      - operator+=
+      - operator-=
+      - operator*=
+      - operator-div=
 
 # A list of non_member_functions
 non_member_functions: []

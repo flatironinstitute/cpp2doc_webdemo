@@ -2,45 +2,60 @@
 # Do not edit this first section
 layout: namespace
 
-# ---------- DO NOT EDIT BELOW --------
-permalink: /cpp-api/nda
-qualified_name: nda
-parent: C++ API
-title: nda
-has_children: true
-namespaces: [blas]
-concepts: [Array, ArrayOfRank, ArrayInitializer]
+# List of sub namespaces.  You can reorder, regroup into a dict : groupname -> list
+namespaces:
+  - blas
+
+# List of functions.  You can reorder, regroup into a dict : groupname -> list
+concepts:
+  - Array
+  - ArrayOfRank
+  - ArrayInitializer
+
+# List of classes.  You can reorder, regroup into a dict : groupname -> list
 classes:
-  - layout_info_t
-  - default_accessor
-  - no_alias_accessor
-  - runtime_error
-  - range_tag
-  - range
-  - range_all
-  - ellipsis
-  - idx_map
-  - C_layout
-  - F_layout
-  - C_stride_layout
-  - F_stride_layout
-  - basic_layout
-  - heap
-  - heap_custom_alloc
-  - sso
-  - stack
-  - shared
-  - borrowed
-  - grid_iterator<1>
-  - grid_iterator
-  - array_iterator
-  - basic_array_view
-  - basic_array
-  - idx_group_t
-  - array_adapter
-  - scalar_array
-  - scalar_matrix
-  - mapped
+
+  - "":
+      - default_accessor
+      - no_alias_accessor
+
+  - Containers:
+      - basic_array
+      - basic_array_view
+
+  - Layout:
+      - idx_map
+      - range
+      - ellipsis
+
+  - Policies:
+      - C_layout
+      - F_layout
+      - C_stride_layout
+      - F_stride_layout
+      - basic_layout
+      - borrowed
+      - shared
+      - heap
+      - heap_custom_alloc
+      - sso
+      - stack
+
+  - __NOT_SORTED__:
+      - layout_info_t
+      - array_adapter
+      - array_iterator
+      - grid_iterator
+      - grid_iterator<1>
+      - idx_group_t
+      - mapped
+      - range_all
+      - range_tag
+      - runtime_error
+      - scalar_array
+      - scalar_matrix
+
+# List of functions.  You can reorder, regroup into a dict : groupname -> list
 functions:
   - make_std_array
   - make_initialized_array
@@ -125,6 +140,13 @@ functions:
   - min_element
   - frobenius_norm
   - sum
+
+# ---------- DO NOT EDIT BELOW --------
+permalink: /cpp-api/nda
+qualified_name: nda
+parent: C++ API
+title: nda
+has_children: true
 ...
 
 # nda, a multi-dimensional array library

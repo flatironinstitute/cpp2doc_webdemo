@@ -14,7 +14,8 @@ brief: ""
 desc: ""
 
 # A list of methods. You can reorder, regroup into a dict : groupname -> list
-methods: [layout_info_t-destructor]
+methods:
+  - layout_info_t-destructor
 
 # A list of non_member_functions
 non_member_functions: []

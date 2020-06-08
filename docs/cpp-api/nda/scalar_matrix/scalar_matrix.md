@@ -20,7 +20,10 @@ brief: ""
 desc: ""
 
 # A list of methods. You can reorder, regroup into a dict : groupname -> list
-methods: [shape, operator-index, operator-call]
+methods:
+  - shape
+  - operator-index
+  - operator-call
 
 # A list of non_member_functions
 non_member_functions: []

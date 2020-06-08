@@ -3,6 +3,7 @@
 layout: concept
 short_name: IsDoubleOrComplex
 qualified_name: nda::blas::IsDoubleOrComplex
+namespace: nda::blas
 includer: nda/nda.hpp
 
 # Brief description. One line only.

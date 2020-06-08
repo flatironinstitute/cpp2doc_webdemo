@@ -14,7 +14,8 @@ brief: Ellipsis can be provided in place of [[range]], as in python. The type `e
 desc: ""
 
 # A list of methods. You can reorder, regroup into a dict : groupname -> list
-methods: [ellipsis-constructors]
+methods:
+  - ellipsis-constructors
 
 # A list of non_member_functions
 non_member_functions: []
