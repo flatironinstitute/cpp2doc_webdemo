@@ -47,7 +47,8 @@ module Jekyll
     end
 
     def get_fancy_name_from_permalink(permalink, permalink_to_fancyname_table)
-    
+   
+      #puts permalink 
       #puts @context.registers[:site].data['permalink_to_brief']
   
       r = permalink_to_fancyname_table [permalink]
@@ -62,7 +63,7 @@ module Jekyll
     end
 
     def get_fancy_name(name,  root_permalink, permalink_to_fancyname_table)
-      #puts(name)
+      puts(name)
       r = permalink_to_fancyname_table [root_permalink + '/' + name]
       if (not r) then 
         return name

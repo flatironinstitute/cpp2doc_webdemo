@@ -1,7 +1,4 @@
 ---
-- applications:
-
-- community:
 
 - cpp-api:
   - nda:
@@ -18,7 +15,17 @@
     - array
     - array_view
     - make_view
+  
+- triqs:
+  - gf
+  - lattice
+  - atom_diag
 
+- apps:
+  - ctint
+  - cthyb
+
+- community:
 
 - design:
   - ui-components:

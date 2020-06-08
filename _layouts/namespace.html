@@ -32,16 +32,34 @@ layout: default
 </details>
 {% endif %}
 
+
+
+ <!--a list of dicts with one element : a grouped list with a gruop title-->
 {% if page.classes %}
 <details><summary><span class="cpp-namespace-list">Classes</span></summary> 
-<table class='method-table' >
- {% for name in page.classes%}
+{% if page.classes.first.first %}
+<table class='method-table'>
+  {% for g_l in page.classes %}
+  <tr> <td class="method-group-name" align="left" colspan=2> {{g_l.first[0]}} </td></tr>
+   {% for name in g_l.first[1] %}
     <tr>
-     <td class="method-name" align="right"> <a href="{{name}}">{{name| get_fancy_name: page.permalink, site.data.permalink_to_fancyname}}</a></td>
+     <td class="method-name" align="right"><a href="{{name}}">{{name| get_fancy_name: page.permalink, site.data.permalink_to_fancyname}}</a></td>
+     <td class="method-brief">{{name| get_brief: page.permalink, site.data.permalink_to_brief | markdownify | remove: '<p>' | remove: '</p>'}}</td>
+    </tr>
+   {% endfor %}
+  {% endfor %}
+</table>
+ <!--The method is a list-->
+{% else %}
+<table class='method-table'>
+ {% for name in page.classes %}
+    <tr>
+     <td class="method-name" align="right"><a href="{{name}}">{{name| get_fancy_name: page.permalink, site.data.permalink_to_fancyname}}</a></td>
      <td class="method-brief">{{name| get_brief: page.permalink, site.data.permalink_to_brief | markdownify | remove: '<p>' | remove: '</p>'}}</td>
     </tr>
  {% endfor %}
 </table>
+{% endif %}
 </details>
 {% endif %}
 

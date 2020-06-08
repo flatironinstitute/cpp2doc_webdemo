@@ -1,5 +1,7 @@
 module Jekyll
 
+  # FIXME 
+  # permalink_to_title : contect, same for the table
   module CPP2DOC_NavFilter
     def make_nav_left_menu_impl (parent, childs, item_list, permalink_to_title)
 
@@ -10,7 +12,10 @@ module Jekyll
       else
         key, val = dic.first
       end
-      b = (childs[0] == key)
+      b = false
+      if (childs!=nil) then 
+        b = (childs[0] == key)
+      end
       active = ("active" if b) or ''
       pl = parent + '/' + key 
       title =  permalink_to_title[pl]
@@ -19,7 +24,7 @@ module Jekyll
         r += ' <a href="%s" class="navigation-list-link %s ">%s</a>' %[pl, active, title]
         if b and val then 
           r += '<ul class="navigation-list-child-list ">'
-          r += make_nav_left_menu_impl([parent, childs[0]].join('/'), childs.slice(1,100), val, permalink_to_title)
+          r += make_nav_left_menu_impl([parent, childs[0]].join('/'), childs[1..-1], val, permalink_to_title)
           r += '</ul>'
         end
       end
@@ -31,7 +36,8 @@ module Jekyll
     if not permalink then 
       return ''
     end
-    childs = permalink.split('/').slice(1,100)  # remove the first '' because permalink starts with /
+
+    childs = permalink.split('/')[1..-1]  # remove the first '' because permalink starts with /
     r = '<ul class="navigation-list">'
     r += make_nav_left_menu_impl('', childs, nav_left_menu_table, permalink_to_title)
     r += '</ul>'
