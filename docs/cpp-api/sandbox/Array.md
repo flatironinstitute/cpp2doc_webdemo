@@ -3,6 +3,7 @@
 layout: concept
 short_name: Array
 qualified_name: sandbox::Array
+namespace: sandbox
 includer: ""
 
 # Brief description. One line only.

@@ -3,6 +3,7 @@
 layout: concept
 short_name: IsStdArrayOfLong
 qualified_name: sandbox::impl::IsStdArrayOfLong
+namespace: sandbox::impl
 includer: ""
 
 # Brief description. One line only.
