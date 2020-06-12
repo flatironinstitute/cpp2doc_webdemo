@@ -20,7 +20,7 @@ class Kramdown::Parser::Kramdown_CCQ_extension < Kramdown::Parser::GFM
     @src.pos += @src.matched_size
     args = @src.matched[2..-3].strip
 
-     puts (args)
+    #puts (args)
     el = new_block_el(:raw, '<a href="/cpp-api">%s<a>'% args )
     @tree.children << el
 
@@ -75,7 +75,7 @@ class Kramdown::Parser::Kramdown_CCQ_extension < Kramdown::Parser::GFM
    def parse_cpp2doc_tags
 
     # NO puts @context.registers[:site].data['permalink_to_brief']
-    puts Kramdown::Document.new("a little test **STRONG** ").to_html
+    #puts Kramdown::Document.new("a little test **STRONG** ").to_html
      
     #el = Element.new(:raw) #, nil, nil,  location: @src.current_line_number)
     #parse_blocks(el, "a little test **STRONG** ")
@@ -90,16 +90,16 @@ class Kramdown::Parser::Kramdown_CCQ_extension < Kramdown::Parser::GFM
          r += "#{index+1}: #{line}"
      end 
      r += "\n\nError was :\n  " + e.message.split(':',2)[1].strip +  "\n----------------------"
-     puts(r)
+     #puts(r)
      @tree.children << Element.new(:raw, "<PRE>#{r}</PRE>")
      return
     end 
-    puts(opts)
+    #puts(opts)
     # protect, etc,..
     data = YAML.load(File.read("_data/" + opts['file'] + '.yml'))
     l = data[opts['key']]
     if not l
-      puts "List %s is unknown"%opts['key']
+      #puts "List %s is unknown"%opts['key']
       @tree.children << Element.new(:text, "CPP2DOC EXTENSION : ERROR : ARGUMENTS INCORRECT, CF CONSOLE")
       return
     end
