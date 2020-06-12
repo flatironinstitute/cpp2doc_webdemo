@@ -2,6 +2,13 @@
 
 _updated 5/29_
 
+- add new properties to search
+- made the responsive left side changes
+- add styling for the 2/3 UI elements on Tuesday.
+- Table sizing work
+- Working now on the card layout / multicolumns
+- Meeting with Sherry tomorrow - pre-conversation with her.
+
 ## Todo:
 - Search add: brief, desc
 - Width on left bar - smaller.
@@ -9,6 +16,12 @@ _updated 5/29_
 use nda:reshaped view as template. reduce characters to 100, update propoertions.
 - Update pipeline/README with feedback from Alex. Add information on what is available for contributor editing.
 - Re-deploy on vercel -> Routing issues around permalinks on vercel.
+- Table sizing
+- Multi-column layout build - see /cpp-api/nda - make a 3 col layout top aligned *** DO FIRST #️⃣1️⃣
+- Remove howtos in cpp-api/nda example.
+- Style list with grouping (see cpi-api/nda/basic_array)
+- Remove the logo
+- Expand warning syntax / and note!  classes ".alert alert-warning" and ".alert .alert-note"
 
 _Icebox_
 - Change main-concepts to an alternate name to avoid confusion with new c++ concepts.
@@ -22,7 +35,6 @@ _Icebox_
 - Create folding list functionality (via class)
 
 ## Done:
-
 - change destination folder to docs/cpp-api
 - Speed: use cache plugin,
 - Fix YAML spacing errors in array / array_view
