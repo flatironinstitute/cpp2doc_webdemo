@@ -19,7 +19,7 @@ Jek Theme TRIQS has some specific configuration parameters that can be defined i
 {: .no_toc .text-delta }
 
 1. TOC
-   {:toc}
+{:toc}
 
 ---
 

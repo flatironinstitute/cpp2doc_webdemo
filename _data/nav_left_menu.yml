@@ -29,7 +29,7 @@
 
 - theme:
   - configuration
-  - markdown-kitchen-sink
+  - markdown
   - search
   - ui-components:
       - ui-components
@@ -38,7 +38,7 @@
       - labels
       - tables
       - typography
-  - utilities
+  - utilities:
       - color
       - layout
       - responsive

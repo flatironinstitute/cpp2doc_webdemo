@@ -9,6 +9,17 @@ permalink: /theme
 
 # Theme
 
+{: .no_toc }
+
+## Table of contents
+
+{: .no_toc .text-delta }
+
+1. TOC
+{:toc}
+
+---
+
 Will be excluded from final sidebar navigation
 {: .label .label-yellow }
 

@@ -41,7 +41,7 @@ $ bundle exec rake search:init
 This command creates the `search-data.json` file that Jekyll uses to create your search index. Alternatively, you can create the file manually in the `assets/js/` directory of your Jekyll site with this content:
 
 ````liquid
----
+{% raw %}---
 ---
 {
   {% assign comma = false %}
@@ -54,7 +54,7 @@ This command creates the `search-data.json` file that Jekyll uses to create your
     "relUrl": "{{ page.url }}"
   }{% assign comma = true %}
   {% endif %}{% endfor %}
-}
+}{% endraw %}
 ````
 
 _Note: If you don't run this rake command or create this file manually, search will not work (or it will use the search index data from this docs site, not your site's content)._
