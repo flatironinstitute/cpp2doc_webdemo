@@ -44,13 +44,13 @@ kramdown:
 
 
 plugins:
-# TODO: Remove?
   - jekyll-seo-tag
   - jekyll-sitemap
   - jekyll-katex
 
 # Set a path/url to a logo that will be displayed instead of the title
-logo: "/assets/images/triqs-logo-v1.jpg"
+# TODO: Swap with Sherry identity
+# logo: "/assets/images/triqs-logo-v1.jpg"
 
 # Enable or disable heading anchors # TODO: Remove or replace with Vim links
 heading_anchors: true
@@ -69,7 +69,6 @@ search_enabled: true
 
 # Set the search token separator for hyphenated-word search:
 search_tokenizer_separator: /[\s/]+/
-
 
 docs_version: 0.0.2
 

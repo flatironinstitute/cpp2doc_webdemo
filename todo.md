@@ -1,16 +1,10 @@
 # TODO Jekyll Docs
 
-_updated 5/29_
+_updated 6/15_
 
-- add new properties to search
-- made the responsive left side changes
-- add styling for the 2/3 UI elements on Tuesday.
-- Table sizing work
-- Working now on the card layout / multicolumns
-- Meeting with Sherry tomorrow - pre-conversation with her.
 
 ## Todo:
-- Search add: brief, desc
+- CCQ Toolkit instead of Basic C++ libraries - needs another name. Rhisome?
 - Width on left bar - smaller.
 - Change min-width on <td> in signature numeration - make a class. Also make a class for the related number information "signature-table"
 use nda:reshaped view as template. reduce characters to 100, update propoertions.
@@ -52,6 +46,7 @@ _Icebox_
 - test deployment on vercel - aka now
 - Search
 - Improve nav speed generation: make static, use a table to transfer, use permalink
+- Search add: brief, desc
 
 
 
