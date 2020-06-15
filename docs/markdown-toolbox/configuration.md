@@ -1,10 +1,10 @@
 ---
 title: Configuration
-parent: Design
+parent: Theme
 nav_order: 1
 layout: default
 nav_include: true
-permalink: /design/configuration
+permalink: /theme/configuration
 ---
 
 # Configuration

@@ -15,7 +15,7 @@
     - array
     - array_view
     - make_view
-  
+
 - triqs:
   - gf
   - lattice
@@ -27,7 +27,10 @@
 
 - community:
 
-- design:
+- theme:
+  - configuration
+  - markdown-kitchen-sink
+  - search
   - ui-components:
       - ui-components
       - buttons
@@ -36,4 +39,10 @@
       - tables
       - typography
   - utilities
+      - color
+      - layout
+      - responsive
+      - typography
+
+
 ...

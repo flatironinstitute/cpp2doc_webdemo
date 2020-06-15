@@ -1,11 +1,11 @@
 ---
 title: Buttons
 parent: UI Components
-grand_parent: Design
+grand_parent: Theme
 nav_order: 2
 layout: default
 nav_include: true
-permalink: /design/ui-components/buttons
+permalink: /theme/ui-components/buttons
 ---
 
 # Buttons
@@ -80,7 +80,7 @@ GitHub Flavored Markdown does not support the `button` element, so you'll have t
 
 ### Spacing between buttons
 
-Use the [margin utility classes]({{ site.baseurl }}{% link docs/design/utilities/layout.md %}#spacing) to add spacing between two buttons in the same block.
+Use the [margin utility classes]({{ site.baseurl }}{% link docs/theme/utilities/layout.md %}#spacing) to add spacing between two buttons in the same block.
 
 <div class="code-example" markdown="1">
 [Button with space](http://example.com/){: .btn .btn-purple .mr-2 }

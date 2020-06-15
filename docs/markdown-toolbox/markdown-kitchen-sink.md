@@ -1,10 +1,10 @@
 ---
-title: Markdown kitchen sink
-parent: Design
+title: Markdown Kitchen Sink
+parent: Theme
 nav_order: 7
 layout: default
 nav_include: true
-permalink: /design/markdown
+permalink: /theme/markdown
 ---
 
 Text can be **bold**, _italic_, or ~~strikethrough~~.

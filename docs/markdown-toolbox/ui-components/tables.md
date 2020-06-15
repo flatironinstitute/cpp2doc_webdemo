@@ -1,11 +1,11 @@
 ---
 title: Tables
 parent: UI Components
-grand_parent: Design
+grand_parent: Theme
 nav_order: 4
 layout: default
 nav_include: true
-permalink: /design/ui-components/tables
+permalink: /theme/ui-components/tables
 ---
 
 # Tables

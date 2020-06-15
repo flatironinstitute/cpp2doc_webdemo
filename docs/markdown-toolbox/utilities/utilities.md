@@ -2,10 +2,10 @@
 title: Utilities
 nav_order: 5
 has_children: true
-parent: Design
+parent: Theme
 layout: default
 nav_include: true
-permalink: /design/utilities
+permalink: /theme/utilities
 ---
 
 # Utilities

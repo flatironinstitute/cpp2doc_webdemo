@@ -4,7 +4,7 @@ _updated 6/15_
 
 
 ## Todo:
-- CCQ Toolkit instead of Basic C++ libraries - needs another name. Rhisome?
+- Rename Basic C++ libraries. CCQ Toolkit ? Rhizome?
 - Width on left bar - smaller.
 - Change min-width on <td> in signature numeration - make a class. Also make a class for the related number information "signature-table"
 use nda:reshaped view as template. reduce characters to 100, update propoertions.
@@ -14,14 +14,7 @@ use nda:reshaped view as template. reduce characters to 100, update propoertions
 - Multi-column layout build - see /cpp-api/nda - make a 3 col layout top aligned *** DO FIRST #️⃣1️⃣
 - Remove howtos in cpp-api/nda example.
 - Style list with grouping (see cpi-api/nda/basic_array)
-- Remove the logo
 - Expand warning syntax / and note!  classes ".alert alert-warning" and ".alert .alert-note"
-
-_Icebox_
-- Change main-concepts to an alternate name to avoid confusion with new c++ concepts.
-- Vim links / github links
-- Investigate other speed optimizations: parallellization, etc.
-- Sublists for nda _Ask Olivier for example_
 
 ## Verify:
 - Remove toc - update heading on layouts from OP. [Add :no-toc to class, function, namespace, cpp-concept. ]
@@ -29,6 +22,7 @@ _Icebox_
 - Create folding list functionality (via class)
 
 ## Done:
+- Remove the logo
 - change destination folder to docs/cpp-api
 - Speed: use cache plugin,
 - Fix YAML spacing errors in array / array_view
@@ -48,17 +42,8 @@ _Icebox_
 - Improve nav speed generation: make static, use a table to transfer, use permalink
 - Search add: brief, desc
 
-
-
-## To Verify:
-
-- Verify that constructor method naming / descrutor method naming is correct. See below...
-
-Files and permalink structure changes:
-
-- nda/array/array.md for the index
-- nda/array/method1.md (no _ for the method : _ leads to troubles
-- nda/array-constructors.md for constructors (same for desctructors).
-  [array-constructors is renamed (constructors) in the page and title]
-- Also we use permalinks to have an obsolute URL :
-  /cpp_api/nda/array/xxx, /py_api/gf/…. /ccp_api/triqs/gf/…. independly of where it is on the directory
+_Icebox_
+- Change main-concepts to an alternate name to avoid confusion with new c++ concepts.
+- Vim links / github links
+- Investigate other speed optimizations: parallellization, etc.
+- Sublists for nda _Ask Olivier for example_

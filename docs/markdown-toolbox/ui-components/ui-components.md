@@ -2,10 +2,10 @@
 title: UI Components
 nav_order: 3
 has_children: true
-parent: Design
+parent: Theme
 layout: default
 nav_include: true
-permalink: /design/ui-components
+permalink: /theme/ui-components
 ---
 
 # UI Components

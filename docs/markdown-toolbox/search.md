@@ -1,10 +1,10 @@
 ---
 title: Search
-parent: Design
+parent: Theme
 nav_order: 4
 layout: default
 nav_include: true
-permalink: /design/search
+permalink: /theme/search
 ---
 
 # Search
@@ -16,7 +16,7 @@ permalink: /design/search
 {: .no_toc .text-delta }
 
 1. TOC
-   {:toc}
+{:toc}
 
 ---
 
@@ -25,6 +25,8 @@ Jek Theme TRIQS uses [lunr.js](http://lunrjs.com) to add a client-side search in
 - Page title
 - Page content
 - Page URL
+- Page description
+- Page brief
 
 ## Set up search
 
@@ -39,7 +41,7 @@ $ bundle exec rake search:init
 This command creates the `search-data.json` file that Jekyll uses to create your search index. Alternatively, you can create the file manually in the `assets/js/` directory of your Jekyll site with this content:
 
 ````liquid
-{% raw %}---
+---
 ---
 {
   {% assign comma = false %}
@@ -47,10 +49,12 @@ This command creates the `search-data.json` file that Jekyll uses to create your
     "title": "{{ page.title | replace: '&amp;', '&' }}",
     "content": "{{ page.content | markdownify | replace: '</h', ' . </h' | replace: '<hr', ' . <hr' | replace: '</p', ' . </p' | replace: '</ul', ' . </ul' | replace: '</tr', ' . </tr' | replace: '</li', ' | </li' | replace: '</td', ' | </td' | strip_html | escape_once | remove: 'Table of contents' | remove: '```'  | remove: '---' | replace: '\', ' ' | replace: ' .  .  . ', ' . ' | replace: ' .  . ', ' . ' | normalize_whitespace }}",
     "url": "{{ page.url | absolute_url }}",
+    "brief": "{{ page.brief | markdownify | replace: '</h', ' . </h' | replace: '<hr', ' . <hr' | replace: '</p', ' . </p' | replace: '</ul', ' . </ul' | replace: '</tr', ' . </tr' | replace: '</li', ' | </li' | replace: '</td', ' | </td' | strip_html | escape_once | remove: 'Table of contents' | remove: '```'  | remove: '---' | replace: '\', ' ' | replace: ' .  .  . ', ' . ' | replace: ' .  . ', ' . ' | normalize_whitespace | strip_newlines }}",
+    "desc": "{{ page.desc | markdownify | replace: '</h', ' . </h' | replace: '<hr', ' . <hr' | replace: '</p', ' . </p' | replace: '</ul', ' . </ul' | replace: '</tr', ' . </tr' | replace: '</li', ' | </li' | replace: '</td', ' | </td' | strip_html | escape_once | remove: 'Table of contents' | remove: '```'  | remove: '---' | replace: '\', ' ' | replace: ' .  .  . ', ' . ' | replace: ' .  . ', ' . ' | normalize_whitespace | strip_newlines  }}",
     "relUrl": "{{ page.url }}"
   }{% assign comma = true %}
   {% endif %}{% endfor %}
-}{% endraw %}
+}
 ````
 
 _Note: If you don't run this rake command or create this file manually, search will not work (or it will use the search index data from this docs site, not your site's content)._

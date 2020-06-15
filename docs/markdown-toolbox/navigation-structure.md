@@ -1,10 +1,11 @@
 ---
 title: Navigation
-parent: Design
+parent: Theme
 nav_order: 2
 layout: default
-nav_include: true
-permalink: /design/navigation
+nav_exclude: true
+search_exclude: true
+permalink: /theme/navigation
 ---
 
 # Navigation
@@ -18,6 +19,7 @@ permalink: /design/navigation
 
 ---
 
+<!-- TODO: Rewrite this page -->
 ## Main navigation
 
 The main navigation for your Jek Theme TRIQS site is on the left side of the page at large screens and on the top (behind a tap) on small screens. The main navigation can be structured to accommodate a multi-level menu system (pages with children and grandchildren).
@@ -202,7 +204,7 @@ This would create the following navigation structure:
 
 ## Auxiliary Navigation
 
-To add a auxiliary navigation item to your site (in the upper right on all pages), add it to the `aux_nav` [configuration option]({{ site.baseurl }}{% link docs/design/configuration.md %}#aux-nav) in your site's `_config.yml` file.
+To add a auxiliary navigation item to your site (in the upper right on all pages), add it to the `aux_nav` [configuration option]({{ site.baseurl }}{% link docs/theme/configuration.md %}#aux-nav) in your site's `_config.yml` file.
 
 #### Example
 
