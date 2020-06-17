@@ -17,6 +17,10 @@ table {
   display: table;
   min-width: 100%;
   border-collapse: separate;
+
+  &.signature-table {
+    box-shadow: none;
+  }
 }
 
 th,
@@ -46,6 +50,11 @@ tbody {
 
       td {
         padding-bottom: $sp-3;
+      }
+    }
+    &.signature-row  {
+      td:first-of-type{
+        max-width: 20px;
       }
     }
   }

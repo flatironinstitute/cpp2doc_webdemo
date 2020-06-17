@@ -2,16 +2,14 @@
 layout: default
 ---
 
-<h2> {{page.title |markdownify}} </h2>
-
-<span  class='cpp-include-header'> Defined in header  &lt;{{page.includer}}&gt; </span>
-
-<table class='cppfunction-signature-table table-wrapper'>
+<h1 class="no_toc"> {{page.title | markdownify | replace: "<p>", "" | replace: "</h1>", "" | normalize_whitespace | strip_newlines }} </h1>
+<hr>
+<h6 class='cpp-include-header'> Defined in header  &lt;{{page.includer}}&gt; </h6>
+<table class='signature-table table-wrapper'>
 {% for entity in page.overloads %}
-    <tr>
-     <td> {{forloop.index}} </td>
-     <td><span class='signature'>{{- entity.signature | link_and_highlight: site.data.highlighted_types, page.namespace -}}</span></td>
-     <!--<td> [Source] </td>-->
+    <tr class="signature-row">
+      <td> {{forloop.index}} </td>
+      <td><span class='signature'>{{- entity.signature | link_and_highlight: site.data.highlighted_types, page.namespace -}}</span></td>
     </tr>
 {% endfor %}
 </table>

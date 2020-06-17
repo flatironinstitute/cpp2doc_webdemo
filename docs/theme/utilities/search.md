@@ -1,10 +1,10 @@
 ---
 title: Search
-parent: Theme
+parent: Utilities
 nav_order: 4
 layout: default
 nav_include: true
-permalink: /theme/search
+permalink: /theme/utilities/search
 ---
 
 # Search

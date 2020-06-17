@@ -57,6 +57,8 @@ function initSearch() {
       lunr.tokenizer.separator = /[\s\-/]+/
       {% endif %}
 
+      var data = JSON.parse(request.responseText);
+
       var index = lunr(function () {
         this.ref('id');
         this.field('title', { boost: 200 });
