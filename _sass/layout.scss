@@ -35,6 +35,11 @@
     width: calc((100% - #{$nav-width + $content-width}) / 2 + #{$nav-width});
     min-width: $nav-width;
   }
+
+  @include mq(xl) {
+    width: calc((100% - #{$nav-width + $content-width-xl}) / 2 + #{$nav-width});
+    min-width: $nav-width;
+  }
 }
 
 .main-content-wrap {
@@ -60,6 +65,13 @@
   @include mq(lg) {
     margin-left: calc(
       (100% - #{$nav-width + $content-width}) / 2 + #{$nav-width}
+    );
+  }
+
+  @include mq(xl) {
+    max-width: $content-width-xl;
+    margin-left: calc(
+      (100% - #{$nav-width + $content-width-xl}) / 2 + #{$nav-width}
     );
   }
 }

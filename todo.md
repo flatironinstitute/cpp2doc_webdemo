@@ -4,14 +4,13 @@ _updated 6/15_
 
 
 ## Todo:
+- Multi-column layout build - see /cpp-api/nda - make a 3 col layout top aligned *** DO FIRST #️⃣1️⃣
 - Rename Basic C++ libraries. CCQ Toolkit ? Rhizome?
-- Width on left bar - smaller.
 - Change min-width on <td> in signature numeration - make a class. Also make a class for the related number information "signature-table"
 use nda:reshaped view as template. reduce characters to 100, update propoertions.
 - Update pipeline/README with feedback from Alex. Add information on what is available for contributor editing.
 - Re-deploy on vercel -> Routing issues around permalinks on vercel.
 - Table sizing
-- Multi-column layout build - see /cpp-api/nda - make a 3 col layout top aligned *** DO FIRST #️⃣1️⃣
 - Remove howtos in cpp-api/nda example.
 - Style list with grouping (see cpi-api/nda/basic_array)
 - Expand warning syntax / and note!  classes ".alert alert-warning" and ".alert .alert-note"
@@ -41,6 +40,7 @@ use nda:reshaped view as template. reduce characters to 100, update propoertions
 - Search
 - Improve nav speed generation: make static, use a table to transfer, use permalink
 - Search add: brief, desc
+- Width on left bar - smaller.
 
 _Icebox_
 - Change main-concepts to an alternate name to avoid confusion with new c++ concepts.
