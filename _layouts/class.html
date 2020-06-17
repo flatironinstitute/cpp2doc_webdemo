@@ -19,7 +19,7 @@ layout: default
 <h3> Template parameters</h3>
 {% if  page.tparams.size >= 3 %}
 {%assign tpl_collapsed = true %}
-<details><summary><span class="cpp-template-parameters-header">Click to unfold</span></summary> 
+<details><summary><span class="cpp-template-parameters-header">Click to unfold</span></summary>
 {% endif %}
 <table class='tparam-table' >
  {% for param in page.tparams%}
@@ -40,21 +40,24 @@ layout: default
 <h3> Member functions </h3>
 {% if  page.methods.size >= 100 %}
 {%assign param_collapsed = true %}
-<details><summary><span class="cpp-parameters-header">Click to unfold</span></summary> 
+<details><summary><span class="cpp-parameters-header">Click to unfold</span></summary>
 {% endif %}
- <!--The method is a list of dicts with one element : a grouped list with a gruop title-->
+ <!--The method is a list of dicts with one element : a grouped list with a group title-->
 {% if page.methods.first.first %}
-<table class='method-table'>
-  {% for g_l in page.methods %}
-  <tr> <td class="method-group-name" align="left" colspan=2> {{g_l.first[0]}} </td></tr>
-   {% for name in g_l.first[1] %}
-    <tr>
-     <td class="method-name" align="right"><a href="{{name}}.html">{{name| get_fancy_name: page.permalink, site.data.permalink_to_fancyname}}</a></td>
-     <td class="method-brief">{{name| get_brief: page.permalink, site.data.permalink_to_brief | markdownify | remove: '<p>' | remove: '</p>'}}</td>
-    </tr>
-   {% endfor %}
-  {% endfor %}
-</table>
+{% for g_l in page.methods %}
+   {%- assign method-group-name = g_l.first[0]-%}
+   {% if method-group-name != blank %}
+      <h4 class="method-group-name pt-lg-4">{{method-group-name}}</h4>
+   {% endif %}
+   <table class='method-table'>
+      {% for name in g_l.first[1] %}
+      <tr>
+      <td class="method-name" align="right"><a href="{{name}}.html">{{name| get_fancy_name: page.permalink, site.data.permalink_to_fancyname}}</a></td>
+      <td class="method-brief">{{name| get_brief: page.permalink, site.data.permalink_to_brief | markdownify | remove: '<p>' | remove: '</p>'}}</td>
+      </tr>
+      {% endfor %}
+   </table>
+{% endfor %}
  <!--The method is a list-->
 {% else %}
 <table class='method-table'>
