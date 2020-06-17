@@ -1,11 +1,11 @@
 ---
 title: Typography
 parent: Utilities
-grand_parent: Design
+grand_parent: Theme
 nav_order: 4
 layout: default
 nav_include: true
-permalink: /design/utilities/typography
+permalink: /theme/utilities/typography
 ---
 
 # Typography Utilities

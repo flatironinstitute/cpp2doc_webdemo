@@ -1,11 +1,11 @@
 ---
 title: Code
 parent: UI Components
-grand_parent: Design
+grand_parent: Theme
 nav_order: 6
 layout: default
 nav_include: true
-permalink: /design/ui-components/code
+permalink: /theme/ui-components/code
 ---
 
 # Code

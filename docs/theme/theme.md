@@ -1,15 +1,24 @@
 ---
 layout: default
-title: Markdown Toolbox
+title: Theme
 has_children: true
 nav_order: 99
-# TODO: Swap this back in. Exclude from production site? Move to space for editors.
-nav_exclude: true
 nav_include: true
-permalink: /design
+permalink: /theme
 ---
 
-# Markdown Toolbox
+# Theme
+
+{: .no_toc }
+
+## Table of contents
+
+{: .no_toc .text-delta }
+
+1. TOC
+{:toc}
+
+---
 
 Will be excluded from final sidebar navigation
 {: .label .label-yellow }

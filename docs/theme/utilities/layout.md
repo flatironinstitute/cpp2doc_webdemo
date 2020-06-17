@@ -1,11 +1,11 @@
 ---
 title: Layout
 parent: Utilities
-grand_parent: Design
+grand_parent: Theme
 nav_order: 2
 layout: default
 nav_include: true
-permalink: /design/utilities/layout
+permalink: /theme/utilities/layout
 ---
 
 # Layout Utilities

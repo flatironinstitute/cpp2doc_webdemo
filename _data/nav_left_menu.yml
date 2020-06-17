@@ -15,7 +15,7 @@
     - array
     - array_view
     - make_view
-  
+
 - triqs:
   - gf
   - lattice
@@ -27,7 +27,10 @@
 
 - community:
 
-- design:
+- theme:
+  - configuration
+  - markdown
+  - search
   - ui-components:
       - ui-components
       - buttons
@@ -35,5 +38,11 @@
       - labels
       - tables
       - typography
-  - utilities
+  - utilities:
+      - color
+      - layout
+      - responsive
+      - typography
+
+
 ...

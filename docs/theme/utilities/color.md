@@ -1,11 +1,11 @@
 ---
 title: Color
 parent: Utilities
-grand_parent: Design
+grand_parent: Theme
 nav_order: 3
 layout: default
 nav_include: true
-permalink: /design/utilities/color
+permalink: /theme/utilities/color
 ---
 
 # Color Utilities
