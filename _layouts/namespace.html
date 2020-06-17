@@ -6,9 +6,9 @@ layout: default
 
 <h2> Index </h2>
 {% if page.namespaces %}
-<details><summary><span class="cpp-namespace-list">Namespaces</span></summary> 
+<details><summary><span class="cpp-namespace-list">Namespaces</span></summary>
 <h5> </h5>
-<table class='method-table' >
+<table class='method-table table-wrapper' >
  {% for name in page.namespaces%}
     <tr>
      <td class="method-name" align="right"> <a href="{{name}}">{{name| get_fancy_name: page.permalink, site.data.permalink_to_fancyname}}</a></td>
@@ -20,8 +20,8 @@ layout: default
 {% endif %}
 
 {% if page.concepts %}
-<details><summary><span class="cpp-namespace-list">Concepts</span></summary> 
-<table class='method-table' >
+<details><summary><span class="cpp-namespace-list">Concepts</span></summary>
+<table class='method-table table-wrapper' >
  {% for name in page.concepts%}
     <tr>
      <td class="method-name" align="right"> <a href="{{name}}">{{name| get_fancy_name: page.permalink, site.data.permalink_to_fancyname}}</a></td>
@@ -36,9 +36,9 @@ layout: default
 
  <!--a list of dicts with one element : a grouped list with a gruop title-->
 {% if page.classes %}
-<details><summary><span class="cpp-namespace-list">Classes</span></summary> 
+<details><summary><span class="cpp-namespace-list">Classes</span></summary>
 {% if page.classes.first.first %}
-<table class='method-table'>
+<table class='method-table table-wrapper'>
   {% for g_l in page.classes %}
   <tr> <td class="method-group-name" align="left" colspan=2> {{g_l.first[0]}} </td></tr>
    {% for name in g_l.first[1] %}
@@ -51,7 +51,7 @@ layout: default
 </table>
  <!--The method is a list-->
 {% else %}
-<table class='method-table'>
+<table class='method-table table-wrapper'>
  {% for name in page.classes %}
     <tr>
      <td class="method-name" align="right"><a href="{{name}}">{{name| get_fancy_name: page.permalink, site.data.permalink_to_fancyname}}</a></td>
@@ -64,8 +64,8 @@ layout: default
 {% endif %}
 
 {% if page.functions %}
-<details><summary><span class="cpp-namespace-list">Functions</span></summary> 
-<table class='method-table' >
+<details><summary><span class="cpp-namespace-list">Functions</span></summary>
+<table class='method-table table-wrapper' >
  {% for name in page.functions%}
     <tr>
      <td class="method-name" align="right"> <a href="{{name}}">{{name| get_fancy_name: page.permalink, site.data.permalink_to_fancyname}}</a></td>

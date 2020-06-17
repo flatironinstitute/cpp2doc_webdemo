@@ -6,7 +6,7 @@ layout: default
 
 <span  class='cpp-include-header'> Defined in header  &lt;{{page.includer}}&gt; </span>
 
-<table class='cppfunction-signature-table'>
+<table class='cppfunction-signature-table table-wrapper'>
 {% for entity in page.overloads %}
     <tr>
      <td> {{forloop.index}} </td>
@@ -38,9 +38,9 @@ layout: default
 <h3> Template parameters</h3>
 {% if  page.tparams.size >= 3 %}
 {%assign collapsed = true %}
-<details><summary><span class="cpp-template-parameters-header">Click to unfold</span></summary> 
+<details><summary><span class="cpp-template-parameters-header">Click to unfold</span></summary>
 {% endif %}
-<table class='tparam-table' >
+<table class='tparam-table table-wrapper' >
  {% for param in page.tparams%}
   {% if param[1] != "__SKIP__" %}
     <tr>
@@ -57,7 +57,7 @@ layout: default
 {% if page.params.size != 0 %}
 <h3> Parameters</h3>
 
-<table class='param-table' >
+<table class='param-table table-wrapper' >
  {% for param in page.params%}
     <tr>
      <td class="param-name" valign="top" align="left"> {{param[0]}} </td>
