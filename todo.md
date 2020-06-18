@@ -1,19 +1,16 @@
 # TODO Jekyll Docs
 
-_updated 6/15_
+_updated 6/18_
 
 
 ## Todo:
 - Multi-column layout build - see /cpp-api/nda - make a 3 col layout top aligned *** DO FIRST #️⃣1️⃣
-- Rename Basic C++ libraries. CCQ Toolkit ? Rhizome?
-- Change min-width on <td> in signature numeration - make a class. Also make a class for the related number information "signature-table"
-use nda:reshaped view as template. reduce characters to 100, update propoertions.
-- Update pipeline/README with feedback from Alex. Add information on what is available for contributor editing.
-- Re-deploy on vercel -> Routing issues around permalinks on vercel.
-- Table sizing
 - Remove howtos in cpp-api/nda example.
-- Style list with grouping (see cpi-api/nda/basic_array)
 - Expand warning syntax / and note!  classes ".alert alert-warning" and ".alert .alert-note"
+- Rename Basic C++ libraries. CCQ Toolkit ? Rhizome?
+- Re-deploy on vercel -> Routing issues around permalinks on vercel.
+- Update pipeline/README with feedback from Alex. Add information on what is available for contributor editing.
+- Review concept page when written.
 
 ## Verify:
 - Remove toc - update heading on layouts from OP. [Add :no-toc to class, function, namespace, cpp-concept. ]
@@ -21,6 +18,9 @@ use nda:reshaped view as template. reduce characters to 100, update propoertions
 - Create folding list functionality (via class)
 
 ## Done:
+- Style list with grouping (see cpi-api/nda/basic_array)
+- Change min-width on <td> in signature numeration - make a class. Also make a class for the related number information "signature-table"
+use nda:reshaped view as template. reduce characters to 100, update propoertions.
 - Remove the logo
 - change destination folder to docs/cpp-api
 - Speed: use cache plugin,

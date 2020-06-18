@@ -220,3 +220,10 @@ body {
     justify-self: end;
   }
 }
+
+.page-title {
+  display: flex;
+  justify-content: flex-end;
+  background-color: #fff;
+  border-bottom: 1px solid #eeebee;
+}
