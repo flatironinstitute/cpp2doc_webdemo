@@ -36,6 +36,7 @@ $logo: "{{ site.logo | absolute_url }}";
 
 // Modules
 @import "./base";
+@import "./card";
 @import "./layout";
 @import "./content";
 @import "./navigation";

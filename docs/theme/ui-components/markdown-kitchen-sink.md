@@ -1,10 +1,9 @@
 ---
 title: Markdown
-parent: Theme
-nav_order: 7
+parent: UI Components
 layout: default
 nav_include: true
-permalink: /theme/markdown
+permalink: /theme/ui-components/markdown
 ---
 
 # Markdown Kitchen Sink

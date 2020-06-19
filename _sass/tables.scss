@@ -17,6 +17,10 @@ table {
   display: table;
   min-width: 100%;
   border-collapse: separate;
+
+  &.signature-table {
+    box-shadow: none;
+  }
 }
 
 th,
@@ -33,6 +37,11 @@ td {
 
   &:first-of-type {
     border-left: 0;
+  }
+  &.signature-index {
+    max-width: 30px;
+    width: 25px;
+    min-width: 25px;
   }
 }
 

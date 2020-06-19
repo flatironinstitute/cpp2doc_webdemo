@@ -1,9 +1,11 @@
 ---
 layout: default
 ---
-<h1> {{page.title |markdownify}} </h1>
 
-<span  class='cpp-include-header'> Defined in header  &lt;{{page.includer}}&gt; </span>
+<div class="page-title">
+   <h1> {{page.title}} </h1>
+   <h6 class='cpp-include-header'> Defined in header  &lt;{{page.includer}}&gt; </h6>
+</div>
 
 <!-- Signature  -->
 
@@ -16,64 +18,71 @@ layout: default
 <!-- Template parameters -->
 
 {% if page.tparams.size != 0 %}
-<h3> Template parameters</h3>
-{% if  page.tparams.size >= 3 %}
-{%assign tpl_collapsed = true %}
-<details><summary><span class="cpp-template-parameters-header">Click to unfold</span></summary> 
-{% endif %}
-<table class='tparam-table' >
- {% for param in page.tparams%}
-  {% if param[1] != "__SKIP__" %}
-    <tr>
-     <td class="param-name" valign="top" align="left"> {{param[0]}} </td>
-     <td class="param-value"> {{param[1] | newline_to_br| markdownify | remove: '<p>' | remove: '</p>'	}} </td>
-    </tr>
+   {% if  page.tparams.size >= 3 %}
+      {%assign tpl_collapsed = true %}
+      <details><summary><h2 class="cpp-template-parameters-header">Template parameters</h2></summary>
+   {% else %}
+      <h2>Template parameters</h2>
    {% endif %}
- {% endfor %}
-</table>
-{%- if tpl_collapsed -%}</details>{%- endif -%}
+   <table class='tparam-table' >
+   {% for param in page.tparams%}
+      {% if param[1] != "__SKIP__" %}
+         <tr>
+         <td class="param-name" valign="top" align="left"> {{param[0]}} </td>
+         <td class="param-value"> {{param[1] | newline_to_br| markdownify | remove: '<p>' | remove: '</p>'	}} </td>
+         </tr>
+      {% endif %}
+   {% endfor %}
+   </table>
+   {%- if tpl_collapsed -%}</details>{%- endif -%}
 {% endif %}
 
  <!-- Methods FIXME : regrouping. Write the get_brief Ruby filter-->
 
 {% if page.methods %}
-<h3> Member functions </h3>
-{% if  page.methods.size >= 100 %}
-{%assign param_collapsed = true %}
-<details><summary><span class="cpp-parameters-header">Click to unfold</span></summary> 
-{% endif %}
- <!--The method is a list of dicts with one element : a grouped list with a gruop title-->
-{% if page.methods.first.first %}
-<table class='method-table'>
-  {% for g_l in page.methods %}
-  <tr> <td class="method-group-name" align="left" colspan=2> {{g_l.first[0]}} </td></tr>
-   {% for name in g_l.first[1] %}
-    <tr>
-     <td class="method-name" align="right"><a href="{{name}}.html">{{name| get_fancy_name: page.permalink, site.data.permalink_to_fancyname}}</a></td>
-     <td class="method-brief">{{name| get_brief: page.permalink, site.data.permalink_to_brief | markdownify | remove: '<p>' | remove: '</p>'}}</td>
-    </tr>
+
+   {% if  page.methods.size >= 100 %}
+      {% assign param_collapsed = true %}
+      <!-- TODO: Replace with list name -->
+      <details><summary><h2 class="cpp-parameters-header">Member Function</h2></summary>
+   {% else %}
+      <h2> Member functions</h2>
+   {% endif %}
+   <!--The method is a list of dicts with one element : a grouped list with a group title-->
+   {% if page.methods.first.first %}
+   {% for g_l in page.methods %}
+      {%- assign method-group-name = g_l.first[0] | normalize_whitespace | strip_newlines -%}
+      {% if method-group-name != blank %}
+         <h4 class="method-group-name pt-lg-4">{{method-group-name}}</h4>
+      {% endif %}
+      <table class='method-table table-wrapper'>
+         {% for name in g_l.first[1] %}
+         <tr>
+         <td class="method-name" align="right"><a href="{{name}}.html">{{name| get_fancy_name: page.permalink, site.data.permalink_to_fancyname}}</a></td>
+         <td class="method-brief">{{name| get_brief: page.permalink, site.data.permalink_to_brief | markdownify | remove: '<p>' | remove: '</p>'}}</td>
+         </tr>
+         {% endfor %}
+      </table>
    {% endfor %}
-  {% endfor %}
-</table>
- <!--The method is a list-->
-{% else %}
-<table class='method-table'>
- {% for name in page.methods %}
-    <tr>
-     <td class="method-name" align="right"><a href="{{name}}.html">{{name| get_fancy_name: page.permalink, site.data.permalink_to_fancyname}}</a></td>
-     <td class="method-brief">{{name| get_brief: page.permalink, site.data.permalink_to_brief | markdownify | remove: '<p>' | remove: '</p>'}}</td>
-    </tr>
- {% endfor %}
-</table>
-{% endif %}
-{%- if param_collapsed -%}</details>{%- endif -%}
+   <!--The method is a list-->
+   {% else %}
+   <table class='method-table table-wrapper'>
+   {% for name in page.methods %}
+      <tr>
+      <td class="method-name" align="right"><a href="{{name}}.html">{{name| get_fancy_name: page.permalink, site.data.permalink_to_fancyname}}</a></td>
+      <td class="method-brief">{{name| get_brief: page.permalink, site.data.permalink_to_brief | markdownify | remove: '<p>' | remove: '</p>'}}</td>
+      </tr>
+   {% endfor %}
+   </table>
+   {% endif %}
+   {%- if param_collapsed -%}</details>{%- endif -%}
 {% endif %}
 
-<!--<h3> Non member functions</h3>-->
+<!--<h2> Non member functions</h2>-->
 
 {% if page.member_types %}
-<h3> Member types</h3>
-<table class='member-type-table' >
+<h2> Member types</h2>
+<table class='member-type-table table-wrapper' >
  {% for mt in page.member_types%}
     <tr>
      <td class="member-type-name" align="right"> {{mt[0]}}  </td>
@@ -86,8 +95,8 @@ layout: default
 {% endif %}
 
 {% if page.member_fields %}
-<h3> Member fields</h3>
-<table class='member-field-table' >
+<h2> Member fields</h2>
+<table class='member-field-table table-wrapper' >
  {% for mt in page.member_fields%}
     <tr>
      <td class="member-field-name" align="right"> {{mt[0]}}  </td>

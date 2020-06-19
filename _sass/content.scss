@@ -8,6 +8,12 @@
 .page-content {
   line-height: $content-line-height;
 
+  summary {
+    h2 {
+      display: inline-flex;
+    }
+  }
+
   a {
     overflow: hidden;
     text-overflow: ellipsis;

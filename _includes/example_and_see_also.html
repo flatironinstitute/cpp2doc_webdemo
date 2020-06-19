@@ -1,7 +1,7 @@
  <!-- Example -->
 
 {% if page.example.code != "__NONE__" %}
-<h3> Example </h3>
+<h2> Example </h2>
 
 {{page.example.desc | markdownify}}
 
@@ -17,7 +17,7 @@
  <!-- See Also links -->
 
 {% if page.see-also.size != 0 %}
-<h3> See also </h3>
+<h2> See also </h2>
 <table class='table-seealso' >
  {%- for name in page.see-also -%}
     <tr>
