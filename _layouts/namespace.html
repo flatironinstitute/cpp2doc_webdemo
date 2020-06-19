@@ -38,17 +38,19 @@ layout: default
 {% if page.classes %}
 <details><summary><span class="cpp-namespace-list">Classes</span></summary>
 {% if page.classes.first.first %}
-<table class='method-table table-wrapper'>
+
   {% for g_l in page.classes %}
-  <tr> <td class="method-group-name" align="left" colspan=2> {{g_l.first[0]}} </td></tr>
-   {% for name in g_l.first[1] %}
-    <tr>
-     <td class="method-name" align="right"><a href="{{name}}">{{name| get_fancy_name: page.permalink, site.data.permalink_to_fancyname}}</a></td>
-     <td class="method-brief">{{name| get_brief: page.permalink, site.data.permalink_to_brief | markdownify | remove: '<p>' | remove: '</p>'}}</td>
-    </tr>
-   {% endfor %}
+   <h4 class="method-group-name pt-lg-4"> {{g_l.first[0]}}</h4>
+   <table class='method-table table-wrapper'>
+      {% for name in g_l.first[1] %}
+      <tr>
+         <td class="method-name" align="right"><a href="{{name}}">{{name| get_fancy_name: page.permalink, site.data.permalink_to_fancyname}}</a></td>
+         <td class="method-brief">{{name| get_brief: page.permalink, site.data.permalink_to_brief | markdownify | remove: '<p>' | remove: '</p>'}}</td>
+      </tr>
+      {% endfor %}
+   </table>
   {% endfor %}
-</table>
+
  <!--The method is a list-->
 {% else %}
 <table class='method-table table-wrapper'>

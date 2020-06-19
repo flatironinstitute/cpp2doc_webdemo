@@ -5,7 +5,7 @@ _updated 6/18_
 
 ## Todo:
 - Multi-column layout build - see /cpp-api/nda - make a 3 col layout top aligned *** DO FIRST #️⃣1️⃣
-- Remove howtos in cpp-api/nda example.
+- Remove how-tos in cpp-api/nda example.
 - Expand warning syntax / and note!  classes ".alert alert-warning" and ".alert .alert-note"
 - Rename Basic C++ libraries. CCQ Toolkit ? Rhizome?
 - Re-deploy on vercel -> Routing issues around permalinks on vercel.

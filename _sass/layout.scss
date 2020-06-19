@@ -223,8 +223,17 @@ body {
 
 .page-title {
   display: flex;
-  justify-content: space-between;
-  align-items: baseline;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: flex-start;
   background-color: #fff;
   border-bottom: 1px solid #eeebee;
+
+  h1 {
+    margin-bottom: 0em;
+  }
+  h6 {
+    margin-bottom: 2em;
+  }
+
 }
