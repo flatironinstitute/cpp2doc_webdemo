@@ -36,8 +36,17 @@
   box-shadow: 0 1px 2px rgba(0, 0, 0, 0.12), 0 3px 10px rgba(0, 0, 0, 0.08);
   width: 100%;
   height: auto;
+  h4 {
+    color: $link-color;
+  }
 }
 
-a.card-link {
-  white-space: normal !important;
+.card-examples {
+  color: $nav-child-link-color;
+  font-weight: normal;
+  a {
+    white-space: normal !important;
+    color: $nav-child-link-color;
+    font-weight: normal;
+  }
 }
