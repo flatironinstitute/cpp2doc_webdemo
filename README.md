@@ -72,7 +72,7 @@ Please read [CONTRIBUTING.md](https://github.com/???) for details on our code of
 
 ## Authors
 
-<!-- - **Beyonce Giselle Knowles Carter** - _Branding and design_ - [Flatiron Institute](https://github.com/flatironinstitute) -->
+<!-- - **Sherry Choi** - _Branding and design_ - [Sherry Choi](http://www.sherrychoi.com/) -->
 
 - **Liz Lovero** - _Jekyll template_ - [Flatiron Institute](https://github.com/lizlove)
 - **Olivier Parcollet** -_Cpp2doc plugin and initial work_ - [Flatiron Institute](https://github.com/parcollet)
