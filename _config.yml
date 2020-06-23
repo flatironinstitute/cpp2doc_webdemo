@@ -14,34 +14,21 @@
 # You can create any custom variable you would like, and they will be accessible
 # in the templates via {{ site.myvariable }}.
 title: TRIQS
-email: your-email@example.com
+email: elovero@flatironinstitute.org
 description: >- # this means to ignore newlines until "baseurl:"
   TRIQS (Toolbox for Research on Interacting Quantum Systems) is a set of C++
   and Python libraries for the study of interacting quantum systems.
 baseurl: "" # the subpath of your site, e.g. /blog
 url: "" # the base hostname & protocol for your site, e.g. http://example.com
-github_username:  lizlove
+github_username: lizlove
 permalink: pretty
 
 # Build settings
 markdown: MyCustomProcessor #kramdown
-#markdown: kramdown
 kramdown:
   input: Kramdown_CCQ_extension
   math_engine: katex
   math_engine_opts: {} # TODO: Can we remove this empty object?
-
-  # failed
-  #syntax_highlighter_opts:
-    ##css_class: 'highlight'
-    ##line_numbers: true # bad idea, spans don't need linenos and would inherit this option
-    #span:
-      #line_numbers: false
-    #block:
-      #line_numbers: true
-      #start_line: 1
-
-
 
 plugins:
   - jekyll-seo-tag

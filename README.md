@@ -72,10 +72,7 @@ Please read [CONTRIBUTING.md](https://github.com/???) for details on our code of
 
 ## Authors
 
-- **Michael Jordan** - _Cpp2doc plugin and initial work_ - [Flatiron Institute](https://github.com/flatironinstitute)
-- **Scottie Pippin** - _Branding and design_ - [Flatiron Institute](https://github.com/flatironinstitute)
-- **Dennis Rodman** - _Jekyll template_ - [Flatiron Institute](https://github.com/flatironinstitute)
+<!-- - **Beyonce Giselle Knowles Carter** - _Branding and design_ - [Flatiron Institute](https://github.com/flatironinstitute) -->
 
-<!-- ## Acknowledgments
-
-* [Just the docs](https://github.com/pmarsceill/just-the-docs) -->
+- **Liz Lovero** - _Jekyll template_ - [Flatiron Institute](https://github.com/lizlove)
+- **Olivier Parcollet** -_Cpp2doc plugin and initial work_ - [Flatiron Institute](https://github.com/parcollet)
