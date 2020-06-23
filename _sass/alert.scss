@@ -1,0 +1,33 @@
+.alert {
+  display: block;
+  width: 100%;
+  max-width: 100%;
+  margin-top: $sp-5;
+  margin-bottom: $sp-5;
+  overflow-x: auto;
+  border-radius: $border-radius;
+  padding-top: 0.16em;
+  padding-right: 0.42em;
+  padding-bottom: 0.16em;
+  padding-left: 0.42em;
+  color: $grey-dk-200;
+  border: 1px solid #eee;
+  border-left-color: $grey-dk-200;
+  border-left-width: 0.25rem;
+
+  td {
+    min-width: 50px;
+  }
+
+  tbody tr:last-of-type td {
+    padding-bottom: 0.16em;
+  }
+}
+
+.alert-warning {
+  border-left-color: $yellow-200;
+}
+
+.alert-note {
+  border-left-color: $purple-200;
+}

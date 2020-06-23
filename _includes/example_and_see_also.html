@@ -1,32 +1,38 @@
- <!-- Example -->
+<!-- Example -->
 
 {% if page.example.code != "__NONE__" %}
-<h2> Example </h2>
+<h2>Example</h2>
 
 {{page.example.desc | markdownify}}
 
 <div>
-{{page.example.code | link_and_highlight: site.data.highlighted_types}}
+  {{page.example.code | link_and_highlight: site.data.highlighted_types}}
 </div>
 
-<div class="example-comment">
- {{page.example.comment | markdownify}}
+<div class="alert alert-warning">
+  {{page.example.comment | markdownify}}
 </div>
 {% endif %}
 
- <!-- See Also links -->
+<!-- See Also links -->
 
 {% if page.see-also.size != 0 %}
-<h2> See also </h2>
-<table class='table-seealso' >
- {%- for name in page.see-also -%}
-    <tr>
-     <td class="" align="right"><a href="{{name}}">{{name| get_fancy_name_from_permalink: site.data.permalink_to_fancyname}}</a></td>
-     <td class="">{{site.data.permalink_to_brief[name]| markdownify | remove: '<p>' | remove: '</p>'}}</td>
-    </tr>
- {%- endfor -%}
+<h2>See also</h2>
+<table class="table-seealso">
+  {%- for name in page.see-also -%}
+  <tr>
+    <td class="" align="right">
+      <a href="{{name}}"
+        >{{name| get_fancy_name_from_permalink:
+        site.data.permalink_to_fancyname}}</a
+      >
+    </td>
+    <td class="">
+      {{site.data.permalink_to_brief[name]| markdownify | remove: '
+      <p>' | remove: '</p>
+      '}}
+    </td>
+  </tr>
+  {%- endfor -%}
 </table>
 {% endif %}
-
-
-

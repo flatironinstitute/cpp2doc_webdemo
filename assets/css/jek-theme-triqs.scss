@@ -35,6 +35,7 @@ $logo: "{{ site.logo | absolute_url }}";
 {% endif %}
 
 // Modules
+@import "./alert";
 @import "./base";
 @import "./card";
 @import "./layout";
