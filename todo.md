@@ -1,26 +1,25 @@
 # TODO Jekyll Docs
 
-_updated 6/18_
+_updated 6/23_
 
 ## Todo:
 
-- Expand warning syntax / and note! classes ".alert alert-warning" and ".alert .alert-note"
 - Rename Basic C++ libraries. CCQ Toolkit ? Rhizome?
-- Re-deploy on vercel -> Routing issues around permalinks on vercel.
+- Re-deploy on vercel in Sherry colors.
 - Update pipeline/README with feedback from Alex. Add information on what is available for contributor editing.
 - Review concept page when written.
-- Create folding list functionality (via class)- get a new icon that one sux.
 
 ## Verify:
 
-- Remove toc - update heading on layouts from OP. [Add :no-toc to class, function, namespace, cpp-concept. ]
 - Add function name etc on top of each page in heading.(see cppref - only name no namespace with parent/::)
-
 - Multi-column layout build - see /cpp-api/nda - make a 3 col layout top aligned \*\*\* DO FIRST #️⃣1️⃣
 - Are the under items individual links or examples? Would the card point to a separate page or to nothing?
 
 ## Done:
 
+- Create folding list functionality (via class)
+- Remove toc - update heading on layouts from OP. [Add :no-toc to class, function, namespace, cpp-concept. ]
+- Expand warning syntax / and note! classes ".alert alert-warning" and ".alert .alert-note"
 - Style list with grouping (see cpi-api/nda/basic_array)
 - Change min-width on <td> in signature numeration - make a class. Also make a class for the related number information "signature-table"
   use nda:reshaped view as template. reduce characters to 100, update propoertions.
@@ -51,3 +50,4 @@ _Icebox_
 - Vim links / github links
 - Investigate other speed optimizations: parallellization, etc.
 - Sublists for nda _Ask Olivier for example_
+- New icon for folding list
