@@ -2,25 +2,28 @@
 
 _updated 6/18_
 
-
 ## Todo:
-- Multi-column layout build - see /cpp-api/nda - make a 3 col layout top aligned *** DO FIRST #️⃣1️⃣
-- Remove how-tos in cpp-api/nda example.
-- Expand warning syntax / and note!  classes ".alert alert-warning" and ".alert .alert-note"
+
+- Expand warning syntax / and note! classes ".alert alert-warning" and ".alert .alert-note"
 - Rename Basic C++ libraries. CCQ Toolkit ? Rhizome?
 - Re-deploy on vercel -> Routing issues around permalinks on vercel.
 - Update pipeline/README with feedback from Alex. Add information on what is available for contributor editing.
 - Review concept page when written.
+- Create folding list functionality (via class)- get a new icon that one sux.
 
 ## Verify:
+
 - Remove toc - update heading on layouts from OP. [Add :no-toc to class, function, namespace, cpp-concept. ]
 - Add function name etc on top of each page in heading.(see cppref - only name no namespace with parent/::)
-- Create folding list functionality (via class)
+
+- Multi-column layout build - see /cpp-api/nda - make a 3 col layout top aligned \*\*\* DO FIRST #️⃣1️⃣
+- Are the under items individual links or examples? Would the card point to a separate page or to nothing?
 
 ## Done:
+
 - Style list with grouping (see cpi-api/nda/basic_array)
 - Change min-width on <td> in signature numeration - make a class. Also make a class for the related number information "signature-table"
-use nda:reshaped view as template. reduce characters to 100, update propoertions.
+  use nda:reshaped view as template. reduce characters to 100, update propoertions.
 - Remove the logo
 - change destination folder to docs/cpp-api
 - Speed: use cache plugin,
@@ -28,13 +31,13 @@ use nda:reshaped view as template. reduce characters to 100, update propoertions
 - Add great-grandparent level - and more?
 - Fix left side navigation
 - Remove gray on gray code highlighting font color. (blackish)
--  Try a test deploy /ci. - Github pages
--  for breadcrumbs use only the newest term, not the whole string.
--  Add the following properties to YAML
-      - `title`
-      - `has-children` (if applicable)
-      -  permalink starts with "/"
-      - layout: default
+- Try a test deploy /ci. - Github pages
+- for breadcrumbs use only the newest term, not the whole string.
+- Add the following properties to YAML
+  - `title`
+  - `has-children` (if applicable)
+  - permalink starts with "/"
+  - layout: default
 - page title / seo
 - test deployment on vercel - aka now
 - Search
@@ -43,6 +46,7 @@ use nda:reshaped view as template. reduce characters to 100, update propoertions
 - Width on left bar - smaller.
 
 _Icebox_
+
 - Change main-concepts to an alternate name to avoid confusion with new c++ concepts.
 - Vim links / github links
 - Investigate other speed optimizations: parallellization, etc.
