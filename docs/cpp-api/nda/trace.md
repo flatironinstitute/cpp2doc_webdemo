@@ -13,7 +13,7 @@ overloads:
 
   - signature: |
       template <nda::ArrayOfRank<2> M>
-      typename M::value_type trace(M const &m)
+      get_value_t<M> trace(M const &m)
     desc: ""
 
 # Long description. Any Markdown, with code, latex, multiline with |
@@ -32,8 +32,9 @@ return_value: __MISSING__
 
 # Code example. desc: any markdown to explain it.
 example:
-  desc: __MISSING__
-  code: __MISSING__
+  desc: ""
+  code: ""
+  comment: ""
 
 # A list of related functions/classes
 see-also: []

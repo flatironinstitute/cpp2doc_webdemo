@@ -69,6 +69,8 @@ member_types:
     desc: T
   layout_t:
     desc: The type of the layout
+  regular_type:
+    desc: __MISSING__
   const_iterator:
     desc: ""
   iterator:

@@ -59,6 +59,8 @@ member_types:
     desc: __MISSING__
   layout_t:
     desc: __MISSING__
+  regular_type:
+    desc: __MISSING__
   const_iterator:
     desc: ""
   iterator:

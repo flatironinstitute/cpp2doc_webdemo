@@ -35,7 +35,7 @@ overloads:
 
   - signature: |
       template <nda::ArrayInitializer Initializer>
-      basic_array(Initializer const &initializer) noexcept(noexcept(initializer.invoke(*this)))
+      basic_array(Initializer const &initializer) noexcept(noexcept(initializer.invoke(basic_array{})))
     desc: ""
 
   - signature: basic_array(std::initializer_list<ValueType> const &l) noexcept requires(Rank == 1)

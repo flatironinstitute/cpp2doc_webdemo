@@ -14,9 +14,6 @@ overloads:
   - signature: enum nda::layout_prop_e operator|(enum nda::layout_prop_e a, enum nda::layout_prop_e b)
     desc: ""
 
-  - signature: struct nda::layout_info_t operator|(struct nda::layout_info_t a, struct nda::layout_info_t b)
-    desc: ""
-
 # Long description. Any Markdown, with code, latex, multiline with |
 desc: ""
 

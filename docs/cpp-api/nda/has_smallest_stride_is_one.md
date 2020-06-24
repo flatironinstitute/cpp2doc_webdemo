@@ -1,20 +1,18 @@
 ---
 # Do not edit this first section
 layout: function
-fancy_name: assign_foreach
+fancy_name: has_smallest_stride_is_one
 namespace: nda
 includer: nda/nda.hpp
 
 # Brief description. One line only.
-brief: --------------- ASSIGN FOREACH ------------------------
+brief: ""
 
 # List of overloads. Edit only the desc
 overloads:
 
-  - signature: |
-      template <typename T, typename F>
-      void assign_foreach(T &x, F &&f)
-    desc: --------------- ASSIGN FOREACH ------------------------
+  - signature: bool has_smallest_stride_is_one(enum nda::layout_prop_e x)
+    desc: ""
 
 # Long description. Any Markdown, with code, latex, multiline with |
 desc: ""
@@ -22,27 +20,26 @@ desc: ""
 # Parameters of the function. Edit only the description after the :
 params:
   x: __MISSING__
-  f: __MISSING__
 
 # Template parameters of the function. Edit only the description after the :
 tparams:
-  T: __MISSING__
-  F: __MISSING__
+  {}
 
 # Desc of the return value
 return_value: __MISSING__
 
 # Code example. desc: any markdown to explain it.
 example:
-  desc: __MISSING__
-  code: __MISSING__
+  desc: ""
+  code: ""
+  comment: ""
 
 # A list of related functions/classes
 see-also: []
 
 # ---------- DO NOT EDIT BELOW --------
-permalink: /cpp-api/nda/assign_foreach
-title: nda::assign_foreach
-source: nda/basic_functions.hpp
+permalink: /cpp-api/nda/has_smallest_stride_is_one
+title: nda::has_smallest_stride_is_one
+source: nda/traits.hpp
 ...
 

@@ -40,6 +40,6 @@ see-also: []
 # ---------- DO NOT EDIT BELOW --------
 permalink: /cpp-api/nda/default_accessor/accessor/access
 title: nda::default_accessor::accessor<T>::access
-source: nda/accessors.hpp
+source: ""
 ...
 

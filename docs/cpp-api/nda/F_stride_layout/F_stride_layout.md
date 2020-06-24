@@ -19,6 +19,13 @@ methods: []
 # A list of non_member_functions
 non_member_functions: []
 
+# Public member types
+member_types:
+  with_lowest_guarantee_t:
+    desc: __MISSING__
+  contiguous_t:
+    desc: __MISSING__
+
 # Code example. desc: any markdown to explain it.
 example:
   desc: __MISSING__

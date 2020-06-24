@@ -40,6 +40,6 @@ see-also: []
 # ---------- DO NOT EDIT BELOW --------
 permalink: /cpp-api/nda/default_accessor/accessor/offset
 title: nda::default_accessor::accessor<T>::offset
-source: nda/accessors.hpp
+source: ""
 ...
 

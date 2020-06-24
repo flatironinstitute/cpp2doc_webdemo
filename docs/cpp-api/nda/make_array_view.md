@@ -1,7 +1,7 @@
 ---
 # Do not edit this first section
 layout: function
-fancy_name: inverse
+fancy_name: make_array_view
 namespace: nda
 includer: nda/nda.hpp
 
@@ -12,9 +12,13 @@ brief: ""
 overloads:
 
   - signature: |
-      template <class A>
-      requires(is_ndarray_v<std::decay_t<A>> and (get_algebra<std::decay_t<A>> != 'M'))
-      expr<'/', int, A> inverse(A &&a)
+      template <typename T, int R, typename L, char Algebra, typename ContainerPolicy>
+      array_view<T, R> make_array_view(basic_array<T, R, L, Algebra, ContainerPolicy> const &a)
+    desc: ""
+
+  - signature: |
+      template <typename T, int R, typename L, char Algebra, typename AccessorPolicy, typename OwningPolicy>
+      array_view<T, R> make_array_view(basic_array_view<T, R, L, Algebra, AccessorPolicy, OwningPolicy> const &a)
     desc: ""
 
 # Long description. Any Markdown, with code, latex, multiline with |
@@ -26,7 +30,13 @@ params:
 
 # Template parameters of the function. Edit only the description after the :
 tparams:
-  A: __MISSING__
+  T: __MISSING__
+  R: __MISSING__
+  L: __MISSING__
+  Algebra: __MISSING__
+  ContainerPolicy: __MISSING__
+  AccessorPolicy: __MISSING__
+  OwningPolicy: __MISSING__
 
 # Desc of the return value
 return_value: __MISSING__
@@ -41,8 +51,8 @@ example:
 see-also: []
 
 # ---------- DO NOT EDIT BELOW --------
-permalink: /cpp-api/nda/inverse
-title: nda::inverse
-source: nda/arithmetic.hpp
+permalink: /cpp-api/nda/make_array_view
+title: nda::make_array_view
+source: nda/basic_functions.hpp
 ...
 

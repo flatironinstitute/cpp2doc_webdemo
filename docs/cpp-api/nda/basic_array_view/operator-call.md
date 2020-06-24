@@ -51,6 +51,6 @@ see-also: []
 # ---------- DO NOT EDIT BELOW --------
 permalink: /cpp-api/nda/basic_array_view/operator-call
 title: nda::basic_array_view<ValueType, Rank, Layout, Algebra, AccessorPolicy, OwningPolicy>::operator()
-source: nda/_impl_basic_array_view_common.hpp
+source: ""
 ...
 

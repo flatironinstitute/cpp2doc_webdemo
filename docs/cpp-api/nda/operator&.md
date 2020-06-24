@@ -11,7 +11,10 @@ brief: ""
 # List of overloads. Edit only the desc
 overloads:
 
-  - signature: bool operator&(enum nda::layout_prop_e a, enum nda::layout_prop_e b)
+  - signature: enum nda::layout_prop_e operator&(enum nda::layout_prop_e a, enum nda::layout_prop_e b)
+    desc: ""
+
+  - signature: struct nda::layout_info_t operator&(struct nda::layout_info_t a, struct nda::layout_info_t b)
     desc: ""
 
 # Long description. Any Markdown, with code, latex, multiline with |
@@ -31,8 +34,9 @@ return_value: __MISSING__
 
 # Code example. desc: any markdown to explain it.
 example:
-  desc: __MISSING__
-  code: __MISSING__
+  desc: ""
+  code: ""
+  comment: ""
 
 # A list of related functions/classes
 see-also: []

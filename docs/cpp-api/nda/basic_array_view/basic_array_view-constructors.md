@@ -6,10 +6,13 @@ namespace: nda::basic_array_view
 includer: nda/nda.hpp
 
 # Brief description. One line only.
-brief: Construct an empty view.
+brief: ""
 
 # List of overloads. Edit only the desc
 overloads:
+
+  - signature: basic_array_view(nda::basic_array_view::layout_t const &idxm, nda::basic_array_view::storage_t st)
+    desc: ""
 
   - signature: basic_array_view()
     desc: Construct an empty view.
@@ -58,10 +61,11 @@ desc: ""
 
 # Parameters of the function. Edit only the description after the :
 params:
+  idxm: Index Map (view can be non contiguous). If the offset is non zero, the view starts at p + idxm.offset()
+  st: __MISSING__
   a: __MISSING__
   shape: Shape of the view (contiguous)
   p: Pointer to the data
-  idxm: Index Map (view can be non contiguous). If the offset is non zero, the view starts at p + idxm.offset()
 
 # Template parameters of the function. Edit only the description after the :
 tparams:
@@ -76,8 +80,9 @@ return_value: __MISSING__
 
 # Code example. desc: any markdown to explain it.
 example:
-  desc: __MISSING__
-  code: __MISSING__
+  desc: ""
+  code: ""
+  comment: ""
 
 # A list of related functions/classes
 see-also: []

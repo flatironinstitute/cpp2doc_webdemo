@@ -11,6 +11,7 @@ concepts:
   - Array
   - ArrayOfRank
   - ArrayInitializer
+  - StdEqualityComparableWith
 
 # List of classes.  You can reorder, regroup into a dict : groupname -> list
 classes:
@@ -55,18 +56,7 @@ classes:
 
 # List of functions.  You can reorder, regroup into a dict : groupname -> list
 functions:
-  - make_std_array
-  - make_initialized_array
-  - to_vector
-  - append
-  - front_append
-  - pop
-  - front_pop
-  - front_mpop
-  - join
-  - dot_product
   - get_first_element
-  - is_degradable
   - operator|
   - operator&
   - operator<<
@@ -81,9 +71,7 @@ functions:
   - resize_or_check_if_view
   - make_const_view
   - make_matrix_view
-  - make_matrix_const_view
   - operator==
-  - assign_foreach
   - clef_auto_assign
   - check_grouping
   - stride_order_of_grouped_idx
@@ -138,6 +126,12 @@ functions:
   - min_element
   - frobenius_norm
   - sum
+  - has_contiguous
+  - has_smallest_stride_is_one
+  - has_strided_1d
+  - make_array_const_view
+  - make_array_view
+  - reinterpret_add_fast_dims_of_size_one
 
 # ---------- DO NOT EDIT BELOW --------
 permalink: /cpp-api/nda

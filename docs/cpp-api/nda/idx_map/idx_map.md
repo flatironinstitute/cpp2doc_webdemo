@@ -44,6 +44,7 @@ methods:
   - operator-call
   - operator==
   - transpose
+  - is_strided_1d
 
 # A list of non_member_functions
 non_member_functions: []

@@ -1,7 +1,7 @@
 ---
 # Do not edit this first section
 layout: function
-fancy_name: make_matrix_const_view
+fancy_name: make_array_const_view
 namespace: nda
 includer: nda/nda.hpp
 
@@ -13,13 +13,12 @@ overloads:
 
   - signature: |
       template <typename T, int R, typename L, char Algebra, typename ContainerPolicy>
-      matrix_view<const T, L> make_matrix_const_view(basic_array<T, R, L, Algebra, ContainerPolicy> const &a)
+      array_const_view<T, R> make_array_const_view(basic_array<T, R, L, Algebra, ContainerPolicy> const &a)
     desc: ""
 
   - signature: |
       template <typename T, int R, typename L, char Algebra, typename AccessorPolicy, typename OwningPolicy>
-      matrix_view<const T, L>
-      make_matrix_const_view(basic_array_view<T, R, L, Algebra, AccessorPolicy, OwningPolicy> const &a)
+      array_const_view<T, R> make_array_const_view(basic_array_view<T, R, L, Algebra, AccessorPolicy, OwningPolicy> const &a)
     desc: ""
 
 # Long description. Any Markdown, with code, latex, multiline with |
@@ -44,15 +43,16 @@ return_value: __MISSING__
 
 # Code example. desc: any markdown to explain it.
 example:
-  desc: __MISSING__
-  code: __MISSING__
+  desc: ""
+  code: ""
+  comment: ""
 
 # A list of related functions/classes
 see-also: []
 
 # ---------- DO NOT EDIT BELOW --------
-permalink: /cpp-api/nda/make_matrix_const_view
-title: nda::make_matrix_const_view
+permalink: /cpp-api/nda/make_array_const_view
+title: nda::make_array_const_view
 source: nda/basic_functions.hpp
 ...
 
