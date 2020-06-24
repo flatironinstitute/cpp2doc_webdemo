@@ -46,6 +46,7 @@ $logo: "{{ site.logo | absolute_url }}";
 @import "./buttons";
 @import "./search";
 @import "./tables";
+@import "./tooltip";
 @import "./code";
 @import "./utilities/utilities";
 @import "./overrides";
