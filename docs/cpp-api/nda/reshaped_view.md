@@ -69,6 +69,7 @@ see-also:
 # ---------- DO NOT EDIT BELOW --------
 permalink: /cpp-api/nda/reshaped_view
 title: nda::reshaped_view
+parent: nda
 source: nda/layout_transforms.hpp
 ...
 

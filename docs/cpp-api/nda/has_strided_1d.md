@@ -40,6 +40,7 @@ see-also: []
 # ---------- DO NOT EDIT BELOW --------
 permalink: /cpp-api/nda/has_strided_1d
 title: nda::has_strided_1d
+parent: nda
 source: nda/traits.hpp
 ...
 

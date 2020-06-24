@@ -45,6 +45,7 @@ see-also: []
 # ---------- DO NOT EDIT BELOW --------
 permalink: /cpp-api/nda/for_each_static
 title: nda::for_each_static
+parent: nda
 source: ""
 ...
 

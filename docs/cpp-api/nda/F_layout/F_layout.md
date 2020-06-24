@@ -38,5 +38,7 @@ see-also: []
 permalink: /cpp-api/nda/F_layout
 title: nda::F_layout
 source: nda/layout/policies.hpp
+parent: nda
+has_children: true
 ...
 

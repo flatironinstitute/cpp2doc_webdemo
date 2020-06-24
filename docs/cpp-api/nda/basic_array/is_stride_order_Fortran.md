@@ -39,6 +39,7 @@ see-also: []
 # ---------- DO NOT EDIT BELOW --------
 permalink: /cpp-api/nda/basic_array/is_stride_order_Fortran
 title: nda::basic_array<ValueType, Rank, Layout, Algebra, ContainerPolicy>::is_stride_order_Fortran
+parent: nda::basic_array
 source: nda/_impl_basic_array_view_common.hpp
 ...
 

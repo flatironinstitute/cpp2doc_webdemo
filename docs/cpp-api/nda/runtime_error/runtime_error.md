@@ -36,5 +36,7 @@ see-also: []
 permalink: /cpp-api/nda/runtime_error
 title: nda::runtime_error
 source: nda/exceptions.hpp
+parent: nda
+has_children: true
 ...
 

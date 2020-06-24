@@ -44,6 +44,7 @@ see-also: []
 # ---------- DO NOT EDIT BELOW --------
 permalink: /cpp-api/nda/reinterpret_add_fast_dims_of_size_one
 title: nda::reinterpret_add_fast_dims_of_size_one
+parent: nda
 source: nda/layout_transforms.hpp
 ...
 

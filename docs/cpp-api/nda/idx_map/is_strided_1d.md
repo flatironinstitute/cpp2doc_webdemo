@@ -40,6 +40,7 @@ see-also: []
 # ---------- DO NOT EDIT BELOW --------
 permalink: /cpp-api/nda/idx_map/is_strided_1d
 title: nda::idx_map<Rank, StaticExtents, StrideOrder, LayoutProp>::is_strided_1d
+parent: nda::idx_map
 source: nda/layout/idx_map.hpp
 ...
 

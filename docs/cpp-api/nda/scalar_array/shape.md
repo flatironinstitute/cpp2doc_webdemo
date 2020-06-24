@@ -39,6 +39,7 @@ see-also: []
 # ---------- DO NOT EDIT BELOW --------
 permalink: /cpp-api/nda/scalar_array/shape
 title: nda::scalar_array<S, Rank>::shape
+parent: nda::scalar_array
 source: nda/arithmetic.hpp
 ...
 

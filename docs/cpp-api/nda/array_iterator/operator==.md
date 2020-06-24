@@ -39,6 +39,7 @@ see-also: []
 # ---------- DO NOT EDIT BELOW --------
 permalink: /cpp-api/nda/array_iterator/operator==
 title: nda::array_iterator<Rank, T, Pointer>::operator==
+parent: nda::array_iterator
 source: nda/iterators.hpp
 ...
 

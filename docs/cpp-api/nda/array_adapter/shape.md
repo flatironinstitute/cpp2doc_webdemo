@@ -39,6 +39,7 @@ see-also: []
 # ---------- DO NOT EDIT BELOW --------
 permalink: /cpp-api/nda/array_adapter/shape
 title: nda::array_adapter<R, F>::shape
+parent: nda::array_adapter
 source: nda/array_adapter.hpp
 ...
 

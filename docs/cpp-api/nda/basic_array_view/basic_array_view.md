@@ -78,5 +78,7 @@ see-also: []
 permalink: /cpp-api/nda/basic_array_view
 title: nda::basic_array_view
 source: nda/basic_array_view.hpp
+parent: nda
+has_children: true
 ...
 

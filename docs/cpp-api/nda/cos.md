@@ -42,6 +42,7 @@ see-also: []
 # ---------- DO NOT EDIT BELOW --------
 permalink: /cpp-api/nda/cos
 title: nda::cos
+parent: nda
 source: nda/mapped_functions.hxx
 ...
 

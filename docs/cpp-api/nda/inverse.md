@@ -43,6 +43,7 @@ see-also: []
 # ---------- DO NOT EDIT BELOW --------
 permalink: /cpp-api/nda/inverse
 title: nda::inverse
+parent: nda
 source: nda/arithmetic.hpp
 ...
 

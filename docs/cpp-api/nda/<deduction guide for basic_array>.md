@@ -56,6 +56,7 @@ see-also: []
 # ---------- DO NOT EDIT BELOW --------
 permalink: /cpp-api/nda/<deduction guide for basic_array>
 title: nda::<deduction guide for basic_array>
+parent: nda
 source: nda/declarations.hpp
 ...
 

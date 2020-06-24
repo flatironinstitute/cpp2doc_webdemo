@@ -39,6 +39,7 @@ see-also: []
 # ---------- DO NOT EDIT BELOW --------
 permalink: /cpp-api/nda/range_all/range_all-destructor
 title: nda::range_all::~range_all
+parent: nda::range_all
 source: nda/layout/range.hpp
 ...
 

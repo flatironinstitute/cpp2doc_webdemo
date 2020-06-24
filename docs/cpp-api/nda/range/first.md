@@ -39,6 +39,7 @@ see-also: []
 # ---------- DO NOT EDIT BELOW --------
 permalink: /cpp-api/nda/range/first
 title: nda::range::first
+parent: nda::range
 source: nda/layout/range.hpp
 ...
 

@@ -41,6 +41,7 @@ see-also: []
 # ---------- DO NOT EDIT BELOW --------
 permalink: /cpp-api/nda/idx_map/operator-call
 title: nda::idx_map<Rank, StaticExtents, StrideOrder, LayoutProp>::operator()
+parent: nda::idx_map
 source: ""
 ...
 

@@ -41,6 +41,7 @@ see-also: []
 # ---------- DO NOT EDIT BELOW --------
 permalink: /cpp-api/nda/idx_map/transpose
 title: nda::idx_map<Rank, StaticExtents, StrideOrder, LayoutProp>::transpose
+parent: nda::idx_map
 source: nda/layout/idx_map.hpp
 ...
 

@@ -41,6 +41,7 @@ see-also: []
 # ---------- DO NOT EDIT BELOW --------
 permalink: /cpp-api/nda/scalar_matrix/operator-index
 title: nda::scalar_matrix<S>::operator[]
+parent: nda::scalar_matrix
 source: nda/arithmetic.hpp
 ...
 

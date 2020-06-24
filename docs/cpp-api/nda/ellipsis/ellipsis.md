@@ -32,5 +32,7 @@ see-also: []
 permalink: /cpp-api/nda/ellipsis
 title: nda::ellipsis
 source: nda/layout/range.hpp
+parent: nda
+has_children: true
 ...
 

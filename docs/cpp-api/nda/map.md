@@ -45,6 +45,7 @@ see-also: []
 # ---------- DO NOT EDIT BELOW --------
 permalink: /cpp-api/nda/map
 title: nda::map
+parent: nda
 source: nda/map.hpp
 ...
 

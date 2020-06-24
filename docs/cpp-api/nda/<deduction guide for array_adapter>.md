@@ -54,6 +54,7 @@ see-also: []
 # ---------- DO NOT EDIT BELOW --------
 permalink: /cpp-api/nda/<deduction guide for array_adapter>
 title: nda::<deduction guide for array_adapter>
+parent: nda
 source: nda/array_adapter.hpp
 ...
 

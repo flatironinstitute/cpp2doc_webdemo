@@ -47,6 +47,7 @@ see-also: []
 # ---------- DO NOT EDIT BELOW --------
 permalink: /cpp-api/nda/basic_array/map_layout_transform
 title: nda::basic_array::map_layout_transform
+parent: nda::basic_array
 source: nda/basic_array.hpp
 ...
 

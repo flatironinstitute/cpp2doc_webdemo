@@ -52,6 +52,7 @@ see-also: []
 # ---------- DO NOT EDIT BELOW --------
 permalink: /cpp-api/nda/make_matrix_view
 title: nda::make_matrix_view
+parent: nda
 source: nda/basic_functions.hpp
 ...
 

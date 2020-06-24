@@ -41,6 +41,7 @@ see-also: []
 # ---------- DO NOT EDIT BELOW --------
 permalink: /cpp-api/nda/blas/get_ld
 title: nda::blas::get_ld
+parent: nda::blas
 source: nda/blas/tools.hpp
 ...
 

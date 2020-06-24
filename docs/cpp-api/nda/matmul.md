@@ -43,6 +43,7 @@ see-also: []
 # ---------- DO NOT EDIT BELOW --------
 permalink: /cpp-api/nda/matmul
 title: nda::matmul
+parent: nda
 source: nda/linalg/matmul.hpp
 ...
 

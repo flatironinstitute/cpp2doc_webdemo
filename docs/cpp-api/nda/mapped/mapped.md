@@ -42,5 +42,7 @@ see-also: []
 permalink: /cpp-api/nda/mapped
 title: nda::mapped
 source: nda/map.hpp
+parent: nda
+has_children: true
 ...
 

@@ -41,6 +41,7 @@ see-also: []
 # ---------- DO NOT EDIT BELOW --------
 permalink: /cpp-api/nda/blas/get_n_rows
 title: nda::blas::get_n_rows
+parent: nda::blas
 source: nda/blas/tools.hpp
 ...
 

@@ -56,6 +56,7 @@ see-also: []
 # ---------- DO NOT EDIT BELOW --------
 permalink: /cpp-api/nda/blas/gemv
 title: nda::blas::gemv
+parent: nda::blas
 source: nda/blas/gemv.hpp
 ...
 

@@ -42,6 +42,7 @@ see-also: []
 # ---------- DO NOT EDIT BELOW --------
 permalink: /cpp-api/nda/tanh
 title: nda::tanh
+parent: nda
 source: nda/mapped_functions.hxx
 ...
 

@@ -39,6 +39,7 @@ see-also: []
 # ---------- DO NOT EDIT BELOW --------
 permalink: /cpp-api/nda/range/const_iterator/operator==
 title: nda::range::const_iterator::operator==
+parent: nda::range::const_iterator
 source: nda/layout/range.hpp
 ...
 

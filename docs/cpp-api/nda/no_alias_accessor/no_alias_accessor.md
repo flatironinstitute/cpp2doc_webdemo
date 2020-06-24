@@ -31,5 +31,7 @@ see-also: []
 permalink: /cpp-api/nda/no_alias_accessor
 title: nda::no_alias_accessor
 source: nda/accessors.hpp
+parent: nda
+has_children: true
 ...
 

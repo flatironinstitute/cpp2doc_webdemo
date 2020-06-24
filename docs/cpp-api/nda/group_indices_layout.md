@@ -46,6 +46,7 @@ see-also: []
 # ---------- DO NOT EDIT BELOW --------
 permalink: /cpp-api/nda/group_indices_layout
 title: nda::group_indices_layout
+parent: nda
 source: nda/group_indices.hpp
 ...
 

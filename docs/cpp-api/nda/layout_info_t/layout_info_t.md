@@ -41,5 +41,7 @@ see-also: []
 permalink: /cpp-api/nda/layout_info_t
 title: nda::layout_info_t
 source: nda/traits.hpp
+parent: nda
+has_children: true
 ...
 

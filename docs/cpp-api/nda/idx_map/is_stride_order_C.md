@@ -39,6 +39,7 @@ see-also: []
 # ---------- DO NOT EDIT BELOW --------
 permalink: /cpp-api/nda/idx_map/is_stride_order_C
 title: nda::idx_map<Rank, StaticExtents, StrideOrder, LayoutProp>::is_stride_order_C
+parent: nda::idx_map
 source: nda/layout/idx_map.hpp
 ...
 

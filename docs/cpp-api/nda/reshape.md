@@ -56,6 +56,7 @@ see-also:
 # ---------- DO NOT EDIT BELOW --------
 permalink: /cpp-api/nda/reshape
 title: nda::reshape
+parent: nda
 source: nda/layout_transforms.hpp
 ...
 
