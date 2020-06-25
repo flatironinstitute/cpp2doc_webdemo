@@ -12,7 +12,9 @@ For detailed prerequisite install instructions for your operating system, check 
 
 ## Installing
 
-1. Install a full Ruby development environment. (see Prerequisites above) If you used `brew` to install Ruby, you [may need to modify your `$PATH` variable](https://jekyllrb.com/docs/troubleshooting/#installation-problems).
+0. Clone this repo locally. See the green **Clone** button above for details.
+
+1. Install a full Ruby development environment. (see Prerequisites above) If you used `brew` to install Ruby, you [may need to modify your `$PATH` variable](https://jekyllrb.com/docs/troubleshooting/#installation-problems). If you are working in conda, you may need to [install the gems individually](https://github.com/eventmachine/eventmachine/issues/879#issuecomment-529576683) using the the `rb-` flag or add [rb-eventmachine](https://github.com/conda-forge/rb-eventmachine-feedstock) to your conda environment.
 
 2. Install Jekyll and [bundler](https://jekyllrb.com/docs/ruby-101/#bundler) [gems](https://jekyllrb.com/docs/ruby-101/#gems)
 
@@ -38,13 +40,17 @@ bundle exec search:init
 bundle exec jekyll serve
 ```
 
-View the site at [http://locahost:4000](http://localhost:4000).
+**Note:** If the webserver is running on a different machine, add the option `bundle exec jekyll serve --host=0.0.0.0` to make the webserver accessible.
 
-**Note:** `jeykll serve` includes a watch script that automatically updates any time a source file changes. The one exception is `_config.yml`, you will need to stop and restart `jekyll serve` to see these changes.
+6. View the site locally at [http://locahost:4000](http://localhost:4000).
 
 ### Troubleshooting
 
 Consult the Jekyll [Troubleshooting Guide](https://jekyllrb.com/docs/troubleshooting) for help with common problems.
+
+## Development
+
+`jeykll serve` includes a watch script that automatically updates any time a source file changes. The one exception is `_config.yml`, you will need to stop and restart `jekyll serve` to see these changes.
 
 ## Deployment
 
