@@ -4,6 +4,8 @@ permalink: /cpp-api/nda/POUBELLE/
 title: NOTHING 🚮
 ...
 
+🚮
+
 <W  This is a strong *Warning* in md W>
 
 The class [[nda/basic_array]]
