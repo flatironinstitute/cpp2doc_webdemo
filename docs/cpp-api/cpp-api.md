@@ -1,7 +1,7 @@
 ---
 layout: default
 title: Basic C++ Libraries
-permalink: /cpp-api
+permalink: /cpp-api/
 has_children: true
 nav_include: true
 nav_order: 3
@@ -13,7 +13,7 @@ nav_order: 3
 
 In this section, we group several small standalone basic C++ libraries.
 
-* They are small basic components on which the TRIQS library and applications are built. 
+* They are small basic components on which the TRIQS library and applications are built.
   <BR>  They are maintained by the TRIQS team.
 
 * They can however be **installed and used independently of TRIQS library and applications**.
@@ -22,12 +22,12 @@ In this section, we group several small standalone basic C++ libraries.
 
 
 |---
-| |  
+| |
 |:-:|:-:
 |---
 | **[nda](/cpp-api/nda)** <BR> *A simple multidimensional <BR> array and view* | **[itertools](/cpp-api/itertools)** <BR> *zip, enumerate, etc...*<BR> *Anticipating std::range*
 |---
-| **[mpi](/cpp-api/mpi)** <BR> *A basic layer to mpi* | **[h5](/cpp-api/h5)** <BR> *A basic layer for HDF5 interface*  
+| **[mpi](/cpp-api/mpi)** <BR> *A basic layer to mpi* | **[h5](/cpp-api/h5)** <BR> *A basic layer for HDF5 interface*
 |---
 
 
