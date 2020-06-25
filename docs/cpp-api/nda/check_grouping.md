@@ -41,7 +41,7 @@ example:
 see-also: []
 
 # ---------- DO NOT EDIT BELOW --------
-permalink: /cpp-api/nda/check_grouping
+permalink: /cpp-api/nda/check_grouping/
 title: nda::check_grouping
 parent: nda
 source: nda/group_indices.hpp

@@ -15,7 +15,7 @@ desc: |
   > in libc++
 
 # ---------- DO NOT EDIT BELOW --------
-permalink: /cpp-api/nda/StdEqualityComparableWith
+permalink: /cpp-api/nda/StdEqualityComparableWith/
 title: nda::StdEqualityComparableWith
 signature: |
   template <class T, class U>

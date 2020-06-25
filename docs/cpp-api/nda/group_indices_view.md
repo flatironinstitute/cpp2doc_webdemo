@@ -57,7 +57,7 @@ example:
 see-also: []
 
 # ---------- DO NOT EDIT BELOW --------
-permalink: /cpp-api/nda/group_indices_view
+permalink: /cpp-api/nda/group_indices_view/
 title: nda::group_indices_view
 parent: nda
 source: nda/layout_transforms.hpp

@@ -13,7 +13,7 @@ brief: ""
 desc: ""
 
 # ---------- DO NOT EDIT BELOW --------
-permalink: /cpp-api/nda/Array
+permalink: /cpp-api/nda/Array/
 title: nda::Array
 signature: |
   template <typename A>

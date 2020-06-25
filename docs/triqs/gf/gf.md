@@ -12,3 +12,8 @@ classes: []
 functions: []
 ...
 
+
+# TRIQS, Toolbox for Research on Interacting Quantum Systems
+
+Explain that this is the TRIQS library itself. 🦖
+For a complete index, see below.

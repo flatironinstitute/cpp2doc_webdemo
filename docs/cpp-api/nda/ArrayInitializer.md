@@ -13,7 +13,7 @@ brief: ""
 desc: ""
 
 # ---------- DO NOT EDIT BELOW --------
-permalink: /cpp-api/nda/ArrayInitializer
+permalink: /cpp-api/nda/ArrayInitializer/
 title: nda::ArrayInitializer
 signature: |
   template <typename A>

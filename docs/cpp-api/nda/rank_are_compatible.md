@@ -40,7 +40,7 @@ example:
 see-also: []
 
 # ---------- DO NOT EDIT BELOW --------
-permalink: /cpp-api/nda/rank_are_compatible
+permalink: /cpp-api/nda/rank_are_compatible/
 title: nda::rank_are_compatible
 parent: nda
 source: nda/arithmetic.hpp

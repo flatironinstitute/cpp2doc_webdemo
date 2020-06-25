@@ -38,7 +38,7 @@ example:
 see-also: []
 
 # ---------- DO NOT EDIT BELOW --------
-permalink: /cpp-api/nda/has_contiguous
+permalink: /cpp-api/nda/has_contiguous/
 title: nda::has_contiguous
 parent: nda
 source: nda/traits.hpp

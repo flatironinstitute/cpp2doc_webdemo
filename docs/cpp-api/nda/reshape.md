@@ -54,7 +54,7 @@ see-also:
   - /cpp-api/nda/reshaped_view
 
 # ---------- DO NOT EDIT BELOW --------
-permalink: /cpp-api/nda/reshape
+permalink: /cpp-api/nda/reshape/
 title: nda::reshape
 parent: nda
 source: nda/layout_transforms.hpp

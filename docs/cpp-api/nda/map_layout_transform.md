@@ -64,7 +64,7 @@ example:
 see-also: []
 
 # ---------- DO NOT EDIT BELOW --------
-permalink: /cpp-api/nda/map_layout_transform
+permalink: /cpp-api/nda/map_layout_transform/
 title: nda::map_layout_transform
 parent: nda
 source: nda/layout_transforms.hpp
