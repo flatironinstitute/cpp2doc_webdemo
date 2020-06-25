@@ -37,6 +37,11 @@ $blue-100: #2869e6 !default;
 $blue-200: #264caf !default;
 $blue-300: #183385 !default;
 
+$blue-A-000: #1FA9FD !default;
+$blue-A-100:#0DA1FD !default;
+$blue-A-200: #225B99 !default;
+$blue-A-300:#08417F !default;
+
 $green-000: #41d693 !default;
 $green-100: #11b584 !default;
 $green-200: #009c7b !default;
@@ -62,9 +67,9 @@ $body-text-color: $grey-dk-100 !default;
 $body-heading-color: $grey-dk-300 !default;
 $search-result-preview-color: $grey-dk-000 !default;
 $nav-child-link-color: $grey-dk-100 !default;
-$link-color: $purple-000 !default;
-$btn-primary-color: $purple-100 !default;
-$base-button-color: #f7f7f7 !default;
+$link-color: $blue-A-000 !default;
+$btn-primary-color: $blue-A-100 !default;
+$base-button-color: $blue-A-300 !default;
 
 //
 // Spacing
@@ -119,6 +124,7 @@ $content-width: 800px !default;
 $content-width-xl: 1080px !default;
 $header-height: 60px !default;
 $search-results-width: 500px !default;
+$site-header-color: $blue-A-300;
 
 //
 // Media queries in pixels

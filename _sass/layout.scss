@@ -96,13 +96,15 @@
   display: none;
   padding-top: $gutter-spacing-sm;
   padding-bottom: $gutter-spacing-sm;
-  background-color: $sidebar-color;
+  background-color: $site-header-color;
+  color: $white;
 
   @include mq(md) {
     display: flex;
     justify-content: flex-end;
     height: $header-height;
-    background-color: $body-background-color;
+    background-color: $site-header-color;
+    color: $white;
     border-bottom: $border $border-color;
   }
 
@@ -140,6 +142,8 @@
   display: flex;
   min-height: $header-height;
   align-items: center;
+  background-color: $site-header-color;
+  color: $white;
 
   @include mq(md) {
     z-index: 101;
