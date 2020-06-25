@@ -17,8 +17,8 @@ module Jekyll
       highlighted_types = []
       site.pages.each do |page|
         permalink = page['permalink']
-        next if not permalink 
-        if permalink[-1] == '/' then 
+        next if not permalink
+        if permalink[-1] == '/' then
           permalink = permalink[0..-2]
         end
         permalink_to_title[permalink] = page['title']
@@ -47,34 +47,34 @@ module Jekyll
     end
 
     def get_fancy_name_from_permalink(permalink, permalink_to_fancyname_table)
-   
-      #puts permalink 
+
+      #puts permalink
       #puts @context.registers[:site].data['permalink_to_brief']
-  
+
       r = permalink_to_fancyname_table [permalink]
-      if (not r) then 
+      if (not r) then
         return "NOT FOUND : " + permalink
       end
       l = r.split
-      if l.length > 1 then 
+      if l.length > 1 then
         return l.join('<BR>')
       end
-      return r 
+      return r
     end
 
     def get_fancy_name(name,  root_permalink, permalink_to_fancyname_table)
       #puts(name)
-      r = permalink_to_fancyname_table [root_permalink + '/' + name]
-      if (not r) then 
+      r = permalink_to_fancyname_table [root_permalink + '/' + name + '/']
+      if (not r) then
         return name
       end
       l = r.split
-      if l.length > 1 then 
+      if l.length > 1 then
         return l.join('<BR>')
       end
-      return r 
+      return r
     end
-       
+
 
     # FIXME : USE CONTEXT
     # This filter takes :
@@ -82,12 +82,12 @@ module Jekyll
     #  - highlighted_types : the global list of types from the site
     def link_and_highlight(source, highlighted_types, current_namespace= '')
 
-      if not source then 
+      if not source then
         return source
       end
 
       # a security if the page pass current_namespace = nil by mistake (corrupted yaml header)
-      if not current_namespace then 
+      if not current_namespace then
         current_namespace = ''
       end
 
