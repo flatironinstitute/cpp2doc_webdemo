@@ -1,6 +1,6 @@
 ---
 layout: default
-permalink: /cpp-api/nda/overview
+permalink: /cpp-api/nda/overview/
 title: Overview
 ...
 

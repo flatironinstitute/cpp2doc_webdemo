@@ -3,7 +3,7 @@
 layout: namespace
 
 # ---------- DO NOT EDIT BELOW --------
-permalink: /triqs/gf
+permalink: /triqs/gf/
 qualified_name: triqs::gf
 title: triqs::gf
 namespaces: []

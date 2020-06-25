@@ -3,7 +3,7 @@ title: Markdown
 parent: UI Components
 layout: default
 nav_include: true
-permalink: /theme/ui-components/markdown
+permalink: /theme/ui-components/markdown/
 ---
 
 # Markdown Kitchen Sink

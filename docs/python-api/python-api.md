@@ -4,7 +4,7 @@ nav_order: 4
 has_children: false
 layout: default
 nav_include: true
-permalink: /python-api
+permalink: /python-api/
 ---
 
 # Python API

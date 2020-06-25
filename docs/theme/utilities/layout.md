@@ -5,7 +5,7 @@ grand_parent: Theme
 nav_order: 2
 layout: default
 nav_include: true
-permalink: /theme/utilities/layout
+permalink: /theme/utilities/layout/
 ---
 
 # Layout Utilities

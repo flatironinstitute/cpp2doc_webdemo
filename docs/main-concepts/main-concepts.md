@@ -4,7 +4,7 @@ nav_order: 2
 has_children: true
 layout: default
 nav_include: true
-permalink: /main-concepts
+permalink: /main-concepts/
 ---
 
 # Main Concepts

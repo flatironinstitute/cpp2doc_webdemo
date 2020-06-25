@@ -5,7 +5,7 @@ grand_parent: Theme
 nav_order: 5
 layout: default
 nav_include: true
-permalink: /theme/ui-components/lists
+permalink: /theme/ui-components/lists/
 ---
 
 # Lists

@@ -3,7 +3,7 @@ title: Applications
 layout: default
 nav_include: true
 nav_order: 2
-permalink: /apps
+permalink: /apps/
 ---
 
 # Applications based on TRIQS
