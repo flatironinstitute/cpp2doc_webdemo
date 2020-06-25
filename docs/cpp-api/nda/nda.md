@@ -137,26 +137,12 @@ functions:
 permalink: /cpp-api/nda
 qualified_name: nda
 title: nda
+show_topics: true
 ...
 
 # nda, a multi-dimensional array library
 
 Here are the main topics of the documention.
 For a complete index, see below.
-
-<!-- |---
-| | |
-|:-:|:-:|:-:|:-:
-| **Overview** <BR> [*Basic notions*](/cpp-api/nda/overview) | **Tutorial** <BR> *To Be Written* | **Installation** <BR> [Instructions](/cpp-api/nda/install) |  **Howtos** <BR> *Gallery of examples* |
-|---
-|---
-| **Container** <BR> [[nda/basic_array]] | **Views** <BR> [[nda/basic_array_view]]  | **Concepts** <BR> [[nda/Array]], [[nda/ArrayOfRank]], ...
-|---
-|---
-| **Layout transformations**  <BR> *Reshape, reinterpret*  | **Arithmetic** <BR> *Array, Matrix algebra* <BR> *Basic operations*|  **Algorithms** <BR> *e.g. abs, max* <BR> *map*, *fold*
-|---
-|---
-| **Linear Algebra** <BR> *Interface BLAS/LAPACK* <BR> *Eigen, ...* | **HDF5** |  **MPI**
-{: .table_top_page .vertical-align=top} -->
 
 

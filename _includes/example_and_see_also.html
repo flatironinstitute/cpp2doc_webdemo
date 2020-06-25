@@ -9,9 +9,11 @@
   {{page.example.code | link_and_highlight: site.data.highlighted_types}}
 </div>
 
-<div class="alert alert-warning">
-  {{page.example.comment | markdownify}}
-</div>
+  {% if page.example.comment %}
+    <div class="alert alert-warning">
+      {{page.example.comment | markdownify}}
+    </div>
+  {% endif %}
 {% endif %}
 
 <!-- See Also links -->

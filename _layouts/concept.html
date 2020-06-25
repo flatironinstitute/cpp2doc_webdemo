@@ -2,25 +2,24 @@
 layout: default
 ---
 
+<div class="page-title">
+  {%- assign title = page.title -%}
+  {%- assign includer = page.includer | strip -%}
+  <h1 class="no_toc">{{ title }}</h1>
+  <h6 class='cpp-include-header'> Defined in header &lt;{{includer}}&gt;</h6>
+</div>
+
+<!--Edit in {{page.permalink}}.md TODO: IS THIS BREAK NEEDED?-->
 <br>
 
-<!--Edit in {{page.permalink}}.md -->
-<br/>
-
-<!--Includer-->
-
-<div> Defined in header <span  class='includer'> &lt;{{page.includer}}&gt; </span>
-
 <!-- Signature  -->
-
+<!-- TODO: Should this signature be formatted like the one in function.html with a numbered table? -->
 <span class='signature'> {% highlight c++ %}{{page.signature}}{% endhighlight %}</span>
 
  <!-- Description of the class -->
-
  {{page.desc |markdownify}}
 
 <!-- Template parameters -->
-
 {% if page.tparams %}
 <h5> Template parameters</h5>
 

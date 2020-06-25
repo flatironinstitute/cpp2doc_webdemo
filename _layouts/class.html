@@ -3,9 +3,11 @@ layout: default
 ---
 
 <div class="page-title">
-   <h1> {{page.title}} </h1>
-   <h6 class='cpp-include-header'> Defined in header  &lt;{{page.includer}}&gt; </h6>
-</div>
+   {%- assign title = page.title -%}
+   {%- assign includer = page.includer | strip -%}
+   <h1 class="no_toc">{{ title }}</h1>
+   <h6 class='cpp-include-header'> Defined in header &lt;{{includer}}&gt;</h6>
+ </div>
 
 <!-- Signature  -->
 

@@ -8,6 +8,7 @@ qualified_name: sandbox
 parent: C++ API
 title: sandbox
 has_children: true
+show_topics: true
 namespaces: [impl]
 concepts:
   - is_integral

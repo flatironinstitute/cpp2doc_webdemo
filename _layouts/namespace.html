@@ -4,14 +4,9 @@ layout: default
 
 {{ content }}
 
-<div class="page-title">
-  {%- assign title = page.title -%}
-  {%- assign includer = page.includer -%}
-  <h1 class="no_toc">{{ title }}</h1>
-  <h6 class='cpp-include-header'></h6>
-</div>
-
-{% include multi-col.html %}
+{% if page.show_topics == true %}
+  {% include multi-col.html %}
+{% endif %}
 
 <h2>Index</h2>
 {% if page.namespaces %}
