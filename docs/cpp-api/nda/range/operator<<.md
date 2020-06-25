@@ -38,7 +38,7 @@ example:
 see-also: []
 
 # ---------- DO NOT EDIT BELOW --------
-permalink: /cpp-api/nda/range/operator<<
+permalink: /cpp-api/nda/range/operator<</
 title: nda::range::operator<<
 parent: nda::range
 source: nda/layout/range.hpp

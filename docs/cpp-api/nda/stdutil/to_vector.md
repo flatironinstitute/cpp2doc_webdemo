@@ -41,7 +41,7 @@ example:
 see-also: []
 
 # ---------- DO NOT EDIT BELOW --------
-permalink: /cpp-api/nda/stdutil/to_vector
+permalink: /cpp-api/nda/stdutil/to_vector/
 title: nda::stdutil::to_vector
 parent: nda::stdutil
 source: nda/stdutil/array.hpp

@@ -13,7 +13,7 @@ brief: ""
 desc: ""
 
 # ---------- DO NOT EDIT BELOW --------
-permalink: /cpp-api/nda/blas/MatrixView
+permalink: /cpp-api/nda/blas/MatrixView/
 title: nda::blas::MatrixView
 signature: |
   template <typename A>

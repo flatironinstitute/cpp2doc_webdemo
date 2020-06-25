@@ -41,7 +41,7 @@ example:
 see-also: []
 
 # ---------- DO NOT EDIT BELOW --------
-permalink: /cpp-api/nda/matvecmul
+permalink: /cpp-api/nda/matvecmul/
 title: nda::matvecmul
 parent: nda
 source: nda/linalg/matmul.hpp

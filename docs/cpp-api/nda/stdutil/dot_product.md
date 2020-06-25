@@ -43,7 +43,7 @@ example:
 see-also: []
 
 # ---------- DO NOT EDIT BELOW --------
-permalink: /cpp-api/nda/stdutil/dot_product
+permalink: /cpp-api/nda/stdutil/dot_product/
 title: nda::stdutil::dot_product
 parent: nda::stdutil
 source: nda/stdutil/array.hpp

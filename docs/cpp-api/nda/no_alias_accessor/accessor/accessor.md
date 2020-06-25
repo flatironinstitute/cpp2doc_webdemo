@@ -45,7 +45,7 @@ example:
 see-also: []
 
 # ---------- DO NOT EDIT BELOW --------
-permalink: /cpp-api/nda/no_alias_accessor/accessor
+permalink: /cpp-api/nda/no_alias_accessor/accessor/
 title: nda::no_alias_accessor::accessor
 source: nda/accessors.hpp
 parent: nda::no_alias_accessor

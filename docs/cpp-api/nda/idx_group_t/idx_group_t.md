@@ -34,7 +34,7 @@ example:
 see-also: []
 
 # ---------- DO NOT EDIT BELOW --------
-permalink: /cpp-api/nda/idx_group_t
+permalink: /cpp-api/nda/idx_group_t/
 title: nda::idx_group_t
 source: nda/group_indices.hpp
 parent: nda

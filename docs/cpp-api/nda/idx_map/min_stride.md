@@ -37,7 +37,7 @@ example:
 see-also: []
 
 # ---------- DO NOT EDIT BELOW --------
-permalink: /cpp-api/nda/idx_map/min_stride
+permalink: /cpp-api/nda/idx_map/min_stride/
 title: nda::idx_map<Rank, StaticExtents, StrideOrder, LayoutProp>::min_stride
 parent: nda::idx_map
 source: nda/layout/idx_map.hpp

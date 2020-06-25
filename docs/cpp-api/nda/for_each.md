@@ -41,7 +41,7 @@ example:
 see-also: []
 
 # ---------- DO NOT EDIT BELOW --------
-permalink: /cpp-api/nda/for_each
+permalink: /cpp-api/nda/for_each/
 title: nda::for_each
 parent: nda
 source: ""

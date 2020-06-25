@@ -41,7 +41,7 @@ example:
 see-also: []
 
 # ---------- DO NOT EDIT BELOW --------
-permalink: /cpp-api/nda/resize_or_check_if_view
+permalink: /cpp-api/nda/resize_or_check_if_view/
 title: nda::resize_or_check_if_view
 parent: nda
 source: nda/basic_functions.hpp

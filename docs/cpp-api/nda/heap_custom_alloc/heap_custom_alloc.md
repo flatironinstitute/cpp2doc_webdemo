@@ -34,7 +34,7 @@ example:
 see-also: []
 
 # ---------- DO NOT EDIT BELOW --------
-permalink: /cpp-api/nda/heap_custom_alloc
+permalink: /cpp-api/nda/heap_custom_alloc/
 title: nda::heap_custom_alloc
 source: nda/storage/policies.hpp
 parent: nda

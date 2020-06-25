@@ -5,7 +5,7 @@ grand_parent: Theme
 nav_order: 1
 layout: default
 nav_include: true
-permalink: /theme/utilities/responsive
+permalink: /theme/utilities/responsive/
 ---
 
 # Responsive modifiers

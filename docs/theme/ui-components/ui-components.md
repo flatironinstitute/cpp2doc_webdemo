@@ -5,7 +5,7 @@ has_children: true
 parent: Theme
 layout: default
 nav_include: true
-permalink: /theme/ui-components
+permalink: /theme/ui-components/
 ---
 
 # UI Components

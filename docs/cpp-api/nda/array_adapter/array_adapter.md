@@ -38,7 +38,7 @@ example:
 see-also: []
 
 # ---------- DO NOT EDIT BELOW --------
-permalink: /cpp-api/nda/array_adapter
+permalink: /cpp-api/nda/array_adapter/
 title: nda::array_adapter
 source: nda/array_adapter.hpp
 parent: nda

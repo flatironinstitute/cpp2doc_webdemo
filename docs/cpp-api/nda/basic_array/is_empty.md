@@ -37,7 +37,7 @@ example:
 see-also: []
 
 # ---------- DO NOT EDIT BELOW --------
-permalink: /cpp-api/nda/basic_array/is_empty
+permalink: /cpp-api/nda/basic_array/is_empty/
 title: nda::basic_array<ValueType, Rank, Layout, Algebra, ContainerPolicy>::is_empty
 parent: nda::basic_array
 source: nda/_impl_basic_array_view_common.hpp

@@ -39,7 +39,8 @@ example:
 see-also: []
 
 # ---------- DO NOT EDIT BELOW --------
-permalink: /cpp-api/nda/eye
+permalink: /cpp-api/nda/eye/
+
 title: nda::eye
 parent: nda
 source: nda/matrix_functions.hpp

@@ -39,7 +39,7 @@ example:
 see-also: []
 
 # ---------- DO NOT EDIT BELOW --------
-permalink: /cpp-api/nda/scalar_array/operator-call
+permalink: /cpp-api/nda/scalar_array/operator-call/
 title: nda::scalar_array<S, Rank>::operator()
 parent: nda::scalar_array
 source: nda/arithmetic.hpp

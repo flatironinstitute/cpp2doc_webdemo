@@ -59,7 +59,7 @@ example:
 see-also: [/cpp-api/nda1/array_view]
 
 # ---------- DO NOT EDIT BELOW --------
-permalink: /cpp-api/nda1/array
+permalink: /cpp-api/nda1/array/
 title: nda1::array
 source: /Users/oparcollet/cpp2doc_webdemo/src/nda1.hpp
 parent: nda1

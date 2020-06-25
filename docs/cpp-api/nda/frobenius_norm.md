@@ -39,7 +39,7 @@ example:
 see-also: []
 
 # ---------- DO NOT EDIT BELOW --------
-permalink: /cpp-api/nda/frobenius_norm
+permalink: /cpp-api/nda/frobenius_norm/
 title: nda::frobenius_norm
 parent: nda
 source: nda/algorithms.hpp

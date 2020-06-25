@@ -134,7 +134,7 @@ functions:
   - reinterpret_add_fast_dims_of_size_one
 
 # ---------- DO NOT EDIT BELOW --------
-permalink: /cpp-api/nda
+permalink: /cpp-api/nda/
 qualified_name: nda
 title: nda
 show_topics: true

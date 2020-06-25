@@ -3,7 +3,7 @@
 layout: namespace
 
 # ---------- DO NOT EDIT BELOW --------
-permalink: /cpp-api/sandbox
+permalink: /cpp-api/sandbox/
 qualified_name: sandbox
 parent: C++ API
 title: sandbox
@@ -40,3 +40,7 @@ functions:
   - simple_f
 ...
 
+# Sandbox, a toy space for testing
+
+Here are the main topics of the documention.
+For a complete index, see below.

@@ -42,7 +42,7 @@ example:
 see-also: []
 
 # ---------- DO NOT EDIT BELOW --------
-permalink: /cpp-api/sandbox/faulty_array
+permalink: /cpp-api/sandbox/faulty_array/
 title: sandbox::faulty_array
 source: /Users/oparcollet/cpp2doc_webdemo/src/array_concept.cpp
 parent: sandbox

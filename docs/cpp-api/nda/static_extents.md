@@ -40,7 +40,7 @@ example:
 see-also: []
 
 # ---------- DO NOT EDIT BELOW --------
-permalink: /cpp-api/nda/static_extents
+permalink: /cpp-api/nda/static_extents/
 title: nda::static_extents
 parent: nda
 source: nda/declarations.hpp

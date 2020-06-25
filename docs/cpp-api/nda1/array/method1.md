@@ -40,7 +40,7 @@ example:
 see-also: []
 
 # ---------- DO NOT EDIT BELOW --------
-permalink: /cpp-api/nda1/array/method1
+permalink: /cpp-api/nda1/array/method1/
 title: nda1::array::method1
 parent: nda1::array
 ...

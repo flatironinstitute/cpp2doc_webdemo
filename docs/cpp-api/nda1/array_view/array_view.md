@@ -35,7 +35,7 @@ example:
 see-also: []
 
 # ---------- DO NOT EDIT BELOW --------
-permalink: /cpp-api/nda1/array_view
+permalink: /cpp-api/nda1/array_view/
 title: nda1::array_view
 source: /Users/oparcollet/cpp2doc_webdemo/src/nda1.hpp
 parent: nda1

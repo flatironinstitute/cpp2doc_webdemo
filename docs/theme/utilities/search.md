@@ -4,7 +4,7 @@ parent: Utilities
 nav_order: 4
 layout: default
 nav_include: true
-permalink: /theme/utilities/search
+permalink: /theme/utilities/search/
 ---
 
 # Search

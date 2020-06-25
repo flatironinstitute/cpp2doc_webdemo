@@ -5,7 +5,7 @@ nav_order: 2
 layout: default
 nav_exclude: true
 search_exclude: true
-permalink: /theme/navigation
+permalink: /theme/navigation/
 ---
 
 # Navigation

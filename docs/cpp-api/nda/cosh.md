@@ -40,7 +40,7 @@ example:
 see-also: []
 
 # ---------- DO NOT EDIT BELOW --------
-permalink: /cpp-api/nda/cosh
+permalink: /cpp-api/nda/cosh/
 title: nda::cosh
 parent: nda
 source: nda/mapped_functions.hxx

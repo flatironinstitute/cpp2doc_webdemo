@@ -51,7 +51,7 @@ example:
 see-also: []
 
 # ---------- DO NOT EDIT BELOW --------
-permalink: /cpp-api/nda/make_array_view
+permalink: /cpp-api/nda/make_array_view/
 title: nda::make_array_view
 parent: nda
 source: nda/basic_functions.hpp

@@ -6,7 +6,7 @@ qualified_name: nda::grid_iterator<1>
 namespace: nda
 includer: nda/nda.hpp
 signature: |
-  template<> 
+  template<>
   class grid_iterator<1>
 
 # Brief description. One line only.
@@ -36,7 +36,7 @@ example:
 see-also: []
 
 # ---------- DO NOT EDIT BELOW --------
-permalink: /cpp-api/nda/grid_iterator<1>
+permalink: /cpp-api/nda/grid_iterator<1>/
 title: nda::grid_iterator<1>
 source: nda/iterators.hpp
 parent: nda

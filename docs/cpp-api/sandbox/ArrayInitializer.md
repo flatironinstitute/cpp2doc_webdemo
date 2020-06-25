@@ -13,7 +13,7 @@ brief: ""
 desc: ""
 
 # ---------- DO NOT EDIT BELOW --------
-permalink: /cpp-api/sandbox/ArrayInitializer
+permalink: /cpp-api/sandbox/ArrayInitializer/
 title: sandbox::ArrayInitializer
 signature: |
   template <typename A>

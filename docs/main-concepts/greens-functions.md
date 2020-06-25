@@ -3,7 +3,7 @@ title: Green's Functions
 parent: Main Concepts
 layout: default
 nav_include: true
-permalink: /main-concepts/greens-functions
+permalink: /main-concepts/greens-functions/
 ---
 
 # Greens Functions

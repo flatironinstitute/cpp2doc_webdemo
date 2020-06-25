@@ -29,7 +29,7 @@ example:
 see-also: []
 
 # ---------- DO NOT EDIT BELOW --------
-permalink: /cpp-api/nda/ellipsis
+permalink: /cpp-api/nda/ellipsis/
 title: nda::ellipsis
 source: nda/layout/range.hpp
 parent: nda

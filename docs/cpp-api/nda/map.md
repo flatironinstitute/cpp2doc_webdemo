@@ -19,8 +19,8 @@ overloads:
 # Long description. Any Markdown, with code, latex, multiline with |
 desc: |
   Maps a function onto the array (elementwise)
-  
-  
+
+
   nda_map.cpp
 
 # Parameters of the function. Edit only the description after the :
@@ -43,7 +43,7 @@ example:
 see-also: []
 
 # ---------- DO NOT EDIT BELOW --------
-permalink: /cpp-api/nda/map
+permalink: /cpp-api/nda/map/
 title: nda::map
 parent: nda
 source: nda/map.hpp

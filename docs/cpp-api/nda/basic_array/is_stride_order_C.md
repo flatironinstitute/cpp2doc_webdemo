@@ -37,7 +37,7 @@ example:
 see-also: []
 
 # ---------- DO NOT EDIT BELOW --------
-permalink: /cpp-api/nda/basic_array/is_stride_order_C
+permalink: /cpp-api/nda/basic_array/is_stride_order_C/
 title: nda::basic_array<ValueType, Rank, Layout, Algebra, ContainerPolicy>::is_stride_order_C
 parent: nda::basic_array
 source: nda/_impl_basic_array_view_common.hpp

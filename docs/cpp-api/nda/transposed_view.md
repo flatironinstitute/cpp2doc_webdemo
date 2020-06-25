@@ -42,7 +42,7 @@ example:
 see-also: []
 
 # ---------- DO NOT EDIT BELOW --------
-permalink: /cpp-api/nda/transposed_view
+permalink: /cpp-api/nda/transposed_view/
 title: nda::transposed_view
 parent: nda
 source: nda/layout_transforms.hpp

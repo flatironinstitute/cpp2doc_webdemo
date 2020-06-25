@@ -67,7 +67,7 @@ example:
 see-also: []
 
 # ---------- DO NOT EDIT BELOW --------
-permalink: /cpp-api/nda/idx_map/idx_map-constructors
+permalink: /cpp-api/nda/idx_map/idx_map-constructors/
 title: nda::idx_map<Rank, StaticExtents, StrideOrder, LayoutProp>::idx_map
 parent: nda::idx_map
 source: nda/layout/idx_map.hpp

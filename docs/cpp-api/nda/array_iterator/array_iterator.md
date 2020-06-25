@@ -47,7 +47,7 @@ example:
 see-also: []
 
 # ---------- DO NOT EDIT BELOW --------
-permalink: /cpp-api/nda/array_iterator
+permalink: /cpp-api/nda/array_iterator/
 title: nda::array_iterator
 source: nda/iterators.hpp
 parent: nda

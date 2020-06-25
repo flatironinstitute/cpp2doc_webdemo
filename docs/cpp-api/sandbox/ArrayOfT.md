@@ -13,7 +13,7 @@ brief: ""
 desc: ""
 
 # ---------- DO NOT EDIT BELOW --------
-permalink: /cpp-api/sandbox/ArrayOfT
+permalink: /cpp-api/sandbox/ArrayOfT/
 title: sandbox::ArrayOfT
 signature: |
   template <typename A, typename T>

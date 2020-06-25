@@ -13,7 +13,7 @@ brief: ""
 desc: ""
 
 # ---------- DO NOT EDIT BELOW --------
-permalink: /cpp-api/nda/ArrayOfRank
+permalink: /cpp-api/nda/ArrayOfRank/
 title: nda::ArrayOfRank
 signature: |
   template <typename A, int R>

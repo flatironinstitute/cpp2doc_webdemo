@@ -28,7 +28,7 @@ example:
 see-also: []
 
 # ---------- DO NOT EDIT BELOW --------
-permalink: /cpp-api/nda/heap
+permalink: /cpp-api/nda/heap/
 title: nda::heap
 source: nda/storage/policies.hpp
 parent: nda

@@ -41,7 +41,7 @@ example:
 see-also: []
 
 # ---------- DO NOT EDIT BELOW --------
-permalink: /cpp-api/sandbox/myarray/operator-compound
+permalink: /cpp-api/sandbox/myarray/operator-compound/
 title: sandbox::myarray<T, R>::operator+=
 parent: sandbox::myarray
 source: /Users/oparcollet/cpp2doc_webdemo/src/array_concept.cpp

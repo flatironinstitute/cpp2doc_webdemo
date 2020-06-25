@@ -1,6 +1,6 @@
 ---
 layout: default
-permalink: /cpp-api/nda/notions/view
+permalink: /cpp-api/nda/notions/view/
 ...
 
 # Notion of multidimensional view

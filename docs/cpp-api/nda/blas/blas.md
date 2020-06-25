@@ -25,7 +25,7 @@ functions:
   - gemv
 
 # ---------- DO NOT EDIT BELOW --------
-permalink: /cpp-api/nda/blas
+permalink: /cpp-api/nda/blas/
 qualified_name: nda::blas
 title: nda::blas
 ...

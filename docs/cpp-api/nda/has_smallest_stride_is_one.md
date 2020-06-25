@@ -38,7 +38,7 @@ example:
 see-also: []
 
 # ---------- DO NOT EDIT BELOW --------
-permalink: /cpp-api/nda/has_smallest_stride_is_one
+permalink: /cpp-api/nda/has_smallest_stride_is_one/
 title: nda::has_smallest_stride_is_one
 parent: nda
 source: nda/traits.hpp

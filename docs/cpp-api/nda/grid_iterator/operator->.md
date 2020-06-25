@@ -40,7 +40,7 @@ example:
 see-also: []
 
 # ---------- DO NOT EDIT BELOW --------
-permalink: /cpp-api/nda/grid_iterator/operator->
+permalink: /cpp-api/nda/grid_iterator/operator->/
 title: nda::grid_iterator::operator->
 parent: nda::grid_iterator
 source: nda/iterators.hpp

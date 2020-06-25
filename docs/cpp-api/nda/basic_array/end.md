@@ -40,7 +40,7 @@ example:
 see-also: []
 
 # ---------- DO NOT EDIT BELOW --------
-permalink: /cpp-api/nda/basic_array/end
+permalink: /cpp-api/nda/basic_array/end/
 title: nda::basic_array<ValueType, Rank, Layout, Algebra, ContainerPolicy>::end
 parent: nda::basic_array
 source: nda/_impl_basic_array_view_common.hpp

@@ -41,7 +41,7 @@ example:
 see-also: []
 
 # ---------- DO NOT EDIT BELOW --------
-permalink: /cpp-api/nda/stdutil/front_pop
+permalink: /cpp-api/nda/stdutil/front_pop/
 title: nda::stdutil::front_pop
 parent: nda::stdutil
 source: nda/stdutil/array.hpp

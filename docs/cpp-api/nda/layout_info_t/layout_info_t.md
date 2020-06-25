@@ -38,7 +38,7 @@ example:
 see-also: []
 
 # ---------- DO NOT EDIT BELOW --------
-permalink: /cpp-api/nda/layout_info_t
+permalink: /cpp-api/nda/layout_info_t/
 title: nda::layout_info_t
 source: nda/traits.hpp
 parent: nda

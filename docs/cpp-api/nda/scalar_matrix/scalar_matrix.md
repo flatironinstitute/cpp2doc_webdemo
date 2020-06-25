@@ -44,7 +44,7 @@ example:
 see-also: []
 
 # ---------- DO NOT EDIT BELOW --------
-permalink: /cpp-api/nda/scalar_matrix
+permalink: /cpp-api/nda/scalar_matrix/
 title: nda::scalar_matrix
 source: nda/arithmetic.hpp
 parent: nda

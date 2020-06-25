@@ -1,7 +1,7 @@
 ---
 layout: default
 title: Triqs Core library
-permalink: /triqs
+permalink: /triqs/
 ---
 
 # The core TRIQS library
