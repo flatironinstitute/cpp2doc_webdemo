@@ -39,8 +39,8 @@ plugins:
   - jekyll-katex
 
 # Set a path/url to a logo that will be displayed instead of the title
-# TODO: Swap with Sherry identity
-# logo: "/assets/images/triqs-logo-v1.jpg"
+# TODO: Swap with final identity
+logo: "/assets/images/triqs-logo-v2-black.svg"
 
 # Enable or disable heading anchors # TODO: Remove or replace with Vim links
 heading_anchors: true
