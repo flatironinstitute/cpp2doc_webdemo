@@ -13,7 +13,7 @@ brief: ""
 desc: ""
 
 # ---------- DO NOT EDIT BELOW --------
-permalink: /cpp-api/sandbox/impl/convertible_to
+permalink: /cpp-api/sandbox/impl/convertible_to/
 title: sandbox::impl::convertible_to
 signature: |
   template <class From, class To>

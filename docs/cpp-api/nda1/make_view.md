@@ -29,9 +29,9 @@ desc: |
   Long description of this function
   Possibly with some **bold text** (markdown),
   or some formula like
-  
+
   $$ \int f(x) dx = 0 $$
-  
+
   $$ \sum_{n=0}^\infty \frac{1}{n^2} = \frac{\pi^2}{6} $$
 
 # Parameters of the function. Edit only the description after the :
@@ -62,7 +62,7 @@ example:
 see-also: []
 
 # ---------- DO NOT EDIT BELOW --------
-permalink: /cpp-api/nda1/make_view
+permalink: /cpp-api/nda1/make_view/
 title: nda1::make_view
 parent: nda1
 ...

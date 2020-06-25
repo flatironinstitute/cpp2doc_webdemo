@@ -35,7 +35,7 @@ example:
 see-also: []
 
 # ---------- DO NOT EDIT BELOW --------
-permalink: /cpp-api/nda/C_stride_layout
+permalink: /cpp-api/nda/C_stride_layout/
 title: nda::C_stride_layout
 source: nda/layout/policies.hpp
 parent: nda

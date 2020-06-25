@@ -13,7 +13,7 @@ brief: ""
 desc: ""
 
 # ---------- DO NOT EDIT BELOW --------
-permalink: /cpp-api/sandbox/is_integral
+permalink: /cpp-api/sandbox/is_integral/
 title: sandbox::is_integral
 signature: |
   template <class T>

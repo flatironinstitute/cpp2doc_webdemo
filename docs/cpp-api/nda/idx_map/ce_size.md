@@ -37,7 +37,7 @@ example:
 see-also: []
 
 # ---------- DO NOT EDIT BELOW --------
-permalink: /cpp-api/nda/idx_map/ce_size
+permalink: /cpp-api/nda/idx_map/ce_size/
 title: nda::idx_map<Rank, StaticExtents, StrideOrder, LayoutProp>::ce_size
 parent: nda::idx_map
 source: nda/layout/idx_map.hpp

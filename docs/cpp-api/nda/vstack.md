@@ -42,7 +42,7 @@ example:
 see-also: []
 
 # ---------- DO NOT EDIT BELOW --------
-permalink: /cpp-api/nda/vstack
+permalink: /cpp-api/nda/vstack/
 title: nda::vstack
 parent: nda
 source: nda/matrix_functions.hpp

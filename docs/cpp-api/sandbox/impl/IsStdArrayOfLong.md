@@ -13,7 +13,7 @@ brief: ""
 desc: ""
 
 # ---------- DO NOT EDIT BELOW --------
-permalink: /cpp-api/sandbox/impl/IsStdArrayOfLong
+permalink: /cpp-api/sandbox/impl/IsStdArrayOfLong/
 title: sandbox::impl::IsStdArrayOfLong
 signature: |
   template <class T>

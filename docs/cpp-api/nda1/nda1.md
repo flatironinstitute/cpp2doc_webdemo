@@ -3,7 +3,7 @@
 layout: namespace
 
 # ---------- DO NOT EDIT BELOW --------
-permalink: /cpp-api/nda1
+permalink: /cpp-api/nda1/
 qualified_name: nda1
 parent: C++ API
 title: nda1

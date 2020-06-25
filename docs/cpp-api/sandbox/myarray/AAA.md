@@ -38,7 +38,7 @@ example:
 see-also: []
 
 # ---------- DO NOT EDIT BELOW --------
-permalink: /cpp-api/sandbox/myarray/AAA
+permalink: /cpp-api/sandbox/myarray/AAA/
 title: sandbox::myarray<T, R>::AAA
 parent: sandbox::myarray
 source: /Users/oparcollet/cpp2doc_webdemo/src/array_concept.cpp

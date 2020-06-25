@@ -42,7 +42,7 @@ example:
 see-also: []
 
 # ---------- DO NOT EDIT BELOW --------
-permalink: /cpp-api/nda/stdutil/make_std_array
+permalink: /cpp-api/nda/stdutil/make_std_array/
 title: nda::stdutil::make_std_array
 parent: nda::stdutil
 source: nda/stdutil/array.hpp

@@ -43,7 +43,7 @@ example:
 see-also: []
 
 # ---------- DO NOT EDIT BELOW --------
-permalink: /cpp-api/nda/basic_layout
+permalink: /cpp-api/nda/basic_layout/
 title: nda::basic_layout
 source: nda/layout/policies.hpp
 parent: nda

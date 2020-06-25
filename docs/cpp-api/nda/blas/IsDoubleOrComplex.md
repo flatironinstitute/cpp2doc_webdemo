@@ -13,7 +13,7 @@ brief: ""
 desc: ""
 
 # ---------- DO NOT EDIT BELOW --------
-permalink: /cpp-api/nda/blas/IsDoubleOrComplex
+permalink: /cpp-api/nda/blas/IsDoubleOrComplex/
 title: nda::blas::IsDoubleOrComplex
 signature: |
   template <typename T>

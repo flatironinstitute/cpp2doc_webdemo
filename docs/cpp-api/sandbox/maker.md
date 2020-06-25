@@ -40,7 +40,7 @@ example:
 see-also: []
 
 # ---------- DO NOT EDIT BELOW --------
-permalink: /cpp-api/sandbox/maker
+permalink: /cpp-api/sandbox/maker/
 title: sandbox::maker
 parent: sandbox
 source: ""

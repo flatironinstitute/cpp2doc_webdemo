@@ -13,7 +13,7 @@ brief: ""
 desc: ""
 
 # ---------- DO NOT EDIT BELOW --------
-permalink: /cpp-api/nda/blas/VectorView
+permalink: /cpp-api/nda/blas/VectorView/
 title: nda::blas::VectorView
 signature: |
   template <typename A>

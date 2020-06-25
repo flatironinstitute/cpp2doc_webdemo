@@ -37,7 +37,7 @@ example:
 see-also: []
 
 # ---------- DO NOT EDIT BELOW --------
-permalink: /cpp-api/nda/basic_array_view/extent
+permalink: /cpp-api/nda/basic_array_view/extent/
 title: nda::basic_array_view<ValueType, Rank, Layout, Algebra, AccessorPolicy, OwningPolicy>::extent
 parent: nda::basic_array_view
 source: nda/_impl_basic_array_view_common.hpp

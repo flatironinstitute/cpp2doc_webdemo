@@ -85,7 +85,7 @@ example:
 see-also: []
 
 # ---------- DO NOT EDIT BELOW --------
-permalink: /cpp-api/nda/basic_array
+permalink: /cpp-api/nda/basic_array/
 title: nda::basic_array
 source: nda/basic_array.hpp
 parent: nda

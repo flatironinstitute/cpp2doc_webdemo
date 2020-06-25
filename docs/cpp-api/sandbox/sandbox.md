@@ -3,7 +3,7 @@
 layout: namespace
 
 # ---------- DO NOT EDIT BELOW --------
-permalink: /cpp-api/sandbox
+permalink: /cpp-api/sandbox/
 qualified_name: sandbox
 parent: C++ API
 title: sandbox

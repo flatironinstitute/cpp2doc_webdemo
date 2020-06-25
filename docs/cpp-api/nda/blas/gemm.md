@@ -21,8 +21,8 @@ overloads:
 desc: |
   <
   - alpha a*b + beta * c using BLAS dgemm or zgemm
-  
-  
+
+
   : * c has the correct dimension given a, b. gemm does not resize the object,
 
 # Parameters of the function. Edit only the description after the :
@@ -51,7 +51,7 @@ example:
 see-also: []
 
 # ---------- DO NOT EDIT BELOW --------
-permalink: /cpp-api/nda/blas/gemm
+permalink: /cpp-api/nda/blas/gemm/
 title: nda::blas::gemm
 parent: nda::blas
 source: nda/blas/gemm.hpp

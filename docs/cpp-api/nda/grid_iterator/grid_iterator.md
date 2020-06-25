@@ -34,7 +34,7 @@ example:
 see-also: []
 
 # ---------- DO NOT EDIT BELOW --------
-permalink: /cpp-api/nda/grid_iterator
+permalink: /cpp-api/nda/grid_iterator/
 title: nda::grid_iterator
 source: nda/iterators.hpp
 parent: nda

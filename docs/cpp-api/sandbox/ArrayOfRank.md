@@ -13,7 +13,7 @@ brief: ""
 desc: ""
 
 # ---------- DO NOT EDIT BELOW --------
-permalink: /cpp-api/sandbox/ArrayOfRank
+permalink: /cpp-api/sandbox/ArrayOfRank/
 title: sandbox::ArrayOfRank
 signature: |
   template <typename A, int R>

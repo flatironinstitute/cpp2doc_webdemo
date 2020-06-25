@@ -21,11 +21,11 @@ desc: |
   to compute c
   <
   - alpha a*b + beta * c
-  
-  
+
+
   : A, B, C have the same value_type and it is complex
   <double
-  > or double 
+  > or double
   : * c has the correct dimension given a, b. gemm does not resize the object,
 
 # Parameters of the function. Edit only the description after the :
@@ -54,7 +54,7 @@ example:
 see-also: []
 
 # ---------- DO NOT EDIT BELOW --------
-permalink: /cpp-api/nda/blas/gemv
+permalink: /cpp-api/nda/blas/gemv/
 title: nda::blas::gemv
 parent: nda::blas
 source: nda/blas/gemv.hpp

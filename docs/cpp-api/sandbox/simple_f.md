@@ -38,7 +38,7 @@ example:
 see-also: []
 
 # ---------- DO NOT EDIT BELOW --------
-permalink: /cpp-api/sandbox/simple_f
+permalink: /cpp-api/sandbox/simple_f/
 title: sandbox::simple_f
 parent: sandbox
 source: /Users/oparcollet/cpp2doc_webdemo/src/array_concept.cpp

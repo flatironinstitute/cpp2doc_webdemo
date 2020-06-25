@@ -39,7 +39,7 @@ example:
 see-also: []
 
 # ---------- DO NOT EDIT BELOW --------
-permalink: /cpp-api/nda/mapped
+permalink: /cpp-api/nda/mapped/
 title: nda::mapped
 source: nda/map.hpp
 parent: nda

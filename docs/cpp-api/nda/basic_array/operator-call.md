@@ -49,7 +49,7 @@ example:
 see-also: []
 
 # ---------- DO NOT EDIT BELOW --------
-permalink: /cpp-api/nda/basic_array/operator-call
+permalink: /cpp-api/nda/basic_array/operator-call/
 title: nda::basic_array<ValueType, Rank, Layout, Algebra, ContainerPolicy>::operator()
 parent: nda::basic_array
 source: ""

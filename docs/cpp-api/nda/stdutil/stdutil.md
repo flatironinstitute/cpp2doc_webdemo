@@ -26,7 +26,7 @@ functions:
   - dot_product
 
 # ---------- DO NOT EDIT BELOW --------
-permalink: /cpp-api/nda/stdutil
+permalink: /cpp-api/nda/stdutil/
 qualified_name: nda::stdutil
 title: nda::stdutil
 ...

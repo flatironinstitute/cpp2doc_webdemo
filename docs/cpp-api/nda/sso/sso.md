@@ -34,7 +34,7 @@ example:
 see-also: []
 
 # ---------- DO NOT EDIT BELOW --------
-permalink: /cpp-api/nda/sso
+permalink: /cpp-api/nda/sso/
 title: nda::sso
 source: nda/storage/policies.hpp
 parent: nda

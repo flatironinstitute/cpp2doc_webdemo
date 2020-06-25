@@ -37,7 +37,7 @@ example:
 see-also: []
 
 # ---------- DO NOT EDIT BELOW --------
-permalink: /cpp-api/nda/idx_map/strides
+permalink: /cpp-api/nda/idx_map/strides/
 title: nda::idx_map<Rank, StaticExtents, StrideOrder, LayoutProp>::strides
 parent: nda::idx_map
 source: nda/layout/idx_map.hpp

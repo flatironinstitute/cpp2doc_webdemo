@@ -33,7 +33,7 @@ example:
 see-also: []
 
 # ---------- DO NOT EDIT BELOW --------
-permalink: /cpp-api/nda/runtime_error
+permalink: /cpp-api/nda/runtime_error/
 title: nda::runtime_error
 source: nda/exceptions.hpp
 parent: nda

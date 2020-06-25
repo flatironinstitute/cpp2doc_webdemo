@@ -41,7 +41,7 @@ example:
 see-also: []
 
 # ---------- DO NOT EDIT BELOW --------
-permalink: /cpp-api/nda/stdutil/make_initialized_array
+permalink: /cpp-api/nda/stdutil/make_initialized_array/
 title: nda::stdutil::make_initialized_array
 parent: nda::stdutil
 source: nda/stdutil/array.hpp

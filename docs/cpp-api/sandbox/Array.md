@@ -13,7 +13,7 @@ brief: ""
 desc: ""
 
 # ---------- DO NOT EDIT BELOW --------
-permalink: /cpp-api/sandbox/Array
+permalink: /cpp-api/sandbox/Array/
 title: sandbox::Array
 signature: |
   template <typename A>

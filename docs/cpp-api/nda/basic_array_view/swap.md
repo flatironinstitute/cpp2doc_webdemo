@@ -40,7 +40,7 @@ example:
 see-also: []
 
 # ---------- DO NOT EDIT BELOW --------
-permalink: /cpp-api/nda/basic_array_view/swap
+permalink: /cpp-api/nda/basic_array_view/swap/
 title: nda::basic_array_view::swap
 parent: nda::basic_array_view
 source: nda/basic_array_view.hpp

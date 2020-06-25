@@ -54,7 +54,7 @@ example:
 see-also: []
 
 # ---------- DO NOT EDIT BELOW --------
-permalink: /cpp-api/nda/grid_iterator/grid_iterator-constructors
+permalink: /cpp-api/nda/grid_iterator/grid_iterator-constructors/
 title: nda::grid_iterator::grid_iterator
 parent: nda::grid_iterator
 source: nda/iterators.hpp

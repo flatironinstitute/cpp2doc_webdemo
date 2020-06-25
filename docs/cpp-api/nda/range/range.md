@@ -38,7 +38,7 @@ example:
 see-also: []
 
 # ---------- DO NOT EDIT BELOW --------
-permalink: /cpp-api/nda/range
+permalink: /cpp-api/nda/range/
 title: nda::range
 source: nda/layout/range.hpp
 parent: nda
