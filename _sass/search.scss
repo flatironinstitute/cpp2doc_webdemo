@@ -57,7 +57,7 @@
   }
 
   // TODO: Remove if not using the new colors.
-  &:placeholder {
+  &::placeholder {
     color: $white;
     opacity: 1;
   }

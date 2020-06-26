@@ -174,6 +174,7 @@
   .site-logo {
     width: 100%;
     height: 100%;
+    max-width: 150px;
     background-image: url($logo);
     background-repeat: no-repeat;
     background-position: left center;
@@ -187,10 +188,15 @@
   height: 100%;
   padding: $gutter-spacing-sm;
   align-items: center;
-  color: $link-color;
+  color: $white;
   text-transform: uppercase;
   background: transparent;
   border: 0;
+
+  &:focus {
+    outline: none;
+    border: 0;
+  }
 
   @include mq(md) {
     display: none;
