@@ -7,16 +7,19 @@ h1,
 .text-alpha {
   @include fs-8;
   font-weight: 300;
+  color: $purple-300;
 }
 
 h2,
 .text-beta {
   @include fs-6;
+  color: $purple-300;
 }
 
 h3,
 .text-gamma {
   @include fs-5;
+  color: $purple-300;
 }
 
 h4,

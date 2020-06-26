@@ -27,10 +27,10 @@ $grey-lt-100: #eeebee !default;
 $grey-lt-200: #ecebed !default;
 $grey-lt-300: #e6e1e8 !default;
 
-$purple-000: #7253ed !default;
-$purple-100: #5e41d0 !default;
-$purple-200: #4e26af !default;
-$purple-300: #381885 !default;
+$purple-000: #9d57da !default;
+$purple-100: #842dd1 !default;
+$purple-200: #6a24a7 !default;
+$purple-300: #3D1560 !default;
 
 $blue-000: #1FA9FD !default;
 $blue-100: #1786D3 !default;
@@ -52,9 +52,15 @@ $red-100: #f96e65 !default;
 $red-200: #e94c4c !default;
 $red-300: #dd2e2e !default;
 
+$orange-000: #FFAB5C !default;
+$orange-100: #FF810A !default;
+$orange-200: #F27500 !default;
+$orange-300: #CC6300 !default;
+
+
 $body-background-color: $white !default;
 $sidebar-color: $grey-lt-000 !default;
-$search-background-color: $blue-300 !default;
+$search-background-color: $purple-300 !default;
 $table-background-color: $white !default;
 $code-background-color: $grey-lt-000 !default;
 
@@ -62,9 +68,9 @@ $body-text-color: $grey-dk-100 !default;
 $body-heading-color: $grey-dk-300 !default;
 $search-result-preview-color: $grey-dk-000 !default;
 $nav-child-link-color: $grey-dk-100 !default;
-$link-color: $blue-000 !default;
-$btn-primary-color: $blue-100 !default;
-$base-button-color: $blue-300 !default;
+$link-color: $orange-200 !default;
+$btn-primary-color: $orange-200 !default;
+$base-button-color: $white !default;
 
 //
 // Spacing
@@ -119,7 +125,7 @@ $content-width: 800px !default;
 $content-width-xl: 1080px !default;
 $header-height: 60px !default;
 $search-results-width: 500px !default;
-$site-header-color: $blue-300;
+$site-header-color: $purple-300;
 
 //
 // Media queries in pixels
