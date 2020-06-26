@@ -2,7 +2,7 @@
 // Typography
 //
 
-$body-font-family: -apple-system, BlinkMacSystemFont, "helvetica neue",
+$body-font-family: aktiv-grotesk, -apple-system, BlinkMacSystemFont, "helvetica neue",
   helvetica, roboto, noto, "segoe ui", arial, sans-serif !default;
 $mono-font-family: "SFMono-Regular", Menlo, Consolas, Monospace !default;
 $root-font-size: 16px !default; // Base font-size for rems
@@ -22,7 +22,7 @@ $grey-dk-200: #44434d !default;
 $grey-dk-250: #302d36 !default;
 $grey-dk-300: #27262b !default;
 
-$grey-lt-000: #F7F9FA !default;
+$grey-lt-000: #f7f9fa !default;
 $grey-lt-100: #eeebee !default;
 $grey-lt-200: #ecebed !default;
 $grey-lt-300: #e6e1e8 !default;
@@ -32,15 +32,10 @@ $purple-100: #5e41d0 !default;
 $purple-200: #4e26af !default;
 $purple-300: #381885 !default;
 
-$blue-000: #2c84fa !default;
+$blue-000: #2DA0F5 !default;
 $blue-100: #2869e6 !default;
 $blue-200: #264caf !default;
-$blue-300: #183385 !default;
-
-$blue-A-000: #2DA0F5 !default;
-$blue-A-100:#0DA1FD !default;
-$blue-A-200: #225B99 !default;
-$blue-A-300:#01438E !default;
+$blue-300: #01438E !default;
 
 $green-000: #41d693 !default;
 $green-100: #11b584 !default;
@@ -59,7 +54,7 @@ $red-300: #dd2e2e !default;
 
 $body-background-color: $white !default;
 $sidebar-color: $grey-lt-000 !default;
-$search-background-color: $blue-A-300 !default;
+$search-background-color: $blue-300 !default;
 $table-background-color: $white !default;
 $code-background-color: $grey-lt-000 !default;
 
@@ -67,9 +62,9 @@ $body-text-color: $grey-dk-100 !default;
 $body-heading-color: $grey-dk-300 !default;
 $search-result-preview-color: $grey-dk-000 !default;
 $nav-child-link-color: $grey-dk-100 !default;
-$link-color: $blue-A-000 !default;
-$btn-primary-color: $blue-A-100 !default;
-$base-button-color: $blue-A-300 !default;
+$link-color: $blue-000 !default;
+$btn-primary-color: $blue-100 !default;
+$base-button-color: $blue-300 !default;
 
 //
 // Spacing
@@ -124,7 +119,7 @@ $content-width: 800px !default;
 $content-width-xl: 1080px !default;
 $header-height: 60px !default;
 $search-results-width: 500px !default;
-$site-header-color: $blue-A-300;
+$site-header-color: $blue-300;
 
 //
 // Media queries in pixels
