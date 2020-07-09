@@ -77,10 +77,10 @@ a:not([class]) {
 
   &:hover {
     background-image: linear-gradient(
-      rgba($link-color, 0.45) 0%,
-      rgba($link-color, 0.45) 100%
+      rgba($link-highlight-color, 0.45) 0%,
+      rgba($link-highlight-color, 0.45) 100%
     );
-    background-size: 1px 1px;
+    // background-size: 1px 1px;
   }
 }
 

@@ -2,7 +2,12 @@
 
 _updated 7/7_
 
+1. Worked a bit on embedding the Jupyter notebooks for the tutorials.
+2. Linking in a development environment to open the doc file.
+3. Font and color refinements from Sherry & next round logo.
+
 ## Todo:
+
 - Inline editing- or at least links to the file in Vim from the development environment
 - Add Libre Franklin as the design.
 - Edit an example in C++ and run immediately. Jupyter Notebook embed options.
