@@ -61,6 +61,7 @@ search_enabled: true
 search_tokenizer_separator: /[\s/]+/
 
 docs_version: 0.0.2
+style_version: blue-2 (libre-franklin)
 
 # Exclude from processing.
 # The following items will not be processed, by default. Create a custom list
