@@ -1,13 +1,15 @@
 # TODO Jekyll Docs
 
-_updated 6/23_
+_updated 7/7_
 
 ## Todo:
-
+- Inline editing- or at least links to the file in Vim from the development environment
+- Add Libre Franklin as the design.
+- Edit an example in C++ and run immediately. Jupyter Notebook embed options.
 - Rename Basic C++ libraries. CCQ Toolkit ? Rhizome?
-- Re-deploy on vercel in Sherry colors.
-- Update pipeline/README with feedback from Alex. Add information on what is available for contributor editing.
 - Review concept page when written.
+- Change all deploys to the font that we like.
+- Check 404 pages. Make sure to specify links.
 
 ## Verify:
 
@@ -17,6 +19,8 @@ _updated 6/23_
 
 ## Done:
 
+- Update pipeline/README with feedback from Alex. Add information on what is available for contributor editing.
+- Re-deploy on vercel in Sherry colors.
 - Create folding list functionality (via class)
 - Remove toc - update heading on layouts from OP. [Add :no-toc to class, function, namespace, cpp-concept. ]
 - Expand warning syntax / and note! classes ".alert alert-warning" and ".alert .alert-note"
