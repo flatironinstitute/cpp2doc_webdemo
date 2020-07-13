@@ -1,19 +1,22 @@
 # TODO Jekyll Docs
 
-_updated 6/23_
+_updated 7/7_
 
 ## Todo:
 
-- Rename Basic C++ libraries. CCQ Toolkit ? Rhizome?
-- Re-deploy on vercel in Sherry colors.
-- Update pipeline/README with feedback from Alex. Add information on what is available for contributor editing.
-- Review concept page when written.
+Jupyter Notebooks (question: can we import also mathjax or anotehr latex - what is being used in Jupyter?)
+Inline editing- or at least links to the file in Vim from the development environment
+Add Libre Franklin as the design.
+Edit an example in C++ and run immediately. Jupyter Notebook embed options.
+Rename Basic C++ libraries. CCQ Toolkit ? Rhizome?
+Review concept page when written.
+Check 404 pages. Make sure to specify links.
 
 ## Verify:
 
-- Add function name etc on top of each page in heading.(see cppref - only name no namespace with parent/::)
-- Multi-column layout build - see /cpp-api/nda - make a 3 col layout top aligned \*\*\* DO FIRST #️⃣1️⃣
-- Are the under items individual links or examples? Would the card point to a separate page or to nothing?
+Add function name etc on top of each page in heading.(see cppref - only name no namespace with parent/::)
+Multi-column layout build - see /cpp-api/nda - make a 3 col layout top aligned \*\*\* DO FIRST #️⃣1️⃣
+Are the under items individual links or examples? Would the card point to a separate page or to nothing?
 
 ## Done:
 
@@ -43,6 +46,7 @@ _updated 6/23_
 - Improve nav speed generation: make static, use a table to transfer, use permalink
 - Search add: brief, desc
 - Width on left bar - smaller.
+- Change all deploys to the font that we like.
 
 _Icebox_
 

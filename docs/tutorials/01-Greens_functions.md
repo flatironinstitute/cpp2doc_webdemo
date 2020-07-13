@@ -1,18 +1,24 @@
 ---
 layout: default
 title: Green's Functions
-has_children: false
+jupyter: true
 nav_include: true
 permalink: /tutorials/greens-functions/
 ---
 
-# Greens Functions
-
+# Green's Functions Tutorials
 {: .no_toc }
+
+## Table of contents
+{: .no_toc .text-delta }
+
+1. TOC
+{:toc}
 
 ---
 
-# Manipulating Green's functions
+
+## Manipulating Green's functions
 
 It is now time to start using some of the tools of TRIQS. Most TRIQS tools are also exposed as python modules.
 From a practical point of view, this means that you can think of TRIQS as a python library, just like
@@ -402,5 +408,5 @@ Use Pade approximants to obtain a real-frequency version of the Green's function
 Exercise 5. What is the effect of interactions at second-order perturbation theory? How is it changing with different values of $U$?
 
 ```python
-
+what = "what goes here"
 ```
