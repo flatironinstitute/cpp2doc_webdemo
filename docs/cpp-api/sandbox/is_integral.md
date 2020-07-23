@@ -19,6 +19,5 @@ signature: |
   template <class T>
    concept is_integral
 source: /Users/oparcollet/cpp2doc_webdemo/src/array_concept.cpp
-parent: sandbox
 ...
 

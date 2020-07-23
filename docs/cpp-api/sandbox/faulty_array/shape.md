@@ -40,7 +40,6 @@ see-also: []
 # ---------- DO NOT EDIT BELOW --------
 permalink: /cpp-api/sandbox/faulty_array/shape/
 title: sandbox::faulty_array<T, R, U>::shape
-parent: sandbox::faulty_array
 source: /Users/oparcollet/cpp2doc_webdemo/src/array_concept.cpp
 ...
 

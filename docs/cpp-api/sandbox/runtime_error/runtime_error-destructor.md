@@ -38,7 +38,7 @@ see-also: []
 
 # ---------- DO NOT EDIT BELOW --------
 permalink: /cpp-api/sandbox/runtime_error/runtime_error-destructor
-title: sandbox::runtime_error::~runtime_error/
+title: sandbox::runtime_error::~runtime_error
 parent: sandbox::runtime_error
 source: /Users/oparcollet/cpp2doc_webdemo/src/array_concept.cpp
 ...

@@ -20,7 +20,8 @@ brief: ""
 desc: ""
 
 # A list of methods. You can reorder, regroup into a dict : groupname -> list
-methods: [f]
+methods:
+  - f
 
 # A list of non_member_functions
 non_member_functions: []
@@ -38,7 +39,5 @@ see-also: []
 permalink: /cpp-api/sandbox/ess1/
 title: sandbox::ess1
 source: /Users/oparcollet/cpp2doc_webdemo/src/array_concept.cpp
-parent: sandbox
-has_children: true
 ...
 

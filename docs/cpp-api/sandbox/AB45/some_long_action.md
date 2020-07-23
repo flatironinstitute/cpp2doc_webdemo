@@ -40,7 +40,6 @@ see-also: []
 # ---------- DO NOT EDIT BELOW --------
 permalink: /cpp-api/sandbox/AB45/some_long_action/
 title: sandbox::AB45<R>::some_long_action
-parent: sandbox::AB45
 source: /Users/oparcollet/cpp2doc_webdemo/src/array_concept.cpp
 ...
 

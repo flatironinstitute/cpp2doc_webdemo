@@ -9,7 +9,7 @@ includers:     # regex -> filename
 
 white_list: ['nda::.*']  
 black_list: ['nda::expr.*', '.*_impl'] 
-ns_white_list: ['nda', 'nda::blas']  
+ns_white_list: ['nda', 'nda::blas', 'nda::stdutil']  
 
 #source_prefix:  /Users/oparcollet/Dropbox (Simons Foundation)/src/demo # A prefix to remove from the source files
 source_prefix:  /Users/oparcollet/Dropbox (Simons Foundation)/src/nda/c++ # A prefix to remove from the source files

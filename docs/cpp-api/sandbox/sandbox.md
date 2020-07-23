@@ -10,18 +10,24 @@ title: sandbox
 has_children: true
 show_topics: true
 namespaces: [impl]
+
+# List of functions.  You can reorder, regroup into a dict : groupname -> list
 concepts:
   - is_integral
   - Array
   - ArrayOfRank
   - ArrayOfT
   - ArrayInitializer
+
+# List of classes.  You can reorder, regroup into a dict : groupname -> list
 classes:
   - ess1
   - myarray
   - faulty_array
   - runtime_error
   - AB45
+
+# List of functions.  You can reorder, regroup into a dict : groupname -> list
 functions:
   - maker
   - maker2
@@ -38,6 +44,11 @@ functions:
   - op
   - fgh89
   - simple_f
+
+# ---------- DO NOT EDIT BELOW --------
+permalink: /cpp-api/sandbox
+qualified_name: sandbox
+title: sandbox
 ...
 
 # Sandbox, a toy space for testing

@@ -22,7 +22,8 @@ brief: A doc of faulty_array
 desc: ""
 
 # A list of methods. You can reorder, regroup into a dict : groupname -> list
-methods: [shape]
+methods:
+  - shape
 
 # A list of non_member_functions
 non_member_functions: []
@@ -45,7 +46,5 @@ see-also: []
 permalink: /cpp-api/sandbox/faulty_array/
 title: sandbox::faulty_array
 source: /Users/oparcollet/cpp2doc_webdemo/src/array_concept.cpp
-parent: sandbox
-has_children: true
 ...
 

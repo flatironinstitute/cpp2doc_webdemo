@@ -48,7 +48,6 @@ see-also: []
 # ---------- DO NOT EDIT BELOW --------
 permalink: /cpp-api/sandbox/fgh0/
 title: sandbox::fgh0
-parent: sandbox
 source: /Users/oparcollet/cpp2doc_webdemo/src/array_concept.cpp
 ...
 

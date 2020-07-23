@@ -40,7 +40,6 @@ see-also: []
 # ---------- DO NOT EDIT BELOW --------
 permalink: /cpp-api/sandbox/myarray/zozo/
 title: sandbox::myarray<T, R>::zozo
-parent: sandbox::myarray
 source: /Users/oparcollet/cpp2doc_webdemo/src/array_concept.cpp
 ...
 

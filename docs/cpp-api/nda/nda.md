@@ -5,6 +5,7 @@ layout: namespace
 # List of sub namespaces.  You can reorder, regroup into a dict : groupname -> list
 namespaces:
   - blas
+  - stdutil
 
 # List of functions.  You can reorder, regroup into a dict : groupname -> list
 concepts:
@@ -137,7 +138,6 @@ functions:
 permalink: /cpp-api/nda/
 qualified_name: nda
 title: nda
-show_topics: true
 ...
 
 # nda, a multi-dimensional array library

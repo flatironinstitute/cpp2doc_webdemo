@@ -44,7 +44,6 @@ see-also: []
 # ---------- DO NOT EDIT BELOW --------
 permalink: /cpp-api/sandbox/op/
 title: sandbox::op
-parent: sandbox
 source: /Users/oparcollet/cpp2doc_webdemo/src/array_concept.cpp
 ...
 

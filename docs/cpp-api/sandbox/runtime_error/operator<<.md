@@ -46,7 +46,6 @@ see-also: []
 # ---------- DO NOT EDIT BELOW --------
 permalink: /cpp-api/sandbox/runtime_error/operator<</
 title: sandbox::runtime_error::operator<<
-parent: sandbox::runtime_error
 source: /Users/oparcollet/cpp2doc_webdemo/src/array_concept.cpp
 ...
 

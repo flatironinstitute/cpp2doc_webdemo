@@ -22,9 +22,9 @@ brief: The layout that maps the indices to linear index.
 # Long description. Any Markdown, with code, latex, multiline with |
 desc: |
   Basically lengths and strides for each dimensions
-
-
-
+  
+  
+  
   StrideOrder[0] : the slowest index, StrideOrder[Rank-1] : the fastest index Example : 012 : C the last index is the fastest 210 : Fortran, the first index is the fastest 120 : storage (i,j,k) is : index j is slowest, then k, then i
   NB : StrideOrder = 0 is the default and it is means 0 order
 

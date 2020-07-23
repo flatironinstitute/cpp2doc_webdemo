@@ -6,7 +6,7 @@ namespace: nda
 includer: nda/nda.hpp
 
 # Brief description. One line only.
-brief: Transform an array into another one with a new shape
+brief: Transform an array into another one with a new shape. Short description
 
 # List of overloads. Edit only the desc
 overloads:
