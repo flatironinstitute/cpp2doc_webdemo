@@ -7,16 +7,17 @@ permalink: /tutorials/greens-functions/
 ---
 
 # Green's Functions Tutorials
+
 {: .no_toc }
 
 ## Table of contents
+
 {: .no_toc .text-delta }
 
 1. TOC
-{:toc}
+   {:toc}
 
 ---
-
 
 ## Manipulating Green's functions
 
@@ -44,14 +45,14 @@ $$
 \end{pmatrix}
 $$
 
-Here the $\hat{g}^i$ are Green's functions with non-zero elements $g^i_{ab}$. In principle they can have
+Here the $$\hat{g}^i$$ are Green's functions with non-zero elements $g^i_{ab}$\$. In principle they can have
 different dimensions.
 
-For example, you can imagine a system of 5 $d$-orbitals that are split by a
-crystal field into 3 $t_{2g}$-orbitals and 2 $e_g$-orbitals. For symmetry reasons, you can have a
+For example, you can imagine a system of 5 $$d$$-orbitals that are split by a
+crystal field into 3 $$t_{2g}$$-orbitals and 2 $$e_g$$-orbitals. For symmetry reasons, you can have a
 situation where these orbitals do not talk to each other. In that case, the complete Green's function
-would have two blocks, one of size 3x3 corresponding to the $t_{2g}$ orbitals and one of size 2x2 corresponding
-to the $e_g$ orbitals.
+would have two blocks, one of size 3x3 corresponding to the $$t_{2g}$$ orbitals and one of size 2x2 corresponding
+to the $$e_g$$ orbitals.
 
 $$
 \hat{G} =

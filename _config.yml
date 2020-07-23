@@ -31,7 +31,7 @@ markdown: MyCustomProcessor #kramdown
 kramdown:
   input: Kramdown_CCQ_extension
   math_engine: katex
-  math_engine_opts: {} # TODO: Can we remove this empty object?
+  math_engine_opts: {}
 
 plugins:
   - jekyll-seo-tag

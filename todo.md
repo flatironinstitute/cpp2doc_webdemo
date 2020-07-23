@@ -2,11 +2,15 @@
 
 _updated 7/7_
 
+Olivier:
+
+- permalink script change?
+- Static Jupyter notebooks v.
+
 ## Todo:
 
-Jupyter Notebooks (question: can we import also mathjax or anotehr latex - what is being used in Jupyter?)
+Jupyter Notebooks
 Inline editing- or at least links to the file in Vim from the development environment
-Add Libre Franklin as the design.
 Edit an example in C++ and run immediately. Jupyter Notebook embed options.
 Rename Basic C++ libraries. CCQ Toolkit ? Rhizome?
 Review concept page when written.
