@@ -1,10 +1,9 @@
 module Jekyll
-
-  # FIXME 
-  # permalink_to_title : contect, same for the table
   module CPP2DOC_NavFilter
-    def make_nav_left_menu_impl (parent, childs, item_list, permalink_to_title)
+    def make_nav_left_menu_impl (parent, childs, item_list)
 
+    permalink_to_title = @context.registers[:site].data['permalink_to_title']
+    
     r = ''
     item_list.each do |dic|
       if dic.is_a? String then 
@@ -17,14 +16,14 @@ module Jekyll
         b = (childs[0] == key)
       end
       active = ("active" if b) or ''
-      pl = parent + '/' + key 
+      pl = parent + '/' + key + '/' 
       title =  permalink_to_title[pl]
       if (title) 
         r += '<li class="navigation-list-item navigation-child-item %s">'%[active]
         r += ' <a href="%s" class="navigation-list-link %s ">%s</a>' %[pl, active, title]
         if b and val then 
           r += '<ul class="navigation-list-child-list ">'
-          r += make_nav_left_menu_impl([parent, childs[0]].join('/'), childs[1..-1], val, permalink_to_title)
+          r += make_nav_left_menu_impl([parent, childs[0]].join('/'), childs[1..-1], val)
           r += '</ul>'
         end
       end
@@ -32,18 +31,18 @@ module Jekyll
     return r 
     end
 
-    def make_nav_left_menu(permalink, nav_left_menu_table, permalink_to_title)
+    def make_nav_left_menu(permalink)
     if not permalink then 
       return ''
     end
 
-    childs = permalink.split('/')[1..-1]  # remove the first '' because permalink starts with /
-    r = '<ul class="navigation-list">'
-    r += make_nav_left_menu_impl('', childs, nav_left_menu_table, permalink_to_title)
-    r += '</ul>'
-    
-    return r
+    nav_left_menu_table = @context.registers[:site].data['nav_left_menu']
 
+    permalink.delete_prefix!('/')         # permalink starts with /. Remove it
+    permalink.delete_suffix!('/')         # permalink ends with /. Remove it
+    childs = permalink.split('/')         # 
+    
+    return  '<ul class="navigation-list">' +  make_nav_left_menu_impl('', childs, nav_left_menu_table) + '</ul>'
     end
 
   end

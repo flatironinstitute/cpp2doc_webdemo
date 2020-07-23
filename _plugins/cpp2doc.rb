@@ -18,9 +18,6 @@ module Jekyll
       site.pages.each do |page|
         permalink = page['permalink']
         next if not permalink 
-        if permalink[-1] == '/' then 
-          permalink = permalink[0..-2]
-        end
         permalink_to_title[permalink] = page['title']
         next if not permalink.start_with?('/cpp-api')
         permalink_to_brief[permalink] = page['brief']
@@ -43,7 +40,7 @@ module Jekyll
     # The point is that the data is on *another* page.
     # We must pass the table since a filter does not see the site variable
     def get_brief(name, root_permalink,  permalink_to_brief_table)
-      permalink_to_brief_table [root_permalink + '/' + name]
+      permalink_to_brief_table [root_permalink + name + '/']
     end
 
     def get_fancy_name_from_permalink(permalink, permalink_to_fancyname_table)
@@ -62,9 +59,9 @@ module Jekyll
       return r 
     end
 
-    def get_fancy_name(name,  root_permalink, permalink_to_fancyname_table)
-      #puts(name)
-      r = permalink_to_fancyname_table [root_permalink + '/' + name]
+    def get_fancy_name(name)
+      root_permalink = @context.registers[:page]['permalink']
+      r = @context.registers[:site].data['permalink_to_fancyname'] [root_permalink  + name + '/']
       if (not r) then 
         return name
       end

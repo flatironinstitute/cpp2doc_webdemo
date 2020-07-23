@@ -17,10 +17,7 @@ layout: default
     {% for name in page.namespaces%}
     <tr>
       <td class="method-name" align="right">
-        <a href="{{name}}"
-          >{{name| get_fancy_name: page.permalink,
-          site.data.permalink_to_fancyname}}</a
-        >
+        <a href="{{name}}" >{{name| get_fancy_name}}</a>
       </td>
       <td class="method-brief">
         {{name| get_brief: page.permalink, site.data.permalink_to_brief |
@@ -39,10 +36,7 @@ layout: default
     {% for name in page.concepts%}
     <tr>
       <td class="method-name" align="right">
-        <a href="{{name}}"
-          >{{name| get_fancy_name: page.permalink,
-          site.data.permalink_to_fancyname}}</a
-        >
+        <a href="{{name}}" >{{name| get_fancy_name}}</a>
       </td>
       <td class="method-brief">
         {{name| get_brief: page.permalink, site.data.permalink_to_brief |
@@ -66,10 +60,7 @@ layout: default
     {% for name in g_l.first[1] %}
     <tr>
       <td class="method-name" align="right">
-        <a href="{{name}}"
-          >{{name| get_fancy_name: page.permalink,
-          site.data.permalink_to_fancyname}}</a
-        >
+        <a href="{{name}}" >{{name| get_fancy_name}}</a>
       </td>
       <td class="method-brief">
         {{name| get_brief: page.permalink, site.data.permalink_to_brief |
@@ -88,10 +79,7 @@ layout: default
     {% for name in page.classes %}
     <tr>
       <td class="method-name" align="right">
-        <a href="{{name}}"
-          >{{name| get_fancy_name: page.permalink,
-          site.data.permalink_to_fancyname}}</a
-        >
+        <a href="{{name}}" >{{name| get_fancy_name}}</a>
       </td>
       <td class="method-brief">
         {{name| get_brief: page.permalink, site.data.permalink_to_brief |
@@ -111,10 +99,7 @@ layout: default
     {% for name in page.functions%}
     <tr>
       <td class="method-name" align="right">
-        <a href="{{name}}"
-          >{{name| get_fancy_name: page.permalink,
-          site.data.permalink_to_fancyname}}</a
-        >
+        <a href="{{name}}" >{{name| get_fancy_name}}</a>
       </td>
       <td class="method-brief">
         {{name| get_brief: page.permalink, site.data.permalink_to_brief |

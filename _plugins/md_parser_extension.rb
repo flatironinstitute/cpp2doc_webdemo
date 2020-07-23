@@ -116,7 +116,7 @@ class Kramdown::Parser::Kramdown_CCQ_extension < Kramdown::Parser::GFM
         if n < l.length() then 
           td =  new_block_el(:td)
           fn = l[n].split('/')[-1]
-          data_f = YAML.load(File.read('docs/' + l[n]+ '.md'))
+          data_f = YAML.load(File.read('docs/' + l[n].delete_suffix('/') + '.md'))
           html = '<a href="' + l[n] + '" title="' + data_f['brief'] + '"> ' + fn + '</a>'
           td.children << Element.new(:raw, html)
           tr.children << td
