@@ -2,14 +2,9 @@
 # Do not edit this first section
 layout: namespace
 
-# ---------- DO NOT EDIT BELOW --------
-permalink: /cpp-api/sandbox/
-qualified_name: sandbox
-parent: C++ API
-title: sandbox
-has_children: true
-show_topics: true
-namespaces: [impl]
+# List of sub namespaces.  You can reorder, regroup into a dict : groupname -> list
+namespaces:
+  - impl
 
 # List of functions.  You can reorder, regroup into a dict : groupname -> list
 concepts:
@@ -46,7 +41,7 @@ functions:
   - simple_f
 
 # ---------- DO NOT EDIT BELOW --------
-permalink: /cpp-api/sandbox
+permalink: /cpp-api/sandbox/
 qualified_name: sandbox
 title: sandbox
 ...

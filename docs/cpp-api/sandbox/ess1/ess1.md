@@ -39,5 +39,7 @@ see-also: []
 permalink: /cpp-api/sandbox/ess1/
 title: sandbox::ess1
 source: /Users/oparcollet/cpp2doc_webdemo/src/array_concept.cpp
+parent: sandbox
+has_children: true
 ...
 

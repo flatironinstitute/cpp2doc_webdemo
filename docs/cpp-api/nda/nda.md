@@ -138,6 +138,7 @@ functions:
 permalink: /cpp-api/nda/
 qualified_name: nda
 title: nda
+show_topics: true
 ...
 
 # nda, a multi-dimensional array library

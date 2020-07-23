@@ -40,6 +40,7 @@ see-also: []
 # ---------- DO NOT EDIT BELOW --------
 permalink: /cpp-api/sandbox/ess1/f/
 title: sandbox::ess1<B>::f
+parent: sandbox::ess1
 source: /Users/oparcollet/cpp2doc_webdemo/src/array_concept.cpp
 ...
 

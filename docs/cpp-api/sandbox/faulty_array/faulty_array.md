@@ -46,5 +46,7 @@ see-also: []
 permalink: /cpp-api/sandbox/faulty_array/
 title: sandbox::faulty_array
 source: /Users/oparcollet/cpp2doc_webdemo/src/array_concept.cpp
+parent: sandbox
+has_children: true
 ...
 
