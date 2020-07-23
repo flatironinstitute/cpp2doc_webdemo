@@ -1,28 +1,28 @@
 ---
 ArrayFunction:
-  - /cpp-api/nda/abs
-  - /cpp-api/nda/real
-  - /cpp-api/nda/imag
-  - /cpp-api/nda/floor
-  - /cpp-api/nda/conj
+  - /cpp-api/nda/abs/
+  - /cpp-api/nda/real/
+  - /cpp-api/nda/imag/
+  - /cpp-api/nda/floor/
+  - /cpp-api/nda/conj/
 ArrayNoMatrixFunction:
-  - /cpp-api/nda/exp
-  - /cpp-api/nda/cos
-  - /cpp-api/nda/sin
-  - /cpp-api/nda/tan
-  - /cpp-api/nda/cosh
-  - /cpp-api/nda/sinh
-  - /cpp-api/nda/tanh
-  - /cpp-api/nda/acos
-  - /cpp-api/nda/asin
-  - /cpp-api/nda/atan
-  - /cpp-api/nda/log
-  - /cpp-api/nda/sqrt
+  - /cpp-api/nda/exp/
+  - /cpp-api/nda/cos/
+  - /cpp-api/nda/sin/
+  - /cpp-api/nda/tan/
+  - /cpp-api/nda/cosh/
+  - /cpp-api/nda/sinh/
+  - /cpp-api/nda/tanh/
+  - /cpp-api/nda/acos/
+  - /cpp-api/nda/asin/
+  - /cpp-api/nda/atan/
+  - /cpp-api/nda/log/
+  - /cpp-api/nda/sqrt/
 Algorithms:
-  - /cpp-api/nda/any
-  - /cpp-api/nda/all
-  - /cpp-api/nda/max_element
-  - /cpp-api/nda/min_element
-  - /cpp-api/nda/sum
+  - /cpp-api/nda/any/
+  - /cpp-api/nda/all/
+  - /cpp-api/nda/max_element/
+  - /cpp-api/nda/min_element/
+  - /cpp-api/nda/sum/
 ...
 
