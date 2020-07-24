@@ -31,7 +31,10 @@ markdown: MyCustomProcessor #kramdown
 kramdown:
   input: Kramdown_CCQ_extension
   math_engine: katex
-  math_engine_opts: {}
+  math_engine_opts: {{delimiters: [
+    {left: "$$", right: "$$", display: 'true'},
+    {left: "$", right: "$", display: 'false'}
+]}}
 
 plugins:
   - jekyll-seo-tag

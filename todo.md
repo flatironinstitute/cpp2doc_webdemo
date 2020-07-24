@@ -1,11 +1,17 @@
 # TODO Jekyll Docs
 
-_updated 7/7_
+_updated 7/24_
 
 Olivier:
 
 - permalink script change?
 - Static Jupyter notebooks v.
+- Update card html to make it flow from the yaml.
+- Make a landing page attempt.
+  - picture of the code screen
+  - samples of the codes
+  - cards and links to basic libraries, core libraries, applications
+  - 2 screens with code and graph from code as visual
 
 ## Todo:
 

@@ -1,12 +1,5 @@
----
-title: Green's Functions
-parent: Tutorials
-layout: default
-nav_include: true
-permalink: /tutorials/greensfunctions/
----
-
-# Manipulating Green's functions
+Manipulating Green's functions
+==============================
 
 It is now time to start using some of the tools of TRIQS. Most TRIQS tools are also exposed as python modules.
 From a practical point of view, this means that you can think of TRIQS as a python library, just like
@@ -20,7 +13,7 @@ functions:
 - Imaginary-time Green's functions
 - Real-time Green's functions (will not be covered in this tutorial)
 
-In general, because of symmetries, Green's functions can have a _block structure_.
+In general, because of symmetries, Green's functions can have a *block structure*.
 
 $$
 \hat{G} =
@@ -39,7 +32,7 @@ For example, you can imagine a system of 5 $d$-orbitals that are split by a
 crystal field into 3 $t_{2g}$-orbitals and 2 $e_g$-orbitals. For symmetry reasons, you can have a
 situation where these orbitals do not talk to each other. In that case, the complete Green's function
 would have two blocks, one of size 3x3 corresponding to the $t_{2g}$ orbitals and one of size 2x2 corresponding
-to the $e_g$ orbitals.
+to the $e_g$ orbitals. 
 
 $$
 \hat{G} =
@@ -63,9 +56,11 @@ $$
 To summarize, an element of a Green's function has three indices: an index for the
 block and two indices within the block: $g^a_{ij}$.
 
-## Importing the relevant TRIQS library
+Importing the relevant TRIQS library
+------------------------------------
 
 The first step to use Green's functions is to import the relevant library of TRIQS
+
 
 ```python
 import numpy as np
@@ -73,11 +68,13 @@ from math import pi
 from pytriqs.gf import *
 ```
 
-## Real-frequency Green's functions
+Real-frequency Green's functions
+--------------------------------
 
 ### Example 1: eg + t2g orbitals
 
 Let's see how to define a real-frequency Green's function. We will take the example of $e_g$ and $t_{2g}$ orbitals. We first have to define the two blocks:
+
 
 ```python
 g_eg = GfReFreq(indices=[0,1], window=[-3.0,3.0])
@@ -86,11 +83,13 @@ g_t2g = GfReFreq(indices=[0,1,2], window=[-3.0,3.0])
 
 The `indices` keyword lets you chose the name of the indices. We highly encourage you to use numbers, starting at 0. The second keyword `window` sets the $\omega$-range to be considered. Here we use a regular mesh with a default number of points. Now we put these two blocks in the full Green's function $G$:
 
+
 ```python
 G = BlockGf(name_list=['eg', 't2g'], block_list=[g_eg, g_t2g])
 ```
 
 Let's see how we can put something in the Green's function. We use the operator `<<` to fill the Green's function with the evaluation of the formula on the right hand side at the $\omega$-points of the mesh, i.e. `Omega` is replaced by the values of the mesh.
+
 
 ```python
 V1 = 0.1
@@ -100,7 +99,7 @@ V2 = 0.2
 G['eg'][0,0] << Omega
 G['eg'][0,1] << V1
 G['eg'][1,0] << V1
-G['eg'][1,1] << Omega
+G['eg'][1,1] << Omega 
 G['eg'].invert()
 
 # The t_2g part
@@ -162,6 +161,7 @@ $$
 In the equation above $\epsilon_d$ is the energy of the level and $\Gamma$ is the Green's function of
 a flat conduction bath. Let's see how to define and then plot this Green's function.
 
+
 ```python
 eps_d, V = 0.3, 0.2
 
@@ -174,26 +174,29 @@ Let's plot the impurity Green's function. To do so we first include the matplotl
 defined in TRIQS. Note that the function to plot Green's function is `oplot` and not just
 `plot` like in matplotlib. By default, both the real and imaginary parts are plotted.
 
+
 ```python
 from pytriqs.plot.mpl_interface import oplot,plt
 # make plots show up directly in the notebook:
-%matplotlib inline
+%matplotlib inline 
 # change scale of all figures to make them bigger
 import matplotlib as mpl
-mpl.rcParams['savefig.dpi']=100
+mpl.rcParams['savefig.dpi']=100 
 
-oplot(g, '-', linewidth=2)
+oplot(g, '-', linewidth=2) 
 ```
 
 We can plot the spectral function, which is defined as
 
 $$ \rho(\omega) = -\frac{1}{\pi} \, \textbf{Im} \, G $$
 
+
 ```python
 oplot(-g.imag/pi, linewidth=2)
 ```
 
 As expected the spectral function is peaked at $\epsilon_d$. Note that in this example, the Green's function does not have a block structure. This is why we directly worked with `g` (that is a `GfReFreq`) without defining a block Green's function with `BlockGf`. In general, the same operations can be applied on a `BlockGf` and on a `GfReFreq`. So the example above could also have been written:
+
 
 ```python
 eps_d, V  = 0.3, 0.2
@@ -211,13 +214,15 @@ oplot(-G.imag/pi, '-', linewidth=2)
 
 Another predefined Green's function is the one corresponding to a semi-circular spectral function. This will be useful later on. The function is `SemiCircular` with the half-bandwidth as an argument:
 
+
 ```python
 g = GfReFreq(indices = [0], window = (-2, 2), name = "Semi Circular")
 g << SemiCircular(1.0)
-oplot(-g.imag/pi)
+oplot(-g.imag/pi) 
 ```
 
-## Imaginary-frequency Green's functions
+Imaginary-frequency Green's functions
+-------------------------------------
 
 These are Green's function defined on the Matsubara axis. The fermionic Matsubara frequencies
 are defined by
@@ -227,6 +232,7 @@ $$\omega_n = \frac{(2n+1)\pi}{\beta}$$
 where $\beta = 1/T$ is the inverse temperature. These Green's functions are important because
 most Monte Carlo algorithms yield results on the Matsubara axis. Let's see how they
 are defined:
+
 
 ```python
 # Define g and fill it
@@ -238,18 +244,22 @@ oplot(g, '-o')
 plt.xlim(0,10)
 ```
 
-## Imaginary-time Green's functions
+Imaginary-time Green's functions
+--------------------------------
 
 Imaginary-time Green's functions are antiperiodic functions defined on the interval $[0, \beta]$. They are
 constructed very much like imaginary-frequency Green's functions
+
 
 ```python
 g = GfImTime(indices=[0], beta=10)
 ```
 
-## Standard manipulations
+Standard manipulations
+----------------------
 
 Green's functions can be added, multiplied by numbers, etc. The way this is done is quite natural, but it is important to use the << sign and not =.
+
 
 ```python
 g1 = GfImFreq(indices=[0], beta=10)
@@ -265,10 +275,12 @@ oplot(g2, '-o')
 plt.xlim(0,10)
 ```
 
-## Iterating over the blocks of a `BlockGf`
+Iterating over the blocks of a `BlockGf`
+----------------------------------------
 
 If you have defined a block Green's function, it is often convenient to iterate over all its blocks
 with the following construct
+
 
 ```python
 g_up = GfImFreq(indices=[0], beta=10)
@@ -281,9 +293,11 @@ for name, g in G:
     print "The associated Green's function is ", g
 ```
 
-## Obtaining the density
+Obtaining the density
+---------------------
 
 You can obtain the density with the `density` method
+
 
 ```python
 g = GfImFreq(indices=[0], beta=10)
@@ -293,9 +307,11 @@ print "Density = ", g.density()[0,0]
 
 Do not worry about the imaginary component as the machine precision is on the order of $10^{-15}$.
 
-## Fourier transforms
+Fourier transforms
+------------------
 
 TRIQS allows you to easily Fourier transform Green's functions from imaginary-time to imaginary-frequency.
+
 
 ```python
 # A Green's function in frequency set to semi-circular
@@ -308,6 +324,7 @@ g_t << InverseFourier(g_w)
 oplot(g_t)
 ```
 
+
 ```python
 # We can also go the other way
 # Let's check that it gives the original result
@@ -318,11 +335,13 @@ oplot(g_w2, 'x')
 plt.xlim(0,5)
 ```
 
-## Pade analytical continuation
+Pade analytical continuation
+----------------------------
 
 The Fourier transforms allow to go from time to frequency. A much more delicate thing is to do the so-called "analytical continuation". This means to start from a Matsubara-frequency Green's function and obtain the real-frequency corresponding Green's function. This can formally be done, but turns out to be a mathematically ill-defined problem. As soon as there is a little bit of noise in the Matsubara-frequency data, the continuation to the real axis becomes very unstable.
 
 One of the ways to do this analytical continuation is to use the Pade approximation. TRIQS can do that for you in the following way:
+
 
 ```python
 # We define a Matsubara Green's function
@@ -340,7 +359,8 @@ oplot(-g_real.imag/pi, linewidth=2)
 
 Because the data has no noise, you can see that the Pade continuation did a pretty good job. We will see later, that any noise will completely change this picture!
 
-## Exercises
+Exercises
+---------
 
 ### Exercise 1
 
@@ -362,7 +382,7 @@ Plot the density $n(\epsilon)$ as a function of $\epsilon$ for a Green's functio
 
 ### Exercise 3
 
-Define a block Green's function with an _up_ and a _down_ block. Each block is just a simple 1x1 imaginary-frequency Green's function. Iterate over the blocks to initialize the two blocks to $1/i \omega_n$. What happens if you change $\beta$?
+Define a block Green's function with an *up* and a *down* block. Each block is just a simple 1x1 imaginary-frequency Green's function. Iterate over the blocks to initialize the two blocks to $1/i \omega_n$. What happens if you change $\beta$?
 
 ### Exercise 4
 
@@ -394,6 +414,8 @@ Hint: The "power operator" is not defined for Green's functions. Use multiplicat
 
 Use Pade approximants to obtain a real-frequency version of the Green's function computed in the
 Exercise 5. What is the effect of interactions at second-order perturbation theory? How is it changing with different values of $U$?
+
+
 
 ```python
 
