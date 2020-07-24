@@ -38,9 +38,8 @@ module Jekyll
 
     nav_left_menu_table = @context.registers[:site].data['nav_left_menu']
 
-    permalink.delete_prefix!('/')         # permalink starts with /. Remove it
-    permalink.delete_suffix!('/')         # permalink ends with /. Remove it
-    childs = permalink.split('/')         # 
+    # permalink starts and ends with /. Remove them before split
+    childs = permalink.delete_prefix('/').delete_prefix('/').split('/')         # 
     
     return  '<ul class="navigation-list">' +  make_nav_left_menu_impl('', childs, nav_left_menu_table) + '</ul>'
     end
