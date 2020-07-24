@@ -1,135 +1,174 @@
 module Jekyll
 
-  module Reading
+  module CPP2DOC_Generator
 
-  # This function is executed before rendering the pages
-  # Cf Jekyll help, custom Generators
-  # It constructs
-  # qname_to_brief :  a hash table  qualified_name  --> brief documentation
-  # highlighted_types : a list of qualified name of type which are documented and
-  # will be used to make link in highlighted code
-  #
-  class Generator < Jekyll::Generator
-    def generate(site)
-      permalink_to_title = {}
-      permalink_to_brief = {}
-      permalink_to_fancyname = {}
-      highlighted_types = []
-      site.pages.each do |page|
-        permalink = page['permalink']
-        next if not permalink 
-        permalink_to_title[permalink] = page['title']
-        next if not permalink.start_with?('/cpp-api')
-        permalink_to_brief[permalink] = page['brief']
-        permalink_to_fancyname[permalink] = (page['fancy_name'] or page['short_name'])
-        if page['layout'] == 'class' or page['layout'] == 'concept'
-          highlighted_types.append(page['qualified_name'])
+    # ######################################################################
+    #
+    # Generator executed before rendering the pages Cf Jekyll help, custom Generators
+    # It constructs 
+    # 3 tables : permalinks -> title, brief, fancyname
+    # highlighted_types : a list of all documents classes and concepts 
+    #
+    # ######################################################################
+    
+    class Generator < Jekyll::Generator
+      def generate(site)
+        permalink_to_title = {}
+        permalink_to_brief = {}
+        permalink_to_fancyname = {}
+        highlighted_types = {}
+        
+        # loop on all md pages
+        site.pages.each do |page|
+          permalink = page['permalink']
+          next if not permalink # no permalink, it is not a proper md page, we ignore it.
+          permalink_to_title[permalink] = page['title']
+          next if not permalink.start_with?('/cpp-api') 
+          permalink_to_brief[permalink] = page['brief']
+          permalink_to_fancyname[permalink] = (page['fancy_name'] or page['short_name'])
+          if page['layout'] == 'class' or page['layout'] == 'concept'
+            highlighted_types[page['qualified_name']] = permalink
+          end
+          if page['layout'] == 'class'
+            aliases = page['aliases']
+            if aliases != nil
+              aliases.each do |d|
+                highlighted_types[d['name']] = permalink
+              end
+            end
+          end
         end
+        
+        site.data["permalink_to_title"] = permalink_to_title
+        site.data["permalink_to_brief"] = permalink_to_brief
+        site.data["permalink_to_fancyname"] = permalink_to_fancyname
+        site.data["highlighted_types"] = highlighted_types
+        
       end
-      site.data["permalink_to_title"] = permalink_to_title
-      site.data["permalink_to_brief"] = permalink_to_brief
-      site.data["permalink_to_fancyname"] = permalink_to_fancyname
-      site.data["highlighted_types"] = highlighted_types
     end
   end
-  end
 
+
+  # ######################################################################
+  #
+  # A few liquid filters for cpp2doc
+  # 
+  # NB : All permalinks starts AND ends with / e.g. /A/B/  or / or /A/
+  #
+  # ######################################################################
+ 
   module CPP2DOC_Filter
 
-    # This filter associates the brief doc to a permalink using the global table
-    # The point is that the data is on *another* page.
-    # We must pass the table since a filter does not see the site variable
-    def get_brief(name, root_permalink,  permalink_to_brief_table)
-      permalink_to_brief_table [root_permalink + name + '/']
+    # ------------------------------------------------------------------------------
+    # Retrieve the brief doc of a function/method fname
+    # using a global table built by the generator above
+    # ------------------------------------------------------------------------------
+    def get_brief(fname)
+      # We get the permalink of the method, function, since fname is relative to the current page.
+      permalink_of_current_page = @context.registers[:page]['permalink']
+      return @context.registers[:site].data['permalink_to_brief'][permalink_of_current_page  + fname + '/'] 
     end
 
-    def get_fancy_name_from_permalink(permalink, permalink_to_fancyname_table)
-   
-      #puts permalink 
-      #puts @context.registers[:site].data['permalink_to_brief']
-  
-      r = permalink_to_fancyname_table [permalink]
+    # ------------------------------------------------------------------------------
+    # Retrieve the fancy name from a permalink 
+    # using a global table built by the generator above
+    # ------------------------------------------------------------------------------
+     def get_fancy_name_from_permalink(permalink)
+      # Ensures that permalink starts and ends with /, since it is user given
+      permalink = '/' + permalink.delete_suffix('/').delete_prefix('/')  + '/' 
+      r = @context.registers[:site].data['permalink_to_fancyname'][permalink]
       if (not r) then 
         return "NOT FOUND : " + permalink
       end
-      l = r.split
-      if l.length > 1 then 
-        return l.join('<BR>')
-      end
-      return r 
+      return r.gsub("\n",'<BR>') # replace the \n by <BR>
     end
 
-    def get_fancy_name(name)
+    # ------------------------------------------------------------------------------
+    # Retrieve the fancy name of a function/method fname
+    # using a global table built by the generator above
+    # ------------------------------------------------------------------------------
+     def get_fancy_name(fname)
       root_permalink = @context.registers[:page]['permalink']
-      r = @context.registers[:site].data['permalink_to_fancyname'] [root_permalink  + name + '/']
+      r = @context.registers[:site].data['permalink_to_fancyname'][root_permalink  + fname + '/']
       if (not r) then 
-        return name
+        return fname
       end
-      l = r.split
-      if l.length > 1 then 
-        return l.join('<BR>')
-      end
-      return r 
+      return r.gsub("\n",'<BR>') # replace the \n by <BR>
     end
        
+    require 'rouge' # we use the highlighter
 
-    # FIXME : USE CONTEXT
-    # This filter takes :
-    #  - source  : c++ code snipper
-    #  - highlighted_types : the global list of types from the site
-    def link_and_highlight(source, highlighted_types, current_namespace= '')
+    # ------------------------------------------------------------------------------
+    # Call the Rouge highlighter on source, but replace the documented class, 
+    # concepts by a link
+    # remove_top_namespace : if true, 
+    #   remove the e.g. nda:: top namespace from the highlighted name
+    # ------------------------------------------------------------------------------
+    def highlight_and_link(source, remove_top_namespace = false)
 
-      if not source then 
-        return source
+      if remove_top_namespace then 
+        page_namespace = @context.registers[:page]['namespace'] + "::"
+        ns = page_namespace.split("::")[0] + "::"
       end
 
-      # a security if the page pass current_namespace = nil by mistake (corrupted yaml header)
-      if not current_namespace then 
-        current_namespace = ''
-      end
-
-      require 'rouge' # we use the highlighter
-
-      # FIXME : bug do the join one by one with replace
-      # nda::basic_array:: .... ?? replace nda !
-      # Do it at the END only
-      if not current_namespace.empty? then
-        current_namespace += '::'
-        source = source.gsub(current_namespace, '')
-      end
-
-      # Replace all types by _X0001X_, _X0002X, which the highlighter will not cut
-      # Highlight by calling Rouge
-      # Replace back the _X0001X_, _X0002X with the adequate url
-      #
-      (0..highlighted_types.length()-1).each do |n|
-        type = highlighted_types[n]
-        if current_namespace then
-          type = type.gsub(current_namespace, '')
+      highlighted_types = @context.registers[:site].data['highlighted_types'] 
+ 
+      highlighted_types.each do |ty, url|
+          if url[0] != '/' then
+          puts 'ENTRY@@@ %s ==> %s'%[ty, url]
+          raise "NO !!"
         end
-        repl = "_X000" + (1+n).to_s + "X_"
-        re_s = '(' + type + ')(?!\w)'
-        re = Regexp.new re_s
-        source = source.gsub(re){ |w| repl}
+      end
+      
+      # for all types in highlighted_types, 
+      #  - find them 
+      #  - replace them with _X0001X_, _X0002X, which the highlighter will not cut
+      #  - highlight by calling Rouge
+      #  - replace back the _X0001X_, _X0002X with the name and adequate url
+      #  if remove_top_namespace is true, we remove it in the presented type
+      #
+      type_founds = {}
+      c = 1
+      highlighted_types.each do |type, url|
+
+        type_to_replace = type
+        # we are going to run this twice : once with the full type, 
+        # once with the type_to_replace truncated from top ns if remove_top_namespace is true
+        # lambda are closure, it will see the change in type_to_replace
+         worker = lambda { 
+          re = Regexp.new '(' + type_to_replace + ')(?!\w)'
+          source = source.gsub(re){ |w|
+            repl = "_X000" + c.to_s + "X_"
+            type_founds[type] = repl # Must be the full type
+            c = c + 1
+            repl
+          }
+        }
+        worker.call
+        if remove_top_namespace then
+          ty2 = type
+          type_to_replace = ty2.gsub(ns, '')
+          worker.call
+        end
+
       end
 
-      # FIXMe : keep the one that matched and runs only them
       formatter = Rouge::Formatters::HTML.new
       lexer = Rouge::Lexers::Cpp.new
       r = formatter.format(lexer.lex(source))
       r = '<figure class="highlight"><pre><code class="language-c--" data-lang="c++">' + r.strip + '</code></pre></figure>'
 
-      (0..highlighted_types.length()-1).each do |n|
-        type1 = highlighted_types[n]
-        if current_namespace then
-          type = type1.gsub(current_namespace, '')
+      type_founds.each do |type, repl|
+        url = highlighted_types[type] 
+        if url[0] != '/' then ## BIZARRE BUG
+          url = '/' + url
         end
-        repl = "_X000" + (1+n).to_s + "X_"
-        url = type1.gsub("::","/")
-        type = '<a href="/cpp-api/' + url + '">' + type + "</a>"
-        re_s = '(' + repl + ')(?!\w)'
-        re = Regexp.new re_s
-        r = r.gsub(re){ |w| type}
+
+        if remove_top_namespace then
+          type = type.gsub(ns, '')
+        end
+        re = Regexp.new '(' + repl + ')(?!\w)'
+        r = r.gsub(re){ |w| '<a href="%s">%s</a>' %[url, type]}
       end
 
       return r
@@ -137,6 +176,14 @@ module Jekyll
 
   end
 
+  # #############################################
+  #
+  # A Liquid Tag use for page that generate some figures in code_snippets, 
+  # like the python plot
+  # Unused at this stage. 
+  # DO NOT REMOVE, it is hard to find.
+  #
+  # #############################################
   class RegisterGeneratedImagesTag < Liquid::Tag
 
     def initialize(tag_name, text, tokens)

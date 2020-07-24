@@ -140,6 +140,9 @@ template <typename A> concept Array= requires(A const &a) {
     myarray &operator-=(int i);
   };
 
+  template <typename T>
+  using mymatrix = myarray<T, 2>;
+
   /**
   * A doc of faulty_array
   * \SignatureHash 2fc4e3e5376374dd
@@ -335,6 +338,9 @@ template <typename A> concept Array= requires(A const &a) {
 
     long shape() const { return {}; }
   };
+
+  
+
 
 } // namespace sandbox
 using namespace sandbox;

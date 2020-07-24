@@ -1,9 +1,18 @@
 module Jekyll
+  require 'kramdown'
 
-  class Jekyll::Converters::Markdown::MyCustomProcessor < Jekyll::Converters::Markdown::KramdownParser
+  # ###############################################################
+  #
+  # A simple custom processor for Jekyll
+  # 
+  # It takes the content in markdown, 
+  # makes some preliminary replacement using treat_XXX functions
+  # and then pass it to Kramdown to process
+  #
+  # ###############################################################
+
+  class Jekyll::Converters::Markdown::Cpp2DOCCustomProcessor < Jekyll::Converters::Markdown::KramdownParser
     def initialize(config)
-      #require 'kramdown'
-      #puts config
       super(config)
       #@config = config
     rescue LoadError
@@ -12,30 +21,35 @@ module Jekyll
       raise FatalException.new("Missing dependency: funky_markdown")
     end
 
+    # -------------------------------
     # Filter the warnings <W .... W> 
+    # -------------------------------
     WARNING_REGEX = /<W(.*?)W>/m
     WARNING_MD ="| ![Warning](/assets/images/warning.png){:height=\"36px\" width=\"36px\"} | %s |\n {: .warning-table } " 
     def treat_warnings(content) 
      return content.gsub(WARNING_REGEX, WARNING_MD % '\1') 
     end 
 
+    # -------------------------------
     # Filter the [[AAA]] into a link 
+    # -------------------------------
     WARNING_LINK_CPP = /\[\[(.*?)\]\]/
     def treat_link_cpp(content) 
       return content.gsub(WARNING_LINK_CPP) { |ma|  '[%s](/cpp-api/%s)'%[$1.rpartition('/')[-1], $1]} # $1 is the matched group, cf ruby gsub + block  
     end 
 
+    # -------------------------------
+    #  Main function
+    # -------------------------------
     def convert(content)
     
       content = treat_warnings(content) 
       content = treat_link_cpp(content) 
-      
-      #puts " I am parsing ..."
-       #puts @context.registers[:site].data['permalink_to_brief']
-      #   document = Kramdown::Document.new(content, @config)
-      #  document.to_html
       super(content) # + super(content) 
-      #::FunkyMarkdown.new(content).convert
+      
+      #  document = Kramdown::Document.new(content, @config)
+      #  document.to_html
+      #  ::FunkyMarkdown.new(content).convert
     end
   end
 

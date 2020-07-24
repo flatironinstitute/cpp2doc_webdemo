@@ -27,9 +27,9 @@ permalink: pretty
 post_dirs: false
 
 # Build settings
-markdown: MyCustomProcessor #kramdown
+markdown: Cpp2DOCCustomProcessor
 kramdown:
-  input: Kramdown_CCQ_extension
+  input: Kramdown 
   math_engine: katex
   math_engine_opts: {} # TODO: Can we remove this empty object?
 

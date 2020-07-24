@@ -39,8 +39,6 @@ layout: default
    {%- if tpl_collapsed -%}</details>{%- endif -%}
 {% endif %}
 
- <!-- Methods FIXME : regrouping. Write the get_brief Ruby filter-->
-
 {% if page.methods %}
 
    {% if  page.methods.size >= 100 %}
@@ -61,7 +59,7 @@ layout: default
          {% for name in g_l.first[1] %}
          <tr>
          <td class="method-name" align="right"><a href="{{name}}">{{name| get_fancy_name}}</a></td>
-         <td class="method-brief">{{name| get_brief: page.permalink, site.data.permalink_to_brief | markdownify | remove: '<p>' | remove: '</p>'}}</td>
+         <td class="method-brief">{{name| get_brief | markdownify | remove: '<p>' | remove: '</p>'}}</td>
          </tr>
          {% endfor %}
       </table>
@@ -72,7 +70,7 @@ layout: default
    {% for name in page.methods %}
       <tr>
       <td class="method-name" align="right"><a href="{{name}}">{{name| get_fancy_name}}</a></td>
-      <td class="method-brief">{{name| get_brief: page.permalink, site.data.permalink_to_brief | markdownify | remove: '<p>' | remove: '</p>'}}</td>
+      <td class="method-brief">{{name| get_brief | markdownify | remove: '<p>' | remove: '</p>'}}</td>
       </tr>
    {% endfor %}
    </table>

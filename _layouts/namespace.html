@@ -20,16 +20,15 @@ layout: default
         <a href="{{name}}" >{{name| get_fancy_name}}</a>
       </td>
       <td class="method-brief">
-        {{name| get_brief: page.permalink, site.data.permalink_to_brief |
-        markdownify | remove: '
-        <p>' | remove: '</p>
-        '}}
+        {{name| get_brief | markdownify | remove: ' <p>' | remove: '</p> '}}
       </td>
     </tr>
     {% endfor %}
   </table>
 </details>
-{% endif %} {% if page.concepts %}
+{% endif %}
+
+{% if page.concepts %}
 <details
   ><summary><span class="cpp-namespace-list">Concepts</span></summary>
   <table class="method-table table-wrapper">
@@ -39,11 +38,8 @@ layout: default
         <a href="{{name}}" >{{name| get_fancy_name}}</a>
       </td>
       <td class="method-brief">
-        {{name| get_brief: page.permalink, site.data.permalink_to_brief |
-        markdownify | remove: '
-        <p>' | remove: '</p>
-        '}}
-      </td>
+        {{name| get_brief | markdownify | remove: ' <p>' | remove: '</p> '}}
+       </td>
     </tr>
     {% endfor %}
   </table>
@@ -63,10 +59,7 @@ layout: default
         <a href="{{name}}" >{{name| get_fancy_name}}</a>
       </td>
       <td class="method-brief">
-        {{name| get_brief: page.permalink, site.data.permalink_to_brief |
-        markdownify | remove: '
-        <p>' | remove: '</p>
-        '}}
+        {{name| get_brief | markdownify | remove: ' <p>' | remove: '</p> '}}
       </td>
     </tr>
     {% endfor %}
@@ -82,17 +75,17 @@ layout: default
         <a href="{{name}}" >{{name| get_fancy_name}}</a>
       </td>
       <td class="method-brief">
-        {{name| get_brief: page.permalink, site.data.permalink_to_brief |
-        markdownify | remove: '
-        <p>' | remove: '</p>
-        '}}
+        {{name| get_brief | markdownify | remove: ' <p>' | remove: '</p> '}}
       </td>
     </tr>
     {% endfor %}
   </table>
   {% endif %}
 </details>
-{% endif %} {% if page.functions %}
+{% endif %} 
+
+
+{% if page.functions %}
 <details
   ><summary><span class="cpp-namespace-list">Functions</span></summary>
   <table class="method-table table-wrapper">
@@ -102,10 +95,7 @@ layout: default
         <a href="{{name}}" >{{name| get_fancy_name}}</a>
       </td>
       <td class="method-brief">
-        {{name| get_brief: page.permalink, site.data.permalink_to_brief |
-        markdownify | remove: '
-        <p>' | remove: '</p>
-        '}}
+        {{name| get_brief | markdownify | remove: ' <p>' | remove: '</p> '}}
       </td>
     </tr>
     {% endfor %}
