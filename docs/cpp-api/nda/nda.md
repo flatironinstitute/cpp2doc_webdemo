@@ -134,6 +134,12 @@ functions:
   - make_array_view
   - reinterpret_add_fast_dims_of_size_one
 
+card_topics:
+  - filename: layout
+    title: Layout transformations
+    tooltip: Interface BLAS/LAPACK, Eigen
+   
+
 # ---------- DO NOT EDIT BELOW --------
 permalink: /cpp-api/nda/
 qualified_name: nda
