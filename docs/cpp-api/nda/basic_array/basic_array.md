@@ -17,8 +17,9 @@ tparams:
   Algebra: __MISSING__
   ContainerPolicy: __MISSING__
 
-# Aliases
+# Aliases for the class
 aliases:
+
   - name: nda::array
     signature: |
       template <typename ValueType, int Rank, typename Layout = C_layout, typename ContainerPolicy = heap>
