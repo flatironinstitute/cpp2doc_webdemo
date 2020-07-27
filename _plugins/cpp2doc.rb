@@ -171,7 +171,47 @@ module Jekyll
       return r
     end
 
-  end
+    # ------------------------------------------------------------------------------
+    # make_list_possibly_grouped
+    # Given a list of function fntlist, which can be
+    # * a list of names
+    # * a list of dicts with one element  = a a grouped list with a group title
+    # It produces the html table
+    # Used in namespace (several time) and in class.
+    # Hence it is pulled out
+    # ------------------------------------------------------------------------------
+
+    #impl detail
+    def make_list_possibly_grouped_impl(fnt_list)
+      r = "<table class='method-table table-wrapper'> \n"
+      fnt_list.each do |name|
+           r += '<tr><td class="method-name" align="right"><a href="%s">%s</a></td>' % [name, get_fancy_name(name)]
+           r += '<td class="method-brief">%s</td>' %  markdownify(get_brief(name)).gsub('<p>','').gsub('</p>', '')
+           r += "</tr>\n"
+      end
+     return r + "</table>"
+    end
+
+    def make_list_possibly_grouped(fnt_list)
+     if fnt_list.first.is_a?(Hash) then # the list is a list of dict
+       r = ''
+       fnt_list.each do |group|
+         if group.length != 1 then
+           raise "Incorrect data : dict grouping function must be of size 1"
+         end
+         name = group.first[0].gsub(/\s+/, ' ').gsub("\n", '') # normalize white space and remove newlines
+         if name.strip !='' then
+           r += "\n" + '<h4 class="method-group-name pt-lg-4">%s</h4>' % [name]
+         end
+         r += make_list_possibly_grouped_impl(group.first[1])
+       end
+       return r
+     else
+       return make_list_possibly_grouped_impl(fnt_list)
+     end
+    end
+
+  end # module CPP2DOC_Filter
 
   # #############################################
   #

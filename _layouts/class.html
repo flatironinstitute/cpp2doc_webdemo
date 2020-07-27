@@ -58,33 +58,7 @@ layout: default
    {% else %}
       <h2> Member functions</h2>
    {% endif %}
-   <!--The method is a list of dicts with one element : a grouped list with a group title-->
-   {% if page.methods.first.first %}
-   {% for g_l in page.methods %}
-      {%- assign method-group-name = g_l.first[0] | normalize_whitespace | strip_newlines -%}
-      {% if method-group-name != blank %}
-         <h4 class="method-group-name pt-lg-4">{{method-group-name}}</h4>
-      {% endif %}
-      <table class='method-table table-wrapper'>
-         {% for name in g_l.first[1] %}
-         <tr>
-         <td class="method-name" align="right"><a href="{{name}}">{{name| get_fancy_name}}</a></td>
-         <td class="method-brief">{{name| get_brief | markdownify | remove: '<p>' | remove: '</p>'}}</td>
-         </tr>
-         {% endfor %}
-      </table>
-   {% endfor %}
-   <!--The method is a list-->
-   {% else %}
-   <table class='method-table table-wrapper'>
-   {% for name in page.methods %}
-      <tr>
-      <td class="method-name" align="right"><a href="{{name}}">{{name| get_fancy_name}}</a></td>
-      <td class="method-brief">{{name| get_brief | markdownify | remove: '<p>' | remove: '</p>'}}</td>
-      </tr>
-   {% endfor %}
-   </table>
-   {% endif %}
+   {{page.methods | make_list_possibly_grouped}}
    {%- if param_collapsed -%}</details>{%- endif -%}
 {% endif %}
 
