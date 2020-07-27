@@ -38,7 +38,10 @@ module Jekyll
             end
           end
         end
-        
+
+        # add a few basic std:: things in _data/cppreference.yml as a yaml file
+        highlighted_types.merge!(site.data['cppreference']) 
+
         site.data["permalink_to_title"] = permalink_to_title
         site.data["permalink_to_brief"] = permalink_to_brief
         site.data["permalink_to_fancyname"] = permalink_to_fancyname

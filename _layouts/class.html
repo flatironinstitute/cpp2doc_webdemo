@@ -39,6 +39,16 @@ layout: default
    {%- if tpl_collapsed -%}</details>{%- endif -%}
 {% endif %}
 
+<!-- Aliases -->
+{% if page.aliases %}
+<h2>Aliases</h2>
+   {% for d in page.aliases%}
+   <span class='signature'> {% highlight c++ %}{{d["signature"]}}{% endhighlight %}</span>
+   {% endfor %}
+{% endif %}
+
+<!-- Methods -->
+
 {% if page.methods %}
 
    {% if  page.methods.size >= 100 %}
