@@ -106,6 +106,9 @@ module Jekyll
     # ------------------------------------------------------------------------------
     def highlight_and_link(source, remove_top_namespace = false)
 
+      # debug
+      # is_page_of_interest = @context.registers[:page]['fancy_name'] =='reshape') 
+      
       if remove_top_namespace then 
         page_namespace = @context.registers[:page]['namespace'] + "::"
         ns = page_namespace.split("::")[0] + "::"
@@ -113,21 +116,15 @@ module Jekyll
 
       highlighted_types = @context.registers[:site].data['highlighted_types'] 
  
-      highlighted_types.each do |ty, url|
-          if url[0] != '/' then
-          puts 'ENTRY@@@ %s ==> %s'%[ty, url]
-          raise "NO !!"
-        end
-      end
-      
       # for all types in highlighted_types, 
       #  - find them 
       #  - replace them with _X0001X_, _X0002X, which the highlighter will not cut
       #  - highlight by calling Rouge
       #  - replace back the _X0001X_, _X0002X with the name and adequate url
-      #  if remove_top_namespace is true, we remove it in the presented type
+      #  if remove_top_namespace is true, we rerun this a second type with the top namespace removed from the type
+      #  It is useful for signature when the namespace is not always explicit and would be verbose (e.g. nda:: everywhere in all nda:: functions ?)
       #
-      type_founds = {}
+      repl_to_original = {}
       c = 1
       highlighted_types.each do |type, url|
 
@@ -136,21 +133,21 @@ module Jekyll
         # once with the type_to_replace truncated from top ns if remove_top_namespace is true
         # lambda are closure, it will see the change in type_to_replace
          worker = lambda { 
-          re = Regexp.new '(' + type_to_replace + ')(?!\w)'
+          # the type_to_replace, not followed by a word (e.g. array does not match array_adapter, and not preceded by a :)
+          # e.g. array will match array, not nda::array (which could be matched in another part of the loop...), and NOT std::array !
+          re = Regexp.new '(?<!:)' + type_to_replace + '(?!\w)' 
           source = source.gsub(re){ |w|
             repl = "_X000" + c.to_s + "X_"
-            type_founds[type] = repl # Must be the full type
+            repl_to_original[repl] = type # Must be the full type
             c = c + 1
             repl
           }
         }
         worker.call
         if remove_top_namespace then
-          ty2 = type
-          type_to_replace = ty2.gsub(ns, '')
+          type_to_replace = type.gsub(ns, '')
           worker.call
         end
-
       end
 
       formatter = Rouge::Formatters::HTML.new
@@ -158,11 +155,8 @@ module Jekyll
       r = formatter.format(lexer.lex(source))
       r = '<figure class="highlight"><pre><code class="language-c--" data-lang="c++">' + r.strip + '</code></pre></figure>'
 
-      type_founds.each do |type, repl|
+      repl_to_original.each do |repl, type|
         url = highlighted_types[type] 
-        if url[0] != '/' then ## BIZARRE BUG
-          url = '/' + url
-        end
 
         if remove_top_namespace then
           type = type.gsub(ns, '')
@@ -180,7 +174,7 @@ module Jekyll
   #
   # A Liquid Tag use for page that generate some figures in code_snippets, 
   # like the python plot
-  # Unused at this stage. 
+  # Unused at this stage, will be used for Python figures.
   # DO NOT REMOVE, it is hard to find.
   #
   # #############################################
