@@ -13,6 +13,7 @@ concepts:
   - ArrayOfRank
   - ArrayInitializer
   - StdEqualityComparableWith
+  - HasValueTypeConvertibleTo
 
 # List of classes.  You can reorder, regroup into a dict : groupname -> list
 classes:

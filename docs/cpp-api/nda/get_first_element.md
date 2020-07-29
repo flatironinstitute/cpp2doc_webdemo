@@ -13,7 +13,7 @@ overloads:
 
   - signature: |
       template <typename A>
-      auto get_first_element(A const &a)
+      decltype(auto) get_first_element(A const &a)
     desc: Get the first element of the array as a(0,0,0....) (i.e. also work for non
 
 # Long description. Any Markdown, with code, latex, multiline with |
@@ -32,8 +32,9 @@ return_value: __MISSING__
 
 # Code example. desc: any markdown to explain it.
 example:
-  desc: __MISSING__
-  code: __MISSING__
+  desc: ""
+  code: ""
+  comment: ""
 
 # A list of related functions/classes
 see-also: []

@@ -50,10 +50,8 @@ layout: default
 <!-- Methods -->
 
 {% if page.methods %}
-
    {% if  page.methods.size >= 100 %}
       {% assign param_collapsed = true %}
-      <!-- TODO: Replace with list name -->
       <details><summary><h2 class="cpp-parameters-header">Member Function</h2></summary>
    {% else %}
       <h2> Member functions</h2>
@@ -70,9 +68,7 @@ layout: default
  {% for mt in page.member_types%}
     <tr>
      <td class="member-type-name" align="right"> {{mt[0]}}  </td>
-     <td class="member-type-doc">
-      {{mt[1]["desc"]}}
-     </td>
+     <td class="member-type-doc"> {{mt[1]["desc"]}} </td>
     </tr>
  {% endfor %}
 </table>
@@ -84,9 +80,7 @@ layout: default
  {% for mt in page.member_fields%}
     <tr>
      <td class="member-field-name" align="right"> {{mt[0]}}  </td>
-     <td class="member-field-doc">
-      {{mt[1]["desc"]}}
-     </td>
+     <td class="member-field-doc"> {{mt[1]["desc"]}} </td>
     </tr>
  {% endfor %}
 </table>
