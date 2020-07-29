@@ -22,8 +22,8 @@ aliases:
 
   - name: nda::array
     signature: |
-      template <typename ValueType, int Rank, typename Layout = C_layout, typename ContainerPolicy = heap>
-      using array = basic_array<ValueType, Rank, Layout, 'A', ContainerPolicy>
+      template <typename T, int R, typename Layout = C_layout, typename ContainerPolicy = heap>
+      using array = basic_array<T, R, Layout, 'A', ContainerPolicy>
 
   - name: nda::array_view
     signature: |
