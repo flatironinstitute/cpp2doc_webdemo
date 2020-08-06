@@ -21,8 +21,8 @@ desc: |
   to compute c
   <
   - alpha a*b + beta * c
-
-
+  
+  
   : A, B, C have the same value_type and it is complex
   <double
   > or double

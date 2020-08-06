@@ -12,7 +12,7 @@ layout: default
 {% for entity in page.overloads %}
     <tr class="signature-row">
       <td class="signature-index"> {{forloop.index}} </td>
-      <td><span class='signature'>{{- entity.signature | link_and_highlight: site.data.highlighted_types, page.namespace -}}</span></td>
+      <td><span class='signature'>{{- entity.signature | highlight_and_link: true -}}</span></td>
     </tr>
 {% endfor %}
 </table>

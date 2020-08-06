@@ -21,8 +21,8 @@ overloads:
 desc: |
   <
   - alpha a*b + beta * c using BLAS dgemm or zgemm
-
-
+  
+  
   : * c has the correct dimension given a, b. gemm does not resize the object,
 
 # Parameters of the function. Edit only the description after the :

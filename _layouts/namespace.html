@@ -10,120 +10,26 @@ layout: default
 
 <h2>Index</h2>
 {% if page.namespaces %}
-<details
-  ><summary><span class="cpp-namespace-list">Namespaces</span></summary>
-  <h5></h5>
-  <table class="method-table table-wrapper">
-    {% for name in page.namespaces%}
-    <tr>
-      <td class="method-name" align="right">
-        <a href="{{name}}"
-          >{{name| get_fancy_name: page.permalink,
-          site.data.permalink_to_fancyname}}</a
-        >
-      </td>
-      <td class="method-brief">
-        {{name| get_brief: page.permalink, site.data.permalink_to_brief |
-        markdownify | remove: '
-        <p>' | remove: '</p>
-        '}}
-      </td>
-    </tr>
-    {% endfor %}
-  </table>
+<details><summary><span class="cpp-namespace-list">Namespaces</span></summary>
+   {{page.namespaces | make_list_possibly_grouped}}
 </details>
-{% endif %} {% if page.concepts %}
-<details
-  ><summary><span class="cpp-namespace-list">Concepts</span></summary>
-  <table class="method-table table-wrapper">
-    {% for name in page.concepts%}
-    <tr>
-      <td class="method-name" align="right">
-        <a href="{{name}}"
-          >{{name| get_fancy_name: page.permalink,
-          site.data.permalink_to_fancyname}}</a
-        >
-      </td>
-      <td class="method-brief">
-        {{name| get_brief: page.permalink, site.data.permalink_to_brief |
-        markdownify | remove: '
-        <p>' | remove: '</p>
-        '}}
-      </td>
-    </tr>
-    {% endfor %}
-  </table>
+{% endif %}
+
+{% if page.concepts %}
+<details><summary><span class="cpp-namespace-list">Concepts</span></summary>
+   {{page.concepts | make_list_possibly_grouped}}
 </details>
 {% endif %}
 
 <!--a list of dicts with one element : a grouped list with a gruop title-->
 {% if page.classes %}
-<details
-  ><summary><span class="cpp-namespace-list">Classes</span></summary>
-  {% if page.classes.first.first %} {% for g_l in page.classes %}
-  <h4 class="method-group-name pt-lg-4">{{g_l.first[0]}}</h4>
-  <table class="method-table table-wrapper">
-    {% for name in g_l.first[1] %}
-    <tr>
-      <td class="method-name" align="right">
-        <a href="{{name}}"
-          >{{name| get_fancy_name: page.permalink,
-          site.data.permalink_to_fancyname}}</a
-        >
-      </td>
-      <td class="method-brief">
-        {{name| get_brief: page.permalink, site.data.permalink_to_brief |
-        markdownify | remove: '
-        <p>' | remove: '</p>
-        '}}
-      </td>
-    </tr>
-    {% endfor %}
-  </table>
-  {% endfor %}
-
-  <!--The method is a list-->
-  {% else %}
-  <table class="method-table table-wrapper">
-    {% for name in page.classes %}
-    <tr>
-      <td class="method-name" align="right">
-        <a href="{{name}}"
-          >{{name| get_fancy_name: page.permalink,
-          site.data.permalink_to_fancyname}}</a
-        >
-      </td>
-      <td class="method-brief">
-        {{name| get_brief: page.permalink, site.data.permalink_to_brief |
-        markdownify | remove: '
-        <p>' | remove: '</p>
-        '}}
-      </td>
-    </tr>
-    {% endfor %}
-  </table>
-  {% endif %}
+<details><summary><span class="cpp-namespace-list">Classes</span></summary>
+   {{page.classes | make_list_possibly_grouped}}
 </details>
-{% endif %} {% if page.functions %}
-<details
-  ><summary><span class="cpp-namespace-list">Functions</span></summary>
-  <table class="method-table table-wrapper">
-    {% for name in page.functions%}
-    <tr>
-      <td class="method-name" align="right">
-        <a href="{{name}}"
-          >{{name| get_fancy_name: page.permalink,
-          site.data.permalink_to_fancyname}}</a
-        >
-      </td>
-      <td class="method-brief">
-        {{name| get_brief: page.permalink, site.data.permalink_to_brief |
-        markdownify | remove: '
-        <p>' | remove: '</p>
-        '}}
-      </td>
-    </tr>
-    {% endfor %}
-  </table>
+{% endif %} 
+
+{% if page.functions %}
+<details><summary><span class="cpp-namespace-list">Functions</span></summary>
+   {{page.functions | make_list_possibly_grouped}}
 </details>
 {% endif %}

@@ -39,44 +39,24 @@ layout: default
    {%- if tpl_collapsed -%}</details>{%- endif -%}
 {% endif %}
 
- <!-- Methods FIXME : regrouping. Write the get_brief Ruby filter-->
+<!-- Aliases -->
+{% if page.aliases %}
+<h2>Aliases</h2>
+   {% for d in page.aliases%}
+   <span class='signature'> {% highlight c++ %}{{d["signature"]}}{% endhighlight %}</span>
+   {% endfor %}
+{% endif %}
+
+<!-- Methods -->
 
 {% if page.methods %}
-
    {% if  page.methods.size >= 100 %}
       {% assign param_collapsed = true %}
-      <!-- TODO: Replace with list name -->
       <details><summary><h2 class="cpp-parameters-header">Member Function</h2></summary>
    {% else %}
       <h2> Member functions</h2>
    {% endif %}
-   <!--The method is a list of dicts with one element : a grouped list with a group title-->
-   {% if page.methods.first.first %}
-   {% for g_l in page.methods %}
-      {%- assign method-group-name = g_l.first[0] | normalize_whitespace | strip_newlines -%}
-      {% if method-group-name != blank %}
-         <h4 class="method-group-name pt-lg-4">{{method-group-name}}</h4>
-      {% endif %}
-      <table class='method-table table-wrapper'>
-         {% for name in g_l.first[1] %}
-         <tr>
-         <td class="method-name" align="right"><a href="{{name}}">{{name| get_fancy_name: page.permalink, site.data.permalink_to_fancyname}}</a></td>
-         <td class="method-brief">{{name| get_brief: page.permalink, site.data.permalink_to_brief | markdownify | remove: '<p>' | remove: '</p>'}}</td>
-         </tr>
-         {% endfor %}
-      </table>
-   {% endfor %}
-   <!--The method is a list-->
-   {% else %}
-   <table class='method-table table-wrapper'>
-   {% for name in page.methods %}
-      <tr>
-      <td class="method-name" align="right"><a href="{{name}}">{{name| get_fancy_name: page.permalink, site.data.permalink_to_fancyname}}</a></td>
-      <td class="method-brief">{{name| get_brief: page.permalink, site.data.permalink_to_brief | markdownify | remove: '<p>' | remove: '</p>'}}</td>
-      </tr>
-   {% endfor %}
-   </table>
-   {% endif %}
+   {{page.methods | make_list_possibly_grouped}}
    {%- if param_collapsed -%}</details>{%- endif -%}
 {% endif %}
 
@@ -88,9 +68,7 @@ layout: default
  {% for mt in page.member_types%}
     <tr>
      <td class="member-type-name" align="right"> {{mt[0]}}  </td>
-     <td class="member-type-doc">
-      {{mt[1]["desc"]}}
-     </td>
+     <td class="member-type-doc"> {{mt[1]["desc"]}} </td>
     </tr>
  {% endfor %}
 </table>
@@ -102,9 +80,7 @@ layout: default
  {% for mt in page.member_fields%}
     <tr>
      <td class="member-field-name" align="right"> {{mt[0]}}  </td>
-     <td class="member-field-doc">
-      {{mt[1]["desc"]}}
-     </td>
+     <td class="member-field-doc"> {{mt[1]["desc"]}} </td>
     </tr>
  {% endfor %}
 </table>

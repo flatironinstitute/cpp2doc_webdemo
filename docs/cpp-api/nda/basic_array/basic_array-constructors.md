@@ -30,6 +30,7 @@ overloads:
 
   - signature: |
       template <nda::ArrayOfRank<Rank> A>
+      requires(HasValueTypeConvertibleTo<A, value_type>)
       basic_array(A const &a) noexcept
     desc: ""
 

@@ -140,6 +140,9 @@ template <typename A> concept Array= requires(A const &a) {
     myarray &operator-=(int i);
   };
 
+  template <typename T>
+  using mymatrix = myarray<T, 2>;
+
   /**
   * A doc of faulty_array
   * \SignatureHash 2fc4e3e5376374dd
@@ -288,6 +291,10 @@ template <typename A> concept Array= requires(A const &a) {
     //virtual const char *trace() const noexcept { return _trace.c_str(); }
   };
 
+  /// test variadic C
+  /// \private
+  void h6_read(int i, ...);
+
   // test multiple declarion
   /**
   * Doc breif
@@ -298,7 +305,6 @@ template <typename A> concept Array= requires(A const &a) {
 
   void simple_f(int i = 98);
 
-  
   /**
   * Doc breif
   * Content
@@ -311,13 +317,11 @@ template <typename A> concept Array= requires(A const &a) {
   template <int R = 8>
   struct AB45;
 
-  
   /// \SignatureHash e5f66c3961aa39a
   template <int R>
   struct AB45 {
     int g = R;
-    
-    
+
     /// \SignatureHash ebfb80ad1506ea37
     int some_long_action(int u);
   };
@@ -334,6 +338,9 @@ template <typename A> concept Array= requires(A const &a) {
 
     long shape() const { return {}; }
   };
+
+  
+
 
 } // namespace sandbox
 using namespace sandbox;

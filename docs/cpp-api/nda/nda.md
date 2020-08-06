@@ -5,6 +5,7 @@ layout: namespace
 # List of sub namespaces.  You can reorder, regroup into a dict : groupname -> list
 namespaces:
   - blas
+  - stdutil
 
 # List of functions.  You can reorder, regroup into a dict : groupname -> list
 concepts:
@@ -12,6 +13,7 @@ concepts:
   - ArrayOfRank
   - ArrayInitializer
   - StdEqualityComparableWith
+  - HasValueTypeConvertibleTo
 
 # List of classes.  You can reorder, regroup into a dict : groupname -> list
 classes:
@@ -133,11 +135,17 @@ functions:
   - make_array_view
   - reinterpret_add_fast_dims_of_size_one
 
+# A list of the card for a top namespace page, for quick access to documentation.
+card_topics:
+
+  - filename: layout
+    title: Layout transformations
+    tooltip: Interface BLAS/LAPACK, Eigen
+
 # ---------- DO NOT EDIT BELOW --------
 permalink: /cpp-api/nda/
 qualified_name: nda
 title: nda
-show_topics: true
 ...
 
 # nda, a multi-dimensional array library
