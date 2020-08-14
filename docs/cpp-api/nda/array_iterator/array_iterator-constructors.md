@@ -20,6 +20,18 @@ overloads:
   - signature: array_iterator(std::array<long, Rank> const &lengths, std::array<long, Rank> const &strides, T *start, bool at_end)
     desc: ""
 
+  - signature: array_iterator<1, type - parameter - 0 - 0, type - parameter - 0 - 1>()
+    desc: ""
+
+  - signature: array_iterator<1, type - parameter - 0 - 0, type - parameter - 0 - 1>(array_iterator const &)
+    desc: ""
+
+  - signature: |
+      array_iterator<1, type - parameter - 0 - 0, type - parameter - 0 - 1>(std::array<long, 1> const &lengths,
+                                                                            std::array<long, 1> const &strides, T *start,
+                                                                            bool at_end)
+    desc: ""
+
 # Long description. Any Markdown, with code, latex, multiline with |
 desc: ""
 

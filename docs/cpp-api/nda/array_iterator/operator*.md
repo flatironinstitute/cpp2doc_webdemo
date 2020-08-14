@@ -14,6 +14,9 @@ overloads:
   - signature: nda::array_iterator::value_type &operator*() const
     desc: ""
 
+  - signature: T &operator*() const
+    desc: ""
+
 # Long description. Any Markdown, with code, latex, multiline with |
 desc: ""
 

@@ -56,6 +56,15 @@ classes:
       - scalar_array
       - scalar_matrix
 
+  - __NOT_SORTED__:
+      - C_layout_str
+      - C_stride_layout_str
+      - F_layout_str
+      - F_stride_layout_str
+      - array_iterator<1, T, Pointer>
+      - basic_layout_str
+      - rect_str
+
 # List of functions.  You can reorder, regroup into a dict : groupname -> list
 functions:
   - get_first_element

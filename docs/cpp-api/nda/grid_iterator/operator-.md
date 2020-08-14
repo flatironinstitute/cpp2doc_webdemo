@@ -1,7 +1,7 @@
 ---
 # Do not edit this first section
 layout: function
-fancy_name: operator*
+fancy_name: operator-
 namespace: nda::grid_iterator
 includer: nda/nda.hpp
 
@@ -11,10 +11,7 @@ brief: ""
 # List of overloads. Edit only the desc
 overloads:
 
-  - signature: long operator*() const
-    desc: ""
-
-  - signature: long operator*() const
+  - signature: std::ptrdiff_t operator-(class nda::grid_iterator<1> const &it1, class nda::grid_iterator<1> const &it2)
     desc: ""
 
 # Long description. Any Markdown, with code, latex, multiline with |
@@ -22,7 +19,8 @@ desc: ""
 
 # Parameters of the function. Edit only the description after the :
 params:
-  {}
+  it1: __MISSING__
+  it2: __MISSING__
 
 # Template parameters of the function. Edit only the description after the :
 tparams:
@@ -33,15 +31,16 @@ return_value: __MISSING__
 
 # Code example. desc: any markdown to explain it.
 example:
-  desc: __MISSING__
-  code: __MISSING__
+  desc: ""
+  code: ""
+  comment: ""
 
 # A list of related functions/classes
 see-also: []
 
 # ---------- DO NOT EDIT BELOW --------
-permalink: /cpp-api/nda/grid_iterator/operator*/
-title: nda::grid_iterator<Rank>::operator*
+permalink: /cpp-api/nda/grid_iterator/operator-/
+title: nda::grid_iterator::operator-
 parent: nda::grid_iterator
 source: nda/iterators.hpp
 ...
