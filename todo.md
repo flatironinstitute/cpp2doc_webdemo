@@ -1,26 +1,20 @@
 # TODO Jekyll Docs
 
-_updated 7/24_
+_updated 9/3_
 
-Olivier:
-
-- permalink script change?
-- Static Jupyter notebooks v.
+## Todo:
+- Static Jupyter notebooks embed
 - Update card html to make it flow from the yaml.
 - Make a landing page attempt.
   - picture of the code screen
   - samples of the codes
   - cards and links to basic libraries, core libraries, applications
   - 2 screens with code and graph from code as visual
-
-## Todo:
-
-Jupyter Notebooks
-Inline editing- or at least links to the file in Vim from the development environment
-Edit an example in C++ and run immediately. Jupyter Notebook embed options.
-Rename Basic C++ libraries. CCQ Toolkit ? Rhizome?
-Review concept page when written.
-Check 404 pages. Make sure to specify links.
+- Inline editing- or at least links to the file in Vim from the development environment
+- Edit an example in C++ and run immediately. Jupyter Notebook embed options.
+- Rename Basic C++ libraries. CCQ Toolkit ? Rhizome?
+- Review concept page when written.
+- Check 404 pages. Make sure to specify links.
 
 ## Verify:
 
