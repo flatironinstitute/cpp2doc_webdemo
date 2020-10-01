@@ -20,9 +20,6 @@ overloads:
   - signature: grid_iterator &operator++()
     desc: ""
 
-  - signature: grid_iterator operator++(int)
-    desc: ""
-
 # Long description. Any Markdown, with code, latex, multiline with |
 desc: ""
 
@@ -47,7 +44,7 @@ see-also: []
 
 # ---------- DO NOT EDIT BELOW --------
 permalink: /cpp-api/nda/grid_iterator/operator++/
-title: nda::grid_iterator::operator++
+title: nda::grid_iterator<Rank>::operator++
 parent: nda::grid_iterator
 source: nda/iterators.hpp
 ...

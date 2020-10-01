@@ -35,7 +35,15 @@ non_member_functions: []
 
 # Public member types
 member_types:
+  iterator_category:
+    desc: __MISSING__
   value_type:
+    desc: __MISSING__
+  difference_type:
+    desc: __MISSING__
+  pointer:
+    desc: __MISSING__
+  reference:
     desc: __MISSING__
 
 # Code example. desc: any markdown to explain it.

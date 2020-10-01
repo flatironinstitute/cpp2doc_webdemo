@@ -45,6 +45,7 @@ methods:
   - operator==
   - transpose
   - is_strided_1d
+  - slice
 
 # A list of non_member_functions
 non_member_functions: []

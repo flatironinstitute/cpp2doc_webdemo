@@ -14,6 +14,9 @@ overloads:
   - signature: bool operator==(array_iterator const &other) const
     desc: ""
 
+  - signature: bool operator==(array_iterator const &other) const
+    desc: ""
+
 # Long description. Any Markdown, with code, latex, multiline with |
 desc: ""
 

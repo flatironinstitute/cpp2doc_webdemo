@@ -1,8 +1,8 @@
 ---
 # Do not edit this first section
 layout: function
-fancy_name: operator*
-namespace: nda::grid_iterator
+fancy_name: get_string_indices
+namespace: nda::rect_str
 includer: nda/nda.hpp
 
 # Brief description. One line only.
@@ -11,10 +11,7 @@ brief: ""
 # List of overloads. Edit only the desc
 overloads:
 
-  - signature: long operator*() const
-    desc: ""
-
-  - signature: long operator*() const
+  - signature: nda::array<nda::array<std::string, 1>, 1> const &get_string_indices() const
     desc: ""
 
 # Long description. Any Markdown, with code, latex, multiline with |
@@ -33,16 +30,17 @@ return_value: __MISSING__
 
 # Code example. desc: any markdown to explain it.
 example:
-  desc: __MISSING__
-  code: __MISSING__
+  desc: ""
+  code: ""
+  comment: ""
 
 # A list of related functions/classes
 see-also: []
 
 # ---------- DO NOT EDIT BELOW --------
-permalink: /cpp-api/nda/grid_iterator/operator*/
-title: nda::grid_iterator<Rank>::operator*
-parent: nda::grid_iterator
-source: nda/iterators.hpp
+permalink: /cpp-api/nda/rect_str/get_string_indices/
+title: nda::rect_str<Rank, StaticExtents, StrideOrder, LayoutProp>::get_string_indices
+parent: nda::rect_str
+source: nda/layout/rect_str.hpp
 ...
 

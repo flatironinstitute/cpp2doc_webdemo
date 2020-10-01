@@ -1,13 +1,11 @@
 ---
 # Do not edit this first section
 layout: class
-short_name: grid_iterator<1>
-qualified_name: nda::grid_iterator<1>
+short_name: C_layout_str
+qualified_name: nda::C_layout_str
 namespace: nda
 includer: nda/nda.hpp
-signature: |
-  template<> 
-  class grid_iterator<1>
+signature: struct C_layout_str
 
 # Brief description. One line only.
 brief: ""
@@ -16,25 +14,16 @@ brief: ""
 desc: ""
 
 # A list of methods. You can reorder, regroup into a dict : groupname -> list
-methods:
-  - grid_iterator<1>-destructor
-  - operator+=
-  - operator--
+methods: []
 
 # A list of non_member_functions
 non_member_functions: []
 
 # Public member types
 member_types:
-  iterator_category:
+  with_lowest_guarantee_t:
     desc: __MISSING__
-  value_type:
-    desc: __MISSING__
-  difference_type:
-    desc: __MISSING__
-  pointer:
-    desc: __MISSING__
-  reference:
+  contiguous_t:
     desc: __MISSING__
 
 # Code example. desc: any markdown to explain it.
@@ -47,9 +36,9 @@ example:
 see-also: []
 
 # ---------- DO NOT EDIT BELOW --------
-permalink: /cpp-api/nda/grid_iterator<1>/
-title: nda::grid_iterator<1>
-source: nda/iterators.hpp
+permalink: /cpp-api/nda/C_layout_str/
+title: nda::C_layout_str
+source: nda/layout/rect_str.hpp
 parent: nda
 has_children: true
 ...

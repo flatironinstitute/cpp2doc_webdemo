@@ -29,6 +29,11 @@ overloads:
     desc: Construct with the given shape and default construct elements
 
   - signature: |
+      explicit basic_array(nda::basic_array::layout_t const &layout) noexcept
+         requires(std::is_default_constructible_v<ValueType>)
+    desc: Construct from the layout
+
+  - signature: |
       template <nda::ArrayOfRank<Rank> A>
       requires(HasValueTypeConvertibleTo<A, value_type>)
       basic_array(A const &a) noexcept
@@ -62,6 +67,7 @@ desc: ""
 params:
   is: __MISSING__
   shape: Shape of the array (lengths in each dimension)
+  layout: __MISSING__
   a: __MISSING__
   initializer: __MISSING__
   l: __MISSING__

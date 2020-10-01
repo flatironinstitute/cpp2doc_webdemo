@@ -1,61 +1,54 @@
 ---
 # Do not edit this first section
 layout: class
-short_name: grid_iterator
-qualified_name: nda::grid_iterator
+short_name: rect_str
+qualified_name: nda::rect_str
 namespace: nda
 includer: nda/nda.hpp
 signature: |
-  template <int Rank>
-  class grid_iterator
+  template <int Rank, uint64_t StaticExtents, uint64_t StrideOrder, enum nda::layout_prop_e LayoutProp>
+  class rect_str
 
 # Template parameters of the function. Edit only the description after the :
 tparams:
   Rank: __MISSING__
+  StaticExtents: __MISSING__
+  StrideOrder: __MISSING__
+  LayoutProp: __MISSING__
 
 # Brief description. One line only.
-brief: ""
+brief: The layout that maps the indices to linear index, with additional string indices
 
 # Long description. Any Markdown, with code, latex, multiline with |
 desc: ""
 
 # A list of methods. You can reorder, regroup into a dict : groupname -> list
 methods:
-  - grid_iterator-constructors
-  - operator*
-  - operator->
+  - rect_str-constructors
+  - get_string_indices
+  - operator=
+  - operator-call
+  - slice
   - operator==
   - operator!=
-  - operator++
+  - transpose
 
 # A list of non_member_functions
 non_member_functions: []
 
-# Public member types
-member_types:
-  iterator_category:
-    desc: __MISSING__
-  value_type:
-    desc: __MISSING__
-  difference_type:
-    desc: __MISSING__
-  pointer:
-    desc: __MISSING__
-  reference:
-    desc: __MISSING__
-
 # Code example. desc: any markdown to explain it.
 example:
-  desc: __MISSING__
-  code: __MISSING__
+  desc: ""
+  code: ""
+  comment: ""
 
 # A list of related functions/classes
 see-also: []
 
 # ---------- DO NOT EDIT BELOW --------
-permalink: /cpp-api/nda/grid_iterator/
-title: nda::grid_iterator
-source: nda/iterators.hpp
+permalink: /cpp-api/nda/rect_str/
+title: nda::rect_str
+source: nda/layout/rect_str.hpp
 parent: nda
 has_children: true
 ...
