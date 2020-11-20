@@ -4,12 +4,12 @@ _updated 9/3_
 
 ## Todo:
 - Static Jupyter notebooks embed
-- Update card html to make it flow from the yaml.
 - Make a landing page attempt.
   - picture of the code screen
   - samples of the codes
   - cards and links to basic libraries, core libraries, applications
   - 2 screens with code and graph from code as visual
+- Update card html to make it flow from the yaml.
 - Inline editing- or at least links to the file in Vim from the development environment
 - Edit an example in C++ and run immediately. Jupyter Notebook embed options.
 - Rename Basic C++ libraries. CCQ Toolkit ? Rhizome?
