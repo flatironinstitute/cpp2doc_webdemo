@@ -1,13 +1,13 @@
 ---
 layout: default
-title: Triqs Core library
+title: Triqs Core Library
 permalink: /triqs/
+nav_include: true
+has_children: true
+nav_order: 97
 ---
 
 # The core TRIQS library
-{: .no_toc }
 
-
-
-
-
+1. TOC
+{:toc}

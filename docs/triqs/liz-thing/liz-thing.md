@@ -7,9 +7,9 @@ parent: Triqs Core Library
 nav_include: true
 # ---------- DO NOT EDIT BELOW --------
 
-permalink: /triqs/gf/
-qualified_name: triqs::gf
-title: triqs::gf
+permalink: /triqs/liz-thing/
+qualified_name: triqs::liz-thing
+title: triqs::liz-thing
 namespaces: []
 concepts: []
 classes: []
