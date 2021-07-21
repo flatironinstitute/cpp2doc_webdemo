@@ -1,18 +1,11 @@
 ---
 # Do not edit this first section
 layout: class
-short_name: array_view
-qualified_name: nda1::array_view
-namespace: nda1
-includer: ""
-signature: |
-  template <typename T, int R>
-  class array_view
-
-# Template parameters of the function. Edit only the description after the :
-tparams:
-  T: __MISSING__
-  R: __MISSING__
+short_name: C_stride_layout_str
+qualified_name: nda::C_stride_layout_str
+namespace: nda
+includer: nda/nda.hpp
+signature: struct C_stride_layout_str
 
 # Brief description. One line only.
 brief: ""
@@ -26,19 +19,27 @@ methods: []
 # A list of non_member_functions
 non_member_functions: []
 
+# Public member types
+member_types:
+  with_lowest_guarantee_t:
+    desc: __MISSING__
+  contiguous_t:
+    desc: __MISSING__
+
 # Code example. desc: any markdown to explain it.
 example:
-  desc: __MISSING__
-  code: __MISSING__
+  desc: ""
+  code: ""
+  comment: ""
 
 # A list of related functions/classes
 see-also: []
 
 # ---------- DO NOT EDIT BELOW --------
-permalink: /cpp-api/nda1/array_view/
-title: nda1::array_view
-source: /Users/oparcollet/cpp2doc_webdemo/src/nda1.hpp
-parent: nda1
+permalink: /cpp-api/nda/C_stride_layout_str/
+title: nda::C_stride_layout_str
+source: nda/layout/rect_str.hpp
+parent: nda
 has_children: true
 ...
 

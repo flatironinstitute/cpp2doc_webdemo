@@ -5,14 +5,14 @@ layout: default
 <div class="page-title">
   {%- assign title = page.title -%}
   {%- assign includer = page.includer | strip -%}
-  <h1 class="no_toc">{{ title }}</h1>
+  <h1 class="no_toc">{{ title | escape }}</h1>
   <h6 class='cpp-include-header'> Defined in header &lt;{{includer}}&gt;</h6>
 </div>
 <table class='signature-table table-wrapper'>
 {% for entity in page.overloads %}
     <tr class="signature-row">
       <td class="signature-index"> {{forloop.index}} </td>
-      <td><span class='signature'>{{- entity.signature | link_and_highlight: site.data.highlighted_types, page.namespace -}}</span></td>
+      <td><span class='signature'>{{- entity.signature | highlight_and_link: true -}}</span></td>
     </tr>
 {% endfor %}
 </table>

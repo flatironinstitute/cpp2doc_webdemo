@@ -20,6 +20,18 @@ overloads:
   - signature: array_iterator(std::array<long, Rank> const &lengths, std::array<long, Rank> const &strides, T *start, bool at_end)
     desc: ""
 
+  - signature: array_iterator<1, type - parameter - 0 - 0, type - parameter - 0 - 1>()
+    desc: ""
+
+  - signature: array_iterator<1, type - parameter - 0 - 0, type - parameter - 0 - 1>(array_iterator const &)
+    desc: ""
+
+  - signature: |
+      array_iterator<1, type - parameter - 0 - 0, type - parameter - 0 - 1>(std::array<long, 1> const &lengths,
+                                                                            std::array<long, 1> const &strides, T *start,
+                                                                            bool at_end)
+    desc: ""
+
 # Long description. Any Markdown, with code, latex, multiline with |
 desc: ""
 
@@ -47,7 +59,6 @@ see-also: []
 
 # ---------- DO NOT EDIT BELOW --------
 permalink: /cpp-api/nda/array_iterator/array_iterator-constructors/
-
 title: nda::array_iterator<Rank, T, Pointer>::array_iterator
 parent: nda::array_iterator
 source: nda/iterators.hpp

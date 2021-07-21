@@ -6,7 +6,7 @@
 {{page.example.desc | markdownify}}
 
 <div>
-  {{page.example.code | link_and_highlight: site.data.highlighted_types}}
+  {{page.example.code | highlight_and_link}}
 </div>
 
   {% if page.example.comment %}
@@ -24,15 +24,10 @@
   {%- for name in page.see-also -%}
   <tr>
     <td class="" align="right">
-      <a href="{{name}}"
-        >{{name| get_fancy_name_from_permalink:
-        site.data.permalink_to_fancyname}}</a
-      >
+      <a href="{{name}}">{{name| get_fancy_name_from_permalink}}</a>
     </td>
     <td class="">
-      {{site.data.permalink_to_brief[name]| markdownify | remove: '
-      <p>' | remove: '</p>
-      '}}
+      {{site.data.permalink_to_brief[name]| markdownify | remove: '<p>' | remove: '</p>'}}
     </td>
   </tr>
   {%- endfor -%}

@@ -12,9 +12,13 @@ brief: ""
 overloads:
 
   - signature: |
-      template <typename A, typename F, typename R = get_value_t<A>>
-      requires(is_ndarray_v<A>)
-      auto fold(F f, A const &a, R r = R{})
+      template <nda::Array A, typename F, typename R>
+      auto fold(F f, A const &a, R r)
+    desc: ""
+
+  - signature: |
+      template <nda::Array A, typename F>
+      auto fold(F f, A const &a)
     desc: ""
 
 # Long description. Any Markdown, with code, latex, multiline with |

@@ -1,11 +1,17 @@
 # TODO Jekyll Docs
 
-_updated 6/23_
+_updated 7/13_
 
 ## Todo:
 
+- Make your own repo.
+- Deploy - link to github.
+- Add edit on github link
+- Add explanation for the pipeline.
+- Convert Sphinx to .md try - just on applications?
+- Add the tutorials
 - Rename Basic C++ libraries. CCQ Toolkit ? Rhizome?
-- Re-deploy on vercel in Sherry colors.
+- Remove the python doc and just add the Cpp
 - Update pipeline/README with feedback from Alex. Add information on what is available for contributor editing.
 - Review concept page when written.
 
@@ -43,6 +49,7 @@ _updated 6/23_
 - Improve nav speed generation: make static, use a table to transfer, use permalink
 - Search add: brief, desc
 - Width on left bar - smaller.
+- Re-deploy on vercel in Sherry colors.
 
 _Icebox_
 

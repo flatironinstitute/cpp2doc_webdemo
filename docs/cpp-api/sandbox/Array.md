@@ -19,6 +19,5 @@ signature: |
   template <typename A>
    concept Array
 source: /Users/oparcollet/cpp2doc_webdemo/src/array_concept.cpp
-parent: sandbox
 ...
 

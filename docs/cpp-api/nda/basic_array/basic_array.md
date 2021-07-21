@@ -17,6 +17,19 @@ tparams:
   Algebra: __MISSING__
   ContainerPolicy: __MISSING__
 
+# Aliases for the class
+aliases:
+
+  - name: nda::array
+    signature: |
+      template <typename T, int R, typename Layout = C_layout, typename ContainerPolicy = heap>
+      using array = basic_array<T, R, Layout, 'A', ContainerPolicy>
+
+  - name: nda::array_view
+    signature: |
+      template <typename ValueType, int Rank, typename Layout = C_stride_layout>
+      using array_view = basic_array_view<ValueType, Rank, Layout, 'A', default_accessor, borrowed>;
+
 # Brief description. One line only.
 brief: ""
 

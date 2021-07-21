@@ -17,6 +17,12 @@ overloads:
   - signature: array_iterator operator++(int)
     desc: ""
 
+  - signature: array_iterator &operator++()
+    desc: ""
+
+  - signature: array_iterator operator++(int)
+    desc: ""
+
 # Long description. Any Markdown, with code, latex, multiline with |
 desc: ""
 

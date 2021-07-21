@@ -1,8 +1,12 @@
 ---
-# Do not edit this first section
-layout: namespace
 
+# Do not edit this first section
+
+layout: namespace
+parent: Triqs Core Library
+nav_include: true
 # ---------- DO NOT EDIT BELOW --------
+
 permalink: /triqs/gf/
 qualified_name: triqs::gf
 title: triqs::gf
@@ -11,7 +15,6 @@ concepts: []
 classes: []
 functions: []
 ...
-
 
 # TRIQS, Toolbox for Research on Interacting Quantum Systems
 
