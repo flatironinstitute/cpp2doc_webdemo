@@ -12,17 +12,17 @@
 <meta property="og:url" content="/cpp-api/nda/basic_array_view/" />
 <meta property="og:site_name" content="TRIQS" />
 <script type="application/ld+json">
-{"publisher":{"@type":"Organization","logo":{"@type":"ImageObject","url":"/assets/images/triqs-logo-v2-black.svg"}},"url":"/cpp-api/nda/basic_array_view/","headline":"nda::basic_array_view","description":"TRIQS (Toolbox for Research on Interacting Quantum Systems) is a set of C++ and Python libraries for the study of interacting quantum systems.","@type":"WebPage","@context":"https://schema.org"}</script>
+{"publisher":{"@type":"Organization","logo":{"@type":"ImageObject","url":"./assets/images/triqs-logo-v2-black.svg"}},"url":"/cpp-api/nda/basic_array_view/","headline":"nda::basic_array_view","description":"TRIQS (Toolbox for Research on Interacting Quantum Systems) is a set of C++ and Python libraries for the study of interacting quantum systems.","@type":"WebPage","@context":"https://schema.org"}</script>
 <!-- End Jekyll SEO tag -->
 
   <head>
   <meta charset="UTF-8" />
   <meta http-equiv="X-UA-Compatible" content="IE=Edge" />
 
-  
+
   <title>nda::basic_array_view - TRIQS</title>
 
-   
+
 
   <link
     rel="shortcut icon"
@@ -32,10 +32,10 @@
 
   <link
     rel="stylesheet"
-    href="/assets/css/jek-theme-triqs.css"
+    href="./assets/css/jek-theme-triqs.css"
   />
 
-  
+
 
     <!-- Katex -->
     <link
@@ -60,10 +60,10 @@
     onload="renderMathInElement(document.body);"
   ></script>
 
-  
-  <script type="text/javascript" src="/assets/js/vendor/lunr.min.js"></script>
-  
-  <script type="text/javascript" src="/assets/js/jek-theme-triqs.js"></script>
+
+  <script type="text/javascript" src="./assets/js/vendor/lunr.min.js"></script>
+
+  <script type="text/javascript" src="./assets/js/jek-theme-triqs.js"></script>
 
   <meta name="viewport" content="width=device-width, initial-scale=1">
 
@@ -78,7 +78,7 @@
 <meta property="og:url" content="/cpp-api/nda/basic_array_view/" />
 <meta property="og:site_name" content="TRIQS" />
 <script type="application/ld+json">
-{"publisher":{"@type":"Organization","logo":{"@type":"ImageObject","url":"/assets/images/triqs-logo-v2-black.svg"}},"url":"/cpp-api/nda/basic_array_view/","headline":"nda::basic_array_view","description":"TRIQS (Toolbox for Research on Interacting Quantum Systems) is a set of C++ and Python libraries for the study of interacting quantum systems.","@type":"WebPage","@context":"https://schema.org"}</script>
+{"publisher":{"@type":"Organization","logo":{"@type":"ImageObject","url":"./assets/images/triqs-logo-v2-black.svg"}},"url":"/cpp-api/nda/basic_array_view/","headline":"nda::basic_array_view","description":"TRIQS (Toolbox for Research on Interacting Quantum Systems) is a set of C++ and Python libraries for the study of interacting quantum systems.","@type":"WebPage","@context":"https://schema.org"}</script>
 <!-- End Jekyll SEO tag -->
 
 
@@ -142,7 +142,7 @@
     <div class="main-content-wrap js-main-content" tabindex="0">
       <div class="main-content">
         <div class="page-header js-page-header">
-          
+
           <div class="search">
             <div class="search-input-wrap">
               <input type="text" class="js-search-input search-input" tabindex="0" placeholder="Search TRIQS" aria-label="Search TRIQS" autocomplete="off">
@@ -150,143 +150,143 @@
             </div>
             <div class="js-search-results search-results-wrap"></div>
           </div>
-          
-          
+
+
             <ul class="list-style-none text-small aux-nav">
-              
+
                 <li class="d-inline-block my-0"><a href="//github.com/TRIQS/triqs">TRIQS on GitHub</a></li>
-              
+
             </ul>
-          
+
         </div>
         <div class="page">
-          
-            
+
+
               <nav class="breadcrumb-nav">
                 <ol class="breadcrumb-nav-list">
 <li class="breadcrumb-nav-list-item"><a href="/cpp-api/">cpp-api</a></li>
-                  
+
 <li class="breadcrumb-nav-list-item"><a href="/cpp-api/nda/">nda</a></li>
-                  
+
 <li class="breadcrumb-nav-list-item"><a href="/cpp-api/nda/basic_array_view/">basic_array_view</a></li>
-                  
+
                 </ol>
               </nav>
-            
-          
+
+
           <div id="main-content" class="page-content" role="main">
-            
+
               <div class="page-title">
       <h1 class="no_toc">
-        
-        
+
+
           nda::basic_array_view
-        
-        
+
+
       </h1>
-    
+
       <h6 class='cpp-include-header'>
-        
-        
+
+
            Defined in header &lt;nda/nda.hpp&gt;
-        
-        
+
+
       </h6>
  </div>
 
 <!-- Signature  -->
 
-<span class='signature'> 
+<span class='signature'>
 <figure class="highlight"><pre><code class="language-c--" data-lang="c++"><span class="k">template</span> <span class="o">&lt;</span><span class="k">typename</span> <span class="nc">ValueType</span><span class="p">,</span> <span class="kt">int</span> <span class="n">Rank</span><span class="p">,</span> <span class="k">typename</span> <span class="nc">Layout</span><span class="p">,</span> <span class="kt">char</span> <span class="n">Algebra</span> <span class="o">=</span> <span class="sc">'A'</span><span class="p">,</span> <span class="k">typename</span> <span class="nc">AccessorPolicy</span> <span class="o">=</span> <span class="n">nda</span><span class="o">::</span><span class="n">default_accessor</span><span class="p">,</span> <span class="k">typename</span> <span class="nc">OwningPolicy</span> <span class="o">=</span> <span class="n">nda</span><span class="o">::</span><span class="n">borrowed</span><span class="p">&gt;</span>
 <span class="k">class</span> <span class="nc">basic_array_view</span></code></pre></figure>
 </span>
 
  <!-- Description of the class -->
 
- 
+
 
 
 <!-- Template parameters -->
 
 
-   
-      
+
+
       <details><summary>
-    
+
       <h2 class="cpp-template-parameters-header">
-        
-        
+
+
           Template parameters
-        
-        
+
+
       </h2></summary>
-   
+
    <table class='tparam-table' >
-   
-      
+
+
          <tr>
          <td class="param-name" valign="top" align="left"> ValueType </td>
          <td class="param-value"> <strong>MISSING</strong>
  </td>
          </tr>
-      
-   
-      
+
+
+
          <tr>
          <td class="param-name" valign="top" align="left"> Rank </td>
          <td class="param-value"> <strong>MISSING</strong>
  </td>
          </tr>
-      
-   
-      
+
+
+
          <tr>
          <td class="param-name" valign="top" align="left"> Layout </td>
          <td class="param-value"> <strong>MISSING</strong>
  </td>
          </tr>
-      
-   
-      
+
+
+
          <tr>
          <td class="param-name" valign="top" align="left"> Algebra </td>
          <td class="param-value"> <strong>MISSING</strong>
  </td>
          </tr>
-      
-   
-      
+
+
+
          <tr>
          <td class="param-name" valign="top" align="left"> AccessorPolicy </td>
          <td class="param-value"> <strong>MISSING</strong>
  </td>
          </tr>
-      
-   
-      
+
+
+
          <tr>
          <td class="param-name" valign="top" align="left"> OwningPolicy </td>
          <td class="param-value"> <strong>MISSING</strong>
  </td>
          </tr>
-      
-   
+
+
    </table></details>
 
 <!-- Aliases -->
 
 
 <!-- Methods -->
-    
+
       <h2>
-        
-        
+
+
            Member functions
-        
-        
+
+
       </h2>
-   
-   <table class='method-table table-wrapper'> 
+
+   <table class='method-table table-wrapper'>
 <tr><td class="method-name" align="right"><a href="basic_array_view-constructors">(constructors)</a></td><td class="method-brief">
 </td></tr>
 <tr><td class="method-name" align="right"><a href="operator=">operator=</a></td><td class="method-brief">Same as the general case
@@ -337,62 +337,62 @@
 
 
 <!--
-    
+
       <h2>
-        
-        
+
+
            Non member functions
-        
-        
+
+
       </h2>-->
-    
+
       <h2>
-        
-        
+
+
            Member types
-        
-        
+
+
       </h2>
 <table class='member-type-table table-wrapper' >
- 
+
     <tr>
      <td class="member-type-name" align="right"> value_type  </td>
      <td class="member-type-doc"> __MISSING__ </td>
     </tr>
- 
+
     <tr>
      <td class="member-type-name" align="right"> layout_t  </td>
      <td class="member-type-doc"> __MISSING__ </td>
     </tr>
- 
+
     <tr>
      <td class="member-type-name" align="right"> regular_type  </td>
      <td class="member-type-doc"> __MISSING__ </td>
     </tr>
- 
+
     <tr>
      <td class="member-type-name" align="right"> const_iterator  </td>
      <td class="member-type-doc">  </td>
     </tr>
- 
+
     <tr>
      <td class="member-type-name" align="right"> iterator  </td>
      <td class="member-type-doc">  </td>
     </tr>
- 
+
 </table>
 
 
 
 
 <!-- Example -->
-    
+
       <h2>
-        
-        
+
+
           Example
-        
-        
+
+
       </h2>
 
 <p><strong>MISSING</strong></p>
@@ -402,19 +402,19 @@
   <figure class="highlight"><pre><code class="language-c--" data-lang="c++"><span class="n">__MISSING__</span></code></pre></figure>
 </div>
 
-  
+
 
 
 <!-- See Also links -->
-            
-          
 
-          
+
+
+
             <hr>
             <footer role="contentinfo">
               <p class="text-small text-grey-dk-000 mb-0">Copyright &copy; 2021 Flatiron Institute. Distributed by an <a href="https://github.com/triqs/triqs/tree/master/LICENSE.txt">GNU GPL license.</a></p>
             </footer>
-          
+
 
         </div>
       </div>
