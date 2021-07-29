@@ -29,7 +29,7 @@ post_dirs: false
 # Build settings
 markdown: Cpp2DOCCustomProcessor
 kramdown:
-  input: Kramdown 
+  input: Kramdown
   math_engine: katex
   math_engine_opts: {} # TODO: Can we remove this empty object?
 
@@ -51,7 +51,7 @@ aux_links:
     - "//github.com/TRIQS/triqs"
 
 # Footer content appears at the bottom of every page's main content
-footer_content: 'Copyright &copy; 2020 Flatiron Institute. Distributed by an <a href="https://github.com/triqs/triqs/tree/master/LICENSE.txt">GNU GPL license.</a>'
+footer_content: 'Copyright &copy; 2021 Flatiron Institute. Distributed by an <a href="https://github.com/triqs/triqs/tree/master/LICENSE.txt">GNU GPL license.</a>'
 
 # Search configs
 # Enable or disable the site search
@@ -60,7 +60,7 @@ search_enabled: true
 # Set the search token separator for hyphenated-word search:
 search_tokenizer_separator: /[\s/]+/
 
-docs_version: 0.0.2
+docs_version: 0.0.3
 
 # Exclude from processing.
 # The following items will not be processed, by default. Create a custom list
